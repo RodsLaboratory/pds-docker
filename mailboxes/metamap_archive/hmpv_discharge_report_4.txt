@@ -1,0 +1,64 @@
+--- Discharge Report #4 ---
+Emergency Department Discharge Summary
+
+Patient Name: Daniel W. Chen
+MRN: 8273645192
+Date of Birth: 1978-11-06
+Date of Visit: 06/05/2025
+Time of Visit: 01:11 PM
+Date of Discharge: 06/05/2025
+Time of Discharge: 04:17 PM
+
+Chief Complaint:
+Cough, nasal congestion, fatigue, and low-grade fever.
+
+History of Present Illness:
+Patient presented with 4 days of worsening cough, nasal congestion, and fatigue. Reports low-grade fever and mild shortness of breath. No known COVID-19 exposure. No history of chronic respiratory disease.
+
+Vital Signs on Arrival:
+- Temp: 100.2°F
+- BP: 120/76 mmHg
+- HR: 89 bpm
+- RR: 18/min
+- O2 Sat: 96% on room air
+
+Physical Examination:
+- General: Alert, in no acute distress
+- Lungs: Mild diffuse wheezing, no crackles
+- Heart: Regular rate and rhythm
+- Abdomen: Non-tender, no distention
+- HEENT: Mucosal congestion, clear nasal discharge
+
+Diagnostics:
+- Respiratory panel: Positive for Human Metapneumovirus (hMPV)
+- COVID-19 PCR: Negative
+- Chest X-ray: Normal
+- CBC/CMP: Within normal limits
+
+Diagnosis:
+- Human Metapneumovirus Infection (ICD-10: J12.89)
+
+Treatment:
+- Supportive care
+- Acetaminophen 650 mg PO
+- Nebulized saline for congestion
+
+Discharge Medications:
+- Acetaminophen 500 mg PO q6h PRN for fever/pain
+- Saline nasal spray PRN
+
+Instructions:
+- Maintain hydration and rest
+- Use saline nasal spray and acetaminophen as needed
+- Monitor for worsening respiratory symptoms
+- Return if experiencing difficulty breathing, high fever, or chest pain
+
+Follow-Up:
+- Primary care provider in 3–5 days or sooner if symptoms worsen
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

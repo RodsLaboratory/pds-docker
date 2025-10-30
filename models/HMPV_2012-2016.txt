@@ -1,0 +1,2145 @@
+===== Class Prior Probabilities =====
+P(HMPV=False) = 0.9988241740679011
+P(HMPV=True) = 0.0011758259320989064
+
+===== Conditional Probabilities =====
+P(AGE=Not Mentioned | HMPV=False) = 1.1428702042309055E-5
+P(AGE=18-64 | HMPV=False) = 0.5955153773185979
+P(AGE=5-17 | HMPV=False) = 0.15821895107372655
+P(AGE=65+ | HMPV=False) = 0.11846992537057566
+P(AGE=<5 | HMPV=False) = 0.12778431753505753
+P(AGE=Not Mentioned | HMPV=True) = 0.009345794392523364
+P(AGE=18-64 | HMPV=True) = 0.09345794392523364
+P(AGE=5-17 | HMPV=True) = 0.16822429906542055
+P(AGE=65+ | HMPV=True) = 0.09345794392523364
+P(AGE=<5 | HMPV=True) = 0.6355140186915887
+P(Abdominal Pain=Not Mentioned | HMPV=False) = 0.6488679611872407
+P(Abdominal Pain=Negated | HMPV=False) = 0.12775295152976673
+P(Abdominal Pain=Present | HMPV=False) = 0.22337908728299255
+P(Abdominal Pain=Not Mentioned | HMPV=True) = 0.780952380952381
+P(Abdominal Pain=Negated | HMPV=True) = 0.12380952380952381
+P(Abdominal Pain=Present | HMPV=True) = 0.09523809523809523
+P(Apnea=Not Mentioned | HMPV=False) = 0.9836451535481217
+P(Apnea=Negated | HMPV=False) = 0.0017943472347623347
+P(Apnea=Present | HMPV=False) = 0.014560499217116015
+P(Apnea=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Apnea=Negated | HMPV=True) = 0.01904761904761905
+P(Apnea=Present | HMPV=True) = 0.02857142857142857
+P(Back Pain=Not Mentioned | HMPV=False) = 0.8416288558464862
+P(Back Pain=Negated | HMPV=False) = 0.025715167377167218
+P(Back Pain=Present | HMPV=False) = 0.1326559767763466
+P(Back Pain=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Back Pain=Negated | HMPV=True) = 0.0380952380952381
+P(Back Pain=Present | HMPV=True) = 0.0380952380952381
+P(Birth History=Not Mentioned | HMPV=False) = 0.979702161216956
+P(Birth History=Negated | HMPV=False) = 4.571585311496394E-5
+P(Birth History=Present | HMPV=False) = 0.020252122929929027
+P(Birth History=Not Mentioned | HMPV=True) = 0.8571428571428571
+P(Birth History=Negated | HMPV=True) = 0.009523809523809525
+P(Birth History=Present | HMPV=True) = 0.13333333333333333
+P(Chest Pain=Not Mentioned | HMPV=False) = 0.6038149879424437
+P(Chest Pain=Negated | HMPV=False) = 0.20388127592946043
+P(Chest Pain=Present | HMPV=False) = 0.19230373612809581
+P(Chest Pain=Not Mentioned | HMPV=True) = 0.7904761904761904
+P(Chest Pain=Negated | HMPV=True) = 0.10476190476190476
+P(Chest Pain=Present | HMPV=True) = 0.10476190476190476
+P(Constitutional Symptom=Not Mentioned | HMPV=False) = 0.8308856303644696
+P(Constitutional Symptom=Negated | HMPV=False) = 0.00405728196395305
+P(Constitutional Symptom=Present | HMPV=False) = 0.1650570876715773
+P(Constitutional Symptom=Not Mentioned | HMPV=True) = 0.4
+P(Constitutional Symptom=Negated | HMPV=True) = 0.01904761904761905
+P(Constitutional Symptom=Present | HMPV=True) = 0.580952380952381
+P(Coughing=Not Mentioned | HMPV=False) = 0.742711178668983
+P(Coughing=Negated | HMPV=False) = 0.11247242762609004
+P(Coughing=Present | HMPV=False) = 0.14481639370492702
+P(Coughing=Not Mentioned | HMPV=True) = 0.26666666666666666
+P(Coughing=Negated | HMPV=True) = 0.08571428571428572
+P(Coughing=Present | HMPV=True) = 0.6476190476190476
+P(Diarrhea=Not Mentioned | HMPV=False) = 0.7435226350617735
+P(Diarrhea=Negated | HMPV=False) = 0.065922260191778
+P(Diarrhea=Present | HMPV=False) = 0.19055510474644846
+P(Diarrhea=Not Mentioned | HMPV=True) = 0.5619047619047619
+P(Diarrhea=Negated | HMPV=True) = 0.12380952380952381
+P(Diarrhea=Present | HMPV=True) = 0.3142857142857143
+P(Dizziness=Not Mentioned | HMPV=False) = 0.8779615301096038
+P(Dizziness=Negated | HMPV=False) = 0.01796633027418083
+P(Dizziness=Present | HMPV=False) = 0.10407213961621542
+P(Dizziness=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Dizziness=Negated | HMPV=True) = 0.01904761904761905
+P(Dizziness=Present | HMPV=True) = 0.02857142857142857
+P(Dyspnea=Not Mentioned | HMPV=False) = 0.567310879230145
+P(Dyspnea=Negated | HMPV=False) = 0.1634113169594386
+P(Dyspnea=Present | HMPV=False) = 0.2692778038104164
+P(Dyspnea=Not Mentioned | HMPV=True) = 0.5523809523809524
+P(Dyspnea=Negated | HMPV=True) = 0.02857142857142857
+P(Dyspnea=Present | HMPV=True) = 0.41904761904761906
+P(Exanthema=Not Mentioned | HMPV=False) = 0.4672503057247677
+P(Exanthema=Negated | HMPV=False) = 0.43641496279872455
+P(Exanthema=Present | HMPV=False) = 0.09633473147650777
+P(Exanthema=Not Mentioned | HMPV=True) = 0.34285714285714286
+P(Exanthema=Negated | HMPV=True) = 0.5904761904761905
+P(Exanthema=Present | HMPV=True) = 0.06666666666666667
+P(Fatigue=Not Mentioned | HMPV=False) = 0.9487410996948467
+P(Fatigue=Negated | HMPV=False) = 0.008651725202006926
+P(Fatigue=Present | HMPV=False) = 0.04260717510314639
+P(Fatigue=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(Fatigue=Negated | HMPV=True) = 0.009523809523809525
+P(Fatigue=Present | HMPV=True) = 0.12380952380952381
+P(Fever=Not Mentioned | HMPV=False) = 0.4084711475822028
+P(Fever=Negated | HMPV=False) = 0.35123489948226794
+P(Fever=Present | HMPV=False) = 0.24029395293552921
+P(Fever=Not Mentioned | HMPV=True) = 0.09523809523809523
+P(Fever=Negated | HMPV=True) = 0.21904761904761905
+P(Fever=Present | HMPV=True) = 0.6857142857142857
+P(Foot pain=Not Mentioned | HMPV=False) = 0.9845937575002571
+P(Foot pain=Negated | HMPV=False) = 4.685874944283804E-4
+P(Foot pain=Present | HMPV=False) = 0.014937655005314469
+P(Foot pain=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Foot pain=Negated | HMPV=True) = 0.009523809523809525
+P(Foot pain=Present | HMPV=True) = 0.009523809523809525
+P(Glycosuria=Not Mentioned | HMPV=False) = 0.9360435214921654
+P(Glycosuria=Negated | HMPV=False) = 5.7144816393704925E-5
+P(Glycosuria=Present | HMPV=False) = 0.06389933369144085
+P(Glycosuria=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Glycosuria=Negated | HMPV=True) = 0.009523809523809525
+P(Glycosuria=Present | HMPV=True) = 0.14285714285714285
+P(Headache=Not Mentioned | HMPV=False) = 0.7330194178086106
+P(Headache=Negated | HMPV=False) = 0.11527252362938158
+P(Headache=Present | HMPV=False) = 0.15170805856200784
+P(Headache=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(Headache=Negated | HMPV=True) = 0.0761904761904762
+P(Headache=Present | HMPV=True) = 0.05714285714285714
+P(Hemoglobin concentration result=Not Mentioned | HMPV=False) = 0.8568522349337692
+P(Hemoglobin concentration result=Negated | HMPV=False) = 4.571585311496394E-5
+P(Hemoglobin concentration result=Present | HMPV=False) = 0.14310204921311587
+P(Hemoglobin concentration result=Not Mentioned | HMPV=True) = 0.6095238095238096
+P(Hemoglobin concentration result=Negated | HMPV=True) = 0.009523809523809525
+P(Hemoglobin concentration result=Present | HMPV=True) = 0.38095238095238093
+P(Hemoptysis=Not Mentioned | HMPV=False) = 0.9799421694458096
+P(Hemoptysis=Negated | HMPV=False) = 0.008537435569219516
+P(Hemoptysis=Present | HMPV=False) = 0.011520394984970914
+P(Hemoptysis=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Hemoptysis=Negated | HMPV=True) = 0.009523809523809525
+P(Hemoptysis=Present | HMPV=True) = 0.01904761904761905
+P(Hepatosplenomegaly=Not Mentioned | HMPV=False) = 0.9018709212887299
+P(Hepatosplenomegaly=Negated | HMPV=False) = 0.09568328056961953
+P(Hepatosplenomegaly=Present | HMPV=False) = 0.002445798141650571
+P(Hepatosplenomegaly=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Hepatosplenomegaly=Negated | HMPV=True) = 0.02857142857142857
+P(Hepatosplenomegaly=Present | HMPV=True) = 0.0380952380952381
+P(Hypesthesia=Not Mentioned | HMPV=False) = 0.853549264546213
+P(Hypesthesia=Negated | HMPV=False) = 0.05450472587631576
+P(Hypesthesia=Present | HMPV=False) = 0.09194600957747123
+P(Hypesthesia=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Hypesthesia=Negated | HMPV=True) = 0.02857142857142857
+P(Hypesthesia=Present | HMPV=True) = 0.02857142857142857
+P(Infant, Premature=Not Mentioned | HMPV=False) = 0.9984799478839275
+P(Infant, Premature=Negated | HMPV=False) = 3.428688983622296E-5
+P(Infant, Premature=Present | HMPV=False) = 0.001485765226236328
+P(Infant, Premature=Not Mentioned | HMPV=True) = 0.9047619047619048
+P(Infant, Premature=Negated | HMPV=True) = 0.009523809523809525
+P(Infant, Premature=Present | HMPV=True) = 0.08571428571428572
+P(Icterus=Not Mentioned | HMPV=False) = 0.7193732356537939
+P(Icterus=Negated | HMPV=False) = 0.06625370012686149
+P(Icterus=Present | HMPV=False) = 0.21437306421934466
+P(Icterus=Not Mentioned | HMPV=True) = 0.7714285714285715
+P(Icterus=Negated | HMPV=True) = 0.1523809523809524
+P(Icterus=Present | HMPV=True) = 0.0761904761904762
+P(Lethargy=Not Mentioned | HMPV=False) = 0.9844451809776336
+P(Lethargy=Negated | HMPV=False) = 0.004160142633461718
+P(Lethargy=Present | HMPV=False) = 0.011394676388904762
+P(Lethargy=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Lethargy=Negated | HMPV=True) = 0.01904761904761905
+P(Lethargy=Present | HMPV=True) = 0.02857142857142857
+P(Low Back Pain=Not Mentioned | HMPV=False) = 0.9655759626044321
+P(Low Back Pain=Negated | HMPV=False) = 5.028743842646034E-4
+P(Low Back Pain=Present | HMPV=False) = 0.03392116301130325
+P(Low Back Pain=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Low Back Pain=Negated | HMPV=True) = 0.009523809523809525
+P(Low Back Pain=Present | HMPV=True) = 0.009523809523809525
+P(Nasal congestion (finding)=Not Mentioned | HMPV=False) = 0.9412779866738288
+P(Nasal congestion (finding)=Negated | HMPV=False) = 0.026480907916842863
+P(Nasal congestion (finding)=Present | HMPV=False) = 0.03224110540932832
+P(Nasal congestion (finding)=Not Mentioned | HMPV=True) = 0.7238095238095238
+P(Nasal congestion (finding)=Negated | HMPV=True) = 0.047619047619047616
+P(Nasal congestion (finding)=Present | HMPV=True) = 0.22857142857142856
+P(Nausea=Not Mentioned | HMPV=False) = 0.6537481285072632
+P(Nausea=Negated | HMPV=False) = 0.11438106449363979
+P(Nausea=Present | HMPV=False) = 0.23187080699909712
+P(Nausea=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Nausea=Negated | HMPV=True) = 0.047619047619047616
+P(Nausea=Present | HMPV=True) = 0.10476190476190476
+P(Numbness=Not Mentioned | HMPV=False) = 0.8493205481330789
+P(Numbness=Negated | HMPV=False) = 0.05706481365075374
+P(Numbness=Present | HMPV=False) = 0.09361463821616742
+P(Numbness=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Numbness=Negated | HMPV=True) = 0.02857142857142857
+P(Numbness=Present | HMPV=True) = 0.02857142857142857
+P(Decreased translucency=Not Mentioned | HMPV=False) = 0.989542498599952
+P(Decreased translucency=Negated | HMPV=False) = 3.085820085260066E-4
+P(Decreased translucency=Present | HMPV=False) = 0.010148919391521995
+P(Decreased translucency=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(Decreased translucency=Negated | HMPV=True) = 0.009523809523809525
+P(Decreased translucency=Present | HMPV=True) = 0.12380952380952381
+P(Pain=Not Mentioned | HMPV=False) = 0.455192749465696
+P(Pain=Negated | HMPV=False) = 0.10556933380573048
+P(Pain=Present | HMPV=False) = 0.43923791672857354
+P(Pain=Not Mentioned | HMPV=True) = 0.8380952380952381
+P(Pain=Negated | HMPV=True) = 0.0380952380952381
+P(Pain=Present | HMPV=True) = 0.12380952380952381
+P(Pallor=Not Mentioned | HMPV=False) = 0.9337234419465811
+P(Pallor=Negated | HMPV=False) = 0.04692732322251049
+P(Pallor=Present | HMPV=False) = 0.019349234830908488
+P(Pallor=Not Mentioned | HMPV=True) = 0.8952380952380953
+P(Pallor=Negated | HMPV=True) = 0.08571428571428572
+P(Pallor=Present | HMPV=True) = 0.01904761904761905
+P(Palpitations=Not Mentioned | HMPV=False) = 0.8988993908362573
+P(Palpitations=Negated | HMPV=False) = 0.03654982456541367
+P(Palpitations=Present | HMPV=False) = 0.06455078459832908
+P(Palpitations=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Palpitations=Negated | HMPV=True) = 0.02857142857142857
+P(Palpitations=Present | HMPV=True) = 0.01904761904761905
+P(Rales=Not Mentioned | HMPV=False) = 0.8193766643427774
+P(Rales=Negated | HMPV=False) = 0.02308650582305679
+P(Rales=Present | HMPV=False) = 0.15753682983416575
+P(Rales=Not Mentioned | HMPV=True) = 0.7142857142857143
+P(Rales=Negated | HMPV=True) = 0.0761904761904762
+P(Rales=Present | HMPV=True) = 0.20952380952380953
+P(Rhonchi=Not Mentioned | HMPV=False) = 0.8969107512257564
+P(Rhonchi=Negated | HMPV=False) = 0.006937380710195778
+P(Rhonchi=Present | HMPV=False) = 0.09615186806404791
+P(Rhonchi=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(Rhonchi=Negated | HMPV=True) = 0.02857142857142857
+P(Rhonchi=Present | HMPV=True) = 0.08571428571428572
+P(Signs and Symptoms, Respiratory=Not Mentioned | HMPV=False) = 0.8518463490176806
+P(Signs and Symptoms, Respiratory=Negated | HMPV=False) = 0.0020114975370584135
+P(Signs and Symptoms, Respiratory=Present | HMPV=False) = 0.146142153445261
+P(Signs and Symptoms, Respiratory=Not Mentioned | HMPV=True) = 0.42857142857142855
+P(Signs and Symptoms, Respiratory=Negated | HMPV=True) = 0.01904761904761905
+P(Signs and Symptoms, Respiratory=Present | HMPV=True) = 0.5523809523809524
+P(Tachycardia=Not Mentioned | HMPV=False) = 0.9529469581814234
+P(Tachycardia=Negated | HMPV=False) = 0.007371681314787936
+P(Tachycardia=Present | HMPV=False) = 0.039681360503788704
+P(Tachycardia=Not Mentioned | HMPV=True) = 0.780952380952381
+P(Tachycardia=Negated | HMPV=True) = 0.0380952380952381
+P(Tachycardia=Present | HMPV=True) = 0.18095238095238095
+P(Toothache=Not Mentioned | HMPV=False) = 0.9772563630753054
+P(Toothache=Negated | HMPV=False) = 0.0010400356583654296
+P(Toothache=Present | HMPV=False) = 0.021703601266329132
+P(Toothache=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Toothache=Negated | HMPV=True) = 0.009523809523809525
+P(Toothache=Present | HMPV=True) = 0.009523809523809525
+P(Unconscious State=Not Mentioned | HMPV=False) = 0.9375750025715167
+P(Unconscious State=Negated | HMPV=False) = 0.031863949621129865
+P(Unconscious State=Present | HMPV=False) = 0.030561047807353393
+P(Unconscious State=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Unconscious State=Negated | HMPV=True) = 0.009523809523809525
+P(Unconscious State=Present | HMPV=True) = 0.009523809523809525
+P(Vomiting=Not Mentioned | HMPV=False) = 0.7213847331908523
+P(Vomiting=Negated | HMPV=False) = 0.12809582042812898
+P(Vomiting=Present | HMPV=False) = 0.15051944638101877
+P(Vomiting=Not Mentioned | HMPV=True) = 0.5238095238095238
+P(Vomiting=Negated | HMPV=True) = 0.18095238095238095
+P(Vomiting=Present | HMPV=True) = 0.29523809523809524
+P(Wheezing=Not Mentioned | HMPV=False) = 0.8071705315610821
+P(Wheezing=Negated | HMPV=False) = 0.13824473981965096
+P(Wheezing=Present | HMPV=False) = 0.05458472861926695
+P(Wheezing=Not Mentioned | HMPV=True) = 0.5238095238095238
+P(Wheezing=Negated | HMPV=True) = 0.14285714285714285
+P(Wheezing=Present | HMPV=True) = 0.3333333333333333
+P(Immunocompromised Host=Not Mentioned | HMPV=False) = 0.9957484256603083
+P(Immunocompromised Host=Negated | HMPV=False) = 8.914591357417969E-4
+P(Immunocompromised Host=Present | HMPV=False) = 0.0033601152039498495
+P(Immunocompromised Host=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Immunocompromised Host=Negated | HMPV=True) = 0.01904761904761905
+P(Immunocompromised Host=Present | HMPV=True) = 0.02857142857142857
+P(Chills=Not Mentioned | HMPV=False) = 0.6502280078174109
+P(Chills=Negated | HMPV=False) = 0.0673165937117844
+P(Chills=Present | HMPV=False) = 0.2824553984708047
+P(Chills=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Chills=Negated | HMPV=True) = 0.01904761904761905
+P(Chills=Present | HMPV=True) = 0.13333333333333333
+P(Falls=Not Mentioned | HMPV=False) = 0.9164085625792885
+P(Falls=Negated | HMPV=False) = 0.006937380710195778
+P(Falls=Present | HMPV=False) = 0.07665405671051578
+P(Falls=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Falls=Negated | HMPV=True) = 0.009523809523809525
+P(Falls=Present | HMPV=True) = 0.0380952380952381
+P(History and physical examination=Not Mentioned | HMPV=False) = 0.7721750460015772
+P(History and physical examination=Negated | HMPV=False) = 2.7429511868978367E-4
+P(History and physical examination=Present | HMPV=False) = 0.22755065887973303
+P(History and physical examination=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(History and physical examination=Negated | HMPV=True) = 0.009523809523809525
+P(History and physical examination=Present | HMPV=True) = 0.14285714285714285
+P(Neck stiffness=Not Mentioned | HMPV=False) = 0.9790049944569528
+P(Neck stiffness=Negated | HMPV=False) = 0.007131673085934375
+P(Neck stiffness=Present | HMPV=False) = 0.013863332457112815
+P(Neck stiffness=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Neck stiffness=Negated | HMPV=True) = 0.009523809523809525
+P(Neck stiffness=Present | HMPV=True) = 0.009523809523809525
+P(Dry skin=Not Mentioned | HMPV=False) = 0.41568282341108836
+P(Dry skin=Negated | HMPV=False) = 0.0011771832177103214
+P(Dry skin=Present | HMPV=False) = 0.5831399933712013
+P(Dry skin=Not Mentioned | HMPV=True) = 0.22857142857142856
+P(Dry skin=Negated | HMPV=True) = 0.009523809523809525
+P(Dry skin=Present | HMPV=True) = 0.7619047619047619
+P(Abnormal=Not Mentioned | HMPV=False) = 0.9625930031886808
+P(Abnormal=Negated | HMPV=False) = 0.0055773340800256005
+P(Abnormal=Present | HMPV=False) = 0.031829662731293645
+P(Abnormal=Not Mentioned | HMPV=True) = 0.8
+P(Abnormal=Negated | HMPV=True) = 0.01904761904761905
+P(Abnormal=Present | HMPV=True) = 0.18095238095238095
+P(Lightheadedness=Not Mentioned | HMPV=False) = 0.9347520486416677
+P(Lightheadedness=Negated | HMPV=False) = 0.0116003977279221
+P(Lightheadedness=Present | HMPV=False) = 0.05364755363041018
+P(Lightheadedness=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Lightheadedness=Negated | HMPV=True) = 0.009523809523809525
+P(Lightheadedness=Present | HMPV=True) = 0.01904761904761905
+P(Illness (finding)=Not Mentioned | HMPV=False) = 0.8984650902316651
+P(Illness (finding)=Negated | HMPV=False) = 0.01928066105123604
+P(Illness (finding)=Present | HMPV=False) = 0.08225424871709887
+P(Illness (finding)=Not Mentioned | HMPV=True) = 0.6
+P(Illness (finding)=Negated | HMPV=True) = 0.05714285714285714
+P(Illness (finding)=Present | HMPV=True) = 0.34285714285714286
+P(Multiple symptoms=Not Mentioned | HMPV=False) = 0.985039487068128
+P(Multiple symptoms=Negated | HMPV=False) = 4.571585311496394E-5
+P(Multiple symptoms=Present | HMPV=False) = 0.014914797078756986
+P(Multiple symptoms=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Multiple symptoms=Negated | HMPV=True) = 0.009523809523809525
+P(Multiple symptoms=Present | HMPV=True) = 0.0380952380952381
+P(Malaise=Not Mentioned | HMPV=False) = 0.9583185709224317
+P(Malaise=Negated | HMPV=False) = 0.010708938592180303
+P(Malaise=Present | HMPV=False) = 0.030972490485388072
+P(Malaise=Not Mentioned | HMPV=True) = 0.8380952380952381
+P(Malaise=Negated | HMPV=True) = 0.009523809523809525
+P(Malaise=Present | HMPV=True) = 0.1523809523809524
+P(Myalgia=Not Mentioned | HMPV=False) = 0.9608329428437546
+P(Myalgia=Negated | HMPV=False) = 0.010366069693818074
+P(Myalgia=Present | HMPV=False) = 0.028800987462427284
+P(Myalgia=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Myalgia=Negated | HMPV=True) = 0.0380952380952381
+P(Myalgia=Present | HMPV=True) = 0.02857142857142857
+P(Gait normal=Not Mentioned | HMPV=False) = 0.9425008857446541
+P(Gait normal=Negated | HMPV=False) = 3.428688983622296E-5
+P(Gait normal=Present | HMPV=False) = 0.057464827365509674
+P(Gait normal=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Gait normal=Negated | HMPV=True) = 0.009523809523809525
+P(Gait normal=Present | HMPV=True) = 0.009523809523809525
+P(Tachypnea=Not Mentioned | HMPV=False) = 0.9789707075671166
+P(Tachypnea=Negated | HMPV=False) = 0.006411648399373693
+P(Tachypnea=Present | HMPV=False) = 0.01461764403350972
+P(Tachypnea=Not Mentioned | HMPV=True) = 0.6476190476190476
+P(Tachypnea=Negated | HMPV=True) = 0.01904761904761905
+P(Tachypnea=Present | HMPV=True) = 0.3333333333333333
+P(Expiratory wheezing=Not Mentioned | HMPV=False) = 0.9879424437409282
+P(Expiratory wheezing=Negated | HMPV=False) = 2.6286615541104265E-4
+P(Expiratory wheezing=Present | HMPV=False) = 0.011794690103660696
+P(Expiratory wheezing=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Expiratory wheezing=Negated | HMPV=True) = 0.009523809523809525
+P(Expiratory wheezing=Present | HMPV=True) = 0.14285714285714285
+P(Decrease in appetite=Not Mentioned | HMPV=False) = 0.9950626878635839
+P(Decrease in appetite=Negated | HMPV=False) = 1.1428963278740985E-4
+P(Decrease in appetite=Present | HMPV=False) = 0.004823022503628696
+P(Decrease in appetite=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Decrease in appetite=Negated | HMPV=True) = 0.009523809523809525
+P(Decrease in appetite=Present | HMPV=True) = 0.047619047619047616
+P(Feeding difficulties=Not Mentioned | HMPV=False) = 0.9989599643416346
+P(Feeding difficulties=Negated | HMPV=False) = 4.571585311496394E-5
+P(Feeding difficulties=Present | HMPV=False) = 9.943198052504657E-4
+P(Feeding difficulties=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Feeding difficulties=Negated | HMPV=True) = 0.009523809523809525
+P(Feeding difficulties=Present | HMPV=True) = 0.01904761904761905
+P(Sensory Discomfort=Not Mentioned | HMPV=False) = 0.9091968867504029
+P(Sensory Discomfort=Negated | HMPV=False) = 0.0044915825685452075
+P(Sensory Discomfort=Present | HMPV=False) = 0.08631153068105192
+P(Sensory Discomfort=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Sensory Discomfort=Negated | HMPV=True) = 0.009523809523809525
+P(Sensory Discomfort=Present | HMPV=True) = 0.02857142857142857
+P(Sore to touch=Not Mentioned | HMPV=False) = 0.38663039875652877
+P(Sore to touch=Negated | HMPV=False) = 0.301461764403351
+P(Sore to touch=Present | HMPV=False) = 0.31190783684012025
+P(Sore to touch=Not Mentioned | HMPV=True) = 0.5428571428571428
+P(Sore to touch=Negated | HMPV=True) = 0.4
+P(Sore to touch=Present | HMPV=True) = 0.05714285714285714
+P(Ache=Not Mentioned | HMPV=False) = 0.9887881870235551
+P(Ache=Negated | HMPV=False) = 3.5429786164097054E-4
+P(Ache=Present | HMPV=False) = 0.010857515114803935
+P(Ache=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Ache=Negated | HMPV=True) = 0.009523809523809525
+P(Ache=Present | HMPV=True) = 0.01904761904761905
+P(Level of consciousness=Not Mentioned | HMPV=False) = 0.9600443443775215
+P(Level of consciousness=Negated | HMPV=False) = 0.024069396665028515
+P(Level of consciousness=Present | HMPV=False) = 0.01588625895744997
+P(Level of consciousness=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Level of consciousness=Negated | HMPV=True) = 0.02857142857142857
+P(Level of consciousness=Present | HMPV=True) = 0.01904761904761905
+P(Neurologic Symptoms=Not Mentioned | HMPV=False) = 0.860875230007886
+P(Neurologic Symptoms=Negated | HMPV=False) = 0.006937380710195778
+P(Neurologic Symptoms=Present | HMPV=False) = 0.13218738928191823
+P(Neurologic Symptoms=Not Mentioned | HMPV=True) = 0.5523809523809524
+P(Neurologic Symptoms=Negated | HMPV=True) = 0.009523809523809525
+P(Neurologic Symptoms=Present | HMPV=True) = 0.4380952380952381
+P(Consciousness clear=Not Mentioned | HMPV=False) = 0.19273803673268797
+P(Consciousness clear=Negated | HMPV=False) = 0.004411579825594021
+P(Consciousness clear=Present | HMPV=False) = 0.802850383441718
+P(Consciousness clear=Not Mentioned | HMPV=True) = 0.41904761904761906
+P(Consciousness clear=Negated | HMPV=True) = 0.009523809523809525
+P(Consciousness clear=Present | HMPV=True) = 0.5714285714285714
+P(Productive Cough=Not Mentioned | HMPV=False) = 0.9787535572648205
+P(Productive Cough=Negated | HMPV=False) = 0.0018857789409922627
+P(Productive Cough=Present | HMPV=False) = 0.01936066379418723
+P(Productive Cough=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Productive Cough=Negated | HMPV=True) = 0.009523809523809525
+P(Productive Cough=Present | HMPV=True) = 0.047619047619047616
+P(Low grade fever=Not Mentioned | HMPV=False) = 0.9944112369566956
+P(Low grade fever=Negated | HMPV=False) = 3.428688983622296E-5
+P(Low grade fever=Present | HMPV=False) = 0.005554476153468119
+P(Low grade fever=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Low grade fever=Negated | HMPV=True) = 0.009523809523809525
+P(Low grade fever=Present | HMPV=True) = 0.02857142857142857
+P(PHARYNGEAL EXUDATE=Not Mentioned | HMPV=False) = 0.9996228442118016
+P(PHARYNGEAL EXUDATE=Negated | HMPV=False) = 2.6286615541104265E-4
+P(PHARYNGEAL EXUDATE=Present | HMPV=False) = 1.1428963278740985E-4
+P(PHARYNGEAL EXUDATE=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(PHARYNGEAL EXUDATE=Negated | HMPV=True) = 0.009523809523809525
+P(PHARYNGEAL EXUDATE=Present | HMPV=True) = 0.009523809523809525
+P(Basilar Rales=Not Mentioned | HMPV=False) = 0.8196852463513035
+P(Basilar Rales=Negated | HMPV=False) = 0.022892213447318194
+P(Basilar Rales=Present | HMPV=False) = 0.15742254020137833
+P(Basilar Rales=Not Mentioned | HMPV=True) = 0.7142857142857143
+P(Basilar Rales=Negated | HMPV=True) = 0.0761904761904762
+P(Basilar Rales=Present | HMPV=True) = 0.20952380952380953
+P(Exudate on tonsils=Not Mentioned | HMPV=False) = 0.994925540304239
+P(Exudate on tonsils=Negated | HMPV=False) = 0.004091568853789273
+P(Exudate on tonsils=Present | HMPV=False) = 9.828908419717247E-4
+P(Exudate on tonsils=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Exudate on tonsils=Negated | HMPV=True) = 0.009523809523809525
+P(Exudate on tonsils=Present | HMPV=True) = 0.009523809523809525
+P(Family history=Not Mentioned | HMPV=False) = 0.5308982022240762
+P(Family history=Negated | HMPV=False) = 0.023863675326011177
+P(Family history=Present | HMPV=False) = 0.44523812244991257
+P(Family history=Not Mentioned | HMPV=True) = 0.18095238095238095
+P(Family history=Negated | HMPV=True) = 0.1523809523809524
+P(Family history=Present | HMPV=True) = 0.6666666666666666
+P(Sore Throat=Not Mentioned | HMPV=False) = 0.8890819113798187
+P(Sore Throat=Negated | HMPV=False) = 0.05378470118975508
+P(Sore Throat=Present | HMPV=False) = 0.05713338743042619
+P(Sore Throat=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(Sore Throat=Negated | HMPV=True) = 0.02857142857142857
+P(Sore Throat=Present | HMPV=True) = 0.08571428571428572
+P(Encounter due to family history of asthma=Not Mentioned | HMPV=False) = 0.9988113878190109
+P(Encounter due to family history of asthma=Negated | HMPV=False) = 3.657268249197115E-4
+P(Encounter due to family history of asthma=Present | HMPV=False) = 8.22885356069351E-4
+P(Encounter due to family history of asthma=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Encounter due to family history of asthma=Negated | HMPV=True) = 0.0380952380952381
+P(Encounter due to family history of asthma=Present | HMPV=True) = 0.01904761904761905
+P(Nasal Flaring=Not Mentioned | HMPV=False) = 0.9971084722904785
+P(Nasal Flaring=Negated | HMPV=False) = 8.571722459055739E-4
+P(Nasal Flaring=Present | HMPV=False) = 0.0020343554636158955
+P(Nasal Flaring=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Nasal Flaring=Negated | HMPV=True) = 0.02857142857142857
+P(Nasal Flaring=Present | HMPV=True) = 0.0380952380952381
+P(Normal bowel sounds=Not Mentioned | HMPV=False) = 0.7520143547778781
+P(Normal bowel sounds=Negated | HMPV=False) = 3.428688983622296E-5
+P(Normal bowel sounds=Present | HMPV=False) = 0.24795135833228568
+P(Normal bowel sounds=Not Mentioned | HMPV=True) = 0.638095238095238
+P(Normal bowel sounds=Negated | HMPV=True) = 0.009523809523809525
+P(Normal bowel sounds=Present | HMPV=True) = 0.3523809523809524
+P(High risk of=Not Mentioned | HMPV=False) = 0.996114152485228
+P(High risk of=Negated | HMPV=False) = 4.2287164131341645E-4
+P(High risk of=Present | HMPV=False) = 0.0034629758734585187
+P(High risk of=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(High risk of=Negated | HMPV=True) = 0.009523809523809525
+P(High risk of=Present | HMPV=True) = 0.0380952380952381
+P(Retraction (finding)=Not Mentioned | HMPV=False) = 0.8739042481456507
+P(Retraction (finding)=Negated | HMPV=False) = 0.11127238648182224
+P(Retraction (finding)=Present | HMPV=False) = 0.014823365372527058
+P(Retraction (finding)=Not Mentioned | HMPV=True) = 0.6952380952380952
+P(Retraction (finding)=Negated | HMPV=True) = 0.01904761904761905
+P(Retraction (finding)=Present | HMPV=True) = 0.2857142857142857
+P(Redness=Not Mentioned | HMPV=False) = 0.8860875230007886
+P(Redness=Negated | HMPV=False) = 0.02821811033521149
+P(Redness=Present | HMPV=False) = 0.0856943666639999
+P(Redness=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(Redness=Negated | HMPV=True) = 0.0380952380952381
+P(Redness=Present | HMPV=True) = 0.0761904761904762
+P(Base deficit (finding)=Not Mentioned | HMPV=False) = 0.9955769912111272
+P(Base deficit (finding)=Negated | HMPV=False) = 2.285792655748197E-5
+P(Base deficit (finding)=Present | HMPV=False) = 0.004400150862315279
+P(Base deficit (finding)=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Base deficit (finding)=Negated | HMPV=True) = 0.009523809523809525
+P(Base deficit (finding)=Present | HMPV=True) = 0.06666666666666667
+P(Exacerbation of asthma=Not Mentioned | HMPV=False) = 0.9872681349074826
+P(Exacerbation of asthma=Negated | HMPV=False) = 2.0572133901733774E-4
+P(Exacerbation of asthma=Present | HMPV=False) = 0.01252614375350012
+P(Exacerbation of asthma=Not Mentioned | HMPV=True) = 0.9047619047619048
+P(Exacerbation of asthma=Negated | HMPV=True) = 0.009523809523809525
+P(Exacerbation of asthma=Present | HMPV=True) = 0.08571428571428572
+P(Influenza-like symptoms=Not Mentioned | HMPV=False) = 0.9979656445363841
+P(Influenza-like symptoms=Negated | HMPV=False) = 2.400082288535607E-4
+P(Influenza-like symptoms=Present | HMPV=False) = 0.0017943472347623347
+P(Influenza-like symptoms=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Influenza-like symptoms=Negated | HMPV=True) = 0.009523809523809525
+P(Influenza-like symptoms=Present | HMPV=True) = 0.02857142857142857
+P(Facial symmetry=Not Mentioned | HMPV=False) = 0.9039167057156245
+P(Facial symmetry=Negated | HMPV=False) = 1.8286341245985575E-4
+P(Facial symmetry=Present | HMPV=False) = 0.0959004308719156
+P(Facial symmetry=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Facial symmetry=Negated | HMPV=True) = 0.009523809523809525
+P(Facial symmetry=Present | HMPV=True) = 0.0380952380952381
+P(Fever symptoms (finding)=Not Mentioned | HMPV=False) = 0.6161696972467627
+P(Fever symptoms (finding)=Negated | HMPV=False) = 0.23584808622009898
+P(Fever symptoms (finding)=Present | HMPV=False) = 0.14798221653313828
+P(Fever symptoms (finding)=Not Mentioned | HMPV=True) = 0.22857142857142856
+P(Fever symptoms (finding)=Negated | HMPV=True) = 0.18095238095238095
+P(Fever symptoms (finding)=Present | HMPV=True) = 0.5904761904761905
+P(No obstruction of airway=Not Mentioned | HMPV=False) = 0.7449055396185013
+P(No obstruction of airway=Negated | HMPV=False) = 8.00027429511869E-5
+P(No obstruction of airway=Present | HMPV=False) = 0.25501445763854763
+P(No obstruction of airway=Not Mentioned | HMPV=True) = 0.9142857142857143
+P(No obstruction of airway=Negated | HMPV=True) = 0.009523809523809525
+P(No obstruction of airway=Present | HMPV=True) = 0.0761904761904762
+P(Intercostal Retractions=Not Mentioned | HMPV=False) = 0.8739728219253231
+P(Intercostal Retractions=Negated | HMPV=False) = 0.11131810233493719
+P(Intercostal Retractions=Present | HMPV=False) = 0.014709075739739648
+P(Intercostal Retractions=Not Mentioned | HMPV=True) = 0.6952380952380952
+P(Intercostal Retractions=Negated | HMPV=True) = 0.01904761904761905
+P(Intercostal Retractions=Present | HMPV=True) = 0.2857142857142857
+P(Peripheral perfusion=Not Mentioned | HMPV=False) = 0.7428026103752129
+P(Peripheral perfusion=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Peripheral perfusion=Present | HMPV=False) = 0.2571859606615084
+P(Peripheral perfusion=Not Mentioned | HMPV=True) = 0.47619047619047616
+P(Peripheral perfusion=Negated | HMPV=True) = 0.009523809523809525
+P(Peripheral perfusion=Present | HMPV=True) = 0.5142857142857142
+P(Genitourinary symptoms=Not Mentioned | HMPV=False) = 0.9016537709864338
+P(Genitourinary symptoms=Negated | HMPV=False) = 4.114426780346755E-4
+P(Genitourinary symptoms=Present | HMPV=False) = 0.0979347863355315
+P(Genitourinary symptoms=Not Mentioned | HMPV=True) = 0.6095238095238096
+P(Genitourinary symptoms=Negated | HMPV=True) = 0.009523809523809525
+P(Genitourinary symptoms=Present | HMPV=True) = 0.38095238095238093
+P(Gastrointestinal symptom=Not Mentioned | HMPV=False) = 0.8531035349783421
+P(Gastrointestinal symptom=Negated | HMPV=False) = 2.0572133901733774E-4
+P(Gastrointestinal symptom=Present | HMPV=False) = 0.14669074368264054
+P(Gastrointestinal symptom=Not Mentioned | HMPV=True) = 0.47619047619047616
+P(Gastrointestinal symptom=Negated | HMPV=True) = 0.009523809523809525
+P(Gastrointestinal symptom=Present | HMPV=True) = 0.5142857142857142
+P(Inspired fraction of oxygen=Not Mentioned | HMPV=False) = 0.7494885538932763
+P(Inspired fraction of oxygen=Negated | HMPV=False) = 1.0286066950866887E-4
+P(Inspired fraction of oxygen=Present | HMPV=False) = 0.250408585437215
+P(Inspired fraction of oxygen=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(Inspired fraction of oxygen=Negated | HMPV=True) = 0.009523809523809525
+P(Inspired fraction of oxygen=Present | HMPV=True) = 0.12380952380952381
+P(3/4=Not Mentioned | HMPV=False) = 0.996559882053099
+P(3/4=Negated | HMPV=False) = 1.1428963278740985E-5
+P(3/4=Present | HMPV=False) = 0.0034286889836222956
+P(3/4=Not Mentioned | HMPV=True) = 0.9142857142857143
+P(3/4=Negated | HMPV=True) = 0.009523809523809525
+P(3/4=Present | HMPV=True) = 0.0761904761904762
+P(Homicidal thoughts=Not Mentioned | HMPV=False) = 0.9756220213264455
+P(Homicidal thoughts=Negated | HMPV=False) = 0.007280249608558008
+P(Homicidal thoughts=Present | HMPV=False) = 0.017097729064996514
+P(Homicidal thoughts=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Homicidal thoughts=Negated | HMPV=True) = 0.009523809523809525
+P(Homicidal thoughts=Present | HMPV=True) = 0.009523809523809525
+P(PMH - past medical history=Not Mentioned | HMPV=False) = 0.41605997919928683
+P(PMH - past medical history=Negated | HMPV=False) = 0.04004708732870841
+P(PMH - past medical history=Present | HMPV=False) = 0.5438929334720047
+P(PMH - past medical history=Not Mentioned | HMPV=True) = 0.8095238095238095
+P(PMH - past medical history=Negated | HMPV=True) = 0.01904761904761905
+P(PMH - past medical history=Present | HMPV=True) = 0.17142857142857143
+P(H/O: asthma=Not Mentioned | HMPV=False) = 0.9741705429900454
+P(H/O: asthma=Negated | HMPV=False) = 0.003314399350834886
+P(H/O: asthma=Present | HMPV=False) = 0.022515057659119743
+P(H/O: asthma=Not Mentioned | HMPV=True) = 0.9142857142857143
+P(H/O: asthma=Negated | HMPV=True) = 0.01904761904761905
+P(H/O: asthma=Present | HMPV=True) = 0.06666666666666667
+P(Red throat=Not Mentioned | HMPV=False) = 0.8069648102220648
+P(Red throat=Negated | HMPV=False) = 0.11334102883527435
+P(Red throat=Present | HMPV=False) = 0.0796941609426609
+P(Red throat=Not Mentioned | HMPV=True) = 0.7047619047619048
+P(Red throat=Negated | HMPV=True) = 0.047619047619047616
+P(Red throat=Present | HMPV=True) = 0.24761904761904763
+P(Test Result=Not Mentioned | HMPV=False) = 0.9680331897093615
+P(Test Result=Negated | HMPV=False) = 0.0026400905173891674
+P(Test Result=Present | HMPV=False) = 0.02932671977324937
+P(Test Result=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Test Result=Negated | HMPV=True) = 0.009523809523809525
+P(Test Result=Present | HMPV=True) = 0.05714285714285714
+P(Yellow sputum=Not Mentioned | HMPV=False) = 0.996468450346869
+P(Yellow sputum=Negated | HMPV=False) = 2.285792655748197E-5
+P(Yellow sputum=Present | HMPV=False) = 0.0035086917265734823
+P(Yellow sputum=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Yellow sputum=Negated | HMPV=True) = 0.009523809523809525
+P(Yellow sputum=Present | HMPV=True) = 0.01904761904761905
+P(Cardiovascular symptoms=Not Mentioned | HMPV=False) = 0.8900076574053968
+P(Cardiovascular symptoms=Negated | HMPV=False) = 1.2571859606615084E-4
+P(Cardiovascular symptoms=Present | HMPV=False) = 0.1098666239985371
+P(Cardiovascular symptoms=Not Mentioned | HMPV=True) = 0.5904761904761905
+P(Cardiovascular symptoms=Negated | HMPV=True) = 0.009523809523809525
+P(Cardiovascular symptoms=Present | HMPV=True) = 0.4
+P(Respiratory distress=Not Mentioned | HMPV=False) = 0.9224201972639062
+P(Respiratory distress=Negated | HMPV=False) = 0.025578019817822324
+P(Respiratory distress=Present | HMPV=False) = 0.05200178291827148
+P(Respiratory distress=Not Mentioned | HMPV=True) = 0.5619047619047619
+P(Respiratory distress=Negated | HMPV=True) = 0.047619047619047616
+P(Respiratory distress=Present | HMPV=True) = 0.3904761904761905
+P(History source=Not Mentioned | HMPV=False) = 0.7650548018789216
+P(History source=Negated | HMPV=False) = 4.571585311496394E-5
+P(History source=Present | HMPV=False) = 0.23489948226796348
+P(History source=Not Mentioned | HMPV=True) = 0.2857142857142857
+P(History source=Negated | HMPV=True) = 0.009523809523809525
+P(History source=Present | HMPV=True) = 0.7047619047619048
+P(Hospital course=Not Mentioned | HMPV=False) = 0.7609403750985748
+P(Hospital course=Negated | HMPV=False) = 8.686012091843149E-4
+P(Hospital course=Present | HMPV=False) = 0.23819102369224088
+P(Hospital course=Not Mentioned | HMPV=True) = 0.9142857142857143
+P(Hospital course=Negated | HMPV=True) = 0.009523809523809525
+P(Hospital course=Present | HMPV=True) = 0.0761904761904762
+P(Social warmth=Not Mentioned | HMPV=False) = 0.9576214041624285
+P(Social warmth=Negated | HMPV=False) = 0.007851697772495057
+P(Social warmth=Present | HMPV=False) = 0.034526898065076514
+P(Social warmth=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Social warmth=Negated | HMPV=True) = 0.009523809523809525
+P(Social warmth=Present | HMPV=True) = 0.009523809523809525
+P(Neurologic Deficits=Not Mentioned | HMPV=False) = 0.8598694812393568
+P(Neurologic Deficits=Negated | HMPV=False) = 0.006343074619701247
+P(Neurologic Deficits=Present | HMPV=False) = 0.13378744414094199
+P(Neurologic Deficits=Not Mentioned | HMPV=True) = 0.7333333333333333
+P(Neurologic Deficits=Negated | HMPV=True) = 0.009523809523809525
+P(Neurologic Deficits=Present | HMPV=True) = 0.2571428571428571
+P(Mean Corpuscular Volume (result)=Not Mentioned | HMPV=False) = 0.8617209732905128
+P(Mean Corpuscular Volume (result)=Negated | HMPV=False) = 3.428688983622296E-5
+P(Mean Corpuscular Volume (result)=Present | HMPV=False) = 0.13824473981965096
+P(Mean Corpuscular Volume (result)=Not Mentioned | HMPV=True) = 0.6952380952380952
+P(Mean Corpuscular Volume (result)=Negated | HMPV=True) = 0.009523809523809525
+P(Mean Corpuscular Volume (result)=Present | HMPV=True) = 0.29523809523809524
+P(Observation of Sensation=Not Mentioned | HMPV=False) = 0.7789409922625918
+P(Observation of Sensation=Negated | HMPV=False) = 0.002285792655748197
+P(Observation of Sensation=Present | HMPV=False) = 0.21877321508165995
+P(Observation of Sensation=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Observation of Sensation=Negated | HMPV=True) = 0.009523809523809525
+P(Observation of Sensation=Present | HMPV=True) = 0.02857142857142857
+P(None=Not Mentioned | HMPV=False) = 0.2329565585105775
+P(None=Negated | HMPV=False) = 7.77169502954387E-4
+P(None=Present | HMPV=False) = 0.7662662719864681
+P(None=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(None=Negated | HMPV=True) = 0.009523809523809525
+P(None=Present | HMPV=True) = 0.9523809523809523
+P(Lives with mother=Not Mentioned | HMPV=False) = 0.9918397202189789
+P(Lives with mother=Negated | HMPV=False) = 8.00027429511869E-5
+P(Lives with mother=Present | HMPV=False) = 0.008080277038069877
+P(Lives with mother=Not Mentioned | HMPV=True) = 0.9047619047619048
+P(Lives with mother=Negated | HMPV=True) = 0.009523809523809525
+P(Lives with mother=Present | HMPV=True) = 0.08571428571428572
+P(Skin appearance normal (finding)=Not Mentioned | HMPV=False) = 0.20344697532486827
+P(Skin appearance normal (finding)=Negated | HMPV=False) = 0.01147467913185595
+P(Skin appearance normal (finding)=Present | HMPV=False) = 0.7850783455432758
+P(Skin appearance normal (finding)=Not Mentioned | HMPV=True) = 0.05714285714285714
+P(Skin appearance normal (finding)=Negated | HMPV=True) = 0.047619047619047616
+P(Skin appearance normal (finding)=Present | HMPV=True) = 0.8952380952380953
+P(Persistent cough=Not Mentioned | HMPV=False) = 0.9981256500222865
+P(Persistent cough=Negated | HMPV=False) = 3.428688983622296E-5
+P(Persistent cough=Present | HMPV=False) = 0.0018400630878772986
+P(Persistent cough=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Persistent cough=Negated | HMPV=True) = 0.009523809523809525
+P(Persistent cough=Present | HMPV=True) = 0.01904761904761905
+P(Mass of body structure=Not Mentioned | HMPV=False) = 0.8555493331199927
+P(Mass of body structure=Negated | HMPV=False) = 0.010914659931197642
+P(Mass of body structure=Present | HMPV=False) = 0.13353600694880968
+P(Mass of body structure=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Mass of body structure=Negated | HMPV=True) = 0.009523809523809525
+P(Mass of body structure=Present | HMPV=True) = 0.02857142857142857
+P(Mass of body region=Not Mentioned | HMPV=False) = 0.8616981153639554
+P(Mass of body region=Negated | HMPV=False) = 0.0109032309679189
+P(Mass of body region=Present | HMPV=False) = 0.12739865366812578
+P(Mass of body region=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Mass of body region=Negated | HMPV=True) = 0.009523809523809525
+P(Mass of body region=Present | HMPV=True) = 0.02857142857142857
+P(Does move=Not Mentioned | HMPV=False) = 0.845343268912077
+P(Does move=Negated | HMPV=False) = 1.2571859606615084E-4
+P(Does move=Present | HMPV=False) = 0.15453101249185686
+P(Does move=Not Mentioned | HMPV=True) = 0.5428571428571428
+P(Does move=Negated | HMPV=True) = 0.009523809523809525
+P(Does move=Present | HMPV=True) = 0.44761904761904764
+P(Feels warm=Not Mentioned | HMPV=False) = 0.2986616684000594
+P(Feels warm=Negated | HMPV=False) = 0.007737408139707647
+P(Feels warm=Present | HMPV=False) = 0.6936009234602329
+P(Feels warm=Not Mentioned | HMPV=True) = 0.12380952380952381
+P(Feels warm=Negated | HMPV=True) = 0.009523809523809525
+P(Feels warm=Present | HMPV=True) = 0.8666666666666667
+P(Eye symptom=Not Mentioned | HMPV=False) = 0.8862818153765272
+P(Eye symptom=Negated | HMPV=False) = 2.1715030229607873E-4
+P(Eye symptom=Present | HMPV=False) = 0.11350103432117672
+P(Eye symptom=Not Mentioned | HMPV=True) = 0.5428571428571428
+P(Eye symptom=Negated | HMPV=True) = 0.009523809523809525
+P(Eye symptom=Present | HMPV=True) = 0.44761904761904764
+P(Skin symptom=Not Mentioned | HMPV=False) = 0.8574808279141
+P(Skin symptom=Negated | HMPV=False) = 2.971530452472656E-4
+P(Skin symptom=Present | HMPV=False) = 0.14222201904065282
+P(Skin symptom=Not Mentioned | HMPV=True) = 0.44761904761904764
+P(Skin symptom=Negated | HMPV=True) = 0.009523809523809525
+P(Skin symptom=Present | HMPV=True) = 0.5428571428571428
+P(Discharge status=Not Mentioned | HMPV=False) = 0.9180771912179846
+P(Discharge status=Negated | HMPV=False) = 2.285792655748197E-5
+P(Discharge status=Present | HMPV=False) = 0.0818999508554579
+P(Discharge status=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Discharge status=Negated | HMPV=True) = 0.009523809523809525
+P(Discharge status=Present | HMPV=True) = 0.009523809523809525
+P(Laboratory test finding=Not Mentioned | HMPV=False) = 0.7499685703509834
+P(Laboratory test finding=Negated | HMPV=False) = 0.005645907859698047
+P(Laboratory test finding=Present | HMPV=False) = 0.2443855217893185
+P(Laboratory test finding=Not Mentioned | HMPV=True) = 0.6285714285714286
+P(Laboratory test finding=Negated | HMPV=True) = 0.01904761904761905
+P(Laboratory test finding=Present | HMPV=True) = 0.3523809523809524
+P(Household composition=Not Mentioned | HMPV=False) = 0.8824188257883128
+P(Household composition=Negated | HMPV=False) = 0.0019886396105009314
+P(Household composition=Present | HMPV=False) = 0.11559253460118632
+P(Household composition=Not Mentioned | HMPV=True) = 0.7714285714285715
+P(Household composition=Negated | HMPV=True) = 0.009523809523809525
+P(Household composition=Present | HMPV=True) = 0.21904761904761905
+P(Hypoxemia=Not Mentioned | HMPV=False) = 0.9979885024629416
+P(Hypoxemia=Negated | HMPV=False) = 3.200109718047476E-4
+P(Hypoxemia=Present | HMPV=False) = 0.0016914865652536658
+P(Hypoxemia=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Hypoxemia=Negated | HMPV=True) = 0.009523809523809525
+P(Hypoxemia=Present | HMPV=True) = 0.05714285714285714
+P(Prematurity of fetus=Not Mentioned | HMPV=False) = 0.9986399533698298
+P(Prematurity of fetus=Negated | HMPV=False) = 3.428688983622296E-5
+P(Prematurity of fetus=Present | HMPV=False) = 0.0013257597403339542
+P(Prematurity of fetus=Not Mentioned | HMPV=True) = 0.9047619047619048
+P(Prematurity of fetus=Negated | HMPV=True) = 0.009523809523809525
+P(Prematurity of fetus=Present | HMPV=True) = 0.08571428571428572
+P(atypia morphology=Not Mentioned | HMPV=False) = 0.985793798644525
+P(atypia morphology=Negated | HMPV=False) = 6.400219436094952E-4
+P(atypia morphology=Present | HMPV=False) = 0.01356617941186555
+P(atypia morphology=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(atypia morphology=Negated | HMPV=True) = 0.009523809523809525
+P(atypia morphology=Present | HMPV=True) = 0.12380952380952381
+P(FEVER HIGH (finding)=Not Mentioned | HMPV=False) = 0.9979199286832692
+P(FEVER HIGH (finding)=Negated | HMPV=False) = 4.571585311496394E-5
+P(FEVER HIGH (finding)=Present | HMPV=False) = 0.0020343554636158955
+P(FEVER HIGH (finding)=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(FEVER HIGH (finding)=Negated | HMPV=True) = 0.009523809523809525
+P(FEVER HIGH (finding)=Present | HMPV=True) = 0.047619047619047616
+P(surgical history=Not Mentioned | HMPV=False) = 0.8126221470450415
+P(surgical history=Negated | HMPV=False) = 3.885847514771935E-4
+P(surgical history=Present | HMPV=False) = 0.18698926820348127
+P(surgical history=Not Mentioned | HMPV=True) = 0.5523809523809524
+P(surgical history=Negated | HMPV=True) = 0.009523809523809525
+P(surgical history=Present | HMPV=True) = 0.4380952380952381
+P(Oxygen saturation below reference range=Not Mentioned | HMPV=False) = 0.9981370789855653
+P(Oxygen saturation below reference range=Negated | HMPV=False) = 1.9429237573859675E-4
+P(Oxygen saturation below reference range=Present | HMPV=False) = 0.001668628638696184
+P(Oxygen saturation below reference range=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(Oxygen saturation below reference range=Negated | HMPV=True) = 0.009523809523809525
+P(Oxygen saturation below reference range=Present | HMPV=True) = 0.12380952380952381
+P(White blood cell count decreased=Not Mentioned | HMPV=False) = 0.9978284969770392
+P(White blood cell count decreased=Negated | HMPV=False) = 3.428688983622296E-5
+P(White blood cell count decreased=Present | HMPV=False) = 0.0021372161331245643
+P(White blood cell count decreased=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(White blood cell count decreased=Negated | HMPV=True) = 0.009523809523809525
+P(White blood cell count decreased=Present | HMPV=True) = 0.01904761904761905
+P(Confirmation=Not Mentioned | HMPV=False) = 0.8029418151479479
+P(Confirmation=Negated | HMPV=False) = 1.1428963278740985E-4
+P(Confirmation=Present | HMPV=False) = 0.19694389521926467
+P(Confirmation=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Confirmation=Negated | HMPV=True) = 0.009523809523809525
+P(Confirmation=Present | HMPV=True) = 0.01904761904761905
+P(Completion Status=Not Mentioned | HMPV=False) = 0.986456678514692
+P(Completion Status=Negated | HMPV=False) = 2.0572133901733774E-4
+P(Completion Status=Present | HMPV=False) = 0.01333760014629073
+P(Completion Status=Not Mentioned | HMPV=True) = 0.819047619047619
+P(Completion Status=Negated | HMPV=True) = 0.009523809523809525
+P(Completion Status=Present | HMPV=True) = 0.17142857142857143
+P(Tube number=Not Mentioned | HMPV=False) = 0.9989028195252408
+P(Tube number=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Tube number=Present | HMPV=False) = 0.0010857515114803937
+P(Tube number=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Tube number=Negated | HMPV=True) = 0.009523809523809525
+P(Tube number=Present | HMPV=True) = 0.009523809523809525
+P(Dry cough=Not Mentioned | HMPV=False) = 0.9857595117546887
+P(Dry cough=Negated | HMPV=False) = 9.143170622992788E-5
+P(Dry cough=Present | HMPV=False) = 0.01414905653908134
+P(Dry cough=Not Mentioned | HMPV=True) = 0.9142857142857143
+P(Dry cough=Negated | HMPV=True) = 0.009523809523809525
+P(Dry cough=Present | HMPV=True) = 0.0761904761904762
+P(family issues=Not Mentioned | HMPV=False) = 0.9996228442118016
+P(family issues=Negated | HMPV=False) = 1.1428963278740985E-5
+P(family issues=Present | HMPV=False) = 3.657268249197115E-4
+P(family issues=Not Mentioned | HMPV=True) = 0.8571428571428571
+P(family issues=Negated | HMPV=True) = 0.13333333333333333
+P(family issues=Present | HMPV=True) = 0.009523809523809525
+P(Neutrophil count decreased=Not Mentioned | HMPV=False) = 0.9975999177114644
+P(Neutrophil count decreased=Negated | HMPV=False) = 6.400219436094952E-4
+P(Neutrophil count decreased=Present | HMPV=False) = 0.0017600603449261117
+P(Neutrophil count decreased=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Neutrophil count decreased=Negated | HMPV=True) = 0.009523809523809525
+P(Neutrophil count decreased=Present | HMPV=True) = 0.0380952380952381
+P(Increased work of breathing=Not Mentioned | HMPV=False) = 0.9976570625278581
+P(Increased work of breathing=Negated | HMPV=False) = 6.857377967244591E-4
+P(Increased work of breathing=Present | HMPV=False) = 0.001657199675417443
+P(Increased work of breathing=Not Mentioned | HMPV=True) = 0.8761904761904762
+P(Increased work of breathing=Negated | HMPV=True) = 0.009523809523809525
+P(Increased work of breathing=Present | HMPV=True) = 0.11428571428571428
+P(Yellow color on exam=Not Mentioned | HMPV=False) = 0.9871652742379738
+P(Yellow color on exam=Negated | HMPV=False) = 1.0286066950866887E-4
+P(Yellow color on exam=Present | HMPV=False) = 0.012731865092517457
+P(Yellow color on exam=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(Yellow color on exam=Negated | HMPV=True) = 0.01904761904761905
+P(Yellow color on exam=Present | HMPV=True) = 0.11428571428571428
+P(Rupture of Membranes=Not Mentioned | HMPV=False) = 0.8540407099671988
+P(Rupture of Membranes=Negated | HMPV=False) = 0.001565767969187515
+P(Rupture of Membranes=Present | HMPV=False) = 0.1443935220636136
+P(Rupture of Membranes=Not Mentioned | HMPV=True) = 0.6285714285714286
+P(Rupture of Membranes=Negated | HMPV=True) = 0.01904761904761905
+P(Rupture of Membranes=Present | HMPV=True) = 0.3523809523809524
+P(Rhinorrhea=Not Mentioned | HMPV=False) = 0.9448781101066323
+P(Rhinorrhea=Negated | HMPV=False) = 0.01113181023349372
+P(Rhinorrhea=Present | HMPV=False) = 0.04399007965987405
+P(Rhinorrhea=Not Mentioned | HMPV=True) = 0.8285714285714286
+P(Rhinorrhea=Negated | HMPV=True) = 0.01904761904761905
+P(Rhinorrhea=Present | HMPV=True) = 0.1523809523809524
+P(Platelet morphology - result=Not Mentioned | HMPV=False) = 0.9979084997199904
+P(Platelet morphology - result=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Platelet morphology - result=Present | HMPV=False) = 0.002080071316730859
+P(Platelet morphology - result=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Platelet morphology - result=Negated | HMPV=True) = 0.009523809523809525
+P(Platelet morphology - result=Present | HMPV=True) = 0.01904761904761905
+P(Family history of asthma=Not Mentioned | HMPV=False) = 0.9933597723350515
+P(Family history of asthma=Negated | HMPV=False) = 3.5429786164097054E-4
+P(Family history of asthma=Present | HMPV=False) = 0.006285929803307542
+P(Family history of asthma=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(Family history of asthma=Negated | HMPV=True) = 0.0380952380952381
+P(Family history of asthma=Present | HMPV=True) = 0.0761904761904762
+P(Blood pressure finding=Not Mentioned | HMPV=False) = 0.8081762803296113
+P(Blood pressure finding=Negated | HMPV=False) = 0.001497194189515069
+P(Blood pressure finding=Present | HMPV=False) = 0.19032652548087364
+P(Blood pressure finding=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Blood pressure finding=Negated | HMPV=True) = 0.009523809523809525
+P(Blood pressure finding=Present | HMPV=True) = 0.01904761904761905
+P(Systemic arterial pressure=Not Mentioned | HMPV=False) = 0.8071133867446884
+P(Systemic arterial pressure=Negated | HMPV=False) = 0.001474336262957587
+P(Systemic arterial pressure=Present | HMPV=False) = 0.19141227699235402
+P(Systemic arterial pressure=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Systemic arterial pressure=Negated | HMPV=True) = 0.009523809523809525
+P(Systemic arterial pressure=Present | HMPV=True) = 0.01904761904761905
+P(Not significant=Not Mentioned | HMPV=False) = 0.8558236282386825
+P(Not significant=Negated | HMPV=False) = 1.0286066950866887E-4
+P(Not significant=Present | HMPV=False) = 0.14407351109180885
+P(Not significant=Not Mentioned | HMPV=True) = 0.7047619047619048
+P(Not significant=Negated | HMPV=True) = 0.009523809523809525
+P(Not significant=Present | HMPV=True) = 0.2857142857142857
+P(Cough with fever=Not Mentioned | HMPV=False) = 0.9981485079488439
+P(Cough with fever=Negated | HMPV=False) = 6.514509068882362E-4
+P(Cough with fever=Present | HMPV=False) = 0.0012000411442678034
+P(Cough with fever=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Cough with fever=Negated | HMPV=True) = 0.009523809523809525
+P(Cough with fever=Present | HMPV=True) = 0.05714285714285714
+P(Patient name=Not Mentioned | HMPV=False) = 0.7533172565916546
+P(Patient name=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Patient name=Present | HMPV=False) = 0.24667131444506668
+P(Patient name=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Patient name=Negated | HMPV=True) = 0.009523809523809525
+P(Patient name=Present | HMPV=True) = 0.01904761904761905
+P(Sexual intercourse - finding=Not Mentioned | HMPV=False) = 0.29521012148987963
+P(Sexual intercourse - finding=Negated | HMPV=False) = 0.00521160725510589
+P(Sexual intercourse - finding=Present | HMPV=False) = 0.6995782712550145
+P(Sexual intercourse - finding=Not Mentioned | HMPV=True) = 0.01904761904761905
+P(Sexual intercourse - finding=Negated | HMPV=True) = 0.009523809523809525
+P(Sexual intercourse - finding=Present | HMPV=True) = 0.9714285714285714
+P(Hydration status=Not Mentioned | HMPV=False) = 0.9720333268569208
+P(Hydration status=Negated | HMPV=False) = 3.428688983622296E-4
+P(Hydration status=Present | HMPV=False) = 0.02762380424471696
+P(Hydration status=Not Mentioned | HMPV=True) = 0.9047619047619048
+P(Hydration status=Negated | HMPV=True) = 0.01904761904761905
+P(Hydration status=Present | HMPV=True) = 0.0761904761904762
+P(Base excess result=Not Mentioned | HMPV=False) = 0.9963655896773603
+P(Base excess result=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Base excess result=Present | HMPV=False) = 0.0036229813593608926
+P(Base excess result=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(Base excess result=Negated | HMPV=True) = 0.009523809523809525
+P(Base excess result=Present | HMPV=True) = 0.10476190476190476
+P(Therapy Object (animal model)=Not Mentioned | HMPV=False) = 0.8860303781843949
+P(Therapy Object (animal model)=Negated | HMPV=False) = 9.828908419717247E-4
+P(Therapy Object (animal model)=Present | HMPV=False) = 0.11298673097363338
+P(Therapy Object (animal model)=Not Mentioned | HMPV=True) = 0.580952380952381
+P(Therapy Object (animal model)=Negated | HMPV=True) = 0.009523809523809525
+P(Therapy Object (animal model)=Present | HMPV=True) = 0.4095238095238095
+P(Sharp sensation quality=Not Mentioned | HMPV=False) = 0.9506040207092815
+P(Sharp sensation quality=Negated | HMPV=False) = 6.971667600032001E-4
+P(Sharp sensation quality=Present | HMPV=False) = 0.04869881253071534
+P(Sharp sensation quality=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Sharp sensation quality=Negated | HMPV=True) = 0.009523809523809525
+P(Sharp sensation quality=Present | HMPV=True) = 0.01904761904761905
+P(Positive=Not Mentioned | HMPV=False) = 0.821605312182132
+P(Positive=Negated | HMPV=False) = 0.04771592168874361
+P(Positive=Present | HMPV=False) = 0.13067876612912444
+P(Positive=Not Mentioned | HMPV=True) = 0.8380952380952381
+P(Positive=Negated | HMPV=True) = 0.02857142857142857
+P(Positive=Present | HMPV=True) = 0.13333333333333333
+P(Symptoms=Not Mentioned | HMPV=False) = 0.46530738196738175
+P(Symptoms=Negated | HMPV=False) = 0.06517937757865984
+P(Symptoms=Present | HMPV=False) = 0.4695132404539584
+P(Symptoms=Not Mentioned | HMPV=True) = 0.19047619047619047
+P(Symptoms=Negated | HMPV=True) = 0.0380952380952381
+P(Symptoms=Present | HMPV=True) = 0.7714285714285715
+P(Physical assessment findings=Not Mentioned | HMPV=False) = 0.8431717658891162
+P(Physical assessment findings=Negated | HMPV=False) = 0.005417328594123227
+P(Physical assessment findings=Present | HMPV=False) = 0.15141090551676056
+P(Physical assessment findings=Not Mentioned | HMPV=True) = 0.3904761904761905
+P(Physical assessment findings=Negated | HMPV=True) = 0.009523809523809525
+P(Physical assessment findings=Present | HMPV=True) = 0.6
+P(Mild Adverse Event=Not Mentioned | HMPV=False) = 0.6972010468930363
+P(Mild Adverse Event=Negated | HMPV=False) = 0.0018057761980410758
+P(Mild Adverse Event=Present | HMPV=False) = 0.3009931769089226
+P(Mild Adverse Event=Not Mentioned | HMPV=True) = 0.6190476190476191
+P(Mild Adverse Event=Negated | HMPV=True) = 0.009523809523809525
+P(Mild Adverse Event=Present | HMPV=True) = 0.37142857142857144
+P(Positive Finding=Not Mentioned | HMPV=False) = 0.8564750791455708
+P(Positive Finding=Negated | HMPV=False) = 0.04813879333005703
+P(Positive Finding=Present | HMPV=False) = 0.09538612752437227
+P(Positive Finding=Not Mentioned | HMPV=True) = 0.8761904761904762
+P(Positive Finding=Negated | HMPV=True) = 0.02857142857142857
+P(Positive Finding=Present | HMPV=True) = 0.09523809523809523
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | HMPV=False) = 0.9430494759820337
+P(Ambulatory Status - Oxygen therapy=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Ambulatory Status - Oxygen therapy=Present | HMPV=False) = 0.05693909505468759
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | HMPV=True) = 0.42857142857142855
+P(Ambulatory Status - Oxygen therapy=Negated | HMPV=True) = 0.009523809523809525
+P(Ambulatory Status - Oxygen therapy=Present | HMPV=True) = 0.5619047619047619
+P(Referral type - Psychiatric=Not Mentioned | HMPV=False) = 0.5743854074996857
+P(Referral type - Psychiatric=Negated | HMPV=False) = 0.005097317622318479
+P(Referral type - Psychiatric=Present | HMPV=False) = 0.42051727487799584
+P(Referral type - Psychiatric=Not Mentioned | HMPV=True) = 0.6666666666666666
+P(Referral type - Psychiatric=Negated | HMPV=True) = 0.009523809523809525
+P(Referral type - Psychiatric=Present | HMPV=True) = 0.3238095238095238
+P(Normal Observation Interpretation=Not Mentioned | HMPV=False) = 0.2050698881104495
+P(Normal Observation Interpretation=Negated | HMPV=False) = 0.01149753705841343
+P(Normal Observation Interpretation=Present | HMPV=False) = 0.783432574831137
+P(Normal Observation Interpretation=Not Mentioned | HMPV=True) = 0.05714285714285714
+P(Normal Observation Interpretation=Negated | HMPV=True) = 0.047619047619047616
+P(Normal Observation Interpretation=Present | HMPV=True) = 0.8952380952380953
+P(normal Device Alert Level=Not Mentioned | HMPV=False) = 0.2050698881104495
+P(normal Device Alert Level=Negated | HMPV=False) = 0.01149753705841343
+P(normal Device Alert Level=Present | HMPV=False) = 0.783432574831137
+P(normal Device Alert Level=Not Mentioned | HMPV=True) = 0.05714285714285714
+P(normal Device Alert Level=Negated | HMPV=True) = 0.047619047619047616
+P(normal Device Alert Level=Present | HMPV=True) = 0.8952380952380953
+P(DeviceAlertLevel - Critical=Not Mentioned | HMPV=False) = 0.9902968101763489
+P(DeviceAlertLevel - Critical=Negated | HMPV=False) = 2.514371921323017E-4
+P(DeviceAlertLevel - Critical=Present | HMPV=False) = 0.009451752631518795
+P(DeviceAlertLevel - Critical=Not Mentioned | HMPV=True) = 0.7619047619047619
+P(DeviceAlertLevel - Critical=Negated | HMPV=True) = 0.009523809523809525
+P(DeviceAlertLevel - Critical=Present | HMPV=True) = 0.22857142857142856
+P(discharge diagnosis=Not Mentioned | HMPV=False) = 0.9427980387899013
+P(discharge diagnosis=Negated | HMPV=False) = 3.200109718047476E-4
+P(discharge diagnosis=Present | HMPV=False) = 0.056881950238293885
+P(discharge diagnosis=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(discharge diagnosis=Negated | HMPV=True) = 0.009523809523809525
+P(discharge diagnosis=Present | HMPV=True) = 0.009523809523809525
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | HMPV=False) = 0.8308970593277484
+P(Adverse Event Associated with Constitutional Symptoms=Negated | HMPV=False) = 0.00405728196395305
+P(Adverse Event Associated with Constitutional Symptoms=Present | HMPV=False) = 0.16504565870829857
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | HMPV=True) = 0.4
+P(Adverse Event Associated with Constitutional Symptoms=Negated | HMPV=True) = 0.01904761904761905
+P(Adverse Event Associated with Constitutional Symptoms=Present | HMPV=True) = 0.580952380952381
+P(Adverse Event Associated with Pain=Not Mentioned | HMPV=False) = 0.4713075876887208
+P(Adverse Event Associated with Pain=Negated | HMPV=False) = 0.1083351429191858
+P(Adverse Event Associated with Pain=Present | HMPV=False) = 0.42035726939209345
+P(Adverse Event Associated with Pain=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Adverse Event Associated with Pain=Negated | HMPV=True) = 0.0380952380952381
+P(Adverse Event Associated with Pain=Present | HMPV=True) = 0.11428571428571428
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | HMPV=False) = 0.3074848280512475
+P(Adverse Event Associated with the Gastrointestinal System=Negated | HMPV=False) = 4.2287164131341645E-4
+P(Adverse Event Associated with the Gastrointestinal System=Present | HMPV=False) = 0.6920923003074391
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(Adverse Event Associated with the Gastrointestinal System=Negated | HMPV=True) = 0.009523809523809525
+P(Adverse Event Associated with the Gastrointestinal System=Present | HMPV=True) = 0.9523809523809523
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | HMPV=False) = 0.984422323051076
+P(Glomerular Filtration Rate, CTCAE=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Glomerular Filtration Rate, CTCAE=Present | HMPV=False) = 0.015566247985645222
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | HMPV=True) = 0.8666666666666667
+P(Glomerular Filtration Rate, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Glomerular Filtration Rate, CTCAE=Present | HMPV=True) = 0.12380952380952381
+P(Pupil equal round and reacting to light=Not Mentioned | HMPV=False) = 0.7936272100757741
+P(Pupil equal round and reacting to light=Negated | HMPV=False) = 5.714481639370493E-4
+P(Pupil equal round and reacting to light=Present | HMPV=False) = 0.20580134176028891
+P(Pupil equal round and reacting to light=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Pupil equal round and reacting to light=Negated | HMPV=True) = 0.009523809523809525
+P(Pupil equal round and reacting to light=Present | HMPV=True) = 0.06666666666666667
+P(Respiratory problem=Not Mentioned | HMPV=False) = 0.9990856829377007
+P(Respiratory problem=Negated | HMPV=False) = 1.0286066950866887E-4
+P(Respiratory problem=Present | HMPV=False) = 8.114563927906099E-4
+P(Respiratory problem=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Respiratory problem=Negated | HMPV=True) = 0.009523809523809525
+P(Respiratory problem=Present | HMPV=True) = 0.009523809523809525
+P(Disease Response=Not Mentioned | HMPV=False) = 0.8979736448106792
+P(Disease Response=Negated | HMPV=False) = 0.001634341748859961
+P(Disease Response=Present | HMPV=False) = 0.10039201344046081
+P(Disease Response=Not Mentioned | HMPV=True) = 0.5619047619047619
+P(Disease Response=Negated | HMPV=True) = 0.02857142857142857
+P(Disease Response=Present | HMPV=True) = 0.4095238095238095
+P(None Device=Not Mentioned | HMPV=False) = 0.2329565585105775
+P(None Device=Negated | HMPV=False) = 7.77169502954387E-4
+P(None Device=Present | HMPV=False) = 0.7662662719864681
+P(None Device=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(None Device=Negated | HMPV=True) = 0.009523809523809525
+P(None Device=Present | HMPV=True) = 0.9523809523809523
+P(Negative Surgical Margin=Not Mentioned | HMPV=False) = 0.18164051338903048
+P(Negative Surgical Margin=Negated | HMPV=False) = 0.018583494291232842
+P(Negative Surgical Margin=Present | HMPV=False) = 0.7997759923197367
+P(Negative Surgical Margin=Not Mentioned | HMPV=True) = 0.5047619047619047
+P(Negative Surgical Margin=Negated | HMPV=True) = 0.01904761904761905
+P(Negative Surgical Margin=Present | HMPV=True) = 0.47619047619047616
+P(ACUTE INSULIN RESPONSE=Not Mentioned | HMPV=False) = 0.7398767957758552
+P(ACUTE INSULIN RESPONSE=Negated | HMPV=False) = 0.004285861229527869
+P(ACUTE INSULIN RESPONSE=Present | HMPV=False) = 0.25583734299461697
+P(ACUTE INSULIN RESPONSE=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(ACUTE INSULIN RESPONSE=Negated | HMPV=True) = 0.009523809523809525
+P(ACUTE INSULIN RESPONSE=Present | HMPV=True) = 0.10476190476190476
+P(Normal assessment finding=Not Mentioned | HMPV=False) = 0.2050698881104495
+P(Normal assessment finding=Negated | HMPV=False) = 0.01149753705841343
+P(Normal assessment finding=Present | HMPV=False) = 0.783432574831137
+P(Normal assessment finding=Not Mentioned | HMPV=True) = 0.05714285714285714
+P(Normal assessment finding=Negated | HMPV=True) = 0.047619047619047616
+P(Normal assessment finding=Present | HMPV=True) = 0.8952380952380953
+P(Fracture of Medical Device Material=Not Mentioned | HMPV=False) = 0.8719613243882648
+P(Fracture of Medical Device Material=Negated | HMPV=False) = 0.03909848337657291
+P(Fracture of Medical Device Material=Present | HMPV=False) = 0.08894019223516235
+P(Fracture of Medical Device Material=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Fracture of Medical Device Material=Negated | HMPV=True) = 0.01904761904761905
+P(Fracture of Medical Device Material=Present | HMPV=True) = 0.01904761904761905
+P(Medical Device Emits Smoke=Not Mentioned | HMPV=False) = 0.7526429477582088
+P(Medical Device Emits Smoke=Negated | HMPV=False) = 0.027200932603403546
+P(Medical Device Emits Smoke=Present | HMPV=False) = 0.2201561196383876
+P(Medical Device Emits Smoke=Not Mentioned | HMPV=True) = 0.8571428571428571
+P(Medical Device Emits Smoke=Negated | HMPV=True) = 0.0380952380952381
+P(Medical Device Emits Smoke=Present | HMPV=True) = 0.10476190476190476
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | HMPV=False) = 0.4713075876887208
+P(Pain by Anatomic Descriptor, CTCAE=Negated | HMPV=False) = 0.1083351429191858
+P(Pain by Anatomic Descriptor, CTCAE=Present | HMPV=False) = 0.42035726939209345
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Pain by Anatomic Descriptor, CTCAE=Negated | HMPV=True) = 0.0380952380952381
+P(Pain by Anatomic Descriptor, CTCAE=Present | HMPV=True) = 0.11428571428571428
+P(Oriented to place=Not Mentioned | HMPV=False) = 0.6992582602832097
+P(Oriented to place=Negated | HMPV=False) = 0.0013943335200064001
+P(Oriented to place=Present | HMPV=False) = 0.2993474061967839
+P(Oriented to place=Not Mentioned | HMPV=True) = 0.9142857142857143
+P(Oriented to place=Negated | HMPV=True) = 0.009523809523809525
+P(Oriented to place=Present | HMPV=True) = 0.0761904761904762
+P(Cough, CTCAE=Not Mentioned | HMPV=False) = 0.7532943986650971
+P(Cough, CTCAE=Negated | HMPV=False) = 0.11128381544510098
+P(Cough, CTCAE=Present | HMPV=False) = 0.13542178588980194
+P(Cough, CTCAE=Not Mentioned | HMPV=True) = 0.2761904761904762
+P(Cough, CTCAE=Negated | HMPV=True) = 0.08571428571428572
+P(Cough, CTCAE=Present | HMPV=True) = 0.638095238095238
+P(Apnea, CTCAE=Not Mentioned | HMPV=False) = 0.9853480690766541
+P(Apnea, CTCAE=Negated | HMPV=False) = 0.0017257734550898888
+P(Apnea, CTCAE=Present | HMPV=False) = 0.012926157468256054
+P(Apnea, CTCAE=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Apnea, CTCAE=Negated | HMPV=True) = 0.01904761904761905
+P(Apnea, CTCAE=Present | HMPV=True) = 0.02857142857142857
+P(Back Pain, CTCAE 3.0=Not Mentioned | HMPV=False) = 0.8430231893664926
+P(Back Pain, CTCAE 3.0=Negated | HMPV=False) = 0.026126610055201893
+P(Back Pain, CTCAE 3.0=Present | HMPV=False) = 0.13085020057830554
+P(Back Pain, CTCAE 3.0=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Back Pain, CTCAE 3.0=Negated | HMPV=True) = 0.0380952380952381
+P(Back Pain, CTCAE 3.0=Present | HMPV=True) = 0.0380952380952381
+P(Platelets, CTCAE=Not Mentioned | HMPV=False) = 0.8373658525435158
+P(Platelets, CTCAE=Negated | HMPV=False) = 9.143170622992788E-5
+P(Platelets, CTCAE=Present | HMPV=False) = 0.1625427157502543
+P(Platelets, CTCAE=Not Mentioned | HMPV=True) = 0.6761904761904762
+P(Platelets, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Platelets, CTCAE=Present | HMPV=True) = 0.3142857142857143
+P(Dehydration, CTCAE=Not Mentioned | HMPV=False) = 0.957552830382756
+P(Dehydration, CTCAE=Negated | HMPV=False) = 0.0013257597403339542
+P(Dehydration, CTCAE=Present | HMPV=False) = 0.04112140987691006
+P(Dehydration, CTCAE=Not Mentioned | HMPV=True) = 0.8952380952380953
+P(Dehydration, CTCAE=Negated | HMPV=True) = 0.01904761904761905
+P(Dehydration, CTCAE=Present | HMPV=True) = 0.08571428571428572
+P(Diarrhea, CTCAE=Not Mentioned | HMPV=False) = 0.7482313679326148
+P(Diarrhea, CTCAE=Negated | HMPV=False) = 0.06628798701669772
+P(Diarrhea, CTCAE=Present | HMPV=False) = 0.18548064505068745
+P(Diarrhea, CTCAE=Not Mentioned | HMPV=True) = 0.5619047619047619
+P(Diarrhea, CTCAE=Negated | HMPV=True) = 0.12380952380952381
+P(Diarrhea, CTCAE=Present | HMPV=True) = 0.3142857142857143
+P(Dyspnea, CTCAE=Not Mentioned | HMPV=False) = 0.9701932637690435
+P(Dyspnea, CTCAE=Negated | HMPV=False) = 0.0035315496531309644
+P(Dyspnea, CTCAE=Present | HMPV=False) = 0.026275186577825526
+P(Dyspnea, CTCAE=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Dyspnea, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Dyspnea, CTCAE=Present | HMPV=True) = 0.0380952380952381
+P(Fracture, CTCAE=Not Mentioned | HMPV=False) = 0.8719613243882648
+P(Fracture, CTCAE=Negated | HMPV=False) = 0.03909848337657291
+P(Fracture, CTCAE=Present | HMPV=False) = 0.08894019223516235
+P(Fracture, CTCAE=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Fracture, CTCAE=Negated | HMPV=True) = 0.01904761904761905
+P(Fracture, CTCAE=Present | HMPV=True) = 0.01904761904761905
+P(Hypertension, CTCAE=Not Mentioned | HMPV=False) = 0.7979245002685806
+P(Hypertension, CTCAE=Negated | HMPV=False) = 0.005497331337074414
+P(Hypertension, CTCAE=Present | HMPV=False) = 0.19657816839434494
+P(Hypertension, CTCAE=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(Hypertension, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Hypertension, CTCAE=Present | HMPV=True) = 0.10476190476190476
+P(Hypoxia, CTCAE=Not Mentioned | HMPV=False) = 0.9901139467638891
+P(Hypoxia, CTCAE=Negated | HMPV=False) = 0.0026743774072253905
+P(Hypoxia, CTCAE=Present | HMPV=False) = 0.007211675828885562
+P(Hypoxia, CTCAE=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Hypoxia, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Hypoxia, CTCAE=Present | HMPV=True) = 0.14285714285714285
+P(Muscle Pain, CTCAE 3=Not Mentioned | HMPV=False) = 0.9852909242602603
+P(Muscle Pain, CTCAE 3=Negated | HMPV=False) = 0.006640227664948512
+P(Muscle Pain, CTCAE 3=Present | HMPV=False) = 0.008068848074791135
+P(Muscle Pain, CTCAE 3=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Muscle Pain, CTCAE 3=Negated | HMPV=True) = 0.01904761904761905
+P(Muscle Pain, CTCAE 3=Present | HMPV=True) = 0.01904761904761905
+P(Nausea, CTCAE 3.0=Not Mentioned | HMPV=False) = 0.6618055476187755
+P(Nausea, CTCAE 3.0=Negated | HMPV=False) = 0.11439249345691853
+P(Nausea, CTCAE 3.0=Present | HMPV=False) = 0.223801958924306
+P(Nausea, CTCAE 3.0=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Nausea, CTCAE 3.0=Negated | HMPV=True) = 0.047619047619047616
+P(Nausea, CTCAE 3.0=Present | HMPV=True) = 0.10476190476190476
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | HMPV=False) = 0.9821936752117215
+P(Sinus Tachycardia, CTCAE 3.0=Negated | HMPV=False) = 1.1428963278740985E-4
+P(Sinus Tachycardia, CTCAE 3.0=Present | HMPV=False) = 0.017692035155491045
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Sinus Tachycardia, CTCAE 3.0=Negated | HMPV=True) = 0.009523809523809525
+P(Sinus Tachycardia, CTCAE 3.0=Present | HMPV=True) = 0.05714285714285714
+P(Vomiting, CTCAE=Not Mentioned | HMPV=False) = 0.7661291244271232
+P(Vomiting, CTCAE=Negated | HMPV=False) = 0.12108986593826074
+P(Vomiting, CTCAE=Present | HMPV=False) = 0.11278100963461604
+P(Vomiting, CTCAE=Not Mentioned | HMPV=True) = 0.6952380952380952
+P(Vomiting, CTCAE=Negated | HMPV=True) = 0.14285714285714285
+P(Vomiting, CTCAE=Present | HMPV=True) = 0.1619047619047619
+P(Respiratory Status=Not Mentioned | HMPV=False) = 0.9967198875390013
+P(Respiratory Status=Negated | HMPV=False) = 3.428688983622296E-5
+P(Respiratory Status=Present | HMPV=False) = 0.0032458255711624398
+P(Respiratory Status=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Respiratory Status=Negated | HMPV=True) = 0.009523809523809525
+P(Respiratory Status=Present | HMPV=True) = 0.047619047619047616
+P(Depression, CTCAE=Not Mentioned | HMPV=False) = 0.9179400436586397
+P(Depression, CTCAE=Negated | HMPV=False) = 0.005257323108220854
+P(Depression, CTCAE=Present | HMPV=False) = 0.07680263323313942
+P(Depression, CTCAE=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Depression, CTCAE=Negated | HMPV=True) = 0.01904761904761905
+P(Depression, CTCAE=Present | HMPV=True) = 0.02857142857142857
+P(History of previous events=Not Mentioned | HMPV=False) = 0.62127844383236
+P(History of previous events=Negated | HMPV=False) = 0.028092391739145343
+P(History of previous events=Present | HMPV=False) = 0.3506291644284947
+P(History of previous events=Not Mentioned | HMPV=True) = 0.1523809523809524
+P(History of previous events=Negated | HMPV=True) = 0.06666666666666667
+P(History of previous events=Present | HMPV=True) = 0.780952380952381
+P(jaundice=Not Mentioned | HMPV=False) = 0.9337462998731385
+P(jaundice=Negated | HMPV=False) = 0.05348754814450781
+P(jaundice=Present | HMPV=False) = 0.012766151982353681
+P(jaundice=Not Mentioned | HMPV=True) = 0.8285714285714286
+P(jaundice=Negated | HMPV=True) = 0.14285714285714285
+P(jaundice=Present | HMPV=True) = 0.02857142857142857
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | HMPV=False) = 0.9821936752117215
+P(continuous electrocardiogram sinus tachycardia=Negated | HMPV=False) = 1.1428963278740985E-4
+P(continuous electrocardiogram sinus tachycardia=Present | HMPV=False) = 0.017692035155491045
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(continuous electrocardiogram sinus tachycardia=Negated | HMPV=True) = 0.009523809523809525
+P(continuous electrocardiogram sinus tachycardia=Present | HMPV=True) = 0.05714285714285714
+P(Discomfort=Not Mentioned | HMPV=False) = 0.909105455044173
+P(Discomfort=Negated | HMPV=False) = 0.0044915825685452075
+P(Discomfort=Present | HMPV=False) = 0.08640296238728185
+P(Discomfort=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Discomfort=Negated | HMPV=True) = 0.009523809523809525
+P(Discomfort=Present | HMPV=True) = 0.02857142857142857
+P(Tissue Congestion=Not Mentioned | HMPV=False) = 0.9622958501434334
+P(Tissue Congestion=Negated | HMPV=False) = 0.002331508508863161
+P(Tissue Congestion=Present | HMPV=False) = 0.03537264134770335
+P(Tissue Congestion=Not Mentioned | HMPV=True) = 0.7142857142857143
+P(Tissue Congestion=Negated | HMPV=True) = 0.01904761904761905
+P(Tissue Congestion=Present | HMPV=True) = 0.26666666666666666
+P(Discharge, body substance=Not Mentioned | HMPV=False) = 0.4436037807010526
+P(Discharge, body substance=Negated | HMPV=False) = 0.1282215390241951
+P(Discharge, body substance=Present | HMPV=False) = 0.42817468027475225
+P(Discharge, body substance=Not Mentioned | HMPV=True) = 0.5047619047619047
+P(Discharge, body substance=Negated | HMPV=True) = 0.3333333333333333
+P(Discharge, body substance=Present | HMPV=True) = 0.1619047619047619
+P(Head bobbing=Not Mentioned | HMPV=False) = 0.9997828496977039
+P(Head bobbing=Negated | HMPV=False) = 4.571585311496394E-5
+P(Head bobbing=Present | HMPV=False) = 1.714344491811148E-4
+P(Head bobbing=Not Mentioned | HMPV=True) = 0.9523809523809523
+P(Head bobbing=Negated | HMPV=True) = 0.01904761904761905
+P(Head bobbing=Present | HMPV=True) = 0.02857142857142857
+P(Palpitations, CTCAE=Not Mentioned | HMPV=False) = 0.9056767660605507
+P(Palpitations, CTCAE=Negated | HMPV=False) = 0.0354983599437695
+P(Palpitations, CTCAE=Present | HMPV=False) = 0.05882487399567985
+P(Palpitations, CTCAE=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Palpitations, CTCAE=Negated | HMPV=True) = 0.02857142857142857
+P(Palpitations, CTCAE=Present | HMPV=True) = 0.009523809523809525
+P(Allergic disposition=Not Mentioned | HMPV=False) = 0.9210258637438998
+P(Allergic disposition=Negated | HMPV=False) = 0.009520326411191242
+P(Allergic disposition=Present | HMPV=False) = 0.06945380984490897
+P(Allergic disposition=Not Mentioned | HMPV=True) = 0.7333333333333333
+P(Allergic disposition=Negated | HMPV=True) = 0.01904761904761905
+P(Allergic disposition=Present | HMPV=True) = 0.24761904761904763
+P(Weakness=Not Mentioned | HMPV=False) = 0.7966101694915254
+P(Weakness=Negated | HMPV=False) = 0.03734985199492554
+P(Weakness=Present | HMPV=False) = 0.16603997851354904
+P(Weakness=Not Mentioned | HMPV=True) = 0.9142857142857143
+P(Weakness=Negated | HMPV=True) = 0.01904761904761905
+P(Weakness=Present | HMPV=True) = 0.06666666666666667
+P(Skin Bruise=Not Mentioned | HMPV=False) = 0.953358400859458
+P(Skin Bruise=Negated | HMPV=False) = 0.011863263883333143
+P(Skin Bruise=Present | HMPV=False) = 0.03477833525720882
+P(Skin Bruise=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Skin Bruise=Negated | HMPV=True) = 0.009523809523809525
+P(Skin Bruise=Present | HMPV=True) = 0.009523809523809525
+P(Full Term Birth=Not Mentioned | HMPV=False) = 0.9820908145422129
+P(Full Term Birth=Negated | HMPV=False) = 4.571585311496394E-5
+P(Full Term Birth=Present | HMPV=False) = 0.01786346960467216
+P(Full Term Birth=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Full Term Birth=Negated | HMPV=True) = 0.009523809523809525
+P(Full Term Birth=Present | HMPV=True) = 0.047619047619047616
+P(Tachycardia by ECG Finding=Not Mentioned | HMPV=False) = 0.9552556087637291
+P(Tachycardia by ECG Finding=Negated | HMPV=False) = 0.007440255094460381
+P(Tachycardia by ECG Finding=Present | HMPV=False) = 0.03730413614181058
+P(Tachycardia by ECG Finding=Not Mentioned | HMPV=True) = 0.7904761904761904
+P(Tachycardia by ECG Finding=Negated | HMPV=True) = 0.0380952380952381
+P(Tachycardia by ECG Finding=Present | HMPV=True) = 0.17142857142857143
+P(Karnofsky Performance Status 100=Not Mentioned | HMPV=False) = 0.7403910991233985
+P(Karnofsky Performance Status 100=Negated | HMPV=False) = 0.0010057487685292067
+P(Karnofsky Performance Status 100=Present | HMPV=False) = 0.2586031521080723
+P(Karnofsky Performance Status 100=Not Mentioned | HMPV=True) = 0.5619047619047619
+P(Karnofsky Performance Status 100=Negated | HMPV=True) = 0.009523809523809525
+P(Karnofsky Performance Status 100=Present | HMPV=True) = 0.42857142857142855
+P(Resident - answer to question=Not Mentioned | HMPV=False) = 0.559322033898305
+P(Resident - answer to question=Negated | HMPV=False) = 0.0029029566728002104
+P(Resident - answer to question=Present | HMPV=False) = 0.4377750094288947
+P(Resident - answer to question=Not Mentioned | HMPV=True) = 0.22857142857142856
+P(Resident - answer to question=Negated | HMPV=True) = 0.009523809523809525
+P(Resident - answer to question=Present | HMPV=True) = 0.7619047619047619
+P(Numbness or tingling=Not Mentioned | HMPV=False) = 0.9610043772929358
+P(Numbness or tingling=Negated | HMPV=False) = 0.017932043384344606
+P(Numbness or tingling=Present | HMPV=False) = 0.021063579322719635
+P(Numbness or tingling=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Numbness or tingling=Negated | HMPV=True) = 0.009523809523809525
+P(Numbness or tingling=Present | HMPV=True) = 0.009523809523809525
+P(Too early=Not Mentioned | HMPV=False) = 0.9932340537389853
+P(Too early=Negated | HMPV=False) = 2.1715030229607873E-4
+P(Too early=Present | HMPV=False) = 0.006548795958718585
+P(Too early=Not Mentioned | HMPV=True) = 0.8761904761904762
+P(Too early=Negated | HMPV=True) = 0.009523809523809525
+P(Too early=Present | HMPV=True) = 0.11428571428571428
+P(Radiologic Impression=Not Mentioned | HMPV=False) = 0.24701418334342892
+P(Radiologic Impression=Negated | HMPV=False) = 0.0021943609495182694
+P(Radiologic Impression=Present | HMPV=False) = 0.7507914557070529
+P(Radiologic Impression=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(Radiologic Impression=Negated | HMPV=True) = 0.009523809523809525
+P(Radiologic Impression=Present | HMPV=True) = 0.9523809523809523
+P(No Hand Mobility=Not Mentioned | HMPV=False) = 0.2329565585105775
+P(No Hand Mobility=Negated | HMPV=False) = 7.77169502954387E-4
+P(No Hand Mobility=Present | HMPV=False) = 0.7662662719864681
+P(No Hand Mobility=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(No Hand Mobility=Negated | HMPV=True) = 0.009523809523809525
+P(No Hand Mobility=Present | HMPV=True) = 0.9523809523809523
+P(No Support Needed=Not Mentioned | HMPV=False) = 0.2329565585105775
+P(No Support Needed=Negated | HMPV=False) = 7.77169502954387E-4
+P(No Support Needed=Present | HMPV=False) = 0.7662662719864681
+P(No Support Needed=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(No Support Needed=Negated | HMPV=True) = 0.009523809523809525
+P(No Support Needed=Present | HMPV=True) = 0.9523809523809523
+P(Organomegaly=Not Mentioned | HMPV=False) = 0.7527800953175537
+P(Organomegaly=Negated | HMPV=False) = 0.2400425157433969
+P(Organomegaly=Present | HMPV=False) = 0.007177388939049339
+P(Organomegaly=Not Mentioned | HMPV=True) = 0.6952380952380952
+P(Organomegaly=Negated | HMPV=True) = 0.29523809523809524
+P(Organomegaly=Present | HMPV=True) = 0.009523809523809525
+P(Reactive to light=Not Mentioned | HMPV=False) = 0.7867812610718081
+P(Reactive to light=Negated | HMPV=False) = 2.0572133901733774E-4
+P(Reactive to light=Present | HMPV=False) = 0.21301301758917449
+P(Reactive to light=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Reactive to light=Negated | HMPV=True) = 0.009523809523809525
+P(Reactive to light=Present | HMPV=True) = 0.06666666666666667
+P(Peribronchial Cuffing=Not Mentioned | HMPV=False) = 0.9994628387258991
+P(Peribronchial Cuffing=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Peribronchial Cuffing=Present | HMPV=False) = 5.257323108220853E-4
+P(Peribronchial Cuffing=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Peribronchial Cuffing=Negated | HMPV=True) = 0.009523809523809525
+P(Peribronchial Cuffing=Present | HMPV=True) = 0.02857142857142857
+P(Swollen Lymph Node=Not Mentioned | HMPV=False) = 0.6020320696709601
+P(Swollen Lymph Node=Negated | HMPV=False) = 0.3325942603746414
+P(Swollen Lymph Node=Present | HMPV=False) = 0.06537366995439843
+P(Swollen Lymph Node=Not Mentioned | HMPV=True) = 0.638095238095238
+P(Swollen Lymph Node=Negated | HMPV=True) = 0.34285714285714286
+P(Swollen Lymph Node=Present | HMPV=True) = 0.01904761904761905
+P(Complete Pharyngeal Contraction=Not Mentioned | HMPV=False) = 0.9510840371669885
+P(Complete Pharyngeal Contraction=Negated | HMPV=False) = 0.002377224361978125
+P(Complete Pharyngeal Contraction=Present | HMPV=False) = 0.04653873847103329
+P(Complete Pharyngeal Contraction=Not Mentioned | HMPV=True) = 0.8761904761904762
+P(Complete Pharyngeal Contraction=Negated | HMPV=True) = 0.009523809523809525
+P(Complete Pharyngeal Contraction=Present | HMPV=True) = 0.11428571428571428
+P(Laboratory observation=Not Mentioned | HMPV=False) = 0.8669897253620125
+P(Laboratory observation=Negated | HMPV=False) = 0.005108746585597221
+P(Laboratory observation=Present | HMPV=False) = 0.12790152805239036
+P(Laboratory observation=Not Mentioned | HMPV=True) = 0.580952380952381
+P(Laboratory observation=Negated | HMPV=True) = 0.009523809523809525
+P(Laboratory observation=Present | HMPV=True) = 0.4095238095238095
+P(Crutches Usually Used=Not Mentioned | HMPV=False) = 0.9801021749317119
+P(Crutches Usually Used=Negated | HMPV=False) = 5.257323108220853E-4
+P(Crutches Usually Used=Present | HMPV=False) = 0.01937209275746597
+P(Crutches Usually Used=Not Mentioned | HMPV=True) = 0.9809523809523809
+P(Crutches Usually Used=Negated | HMPV=True) = 0.009523809523809525
+P(Crutches Usually Used=Present | HMPV=True) = 0.009523809523809525
+P(High Level=Not Mentioned | HMPV=False) = 0.9392322022469342
+P(High Level=Negated | HMPV=False) = 0.0018057761980410758
+P(High Level=Present | HMPV=False) = 0.058962021555024745
+P(High Level=Not Mentioned | HMPV=True) = 0.6476190476190476
+P(High Level=Negated | HMPV=True) = 0.009523809523809525
+P(High Level=Present | HMPV=True) = 0.34285714285714286
+P(Low Level=Not Mentioned | HMPV=False) = 0.9033338285884087
+P(Low Level=Negated | HMPV=False) = 0.008183137707578546
+P(Low Level=Present | HMPV=False) = 0.08848303370401271
+P(Low Level=Not Mentioned | HMPV=True) = 0.6571428571428571
+P(Low Level=Negated | HMPV=True) = 0.01904761904761905
+P(Low Level=Present | HMPV=True) = 0.3238095238095238
+P(Nasal (intended site)=Not Mentioned | HMPV=False) = 0.9805250465730254
+P(Nasal (intended site)=Negated | HMPV=False) = 0.002080071316730859
+P(Nasal (intended site)=Present | HMPV=False) = 0.01739488211024378
+P(Nasal (intended site)=Not Mentioned | HMPV=True) = 0.9047619047619048
+P(Nasal (intended site)=Negated | HMPV=True) = 0.01904761904761905
+P(Nasal (intended site)=Present | HMPV=True) = 0.0761904761904762
+P(Rectal (intended site)=Not Mentioned | HMPV=False) = 0.9279746734173743
+P(Rectal (intended site)=Negated | HMPV=False) = 0.0013371887036126952
+P(Rectal (intended site)=Present | HMPV=False) = 0.070688137879013
+P(Rectal (intended site)=Not Mentioned | HMPV=True) = 0.6095238095238096
+P(Rectal (intended site)=Negated | HMPV=True) = 0.009523809523809525
+P(Rectal (intended site)=Present | HMPV=True) = 0.38095238095238093
+P(Influenza B (result)=Not Mentioned | HMPV=False) = 0.999954284146885
+P(Influenza B (result)=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Influenza B (result)=Present | HMPV=False) = 3.428688983622296E-5
+P(Influenza B (result)=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Influenza B (result)=Negated | HMPV=True) = 0.02857142857142857
+P(Influenza B (result)=Present | HMPV=True) = 0.009523809523809525
+P(Supplemental oxygen=Not Mentioned | HMPV=False) = 0.9929254717304593
+P(Supplemental oxygen=Negated | HMPV=False) = 0.0014286204098426232
+P(Supplemental oxygen=Present | HMPV=False) = 0.005645907859698047
+P(Supplemental oxygen=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Supplemental oxygen=Negated | HMPV=True) = 0.01904761904761905
+P(Supplemental oxygen=Present | HMPV=True) = 0.0380952380952381
+P(At home=Not Mentioned | HMPV=False) = 0.776815205092746
+P(At home=Negated | HMPV=False) = 0.0049258831731373645
+P(At home=Present | HMPV=False) = 0.2182589117341166
+P(At home=Not Mentioned | HMPV=True) = 0.5428571428571428
+P(At home=Negated | HMPV=True) = 0.009523809523809525
+P(At home=Present | HMPV=True) = 0.44761904761904764
+P(Myalgia, CTCAE 5=Not Mentioned | HMPV=False) = 0.9973713384458895
+P(Myalgia, CTCAE 5=Negated | HMPV=False) = 0.0011086094380378755
+P(Myalgia, CTCAE 5=Present | HMPV=False) = 0.0015200521160725511
+P(Myalgia, CTCAE 5=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Myalgia, CTCAE 5=Negated | HMPV=True) = 0.009523809523809525
+P(Myalgia, CTCAE 5=Present | HMPV=True) = 0.01904761904761905
+P(Rhinorrhea, CTCAE=Not Mentioned | HMPV=False) = 0.9673131650228007
+P(Rhinorrhea, CTCAE=Negated | HMPV=False) = 0.005497331337074414
+P(Rhinorrhea, CTCAE=Present | HMPV=False) = 0.027189503640124804
+P(Rhinorrhea, CTCAE=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Rhinorrhea, CTCAE=Negated | HMPV=True) = 0.01904761904761905
+P(Rhinorrhea, CTCAE=Present | HMPV=True) = 0.13333333333333333
+P(Fever, CTCAE=Not Mentioned | HMPV=False) = 0.6164439923654526
+P(Fever, CTCAE=Negated | HMPV=False) = 0.23591665999977143
+P(Fever, CTCAE=Present | HMPV=False) = 0.14763934763477604
+P(Fever, CTCAE=Not Mentioned | HMPV=True) = 0.22857142857142856
+P(Fever, CTCAE=Negated | HMPV=True) = 0.18095238095238095
+P(Fever, CTCAE=Present | HMPV=True) = 0.5904761904761905
+P(Sore Throat, CTCAE=Not Mentioned | HMPV=False) = 0.8968878932991988
+P(Sore Throat, CTCAE=Negated | HMPV=False) = 0.05061887836154382
+P(Sore Throat, CTCAE=Present | HMPV=False) = 0.05249322833925735
+P(Sore Throat, CTCAE=Not Mentioned | HMPV=True) = 0.8857142857142857
+P(Sore Throat, CTCAE=Negated | HMPV=True) = 0.0380952380952381
+P(Sore Throat, CTCAE=Present | HMPV=True) = 0.0761904761904762
+P(Sepsis, CTCAE=Not Mentioned | HMPV=False) = 0.9891081979953599
+P(Sepsis, CTCAE=Negated | HMPV=False) = 9.714618786929838E-4
+P(Sepsis, CTCAE=Present | HMPV=False) = 0.009920340125947176
+P(Sepsis, CTCAE=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Sepsis, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Sepsis, CTCAE=Present | HMPV=True) = 0.06666666666666667
+P(Meningitis, CTCAE=Not Mentioned | HMPV=False) = 0.9774735133776015
+P(Meningitis, CTCAE=Negated | HMPV=False) = 0.0016114838223024789
+P(Meningitis, CTCAE=Present | HMPV=False) = 0.020915002800096002
+P(Meningitis, CTCAE=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Meningitis, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Meningitis, CTCAE=Present | HMPV=True) = 0.02857142857142857
+P(Bronchospasm, CTCAE=Not Mentioned | HMPV=False) = 0.9953712698721099
+P(Bronchospasm, CTCAE=Negated | HMPV=False) = 2.7429511868978367E-4
+P(Bronchospasm, CTCAE=Present | HMPV=False) = 0.004354435009200315
+P(Bronchospasm, CTCAE=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Bronchospasm, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Bronchospasm, CTCAE=Present | HMPV=True) = 0.02857142857142857
+P(Productive Cough, CTCAE=Not Mentioned | HMPV=False) = 0.9825936889264775
+P(Productive Cough, CTCAE=Negated | HMPV=False) = 0.0018514920511560396
+P(Productive Cough, CTCAE=Present | HMPV=False) = 0.015554819022366481
+P(Productive Cough, CTCAE=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Productive Cough, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Productive Cough, CTCAE=Present | HMPV=True) = 0.047619047619047616
+P(Malaise, CTCAE=Not Mentioned | HMPV=False) = 0.9893024903710984
+P(Malaise, CTCAE=Negated | HMPV=False) = 0.0020572133901733776
+P(Malaise, CTCAE=Present | HMPV=False) = 0.008640296238728185
+P(Malaise, CTCAE=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(Malaise, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Malaise, CTCAE=Present | HMPV=True) = 0.047619047619047616
+P(Pain, CTCAE=Not Mentioned | HMPV=False) = 0.4713075876887208
+P(Pain, CTCAE=Negated | HMPV=False) = 0.1083351429191858
+P(Pain, CTCAE=Present | HMPV=False) = 0.42035726939209345
+P(Pain, CTCAE=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Pain, CTCAE=Negated | HMPV=True) = 0.0380952380952381
+P(Pain, CTCAE=Present | HMPV=True) = 0.11428571428571428
+P(Chills, CTCAE=Not Mentioned | HMPV=False) = 0.6506851663485606
+P(Chills, CTCAE=Negated | HMPV=False) = 0.0673165937117844
+P(Chills, CTCAE=Present | HMPV=False) = 0.28199823993965506
+P(Chills, CTCAE=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Chills, CTCAE=Negated | HMPV=True) = 0.01904761904761905
+P(Chills, CTCAE=Present | HMPV=True) = 0.13333333333333333
+P(Headache, CTCAE=Not Mentioned | HMPV=False) = 0.756563082162817
+P(Headache, CTCAE=Negated | HMPV=False) = 0.11179811879264431
+P(Headache, CTCAE=Present | HMPV=False) = 0.13163879904453868
+P(Headache, CTCAE=Not Mentioned | HMPV=True) = 0.8952380952380953
+P(Headache, CTCAE=Negated | HMPV=True) = 0.06666666666666667
+P(Headache, CTCAE=Present | HMPV=True) = 0.0380952380952381
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | HMPV=False) = 0.9821936752117215
+P(Sinus Tachycardia, CTCAE 5.0=Negated | HMPV=False) = 1.1428963278740985E-4
+P(Sinus Tachycardia, CTCAE 5.0=Present | HMPV=False) = 0.017692035155491045
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | HMPV=True) = 0.9333333333333333
+P(Sinus Tachycardia, CTCAE 5.0=Negated | HMPV=True) = 0.009523809523809525
+P(Sinus Tachycardia, CTCAE 5.0=Present | HMPV=True) = 0.05714285714285714
+P(Fall, CTCAE=Not Mentioned | HMPV=False) = 0.9242031155353898
+P(Fall, CTCAE=Negated | HMPV=False) = 0.0061030663908476866
+P(Fall, CTCAE=Present | HMPV=False) = 0.06969381807376253
+P(Fall, CTCAE=Not Mentioned | HMPV=True) = 0.9619047619047619
+P(Fall, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Fall, CTCAE=Present | HMPV=True) = 0.02857142857142857
+P(Nausea, CTCAE 5.0=Not Mentioned | HMPV=False) = 0.6618055476187755
+P(Nausea, CTCAE 5.0=Negated | HMPV=False) = 0.11439249345691853
+P(Nausea, CTCAE 5.0=Present | HMPV=False) = 0.223801958924306
+P(Nausea, CTCAE 5.0=Not Mentioned | HMPV=True) = 0.8476190476190476
+P(Nausea, CTCAE 5.0=Negated | HMPV=True) = 0.047619047619047616
+P(Nausea, CTCAE 5.0=Present | HMPV=True) = 0.10476190476190476
+P(Wheezing, CTCAE=Not Mentioned | HMPV=False) = 0.9271746459878625
+P(Wheezing, CTCAE=Negated | HMPV=False) = 0.04416151410905517
+P(Wheezing, CTCAE=Present | HMPV=False) = 0.02866383990308239
+P(Wheezing, CTCAE=Not Mentioned | HMPV=True) = 0.6190476190476191
+P(Wheezing, CTCAE=Negated | HMPV=True) = 0.13333333333333333
+P(Wheezing, CTCAE=Present | HMPV=True) = 0.24761904761904763
+P(Back Pain, CTCAE 5.0=Not Mentioned | HMPV=False) = 0.8430231893664926
+P(Back Pain, CTCAE 5.0=Negated | HMPV=False) = 0.026126610055201893
+P(Back Pain, CTCAE 5.0=Present | HMPV=False) = 0.13085020057830554
+P(Back Pain, CTCAE 5.0=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Back Pain, CTCAE 5.0=Negated | HMPV=True) = 0.0380952380952381
+P(Back Pain, CTCAE 5.0=Present | HMPV=True) = 0.0380952380952381
+P(Flu Like Symptoms, CTCAE=Not Mentioned | HMPV=False) = 0.9997942786609827
+P(Flu Like Symptoms, CTCAE=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Flu Like Symptoms, CTCAE=Present | HMPV=False) = 1.9429237573859675E-4
+P(Flu Like Symptoms, CTCAE=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Flu Like Symptoms, CTCAE=Negated | HMPV=True) = 0.009523809523809525
+P(Flu Like Symptoms, CTCAE=Present | HMPV=True) = 0.01904761904761905
+P(Abdominal Pain, CTCAE 5=Not Mentioned | HMPV=False) = 0.6510737511000377
+P(Abdominal Pain, CTCAE 5=Negated | HMPV=False) = 0.12903299541698574
+P(Abdominal Pain, CTCAE 5=Present | HMPV=False) = 0.21989325348297656
+P(Abdominal Pain, CTCAE 5=Not Mentioned | HMPV=True) = 0.780952380952381
+P(Abdominal Pain, CTCAE 5=Negated | HMPV=True) = 0.12380952380952381
+P(Abdominal Pain, CTCAE 5=Present | HMPV=True) = 0.09523809523809523
+P(TM genotype=Not Mentioned | HMPV=False) = 0.9911768403488119
+P(TM genotype=Negated | HMPV=False) = 1.1428963278740985E-5
+P(TM genotype=Present | HMPV=False) = 0.0088117306879093
+P(TM genotype=Not Mentioned | HMPV=True) = 0.9428571428571428
+P(TM genotype=Negated | HMPV=True) = 0.009523809523809525
+P(TM genotype=Present | HMPV=True) = 0.047619047619047616
+P(Nasal Congestion, CTCAE=Not Mentioned | HMPV=False) = 0.9422037326994068
+P(Nasal Congestion, CTCAE=Negated | HMPV=False) = 0.026480907916842863
+P(Nasal Congestion, CTCAE=Present | HMPV=False) = 0.0313153593837503
+P(Nasal Congestion, CTCAE=Not Mentioned | HMPV=True) = 0.7238095238095238
+P(Nasal Congestion, CTCAE=Negated | HMPV=True) = 0.047619047619047616
+P(Nasal Congestion, CTCAE=Present | HMPV=True) = 0.22857142857142856
+P(Fatigue, CTCAE 5.0=Not Mentioned | HMPV=False) = 0.9587185846371875
+P(Fatigue, CTCAE 5.0=Negated | HMPV=False) = 0.008606009348891962
+P(Fatigue, CTCAE 5.0=Present | HMPV=False) = 0.03267540601392048
+P(Fatigue, CTCAE 5.0=Not Mentioned | HMPV=True) = 0.9047619047619048
+P(Fatigue, CTCAE 5.0=Negated | HMPV=True) = 0.009523809523809525
+P(Fatigue, CTCAE 5.0=Present | HMPV=True) = 0.08571428571428572
+P(Rous Sarcoma Virus Positive=Not Mentioned | HMPV=False) = 0.9999771420734426
+P(Rous Sarcoma Virus Positive=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Rous Sarcoma Virus Positive=Present | HMPV=False) = 1.1428963278740985E-5
+P(Rous Sarcoma Virus Positive=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Rous Sarcoma Virus Positive=Negated | HMPV=True) = 0.009523809523809525
+P(Rous Sarcoma Virus Positive=Present | HMPV=True) = 0.01904761904761905
+P(Patient age=Not Mentioned | HMPV=False) = 0.9281118209767192
+P(Patient age=Negated | HMPV=False) = 9.143170622992788E-5
+P(Patient age=Present | HMPV=False) = 0.07179674731705087
+P(Patient age=Not Mentioned | HMPV=True) = 0.6
+P(Patient age=Negated | HMPV=True) = 0.009523809523809525
+P(Patient age=Present | HMPV=True) = 0.3904761904761905
+P(Mild Hallucination=Not Mentioned | HMPV=False) = 0.6977382081671372
+P(Mild Hallucination=Negated | HMPV=False) = 0.0018057761980410758
+P(Mild Hallucination=Present | HMPV=False) = 0.30045601563482177
+P(Mild Hallucination=Not Mentioned | HMPV=True) = 0.6190476190476191
+P(Mild Hallucination=Negated | HMPV=True) = 0.009523809523809525
+P(Mild Hallucination=Present | HMPV=True) = 0.37142857142857144
+P(Nasal secretions=Not Mentioned | HMPV=False) = 0.9996114152485228
+P(Nasal secretions=Negated | HMPV=False) = 1.1428963278740985E-5
+P(Nasal secretions=Present | HMPV=False) = 3.771557881984525E-4
+P(Nasal secretions=Not Mentioned | HMPV=True) = 0.9714285714285714
+P(Nasal secretions=Negated | HMPV=True) = 0.009523809523809525
+P(Nasal secretions=Present | HMPV=True) = 0.01904761904761905
+P(Epidermal cGVHD Score 2=Not Mentioned | HMPV=False) = 0.6957838554464725
+P(Epidermal cGVHD Score 2=Negated | HMPV=False) = 0.0018057761980410758
+P(Epidermal cGVHD Score 2=Present | HMPV=False) = 0.30241036835548646
+P(Epidermal cGVHD Score 2=Not Mentioned | HMPV=True) = 0.6190476190476191
+P(Epidermal cGVHD Score 2=Negated | HMPV=True) = 0.009523809523809525
+P(Epidermal cGVHD Score 2=Present | HMPV=True) = 0.37142857142857144
+P(Round Nodule=Not Mentioned | HMPV=False) = 0.786655542475742
+P(Round Nodule=Negated | HMPV=False) = 5.714481639370493E-4
+P(Round Nodule=Present | HMPV=False) = 0.21277300936032092
+P(Round Nodule=Not Mentioned | HMPV=True) = 0.9238095238095239
+P(Round Nodule=Negated | HMPV=True) = 0.009523809523809525
+P(Round Nodule=Present | HMPV=True) = 0.06666666666666667
+P(Epidermal cGVHD Score 0=Not Mentioned | HMPV=False) = 0.1814462210132919
+P(Epidermal cGVHD Score 0=Negated | HMPV=False) = 0.01856063636467536
+P(Epidermal cGVHD Score 0=Present | HMPV=False) = 0.7999931426220328
+P(Epidermal cGVHD Score 0=Not Mentioned | HMPV=True) = 0.5047619047619047
+P(Epidermal cGVHD Score 0=Negated | HMPV=True) = 0.01904761904761905
+P(Epidermal cGVHD Score 0=Present | HMPV=True) = 0.47619047619047616
+P(Normal Gait=Not Mentioned | HMPV=False) = 0.20308124849994857
+P(Normal Gait=Negated | HMPV=False) = 0.011166097123329943
+P(Normal Gait=Present | HMPV=False) = 0.7857526543767215
+P(Normal Gait=Not Mentioned | HMPV=True) = 0.05714285714285714
+P(Normal Gait=Negated | HMPV=True) = 0.047619047619047616
+P(Normal Gait=Present | HMPV=True) = 0.8952380952380953
+P(High (finding)=Not Mentioned | HMPV=False) = 0.9394379235859516
+P(High (finding)=Negated | HMPV=False) = 0.0017486313816473707
+P(High (finding)=Present | HMPV=False) = 0.05881344503240111
+P(High (finding)=Not Mentioned | HMPV=True) = 0.6476190476190476
+P(High (finding)=Negated | HMPV=True) = 0.009523809523809525
+P(High (finding)=Present | HMPV=True) = 0.34285714285714286
+P(None (no infant feeding)=Not Mentioned | HMPV=False) = 0.2329565585105775
+P(None (no infant feeding)=Negated | HMPV=False) = 7.77169502954387E-4
+P(None (no infant feeding)=Present | HMPV=False) = 0.7662662719864681
+P(None (no infant feeding)=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(None (no infant feeding)=Negated | HMPV=True) = 0.009523809523809525
+P(None (no infant feeding)=Present | HMPV=True) = 0.9523809523809523
+P(Normal Immune Presence=Not Mentioned | HMPV=False) = 0.2050698881104495
+P(Normal Immune Presence=Negated | HMPV=False) = 0.01149753705841343
+P(Normal Immune Presence=Present | HMPV=False) = 0.783432574831137
+P(Normal Immune Presence=Not Mentioned | HMPV=True) = 0.05714285714285714
+P(Normal Immune Presence=Negated | HMPV=True) = 0.047619047619047616
+P(Normal Immune Presence=Present | HMPV=True) = 0.8952380952380953
+P(No Effort=Not Mentioned | HMPV=False) = 0.2329565585105775
+P(No Effort=Negated | HMPV=False) = 7.77169502954387E-4
+P(No Effort=Present | HMPV=False) = 0.7662662719864681
+P(No Effort=Not Mentioned | HMPV=True) = 0.0380952380952381
+P(No Effort=Negated | HMPV=True) = 0.009523809523809525
+P(No Effort=Present | HMPV=True) = 0.9523809523809523
+P(IPSS-R Risk Category High=Not Mentioned | HMPV=False) = 0.9365692538029875
+P(IPSS-R Risk Category High=Negated | HMPV=False) = 0.0021143582065670822
+P(IPSS-R Risk Category High=Present | HMPV=False) = 0.061316387990445385
+P(IPSS-R Risk Category High=Not Mentioned | HMPV=True) = 0.6190476190476191
+P(IPSS-R Risk Category High=Negated | HMPV=True) = 0.009523809523809525
+P(IPSS-R Risk Category High=Present | HMPV=True) = 0.37142857142857144
+P(IPSS-R Risk Category Low=Not Mentioned | HMPV=False) = 0.8960192920900145
+P(IPSS-R Risk Category Low=Negated | HMPV=False) = 0.008548864532498257
+P(IPSS-R Risk Category Low=Present | HMPV=False) = 0.09543184337748722
+P(IPSS-R Risk Category Low=Not Mentioned | HMPV=True) = 0.6571428571428571
+P(IPSS-R Risk Category Low=Negated | HMPV=True) = 0.01904761904761905
+P(IPSS-R Risk Category Low=Present | HMPV=True) = 0.3238095238095238
+P(Epithelial cells.squamous=High | HMPV=False) = 6.971587922009646E-4
+P(Epithelial cells.squamous=Low | HMPV=False) = 1.1428832659032206E-5
+P(Epithelial cells.squamous=Not Mentioned | HMPV=False) = 0.9960684815652929
+P(Epithelial cells.squamous=Normal | HMPV=False) = 0.0032229308098470823
+P(Epithelial cells.squamous=High | HMPV=True) = 0.018867924528301886
+P(Epithelial cells.squamous=Low | HMPV=True) = 0.009433962264150943
+P(Epithelial cells.squamous=Not Mentioned | HMPV=True) = 0.9339622641509434
+P(Epithelial cells.squamous=Normal | HMPV=True) = 0.03773584905660377
+P(Bicarbonate=High | HMPV=False) = 0.0013714599190838648
+P(Bicarbonate=Low | HMPV=False) = 0.0012914580904706393
+P(Bicarbonate=Not Mentioned | HMPV=False) = 0.9954398957690461
+P(Bicarbonate=Normal | HMPV=False) = 0.0018971862213993463
+P(Bicarbonate=High | HMPV=True) = 0.08490566037735849
+P(Bicarbonate=Low | HMPV=True) = 0.05660377358490566
+P(Bicarbonate=Not Mentioned | HMPV=True) = 0.8018867924528302
+P(Bicarbonate=Normal | HMPV=True) = 0.05660377358490566
+P(Alanine aminotransferase=High | HMPV=False) = 0.004525817732976754
+P(Alanine aminotransferase=Low | HMPV=False) = 0.012057418455278978
+P(Alanine aminotransferase=Not Mentioned | HMPV=False) = 0.9467416398089099
+P(Alanine aminotransferase=Normal | HMPV=False) = 0.03667512400283435
+P(Alanine aminotransferase=High | HMPV=True) = 0.018867924528301886
+P(Alanine aminotransferase=Low | HMPV=True) = 0.08490566037735849
+P(Alanine aminotransferase=Not Mentioned | HMPV=True) = 0.7452830188679245
+P(Alanine aminotransferase=Normal | HMPV=True) = 0.1509433962264151
+P(Albumin=High | HMPV=False) = 2.5143431849870856E-4
+P(Albumin=Low | HMPV=False) = 0.013577453198930261
+P(Albumin=Not Mentioned | HMPV=False) = 0.948570253034355
+P(Albumin=Normal | HMPV=False) = 0.03760085944821596
+P(Albumin=High | HMPV=True) = 0.009433962264150943
+P(Albumin=Low | HMPV=True) = 0.1320754716981132
+P(Albumin=Not Mentioned | HMPV=True) = 0.7452830188679245
+P(Albumin=Normal | HMPV=True) = 0.11320754716981132
+P(Calcium=High | HMPV=False) = 5.485839676335459E-4
+P(Calcium=Low | HMPV=False) = 0.00963450593156415
+P(Calcium=Not Mentioned | HMPV=False) = 0.9238382591602093
+P(Calcium=Normal | HMPV=False) = 0.06597865094059292
+P(Calcium=High | HMPV=True) = 0.009433962264150943
+P(Calcium=Low | HMPV=True) = 0.05660377358490566
+P(Calcium=Not Mentioned | HMPV=True) = 0.5377358490566038
+P(Calcium=Normal | HMPV=True) = 0.39622641509433965
+P(Magnesium=High | HMPV=False) = 9.828796086767697E-4
+P(Magnesium=Low | HMPV=False) = 0.0025257720176461176
+P(Magnesium=Not Mentioned | HMPV=False) = 0.9728108071041623
+P(Magnesium=Normal | HMPV=False) = 0.023680541269514733
+P(Magnesium=High | HMPV=True) = 0.02830188679245283
+P(Magnesium=Low | HMPV=True) = 0.009433962264150943
+P(Magnesium=Not Mentioned | HMPV=True) = 0.6509433962264151
+P(Magnesium=Normal | HMPV=True) = 0.3113207547169811
+P(Aspartate aminotransferase=High | HMPV=False) = 0.009188781457861894
+P(Aspartate aminotransferase=Low | HMPV=False) = 0.007417312395711902
+P(Aspartate aminotransferase=Not Mentioned | HMPV=False) = 0.9477016617522687
+P(Aspartate aminotransferase=Normal | HMPV=False) = 0.03569224439415758
+P(Aspartate aminotransferase=High | HMPV=True) = 0.02830188679245283
+P(Aspartate aminotransferase=Low | HMPV=True) = 0.02830188679245283
+P(Aspartate aminotransferase=Not Mentioned | HMPV=True) = 0.7547169811320755
+P(Aspartate aminotransferase=Normal | HMPV=True) = 0.18867924528301888
+P(Oxygen content=High | HMPV=False) = 1.1428832659032206E-5
+P(Oxygen content=Low | HMPV=False) = 3.88580310407095E-4
+P(Oxygen content=Not Mentioned | HMPV=False) = 0.9993714142037532
+P(Oxygen content=Normal | HMPV=False) = 2.2857665318064412E-4
+P(Oxygen content=High | HMPV=True) = 0.009433962264150943
+P(Oxygen content=Low | HMPV=True) = 0.018867924528301886
+P(Oxygen content=Not Mentioned | HMPV=True) = 0.9528301886792453
+P(Oxygen content=Normal | HMPV=True) = 0.018867924528301886
+P(Oxygen content=High | HMPV=False) = 2.2857665318064413E-5
+P(Oxygen content=Low | HMPV=False) = 4.5715330636128826E-5
+P(Oxygen content=Not Mentioned | HMPV=False) = 0.9999199981713868
+P(Oxygen content=Normal | HMPV=False) = 1.1428832659032206E-5
+P(Oxygen content=High | HMPV=True) = 0.009433962264150943
+P(Oxygen content=Low | HMPV=True) = 0.018867924528301886
+P(Oxygen content=Not Mentioned | HMPV=True) = 0.9433962264150944
+P(Oxygen content=Normal | HMPV=True) = 0.02830188679245283
+P(Base excess=High | HMPV=False) = 6.743011268829002E-4
+P(Base excess=Low | HMPV=False) = 1.1428832659032206E-5
+P(Base excess=Not Mentioned | HMPV=False) = 0.9986399689135752
+P(Base excess=Normal | HMPV=False) = 6.743011268829002E-4
+P(Base excess=High | HMPV=True) = 0.02830188679245283
+P(Base excess=Low | HMPV=True) = 0.009433962264150943
+P(Base excess=Not Mentioned | HMPV=True) = 0.9433962264150944
+P(Base excess=Normal | HMPV=True) = 0.018867924528301886
+P(Oxygen^^adjusted to patient's actual temperature=High | HMPV=False) = 0.0011771697638803173
+P(Oxygen^^adjusted to patient's actual temperature=Low | HMPV=False) = 9.143066127225765E-5
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | HMPV=False) = 0.9977828064641477
+P(Oxygen^^adjusted to patient's actual temperature=Normal | HMPV=False) = 9.485931106996731E-4
+P(Oxygen^^adjusted to patient's actual temperature=High | HMPV=True) = 0.10377358490566038
+P(Oxygen^^adjusted to patient's actual temperature=Low | HMPV=True) = 0.009433962264150943
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | HMPV=True) = 0.8301886792452831
+P(Oxygen^^adjusted to patient's actual temperature=Normal | HMPV=True) = 0.05660377358490566
+P(Base excess=High | HMPV=False) = 2.057189878625797E-4
+P(Base excess=Low | HMPV=False) = 1.1428832659032206E-5
+P(Base excess=Not Mentioned | HMPV=False) = 0.999668563852888
+P(Base excess=Normal | HMPV=False) = 1.1428832659032206E-4
+P(Base excess=High | HMPV=True) = 0.03773584905660377
+P(Base excess=Low | HMPV=True) = 0.009433962264150943
+P(Base excess=Not Mentioned | HMPV=True) = 0.9433962264150944
+P(Base excess=Normal | HMPV=True) = 0.009433962264150943
+P(Bicarbonate=High | HMPV=False) = 2.971496491348374E-4
+P(Bicarbonate=Low | HMPV=False) = 5.942992982696748E-4
+P(Bicarbonate=Not Mentioned | HMPV=False) = 0.9986399689135752
+P(Bicarbonate=Normal | HMPV=False) = 4.685821390203205E-4
+P(Bicarbonate=High | HMPV=True) = 0.02830188679245283
+P(Bicarbonate=Low | HMPV=True) = 0.009433962264150943
+P(Bicarbonate=Not Mentioned | HMPV=True) = 0.9433962264150944
+P(Bicarbonate=Normal | HMPV=True) = 0.018867924528301886
+P(Bicarbonate=High | HMPV=False) = 0.0016343230702416055
+P(Bicarbonate=Low | HMPV=False) = 0.00486868271274772
+P(Bicarbonate=Not Mentioned | HMPV=False) = 0.9078493222702233
+P(Bicarbonate=Normal | HMPV=False) = 0.08564767194678735
+P(Bicarbonate=High | HMPV=True) = 0.05660377358490566
+P(Bicarbonate=Low | HMPV=True) = 0.018867924528301886
+P(Bicarbonate=Not Mentioned | HMPV=True) = 0.5377358490566038
+P(Bicarbonate=Normal | HMPV=True) = 0.3867924528301887
+P(Bilirubin=High | HMPV=False) = 0.0042400969165009485
+P(Bilirubin=Low | HMPV=False) = 0.0013257445884477359
+P(Bilirubin=Not Mentioned | HMPV=False) = 0.9513131728725228
+P(Bilirubin=Normal | HMPV=False) = 0.043120985622528515
+P(Bilirubin=High | HMPV=True) = 0.018867924528301886
+P(Bilirubin=Low | HMPV=True) = 0.009433962264150943
+P(Bilirubin=Not Mentioned | HMPV=True) = 0.7924528301886793
+P(Bilirubin=Normal | HMPV=True) = 0.1792452830188679
+P(C reactive protein=High | HMPV=False) = 0.0012800292578116072
+P(C reactive protein=Low | HMPV=False) = 3.542938124299984E-4
+P(C reactive protein=Not Mentioned | HMPV=False) = 0.99751994331299
+P(C reactive protein=Normal | HMPV=False) = 8.457336167683833E-4
+P(C reactive protein=High | HMPV=True) = 0.10377358490566038
+P(C reactive protein=Low | HMPV=True) = 0.009433962264150943
+P(C reactive protein=Not Mentioned | HMPV=True) = 0.8018867924528302
+P(C reactive protein=Normal | HMPV=True) = 0.08490566037735849
+P(Calcium.ionized=High | HMPV=False) = 2.7429198381677297E-4
+P(Calcium.ionized=Low | HMPV=False) = 0.0022400512011703125
+P(Calcium.ionized=Not Mentioned | HMPV=False) = 0.991474090836362
+P(Calcium.ionized=Normal | HMPV=False) = 0.006011565978650941
+P(Calcium.ionized=High | HMPV=True) = 0.009433962264150943
+P(Calcium.ionized=Low | HMPV=True) = 0.009433962264150943
+P(Calcium.ionized=Not Mentioned | HMPV=True) = 0.7924528301886793
+P(Calcium.ionized=Normal | HMPV=True) = 0.18867924528301888
+P(Carbon dioxide=High | HMPV=False) = 5.257263023154815E-4
+P(Carbon dioxide=Low | HMPV=False) = 3.7715147774806284E-4
+P(Carbon dioxide=Not Mentioned | HMPV=False) = 0.9980456696153055
+P(Carbon dioxide=Normal | HMPV=False) = 0.001051452604630963
+P(Carbon dioxide=High | HMPV=True) = 0.03773584905660377
+P(Carbon dioxide=Low | HMPV=True) = 0.009433962264150943
+P(Carbon dioxide=Not Mentioned | HMPV=True) = 0.9339622641509434
+P(Carbon dioxide=Normal | HMPV=True) = 0.018867924528301886
+P(Carbon dioxide=High | HMPV=False) = 9.714507760177376E-4
+P(Carbon dioxide=Low | HMPV=False) = 0.0022400512011703125
+P(Carbon dioxide=Not Mentioned | HMPV=False) = 0.9946855928135501
+P(Carbon dioxide=Normal | HMPV=False) = 0.002102905209261926
+P(Carbon dioxide=High | HMPV=True) = 0.10377358490566038
+P(Carbon dioxide=Low | HMPV=True) = 0.05660377358490566
+P(Carbon dioxide=Not Mentioned | HMPV=True) = 0.7830188679245284
+P(Carbon dioxide=Normal | HMPV=True) = 0.05660377358490566
+P(Carboxyhemoglobin/Hemoglobin.total=High | HMPV=False) = 0.0016228942375825733
+P(Carboxyhemoglobin/Hemoglobin.total=Low | HMPV=False) = 1.1428832659032206E-5
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | HMPV=False) = 0.9980913849459416
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | HMPV=False) = 2.7429198381677297E-4
+P(Carboxyhemoglobin/Hemoglobin.total=High | HMPV=True) = 0.009433962264150943
+P(Carboxyhemoglobin/Hemoglobin.total=Low | HMPV=True) = 0.009433962264150943
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | HMPV=True) = 0.9339622641509434
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | HMPV=True) = 0.04716981132075472
+P(Hematocrit=High | HMPV=False) = 4.5715330636128826E-5
+P(Hematocrit=Low | HMPV=False) = 0.001382888751742897
+P(Hematocrit=Not Mentioned | HMPV=False) = 0.9967313538595168
+P(Hematocrit=Normal | HMPV=False) = 0.0018400420581041852
+P(Hematocrit=High | HMPV=True) = 0.018867924528301886
+P(Hematocrit=Low | HMPV=True) = 0.03773584905660377
+P(Hematocrit=Not Mentioned | HMPV=True) = 0.8207547169811321
+P(Hematocrit=Normal | HMPV=True) = 0.12264150943396226
+P(Chloride=High | HMPV=False) = 0.011737411140826076
+P(Chloride=Low | HMPV=False) = 0.004182952753205788
+P(Chloride=Not Mentioned | HMPV=False) = 0.9112665432352739
+P(Chloride=Normal | HMPV=False) = 0.0728130928706942
+P(Chloride=High | HMPV=True) = 0.05660377358490566
+P(Chloride=Low | HMPV=True) = 0.02830188679245283
+P(Chloride=Not Mentioned | HMPV=True) = 0.5283018867924528
+P(Chloride=Normal | HMPV=True) = 0.3867924528301887
+P(Creatine kinase=High | HMPV=False) = 0.0012571715924935428
+P(Creatine kinase=Low | HMPV=False) = 1.828613225445153E-4
+P(Creatine kinase=Not Mentioned | HMPV=False) = 0.9949598847973667
+P(Creatine kinase=Normal | HMPV=False) = 0.003600082287595145
+P(Creatine kinase=High | HMPV=True) = 0.009433962264150943
+P(Creatine kinase=Low | HMPV=True) = 0.009433962264150943
+P(Creatine kinase=Not Mentioned | HMPV=True) = 0.9622641509433962
+P(Creatine kinase=Normal | HMPV=True) = 0.018867924528301886
+P(Creatinine=High | HMPV=False) = 0.008480193833001897
+P(Creatinine=Low | HMPV=False) = 0.0018628997234222497
+P(Creatinine=Not Mentioned | HMPV=False) = 0.9076436032823607
+P(Creatinine=Normal | HMPV=False) = 0.08201330316121512
+P(Creatinine=High | HMPV=True) = 0.02830188679245283
+P(Creatinine=Low | HMPV=True) = 0.018867924528301886
+P(Creatinine=Not Mentioned | HMPV=True) = 0.5283018867924528
+P(Creatinine=Normal | HMPV=True) = 0.42452830188679247
+P(Glucose=High | HMPV=False) = 0.01601179455530412
+P(Glucose=Low | HMPV=False) = 4.5715330636128825E-4
+P(Glucose=Not Mentioned | HMPV=False) = 0.9686507120162746
+P(Glucose=Normal | HMPV=False) = 0.014880340122059932
+P(Glucose=High | HMPV=True) = 0.1509433962264151
+P(Glucose=Low | HMPV=True) = 0.009433962264150943
+P(Glucose=Not Mentioned | HMPV=True) = 0.660377358490566
+P(Glucose=Normal | HMPV=True) = 0.1792452830188679
+P(Glucose=High | HMPV=False) = 1.1428832659032206E-4
+P(Glucose=Low | HMPV=False) = 1.1428832659032206E-5
+P(Glucose=Not Mentioned | HMPV=False) = 0.9990742645546183
+P(Glucose=Normal | HMPV=False) = 8.000182861322545E-4
+P(Glucose=High | HMPV=True) = 0.009433962264150943
+P(Glucose=Low | HMPV=True) = 0.018867924528301886
+P(Glucose=Not Mentioned | HMPV=True) = 0.9528301886792453
+P(Glucose=Normal | HMPV=True) = 0.018867924528301886
+P(Glucose=High | HMPV=False) = 0.04004662963724885
+P(Glucose=Low | HMPV=False) = 9.828796086767697E-4
+P(Glucose=Not Mentioned | HMPV=False) = 0.9086379117236966
+P(Glucose=Normal | HMPV=False) = 0.050332579030377834
+P(Glucose=High | HMPV=True) = 0.1792452830188679
+P(Glucose=Low | HMPV=True) = 0.009433962264150943
+P(Glucose=Not Mentioned | HMPV=True) = 0.5283018867924528
+P(Glucose=Normal | HMPV=True) = 0.2830188679245283
+P(Methemoglobin/Hemoglobin.total=High | HMPV=False) = 5.257263023154815E-4
+P(Methemoglobin/Hemoglobin.total=Low | HMPV=False) = 1.1428832659032206E-5
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | HMPV=False) = 0.9992342682118448
+P(Methemoglobin/Hemoglobin.total=Normal | HMPV=False) = 2.2857665318064412E-4
+P(Methemoglobin/Hemoglobin.total=High | HMPV=True) = 0.02830188679245283
+P(Methemoglobin/Hemoglobin.total=Low | HMPV=True) = 0.009433962264150943
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | HMPV=True) = 0.9528301886792453
+P(Methemoglobin/Hemoglobin.total=Normal | HMPV=True) = 0.009433962264150943
+P(Eosinophils/100 leukocytes=High | HMPV=False) = 0.0013600310864248326
+P(Eosinophils/100 leukocytes=Low | HMPV=False) = 0.0023429106951016023
+P(Eosinophils/100 leukocytes=Not Mentioned | HMPV=False) = 0.9759423072527372
+P(Eosinophils/100 leukocytes=Normal | HMPV=False) = 0.02035475096573636
+P(Eosinophils/100 leukocytes=High | HMPV=True) = 0.009433962264150943
+P(Eosinophils/100 leukocytes=Low | HMPV=True) = 0.018867924528301886
+P(Eosinophils/100 leukocytes=Not Mentioned | HMPV=True) = 0.9056603773584906
+P(Eosinophils/100 leukocytes=Normal | HMPV=True) = 0.0660377358490566
+P(Monocytes/100 leukocytes=High | HMPV=False) = 0.0019200438867174106
+P(Monocytes/100 leukocytes=Low | HMPV=False) = 9.600219433587053E-4
+P(Monocytes/100 leukocytes=Not Mentioned | HMPV=False) = 0.9738279732108163
+P(Monocytes/100 leukocytes=Normal | HMPV=False) = 0.023291960959107638
+P(Monocytes/100 leukocytes=High | HMPV=True) = 0.009433962264150943
+P(Monocytes/100 leukocytes=Low | HMPV=True) = 0.009433962264150943
+P(Monocytes/100 leukocytes=Not Mentioned | HMPV=True) = 0.9056603773584906
+P(Monocytes/100 leukocytes=Normal | HMPV=True) = 0.07547169811320754
+P(Neutrophils.segmented/100 leukocytes=High | HMPV=False) = 0.004000091430661272
+P(Neutrophils.segmented/100 leukocytes=Low | HMPV=False) = 0.0013257445884477359
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | HMPV=False) = 0.9764794623877118
+P(Neutrophils.segmented/100 leukocytes=Normal | HMPV=False) = 0.018194701593179274
+P(Neutrophils.segmented/100 leukocytes=High | HMPV=True) = 0.02830188679245283
+P(Neutrophils.segmented/100 leukocytes=Low | HMPV=True) = 0.009433962264150943
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | HMPV=True) = 0.9056603773584906
+P(Neutrophils.segmented/100 leukocytes=Normal | HMPV=True) = 0.05660377358490566
+P(Oxygen=High | HMPV=False) = 7.657317881551579E-4
+P(Oxygen=Low | HMPV=False) = 2.4000548583967633E-4
+P(Oxygen=Not Mentioned | HMPV=False) = 0.9984799652563487
+P(Oxygen=Normal | HMPV=False) = 5.142974696564493E-4
+P(Oxygen=High | HMPV=True) = 0.018867924528301886
+P(Oxygen=Low | HMPV=True) = 0.018867924528301886
+P(Oxygen=Not Mentioned | HMPV=True) = 0.9433962264150944
+P(Oxygen=Normal | HMPV=True) = 0.018867924528301886
+P(Oxygen=High | HMPV=False) = 0.001828613225445153
+P(Oxygen=Low | HMPV=False) = 9.143066127225765E-5
+P(Oxygen=Not Mentioned | HMPV=False) = 0.9972570801618322
+P(Oxygen=Normal | HMPV=False) = 8.228759514503189E-4
+P(Oxygen=High | HMPV=True) = 0.0660377358490566
+P(Oxygen=Low | HMPV=True) = 0.018867924528301886
+P(Oxygen=Not Mentioned | HMPV=True) = 0.8962264150943396
+P(Oxygen=Normal | HMPV=True) = 0.018867924528301886
+P(Oxygen saturation=High | HMPV=False) = 1.2571715924935428E-4
+P(Oxygen saturation=Low | HMPV=False) = 2.1714782052161192E-4
+P(Oxygen saturation=Not Mentioned | HMPV=False) = 0.9994285583670484
+P(Oxygen saturation=Normal | HMPV=False) = 2.2857665318064412E-4
+P(Oxygen saturation=High | HMPV=True) = 0.009433962264150943
+P(Oxygen saturation=Low | HMPV=True) = 0.02830188679245283
+P(Oxygen saturation=Not Mentioned | HMPV=True) = 0.9433962264150944
+P(Oxygen saturation=Normal | HMPV=True) = 0.018867924528301886
+P(Oxyhemoglobin/Hemoglobin.total=High | HMPV=False) = 2.2857665318064413E-5
+P(Oxyhemoglobin/Hemoglobin.total=Low | HMPV=False) = 1.0285949393128986E-4
+P(Oxyhemoglobin/Hemoglobin.total=Not Mentioned | HMPV=False) = 0.9994514160323664
+P(Oxyhemoglobin/Hemoglobin.total=Normal | HMPV=False) = 4.2286680838419166E-4
+P(Oxyhemoglobin/Hemoglobin.total=High | HMPV=True) = 0.009433962264150943
+P(Oxyhemoglobin/Hemoglobin.total=Low | HMPV=True) = 0.009433962264150943
+P(Oxyhemoglobin/Hemoglobin.total=Not Mentioned | HMPV=True) = 0.9528301886792453
+P(Oxyhemoglobin/Hemoglobin.total=Normal | HMPV=True) = 0.02830188679245283
+P(pH=High | HMPV=False) = 3.3143614711193397E-4
+P(pH=Low | HMPV=False) = 6.971587922009646E-4
+P(pH=Not Mentioned | HMPV=False) = 0.9979770966193513
+P(pH=Normal | HMPV=False) = 9.94308441335802E-4
+P(pH=High | HMPV=True) = 0.009433962264150943
+P(pH=Low | HMPV=True) = 0.02830188679245283
+P(pH=Not Mentioned | HMPV=True) = 0.8962264150943396
+P(pH=Normal | HMPV=True) = 0.0660377358490566
+P(pH=High | HMPV=False) = 9.600219433587053E-4
+P(pH=Low | HMPV=False) = 9.600219433587053E-4
+P(pH=Not Mentioned | HMPV=False) = 0.9946970216462091
+P(pH=Normal | HMPV=False) = 0.0033829344670735333
+P(pH=High | HMPV=True) = 0.03773584905660377
+P(pH=Low | HMPV=True) = 0.04716981132075472
+P(pH=Not Mentioned | HMPV=True) = 0.8018867924528302
+P(pH=Normal | HMPV=True) = 0.11320754716981132
+P(Phosphate=High | HMPV=False) = 0.0011657409312212852
+P(Phosphate=Low | HMPV=False) = 0.002217193535852248
+P(Phosphate=Not Mentioned | HMPV=False) = 0.9806395574755994
+P(Phosphate=Normal | HMPV=False) = 0.015977508057327023
+P(Phosphate=High | HMPV=True) = 0.018867924528301886
+P(Phosphate=Low | HMPV=True) = 0.10377358490566038
+P(Phosphate=Not Mentioned | HMPV=True) = 0.6792452830188679
+P(Phosphate=Normal | HMPV=True) = 0.19811320754716982
+P(Potassium=High | HMPV=False) = 0.002160049372557087
+P(Potassium=Low | HMPV=False) = 0.008868774143408992
+P(Potassium=Not Mentioned | HMPV=False) = 0.9101008023040527
+P(Potassium=Normal | HMPV=False) = 0.07887037417998126
+P(Potassium=High | HMPV=True) = 0.009433962264150943
+P(Potassium=Low | HMPV=True) = 0.02830188679245283
+P(Potassium=Not Mentioned | HMPV=True) = 0.5283018867924528
+P(Potassium=Normal | HMPV=True) = 0.4339622641509434
+P(Protein=High | HMPV=False) = 0.0058858488194015865
+P(Protein=Low | HMPV=False) = 0.0063315732931038425
+P(Protein=Not Mentioned | HMPV=False) = 0.949953141786098
+P(Protein=Normal | HMPV=False) = 0.0378294361013966
+P(Protein=High | HMPV=True) = 0.018867924528301886
+P(Protein=Low | HMPV=True) = 0.05660377358490566
+P(Protein=Not Mentioned | HMPV=True) = 0.7735849056603774
+P(Protein=Normal | HMPV=True) = 0.1509433962264151
+P(Sodium=High | HMPV=False) = 1.1428832659032206E-4
+P(Sodium=Low | HMPV=False) = 0.0010857391026080597
+P(Sodium=Not Mentioned | HMPV=False) = 0.9941712953438936
+P(Sodium=Normal | HMPV=False) = 0.004628677226908044
+P(Sodium=High | HMPV=True) = 0.009433962264150943
+P(Sodium=Low | HMPV=True) = 0.009433962264150943
+P(Sodium=Not Mentioned | HMPV=True) = 0.8207547169811321
+P(Sodium=Normal | HMPV=True) = 0.16037735849056603
+P(Sodium=High | HMPV=False) = 2.4000548583967633E-4
+P(Sodium=Low | HMPV=False) = 0.019451873185672815
+P(Sodium=Not Mentioned | HMPV=False) = 0.9114494045578184
+P(Sodium=Normal | HMPV=False) = 0.06885871677066904
+P(Sodium=High | HMPV=True) = 0.009433962264150943
+P(Sodium=Low | HMPV=True) = 0.03773584905660377
+P(Sodium=Not Mentioned | HMPV=True) = 0.5283018867924528
+P(Sodium=Normal | HMPV=True) = 0.42452830188679247
+P(Specific gravity=High | HMPV=False) = 0.001874328556081282
+P(Specific gravity=Low | HMPV=False) = 0.0021486205398980546
+P(Specific gravity=Not Mentioned | HMPV=False) = 0.9624677135477382
+P(Specific gravity=Normal | HMPV=False) = 0.03350933735628243
+P(Specific gravity=High | HMPV=True) = 0.02830188679245283
+P(Specific gravity=Low | HMPV=True) = 0.009433962264150943
+P(Specific gravity=Not Mentioned | HMPV=True) = 0.6981132075471698
+P(Specific gravity=Normal | HMPV=True) = 0.2641509433962264
+P(Basophils/100 leukocytes=High | HMPV=False) = 0.0013028869231296715
+P(Basophils/100 leukocytes=Low | HMPV=False) = 5.942992982696748E-4
+P(Basophils/100 leukocytes=Not Mentioned | HMPV=False) = 0.9763766028937805
+P(Basophils/100 leukocytes=Normal | HMPV=False) = 0.021726210884820223
+P(Basophils/100 leukocytes=High | HMPV=True) = 0.009433962264150943
+P(Basophils/100 leukocytes=Low | HMPV=True) = 0.009433962264150943
+P(Basophils/100 leukocytes=Not Mentioned | HMPV=True) = 0.9150943396226415
+P(Basophils/100 leukocytes=Normal | HMPV=True) = 0.0660377358490566
+P(Hemoglobin=High | HMPV=False) = 1.1428832659032206E-5
+P(Hemoglobin=Low | HMPV=False) = 9.714507760177376E-4
+P(Hemoglobin=Not Mentioned | HMPV=False) = 0.9987313995748475
+P(Hemoglobin=Normal | HMPV=False) = 2.8572081647580515E-4
+P(Hemoglobin=High | HMPV=True) = 0.009433962264150943
+P(Hemoglobin=Low | HMPV=True) = 0.02830188679245283
+P(Hemoglobin=Not Mentioned | HMPV=True) = 0.9528301886792453
+P(Hemoglobin=Normal | HMPV=True) = 0.009433962264150943
+P(Hemoglobin=High | HMPV=False) = 1.1428832659032206E-5
+P(Hemoglobin=Low | HMPV=False) = 2.2857665318064413E-5
+P(Hemoglobin=Not Mentioned | HMPV=False) = 0.9999199981713868
+P(Hemoglobin=Normal | HMPV=False) = 4.5715330636128826E-5
+P(Hemoglobin=High | HMPV=True) = 0.009433962264150943
+P(Hemoglobin=Low | HMPV=True) = 0.018867924528301886
+P(Hemoglobin=Not Mentioned | HMPV=True) = 0.9528301886792453
+P(Hemoglobin=Normal | HMPV=True) = 0.018867924528301886
+P(Urea nitrogen=High | HMPV=False) = 0.007588744885597385
+P(Urea nitrogen=Low | HMPV=False) = 0.006503005782989325
+P(Urea nitrogen=Not Mentioned | HMPV=False) = 0.9092550686872842
+P(Urea nitrogen=Normal | HMPV=False) = 0.07665318064412902
+P(Urea nitrogen=High | HMPV=True) = 0.05660377358490566
+P(Urea nitrogen=Low | HMPV=True) = 0.018867924528301886
+P(Urea nitrogen=Not Mentioned | HMPV=True) = 0.5377358490566038
+P(Urea nitrogen=Normal | HMPV=True) = 0.3867924528301887
+P(Platelet mean volume=High | HMPV=False) = 0.0024114836910557958
+P(Platelet mean volume=Low | HMPV=False) = 0.002948638826030309
+P(Platelet mean volume=Not Mentioned | HMPV=False) = 0.9060549955427553
+P(Platelet mean volume=Normal | HMPV=False) = 0.08858488194015864
+P(Platelet mean volume=High | HMPV=True) = 0.009433962264150943
+P(Platelet mean volume=Low | HMPV=True) = 0.02830188679245283
+P(Platelet mean volume=Not Mentioned | HMPV=True) = 0.5188679245283019
+P(Platelet mean volume=Normal | HMPV=True) = 0.44339622641509435
+P(Lactate=High | HMPV=False) = 0.0013600310864248326
+P(Lactate=Low | HMPV=False) = 1.2571715924935428E-4
+P(Lactate=Not Mentioned | HMPV=False) = 0.9911197970239319
+P(Lactate=Normal | HMPV=False) = 0.007394454730393837
+P(Lactate=High | HMPV=True) = 0.02830188679245283
+P(Lactate=Low | HMPV=True) = 0.009433962264150943
+P(Lactate=Not Mentioned | HMPV=True) = 0.8584905660377359
+P(Lactate=Normal | HMPV=True) = 0.10377358490566038
+P(Anion gap=High | HMPV=False) = 0.006148711970559327
+P(Anion gap=Low | HMPV=False) = 8.800201147454798E-4
+P(Anion gap=Not Mentioned | HMPV=False) = 0.908797915380923
+P(Anion gap=Normal | HMPV=False) = 0.0841733525337722
+P(Anion gap=High | HMPV=True) = 0.08490566037735849
+P(Anion gap=Low | HMPV=True) = 0.03773584905660377
+P(Anion gap=Not Mentioned | HMPV=True) = 0.5471698113207547
+P(Anion gap=Normal | HMPV=True) = 0.330188679245283
+P(Vancomycin^trough=High | HMPV=False) = 2.971496491348374E-4
+P(Vancomycin^trough=Low | HMPV=False) = 5.828704656106426E-4
+P(Vancomycin^trough=Not Mentioned | HMPV=False) = 0.9976228028069213
+P(Vancomycin^trough=Normal | HMPV=False) = 0.001497177078333219
+P(Vancomycin^trough=High | HMPV=True) = 0.02830188679245283
+P(Vancomycin^trough=Low | HMPV=True) = 0.05660377358490566
+P(Vancomycin^trough=Not Mentioned | HMPV=True) = 0.839622641509434
+P(Vancomycin^trough=Normal | HMPV=True) = 0.07547169811320754
+P(Hematocrit=High | HMPV=False) = 0.004434387071704496
+P(Hematocrit=Low | HMPV=False) = 0.025143431849870855
+P(Hematocrit=Not Mentioned | HMPV=False) = 0.9037349425129717
+P(Hematocrit=Normal | HMPV=False) = 0.06668723856545293
+P(Hematocrit=High | HMPV=True) = 0.03773584905660377
+P(Hematocrit=Low | HMPV=True) = 0.16037735849056603
+P(Hematocrit=Not Mentioned | HMPV=True) = 0.5
+P(Hematocrit=Normal | HMPV=True) = 0.3018867924528302
+P(Hemoglobin=High | HMPV=False) = 6.857299595419324E-5
+P(Hemoglobin=Low | HMPV=False) = 7.543029554961257E-4
+P(Hemoglobin=Not Mentioned | HMPV=False) = 0.9981371002765778
+P(Hemoglobin=Normal | HMPV=False) = 0.0010400237719719308
+P(Hemoglobin=High | HMPV=True) = 0.009433962264150943
+P(Hemoglobin=Low | HMPV=True) = 0.009433962264150943
+P(Hemoglobin=Not Mentioned | HMPV=True) = 0.9622641509433962
+P(Hemoglobin=Normal | HMPV=True) = 0.018867924528301886
+P(pH=High | HMPV=False) = 0.0010743102699490273
+P(pH=Low | HMPV=False) = 1.1428832659032206E-5
+P(pH=Not Mentioned | HMPV=False) = 0.9577361768268989
+P(pH=Normal | HMPV=False) = 0.04117808407049304
+P(pH=High | HMPV=True) = 0.009433962264150943
+P(pH=Low | HMPV=True) = 0.009433962264150943
+P(pH=Not Mentioned | HMPV=True) = 0.6981132075471698
+P(pH=Normal | HMPV=True) = 0.2830188679245283
+P(Leukocytes=High | HMPV=False) = 0.0069258725913735174
+P(Leukocytes=Low | HMPV=False) = 1.1428832659032206E-5
+P(Leukocytes=Not Mentioned | HMPV=False) = 0.9818738714027749
+P(Leukocytes=Normal | HMPV=False) = 0.01118882717319253
+P(Leukocytes=High | HMPV=True) = 0.03773584905660377
+P(Leukocytes=Low | HMPV=True) = 0.009433962264150943
+P(Leukocytes=Not Mentioned | HMPV=True) = 0.8584905660377359
+P(Leukocytes=Normal | HMPV=True) = 0.09433962264150944
+P(Monocytes/100 leukocytes=High | HMPV=False) = 0.005017257537315138
+P(Monocytes/100 leukocytes=Low | HMPV=False) = 9.257354453816088E-4
+P(Monocytes/100 leukocytes=Not Mentioned | HMPV=False) = 0.9477130905849277
+P(Monocytes/100 leukocytes=Normal | HMPV=False) = 0.0463439164323756
+P(Monocytes/100 leukocytes=High | HMPV=True) = 0.14150943396226415
+P(Monocytes/100 leukocytes=Low | HMPV=True) = 0.02830188679245283
+P(Monocytes/100 leukocytes=Not Mentioned | HMPV=True) = 0.5943396226415094
+P(Monocytes/100 leukocytes=Normal | HMPV=True) = 0.2358490566037736
+P(Potassium=High | HMPV=False) = 5.485839676335459E-4
+P(Potassium=Low | HMPV=False) = 0.0010400237719719308
+P(Potassium=Not Mentioned | HMPV=False) = 0.9943655854990971
+P(Potassium=Normal | HMPV=False) = 0.004045806761297401
+P(Potassium=High | HMPV=True) = 0.009433962264150943
+P(Potassium=Low | HMPV=True) = 0.03773584905660377
+P(Potassium=Not Mentioned | HMPV=True) = 0.8113207547169812
+P(Potassium=Normal | HMPV=True) = 0.14150943396226415
+P(Leukocytes=High | HMPV=False) = 0.0128460079087522
+P(Leukocytes=Low | HMPV=False) = 0.003051498319961599
+P(Leukocytes=Not Mentioned | HMPV=False) = 0.9041235228233788
+P(Leukocytes=Normal | HMPV=False) = 0.07997897094790737
+P(Leukocytes=High | HMPV=True) = 0.02830188679245283
+P(Leukocytes=Low | HMPV=True) = 0.07547169811320754
+P(Leukocytes=Not Mentioned | HMPV=True) = 0.5
+P(Leukocytes=Normal | HMPV=True) = 0.39622641509433965
+P(Alkaline phosphatase=High | HMPV=False) = 0.0067658689341470665
+P(Alkaline phosphatase=Low | HMPV=False) = 8.914489474045121E-4
+P(Alkaline phosphatase=Not Mentioned | HMPV=False) = 0.9505817275823447
+P(Alkaline phosphatase=Normal | HMPV=False) = 0.041760954536103685
+P(Alkaline phosphatase=High | HMPV=True) = 0.02830188679245283
+P(Alkaline phosphatase=Low | HMPV=True) = 0.009433962264150943
+P(Alkaline phosphatase=Not Mentioned | HMPV=True) = 0.839622641509434
+P(Alkaline phosphatase=Normal | HMPV=True) = 0.12264150943396226
+P(Basophils/100 leukocytes=High | HMPV=False) = 0.001108596767926124
+P(Basophils/100 leukocytes=Low | HMPV=False) = 1.1428832659032206E-5
+P(Basophils/100 leukocytes=Not Mentioned | HMPV=False) = 0.9708907632174449
+P(Basophils/100 leukocytes=Normal | HMPV=False) = 0.027989211181969873
+P(Basophils/100 leukocytes=High | HMPV=True) = 0.018867924528301886
+P(Basophils/100 leukocytes=Low | HMPV=True) = 0.009433962264150943
+P(Basophils/100 leukocytes=Not Mentioned | HMPV=True) = 0.8113207547169812
+P(Basophils/100 leukocytes=Normal | HMPV=True) = 0.16037735849056603
+P(Eosinophils=High | HMPV=False) = 0.002708633340190633
+P(Eosinophils=Low | HMPV=False) = 9.257354453816088E-4
+P(Eosinophils=Not Mentioned | HMPV=False) = 0.9378728656655009
+P(Eosinophils=Normal | HMPV=False) = 0.05849276554892683
+P(Eosinophils=High | HMPV=True) = 0.009433962264150943
+P(Eosinophils=Low | HMPV=True) = 0.16981132075471697
+P(Eosinophils=Not Mentioned | HMPV=True) = 0.6415094339622641
+P(Eosinophils=Normal | HMPV=True) = 0.1792452830188679
+P(Eosinophils/100 leukocytes=High | HMPV=False) = 0.003371505634414501
+P(Eosinophils/100 leukocytes=Low | HMPV=False) = 3.428649797709662E-5
+P(Eosinophils/100 leukocytes=Not Mentioned | HMPV=False) = 0.953507508743057
+P(Eosinophils/100 leukocytes=Normal | HMPV=False) = 0.04308669912455142
+P(Eosinophils/100 leukocytes=High | HMPV=True) = 0.018867924528301886
+P(Eosinophils/100 leukocytes=Low | HMPV=True) = 0.009433962264150943
+P(Eosinophils/100 leukocytes=Not Mentioned | HMPV=True) = 0.8018867924528302
+P(Eosinophils/100 leukocytes=Normal | HMPV=True) = 0.16981132075471697
+P(Hemoglobin=High | HMPV=False) = 0.0025714873482822463
+P(Hemoglobin=Low | HMPV=False) = 0.030183547052504058
+P(Hemoglobin=Not Mentioned | HMPV=False) = 0.9046263914603763
+P(Hemoglobin=Normal | HMPV=False) = 0.06261857413883747
+P(Hemoglobin=High | HMPV=True) = 0.02830188679245283
+P(Hemoglobin=Low | HMPV=True) = 0.2169811320754717
+P(Hemoglobin=Not Mentioned | HMPV=True) = 0.5
+P(Hemoglobin=Normal | HMPV=True) = 0.25471698113207547
+P(Lymphocytes=High | HMPV=False) = 0.0019657592173535393
+P(Lymphocytes=Low | HMPV=False) = 0.009771651923472537
+P(Lymphocytes=Not Mentioned | HMPV=False) = 0.9236096825070287
+P(Lymphocytes=Normal | HMPV=False) = 0.0646529063521452
+P(Lymphocytes=High | HMPV=True) = 0.009433962264150943
+P(Lymphocytes=Low | HMPV=True) = 0.20754716981132076
+P(Lymphocytes=Not Mentioned | HMPV=True) = 0.5188679245283019
+P(Lymphocytes=Normal | HMPV=True) = 0.2641509433962264
+P(Lymphocytes/100 leukocytes=High | HMPV=False) = 0.004674392557544173
+P(Lymphocytes/100 leukocytes=Low | HMPV=False) = 0.01729182381311573
+P(Lymphocytes/100 leukocytes=Not Mentioned | HMPV=False) = 0.9212439141466091
+P(Lymphocytes/100 leukocytes=Normal | HMPV=False) = 0.056789869482731035
+P(Lymphocytes/100 leukocytes=High | HMPV=True) = 0.018867924528301886
+P(Lymphocytes/100 leukocytes=Low | HMPV=True) = 0.19811320754716982
+P(Lymphocytes/100 leukocytes=Not Mentioned | HMPV=True) = 0.5094339622641509
+P(Lymphocytes/100 leukocytes=Normal | HMPV=True) = 0.27358490566037735
+P(Monocytes=High | HMPV=False) = 0.01025166289515189
+P(Monocytes=Low | HMPV=False) = 0.0019657592173535393
+P(Monocytes=Not Mentioned | HMPV=False) = 0.9270611899700565
+P(Monocytes=Normal | HMPV=False) = 0.06072138791743811
+P(Monocytes=High | HMPV=True) = 0.1320754716981132
+P(Monocytes=Low | HMPV=True) = 0.02830188679245283
+P(Monocytes=Not Mentioned | HMPV=True) = 0.5188679245283019
+P(Monocytes=Normal | HMPV=True) = 0.32075471698113206
+P(Neutrophils=High | HMPV=False) = 0.011645980479553819
+P(Neutrophils=Low | HMPV=False) = 0.0038286589407757893
+P(Neutrophils=Not Mentioned | HMPV=False) = 0.9223753685798532
+P(Neutrophils=Normal | HMPV=False) = 0.06214999199981714
+P(Neutrophils=High | HMPV=True) = 0.0660377358490566
+P(Neutrophils=Low | HMPV=True) = 0.04716981132075472
+P(Neutrophils=Not Mentioned | HMPV=True) = 0.5188679245283019
+P(Neutrophils=Normal | HMPV=True) = 0.36792452830188677
+P(Neutrophils.band form/100 leukocytes=High | HMPV=False) = 8.800201147454798E-4
+P(Neutrophils.band form/100 leukocytes=Low | HMPV=False) = 9.94308441335802E-4
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | HMPV=False) = 0.9952913209444787
+P(Neutrophils.band form/100 leukocytes=Normal | HMPV=False) = 0.002834350499439987
+P(Neutrophils.band form/100 leukocytes=High | HMPV=True) = 0.05660377358490566
+P(Neutrophils.band form/100 leukocytes=Low | HMPV=True) = 0.0660377358490566
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | HMPV=True) = 0.7735849056603774
+P(Neutrophils.band form/100 leukocytes=Normal | HMPV=True) = 0.10377358490566038
+P(Neutrophils/100 leukocytes=High | HMPV=False) = 0.013977462341996389
+P(Neutrophils/100 leukocytes=Low | HMPV=False) = 0.0033143614711193398
+P(Neutrophils/100 leukocytes=Not Mentioned | HMPV=False) = 0.9438272874808568
+P(Neutrophils/100 leukocytes=Normal | HMPV=False) = 0.038880888706027565
+P(Neutrophils/100 leukocytes=High | HMPV=True) = 0.19811320754716982
+P(Neutrophils/100 leukocytes=Low | HMPV=True) = 0.02830188679245283
+P(Neutrophils/100 leukocytes=Not Mentioned | HMPV=True) = 0.5754716981132075
+P(Neutrophils/100 leukocytes=Normal | HMPV=True) = 0.19811320754716982
+P(Platelets=High | HMPV=False) = 0.00533726485176804
+P(Platelets=Low | HMPV=False) = 0.010228805229833824
+P(Platelets=Not Mentioned | HMPV=False) = 0.903849230839562
+P(Platelets=Normal | HMPV=False) = 0.08058469907883609
+P(Platelets=High | HMPV=True) = 0.05660377358490566
+P(Platelets=Low | HMPV=True) = 0.07547169811320754
+P(Platelets=Not Mentioned | HMPV=True) = 0.5
+P(Platelets=Normal | HMPV=True) = 0.36792452830188677
+P(Erythrocyte mean corpuscular hemoglobin=High | HMPV=False) = 0.006125854305241263
+P(Erythrocyte mean corpuscular hemoglobin=Low | HMPV=False) = 0.016194655877848636
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | HMPV=False) = 0.904534960799104
+P(Erythrocyte mean corpuscular hemoglobin=Normal | HMPV=False) = 0.07314452901780612
+P(Erythrocyte mean corpuscular hemoglobin=High | HMPV=True) = 0.02830188679245283
+P(Erythrocyte mean corpuscular hemoglobin=Low | HMPV=True) = 0.1509433962264151
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | HMPV=True) = 0.5
+P(Erythrocyte mean corpuscular hemoglobin=Normal | HMPV=True) = 0.32075471698113206
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | HMPV=False) = 7.885894534732222E-4
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | HMPV=False) = 0.026389174609705364
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | HMPV=False) = 0.9055178404077807
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | HMPV=False) = 0.06730439552904066
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | HMPV=True) = 0.018867924528301886
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | HMPV=True) = 0.1320754716981132
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | HMPV=True) = 0.5
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | HMPV=True) = 0.3490566037735849
+P(Erythrocyte mean corpuscular volume=High | HMPV=False) = 0.007588744885597385
+P(Erythrocyte mean corpuscular volume=Low | HMPV=False) = 0.00885734531074996
+P(Erythrocyte mean corpuscular volume=Not Mentioned | HMPV=False) = 0.903837802006903
+P(Erythrocyte mean corpuscular volume=Normal | HMPV=False) = 0.07971610779674965
+P(Erythrocyte mean corpuscular volume=High | HMPV=True) = 0.09433962264150944
+P(Erythrocyte mean corpuscular volume=Low | HMPV=True) = 0.02830188679245283
+P(Erythrocyte mean corpuscular volume=Not Mentioned | HMPV=True) = 0.5
+P(Erythrocyte mean corpuscular volume=Normal | HMPV=True) = 0.37735849056603776
+P(Erythrocyte distribution width=High | HMPV=False) = 0.025920592470685046
+P(Erythrocyte distribution width=Low | HMPV=False) = 4.5715330636128826E-5
+P(Erythrocyte distribution width=Not Mentioned | HMPV=False) = 0.9046721067910124
+P(Erythrocyte distribution width=Normal | HMPV=False) = 0.06936158540766646
+P(Erythrocyte distribution width=High | HMPV=True) = 0.16981132075471697
+P(Erythrocyte distribution width=Low | HMPV=True) = 0.009433962264150943
+P(Erythrocyte distribution width=Not Mentioned | HMPV=True) = 0.5094339622641509
+P(Erythrocyte distribution width=Normal | HMPV=True) = 0.3113207547169811
+P(Erythrocytes=High | HMPV=False) = 0.004754394386157398
+P(Erythrocytes=Low | HMPV=False) = 0.023291960959107638
+P(Erythrocytes=Not Mentioned | HMPV=False) = 0.9038606596722211
+P(Erythrocytes=Normal | HMPV=False) = 0.06809298498251388
+P(Erythrocytes=High | HMPV=True) = 0.02830188679245283
+P(Erythrocytes=Low | HMPV=True) = 0.11320754716981132
+P(Erythrocytes=Not Mentioned | HMPV=True) = 0.5
+P(Erythrocytes=Normal | HMPV=True) = 0.3584905660377358

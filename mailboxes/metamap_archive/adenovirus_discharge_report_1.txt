@@ -1,0 +1,65 @@
+--- Discharge Report #1 ---
+Emergency Department Discharge Summary
+
+Patient Name: Maria L. Ramirez
+MRN: 0192837465
+Date of Birth: 1985-04-17
+Date of Visit: 06/05/2025
+Time of Visit: 02:12 PM
+Date of Discharge: 06/05/2025
+Time of Discharge: 06:18 PM
+
+Chief Complaint:
+Fever, sore throat, conjunctival redness, and cough.
+
+History of Present Illness:
+Patient presented with 3 days of fever (max 101.7°F), sore throat, non-productive cough, and red, watery eyes. Denies ear pain, chest pain, or shortness of breath. No known sick contacts. Symptoms began gradually and have worsened over the past day.
+
+Vital Signs on Arrival:
+- Temp: 101.2°F
+- BP: 114/70 mmHg
+- HR: 96 bpm
+- RR: 18/min
+- O2 Sat: 98% on room air
+
+Physical Examination:
+- General: Alert, mild discomfort
+- HEENT: Conjunctival injection bilaterally, pharyngeal erythema without exudate
+- Lungs: Clear to auscultation
+- Heart: Normal rate and rhythm
+- Abdomen: Soft, non-tender
+
+Diagnostics:
+- Respiratory panel: Positive for Adenovirus
+- COVID-19 antigen: Negative
+- Rapid strep test: Negative
+- Chest X-ray: Clear
+- CBC: Mild leukocytosis
+
+Diagnosis:
+- Adenovirus Infection (ICD-10: B34.0)
+
+Treatment:
+- Supportive care
+- Acetaminophen 650 mg PO for fever
+- Artificial tears for conjunctival irritation
+
+Discharge Medications:
+- Acetaminophen 500 mg PO q6h PRN
+- Artificial tears PRN
+- Rest and fluids
+
+Instructions:
+- Maintain hydration and rest
+- Avoid close contact with others until fever resolves
+- Return if symptoms worsen or fever persists >5 days
+
+Follow-Up:
+- Primary care provider within 3–5 days
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

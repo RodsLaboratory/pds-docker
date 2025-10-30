@@ -1,0 +1,63 @@
+--- Discharge Report #1 ---
+Emergency Department Discharge Summary
+
+Patient Name: Maria L. Ramirez
+MRN: 0192837465
+Date of Birth: 1985-04-17
+Date of Visit: 06/05/2025
+Time of Visit: 01:12 PM
+Date of Discharge: 06/05/2025
+Time of Discharge: 03:54 PM
+
+Chief Complaint:
+Fever, headache, sore throat, and gastrointestinal upset.
+
+History of Present Illness:
+Patient presented with 2 days of moderate fever (up to 101.3°F), headache, sore throat, nausea, and diarrhea. Symptoms are non-bloody and without abdominal pain. Denies shortness of breath, chest pain, or known COVID-19 exposure.
+
+Vital Signs on Arrival:
+- Temp: 100.9°F
+- BP: 112/68 mmHg
+- HR: 92 bpm
+- RR: 18/min
+- O2 Sat: 99% on room air
+
+Physical Examination:
+- General: Alert, mild fatigue
+- HEENT: Mild pharyngeal erythema
+- Lungs: Clear
+- Heart: Regular rhythm, no murmurs
+- Abdomen: Soft, mildly hyperactive bowel sounds, non-tender
+
+Diagnostics:
+- Respiratory panel: Positive for Enterovirus
+- COVID-19 antigen: Negative
+- Stool panel: Negative for bacterial pathogens
+- CBC: Normal limits
+
+Diagnosis:
+- Enterovirus Infection (ICD-10: B34.1)
+
+Treatment:
+- Acetaminophen 650 mg PO for fever
+- Oral rehydration therapy
+- Supportive care
+
+Discharge Medications:
+- Acetaminophen 500 mg PO q6h PRN
+- Oral electrolyte solution
+
+Instructions:
+- Maintain hydration, rest, and monitor temperature
+- Return to ED if fever exceeds 102°F or symptoms worsen
+- Avoid public activities until symptoms resolve
+
+Follow-Up:
+- PCP or urgent care in 3–5 days
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

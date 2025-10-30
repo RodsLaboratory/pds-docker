@@ -1,0 +1,2671 @@
+===== Class Prior Probabilities =====
+P(INFLUENZA=False) = 0.9667772249861802
+P(INFLUENZA=True) = 0.03322277501381979
+
+===== Conditional Probabilities =====
+P(AGE=Not Mentioned | INFLUENZA=False) = 1.1435236537867785E-5
+P(AGE=18-64 | INFLUENZA=False) = 0.5897723244405311
+P(AGE=5-17 | INFLUENZA=False) = 0.15988747727246738
+P(AGE=65+ | INFLUENZA=False) = 0.12040160550720992
+P(AGE=<5 | INFLUENZA=False) = 0.1299271575432538
+P(AGE=Not Mentioned | INFLUENZA=True) = 3.3233632436025255E-4
+P(AGE=18-64 | INFLUENZA=True) = 0.44898637421070126
+P(AGE=5-17 | INFLUENZA=True) = 0.21834496510468593
+P(AGE=65+ | INFLUENZA=True) = 0.1352608840146228
+P(AGE=<5 | INFLUENZA=True) = 0.19707544034562977
+P(N_D_RACE=BLACK | INFLUENZA=False) = 0.38838637377214147
+P(N_D_RACE=Not Mentioned | INFLUENZA=False) = 0.00299603197292136
+P(N_D_RACE=NOT_SPECIFIED | INFLUENZA=False) = 0.006632437191963316
+P(N_D_RACE=OTHER | INFLUENZA=False) = 0.029880273073448524
+P(N_D_RACE=WHITE | INFLUENZA=False) = 0.5721048839895253
+P(N_D_RACE=BLACK | INFLUENZA=True) = 0.4057826520438684
+P(N_D_RACE=Not Mentioned | INFLUENZA=True) = 0.0019940179461615153
+P(N_D_RACE=NOT_SPECIFIED | INFLUENZA=True) = 0.009637753406447324
+P(N_D_RACE=OTHER | INFLUENZA=True) = 0.035227650382186775
+P(N_D_RACE=WHITE | INFLUENZA=True) = 0.5473579262213359
+P(Abdominal Pain=Not Mentioned | INFLUENZA=False) = 0.6558601209875696
+P(Abdominal Pain=Negated | INFLUENZA=False) = 0.12342333070316877
+P(Abdominal Pain=Present | INFLUENZA=False) = 0.2207165483092616
+P(Abdominal Pain=Not Mentioned | INFLUENZA=True) = 0.6195543731293648
+P(Abdominal Pain=Negated | INFLUENZA=True) = 0.17292983039574328
+P(Abdominal Pain=Present | INFLUENZA=True) = 0.2075157964748919
+P(Apnea=Not Mentioned | INFLUENZA=False) = 0.9788328930666576
+P(Apnea=Negated | INFLUENZA=False) = 0.0021613091358194106
+P(Apnea=Present | INFLUENZA=False) = 0.01900579779752307
+P(Apnea=Not Mentioned | INFLUENZA=True) = 0.9704023944130362
+P(Apnea=Negated | INFLUENZA=True) = 0.006651147322913203
+P(Apnea=Present | INFLUENZA=True) = 0.022946458264050548
+P(Back Pain=Not Mentioned | INFLUENZA=False) = 0.8318753073290107
+P(Back Pain=Negated | INFLUENZA=False) = 0.028543003190503964
+P(Back Pain=Present | INFLUENZA=False) = 0.13958168948048533
+P(Back Pain=Not Mentioned | INFLUENZA=True) = 0.8779514466245427
+P(Back Pain=Negated | INFLUENZA=True) = 0.01962088460259395
+P(Back Pain=Present | INFLUENZA=True) = 0.10242766877286331
+P(Birth History=Not Mentioned | INFLUENZA=False) = 0.9781925051745629
+P(Birth History=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(Birth History=Present | INFLUENZA=False) = 0.02176175283314465
+P(Birth History=Not Mentioned | INFLUENZA=True) = 0.9561024276687728
+P(Birth History=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Birth History=Present | INFLUENZA=True) = 0.04356501496508148
+P(Chest Pain=Not Mentioned | INFLUENZA=False) = 0.6140290690361019
+P(Chest Pain=Negated | INFLUENZA=False) = 0.2085834848536828
+P(Chest Pain=Present | INFLUENZA=False) = 0.17738744611021534
+P(Chest Pain=Not Mentioned | INFLUENZA=True) = 0.6045892916528101
+P(Chest Pain=Negated | INFLUENZA=True) = 0.20884602593947457
+P(Chest Pain=Present | INFLUENZA=True) = 0.18656468240771534
+P(Constitutional Symptom=Not Mentioned | INFLUENZA=False) = 0.8298054821777763
+P(Constitutional Symptom=Negated | INFLUENZA=False) = 0.0031790684643269638
+P(Constitutional Symptom=Present | INFLUENZA=False) = 0.16701544935789678
+P(Constitutional Symptom=Not Mentioned | INFLUENZA=True) = 0.7023611572996342
+P(Constitutional Symptom=Negated | INFLUENZA=True) = 0.002327901563019621
+P(Constitutional Symptom=Present | INFLUENZA=True) = 0.2953109411373462
+P(Coughing=Not Mentioned | INFLUENZA=False) = 0.7455601678731117
+P(Coughing=Negated | INFLUENZA=False) = 0.11967248733518589
+P(Coughing=Present | INFLUENZA=False) = 0.1347673447917024
+P(Coughing=Not Mentioned | INFLUENZA=True) = 0.2703691386764217
+P(Coughing=Negated | INFLUENZA=True) = 0.056867309610907885
+P(Coughing=Present | INFLUENZA=True) = 0.6727635517126704
+P(Diarrhea=Not Mentioned | INFLUENZA=False) = 0.7512436104154516
+P(Diarrhea=Negated | INFLUENZA=False) = 0.07450226994636751
+P(Diarrhea=Present | INFLUENZA=False) = 0.17425411963818085
+P(Diarrhea=Not Mentioned | INFLUENZA=True) = 0.5194546059195211
+P(Diarrhea=Negated | INFLUENZA=True) = 0.136015962753575
+P(Diarrhea=Present | INFLUENZA=True) = 0.3445294313269039
+P(Diplopia=Not Mentioned | INFLUENZA=False) = 0.9587635939483344
+P(Diplopia=Negated | INFLUENZA=False) = 0.014099969124155202
+P(Diplopia=Present | INFLUENZA=False) = 0.027136436927510377
+P(Diplopia=Not Mentioned | INFLUENZA=True) = 0.967741935483871
+P(Diplopia=Negated | INFLUENZA=True) = 0.013967409378117725
+P(Diplopia=Present | INFLUENZA=True) = 0.018290655138011307
+P(Dizziness=Not Mentioned | INFLUENZA=False) = 0.8814710624721259
+P(Dizziness=Negated | INFLUENZA=False) = 0.015369309410271365
+P(Dizziness=Present | INFLUENZA=False) = 0.10315962811760267
+P(Dizziness=Not Mentioned | INFLUENZA=True) = 0.8939142001995344
+P(Dizziness=Negated | INFLUENZA=True) = 0.008313934153641503
+P(Dizziness=Present | INFLUENZA=True) = 0.09777186564682408
+P(Dyspnea=Not Mentioned | INFLUENZA=False) = 0.5772067652406601
+P(Dyspnea=Negated | INFLUENZA=False) = 0.16497993070088168
+P(Dyspnea=Present | INFLUENZA=False) = 0.25781330405845826
+P(Dyspnea=Not Mentioned | INFLUENZA=True) = 0.50881277020286
+P(Dyspnea=Negated | INFLUENZA=True) = 0.1316927169936814
+P(Dyspnea=Present | INFLUENZA=True) = 0.3594945128034586
+P(Dysuria=Not Mentioned | INFLUENZA=False) = 0.8261346872963052
+P(Dysuria=Negated | INFLUENZA=False) = 0.09245600192116368
+P(Dysuria=Present | INFLUENZA=False) = 0.08140931078253114
+P(Dysuria=Not Mentioned | INFLUENZA=True) = 0.7738609910209511
+P(Dysuria=Negated | INFLUENZA=True) = 0.13335550382440972
+P(Dysuria=Present | INFLUENZA=True) = 0.09278350515463918
+P(Exanthema=Not Mentioned | INFLUENZA=False) = 0.46813498461925507
+P(Exanthema=Negated | INFLUENZA=False) = 0.45006689766372776
+P(Exanthema=Present | INFLUENZA=False) = 0.08179811771701717
+P(Exanthema=Not Mentioned | INFLUENZA=True) = 0.35650149650814766
+P(Exanthema=Negated | INFLUENZA=True) = 0.5853009644163618
+P(Exanthema=Present | INFLUENZA=True) = 0.05819753907549052
+P(Fatigue=Not Mentioned | INFLUENZA=False) = 0.9474081443617277
+P(Fatigue=Negated | INFLUENZA=False) = 0.011424062575045456
+P(Fatigue=Present | INFLUENZA=False) = 0.04116779306322687
+P(Fatigue=Not Mentioned | INFLUENZA=True) = 0.8427003658131028
+P(Fatigue=Negated | INFLUENZA=True) = 0.006651147322913203
+P(Fatigue=Present | INFLUENZA=True) = 0.15064848686398405
+P(Fever=Not Mentioned | INFLUENZA=False) = 0.4231362997015335
+P(Fever=Negated | INFLUENZA=False) = 0.34810799684380256
+P(Fever=Present | INFLUENZA=False) = 0.22875570345466398
+P(Fever=Not Mentioned | INFLUENZA=True) = 0.15630196208846026
+P(Fever=Negated | INFLUENZA=True) = 0.1167276355171267
+P(Fever=Present | INFLUENZA=True) = 0.726970402394413
+P(Foot pain=Not Mentioned | INFLUENZA=False) = 0.9840017381957071
+P(Foot pain=Negated | INFLUENZA=False) = 4.688554209978616E-4
+P(Foot pain=Present | INFLUENZA=False) = 0.015529406383295025
+P(Foot pain=Not Mentioned | INFLUENZA=True) = 0.9983372131692717
+P(Foot pain=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Foot pain=Present | INFLUENZA=True) = 0.0013302294645826404
+P(Glycosuria=Not Mentioned | INFLUENZA=False) = 0.9148512813475591
+P(Glycosuria=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Glycosuria=Present | INFLUENZA=False) = 0.08503436367170972
+P(Glycosuria=Not Mentioned | INFLUENZA=True) = 0.862986365147988
+P(Glycosuria=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Glycosuria=Present | INFLUENZA=True) = 0.1366810774858663
+P(Headache=Not Mentioned | INFLUENZA=False) = 0.7415577435475202
+P(Headache=Negated | INFLUENZA=False) = 0.11575011149610621
+P(Headache=Present | INFLUENZA=False) = 0.14269214495637358
+P(Headache=Not Mentioned | INFLUENZA=True) = 0.6701030927835051
+P(Headache=Negated | INFLUENZA=True) = 0.11040904556035916
+P(Headache=Present | INFLUENZA=True) = 0.21948786165613568
+P(Heart murmur=Not Mentioned | INFLUENZA=False) = 0.3688977323407321
+P(Heart murmur=Negated | INFLUENZA=False) = 0.6035655882991984
+P(Heart murmur=Present | INFLUENZA=False) = 0.027536679360069528
+P(Heart murmur=Not Mentioned | INFLUENZA=True) = 0.30994346524775523
+P(Heart murmur=Negated | INFLUENZA=True) = 0.6581310276022614
+P(Heart murmur=Present | INFLUENZA=True) = 0.03192550714998337
+P(Hemoglobin concentration result=Not Mentioned | INFLUENZA=False) = 0.8079179388658273
+P(Hemoglobin concentration result=Negated | INFLUENZA=False) = 8.004848651183003E-5
+P(Hemoglobin concentration result=Present | INFLUENZA=False) = 0.19200201264766087
+P(Hemoglobin concentration result=Not Mentioned | INFLUENZA=True) = 0.6840705021616229
+P(Hemoglobin concentration result=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Hemoglobin concentration result=Present | INFLUENZA=True) = 0.31559694047223147
+P(Hepatosplenomegaly=Not Mentioned | INFLUENZA=False) = 0.9078298855306642
+P(Hepatosplenomegaly=Negated | INFLUENZA=False) = 0.08888812652235067
+P(Hepatosplenomegaly=Present | INFLUENZA=False) = 0.003281987946985031
+P(Hepatosplenomegaly=Not Mentioned | INFLUENZA=True) = 0.9348187562354506
+P(Hepatosplenomegaly=Negated | INFLUENZA=True) = 0.05986032590621882
+P(Hepatosplenomegaly=Present | INFLUENZA=True) = 0.005320917858330562
+P(Hypercapnia=Not Mentioned | INFLUENZA=False) = 0.9983647237755441
+P(Hypercapnia=Negated | INFLUENZA=False) = 1.829679691698972E-4
+P(Hypercapnia=Present | INFLUENZA=False) = 0.001452308255286059
+P(Hypercapnia=Not Mentioned | INFLUENZA=True) = 0.9906883937479215
+P(Hypercapnia=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Hypercapnia=Present | INFLUENZA=True) = 0.008313934153641503
+P(Hypesthesia=Not Mentioned | INFLUENZA=False) = 0.8489828124463961
+P(Hypesthesia=Negated | INFLUENZA=False) = 0.06552540395896943
+P(Hypesthesia=Present | INFLUENZA=False) = 0.08549178359463447
+P(Hypesthesia=Not Mentioned | INFLUENZA=True) = 0.9255071499833721
+P(Hypesthesia=Negated | INFLUENZA=True) = 0.03159294978383771
+P(Hypesthesia=Present | INFLUENZA=True) = 0.04289990023279015
+P(Infant, Premature=Not Mentioned | INFLUENZA=False) = 0.9983304172813247
+P(Infant, Premature=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Infant, Premature=Present | INFLUENZA=False) = 0.0016352762244559562
+P(Infant, Premature=Not Mentioned | INFLUENZA=True) = 0.9923511805786498
+P(Infant, Premature=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Infant, Premature=Present | INFLUENZA=True) = 0.007316262055204523
+P(Icterus=Not Mentioned | INFLUENZA=False) = 0.7090923645179366
+P(Icterus=Negated | INFLUENZA=False) = 0.06414170869212209
+P(Icterus=Present | INFLUENZA=False) = 0.22676592678994134
+P(Icterus=Not Mentioned | INFLUENZA=True) = 0.7033588293980712
+P(Icterus=Negated | INFLUENZA=True) = 0.08546724309943465
+P(Icterus=Present | INFLUENZA=True) = 0.21117392750249417
+P(Lethargy=Not Mentioned | INFLUENZA=False) = 0.9839788671995608
+P(Lethargy=Negated | INFLUENZA=False) = 0.0038537628506409597
+P(Lethargy=Present | INFLUENZA=False) = 0.012167369949798163
+P(Lethargy=Not Mentioned | INFLUENZA=True) = 0.9541070834718989
+P(Lethargy=Negated | INFLUENZA=True) = 0.010974393082806785
+P(Lethargy=Present | INFLUENZA=True) = 0.034918523445294315
+P(Low Back Pain=Not Mentioned | INFLUENZA=False) = 0.965373311834597
+P(Low Back Pain=Negated | INFLUENZA=False) = 5.145974132903359E-4
+P(Low Back Pain=Present | INFLUENZA=False) = 0.03411209075211271
+P(Low Back Pain=Not Mentioned | INFLUENZA=True) = 0.9916860658463585
+P(Low Back Pain=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Low Back Pain=Present | INFLUENZA=True) = 0.007981376787495843
+P(Musculoskeletal Pain=Not Mentioned | INFLUENZA=False) = 0.9906114560819697
+P(Musculoskeletal Pain=Negated | INFLUENZA=False) = 0.0014294372591398218
+P(Musculoskeletal Pain=Present | INFLUENZA=False) = 0.007959106658890528
+P(Musculoskeletal Pain=Not Mentioned | INFLUENZA=True) = 0.9976720984369803
+P(Musculoskeletal Pain=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Musculoskeletal Pain=Present | INFLUENZA=True) = 0.0013302294645826404
+P(Nasal congestion (finding)=Not Mentioned | INFLUENZA=False) = 0.9404782325294179
+P(Nasal congestion (finding)=Negated | INFLUENZA=False) = 0.02904616510572118
+P(Nasal congestion (finding)=Present | INFLUENZA=False) = 0.030475602364861
+P(Nasal congestion (finding)=Not Mentioned | INFLUENZA=True) = 0.7595610242766877
+P(Nasal congestion (finding)=Negated | INFLUENZA=True) = 0.02527435982707017
+P(Nasal congestion (finding)=Present | INFLUENZA=True) = 0.2151646158962421
+P(Nausea=Not Mentioned | INFLUENZA=False) = 0.660136997266916
+P(Nausea=Negated | INFLUENZA=False) = 0.11872334099511704
+P(Nausea=Present | INFLUENZA=False) = 0.221139661737967
+P(Nausea=Not Mentioned | INFLUENZA=True) = 0.6348520119720652
+P(Nausea=Negated | INFLUENZA=True) = 0.09743930828067841
+P(Nausea=Present | INFLUENZA=True) = 0.26770867974725643
+P(Numbness=Not Mentioned | INFLUENZA=False) = 0.8451633560899745
+P(Numbness=Negated | INFLUENZA=False) = 0.06844145596761467
+P(Numbness=Present | INFLUENZA=False) = 0.08639518794241083
+P(Numbness=Not Mentioned | INFLUENZA=True) = 0.9248420352510808
+P(Numbness=Negated | INFLUENZA=True) = 0.03159294978383771
+P(Numbness=Present | INFLUENZA=True) = 0.04356501496508148
+P(Decreased translucency=Not Mentioned | INFLUENZA=False) = 0.9890676638420987
+P(Decreased translucency=Negated | INFLUENZA=False) = 3.201939460473201E-4
+P(Decreased translucency=Present | INFLUENZA=False) = 0.010612142211854038
+P(Decreased translucency=Not Mentioned | INFLUENZA=True) = 0.9368141004323246
+P(Decreased translucency=Negated | INFLUENZA=True) = 0.002327901563019621
+P(Decreased translucency=Present | INFLUENZA=True) = 0.0608579980046558
+P(Pain=Not Mentioned | INFLUENZA=False) = 0.4628403490114012
+P(Pain=Negated | INFLUENZA=False) = 0.10075817352224777
+P(Pain=Present | INFLUENZA=False) = 0.43640147746635105
+P(Pain=Not Mentioned | INFLUENZA=True) = 0.7229797140006651
+P(Pain=Negated | INFLUENZA=True) = 0.04855337545726638
+P(Pain=Present | INFLUENZA=True) = 0.2284669105420685
+P(Pallor=Not Mentioned | INFLUENZA=False) = 0.9410614429311469
+P(Pallor=Negated | INFLUENZA=False) = 0.045547588825231286
+P(Pallor=Present | INFLUENZA=False) = 0.013390968243621851
+P(Pallor=Not Mentioned | INFLUENZA=True) = 0.9128699700698371
+P(Pallor=Negated | INFLUENZA=True) = 0.07016960425673428
+P(Pallor=Present | INFLUENZA=True) = 0.016960425673428665
+P(Palpitations=Not Mentioned | INFLUENZA=False) = 0.8994247944469221
+P(Palpitations=Negated | INFLUENZA=False) = 0.043386279689411875
+P(Palpitations=Present | INFLUENZA=False) = 0.057188925863665994
+P(Palpitations=Not Mentioned | INFLUENZA=True) = 0.931493182573994
+P(Palpitations=Negated | INFLUENZA=True) = 0.035251080811439975
+P(Palpitations=Present | INFLUENZA=True) = 0.03325573661456601
+P(Rales=Not Mentioned | INFLUENZA=False) = 0.8852562123343283
+P(Rales=Negated | INFLUENZA=False) = 0.017610667032602605
+P(Rales=Present | INFLUENZA=False) = 0.09713312063306917
+P(Rales=Not Mentioned | INFLUENZA=True) = 0.8194213501829065
+P(Rales=Negated | INFLUENZA=True) = 0.04788826072497506
+P(Rales=Present | INFLUENZA=True) = 0.1326903890921184
+P(Seizures=Not Mentioned | INFLUENZA=False) = 0.9330108522876714
+P(Seizures=Negated | INFLUENZA=False) = 0.011195352613583084
+P(Seizures=Present | INFLUENZA=False) = 0.055793795098745526
+P(Seizures=Not Mentioned | INFLUENZA=True) = 0.9238443631526438
+P(Seizures=Negated | INFLUENZA=True) = 0.020951114067176587
+P(Seizures=Present | INFLUENZA=True) = 0.05520452278017958
+P(Signs and Symptoms, Respiratory=Not Mentioned | INFLUENZA=False) = 0.8515672350109209
+P(Signs and Symptoms, Respiratory=Negated | INFLUENZA=False) = 0.0022413576223312406
+P(Signs and Symptoms, Respiratory=Present | INFLUENZA=False) = 0.14619140736674785
+P(Signs and Symptoms, Respiratory=Not Mentioned | INFLUENZA=True) = 0.6784170269371467
+P(Signs and Symptoms, Respiratory=Negated | INFLUENZA=True) = 0.0029930162953109413
+P(Signs and Symptoms, Respiratory=Present | INFLUENZA=True) = 0.3185899567675424
+P(Tachycardia=Not Mentioned | INFLUENZA=False) = 0.9462531590563427
+P(Tachycardia=Negated | INFLUENZA=False) = 0.010291948265806717
+P(Tachycardia=Present | INFLUENZA=False) = 0.04345489267785058
+P(Tachycardia=Not Mentioned | INFLUENZA=True) = 0.8264050548719654
+P(Tachycardia=Negated | INFLUENZA=True) = 0.012637179913535085
+P(Tachycardia=Present | INFLUENZA=True) = 0.1609577652144995
+P(Toothache=Not Mentioned | INFLUENZA=False) = 0.9780667146957586
+P(Toothache=Negated | INFLUENZA=False) = 0.0010863723169462645
+P(Toothache=Present | INFLUENZA=False) = 0.02084691298729516
+P(Toothache=Not Mentioned | INFLUENZA=True) = 0.9966744263385434
+P(Toothache=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Toothache=Present | INFLUENZA=True) = 0.0029930162953109413
+P(Unconscious State=Not Mentioned | INFLUENZA=False) = 0.9414388143675598
+P(Unconscious State=Negated | INFLUENZA=False) = 0.03063569933788466
+P(Unconscious State=Present | INFLUENZA=False) = 0.02792548629455556
+P(Unconscious State=Not Mentioned | INFLUENZA=True) = 0.9870302627203192
+P(Unconscious State=Negated | INFLUENZA=True) = 0.004655803126039242
+P(Unconscious State=Present | INFLUENZA=True) = 0.008313934153641503
+P(Vertigo=Not Mentioned | INFLUENZA=False) = 0.908001418001761
+P(Vertigo=Negated | INFLUENZA=False) = 0.012659096366942263
+P(Vertigo=Present | INFLUENZA=False) = 0.07933948563129667
+P(Vertigo=Not Mentioned | INFLUENZA=True) = 0.9181908879281676
+P(Vertigo=Negated | INFLUENZA=True) = 0.005986032590621883
+P(Vertigo=Present | INFLUENZA=True) = 0.0758230794812105
+P(Vomiting=Not Mentioned | INFLUENZA=False) = 0.7054444406326118
+P(Vomiting=Negated | INFLUENZA=False) = 0.1442016307020252
+P(Vomiting=Present | INFLUENZA=False) = 0.150353928665363
+P(Vomiting=Not Mentioned | INFLUENZA=True) = 0.5094778849351513
+P(Vomiting=Negated | INFLUENZA=True) = 0.19487861656135683
+P(Vomiting=Present | INFLUENZA=True) = 0.29564349850349186
+P(Wheezing=Not Mentioned | INFLUENZA=False) = 0.8565531121708005
+P(Wheezing=Negated | INFLUENZA=False) = 0.09699589465619175
+P(Wheezing=Present | INFLUENZA=False) = 0.04645099317300765
+P(Wheezing=Not Mentioned | INFLUENZA=True) = 0.6824077153308946
+P(Wheezing=Negated | INFLUENZA=True) = 0.135018290655138
+P(Wheezing=Present | INFLUENZA=True) = 0.1825739940139674
+P(Immunocompromised Host=Not Mentioned | INFLUENZA=False) = 0.9950255583381934
+P(Immunocompromised Host=Negated | INFLUENZA=False) = 9.14839845849486E-4
+P(Immunocompromised Host=Present | INFLUENZA=False) = 0.004059601815957094
+P(Immunocompromised Host=Not Mentioned | INFLUENZA=True) = 0.967741935483871
+P(Immunocompromised Host=Negated | INFLUENZA=True) = 0.011639507815098104
+P(Immunocompromised Host=Present | INFLUENZA=True) = 0.020618556701030927
+P(Chills=Not Mentioned | INFLUENZA=False) = 0.6637277436618751
+P(Chills=Negated | INFLUENZA=False) = 0.08291879652818278
+P(Chills=Present | INFLUENZA=False) = 0.253353459809942
+P(Chills=Not Mentioned | INFLUENZA=True) = 0.6820751579647489
+P(Chills=Negated | INFLUENZA=True) = 0.0392417692051879
+P(Chills=Present | INFLUENZA=True) = 0.27868307283006316
+P(Falls=Not Mentioned | INFLUENZA=False) = 0.9146683133783892
+P(Falls=Negated | INFLUENZA=False) = 0.0063352659325076905
+P(Falls=Present | INFLUENZA=False) = 0.07899642068910312
+P(Falls=Not Mentioned | INFLUENZA=True) = 0.9557698703026272
+P(Falls=Negated | INFLUENZA=True) = 0.0019953441968739607
+P(Falls=Present | INFLUENZA=True) = 0.042234785500498834
+P(Present=Not Mentioned | INFLUENZA=False) = 0.7733255571946436
+P(Present=Negated | INFLUENZA=False) = 0.004745731700344208
+P(Present=Present | INFLUENZA=False) = 0.22192871110501217
+P(Present=Not Mentioned | INFLUENZA=True) = 0.7539075490522115
+P(Present=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Present=Present | INFLUENZA=True) = 0.24442966411706019
+P(Neck stiffness=Not Mentioned | INFLUENZA=False) = 0.9821720585040081
+P(Neck stiffness=Negated | INFLUENZA=False) = 0.006552540395896944
+P(Neck stiffness=Present | INFLUENZA=False) = 0.011275401100094914
+P(Neck stiffness=Not Mentioned | INFLUENZA=True) = 0.9418024609245095
+P(Neck stiffness=Negated | INFLUENZA=True) = 0.02760226139008979
+P(Neck stiffness=Present | INFLUENZA=True) = 0.030595277685400733
+P(Congestion of nasal sinus=Not Mentioned | INFLUENZA=False) = 0.9954601072649719
+P(Congestion of nasal sinus=Negated | INFLUENZA=False) = 2.858874518279644E-4
+P(Congestion of nasal sinus=Present | INFLUENZA=False) = 0.00425400528320011
+P(Congestion of nasal sinus=Not Mentioned | INFLUENZA=True) = 0.9737279680744928
+P(Congestion of nasal sinus=Negated | INFLUENZA=True) = 0.0029930162953109413
+P(Congestion of nasal sinus=Present | INFLUENZA=True) = 0.023279015630196208
+P(Abnormal=Not Mentioned | INFLUENZA=False) = 0.9598957082575732
+P(Abnormal=Negated | INFLUENZA=False) = 0.006198039955630267
+P(Abnormal=Present | INFLUENZA=False) = 0.03390625178679657
+P(Abnormal=Not Mentioned | INFLUENZA=True) = 0.8899235118057865
+P(Abnormal=Negated | INFLUENZA=True) = 0.008646491519787164
+P(Abnormal=Present | INFLUENZA=True) = 0.10142999667442634
+P(Lesion=Not Mentioned | INFLUENZA=False) = 0.9112834059487461
+P(Lesion=Negated | INFLUENZA=False) = 0.024917950301325376
+P(Lesion=Present | INFLUENZA=False) = 0.06379864374992852
+P(Lesion=Not Mentioned | INFLUENZA=True) = 0.9494512803458597
+P(Lesion=Negated | INFLUENZA=True) = 0.015962753574991686
+P(Lesion=Present | INFLUENZA=True) = 0.034585966079148656
+P(Illness (finding)=Not Mentioned | INFLUENZA=False) = 0.897572243759077
+P(Illness (finding)=Negated | INFLUENZA=False) = 0.01860555536496392
+P(Illness (finding)=Present | INFLUENZA=False) = 0.08382220087595915
+P(Illness (finding)=Not Mentioned | INFLUENZA=True) = 0.6341868972397738
+P(Illness (finding)=Negated | INFLUENZA=True) = 0.05121383438643166
+P(Illness (finding)=Present | INFLUENZA=True) = 0.3145992683737945
+P(Malaise=Not Mentioned | INFLUENZA=False) = 0.9538920717691859
+P(Malaise=Negated | INFLUENZA=False) = 0.011526982057703524
+P(Malaise=Present | INFLUENZA=False) = 0.03458094617311057
+P(Malaise=Not Mentioned | INFLUENZA=True) = 0.7645493847688726
+P(Malaise=Negated | INFLUENZA=True) = 0.011306950448952444
+P(Malaise=Present | INFLUENZA=True) = 0.22414366478217493
+P(Asymptomatic=Not Mentioned | INFLUENZA=False) = 0.9725891111187348
+P(Asymptomatic=Negated | INFLUENZA=False) = 3.545004402666758E-4
+P(Asymptomatic=Present | INFLUENZA=False) = 0.027056388440998547
+P(Asymptomatic=Not Mentioned | INFLUENZA=True) = 0.9916860658463585
+P(Asymptomatic=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Asymptomatic=Present | INFLUENZA=True) = 0.007648819421350183
+P(Myalgia=Not Mentioned | INFLUENZA=False) = 0.9522110535524375
+P(Myalgia=Negated | INFLUENZA=False) = 0.018822829828353174
+P(Myalgia=Present | INFLUENZA=False) = 0.02896611661920935
+P(Myalgia=Not Mentioned | INFLUENZA=True) = 0.7196541403392085
+P(Myalgia=Negated | INFLUENZA=True) = 0.016627868307283005
+P(Myalgia=Present | INFLUENZA=True) = 0.2637179913535085
+P(Gait normal=Not Mentioned | INFLUENZA=False) = 0.9261838599380195
+P(Gait normal=Negated | INFLUENZA=False) = 2.287099614623715E-5
+P(Gait normal=Present | INFLUENZA=False) = 0.07379326906583417
+P(Gait normal=Not Mentioned | INFLUENZA=True) = 0.9457931493182574
+P(Gait normal=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Gait normal=Present | INFLUENZA=True) = 0.05387429331559694
+P(Knee pain=Not Mentioned | INFLUENZA=False) = 0.9739041933971434
+P(Knee pain=Negated | INFLUENZA=False) = 0.0017267602090409047
+P(Knee pain=Present | INFLUENZA=False) = 0.024369046393815683
+P(Knee pain=Not Mentioned | INFLUENZA=True) = 0.9950116395078151
+P(Knee pain=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Knee pain=Present | INFLUENZA=True) = 0.004323245759893582
+P(Tachypnea=Not Mentioned | INFLUENZA=False) = 0.976946035884593
+P(Tachypnea=Negated | INFLUENZA=False) = 0.007204363786064702
+P(Tachypnea=Present | INFLUENZA=False) = 0.015849600329342343
+P(Tachypnea=Not Mentioned | INFLUENZA=True) = 0.8965746591286997
+P(Tachypnea=Negated | INFLUENZA=True) = 0.017292983039574328
+P(Tachypnea=Present | INFLUENZA=True) = 0.08613235783172597
+P(Expiratory wheezing=Not Mentioned | INFLUENZA=False) = 0.9874095166214965
+P(Expiratory wheezing=Negated | INFLUENZA=False) = 1.9440346724301576E-4
+P(Expiratory wheezing=Present | INFLUENZA=False) = 0.012396079911260535
+P(Expiratory wheezing=Not Mentioned | INFLUENZA=True) = 0.930495510475557
+P(Expiratory wheezing=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Expiratory wheezing=Present | INFLUENZA=True) = 0.06817426005986033
+P(Diaphragmatic breathing=Not Mentioned | INFLUENZA=False) = 0.9995425800770753
+P(Diaphragmatic breathing=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Diaphragmatic breathing=Present | INFLUENZA=False) = 4.2311342870538724E-4
+P(Diaphragmatic breathing=Not Mentioned | INFLUENZA=True) = 0.9960093116062521
+P(Diaphragmatic breathing=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Diaphragmatic breathing=Present | INFLUENZA=True) = 0.0036581310276022614
+P(Decrease in appetite=Not Mentioned | INFLUENZA=False) = 0.9955287202534107
+P(Decrease in appetite=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Decrease in appetite=Present | INFLUENZA=False) = 0.004356924765858177
+P(Decrease in appetite=Not Mentioned | INFLUENZA=True) = 0.9730628533422016
+P(Decrease in appetite=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Decrease in appetite=Present | INFLUENZA=True) = 0.02660458929165281
+P(Feeding difficulties=Not Mentioned | INFLUENZA=False) = 0.9989479341772731
+P(Feeding difficulties=Negated | INFLUENZA=False) = 5.7177490365592876E-5
+P(Feeding difficulties=Present | INFLUENZA=False) = 9.94888332361316E-4
+P(Feeding difficulties=Not Mentioned | INFLUENZA=True) = 0.9963418689723977
+P(Feeding difficulties=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Feeding difficulties=Present | INFLUENZA=True) = 0.0033255736614566014
+P(Flight of ideas=Not Mentioned | INFLUENZA=False) = 0.9912975859663568
+P(Flight of ideas=Negated | INFLUENZA=False) = 0.006792685855432434
+P(Flight of ideas=Present | INFLUENZA=False) = 0.0019097281782108019
+P(Flight of ideas=Not Mentioned | INFLUENZA=True) = 0.9990023279015631
+P(Flight of ideas=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Flight of ideas=Present | INFLUENZA=True) = 3.325573661456601E-4
+P(Hallucinations, Visual=Not Mentioned | INFLUENZA=False) = 0.9894793417727309
+P(Hallucinations, Visual=Negated | INFLUENZA=False) = 0.006689766372774366
+P(Hallucinations, Visual=Present | INFLUENZA=False) = 0.0038308918544947227
+P(Hallucinations, Visual=Not Mentioned | INFLUENZA=True) = 0.9983372131692717
+P(Hallucinations, Visual=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Hallucinations, Visual=Present | INFLUENZA=True) = 6.651147322913202E-4
+P(Sensory Discomfort=Not Mentioned | INFLUENZA=False) = 0.9126899722117396
+P(Sensory Discomfort=Negated | INFLUENZA=False) = 0.00441410225622377
+P(Sensory Discomfort=Present | INFLUENZA=False) = 0.08289592553203655
+P(Sensory Discomfort=Not Mentioned | INFLUENZA=True) = 0.9574326571333555
+P(Sensory Discomfort=Negated | INFLUENZA=True) = 0.002660458929165281
+P(Sensory Discomfort=Present | INFLUENZA=True) = 0.039906883937479216
+P(Sore to touch=Not Mentioned | INFLUENZA=False) = 0.3758619506672613
+P(Sore to touch=Negated | INFLUENZA=False) = 0.2895925532036548
+P(Sore to touch=Present | INFLUENZA=False) = 0.3345454961290839
+P(Sore to touch=Not Mentioned | INFLUENZA=True) = 0.4326571333555038
+P(Sore to touch=Negated | INFLUENZA=True) = 0.30628533422015297
+P(Sore to touch=Present | INFLUENZA=True) = 0.2610575324243432
+P(Ache=Not Mentioned | INFLUENZA=False) = 0.9885988084211008
+P(Ache=Negated | INFLUENZA=False) = 3.0875844797420153E-4
+P(Ache=Present | INFLUENZA=False) = 0.011092433130925018
+P(Ache=Not Mentioned | INFLUENZA=True) = 0.8636514798802793
+P(Ache=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Ache=Present | INFLUENZA=True) = 0.13468573328899236
+P(Radiating pain=Not Mentioned | INFLUENZA=False) = 0.9835671892689286
+P(Radiating pain=Negated | INFLUENZA=False) = 0.001074936818873146
+P(Radiating pain=Present | INFLUENZA=False) = 0.015357873912198245
+P(Radiating pain=Not Mentioned | INFLUENZA=True) = 0.998004655803126
+P(Radiating pain=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Radiating pain=Present | INFLUENZA=True) = 0.0013302294645826404
+P(Level of consciousness=Not Mentioned | INFLUENZA=False) = 0.958054593067801
+P(Level of consciousness=Negated | INFLUENZA=False) = 0.024025981451622127
+P(Level of consciousness=Present | INFLUENZA=False) = 0.017919425480576807
+P(Level of consciousness=Not Mentioned | INFLUENZA=True) = 0.9900232790156301
+P(Level of consciousness=Negated | INFLUENZA=True) = 0.0019953441968739607
+P(Level of consciousness=Present | INFLUENZA=True) = 0.007981376787495843
+P(Neurologic Symptoms=Not Mentioned | INFLUENZA=False) = 0.8648324127757384
+P(Neurologic Symptoms=Negated | INFLUENZA=False) = 0.004082472812103331
+P(Neurologic Symptoms=Present | INFLUENZA=False) = 0.13108511441215823
+P(Neurologic Symptoms=Not Mentioned | INFLUENZA=True) = 0.7675424010641836
+P(Neurologic Symptoms=Negated | INFLUENZA=True) = 0.0029930162953109413
+P(Neurologic Symptoms=Present | INFLUENZA=True) = 0.22946458264050548
+P(Ankle pain=Not Mentioned | INFLUENZA=False) = 0.9851109815087996
+P(Ankle pain=Negated | INFLUENZA=False) = 4.8029091907098015E-4
+P(Ankle pain=Present | INFLUENZA=False) = 0.014408727572129404
+P(Ankle pain=Not Mentioned | INFLUENZA=True) = 0.9976720984369803
+P(Ankle pain=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Ankle pain=Present | INFLUENZA=True) = 0.0019953441968739607
+P(Chest wall tenderness=Not Mentioned | INFLUENZA=False) = 0.9169782839891591
+P(Chest wall tenderness=Negated | INFLUENZA=False) = 0.07401054352922341
+P(Chest wall tenderness=Present | INFLUENZA=False) = 0.009011172481617436
+P(Chest wall tenderness=Not Mentioned | INFLUENZA=True) = 0.9175257731958762
+P(Chest wall tenderness=Negated | INFLUENZA=True) = 0.07815098104423013
+P(Chest wall tenderness=Present | INFLUENZA=True) = 0.004323245759893582
+P(Consciousness clear=Not Mentioned | INFLUENZA=False) = 0.17776481754662823
+P(Consciousness clear=Negated | INFLUENZA=False) = 0.005043054650245292
+P(Consciousness clear=Present | INFLUENZA=False) = 0.8171921278031264
+P(Consciousness clear=Not Mentioned | INFLUENZA=True) = 0.203525108081144
+P(Consciousness clear=Negated | INFLUENZA=True) = 0.006983704689058862
+P(Consciousness clear=Present | INFLUENZA=True) = 0.7894911872297972
+P(Productive Cough=Not Mentioned | INFLUENZA=False) = 0.9812800896543049
+P(Productive Cough=Negated | INFLUENZA=False) = 0.001772502201333379
+P(Productive Cough=Present | INFLUENZA=False) = 0.016947408144361728
+P(Productive Cough=Not Mentioned | INFLUENZA=True) = 0.8862653807781843
+P(Productive Cough=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(Productive Cough=Present | INFLUENZA=True) = 0.10974393082806784
+P(Basilar Rales=Not Mentioned | INFLUENZA=False) = 0.885713632257253
+P(Basilar Rales=Negated | INFLUENZA=False) = 0.01739339256921335
+P(Basilar Rales=Present | INFLUENZA=False) = 0.09689297517353368
+P(Basilar Rales=Not Mentioned | INFLUENZA=True) = 0.8210841370136348
+P(Basilar Rales=Negated | INFLUENZA=True) = 0.04788826072497506
+P(Basilar Rales=Present | INFLUENZA=True) = 0.1310276022613901
+P(Family history=Not Mentioned | INFLUENZA=False) = 0.5605452445481263
+P(Family history=Negated | INFLUENZA=False) = 0.03642206136288266
+P(Family history=Present | INFLUENZA=False) = 0.40303269408899106
+P(Family history=Not Mentioned | INFLUENZA=True) = 0.4772198204190223
+P(Family history=Negated | INFLUENZA=True) = 0.08646491519787164
+P(Family history=Present | INFLUENZA=True) = 0.4363152643831061
+P(Sore Throat=Not Mentioned | INFLUENZA=False) = 0.8906766384209864
+P(Sore Throat=Negated | INFLUENZA=False) = 0.05290061408624653
+P(Sore Throat=Present | INFLUENZA=False) = 0.056422747492767045
+P(Sore Throat=Not Mentioned | INFLUENZA=True) = 0.6797472564017293
+P(Sore Throat=Negated | INFLUENZA=True) = 0.06850681742600599
+P(Sore Throat=Present | INFLUENZA=True) = 0.2517459261722647
+P(Encounter due to family history of asthma=Not Mentioned | INFLUENZA=False) = 0.9985362562466408
+P(Encounter due to family history of asthma=Negated | INFLUENZA=False) = 4.57419922924743E-4
+P(Encounter due to family history of asthma=Present | INFLUENZA=False) = 0.0010063238304344345
+P(Encounter due to family history of asthma=Not Mentioned | INFLUENZA=True) = 0.9973395410708347
+P(Encounter due to family history of asthma=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Encounter due to family history of asthma=Present | INFLUENZA=True) = 9.976720984369804E-4
+P(Nasal Flaring=Not Mentioned | INFLUENZA=False) = 0.9967980605395268
+P(Nasal Flaring=Negated | INFLUENZA=False) = 9.720173362150788E-4
+P(Nasal Flaring=Present | INFLUENZA=False) = 0.002229922124258122
+P(Nasal Flaring=Not Mentioned | INFLUENZA=True) = 0.9893581642833389
+P(Nasal Flaring=Negated | INFLUENZA=True) = 0.002660458929165281
+P(Nasal Flaring=Present | INFLUENZA=True) = 0.007981376787495843
+P(Normal bowel sounds=Not Mentioned | INFLUENZA=False) = 0.747229750591787
+P(Normal bowel sounds=Negated | INFLUENZA=False) = 6.861298843871145E-5
+P(Normal bowel sounds=Present | INFLUENZA=False) = 0.2527016364197743
+P(Normal bowel sounds=Not Mentioned | INFLUENZA=True) = 0.6275357499168607
+P(Normal bowel sounds=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Normal bowel sounds=Present | INFLUENZA=True) = 0.3721316927169937
+P(Absence of sensation=Not Mentioned | INFLUENZA=False) = 0.9693528651640422
+P(Absence of sensation=Negated | INFLUENZA=False) = 0.0010863723169462645
+P(Absence of sensation=Present | INFLUENZA=False) = 0.029560762519011515
+P(Absence of sensation=Not Mentioned | INFLUENZA=True) = 0.9920186232125041
+P(Absence of sensation=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Absence of sensation=Present | INFLUENZA=True) = 0.007316262055204523
+P(MCV - low=Not Mentioned | INFLUENZA=False) = 0.9958146077052386
+P(MCV - low=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(MCV - low=Present | INFLUENZA=False) = 0.00417395679668828
+P(MCV - low=Not Mentioned | INFLUENZA=True) = 0.9883604921849019
+P(MCV - low=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(MCV - low=Present | INFLUENZA=True) = 0.011306950448952444
+P(Probable diagnosis=Not Mentioned | INFLUENZA=False) = 0.7581506512516153
+P(Probable diagnosis=Negated | INFLUENZA=False) = 0.006129426967191556
+P(Probable diagnosis=Present | INFLUENZA=False) = 0.2357199217811932
+P(Probable diagnosis=Not Mentioned | INFLUENZA=True) = 0.676089125374127
+P(Probable diagnosis=Negated | INFLUENZA=True) = 0.007648819421350183
+P(Probable diagnosis=Present | INFLUENZA=True) = 0.3162620552045228
+P(High risk of=Not Mentioned | INFLUENZA=False) = 0.9961119306551397
+P(High risk of=Negated | INFLUENZA=False) = 3.4306494219355724E-4
+P(High risk of=Present | INFLUENZA=False) = 0.003545004402666758
+P(High risk of=Not Mentioned | INFLUENZA=True) = 0.9797140006651147
+P(High risk of=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(High risk of=Present | INFLUENZA=True) = 0.016295310941137345
+P(Symmetrical=Not Mentioned | INFLUENZA=False) = 0.7169828581883884
+P(Symmetrical=Negated | INFLUENZA=False) = 1.4866147495054148E-4
+P(Symmetrical=Present | INFLUENZA=False) = 0.28286848033666107
+P(Symmetrical=Not Mentioned | INFLUENZA=True) = 0.6528101097439308
+P(Symmetrical=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Symmetrical=Present | INFLUENZA=True) = 0.3468573328899235
+P(Retraction (finding)=Not Mentioned | INFLUENZA=False) = 0.8704701133257859
+P(Retraction (finding)=Negated | INFLUENZA=False) = 0.11650485436893204
+P(Retraction (finding)=Present | INFLUENZA=False) = 0.013025032305282057
+P(Retraction (finding)=Not Mentioned | INFLUENZA=True) = 0.8397073495177918
+P(Retraction (finding)=Negated | INFLUENZA=True) = 0.10741602926504822
+P(Retraction (finding)=Present | INFLUENZA=True) = 0.05287662121715996
+P(Reduced anion gap=Not Mentioned | INFLUENZA=False) = 0.997781513373815
+P(Reduced anion gap=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Reduced anion gap=Present | INFLUENZA=False) = 0.002207051128111885
+P(Reduced anion gap=Not Mentioned | INFLUENZA=True) = 0.9903558363817758
+P(Reduced anion gap=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Reduced anion gap=Present | INFLUENZA=True) = 0.009311606252078483
+P(Blurred vision=Not Mentioned | INFLUENZA=False) = 0.9540407332441364
+P(Blurred vision=Negated | INFLUENZA=False) = 0.02269946367514037
+P(Blurred vision=Present | INFLUENZA=False) = 0.02325980308072318
+P(Blurred vision=Not Mentioned | INFLUENZA=True) = 0.9757233122713668
+P(Blurred vision=Negated | INFLUENZA=True) = 0.015630196208846026
+P(Blurred vision=Present | INFLUENZA=True) = 0.008646491519787164
+P(Absence of pain sensation=Not Mentioned | INFLUENZA=False) = 0.9828238818941759
+P(Absence of pain sensation=Negated | INFLUENZA=False) = 8.004848651183002E-4
+P(Absence of pain sensation=Present | INFLUENZA=False) = 0.0163756332407058
+P(Absence of pain sensation=Not Mentioned | INFLUENZA=True) = 0.9970069837046891
+P(Absence of pain sensation=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Absence of pain sensation=Present | INFLUENZA=True) = 0.002660458929165281
+P(Exacerbation of asthma=Not Mentioned | INFLUENZA=False) = 0.9868606127139867
+P(Exacerbation of asthma=Negated | INFLUENZA=False) = 2.287099614623715E-4
+P(Exacerbation of asthma=Present | INFLUENZA=False) = 0.012910677324550871
+P(Exacerbation of asthma=Not Mentioned | INFLUENZA=True) = 0.9524442966411706
+P(Exacerbation of asthma=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Exacerbation of asthma=Present | INFLUENZA=True) = 0.046558031260392416
+P(Influenza-like symptoms=Not Mentioned | INFLUENZA=False) = 0.9991537731425892
+P(Influenza-like symptoms=Negated | INFLUENZA=False) = 5.7177490365592876E-5
+P(Influenza-like symptoms=Present | INFLUENZA=False) = 7.890493670451817E-4
+P(Influenza-like symptoms=Not Mentioned | INFLUENZA=True) = 0.8503491852344529
+P(Influenza-like symptoms=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Influenza-like symptoms=Present | INFLUENZA=True) = 0.14898570003325573
+P(Home oxygen supply=Not Mentioned | INFLUENZA=False) = 0.9955515912495568
+P(Home oxygen supply=Negated | INFLUENZA=False) = 2.172744633892529E-4
+P(Home oxygen supply=Present | INFLUENZA=False) = 0.004231134287053873
+P(Home oxygen supply=Not Mentioned | INFLUENZA=True) = 0.9830395743265713
+P(Home oxygen supply=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Home oxygen supply=Present | INFLUENZA=True) = 0.015962753574991686
+P(Feeling suicidal (finding)=Not Mentioned | INFLUENZA=False) = 0.9735268219607305
+P(Feeling suicidal (finding)=Negated | INFLUENZA=False) = 0.008999736983544318
+P(Feeling suicidal (finding)=Present | INFLUENZA=False) = 0.01747344105572518
+P(Feeling suicidal (finding)=Not Mentioned | INFLUENZA=True) = 0.9953441968739608
+P(Feeling suicidal (finding)=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Feeling suicidal (finding)=Present | INFLUENZA=True) = 0.0036581310276022614
+P(Facial symmetry=Not Mentioned | INFLUENZA=False) = 0.8711791142063192
+P(Facial symmetry=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Facial symmetry=Present | INFLUENZA=False) = 0.12870653081294955
+P(Facial symmetry=Not Mentioned | INFLUENZA=True) = 0.8536747588959095
+P(Facial symmetry=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Facial symmetry=Present | INFLUENZA=True) = 0.1459926837379448
+P(Fever symptoms (finding)=Not Mentioned | INFLUENZA=False) = 0.6218852562123344
+P(Fever symptoms (finding)=Negated | INFLUENZA=False) = 0.24166638077921485
+P(Fever symptoms (finding)=Present | INFLUENZA=False) = 0.13644836300845084
+P(Fever symptoms (finding)=Not Mentioned | INFLUENZA=True) = 0.2633854339873628
+P(Fever symptoms (finding)=Negated | INFLUENZA=True) = 0.10542068506817426
+P(Fever symptoms (finding)=Present | INFLUENZA=True) = 0.6311938809444629
+P(Never smoked tobacco=Not Mentioned | INFLUENZA=False) = 0.8827404027582422
+P(Never smoked tobacco=Negated | INFLUENZA=False) = 0.008073461639621714
+P(Never smoked tobacco=Present | INFLUENZA=False) = 0.10918613560213615
+P(Never smoked tobacco=Not Mentioned | INFLUENZA=True) = 0.9112071832391088
+P(Never smoked tobacco=Negated | INFLUENZA=True) = 0.004655803126039242
+P(Never smoked tobacco=Present | INFLUENZA=True) = 0.08413701363485201
+P(No obstruction of airway=Not Mentioned | INFLUENZA=False) = 0.7181378434937734
+P(No obstruction of airway=Negated | INFLUENZA=False) = 9.14839845849486E-5
+P(No obstruction of airway=Present | INFLUENZA=False) = 0.2817706725216417
+P(No obstruction of airway=Not Mentioned | INFLUENZA=True) = 0.7555703358829398
+P(No obstruction of airway=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(No obstruction of airway=Present | INFLUENZA=True) = 0.24409710675091453
+P(Intercostal Retractions=Not Mentioned | INFLUENZA=False) = 0.8704358068315665
+P(Intercostal Retractions=Negated | INFLUENZA=False) = 0.11656203185929763
+P(Intercostal Retractions=Present | INFLUENZA=False) = 0.01300216130913582
+P(Intercostal Retractions=Not Mentioned | INFLUENZA=True) = 0.8377120053209178
+P(Intercostal Retractions=Negated | INFLUENZA=True) = 0.10641835716661124
+P(Intercostal Retractions=Present | INFLUENZA=True) = 0.0558696375124709
+P(Bounding pulse=Not Mentioned | INFLUENZA=False) = 0.9997827255366107
+P(Bounding pulse=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Bounding pulse=Present | INFLUENZA=False) = 2.0583896531613434E-4
+P(Bounding pulse=Not Mentioned | INFLUENZA=True) = 0.9970069837046891
+P(Bounding pulse=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Bounding pulse=Present | INFLUENZA=True) = 0.002660458929165281
+P(Peripheral perfusion=Not Mentioned | INFLUENZA=False) = 0.7104760597847839
+P(Peripheral perfusion=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Peripheral perfusion=Present | INFLUENZA=False) = 0.28948963372099673
+P(Peripheral perfusion=Not Mentioned | INFLUENZA=True) = 0.6045892916528101
+P(Peripheral perfusion=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Peripheral perfusion=Present | INFLUENZA=True) = 0.3950781509810442
+P(Genitourinary symptoms=Not Mentioned | INFLUENZA=False) = 0.9020778299998856
+P(Genitourinary symptoms=Negated | INFLUENZA=False) = 2.4014545953549008E-4
+P(Genitourinary symptoms=Present | INFLUENZA=False) = 0.09768202454057887
+P(Genitourinary symptoms=Not Mentioned | INFLUENZA=True) = 0.8041237113402062
+P(Genitourinary symptoms=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Genitourinary symptoms=Present | INFLUENZA=True) = 0.1952111739275025
+P(Gastrointestinal symptom=Not Mentioned | INFLUENZA=False) = 0.8513499605475316
+P(Gastrointestinal symptom=Negated | INFLUENZA=False) = 2.172744633892529E-4
+P(Gastrointestinal symptom=Present | INFLUENZA=False) = 0.1484327649890791
+P(Gastrointestinal symptom=Not Mentioned | INFLUENZA=True) = 0.7233122713668108
+P(Gastrointestinal symptom=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Gastrointestinal symptom=Present | INFLUENZA=True) = 0.27635517126704356
+P(Inspired fraction of oxygen=Not Mentioned | INFLUENZA=False) = 0.6374489690898487
+P(Inspired fraction of oxygen=Negated | INFLUENZA=False) = 2.630164556817272E-4
+P(Inspired fraction of oxygen=Present | INFLUENZA=False) = 0.36228801445446956
+P(Inspired fraction of oxygen=Not Mentioned | INFLUENZA=True) = 0.6850681742600598
+P(Inspired fraction of oxygen=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Inspired fraction of oxygen=Present | INFLUENZA=True) = 0.3142667110076488
+P(Urine screening normal=Not Mentioned | INFLUENZA=False) = 0.9962034146397246
+P(Urine screening normal=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Urine screening normal=Present | INFLUENZA=False) = 0.003785149862202248
+P(Urine screening normal=Not Mentioned | INFLUENZA=True) = 0.9913535084802129
+P(Urine screening normal=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Urine screening normal=Present | INFLUENZA=True) = 0.008313934153641503
+P(Decreasing=Not Mentioned | INFLUENZA=False) = 0.9925440552563267
+P(Decreasing=Negated | INFLUENZA=False) = 2.287099614623715E-4
+P(Decreasing=Present | INFLUENZA=False) = 0.007227234782210939
+P(Decreasing=Not Mentioned | INFLUENZA=True) = 0.984369803791154
+P(Decreasing=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Decreasing=Present | INFLUENZA=True) = 0.015297638842700367
+P(Homicidal thoughts=Not Mentioned | INFLUENZA=False) = 0.9738355804087047
+P(Homicidal thoughts=Negated | INFLUENZA=False) = 0.008279300604937848
+P(Homicidal thoughts=Present | INFLUENZA=False) = 0.017885118986357453
+P(Homicidal thoughts=Not Mentioned | INFLUENZA=True) = 0.998004655803126
+P(Homicidal thoughts=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Homicidal thoughts=Present | INFLUENZA=True) = 6.651147322913202E-4
+P(PMH - past medical history=Not Mentioned | INFLUENZA=False) = 0.4706164877011218
+P(PMH - past medical history=Negated | INFLUENZA=False) = 0.03785149862202248
+P(PMH - past medical history=Present | INFLUENZA=False) = 0.4915320136768557
+P(PMH - past medical history=Not Mentioned | INFLUENZA=True) = 0.5906218822746924
+P(PMH - past medical history=Negated | INFLUENZA=True) = 0.03658131027602261
+P(PMH - past medical history=Present | INFLUENZA=True) = 0.372796807449285
+P(H/O: asthma=Not Mentioned | INFLUENZA=False) = 0.9738470159067778
+P(H/O: asthma=Negated | INFLUENZA=False) = 0.0033277299392775054
+P(H/O: asthma=Present | INFLUENZA=False) = 0.022825254153944676
+P(H/O: asthma=Not Mentioned | INFLUENZA=True) = 0.915862986365148
+P(H/O: asthma=Negated | INFLUENZA=True) = 0.004655803126039242
+P(H/O: asthma=Present | INFLUENZA=True) = 0.07948121050881277
+P(Red throat=Not Mentioned | INFLUENZA=False) = 0.7941152926915732
+P(Red throat=Negated | INFLUENZA=False) = 0.10709343945475545
+P(Red throat=Present | INFLUENZA=False) = 0.09879126785367137
+P(Red throat=Not Mentioned | INFLUENZA=True) = 0.6395078150981044
+P(Red throat=Negated | INFLUENZA=True) = 0.12470901230462254
+P(Red throat=Present | INFLUENZA=True) = 0.23578317259727302
+P(Test Result=Not Mentioned | INFLUENZA=False) = 0.9672258625224421
+P(Test Result=Negated | INFLUENZA=False) = 0.0024128900934280192
+P(Test Result=Present | INFLUENZA=False) = 0.030361247384129816
+P(Test Result=Not Mentioned | INFLUENZA=True) = 0.9028932490854672
+P(Test Result=Negated | INFLUENZA=True) = 0.008979048885932824
+P(Test Result=Present | INFLUENZA=True) = 0.08812770202859993
+P(Yellow sputum=Not Mentioned | INFLUENZA=False) = 0.9968666735279655
+P(Yellow sputum=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Yellow sputum=Present | INFLUENZA=False) = 0.0030990199778151337
+P(Yellow sputum=Not Mentioned | INFLUENZA=True) = 0.9700698370468905
+P(Yellow sputum=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Yellow sputum=Present | INFLUENZA=True) = 0.02926504822081809
+P(Cardiovascular symptoms=Not Mentioned | INFLUENZA=False) = 0.8898418470616488
+P(Cardiovascular symptoms=Negated | INFLUENZA=False) = 1.0291948265806717E-4
+P(Cardiovascular symptoms=Present | INFLUENZA=False) = 0.11005523345569317
+P(Cardiovascular symptoms=Not Mentioned | INFLUENZA=True) = 0.800465580312604
+P(Cardiovascular symptoms=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Cardiovascular symptoms=Present | INFLUENZA=True) = 0.19920186232125042
+P(Respiratory distress=Not Mentioned | INFLUENZA=False) = 0.9264697473898476
+P(Respiratory distress=Negated | INFLUENZA=False) = 0.023328416069161893
+P(Respiratory distress=Present | INFLUENZA=False) = 0.050201836540990544
+P(Respiratory distress=Not Mentioned | INFLUENZA=True) = 0.8546724309943465
+P(Respiratory distress=Negated | INFLUENZA=True) = 0.03325573661456601
+P(Respiratory distress=Present | INFLUENZA=True) = 0.11207183239108746
+P(History source=Not Mentioned | INFLUENZA=False) = 0.7599002824568024
+P(History source=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(History source=Present | INFLUENZA=False) = 0.24006541104897824
+P(History source=Not Mentioned | INFLUENZA=True) = 0.6351845693382109
+P(History source=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(History source=Present | INFLUENZA=True) = 0.3644828732956435
+P(Hospital course=Not Mentioned | INFLUENZA=False) = 0.7643258202110993
+P(Hospital course=Negated | INFLUENZA=False) = 8.576623554838931E-4
+P(Hospital course=Present | INFLUENZA=False) = 0.2348165174334168
+P(Hospital course=Not Mentioned | INFLUENZA=True) = 0.8220818091120718
+P(Hospital course=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Hospital course=Present | INFLUENZA=True) = 0.1769205187894912
+P(Rectal temperature=Not Mentioned | INFLUENZA=False) = 0.9990508536599312
+P(Rectal temperature=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Rectal temperature=Present | INFLUENZA=False) = 9.14839845849486E-4
+P(Rectal temperature=Not Mentioned | INFLUENZA=True) = 0.9973395410708347
+P(Rectal temperature=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Rectal temperature=Present | INFLUENZA=True) = 0.002327901563019621
+P(Social warmth=Not Mentioned | INFLUENZA=False) = 0.9583976580099947
+P(Social warmth=Negated | INFLUENZA=False) = 0.00794767116081741
+P(Social warmth=Present | INFLUENZA=False) = 0.033654670829187966
+P(Social warmth=Not Mentioned | INFLUENZA=True) = 0.9913535084802129
+P(Social warmth=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Social warmth=Present | INFLUENZA=True) = 0.007648819421350183
+P(Neurologic Deficits=Not Mentioned | INFLUENZA=False) = 0.8511098150879961
+P(Neurologic Deficits=Negated | INFLUENZA=False) = 0.007284412272576532
+P(Neurologic Deficits=Present | INFLUENZA=False) = 0.1416057726394273
+P(Neurologic Deficits=Not Mentioned | INFLUENZA=True) = 0.7675424010641836
+P(Neurologic Deficits=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Neurologic Deficits=Present | INFLUENZA=True) = 0.23145992683737945
+P(Mean Corpuscular Volume (result)=Not Mentioned | INFLUENZA=False) = 0.8150994316557457
+P(Mean Corpuscular Volume (result)=Negated | INFLUENZA=False) = 5.7177490365592876E-5
+P(Mean Corpuscular Volume (result)=Present | INFLUENZA=False) = 0.18484339085388865
+P(Mean Corpuscular Volume (result)=Not Mentioned | INFLUENZA=True) = 0.6980379115397406
+P(Mean Corpuscular Volume (result)=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Mean Corpuscular Volume (result)=Present | INFLUENZA=True) = 0.3016295310941137
+P(Observation of Sensation=Not Mentioned | INFLUENZA=False) = 0.7925943714478484
+P(Observation of Sensation=Negated | INFLUENZA=False) = 0.002229922124258122
+P(Observation of Sensation=Present | INFLUENZA=False) = 0.20517570642789346
+P(Observation of Sensation=Not Mentioned | INFLUENZA=True) = 0.9058862653807782
+P(Observation of Sensation=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Observation of Sensation=Present | INFLUENZA=True) = 0.09378117725307615
+P(Lives with family=Not Mentioned | INFLUENZA=False) = 0.994213637975002
+P(Lives with family=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Lives with family=Present | INFLUENZA=False) = 0.005672007044266813
+P(Lives with family=Not Mentioned | INFLUENZA=True) = 0.9943465247755238
+P(Lives with family=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Lives with family=Present | INFLUENZA=True) = 0.004988360492184902
+P(Lives with mother=Not Mentioned | INFLUENZA=False) = 0.9924640067698148
+P(Lives with mother=Negated | INFLUENZA=False) = 8.004848651183003E-5
+P(Lives with mother=Present | INFLUENZA=False) = 0.00745594474367331
+P(Lives with mother=Not Mentioned | INFLUENZA=True) = 0.9837046890588627
+P(Lives with mother=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Lives with mother=Present | INFLUENZA=True) = 0.015962753574991686
+P(Skin appearance normal (finding)=Not Mentioned | INFLUENZA=False) = 0.16847919311125595
+P(Skin appearance normal (finding)=Negated | INFLUENZA=False) = 0.01170995002687342
+P(Skin appearance normal (finding)=Present | INFLUENZA=False) = 0.8198108568618706
+P(Skin appearance normal (finding)=Not Mentioned | INFLUENZA=True) = 0.11074160292650483
+P(Skin appearance normal (finding)=Negated | INFLUENZA=True) = 0.012304622547389425
+P(Skin appearance normal (finding)=Present | INFLUENZA=True) = 0.8769537745261058
+P(Persistent cough=Not Mentioned | INFLUENZA=False) = 0.998170320308301
+P(Persistent cough=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(Persistent cough=Present | INFLUENZA=False) = 0.0017839376994064978
+P(Persistent cough=Not Mentioned | INFLUENZA=True) = 0.9840372464250083
+P(Persistent cough=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Persistent cough=Present | INFLUENZA=True) = 0.015297638842700367
+P(Able to drink=Not Mentioned | INFLUENZA=False) = 0.9957345592187268
+P(Able to drink=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(Able to drink=Present | INFLUENZA=False) = 0.004219698788980754
+P(Able to drink=Not Mentioned | INFLUENZA=True) = 0.9850349185234453
+P(Able to drink=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Able to drink=Present | INFLUENZA=True) = 0.014299966744263386
+P(Feeding poor=Not Mentioned | INFLUENZA=False) = 0.9994282250963441
+P(Feeding poor=Negated | INFLUENZA=False) = 2.287099614623715E-5
+P(Feeding poor=Present | INFLUENZA=False) = 5.489039075096916E-4
+P(Feeding poor=Not Mentioned | INFLUENZA=True) = 0.998004655803126
+P(Feeding poor=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Feeding poor=Present | INFLUENZA=True) = 0.0016627868307283007
+P(Mass of body structure=Not Mentioned | INFLUENZA=False) = 0.8673825288460439
+P(Mass of body structure=Negated | INFLUENZA=False) = 0.008325042597230322
+P(Mass of body structure=Present | INFLUENZA=False) = 0.12429242855672579
+P(Mass of body structure=Not Mentioned | INFLUENZA=True) = 0.900232790156302
+P(Mass of body structure=Negated | INFLUENZA=True) = 0.005320917858330562
+P(Mass of body structure=Present | INFLUENZA=True) = 0.09444629198536747
+P(Mass of body region=Not Mentioned | INFLUENZA=False) = 0.8732489393575538
+P(Mass of body region=Negated | INFLUENZA=False) = 0.008302171601084086
+P(Mass of body region=Present | INFLUENZA=False) = 0.1184488890413622
+P(Mass of body region=Not Mentioned | INFLUENZA=True) = 0.9018955769870303
+P(Mass of body region=Negated | INFLUENZA=True) = 0.005320917858330562
+P(Mass of body region=Present | INFLUENZA=True) = 0.09278350515463918
+P(Does move=Not Mentioned | INFLUENZA=False) = 0.8376616693540088
+P(Does move=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Does move=Present | INFLUENZA=False) = 0.1622239756652601
+P(Does move=Not Mentioned | INFLUENZA=True) = 0.7229797140006651
+P(Does move=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Does move=Present | INFLUENZA=True) = 0.27635517126704356
+P(Normal coordination=Not Mentioned | INFLUENZA=False) = 0.9644356009926013
+P(Normal coordination=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(Normal coordination=Present | INFLUENZA=False) = 0.03551865701510629
+P(Normal coordination=Not Mentioned | INFLUENZA=True) = 0.9517791819088793
+P(Normal coordination=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Normal coordination=Present | INFLUENZA=True) = 0.04788826072497506
+P(Feels warm=Not Mentioned | INFLUENZA=False) = 0.24100312189097395
+P(Feels warm=Negated | INFLUENZA=False) = 0.00794767116081741
+P(Feels warm=Present | INFLUENZA=False) = 0.7510492069482086
+P(Feels warm=Not Mentioned | INFLUENZA=True) = 0.1543066178915863
+P(Feels warm=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Feels warm=Present | INFLUENZA=True) = 0.8440305952776854
+P(Eye symptom=Not Mentioned | INFLUENZA=False) = 0.8903793154710854
+P(Eye symptom=Negated | INFLUENZA=False) = 2.515809576086086E-4
+P(Eye symptom=Present | INFLUENZA=False) = 0.10936910357130605
+P(Eye symptom=Not Mentioned | INFLUENZA=True) = 0.7848353841037579
+P(Eye symptom=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Eye symptom=Present | INFLUENZA=True) = 0.21449950116395078
+P(Skin symptom=Not Mentioned | INFLUENZA=False) = 0.8561871762324608
+P(Skin symptom=Negated | INFLUENZA=False) = 3.316294441204387E-4
+P(Skin symptom=Present | INFLUENZA=False) = 0.14348119432341877
+P(Skin symptom=Not Mentioned | INFLUENZA=True) = 0.7332889923511806
+P(Skin symptom=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Skin symptom=Present | INFLUENZA=True) = 0.26571333555038246
+P(Discharge status=Not Mentioned | INFLUENZA=False) = 0.8649124612622503
+P(Discharge status=Negated | INFLUENZA=False) = 2.287099614623715E-5
+P(Discharge status=Present | INFLUENZA=False) = 0.13506466774160347
+P(Discharge status=Not Mentioned | INFLUENZA=True) = 0.8979048885932823
+P(Discharge status=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Discharge status=Present | INFLUENZA=True) = 0.101762554040572
+P(Laboratory test finding=Not Mentioned | INFLUENZA=False) = 0.6907155191144351
+P(Laboratory test finding=Negated | INFLUENZA=False) = 0.004505586240808718
+P(Laboratory test finding=Present | INFLUENZA=False) = 0.30477889464475627
+P(Laboratory test finding=Not Mentioned | INFLUENZA=True) = 0.5856335217825075
+P(Laboratory test finding=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Laboratory test finding=Present | INFLUENZA=True) = 0.4130362487529099
+P(Follow-up status=Not Mentioned | INFLUENZA=False) = 0.9567852527816849
+P(Follow-up status=Negated | INFLUENZA=False) = 8.576623554838931E-4
+P(Follow-up status=Present | INFLUENZA=False) = 0.0423570848628312
+P(Follow-up status=Not Mentioned | INFLUENZA=True) = 0.949118722979714
+P(Follow-up status=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Follow-up status=Present | INFLUENZA=True) = 0.04988360492184902
+P(Household composition=Not Mentioned | INFLUENZA=False) = 0.8715679211408053
+P(Household composition=Negated | INFLUENZA=False) = 9.262753439226045E-4
+P(Household composition=Present | INFLUENZA=False) = 0.1275058035152721
+P(Household composition=Not Mentioned | INFLUENZA=True) = 0.8347189890256069
+P(Household composition=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Household composition=Present | INFLUENZA=True) = 0.16395078150981043
+P(Hypoxemia=Not Mentioned | INFLUENZA=False) = 0.9975528034123526
+P(Hypoxemia=Negated | INFLUENZA=False) = 3.4306494219355724E-4
+P(Hypoxemia=Present | INFLUENZA=False) = 0.0021041316454538175
+P(Hypoxemia=Not Mentioned | INFLUENZA=True) = 0.9847023611572996
+P(Hypoxemia=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Hypoxemia=Present | INFLUENZA=True) = 0.013634852011972065
+P(Prematurity of fetus=Not Mentioned | INFLUENZA=False) = 0.9984790787562753
+P(Prematurity of fetus=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Prematurity of fetus=Present | INFLUENZA=False) = 0.0014866147495054148
+P(Prematurity of fetus=Not Mentioned | INFLUENZA=True) = 0.9936814100432324
+P(Prematurity of fetus=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Prematurity of fetus=Present | INFLUENZA=True) = 0.005986032590621883
+P(Intoxication=Not Mentioned | INFLUENZA=False) = 0.9873752101272771
+P(Intoxication=Negated | INFLUENZA=False) = 5.260329113634544E-4
+P(Intoxication=Present | INFLUENZA=False) = 0.012098756961359453
+P(Intoxication=Not Mentioned | INFLUENZA=True) = 0.9976720984369803
+P(Intoxication=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Intoxication=Present | INFLUENZA=True) = 0.0019953441968739607
+P(atypia morphology=Not Mentioned | INFLUENZA=False) = 0.9850766750145803
+P(atypia morphology=Negated | INFLUENZA=False) = 6.289523940215216E-4
+P(atypia morphology=Present | INFLUENZA=False) = 0.014294372591398218
+P(atypia morphology=Not Mentioned | INFLUENZA=True) = 0.9610907881609577
+P(atypia morphology=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(atypia morphology=Present | INFLUENZA=True) = 0.03824409710675091
+P(FEVER HIGH (finding)=Not Mentioned | INFLUENZA=False) = 0.9979987878372043
+P(FEVER HIGH (finding)=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(FEVER HIGH (finding)=Present | INFLUENZA=False) = 0.0019554701705032764
+P(FEVER HIGH (finding)=Not Mentioned | INFLUENZA=True) = 0.9753907549052212
+P(FEVER HIGH (finding)=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(FEVER HIGH (finding)=Present | INFLUENZA=True) = 0.02394413036248753
+P(surgical history=Not Mentioned | INFLUENZA=False) = 0.8041670954978444
+P(surgical history=Negated | INFLUENZA=False) = 4.1167793063226867E-4
+P(surgical history=Present | INFLUENZA=False) = 0.19542122657152333
+P(surgical history=Not Mentioned | INFLUENZA=True) = 0.7173262387761888
+P(surgical history=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(surgical history=Present | INFLUENZA=True) = 0.2823412038576654
+P(Generalized muscle weakness=Not Mentioned | INFLUENZA=False) = 0.9864146282891352
+P(Generalized muscle weakness=Negated | INFLUENZA=False) = 3.0875844797420153E-4
+P(Generalized muscle weakness=Present | INFLUENZA=False) = 0.013276613262890665
+P(Generalized muscle weakness=Not Mentioned | INFLUENZA=True) = 0.9537745261057532
+P(Generalized muscle weakness=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Generalized muscle weakness=Present | INFLUENZA=True) = 0.04556035916195544
+P(Oxygen saturation below reference range=Not Mentioned | INFLUENZA=False) = 0.9979187393506924
+P(Oxygen saturation below reference range=Negated | INFLUENZA=False) = 2.0583896531613434E-4
+P(Oxygen saturation below reference range=Present | INFLUENZA=False) = 0.0018754216839914463
+P(Oxygen saturation below reference range=Not Mentioned | INFLUENZA=True) = 0.9906883937479215
+P(Oxygen saturation below reference range=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Oxygen saturation below reference range=Present | INFLUENZA=True) = 0.008979048885932824
+P(White blood cell count decreased=Not Mentioned | INFLUENZA=False) = 0.9974155774354752
+P(White blood cell count decreased=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(White blood cell count decreased=Present | INFLUENZA=False) = 0.0025386805722323238
+P(White blood cell count decreased=Not Mentioned | INFLUENZA=True) = 0.9827070169604257
+P(White blood cell count decreased=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(White blood cell count decreased=Present | INFLUENZA=True) = 0.016960425673428665
+P(Completion Status=Not Mentioned | INFLUENZA=False) = 0.9889761798575137
+P(Completion Status=Negated | INFLUENZA=False) = 9.14839845849486E-5
+P(Completion Status=Present | INFLUENZA=False) = 0.010932336157901358
+P(Completion Status=Not Mentioned | INFLUENZA=True) = 0.9733954107083472
+P(Completion Status=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Completion Status=Present | INFLUENZA=True) = 0.025939474559361488
+P(Tube number=Not Mentioned | INFLUENZA=False) = 0.9990165471657118
+P(Tube number=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Tube number=Present | INFLUENZA=False) = 9.720173362150788E-4
+P(Tube number=Not Mentioned | INFLUENZA=True) = 0.9943465247755238
+P(Tube number=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Tube number=Present | INFLUENZA=True) = 0.005320917858330562
+P(Feeling tired=Not Mentioned | INFLUENZA=False) = 0.9902912621359223
+P(Feeling tired=Negated | INFLUENZA=False) = 6.861298843871145E-5
+P(Feeling tired=Present | INFLUENZA=False) = 0.009640124875638959
+P(Feeling tired=Not Mentioned | INFLUENZA=True) = 0.9687396075823079
+P(Feeling tired=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Feeling tired=Present | INFLUENZA=True) = 0.030927835051546393
+P(Dry cough=Not Mentioned | INFLUENZA=False) = 0.9860601278488684
+P(Dry cough=Negated | INFLUENZA=False) = 1.0291948265806717E-4
+P(Dry cough=Present | INFLUENZA=False) = 0.013836952668473476
+P(Dry cough=Not Mentioned | INFLUENZA=True) = 0.8683072830063185
+P(Dry cough=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Dry cough=Present | INFLUENZA=True) = 0.1310276022613901
+P(family issues=Not Mentioned | INFLUENZA=False) = 0.9664025066611777
+P(family issues=Negated | INFLUENZA=False) = 0.03315150891397075
+P(family issues=Present | INFLUENZA=False) = 4.4598442485162444E-4
+P(family issues=Not Mentioned | INFLUENZA=True) = 0.8899235118057865
+P(family issues=Negated | INFLUENZA=True) = 0.10941137346192219
+P(family issues=Present | INFLUENZA=True) = 6.651147322913202E-4
+P(Neutrophil count decreased=Not Mentioned | INFLUENZA=False) = 0.997392706439329
+P(Neutrophil count decreased=Negated | INFLUENZA=False) = 5.603394055828102E-4
+P(Neutrophil count decreased=Present | INFLUENZA=False) = 0.002046954155088225
+P(Neutrophil count decreased=Not Mentioned | INFLUENZA=True) = 0.983372131692717
+P(Neutrophil count decreased=Negated | INFLUENZA=True) = 0.004988360492184902
+P(Neutrophil count decreased=Present | INFLUENZA=True) = 0.011639507815098104
+P(Increased work of breathing=Not Mentioned | INFLUENZA=False) = 0.9970610769952085
+P(Increased work of breathing=Negated | INFLUENZA=False) = 6.746943863139959E-4
+P(Increased work of breathing=Present | INFLUENZA=False) = 0.0022642286184774776
+P(Increased work of breathing=Not Mentioned | INFLUENZA=True) = 0.9850349185234453
+P(Increased work of breathing=Negated | INFLUENZA=True) = 0.0033255736614566014
+P(Increased work of breathing=Present | INFLUENZA=True) = 0.011639507815098104
+P(Yellow color on exam=Not Mentioned | INFLUENZA=False) = 0.9826637849211523
+P(Yellow color on exam=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Yellow color on exam=Present | INFLUENZA=False) = 0.017221860098116572
+P(Yellow color on exam=Not Mentioned | INFLUENZA=True) = 0.9451280345859661
+P(Yellow color on exam=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Yellow color on exam=Present | INFLUENZA=True) = 0.05453940804788826
+P(Rupture of Membranes=Not Mentioned | INFLUENZA=False) = 0.8495545873500521
+P(Rupture of Membranes=Negated | INFLUENZA=False) = 0.0016581472206021934
+P(Rupture of Membranes=Present | INFLUENZA=False) = 0.14878726542934578
+P(Rupture of Membranes=Not Mentioned | INFLUENZA=True) = 0.7871632856667775
+P(Rupture of Membranes=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Rupture of Membranes=Present | INFLUENZA=True) = 0.21117392750249417
+P(Rhinorrhea=Not Mentioned | INFLUENZA=False) = 0.937413519045822
+P(Rhinorrhea=Negated | INFLUENZA=False) = 0.013917001154985306
+P(Rhinorrhea=Present | INFLUENZA=False) = 0.04866947979919265
+P(Rhinorrhea=Not Mentioned | INFLUENZA=True) = 0.7941469903558364
+P(Rhinorrhea=Negated | INFLUENZA=True) = 0.011639507815098104
+P(Rhinorrhea=Present | INFLUENZA=True) = 0.19421350182906552
+P(Platelet morphology - result=Not Mentioned | INFLUENZA=False) = 0.9958603496975311
+P(Platelet morphology - result=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Platelet morphology - result=Present | INFLUENZA=False) = 0.004128214804395806
+P(Platelet morphology - result=Not Mentioned | INFLUENZA=True) = 0.9830395743265713
+P(Platelet morphology - result=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Platelet morphology - result=Present | INFLUENZA=True) = 0.016627868307283005
+P(Family history of asthma=Not Mentioned | INFLUENZA=False) = 0.9928528137043009
+P(Family history of asthma=Negated | INFLUENZA=False) = 4.4598442485162444E-4
+P(Family history of asthma=Present | INFLUENZA=False) = 0.006701201870847485
+P(Family history of asthma=Not Mentioned | INFLUENZA=True) = 0.9717326238776189
+P(Family history of asthma=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Family history of asthma=Present | INFLUENZA=True) = 0.02660458929165281
+P(Cough with fever=Not Mentioned | INFLUENZA=False) = 0.9979416103468387
+P(Cough with fever=Negated | INFLUENZA=False) = 6.518233901677587E-4
+P(Cough with fever=Present | INFLUENZA=False) = 0.0014065662629935847
+P(Cough with fever=Not Mentioned | INFLUENZA=True) = 0.9797140006651147
+P(Cough with fever=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Cough with fever=Present | INFLUENZA=True) = 0.01962088460259395
+P(Patient name=Not Mentioned | INFLUENZA=False) = 0.9170125904833785
+P(Patient name=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Patient name=Present | INFLUENZA=False) = 0.08297597401854838
+P(Patient name=Not Mentioned | INFLUENZA=True) = 0.9680744928500167
+P(Patient name=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Patient name=Present | INFLUENZA=True) = 0.03159294978383771
+P(Nuchal Rigidity=Not Mentioned | INFLUENZA=False) = 0.9838873832149759
+P(Nuchal Rigidity=Negated | INFLUENZA=False) = 0.015254954429540179
+P(Nuchal Rigidity=Present | INFLUENZA=False) = 8.576623554838931E-4
+P(Nuchal Rigidity=Not Mentioned | INFLUENZA=True) = 0.9674093781177253
+P(Nuchal Rigidity=Negated | INFLUENZA=True) = 0.02959760558696375
+P(Nuchal Rigidity=Present | INFLUENZA=True) = 0.0029930162953109413
+P(Hydration status=Not Mentioned | INFLUENZA=False) = 0.9740071128798015
+P(Hydration status=Negated | INFLUENZA=False) = 2.744519537548458E-4
+P(Hydration status=Present | INFLUENZA=False) = 0.025718435166443676
+P(Hydration status=Not Mentioned | INFLUENZA=True) = 0.8792816760891253
+P(Hydration status=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Hydration status=Present | INFLUENZA=True) = 0.11938809444629199
+P(Therapy Object (animal model)=Not Mentioned | INFLUENZA=False) = 0.878097590540556
+P(Therapy Object (animal model)=Negated | INFLUENZA=False) = 9.14839845849486E-4
+P(Therapy Object (animal model)=Present | INFLUENZA=False) = 0.12098756961359453
+P(Therapy Object (animal model)=Not Mentioned | INFLUENZA=True) = 0.766212171599601
+P(Therapy Object (animal model)=Negated | INFLUENZA=True) = 0.002660458929165281
+P(Therapy Object (animal model)=Present | INFLUENZA=True) = 0.2311273694712338
+P(Tattoo=Not Mentioned | INFLUENZA=False) = 0.9515134881699773
+P(Tattoo=Negated | INFLUENZA=False) = 2.287099614623715E-5
+P(Tattoo=Present | INFLUENZA=False) = 0.04846364083387652
+P(Tattoo=Not Mentioned | INFLUENZA=True) = 0.9567675424010642
+P(Tattoo=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Tattoo=Present | INFLUENZA=True) = 0.04289990023279015
+P(Sharp sensation quality=Not Mentioned | INFLUENZA=False) = 0.9512161652200761
+P(Sharp sensation quality=Negated | INFLUENZA=False) = 6.97565382460233E-4
+P(Sharp sensation quality=Present | INFLUENZA=False) = 0.048086269397463605
+P(Sharp sensation quality=Not Mentioned | INFLUENZA=True) = 0.984369803791154
+P(Sharp sensation quality=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Sharp sensation quality=Present | INFLUENZA=True) = 0.015297638842700367
+P(Positive=Not Mentioned | INFLUENZA=False) = 0.8306745800313332
+P(Positive=Negated | INFLUENZA=False) = 0.059819090420483265
+P(Positive=Present | INFLUENZA=False) = 0.10950632954818347
+P(Positive=Not Mentioned | INFLUENZA=True) = 0.6907216494845361
+P(Positive=Negated | INFLUENZA=True) = 0.040571998669770536
+P(Positive=Present | INFLUENZA=True) = 0.26870635184569336
+P(Symptoms=Not Mentioned | INFLUENZA=False) = 0.4661337724564593
+P(Symptoms=Negated | INFLUENZA=False) = 0.058069459215296125
+P(Symptoms=Present | INFLUENZA=False) = 0.4757967683282445
+P(Symptoms=Not Mentioned | INFLUENZA=True) = 0.27801795809777186
+P(Symptoms=Negated | INFLUENZA=True) = 0.039906883937479216
+P(Symptoms=Present | INFLUENZA=True) = 0.6820751579647489
+P(Hypophagia=Not Mentioned | INFLUENZA=False) = 0.9969009800221849
+P(Hypophagia=Negated | INFLUENZA=False) = 2.287099614623715E-5
+P(Hypophagia=Present | INFLUENZA=False) = 0.0030761489816688967
+P(Hypophagia=Not Mentioned | INFLUENZA=True) = 0.9837046890588627
+P(Hypophagia=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Hypophagia=Present | INFLUENZA=True) = 0.015962753574991686
+P(Physical assessment findings=Not Mentioned | INFLUENZA=False) = 0.8387251706748088
+P(Physical assessment findings=Negated | INFLUENZA=False) = 0.007810445183939987
+P(Physical assessment findings=Present | INFLUENZA=False) = 0.15346438414125127
+P(Physical assessment findings=Not Mentioned | INFLUENZA=True) = 0.7525773195876289
+P(Physical assessment findings=Negated | INFLUENZA=True) = 0.006983704689058862
+P(Physical assessment findings=Present | INFLUENZA=True) = 0.24043897572331227
+P(Mild Adverse Event=Not Mentioned | INFLUENZA=False) = 0.6918933754159663
+P(Mild Adverse Event=Negated | INFLUENZA=False) = 0.0018182441936258533
+P(Mild Adverse Event=Present | INFLUENZA=False) = 0.3062883803904079
+P(Mild Adverse Event=Not Mentioned | INFLUENZA=True) = 0.6228799467908214
+P(Mild Adverse Event=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Mild Adverse Event=Present | INFLUENZA=True) = 0.37645493847688727
+P(Positive Finding=Not Mentioned | INFLUENZA=False) = 0.8616190378171922
+P(Positive Finding=Negated | INFLUENZA=False) = 0.059819090420483265
+P(Positive Finding=Present | INFLUENZA=False) = 0.07856187176232461
+P(Positive Finding=Not Mentioned | INFLUENZA=True) = 0.7628865979381443
+P(Positive Finding=Negated | INFLUENZA=True) = 0.0392417692051879
+P(Positive Finding=Present | INFLUENZA=True) = 0.19787163285666778
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | INFLUENZA=False) = 0.9403181355563942
+P(Ambulatory Status - Oxygen therapy=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Ambulatory Status - Oxygen therapy=Present | INFLUENZA=False) = 0.05964755794938648
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | INFLUENZA=True) = 0.8124376454938477
+P(Ambulatory Status - Oxygen therapy=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Ambulatory Status - Oxygen therapy=Present | INFLUENZA=True) = 0.18722979714000665
+P(Referral type - Psychiatric=Not Mentioned | INFLUENZA=False) = 0.52289958489142
+P(Referral type - Psychiatric=Negated | INFLUENZA=False) = 0.0027559550356215765
+P(Referral type - Psychiatric=Present | INFLUENZA=False) = 0.4743444600729585
+P(Referral type - Psychiatric=Not Mentioned | INFLUENZA=True) = 0.5257731958762887
+P(Referral type - Psychiatric=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Referral type - Psychiatric=Present | INFLUENZA=True) = 0.47356168939142
+P(Normal Observation Interpretation=Not Mentioned | INFLUENZA=False) = 0.16964561391471406
+P(Normal Observation Interpretation=Negated | INFLUENZA=False) = 0.011732821023019658
+P(Normal Observation Interpretation=Present | INFLUENZA=False) = 0.8186215650622662
+P(Normal Observation Interpretation=Not Mentioned | INFLUENZA=True) = 0.11074160292650483
+P(Normal Observation Interpretation=Negated | INFLUENZA=True) = 0.012304622547389425
+P(Normal Observation Interpretation=Present | INFLUENZA=True) = 0.8769537745261058
+P(normal Device Alert Level=Not Mentioned | INFLUENZA=False) = 0.16964561391471406
+P(normal Device Alert Level=Negated | INFLUENZA=False) = 0.011732821023019658
+P(normal Device Alert Level=Present | INFLUENZA=False) = 0.8186215650622662
+P(normal Device Alert Level=Not Mentioned | INFLUENZA=True) = 0.11074160292650483
+P(normal Device Alert Level=Negated | INFLUENZA=True) = 0.012304622547389425
+P(normal Device Alert Level=Present | INFLUENZA=True) = 0.8769537745261058
+P(Device Alert Level - Serious=Not Mentioned | INFLUENZA=False) = 0.9785241346186834
+P(Device Alert Level - Serious=Negated | INFLUENZA=False) = 0.002069825151234462
+P(Device Alert Level - Serious=Present | INFLUENZA=False) = 0.01940604023008222
+P(Device Alert Level - Serious=Not Mentioned | INFLUENZA=True) = 0.9690721649484536
+P(Device Alert Level - Serious=Negated | INFLUENZA=True) = 0.0019953441968739607
+P(Device Alert Level - Serious=Present | INFLUENZA=True) = 0.02893249085467243
+P(DeviceAlertLevel - Critical=Not Mentioned | INFLUENZA=False) = 0.9906228915800428
+P(DeviceAlertLevel - Critical=Negated | INFLUENZA=False) = 2.515809576086086E-4
+P(DeviceAlertLevel - Critical=Present | INFLUENZA=False) = 0.009125527462348623
+P(DeviceAlertLevel - Critical=Not Mentioned | INFLUENZA=True) = 0.966744263385434
+P(DeviceAlertLevel - Critical=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(DeviceAlertLevel - Critical=Present | INFLUENZA=True) = 0.03292317924842035
+P(Equipment Alert Level - Serious=Not Mentioned | INFLUENZA=False) = 0.9785241346186834
+P(Equipment Alert Level - Serious=Negated | INFLUENZA=False) = 0.002069825151234462
+P(Equipment Alert Level - Serious=Present | INFLUENZA=False) = 0.01940604023008222
+P(Equipment Alert Level - Serious=Not Mentioned | INFLUENZA=True) = 0.9690721649484536
+P(Equipment Alert Level - Serious=Negated | INFLUENZA=True) = 0.0019953441968739607
+P(Equipment Alert Level - Serious=Present | INFLUENZA=True) = 0.02893249085467243
+P(Gender Status - Intact=Not Mentioned | INFLUENZA=False) = 0.35303669651331665
+P(Gender Status - Intact=Negated | INFLUENZA=False) = 0.001395130764920466
+P(Gender Status - Intact=Present | INFLUENZA=False) = 0.6455681727217629
+P(Gender Status - Intact=Not Mentioned | INFLUENZA=True) = 0.3451945460591952
+P(Gender Status - Intact=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Gender Status - Intact=Present | INFLUENZA=True) = 0.6538077818423678
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | INFLUENZA=False) = 0.8298054821777763
+P(Adverse Event Associated with Constitutional Symptoms=Negated | INFLUENZA=False) = 0.0031790684643269638
+P(Adverse Event Associated with Constitutional Symptoms=Present | INFLUENZA=False) = 0.16701544935789678
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | INFLUENZA=True) = 0.7023611572996342
+P(Adverse Event Associated with Constitutional Symptoms=Negated | INFLUENZA=True) = 0.002327901563019621
+P(Adverse Event Associated with Constitutional Symptoms=Present | INFLUENZA=True) = 0.2953109411373462
+P(Adverse Event Associated with Pain=Not Mentioned | INFLUENZA=False) = 0.4795361761981543
+P(Adverse Event Associated with Pain=Negated | INFLUENZA=False) = 0.10375427401740482
+P(Adverse Event Associated with Pain=Present | INFLUENZA=False) = 0.41670954978444086
+P(Adverse Event Associated with Pain=Not Mentioned | INFLUENZA=True) = 0.7442633854339874
+P(Adverse Event Associated with Pain=Negated | INFLUENZA=True) = 0.04888593282341204
+P(Adverse Event Associated with Pain=Present | INFLUENZA=True) = 0.2068506817426006
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | INFLUENZA=False) = 0.23059681864443607
+P(Adverse Event Associated with the Gastrointestinal System=Negated | INFLUENZA=False) = 4.8029091907098015E-4
+P(Adverse Event Associated with the Gastrointestinal System=Present | INFLUENZA=False) = 0.768922890436493
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | INFLUENZA=True) = 0.1543066178915863
+P(Adverse Event Associated with the Gastrointestinal System=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Adverse Event Associated with the Gastrointestinal System=Present | INFLUENZA=True) = 0.8450282673761224
+P(Lipase, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9351607259254177
+P(Lipase, CTCAE=Negated | INFLUENZA=False) = 5.832104017290473E-4
+P(Lipase, CTCAE=Present | INFLUENZA=False) = 0.06425606367285328
+P(Lipase, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9537745261057532
+P(Lipase, CTCAE=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Lipase, CTCAE=Present | INFLUENZA=True) = 0.045892916528101096
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9825265589442748
+P(Glomerular Filtration Rate, CTCAE=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Glomerular Filtration Rate, CTCAE=Present | INFLUENZA=False) = 0.017462005557652063
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9354838709677419
+P(Glomerular Filtration Rate, CTCAE=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Glomerular Filtration Rate, CTCAE=Present | INFLUENZA=True) = 0.06418357166611241
+P(Breastfeeding (mother)=Not Mentioned | INFLUENZA=False) = 0.9982160623005935
+P(Breastfeeding (mother)=Negated | INFLUENZA=False) = 1.257904788043043E-4
+P(Breastfeeding (mother)=Present | INFLUENZA=False) = 0.0016581472206021934
+P(Breastfeeding (mother)=Not Mentioned | INFLUENZA=True) = 0.9960093116062521
+P(Breastfeeding (mother)=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Breastfeeding (mother)=Present | INFLUENZA=True) = 0.0036581310276022614
+P(Breastfeeding (infant)=Not Mentioned | INFLUENZA=False) = 0.9982160623005935
+P(Breastfeeding (infant)=Negated | INFLUENZA=False) = 1.257904788043043E-4
+P(Breastfeeding (infant)=Present | INFLUENZA=False) = 0.0016581472206021934
+P(Breastfeeding (infant)=Not Mentioned | INFLUENZA=True) = 0.9960093116062521
+P(Breastfeeding (infant)=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Breastfeeding (infant)=Present | INFLUENZA=True) = 0.0036581310276022614
+P(Pupil equal round and reacting to light=Not Mentioned | INFLUENZA=False) = 0.8332704380939312
+P(Pupil equal round and reacting to light=Negated | INFLUENZA=False) = 5.260329113634544E-4
+P(Pupil equal round and reacting to light=Present | INFLUENZA=False) = 0.16620352899470536
+P(Pupil equal round and reacting to light=Not Mentioned | INFLUENZA=True) = 0.8759561024276687
+P(Pupil equal round and reacting to light=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Pupil equal round and reacting to light=Present | INFLUENZA=True) = 0.12371134020618557
+P(Respiratory problem=Not Mentioned | INFLUENZA=False) = 0.9986849177215914
+P(Respiratory problem=Negated | INFLUENZA=False) = 1.0291948265806717E-4
+P(Respiratory problem=Present | INFLUENZA=False) = 0.0012121627957505689
+P(Respiratory problem=Not Mentioned | INFLUENZA=True) = 0.9913535084802129
+P(Respiratory problem=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Respiratory problem=Present | INFLUENZA=True) = 0.008313934153641503
+P(Disease Response=Not Mentioned | INFLUENZA=False) = 0.8896817500886252
+P(Disease Response=Negated | INFLUENZA=False) = 0.0018754216839914463
+P(Disease Response=Present | INFLUENZA=False) = 0.10844282822738345
+P(Disease Response=Not Mentioned | INFLUENZA=True) = 0.7891586298636515
+P(Disease Response=Negated | INFLUENZA=True) = 0.002660458929165281
+P(Disease Response=Present | INFLUENZA=True) = 0.20818091120718324
+P(Crack=Not Mentioned | INFLUENZA=False) = 0.9210493213031894
+P(Crack=Negated | INFLUENZA=False) = 2.9732294990108296E-4
+P(Crack=Present | INFLUENZA=False) = 0.07865335574690956
+P(Crack=Not Mentioned | INFLUENZA=True) = 0.930495510475557
+P(Crack=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Crack=Present | INFLUENZA=True) = 0.06784170269371466
+P(Negative Surgical Margin=Not Mentioned | INFLUENZA=False) = 0.1835397440735531
+P(Negative Surgical Margin=Negated | INFLUENZA=False) = 0.01843402289386714
+P(Negative Surgical Margin=Present | INFLUENZA=False) = 0.7980262330325797
+P(Negative Surgical Margin=Not Mentioned | INFLUENZA=True) = 0.220152976388427
+P(Negative Surgical Margin=Negated | INFLUENZA=True) = 0.012969737279680744
+P(Negative Surgical Margin=Present | INFLUENZA=True) = 0.7668772863318922
+P(Conjunctival hyperemia=Not Mentioned | INFLUENZA=False) = 0.9671000720436379
+P(Conjunctival hyperemia=Negated | INFLUENZA=False) = 0.02560408018571249
+P(Conjunctival hyperemia=Present | INFLUENZA=False) = 0.00729584777064965
+P(Conjunctival hyperemia=Not Mentioned | INFLUENZA=True) = 0.981376787495843
+P(Conjunctival hyperemia=Negated | INFLUENZA=True) = 0.014299966744263386
+P(Conjunctival hyperemia=Present | INFLUENZA=True) = 0.004323245759893582
+P(Intact sensation=Not Mentioned | INFLUENZA=False) = 0.9867119512390362
+P(Intact sensation=Negated | INFLUENZA=False) = 2.287099614623715E-5
+P(Intact sensation=Present | INFLUENZA=False) = 0.013265177764817547
+P(Intact sensation=Not Mentioned | INFLUENZA=True) = 0.9966744263385434
+P(Intact sensation=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Intact sensation=Present | INFLUENZA=True) = 0.0029930162953109413
+P(CARONTE=Not Mentioned | INFLUENZA=False) = 0.9713083353345455
+P(CARONTE=Negated | INFLUENZA=False) = 0.001966905668576395
+P(CARONTE=Present | INFLUENZA=False) = 0.02672475899687811
+P(CARONTE=Not Mentioned | INFLUENZA=True) = 0.9910209511140672
+P(CARONTE=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(CARONTE=Present | INFLUENZA=True) = 0.008313934153641503
+P(ACUTE INSULIN RESPONSE=Not Mentioned | INFLUENZA=False) = 0.7232152046382381
+P(ACUTE INSULIN RESPONSE=Negated | INFLUENZA=False) = 0.004311182773565703
+P(ACUTE INSULIN RESPONSE=Present | INFLUENZA=False) = 0.2724736125881963
+P(ACUTE INSULIN RESPONSE=Not Mentioned | INFLUENZA=True) = 0.7658796142334553
+P(ACUTE INSULIN RESPONSE=Negated | INFLUENZA=True) = 0.0036581310276022614
+P(ACUTE INSULIN RESPONSE=Present | INFLUENZA=True) = 0.23046225473894247
+P(Normal assessment finding=Not Mentioned | INFLUENZA=False) = 0.16964561391471406
+P(Normal assessment finding=Negated | INFLUENZA=False) = 0.011732821023019658
+P(Normal assessment finding=Present | INFLUENZA=False) = 0.8186215650622662
+P(Normal assessment finding=Not Mentioned | INFLUENZA=True) = 0.11074160292650483
+P(Normal assessment finding=Negated | INFLUENZA=True) = 0.012304622547389425
+P(Normal assessment finding=Present | INFLUENZA=True) = 0.8769537745261058
+P(Fracture of Medical Device Material=Not Mentioned | INFLUENZA=False) = 0.8722769220213387
+P(Fracture of Medical Device Material=Negated | INFLUENZA=False) = 0.03746269168753645
+P(Fracture of Medical Device Material=Present | INFLUENZA=False) = 0.09026038629112491
+P(Fracture of Medical Device Material=Not Mentioned | INFLUENZA=True) = 0.9860325906218823
+P(Fracture of Medical Device Material=Negated | INFLUENZA=True) = 0.0036581310276022614
+P(Fracture of Medical Device Material=Present | INFLUENZA=True) = 0.010309278350515464
+P(Medical Device Emits Smoke=Not Mentioned | INFLUENZA=False) = 0.6806865873043101
+P(Medical Device Emits Smoke=Negated | INFLUENZA=False) = 0.030349811886056698
+P(Medical Device Emits Smoke=Present | INFLUENZA=False) = 0.28896360080963324
+P(Medical Device Emits Smoke=Not Mentioned | INFLUENZA=True) = 0.7259727302959761
+P(Medical Device Emits Smoke=Negated | INFLUENZA=True) = 0.03890921183904224
+P(Medical Device Emits Smoke=Present | INFLUENZA=True) = 0.23511805786498172
+P(Medical Device Material Crack=Not Mentioned | INFLUENZA=False) = 0.921495305728041
+P(Medical Device Material Crack=Negated | INFLUENZA=False) = 2.744519537548458E-4
+P(Medical Device Material Crack=Present | INFLUENZA=False) = 0.07823024231820416
+P(Medical Device Material Crack=Not Mentioned | INFLUENZA=True) = 0.930495510475557
+P(Medical Device Material Crack=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Medical Device Material Crack=Present | INFLUENZA=True) = 0.06784170269371466
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | INFLUENZA=False) = 0.4795361761981543
+P(Pain by Anatomic Descriptor, CTCAE=Negated | INFLUENZA=False) = 0.10375427401740482
+P(Pain by Anatomic Descriptor, CTCAE=Present | INFLUENZA=False) = 0.41670954978444086
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | INFLUENZA=True) = 0.7442633854339874
+P(Pain by Anatomic Descriptor, CTCAE=Negated | INFLUENZA=True) = 0.04888593282341204
+P(Pain by Anatomic Descriptor, CTCAE=Present | INFLUENZA=True) = 0.2068506817426006
+P(Oriented to place=Not Mentioned | INFLUENZA=False) = 0.6499708394799135
+P(Oriented to place=Negated | INFLUENZA=False) = 0.0014980502475785333
+P(Oriented to place=Present | INFLUENZA=False) = 0.34853111027250794
+P(Oriented to place=Not Mentioned | INFLUENZA=True) = 0.7226471566345195
+P(Oriented to place=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Oriented to place=Present | INFLUENZA=True) = 0.2760226139008979
+P(Cough, CTCAE=Not Mentioned | INFLUENZA=False) = 0.7565153750271593
+P(Cough, CTCAE=Negated | INFLUENZA=False) = 0.11892917996043317
+P(Cough, CTCAE=Present | INFLUENZA=False) = 0.12455544501240752
+P(Cough, CTCAE=Not Mentioned | INFLUENZA=True) = 0.28732956434985035
+P(Cough, CTCAE=Negated | INFLUENZA=True) = 0.057199866977053544
+P(Cough, CTCAE=Present | INFLUENZA=True) = 0.655470568673096
+P(Atelectasis, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9913661989547955
+P(Atelectasis, CTCAE=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Atelectasis, CTCAE=Present | INFLUENZA=False) = 0.008599494550985168
+P(Atelectasis, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9773860991020951
+P(Atelectasis, CTCAE=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Atelectasis, CTCAE=Present | INFLUENZA=True) = 0.02228134353175923
+P(Hematoma, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9678090729241712
+P(Hematoma, CTCAE=Negated | INFLUENZA=False) = 0.0038651983487140783
+P(Hematoma, CTCAE=Present | INFLUENZA=False) = 0.02832572872711471
+P(Hematoma, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9900232790156301
+P(Hematoma, CTCAE=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Hematoma, CTCAE=Present | INFLUENZA=True) = 0.009311606252078483
+P(Anxiety, CTCAE 3.0=Not Mentioned | INFLUENZA=False) = 0.9139021350074903
+P(Anxiety, CTCAE 3.0=Negated | INFLUENZA=False) = 0.009525769894907773
+P(Anxiety, CTCAE 3.0=Present | INFLUENZA=False) = 0.07657209509760197
+P(Anxiety, CTCAE 3.0=Not Mentioned | INFLUENZA=True) = 0.9398071167276355
+P(Anxiety, CTCAE 3.0=Negated | INFLUENZA=True) = 0.009311606252078483
+P(Anxiety, CTCAE 3.0=Present | INFLUENZA=True) = 0.050881277020286
+P(Apnea, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9807311857467952
+P(Apnea, CTCAE=Negated | INFLUENZA=False) = 0.002092696147380699
+P(Apnea, CTCAE=Present | INFLUENZA=False) = 0.0171761181058241
+P(Apnea, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9733954107083472
+P(Apnea, CTCAE=Negated | INFLUENZA=True) = 0.006651147322913203
+P(Apnea, CTCAE=Present | INFLUENZA=True) = 0.019953441968739608
+P(Back Pain, CTCAE 3.0=Not Mentioned | INFLUENZA=False) = 0.8330417281324688
+P(Back Pain, CTCAE 3.0=Negated | INFLUENZA=False) = 0.02897755211728247
+P(Back Pain, CTCAE 3.0=Present | INFLUENZA=False) = 0.13798071975024873
+P(Back Pain, CTCAE 3.0=Not Mentioned | INFLUENZA=True) = 0.8789491187229798
+P(Back Pain, CTCAE 3.0=Negated | INFLUENZA=True) = 0.020285999334885268
+P(Back Pain, CTCAE 3.0=Present | INFLUENZA=True) = 0.10076488194213502
+P(Platelets, CTCAE=Not Mentioned | INFLUENZA=False) = 0.8045330314361842
+P(Platelets, CTCAE=Negated | INFLUENZA=False) = 6.861298843871145E-5
+P(Platelets, CTCAE=Present | INFLUENZA=False) = 0.19539835557537708
+P(Platelets, CTCAE=Not Mentioned | INFLUENZA=True) = 0.6834053874293315
+P(Platelets, CTCAE=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Platelets, CTCAE=Present | INFLUENZA=True) = 0.3162620552045228
+P(Dehydration, CTCAE=Not Mentioned | INFLUENZA=False) = 0.956213477878029
+P(Dehydration, CTCAE=Negated | INFLUENZA=False) = 0.0013265177764817547
+P(Dehydration, CTCAE=Present | INFLUENZA=False) = 0.042460004345489265
+P(Dehydration, CTCAE=Not Mentioned | INFLUENZA=True) = 0.8420352510808115
+P(Dehydration, CTCAE=Negated | INFLUENZA=True) = 0.005320917858330562
+P(Dehydration, CTCAE=Present | INFLUENZA=True) = 0.152643831060858
+P(Diarrhea, CTCAE=Not Mentioned | INFLUENZA=False) = 0.7554861802005787
+P(Diarrhea, CTCAE=Negated | INFLUENZA=False) = 0.07508548034809656
+P(Diarrhea, CTCAE=Present | INFLUENZA=False) = 0.1694283394513248
+P(Diarrhea, CTCAE=Not Mentioned | INFLUENZA=True) = 0.5317592284669106
+P(Diarrhea, CTCAE=Negated | INFLUENZA=True) = 0.1366810774858663
+P(Diarrhea, CTCAE=Present | INFLUENZA=True) = 0.33155969404722313
+P(Dizziness, CTCAE 3.0=Not Mentioned | INFLUENZA=False) = 0.9175614943908882
+P(Dizziness, CTCAE 3.0=Negated | INFLUENZA=False) = 0.011675643532654064
+P(Dizziness, CTCAE 3.0=Present | INFLUENZA=False) = 0.07076286207645774
+P(Dizziness, CTCAE 3.0=Not Mentioned | INFLUENZA=True) = 0.9261722647156635
+P(Dizziness, CTCAE 3.0=Negated | INFLUENZA=True) = 0.005320917858330562
+P(Dizziness, CTCAE 3.0=Present | INFLUENZA=True) = 0.06850681742600599
+P(Fracture, CTCAE=Not Mentioned | INFLUENZA=False) = 0.8722769220213387
+P(Fracture, CTCAE=Negated | INFLUENZA=False) = 0.03746269168753645
+P(Fracture, CTCAE=Present | INFLUENZA=False) = 0.09026038629112491
+P(Fracture, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9860325906218823
+P(Fracture, CTCAE=Negated | INFLUENZA=True) = 0.0036581310276022614
+P(Fracture, CTCAE=Present | INFLUENZA=True) = 0.010309278350515464
+P(Hypertension, CTCAE=Not Mentioned | INFLUENZA=False) = 0.8011938659988336
+P(Hypertension, CTCAE=Negated | INFLUENZA=False) = 0.005317506604000137
+P(Hypertension, CTCAE=Present | INFLUENZA=False) = 0.1934886273971663
+P(Hypertension, CTCAE=Not Mentioned | INFLUENZA=True) = 0.8214166943797805
+P(Hypertension, CTCAE=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Hypertension, CTCAE=Present | INFLUENZA=True) = 0.1769205187894912
+P(Hypoxia, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9895936967534621
+P(Hypoxia, CTCAE=Negated | INFLUENZA=False) = 0.0028131325259871695
+P(Hypoxia, CTCAE=Present | INFLUENZA=False) = 0.0075931707205507334
+P(Hypoxia, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9444629198536748
+P(Hypoxia, CTCAE=Negated | INFLUENZA=True) = 0.007648819421350183
+P(Hypoxia, CTCAE=Present | INFLUENZA=True) = 0.04788826072497506
+P(Muscle Pain, CTCAE 3=Not Mentioned | INFLUENZA=False) = 0.9748990817295047
+P(Muscle Pain, CTCAE 3=Negated | INFLUENZA=False) = 0.01332235525518314
+P(Muscle Pain, CTCAE 3=Present | INFLUENZA=False) = 0.011778563015312132
+P(Muscle Pain, CTCAE 3=Not Mentioned | INFLUENZA=True) = 0.9378117725307615
+P(Muscle Pain, CTCAE 3=Negated | INFLUENZA=True) = 0.007648819421350183
+P(Muscle Pain, CTCAE 3=Present | INFLUENZA=True) = 0.05453940804788826
+P(Nausea, CTCAE 3.0=Not Mentioned | INFLUENZA=False) = 0.6673871030452732
+P(Nausea, CTCAE 3.0=Negated | INFLUENZA=False) = 0.11882626047777511
+P(Nausea, CTCAE 3.0=Present | INFLUENZA=False) = 0.21378663647695176
+P(Nausea, CTCAE 3.0=Not Mentioned | INFLUENZA=True) = 0.642833388759561
+P(Nausea, CTCAE 3.0=Negated | INFLUENZA=True) = 0.09810442301296973
+P(Nausea, CTCAE 3.0=Present | INFLUENZA=True) = 0.25906218822746924
+P(Pancreatitis, CTCAE 3.0=Not Mentioned | INFLUENZA=False) = 0.9712625933422531
+P(Pancreatitis, CTCAE 3.0=Negated | INFLUENZA=False) = 0.0017153247109677862
+P(Pancreatitis, CTCAE 3.0=Present | INFLUENZA=False) = 0.027022081946779193
+P(Pancreatitis, CTCAE 3.0=Not Mentioned | INFLUENZA=True) = 0.985367475889591
+P(Pancreatitis, CTCAE 3.0=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Pancreatitis, CTCAE 3.0=Present | INFLUENZA=True) = 0.013967409378117725
+P(Pneumothorax, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9610049515706657
+P(Pneumothorax, CTCAE=Negated | INFLUENZA=False) = 0.008290736103010966
+P(Pneumothorax, CTCAE=Present | INFLUENZA=False) = 0.030704312326323372
+P(Pneumothorax, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9191885600266045
+P(Pneumothorax, CTCAE=Negated | INFLUENZA=True) = 0.011306950448952444
+P(Pneumothorax, CTCAE=Present | INFLUENZA=True) = 0.06950448952444296
+P(Aspiration, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9913661989547955
+P(Aspiration, CTCAE=Negated | INFLUENZA=False) = 4.345489267785058E-4
+P(Aspiration, CTCAE=Present | INFLUENZA=False) = 0.008199252118426018
+P(Aspiration, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9830395743265713
+P(Aspiration, CTCAE=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Aspiration, CTCAE=Present | INFLUENZA=True) = 0.015630196208846026
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | INFLUENZA=False) = 0.9816117190984254
+P(Sinus Tachycardia, CTCAE 3.0=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Sinus Tachycardia, CTCAE 3.0=Present | INFLUENZA=False) = 0.01827392592084348
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | INFLUENZA=True) = 0.9268373794479547
+P(Sinus Tachycardia, CTCAE 3.0=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Sinus Tachycardia, CTCAE 3.0=Present | INFLUENZA=True) = 0.07283006318589957
+P(Vomiting, CTCAE=Not Mentioned | INFLUENZA=False) = 0.7499399636351162
+P(Vomiting, CTCAE=Negated | INFLUENZA=False) = 0.13769483229842075
+P(Vomiting, CTCAE=Present | INFLUENZA=False) = 0.11236520406646311
+P(Vomiting, CTCAE=Not Mentioned | INFLUENZA=True) = 0.594945128034586
+P(Vomiting, CTCAE=Negated | INFLUENZA=True) = 0.18523445294313268
+P(Vomiting, CTCAE=Present | INFLUENZA=True) = 0.21982041902228133
+P(Respiratory Status=Not Mentioned | INFLUENZA=False) = 0.9968094960375999
+P(Respiratory Status=Negated | INFLUENZA=False) = 2.287099614623715E-5
+P(Respiratory Status=Present | INFLUENZA=False) = 0.0031676329662538453
+P(Respiratory Status=Not Mentioned | INFLUENZA=True) = 0.9827070169604257
+P(Respiratory Status=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Respiratory Status=Present | INFLUENZA=True) = 0.016960425673428665
+P(Depression, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9239768088099077
+P(Depression, CTCAE=Negated | INFLUENZA=False) = 0.008016284149256122
+P(Depression, CTCAE=Present | INFLUENZA=False) = 0.06800690704083616
+P(Depression, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9587628865979382
+P(Depression, CTCAE=Negated | INFLUENZA=True) = 0.004655803126039242
+P(Depression, CTCAE=Present | INFLUENZA=True) = 0.03658131027602261
+P(History of previous events=Not Mentioned | INFLUENZA=False) = 0.6151726188434137
+P(History of previous events=Negated | INFLUENZA=False) = 0.02880601964618569
+P(History of previous events=Present | INFLUENZA=False) = 0.3560213615104006
+P(History of previous events=Not Mentioned | INFLUENZA=True) = 0.4971732623877619
+P(History of previous events=Negated | INFLUENZA=True) = 0.02560691719321583
+P(History of previous events=Present | INFLUENZA=True) = 0.4772198204190223
+P(jaundice=Not Mentioned | INFLUENZA=False) = 0.9427653321440416
+P(jaundice=Negated | INFLUENZA=False) = 0.05117385387720562
+P(jaundice=Present | INFLUENZA=False) = 0.006060813978752844
+P(jaundice=Not Mentioned | INFLUENZA=True) = 0.913867642168274
+P(jaundice=Negated | INFLUENZA=True) = 0.07914865314266711
+P(jaundice=Present | INFLUENZA=True) = 0.006983704689058862
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | INFLUENZA=False) = 0.9816117190984254
+P(continuous electrocardiogram sinus tachycardia=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(continuous electrocardiogram sinus tachycardia=Present | INFLUENZA=False) = 0.01827392592084348
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | INFLUENZA=True) = 0.9268373794479547
+P(continuous electrocardiogram sinus tachycardia=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(continuous electrocardiogram sinus tachycardia=Present | INFLUENZA=True) = 0.07283006318589957
+P(Has tingling sensation=Not Mentioned | INFLUENZA=False) = 0.956888172264343
+P(Has tingling sensation=Negated | INFLUENZA=False) = 0.02929774606332979
+P(Has tingling sensation=Present | INFLUENZA=False) = 0.013814081672327238
+P(Has tingling sensation=Not Mentioned | INFLUENZA=True) = 0.9790488859328235
+P(Has tingling sensation=Negated | INFLUENZA=True) = 0.018290655138011307
+P(Has tingling sensation=Present | INFLUENZA=True) = 0.002660458929165281
+P(Discomfort=Not Mentioned | INFLUENZA=False) = 0.9126556657175203
+P(Discomfort=Negated | INFLUENZA=False) = 0.00441410225622377
+P(Discomfort=Present | INFLUENZA=False) = 0.0829302320262559
+P(Discomfort=Not Mentioned | INFLUENZA=True) = 0.9571000997672099
+P(Discomfort=Negated | INFLUENZA=True) = 0.002660458929165281
+P(Discomfort=Present | INFLUENZA=True) = 0.040239441303624876
+P(on room air=Not Mentioned | INFLUENZA=False) = 0.9057143183871373
+P(on room air=Negated | INFLUENZA=False) = 4.8029091907098015E-4
+P(on room air=Present | INFLUENZA=False) = 0.09380539069379167
+P(on room air=Not Mentioned | INFLUENZA=True) = 0.8762886597938144
+P(on room air=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(on room air=Present | INFLUENZA=True) = 0.12271366810774859
+P(Actual Aspiration=Not Mentioned | INFLUENZA=False) = 0.9913547634567224
+P(Actual Aspiration=Negated | INFLUENZA=False) = 4.345489267785058E-4
+P(Actual Aspiration=Present | INFLUENZA=False) = 0.008210687616499136
+P(Actual Aspiration=Not Mentioned | INFLUENZA=True) = 0.9830395743265713
+P(Actual Aspiration=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Actual Aspiration=Present | INFLUENZA=True) = 0.015630196208846026
+P(Related to Cancer=Not Mentioned | INFLUENZA=False) = 0.8913513328073004
+P(Related to Cancer=Negated | INFLUENZA=False) = 0.002950358502864592
+P(Related to Cancer=Present | INFLUENZA=False) = 0.10569830868983499
+P(Related to Cancer=Not Mentioned | INFLUENZA=True) = 0.8603259062188228
+P(Related to Cancer=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Related to Cancer=Present | INFLUENZA=True) = 0.13900897904888593
+P(Tissue Congestion=Not Mentioned | INFLUENZA=False) = 0.963932439077384
+P(Tissue Congestion=Negated | INFLUENZA=False) = 0.0019325991743570391
+P(Tissue Congestion=Present | INFLUENZA=False) = 0.034134961748258946
+P(Tissue Congestion=Not Mentioned | INFLUENZA=True) = 0.8237445959428001
+P(Tissue Congestion=Negated | INFLUENZA=True) = 0.004655803126039242
+P(Tissue Congestion=Present | INFLUENZA=True) = 0.1715996009311606
+P(Unintentional Material Aspiration=Not Mentioned | INFLUENZA=False) = 0.9913661989547955
+P(Unintentional Material Aspiration=Negated | INFLUENZA=False) = 4.345489267785058E-4
+P(Unintentional Material Aspiration=Present | INFLUENZA=False) = 0.008199252118426018
+P(Unintentional Material Aspiration=Not Mentioned | INFLUENZA=True) = 0.9830395743265713
+P(Unintentional Material Aspiration=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Unintentional Material Aspiration=Present | INFLUENZA=True) = 0.015630196208846026
+P(Discharge, body substance=Not Mentioned | INFLUENZA=False) = 0.3957254108202683
+P(Discharge, body substance=Negated | INFLUENZA=False) = 0.12828341738424417
+P(Discharge, body substance=Present | INFLUENZA=False) = 0.47599117179548756
+P(Discharge, body substance=Not Mentioned | INFLUENZA=True) = 0.40771533089457934
+P(Discharge, body substance=Negated | INFLUENZA=True) = 0.21150648486863985
+P(Discharge, body substance=Present | INFLUENZA=True) = 0.38077818423678084
+P(Head bobbing=Not Mentioned | INFLUENZA=False) = 0.9997598545404646
+P(Head bobbing=Negated | INFLUENZA=False) = 5.7177490365592876E-5
+P(Head bobbing=Present | INFLUENZA=False) = 1.829679691698972E-4
+P(Head bobbing=Not Mentioned | INFLUENZA=True) = 0.9970069837046891
+P(Head bobbing=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Head bobbing=Present | INFLUENZA=True) = 0.002660458929165281
+P(Palpitations, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9070980136539847
+P(Palpitations, CTCAE=Negated | INFLUENZA=False) = 0.0429746017587796
+P(Palpitations, CTCAE=Present | INFLUENZA=False) = 0.049927384587235696
+P(Palpitations, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9351513136015963
+P(Palpitations, CTCAE=Negated | INFLUENZA=True) = 0.034585966079148656
+P(Palpitations, CTCAE=Present | INFLUENZA=True) = 0.03026272031925507
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Not Mentioned | INFLUENZA=False) = 0.9965579150799914
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Negated | INFLUENZA=False) = 3.4306494219355724E-4
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Present | INFLUENZA=False) = 0.0030990199778151337
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Not Mentioned | INFLUENZA=True) = 0.9800465580312604
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Present | INFLUENZA=True) = 0.015962753574991686
+P(Mild dehydration=Not Mentioned | INFLUENZA=False) = 0.9951056068247053
+P(Mild dehydration=Negated | INFLUENZA=False) = 1.0291948265806717E-4
+P(Mild dehydration=Present | INFLUENZA=False) = 0.0047914736926366825
+P(Mild dehydration=Not Mentioned | INFLUENZA=True) = 0.985367475889591
+P(Mild dehydration=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Mild dehydration=Present | INFLUENZA=True) = 0.014299966744263386
+P(History of bronchiolitis=Not Mentioned | INFLUENZA=False) = 0.9996798060539527
+P(History of bronchiolitis=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(History of bronchiolitis=Present | INFLUENZA=False) = 3.0875844797420153E-4
+P(History of bronchiolitis=Not Mentioned | INFLUENZA=True) = 0.9986697705354174
+P(History of bronchiolitis=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(History of bronchiolitis=Present | INFLUENZA=True) = 9.976720984369804E-4
+P(Allergic disposition=Not Mentioned | INFLUENZA=False) = 0.9255777785401443
+P(Allergic disposition=Negated | INFLUENZA=False) = 0.007330154264869006
+P(Allergic disposition=Present | INFLUENZA=False) = 0.06709206719498667
+P(Allergic disposition=Not Mentioned | INFLUENZA=True) = 0.8919188560026604
+P(Allergic disposition=Negated | INFLUENZA=True) = 0.004988360492184902
+P(Allergic disposition=Present | INFLUENZA=True) = 0.10309278350515463
+P(Agree=Not Mentioned | INFLUENZA=False) = 0.917252735942914
+P(Agree=Negated | INFLUENZA=False) = 0.0018068086955527348
+P(Agree=Present | INFLUENZA=False) = 0.08094045536153327
+P(Agree=Not Mentioned | INFLUENZA=True) = 0.9078816095776522
+P(Agree=Negated | INFLUENZA=True) = 0.0019953441968739607
+P(Agree=Present | INFLUENZA=True) = 0.09012304622547389
+P(Weakness=Not Mentioned | INFLUENZA=False) = 0.7874026553226525
+P(Weakness=Negated | INFLUENZA=False) = 0.04892106075680126
+P(Weakness=Present | INFLUENZA=False) = 0.16367628392054617
+P(Weakness=Not Mentioned | INFLUENZA=True) = 0.7648819421350183
+P(Weakness=Negated | INFLUENZA=True) = 0.028599933488526772
+P(Weakness=Present | INFLUENZA=True) = 0.20651812437645495
+P(Recurrent fevers=Not Mentioned | INFLUENZA=False) = 0.9924411357736687
+P(Recurrent fevers=Negated | INFLUENZA=False) = 0.005969329994167896
+P(Recurrent fevers=Present | INFLUENZA=False) = 0.0015895342321634819
+P(Recurrent fevers=Not Mentioned | INFLUENZA=True) = 0.9890256069171932
+P(Recurrent fevers=Negated | INFLUENZA=True) = 0.002660458929165281
+P(Recurrent fevers=Present | INFLUENZA=True) = 0.008313934153641503
+P(Center of town=Not Mentioned | INFLUENZA=False) = 0.9695472686312853
+P(Center of town=Negated | INFLUENZA=False) = 2.172744633892529E-4
+P(Center of town=Present | INFLUENZA=False) = 0.03023545690532551
+P(Center of town=Not Mentioned | INFLUENZA=True) = 0.983372131692717
+P(Center of town=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Center of town=Present | INFLUENZA=True) = 0.015630196208846026
+P(Skin Bruise=Not Mentioned | INFLUENZA=False) = 0.9550470570745709
+P(Skin Bruise=Negated | INFLUENZA=False) = 0.011332578590460508
+P(Skin Bruise=Present | INFLUENZA=False) = 0.03362036433496861
+P(Skin Bruise=Not Mentioned | INFLUENZA=True) = 0.9920186232125041
+P(Skin Bruise=Negated | INFLUENZA=True) = 0.002327901563019621
+P(Skin Bruise=Present | INFLUENZA=True) = 0.005653475224476222
+P(Full Term Birth=Not Mentioned | INFLUENZA=False) = 0.98118860566972
+P(Full Term Birth=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(Full Term Birth=Present | INFLUENZA=False) = 0.01876565233798758
+P(Full Term Birth=Not Mentioned | INFLUENZA=True) = 0.9580977718656468
+P(Full Term Birth=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Full Term Birth=Present | INFLUENZA=True) = 0.041569670768207514
+P(Tachycardia by ECG Finding=Not Mentioned | INFLUENZA=False) = 0.94888332361316
+P(Tachycardia by ECG Finding=Negated | INFLUENZA=False) = 0.010394867748464784
+P(Tachycardia by ECG Finding=Present | INFLUENZA=False) = 0.04072180863837525
+P(Tachycardia by ECG Finding=Not Mentioned | INFLUENZA=True) = 0.8284003990688393
+P(Tachycardia by ECG Finding=Negated | INFLUENZA=True) = 0.012969737279680744
+P(Tachycardia by ECG Finding=Present | INFLUENZA=True) = 0.15862986365147988
+P(Karnofsky Performance Status 80=Not Mentioned | INFLUENZA=False) = 0.9993138701156129
+P(Karnofsky Performance Status 80=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Karnofsky Performance Status 80=Present | INFLUENZA=False) = 6.746943863139959E-4
+P(Karnofsky Performance Status 80=Not Mentioned | INFLUENZA=True) = 0.9963418689723977
+P(Karnofsky Performance Status 80=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Karnofsky Performance Status 80=Present | INFLUENZA=True) = 0.0033255736614566014
+P(Resident - answer to question=Not Mentioned | INFLUENZA=False) = 0.5618260203323155
+P(Resident - answer to question=Negated | INFLUENZA=False) = 0.0024929385799398493
+P(Resident - answer to question=Present | INFLUENZA=False) = 0.4356810410877446
+P(Resident - answer to question=Not Mentioned | INFLUENZA=True) = 0.5181243764549385
+P(Resident - answer to question=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Resident - answer to question=Present | INFLUENZA=True) = 0.48021283671433324
+P(Transplant=Not Mentioned | INFLUENZA=False) = 0.9949112033574622
+P(Transplant=Negated | INFLUENZA=False) = 2.0583896531613434E-4
+P(Transplant=Present | INFLUENZA=False) = 0.0048829576772216315
+P(Transplant=Not Mentioned | INFLUENZA=True) = 0.9817093448619887
+P(Transplant=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Transplant=Present | INFLUENZA=True) = 0.016960425673428665
+P(At work=Not Mentioned | INFLUENZA=False) = 0.9785241346186834
+P(At work=Negated | INFLUENZA=False) = 1.829679691698972E-4
+P(At work=Present | INFLUENZA=False) = 0.021292897412146787
+P(At work=Not Mentioned | INFLUENZA=True) = 0.9896907216494846
+P(At work=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(At work=Present | INFLUENZA=True) = 0.009976720984369804
+P(Numbness or tingling=Not Mentioned | INFLUENZA=False) = 0.9654190538268894
+P(Numbness or tingling=Negated | INFLUENZA=False) = 0.016924537148215492
+P(Numbness or tingling=Present | INFLUENZA=False) = 0.01765640902489508
+P(Numbness or tingling=Not Mentioned | INFLUENZA=True) = 0.9906883937479215
+P(Numbness or tingling=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(Numbness or tingling=Present | INFLUENZA=True) = 0.005320917858330562
+P(Nausea or vomiting=Not Mentioned | INFLUENZA=False) = 0.9302663327501229
+P(Nausea or vomiting=Negated | INFLUENZA=False) = 0.03557583450547189
+P(Nausea or vomiting=Present | INFLUENZA=False) = 0.03415783274440518
+P(Nausea or vomiting=Not Mentioned | INFLUENZA=True) = 0.9457931493182574
+P(Nausea or vomiting=Negated | INFLUENZA=True) = 0.03159294978383771
+P(Nausea or vomiting=Present | INFLUENZA=True) = 0.02261390089790489
+P(UTD=Not Mentioned | INFLUENZA=False) = 0.9909888275183826
+P(UTD=Negated | INFLUENZA=False) = 2.9732294990108296E-4
+P(UTD=Present | INFLUENZA=False) = 0.008713849531716354
+P(UTD=Not Mentioned | INFLUENZA=True) = 0.9783837712005321
+P(UTD=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(UTD=Present | INFLUENZA=True) = 0.020951114067176587
+P(Too early=Not Mentioned | INFLUENZA=False) = 0.9931958786464945
+P(Too early=Negated | INFLUENZA=False) = 1.0291948265806717E-4
+P(Too early=Present | INFLUENZA=False) = 0.006701201870847485
+P(Too early=Not Mentioned | INFLUENZA=True) = 0.9857000332557366
+P(Too early=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Too early=Present | INFLUENZA=True) = 0.013634852011972065
+P(Overdose=Not Mentioned | INFLUENZA=False) = 0.9904627946070191
+P(Overdose=Negated | INFLUENZA=False) = 7.090008805333516E-4
+P(Overdose=Present | INFLUENZA=False) = 0.00882820451244754
+P(Overdose=Not Mentioned | INFLUENZA=True) = 0.9976720984369803
+P(Overdose=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Overdose=Present | INFLUENZA=True) = 0.0016627868307283007
+P(3 times=Not Mentioned | INFLUENZA=False) = 0.8872345535009777
+P(3 times=Negated | INFLUENZA=False) = 9.14839845849486E-5
+P(3 times=Present | INFLUENZA=False) = 0.11267396251443731
+P(3 times=Not Mentioned | INFLUENZA=True) = 0.9062188227469239
+P(3 times=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(3 times=Present | INFLUENZA=True) = 0.0934486198869305
+P(2 times=Not Mentioned | INFLUENZA=False) = 0.8435623863597379
+P(2 times=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(2 times=Present | INFLUENZA=False) = 0.15639187164796964
+P(2 times=Not Mentioned | INFLUENZA=True) = 0.8460259394745594
+P(2 times=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(2 times=Present | INFLUENZA=True) = 0.15364150315929498
+P(Radiologic Impression=Not Mentioned | INFLUENZA=False) = 0.1482497970199092
+P(Radiologic Impression=Negated | INFLUENZA=False) = 0.0024014545953549007
+P(Radiologic Impression=Present | INFLUENZA=False) = 0.849348748384736
+P(Radiologic Impression=Not Mentioned | INFLUENZA=True) = 0.10442301296973729
+P(Radiologic Impression=Negated | INFLUENZA=True) = 0.0033255736614566014
+P(Radiologic Impression=Present | INFLUENZA=True) = 0.8922514133688061
+P(Pathologic Complete Response=Not Mentioned | INFLUENZA=False) = 0.9972326094663053
+P(Pathologic Complete Response=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Pathologic Complete Response=Present | INFLUENZA=False) = 0.0027330840394753394
+P(Pathologic Complete Response=Not Mentioned | INFLUENZA=True) = 0.9920186232125041
+P(Pathologic Complete Response=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Pathologic Complete Response=Present | INFLUENZA=True) = 0.007648819421350183
+P(High Risk Acute Leukemia=Not Mentioned | INFLUENZA=False) = 0.9965579150799914
+P(High Risk Acute Leukemia=Negated | INFLUENZA=False) = 3.4306494219355724E-4
+P(High Risk Acute Leukemia=Present | INFLUENZA=False) = 0.0030990199778151337
+P(High Risk Acute Leukemia=Not Mentioned | INFLUENZA=True) = 0.9800465580312604
+P(High Risk Acute Leukemia=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(High Risk Acute Leukemia=Present | INFLUENZA=True) = 0.015962753574991686
+P(Organomegaly=Not Mentioned | INFLUENZA=False) = 0.7469552986380322
+P(Organomegaly=Negated | INFLUENZA=False) = 0.25054032728395487
+P(Organomegaly=Present | INFLUENZA=False) = 0.002504374078012968
+P(Organomegaly=Not Mentioned | INFLUENZA=True) = 0.6471566345194546
+P(Organomegaly=Negated | INFLUENZA=True) = 0.35051546391752575
+P(Organomegaly=Present | INFLUENZA=True) = 0.002327901563019621
+P(Rambling=Not Mentioned | INFLUENZA=False) = 0.9918922318661589
+P(Rambling=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Rambling=Present | INFLUENZA=False) = 0.008096332635767952
+P(Rambling=Not Mentioned | INFLUENZA=True) = 0.9990023279015631
+P(Rambling=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Rambling=Present | INFLUENZA=True) = 6.651147322913202E-4
+P(Reactive to light=Not Mentioned | INFLUENZA=False) = 0.7842464578544719
+P(Reactive to light=Negated | INFLUENZA=False) = 2.0583896531613434E-4
+P(Reactive to light=Present | INFLUENZA=False) = 0.21554770318021202
+P(Reactive to light=Not Mentioned | INFLUENZA=True) = 0.8027934818756235
+P(Reactive to light=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Reactive to light=Present | INFLUENZA=True) = 0.19654140339208515
+P(Peribronchial Cuffing=Not Mentioned | INFLUENZA=False) = 0.9992566926252473
+P(Peribronchial Cuffing=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Peribronchial Cuffing=Present | INFLUENZA=False) = 7.318718766795888E-4
+P(Peribronchial Cuffing=Not Mentioned | INFLUENZA=True) = 0.9886930495510475
+P(Peribronchial Cuffing=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Peribronchial Cuffing=Present | INFLUENZA=True) = 0.010974393082806785
+P(Much=Not Mentioned | INFLUENZA=False) = 0.834699875353071
+P(Much=Negated | INFLUENZA=False) = 0.008096332635767952
+P(Much=Present | INFLUENZA=False) = 0.15720379201116105
+P(Much=Not Mentioned | INFLUENZA=True) = 0.8274027269704024
+P(Much=Negated | INFLUENZA=True) = 0.014965081476554705
+P(Much=Present | INFLUENZA=True) = 0.1576321915530429
+P(Swollen Lymph Node=Not Mentioned | INFLUENZA=False) = 0.6248584857113452
+P(Swollen Lymph Node=Negated | INFLUENZA=False) = 0.3498233215547703
+P(Swollen Lymph Node=Present | INFLUENZA=False) = 0.025318192733884526
+P(Swollen Lymph Node=Not Mentioned | INFLUENZA=True) = 0.5397406052544064
+P(Swollen Lymph Node=Negated | INFLUENZA=True) = 0.42833388759561025
+P(Swollen Lymph Node=Present | INFLUENZA=True) = 0.03192550714998337
+P(Complete Pharyngeal Contraction=Not Mentioned | INFLUENZA=False) = 0.9388315208068887
+P(Complete Pharyngeal Contraction=Negated | INFLUENZA=False) = 0.002275664116550596
+P(Complete Pharyngeal Contraction=Present | INFLUENZA=False) = 0.05889281507656066
+P(Complete Pharyngeal Contraction=Not Mentioned | INFLUENZA=True) = 0.8969072164948454
+P(Complete Pharyngeal Contraction=Negated | INFLUENZA=True) = 0.0029930162953109413
+P(Complete Pharyngeal Contraction=Present | INFLUENZA=True) = 0.1000997672098437
+P(Laboratory observation=Not Mentioned | INFLUENZA=False) = 0.8890184912003842
+P(Laboratory observation=Negated | INFLUENZA=False) = 0.002950358502864592
+P(Laboratory observation=Present | INFLUENZA=False) = 0.10803115029675117
+P(Laboratory observation=Not Mentioned | INFLUENZA=True) = 0.7811772530761556
+P(Laboratory observation=Negated | INFLUENZA=True) = 0.0019953441968739607
+P(Laboratory observation=Present | INFLUENZA=True) = 0.2168274027269704
+P(Crutches Usually Used=Not Mentioned | INFLUENZA=False) = 0.9808798472217457
+P(Crutches Usually Used=Negated | INFLUENZA=False) = 5.260329113634544E-4
+P(Crutches Usually Used=Present | INFLUENZA=False) = 0.0185941198668908
+P(Crutches Usually Used=Not Mentioned | INFLUENZA=True) = 0.9990023279015631
+P(Crutches Usually Used=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Crutches Usually Used=Present | INFLUENZA=True) = 6.651147322913202E-4
+P(High risk=Not Mentioned | INFLUENZA=False) = 0.9965579150799914
+P(High risk=Negated | INFLUENZA=False) = 3.4306494219355724E-4
+P(High risk=Present | INFLUENZA=False) = 0.0030990199778151337
+P(High risk=Not Mentioned | INFLUENZA=True) = 0.9800465580312604
+P(High risk=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(High risk=Present | INFLUENZA=True) = 0.015962753574991686
+P(High Level=Not Mentioned | INFLUENZA=False) = 0.9376651000034306
+P(High Level=Negated | INFLUENZA=False) = 0.001772502201333379
+P(High Level=Present | INFLUENZA=False) = 0.06056239779523597
+P(High Level=Not Mentioned | INFLUENZA=True) = 0.8433654805453941
+P(High Level=Negated | INFLUENZA=True) = 0.0033255736614566014
+P(High Level=Present | INFLUENZA=True) = 0.15330894579314933
+P(Low Level=Not Mentioned | INFLUENZA=False) = 0.8954681121136231
+P(Low Level=Negated | INFLUENZA=False) = 0.006712637368920604
+P(Low Level=Present | INFLUENZA=False) = 0.09781925051745628
+P(Low Level=Not Mentioned | INFLUENZA=True) = 0.8313934153641503
+P(Low Level=Negated | INFLUENZA=True) = 0.008313934153641503
+P(Low Level=Present | INFLUENZA=True) = 0.16029265048220817
+P(Nasal (intended site)=Not Mentioned | INFLUENZA=False) = 0.9750820496986746
+P(Nasal (intended site)=Negated | INFLUENZA=False) = 0.003236245954692557
+P(Nasal (intended site)=Present | INFLUENZA=False) = 0.02168170434663282
+P(Nasal (intended site)=Not Mentioned | INFLUENZA=True) = 0.9597605586963751
+P(Nasal (intended site)=Negated | INFLUENZA=True) = 0.0029930162953109413
+P(Nasal (intended site)=Present | INFLUENZA=True) = 0.03724642500831393
+P(Rectal (intended site)=Not Mentioned | INFLUENZA=False) = 0.9319359154687983
+P(Rectal (intended site)=Negated | INFLUENZA=False) = 0.001154985305384976
+P(Rectal (intended site)=Present | INFLUENZA=False) = 0.06690909922581678
+P(Rectal (intended site)=Not Mentioned | INFLUENZA=True) = 0.8902560691719321
+P(Rectal (intended site)=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Rectal (intended site)=Present | INFLUENZA=True) = 0.10941137346192219
+P(Oral (intended site)=Not Mentioned | INFLUENZA=False) = 0.8294395462394365
+P(Oral (intended site)=Negated | INFLUENZA=False) = 0.005306071105927019
+P(Oral (intended site)=Present | INFLUENZA=False) = 0.16525438265463652
+P(Oral (intended site)=Not Mentioned | INFLUENZA=True) = 0.7539075490522115
+P(Oral (intended site)=Negated | INFLUENZA=True) = 0.006983704689058862
+P(Oral (intended site)=Present | INFLUENZA=True) = 0.23910874625872963
+P(Influenza B (result)=Not Mentioned | INFLUENZA=False) = 0.9999542580077075
+P(Influenza B (result)=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Influenza B (result)=Present | INFLUENZA=False) = 3.430649421935573E-5
+P(Influenza B (result)=Not Mentioned | INFLUENZA=True) = 0.9408047888260725
+P(Influenza B (result)=Negated | INFLUENZA=True) = 0.010641835716661123
+P(Influenza B (result)=Present | INFLUENZA=True) = 0.04855337545726638
+P(Supplemental oxygen=Not Mentioned | INFLUENZA=False) = 0.9950484293343397
+P(Supplemental oxygen=Negated | INFLUENZA=False) = 0.0010520658227269088
+P(Supplemental oxygen=Present | INFLUENZA=False) = 0.003899504842933434
+P(Supplemental oxygen=Not Mentioned | INFLUENZA=True) = 0.9847023611572996
+P(Supplemental oxygen=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Supplemental oxygen=Present | INFLUENZA=True) = 0.014299966744263386
+P(At home=Not Mentioned | INFLUENZA=False) = 0.7692316488844672
+P(At home=Negated | INFLUENZA=False) = 0.0038308918544947227
+P(At home=Present | INFLUENZA=False) = 0.22693745926103812
+P(At home=Not Mentioned | INFLUENZA=True) = 0.6315264383106086
+P(At home=Negated | INFLUENZA=True) = 0.005986032590621883
+P(At home=Present | INFLUENZA=True) = 0.3624875290987695
+P(Myalgia, CTCAE 5=Not Mentioned | INFLUENZA=False) = 0.9974041419374021
+P(Myalgia, CTCAE 5=Negated | INFLUENZA=False) = 7.890493670451817E-4
+P(Myalgia, CTCAE 5=Present | INFLUENZA=False) = 0.0018068086955527348
+P(Myalgia, CTCAE 5=Not Mentioned | INFLUENZA=True) = 0.9714000665114733
+P(Myalgia, CTCAE 5=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Myalgia, CTCAE 5=Present | INFLUENZA=True) = 0.02726970402394413
+P(Respiratory Failure, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9961348016512859
+P(Respiratory Failure, CTCAE=Negated | INFLUENZA=False) = 9.14839845849486E-5
+P(Respiratory Failure, CTCAE=Present | INFLUENZA=False) = 0.0037737143641291297
+P(Respiratory Failure, CTCAE=Not Mentioned | INFLUENZA=True) = 0.984369803791154
+P(Respiratory Failure, CTCAE=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Respiratory Failure, CTCAE=Present | INFLUENZA=True) = 0.014632524110409046
+P(Rhinorrhea, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9591066588905279
+P(Rhinorrhea, CTCAE=Negated | INFLUENZA=False) = 0.007478815739819548
+P(Rhinorrhea, CTCAE=Present | INFLUENZA=False) = 0.033414525369652476
+P(Rhinorrhea, CTCAE=Not Mentioned | INFLUENZA=True) = 0.8573328899235118
+P(Rhinorrhea, CTCAE=Negated | INFLUENZA=True) = 0.007648819421350183
+P(Rhinorrhea, CTCAE=Present | INFLUENZA=True) = 0.135018290655138
+P(Anxiety, CTCAE 5.0=Not Mentioned | INFLUENZA=False) = 0.9139021350074903
+P(Anxiety, CTCAE 5.0=Negated | INFLUENZA=False) = 0.009525769894907773
+P(Anxiety, CTCAE 5.0=Present | INFLUENZA=False) = 0.07657209509760197
+P(Anxiety, CTCAE 5.0=Not Mentioned | INFLUENZA=True) = 0.9398071167276355
+P(Anxiety, CTCAE 5.0=Negated | INFLUENZA=True) = 0.009311606252078483
+P(Anxiety, CTCAE 5.0=Present | INFLUENZA=True) = 0.050881277020286
+P(Fever, CTCAE=Not Mentioned | INFLUENZA=False) = 0.6222054501583817
+P(Fever, CTCAE=Negated | INFLUENZA=False) = 0.2416435097830686
+P(Fever, CTCAE=Present | INFLUENZA=False) = 0.13615104005854975
+P(Fever, CTCAE=Not Mentioned | INFLUENZA=True) = 0.2637179913535085
+P(Fever, CTCAE=Negated | INFLUENZA=True) = 0.10608579980046558
+P(Fever, CTCAE=Present | INFLUENZA=True) = 0.6301962088460259
+P(Sore Throat, CTCAE=Not Mentioned | INFLUENZA=False) = 0.8967260169016662
+P(Sore Throat, CTCAE=Negated | INFLUENZA=False) = 0.05169988678856908
+P(Sore Throat, CTCAE=Present | INFLUENZA=False) = 0.05157409630976477
+P(Sore Throat, CTCAE=Not Mentioned | INFLUENZA=True) = 0.6863984037246424
+P(Sore Throat, CTCAE=Negated | INFLUENZA=True) = 0.06784170269371466
+P(Sore Throat, CTCAE=Present | INFLUENZA=True) = 0.24575989358164282
+P(Pleural Effusion, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9901426006609718
+P(Pleural Effusion, CTCAE=Negated | INFLUENZA=False) = 0.0015437922398710076
+P(Pleural Effusion, CTCAE=Present | INFLUENZA=False) = 0.008313607099157204
+P(Pleural Effusion, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9584303292317925
+P(Pleural Effusion, CTCAE=Negated | INFLUENZA=True) = 0.011972065181243765
+P(Pleural Effusion, CTCAE=Present | INFLUENZA=True) = 0.02959760558696375
+P(Sepsis, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9873980811234233
+P(Sepsis, CTCAE=Negated | INFLUENZA=False) = 9.14839845849486E-4
+P(Sepsis, CTCAE=Present | INFLUENZA=False) = 0.011687079030727182
+P(Sepsis, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9564349850349185
+P(Sepsis, CTCAE=Negated | INFLUENZA=True) = 0.0029930162953109413
+P(Sepsis, CTCAE=Present | INFLUENZA=True) = 0.040571998669770536
+P(Upper Respiratory Infection, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9901197296648255
+P(Upper Respiratory Infection, CTCAE=Negated | INFLUENZA=False) = 4.57419922924743E-5
+P(Upper Respiratory Infection, CTCAE=Present | INFLUENZA=False) = 0.009834528342881975
+P(Upper Respiratory Infection, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9687396075823079
+P(Upper Respiratory Infection, CTCAE=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Upper Respiratory Infection, CTCAE=Present | INFLUENZA=True) = 0.030595277685400733
+P(Meningitis, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9760655025329629
+P(Meningitis, CTCAE=Negated | INFLUENZA=False) = 0.001669582718675312
+P(Meningitis, CTCAE=Present | INFLUENZA=False) = 0.022264914748361866
+P(Meningitis, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9145327569005653
+P(Meningitis, CTCAE=Negated | INFLUENZA=True) = 0.0033255736614566014
+P(Meningitis, CTCAE=Present | INFLUENZA=True) = 0.08214166943797806
+P(Arthritis, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9168868000045742
+P(Arthritis, CTCAE=Negated | INFLUENZA=False) = 4.8029091907098015E-4
+P(Arthritis, CTCAE=Present | INFLUENZA=False) = 0.08263290907635482
+P(Arthritis, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9258397073495178
+P(Arthritis, CTCAE=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Arthritis, CTCAE=Present | INFLUENZA=True) = 0.07283006318589957
+P(Bronchospasm, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9959403981840429
+P(Bronchospasm, CTCAE=Negated | INFLUENZA=False) = 2.172744633892529E-4
+P(Bronchospasm, CTCAE=Present | INFLUENZA=False) = 0.0038423273525678412
+P(Bronchospasm, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9757233122713668
+P(Bronchospasm, CTCAE=Negated | INFLUENZA=True) = 0.002327901563019621
+P(Bronchospasm, CTCAE=Present | INFLUENZA=True) = 0.02194878616561357
+P(Lethargy, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9905428430935309
+P(Lethargy, CTCAE=Negated | INFLUENZA=False) = 0.003259116950838794
+P(Lethargy, CTCAE=Present | INFLUENZA=False) = 0.006198039955630267
+P(Lethargy, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9743930828067842
+P(Lethargy, CTCAE=Negated | INFLUENZA=True) = 0.010641835716661123
+P(Lethargy, CTCAE=Present | INFLUENZA=True) = 0.014965081476554705
+P(Productive Cough, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9851452880030189
+P(Productive Cough, CTCAE=Negated | INFLUENZA=False) = 0.0017610667032602605
+P(Productive Cough, CTCAE=Present | INFLUENZA=False) = 0.013093645293720767
+P(Productive Cough, CTCAE=Not Mentioned | INFLUENZA=True) = 0.931493182573994
+P(Productive Cough, CTCAE=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(Productive Cough, CTCAE=Present | INFLUENZA=True) = 0.06451612903225806
+P(Malaise, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9834413987901243
+P(Malaise, CTCAE=Negated | INFLUENZA=False) = 0.0036936658776172996
+P(Malaise, CTCAE=Present | INFLUENZA=False) = 0.012864935332258397
+P(Malaise, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9135350848021284
+P(Malaise, CTCAE=Negated | INFLUENZA=True) = 0.0036581310276022614
+P(Malaise, CTCAE=Present | INFLUENZA=True) = 0.08280678417026938
+P(Pain, CTCAE=Not Mentioned | INFLUENZA=False) = 0.4795361761981543
+P(Pain, CTCAE=Negated | INFLUENZA=False) = 0.10375427401740482
+P(Pain, CTCAE=Present | INFLUENZA=False) = 0.41670954978444086
+P(Pain, CTCAE=Not Mentioned | INFLUENZA=True) = 0.7442633854339874
+P(Pain, CTCAE=Negated | INFLUENZA=True) = 0.04888593282341204
+P(Pain, CTCAE=Present | INFLUENZA=True) = 0.2068506817426006
+P(Chills, CTCAE=Not Mentioned | INFLUENZA=False) = 0.6641965990828731
+P(Chills, CTCAE=Negated | INFLUENZA=False) = 0.08291879652818278
+P(Chills, CTCAE=Present | INFLUENZA=False) = 0.25288460438894417
+P(Chills, CTCAE=Not Mentioned | INFLUENZA=True) = 0.6824077153308946
+P(Chills, CTCAE=Negated | INFLUENZA=True) = 0.0392417692051879
+P(Chills, CTCAE=Present | INFLUENZA=True) = 0.27835051546391754
+P(Headache, CTCAE=Not Mentioned | INFLUENZA=False) = 0.7638455292920283
+P(Headache, CTCAE=Negated | INFLUENZA=False) = 0.11295984996626528
+P(Headache, CTCAE=Present | INFLUENZA=False) = 0.12319462074170641
+P(Headache, CTCAE=Not Mentioned | INFLUENZA=True) = 0.6820751579647489
+P(Headache, CTCAE=Negated | INFLUENZA=True) = 0.10907881609577652
+P(Headache, CTCAE=Present | INFLUENZA=True) = 0.20884602593947457
+P(Conjunctivitis, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9907715530549933
+P(Conjunctivitis, CTCAE=Negated | INFLUENZA=False) = 7.433073747527074E-4
+P(Conjunctivitis, CTCAE=Present | INFLUENZA=False) = 0.008485139570253982
+P(Conjunctivitis, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9943465247755238
+P(Conjunctivitis, CTCAE=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Conjunctivitis, CTCAE=Present | INFLUENZA=True) = 0.004323245759893582
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | INFLUENZA=False) = 0.9816117190984254
+P(Sinus Tachycardia, CTCAE 5.0=Negated | INFLUENZA=False) = 1.1435498073118575E-4
+P(Sinus Tachycardia, CTCAE 5.0=Present | INFLUENZA=False) = 0.01827392592084348
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | INFLUENZA=True) = 0.9268373794479547
+P(Sinus Tachycardia, CTCAE 5.0=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Sinus Tachycardia, CTCAE 5.0=Present | INFLUENZA=True) = 0.07283006318589957
+P(Fall, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9243770512424668
+P(Fall, CTCAE=Negated | INFLUENZA=False) = 0.005637700550047457
+P(Fall, CTCAE=Present | INFLUENZA=False) = 0.06998524820748568
+P(Fall, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9733954107083472
+P(Fall, CTCAE=Negated | INFLUENZA=True) = 0.0013302294645826404
+P(Fall, CTCAE=Present | INFLUENZA=True) = 0.02527435982707017
+P(Nausea, CTCAE 5.0=Not Mentioned | INFLUENZA=False) = 0.6673871030452732
+P(Nausea, CTCAE 5.0=Negated | INFLUENZA=False) = 0.11882626047777511
+P(Nausea, CTCAE 5.0=Present | INFLUENZA=False) = 0.21378663647695176
+P(Nausea, CTCAE 5.0=Not Mentioned | INFLUENZA=True) = 0.642833388759561
+P(Nausea, CTCAE 5.0=Negated | INFLUENZA=True) = 0.09810442301296973
+P(Nausea, CTCAE 5.0=Present | INFLUENZA=True) = 0.25906218822746924
+P(Dizziness, CTCAE 5.0=Not Mentioned | INFLUENZA=False) = 0.9175614943908882
+P(Dizziness, CTCAE 5.0=Negated | INFLUENZA=False) = 0.011675643532654064
+P(Dizziness, CTCAE 5.0=Present | INFLUENZA=False) = 0.07076286207645774
+P(Dizziness, CTCAE 5.0=Not Mentioned | INFLUENZA=True) = 0.9261722647156635
+P(Dizziness, CTCAE 5.0=Negated | INFLUENZA=True) = 0.005320917858330562
+P(Dizziness, CTCAE 5.0=Present | INFLUENZA=True) = 0.06850681742600599
+P(Wheezing, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9339714341258134
+P(Wheezing, CTCAE=Negated | INFLUENZA=False) = 0.03979553329445264
+P(Wheezing, CTCAE=Present | INFLUENZA=False) = 0.02623303257973401
+P(Wheezing, CTCAE=Not Mentioned | INFLUENZA=True) = 0.8107748586631194
+P(Wheezing, CTCAE=Negated | INFLUENZA=True) = 0.08014632524110409
+P(Wheezing, CTCAE=Present | INFLUENZA=True) = 0.10907881609577652
+P(Back Pain, CTCAE 5.0=Not Mentioned | INFLUENZA=False) = 0.8330417281324688
+P(Back Pain, CTCAE 5.0=Negated | INFLUENZA=False) = 0.02897755211728247
+P(Back Pain, CTCAE 5.0=Present | INFLUENZA=False) = 0.13798071975024873
+P(Back Pain, CTCAE 5.0=Not Mentioned | INFLUENZA=True) = 0.8789491187229798
+P(Back Pain, CTCAE 5.0=Negated | INFLUENZA=True) = 0.020285999334885268
+P(Back Pain, CTCAE 5.0=Present | INFLUENZA=True) = 0.10076488194213502
+P(Flu Like Symptoms, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9996569350578064
+P(Flu Like Symptoms, CTCAE=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Flu Like Symptoms, CTCAE=Present | INFLUENZA=False) = 3.316294441204387E-4
+P(Flu Like Symptoms, CTCAE=Not Mentioned | INFLUENZA=True) = 0.967741935483871
+P(Flu Like Symptoms, CTCAE=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Flu Like Symptoms, CTCAE=Present | INFLUENZA=True) = 0.03192550714998337
+P(Suicidal Ideation, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9777350852516381
+P(Suicidal Ideation, CTCAE=Negated | INFLUENZA=False) = 0.008862511006666896
+P(Suicidal Ideation, CTCAE=Present | INFLUENZA=False) = 0.01340240374169497
+P(Suicidal Ideation, CTCAE=Not Mentioned | INFLUENZA=True) = 0.9953441968739608
+P(Suicidal Ideation, CTCAE=Negated | INFLUENZA=True) = 9.976720984369804E-4
+P(Suicidal Ideation, CTCAE=Present | INFLUENZA=True) = 0.0036581310276022614
+P(Pancreatitis, CTCAE 5.0=Not Mentioned | INFLUENZA=False) = 0.9712625933422531
+P(Pancreatitis, CTCAE 5.0=Negated | INFLUENZA=False) = 0.0017153247109677862
+P(Pancreatitis, CTCAE 5.0=Present | INFLUENZA=False) = 0.027022081946779193
+P(Pancreatitis, CTCAE 5.0=Not Mentioned | INFLUENZA=True) = 0.985367475889591
+P(Pancreatitis, CTCAE 5.0=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Pancreatitis, CTCAE 5.0=Present | INFLUENZA=True) = 0.013967409378117725
+P(Abdominal Pain, CTCAE 5=Not Mentioned | INFLUENZA=False) = 0.6584445435520944
+P(Abdominal Pain, CTCAE 5=Negated | INFLUENZA=False) = 0.12508147792377097
+P(Abdominal Pain, CTCAE 5=Present | INFLUENZA=False) = 0.2164739785241346
+P(Abdominal Pain, CTCAE 5=Not Mentioned | INFLUENZA=True) = 0.6235450615231127
+P(Abdominal Pain, CTCAE 5=Negated | INFLUENZA=True) = 0.17326238776188893
+P(Abdominal Pain, CTCAE 5=Present | INFLUENZA=True) = 0.20319255071499834
+P(Bruising, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9625373083124635
+P(Bruising, CTCAE=Negated | INFLUENZA=False) = 0.022207737257996272
+P(Bruising, CTCAE=Present | INFLUENZA=False) = 0.015254954429540179
+P(Bruising, CTCAE=Not Mentioned | INFLUENZA=True) = 0.984369803791154
+P(Bruising, CTCAE=Negated | INFLUENZA=True) = 0.008979048885932824
+P(Bruising, CTCAE=Present | INFLUENZA=True) = 0.006651147322913203
+P(TM genotype=Not Mentioned | INFLUENZA=False) = 0.9912061019817718
+P(TM genotype=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(TM genotype=Present | INFLUENZA=False) = 0.008782462520155066
+P(TM genotype=Not Mentioned | INFLUENZA=True) = 0.9847023611572996
+P(TM genotype=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(TM genotype=Present | INFLUENZA=True) = 0.014965081476554705
+P(Nasal Congestion, CTCAE=Not Mentioned | INFLUENZA=False) = 0.9413358948849017
+P(Nasal Congestion, CTCAE=Negated | INFLUENZA=False) = 0.02904616510572118
+P(Nasal Congestion, CTCAE=Present | INFLUENZA=False) = 0.02961794000937711
+P(Nasal Congestion, CTCAE=Not Mentioned | INFLUENZA=True) = 0.762221483205853
+P(Nasal Congestion, CTCAE=Negated | INFLUENZA=True) = 0.02527435982707017
+P(Nasal Congestion, CTCAE=Present | INFLUENZA=True) = 0.2125041569670768
+P(Fatigue, CTCAE 5.0=Not Mentioned | INFLUENZA=False) = 0.9577000926275344
+P(Fatigue, CTCAE 5.0=Negated | INFLUENZA=False) = 0.0113897560808261
+P(Fatigue, CTCAE 5.0=Present | INFLUENZA=False) = 0.030910151291639508
+P(Fatigue, CTCAE 5.0=Not Mentioned | INFLUENZA=True) = 0.8782840039906884
+P(Fatigue, CTCAE 5.0=Negated | INFLUENZA=True) = 0.006651147322913203
+P(Fatigue, CTCAE 5.0=Present | INFLUENZA=True) = 0.11506484868639841
+P(Rous Sarcoma Virus Positive=Not Mentioned | INFLUENZA=False) = 0.9999542580077075
+P(Rous Sarcoma Virus Positive=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Rous Sarcoma Virus Positive=Present | INFLUENZA=False) = 3.430649421935573E-5
+P(Rous Sarcoma Virus Positive=Not Mentioned | INFLUENZA=True) = 0.9976720984369803
+P(Rous Sarcoma Virus Positive=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Rous Sarcoma Virus Positive=Present | INFLUENZA=True) = 0.0019953441968739607
+P(Patient age=Not Mentioned | INFLUENZA=False) = 0.8956396445847199
+P(Patient age=Negated | INFLUENZA=False) = 5.7177490365592876E-5
+P(Patient age=Present | INFLUENZA=False) = 0.10430317792491452
+P(Patient age=Not Mentioned | INFLUENZA=True) = 0.7888260724975058
+P(Patient age=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Patient age=Present | INFLUENZA=True) = 0.21084137013634852
+P(Mild Hallucination=Not Mentioned | INFLUENZA=False) = 0.6924651503196222
+P(Mild Hallucination=Negated | INFLUENZA=False) = 0.0018182441936258533
+P(Mild Hallucination=Present | INFLUENZA=False) = 0.305716605486752
+P(Mild Hallucination=Not Mentioned | INFLUENZA=True) = 0.6242101762554041
+P(Mild Hallucination=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Mild Hallucination=Present | INFLUENZA=True) = 0.3751247090123046
+P(Nasal secretions=Not Mentioned | INFLUENZA=False) = 0.9995883220693678
+P(Nasal secretions=Negated | INFLUENZA=False) = 1.1435498073118575E-5
+P(Nasal secretions=Present | INFLUENZA=False) = 4.002424325591501E-4
+P(Nasal secretions=Not Mentioned | INFLUENZA=True) = 0.9976720984369803
+P(Nasal secretions=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Nasal secretions=Present | INFLUENZA=True) = 0.0019953441968739607
+P(Epidermal cGVHD Score 2=Not Mentioned | INFLUENZA=False) = 0.6895376628129039
+P(Epidermal cGVHD Score 2=Negated | INFLUENZA=False) = 0.0018182441936258533
+P(Epidermal cGVHD Score 2=Present | INFLUENZA=False) = 0.30864409299347034
+P(Epidermal cGVHD Score 2=Not Mentioned | INFLUENZA=True) = 0.6225473894246758
+P(Epidermal cGVHD Score 2=Negated | INFLUENZA=True) = 6.651147322913202E-4
+P(Epidermal cGVHD Score 2=Present | INFLUENZA=True) = 0.37678749584303295
+P(Poorly Marginated Nodule=Not Mentioned | INFLUENZA=False) = 0.9945109609249031
+P(Poorly Marginated Nodule=Negated | INFLUENZA=False) = 6.861298843871145E-5
+P(Poorly Marginated Nodule=Present | INFLUENZA=False) = 0.005420426086658205
+P(Poorly Marginated Nodule=Not Mentioned | INFLUENZA=True) = 0.9780512138343864
+P(Poorly Marginated Nodule=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Poorly Marginated Nodule=Present | INFLUENZA=True) = 0.02161622879946791
+P(Well Marginated Nodule=Not Mentioned | INFLUENZA=False) = 0.48317266458540603
+P(Well Marginated Nodule=Negated | INFLUENZA=False) = 0.012819193339965923
+P(Well Marginated Nodule=Present | INFLUENZA=False) = 0.5040081420746281
+P(Well Marginated Nodule=Not Mentioned | INFLUENZA=True) = 0.440305952776854
+P(Well Marginated Nodule=Negated | INFLUENZA=True) = 0.02161622879946791
+P(Well Marginated Nodule=Present | INFLUENZA=True) = 0.5380778184236781
+P(Round Nodule=Not Mentioned | INFLUENZA=False) = 0.7798895330886136
+P(Round Nodule=Negated | INFLUENZA=False) = 6.403878920946402E-4
+P(Round Nodule=Present | INFLUENZA=False) = 0.2194700790192917
+P(Round Nodule=Not Mentioned | INFLUENZA=True) = 0.79847023611573
+P(Round Nodule=Negated | INFLUENZA=True) = 0.0016627868307283007
+P(Round Nodule=Present | INFLUENZA=True) = 0.19986697705354173
+P(Epidermal cGVHD Score 0=Not Mentioned | INFLUENZA=False) = 0.18317380813521333
+P(Epidermal cGVHD Score 0=Negated | INFLUENZA=False) = 0.018399716399647787
+P(Epidermal cGVHD Score 0=Present | INFLUENZA=False) = 0.7984264754651389
+P(Epidermal cGVHD Score 0=Not Mentioned | INFLUENZA=True) = 0.220152976388427
+P(Epidermal cGVHD Score 0=Negated | INFLUENZA=True) = 0.012969737279680744
+P(Epidermal cGVHD Score 0=Present | INFLUENZA=True) = 0.7668772863318922
+P(Normal Gait=Not Mentioned | INFLUENZA=False) = 0.1682504831497936
+P(Normal Gait=Negated | INFLUENZA=False) = 0.011344014088533626
+P(Normal Gait=Present | INFLUENZA=False) = 0.8204055027616728
+P(Normal Gait=Not Mentioned | INFLUENZA=True) = 0.11040904556035916
+P(Normal Gait=Negated | INFLUENZA=True) = 0.011972065181243765
+P(Normal Gait=Present | INFLUENZA=True) = 0.877618889258397
+P(High (finding)=Not Mentioned | INFLUENZA=False) = 0.937893809964893
+P(High (finding)=Negated | INFLUENZA=False) = 0.0017381957071140233
+P(High (finding)=Present | INFLUENZA=False) = 0.06036799432799295
+P(High (finding)=Not Mentioned | INFLUENZA=True) = 0.8433654805453941
+P(High (finding)=Negated | INFLUENZA=True) = 0.0033255736614566014
+P(High (finding)=Present | INFLUENZA=True) = 0.15330894579314933
+P(Normal Immune Presence=Not Mentioned | INFLUENZA=False) = 0.16964561391471406
+P(Normal Immune Presence=Negated | INFLUENZA=False) = 0.011732821023019658
+P(Normal Immune Presence=Present | INFLUENZA=False) = 0.8186215650622662
+P(Normal Immune Presence=Not Mentioned | INFLUENZA=True) = 0.11074160292650483
+P(Normal Immune Presence=Negated | INFLUENZA=True) = 0.012304622547389425
+P(Normal Immune Presence=Present | INFLUENZA=True) = 0.8769537745261058
+P(Residual Cancer Burden Class 0=Not Mentioned | INFLUENZA=False) = 0.9972326094663053
+P(Residual Cancer Burden Class 0=Negated | INFLUENZA=False) = 3.430649421935573E-5
+P(Residual Cancer Burden Class 0=Present | INFLUENZA=False) = 0.0027330840394753394
+P(Residual Cancer Burden Class 0=Not Mentioned | INFLUENZA=True) = 0.9920186232125041
+P(Residual Cancer Burden Class 0=Negated | INFLUENZA=True) = 3.325573661456601E-4
+P(Residual Cancer Burden Class 0=Present | INFLUENZA=True) = 0.007648819421350183
+P(IPSS-R Risk Category High=Not Mentioned | INFLUENZA=False) = 0.9350806774389059
+P(IPSS-R Risk Category High=Negated | INFLUENZA=False) = 0.0020355186570151064
+P(IPSS-R Risk Category High=Present | INFLUENZA=False) = 0.06288380390407904
+P(IPSS-R Risk Category High=Not Mentioned | INFLUENZA=True) = 0.8280678417026938
+P(IPSS-R Risk Category High=Negated | INFLUENZA=True) = 0.006651147322913203
+P(IPSS-R Risk Category High=Present | INFLUENZA=True) = 0.16528101097439307
+P(International Prognostic Index High Risk Group=Not Mentioned | INFLUENZA=False) = 0.9965579150799914
+P(International Prognostic Index High Risk Group=Negated | INFLUENZA=False) = 3.4306494219355724E-4
+P(International Prognostic Index High Risk Group=Present | INFLUENZA=False) = 0.0030990199778151337
+P(International Prognostic Index High Risk Group=Not Mentioned | INFLUENZA=True) = 0.9800465580312604
+P(International Prognostic Index High Risk Group=Negated | INFLUENZA=True) = 0.0039906883937479215
+P(International Prognostic Index High Risk Group=Present | INFLUENZA=True) = 0.015962753574991686
+P(IPSS-R Risk Category Low=Not Mentioned | INFLUENZA=False) = 0.8886411197639713
+P(IPSS-R Risk Category Low=Negated | INFLUENZA=False) = 0.006964218326529212
+P(IPSS-R Risk Category Low=Present | INFLUENZA=False) = 0.10439466190949946
+P(IPSS-R Risk Category Low=Not Mentioned | INFLUENZA=True) = 0.8284003990688393
+P(IPSS-R Risk Category Low=Negated | INFLUENZA=True) = 0.008646491519787164
+P(IPSS-R Risk Category Low=Present | INFLUENZA=True) = 0.16295310941137348
+P(N_D_PULSE=High | INFLUENZA=False) = 0.0010063123227518067
+P(N_D_PULSE=Low | INFLUENZA=False) = 6.060744671118836E-4
+P(N_D_PULSE=Not Mentioned | INFLUENZA=False) = 0.9923497392736255
+P(N_D_PULSE=Normal | INFLUENZA=False) = 0.006037873936510841
+P(N_D_PULSE=High | INFLUENZA=True) = 0.006648936170212766
+P(N_D_PULSE=Low | INFLUENZA=True) = 6.648936170212766E-4
+P(N_D_PULSE=Not Mentioned | INFLUENZA=True) = 0.9740691489361702
+P(N_D_PULSE=Normal | INFLUENZA=True) = 0.018617021276595744
+P(N_D_TEMPERATURE=High | INFLUENZA=False) = 3.6593175372792974E-4
+P(N_D_TEMPERATURE=Low | INFLUENZA=False) = 0.0016123867898636905
+P(N_D_TEMPERATURE=Not Mentioned | INFLUENZA=False) = 0.9926013173543135
+P(N_D_TEMPERATURE=Normal | INFLUENZA=False) = 0.00542036410209496
+P(N_D_TEMPERATURE=High | INFLUENZA=True) = 0.008311170212765957
+P(N_D_TEMPERATURE=Low | INFLUENZA=True) = 0.004654255319148936
+P(N_D_TEMPERATURE=Not Mentioned | INFLUENZA=True) = 0.9740691489361702
+P(N_D_TEMPERATURE=Normal | INFLUENZA=True) = 0.012965425531914893
+P(Tacrolimus=High | INFLUENZA=False) = 5.717683651998902E-5
+P(Tacrolimus=Low | INFLUENZA=False) = 1.2578904034397584E-4
+P(Tacrolimus=Not Mentioned | INFLUENZA=False) = 0.9981703412313604
+P(Tacrolimus=Normal | INFLUENZA=False) = 0.0016466928917756838
+P(Tacrolimus=High | INFLUENZA=True) = 6.648936170212766E-4
+P(Tacrolimus=Low | INFLUENZA=True) = 0.0019946808510638296
+P(Tacrolimus=Not Mentioned | INFLUENZA=True) = 0.9876994680851063
+P(Tacrolimus=Normal | INFLUENZA=True) = 0.00964095744680851
+P(Epithelial cells.squamous=High | INFLUENZA=False) = 0.001235019668831763
+P(Epithelial cells.squamous=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Epithelial cells.squamous=Not Mentioned | INFLUENZA=False) = 0.9920409843564175
+P(Epithelial cells.squamous=Normal | INFLUENZA=False) = 0.006712560607446711
+P(Epithelial cells.squamous=High | INFLUENZA=True) = 0.005651595744680851
+P(Epithelial cells.squamous=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Epithelial cells.squamous=Not Mentioned | INFLUENZA=True) = 0.961436170212766
+P(Epithelial cells.squamous=Normal | INFLUENZA=True) = 0.032579787234042555
+P(Erythrocytes=High | INFLUENZA=False) = 0.020915286799011983
+P(Erythrocytes=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Erythrocytes=Not Mentioned | INFLUENZA=False) = 0.9659226054340866
+P(Erythrocytes=Normal | INFLUENZA=False) = 0.013150672399597475
+P(Erythrocytes=High | INFLUENZA=True) = 0.052194148936170214
+P(Erythrocytes=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Erythrocytes=Not Mentioned | INFLUENZA=True) = 0.9158909574468085
+P(Erythrocytes=Normal | INFLUENZA=True) = 0.03158244680851064
+P(Bicarbonate=High | INFLUENZA=False) = 0.0026644405818314885
+P(Bicarbonate=Low | INFLUENZA=False) = 0.002687311316439484
+P(Bicarbonate=Not Mentioned | INFLUENZA=False) = 0.9907830939529778
+P(Bicarbonate=Normal | INFLUENZA=False) = 0.003865154148751258
+P(Bicarbonate=High | INFLUENZA=True) = 0.018617021276595744
+P(Bicarbonate=Low | INFLUENZA=True) = 0.015957446808510637
+P(Bicarbonate=Not Mentioned | INFLUENZA=True) = 0.9378324468085106
+P(Bicarbonate=Normal | INFLUENZA=True) = 0.02759308510638298
+P(Coagulation surface induced=High | INFLUENZA=False) = 0.013619522459061385
+P(Coagulation surface induced=Low | INFLUENZA=False) = 0.0024814747049675236
+P(Coagulation surface induced=Not Mentioned | INFLUENZA=False) = 0.932188271887293
+P(Coagulation surface induced=Normal | INFLUENZA=False) = 0.05171073094867807
+P(Coagulation surface induced=High | INFLUENZA=True) = 0.0382313829787234
+P(Coagulation surface induced=Low | INFLUENZA=True) = 0.0036569148936170214
+P(Coagulation surface induced=Not Mentioned | INFLUENZA=True) = 0.8799867021276596
+P(Coagulation surface induced=Normal | INFLUENZA=True) = 0.078125
+P(Alanine aminotransferase=High | INFLUENZA=False) = 0.009640014637270149
+P(Alanine aminotransferase=Low | INFLUENZA=False) = 0.02438020309212332
+P(Alanine aminotransferase=Not Mentioned | INFLUENZA=False) = 0.8861037416521819
+P(Alanine aminotransferase=Normal | INFLUENZA=False) = 0.07987604061842467
+P(Alanine aminotransferase=High | INFLUENZA=True) = 0.02127659574468085
+P(Alanine aminotransferase=Low | INFLUENZA=True) = 0.04654255319148936
+P(Alanine aminotransferase=Not Mentioned | INFLUENZA=True) = 0.7450132978723404
+P(Alanine aminotransferase=Normal | INFLUENZA=True) = 0.18716755319148937
+P(Albumin=High | INFLUENZA=False) = 5.488976305918946E-4
+P(Albumin=Low | INFLUENZA=False) = 0.029926356234562253
+P(Albumin=Not Mentioned | INFLUENZA=False) = 0.8908494190833409
+P(Albumin=Normal | INFLUENZA=False) = 0.0786753270515049
+P(Albumin=High | INFLUENZA=True) = 3.324468085106383E-4
+P(Albumin=Low | INFLUENZA=True) = 0.09507978723404255
+P(Albumin=Not Mentioned | INFLUENZA=True) = 0.7446808510638298
+P(Albumin=Normal | INFLUENZA=True) = 0.15990691489361702
+P(Calcium=High | INFLUENZA=False) = 0.0015895160552556948
+P(Calcium=Low | INFLUENZA=False) = 0.021029640472051962
+P(Calcium=Not Mentioned | INFLUENZA=False) = 0.8315913457140244
+P(Calcium=Normal | INFLUENZA=False) = 0.145789497758668
+P(Calcium=High | INFLUENZA=True) = 0.0026595744680851063
+P(Calcium=Low | INFLUENZA=True) = 0.10505319148936171
+P(Calcium=Not Mentioned | INFLUENZA=True) = 0.5615026595744681
+P(Calcium=Normal | INFLUENZA=True) = 0.3307845744680851
+P(Magnesium=High | INFLUENZA=False) = 0.0026987466837434817
+P(Magnesium=Low | INFLUENZA=False) = 0.0047113713292470955
+P(Magnesium=Not Mentioned | INFLUENZA=False) = 0.9439552648431068
+P(Magnesium=Normal | INFLUENZA=False) = 0.048634617143902666
+P(Magnesium=High | INFLUENZA=True) = 0.010970744680851064
+P(Magnesium=Low | INFLUENZA=True) = 0.010305851063829786
+P(Magnesium=Not Mentioned | INFLUENZA=True) = 0.8131648936170213
+P(Magnesium=Normal | INFLUENZA=True) = 0.16555851063829788
+P(Urobilinogen=High | INFLUENZA=False) = 7.661696093678529E-4
+P(Urobilinogen=Low | INFLUENZA=False) = 2.287073460799561E-5
+P(Urobilinogen=Not Mentioned | INFLUENZA=False) = 0.9901655841185619
+P(Urobilinogen=Normal | INFLUENZA=False) = 0.009045375537462264
+P(Urobilinogen=High | INFLUENZA=True) = 0.0026595744680851063
+P(Urobilinogen=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Urobilinogen=Not Mentioned | INFLUENZA=True) = 0.9883643617021277
+P(Urobilinogen=Normal | INFLUENZA=True) = 0.008643617021276596
+P(Aspartate aminotransferase=High | INFLUENZA=False) = 0.018399505992132466
+P(Aspartate aminotransferase=Low | INFLUENZA=False) = 0.01743893513859665
+P(Aspartate aminotransferase=Not Mentioned | INFLUENZA=False) = 0.8884479919495014
+P(Aspartate aminotransferase=Normal | INFLUENZA=False) = 0.07571356691976946
+P(Aspartate aminotransferase=High | INFLUENZA=True) = 0.04654255319148936
+P(Aspartate aminotransferase=Low | INFLUENZA=True) = 0.023936170212765957
+P(Aspartate aminotransferase=Not Mentioned | INFLUENZA=True) = 0.7460106382978723
+P(Aspartate aminotransferase=Normal | INFLUENZA=True) = 0.18351063829787234
+P(Oxygen content=High | INFLUENZA=False) = 2.287073460799561E-5
+P(Oxygen content=Low | INFLUENZA=False) = 8.004757112798463E-5
+P(Oxygen content=Not Mentioned | INFLUENZA=False) = 0.9998513402250481
+P(Oxygen content=Normal | INFLUENZA=False) = 4.574146921599122E-5
+P(Oxygen content=High | INFLUENZA=True) = 6.648936170212766E-4
+P(Oxygen content=Low | INFLUENZA=True) = 0.0013297872340425532
+P(Oxygen content=Not Mentioned | INFLUENZA=True) = 0.9940159574468085
+P(Oxygen content=Normal | INFLUENZA=True) = 0.003989361702127659
+P(Base deficit=High | INFLUENZA=False) = 0.0011435367303997805
+P(Base deficit=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Base deficit=Not Mentioned | INFLUENZA=False) = 0.9985362729850883
+P(Base deficit=Normal | INFLUENZA=False) = 3.0875491720794073E-4
+P(Base deficit=High | INFLUENZA=True) = 0.006981382978723404
+P(Base deficit=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Base deficit=Not Mentioned | INFLUENZA=True) = 0.9913563829787234
+P(Base deficit=Normal | INFLUENZA=True) = 0.0013297872340425532
+P(Oxygen^^adjusted to patient's actual temperature=High | INFLUENZA=False) = 0.0021841551550635806
+P(Oxygen^^adjusted to patient's actual temperature=Low | INFLUENZA=False) = 2.858841825999451E-4
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | INFLUENZA=False) = 0.9956316896898728
+P(Oxygen^^adjusted to patient's actual temperature=Normal | INFLUENZA=False) = 0.0018982709724636355
+P(Oxygen^^adjusted to patient's actual temperature=High | INFLUENZA=True) = 0.013962765957446808
+P(Oxygen^^adjusted to patient's actual temperature=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | INFLUENZA=True) = 0.9707446808510638
+P(Oxygen^^adjusted to patient's actual temperature=Normal | INFLUENZA=True) = 0.014960106382978724
+P(Base excess=High | INFLUENZA=False) = 4.917207940719056E-4
+P(Base excess=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Base excess=Not Mentioned | INFLUENZA=False) = 0.9991652181868081
+P(Base excess=Normal | INFLUENZA=False) = 3.3162565181593635E-4
+P(Base excess=High | INFLUENZA=True) = 0.005319148936170213
+P(Base excess=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Base excess=Not Mentioned | INFLUENZA=True) = 0.9920212765957447
+P(Base excess=Normal | INFLUENZA=True) = 0.002327127659574468
+P(Bicarbonate=High | INFLUENZA=False) = 6.060744671118836E-4
+P(Bicarbonate=Low | INFLUENZA=False) = 0.0010406184246638
+P(Bicarbonate=Not Mentioned | INFLUENZA=False) = 0.9973355594181685
+P(Bicarbonate=Normal | INFLUENZA=False) = 0.0010177476900558047
+P(Bicarbonate=High | INFLUENZA=True) = 0.007978723404255319
+P(Bicarbonate=Low | INFLUENZA=True) = 0.003324468085106383
+P(Bicarbonate=Not Mentioned | INFLUENZA=True) = 0.9827127659574468
+P(Bicarbonate=Normal | INFLUENZA=True) = 0.005984042553191489
+P(Bicarbonate=High | INFLUENZA=False) = 0.0030303723355594183
+P(Bicarbonate=Low | INFLUENZA=False) = 0.010360442777422011
+P(Bicarbonate=Not Mentioned | INFLUENZA=False) = 0.8097955356326045
+P(Bicarbonate=Normal | INFLUENZA=False) = 0.17681364925441406
+P(Bicarbonate=High | INFLUENZA=True) = 0.006648936170212766
+P(Bicarbonate=Low | INFLUENZA=True) = 0.01961436170212766
+P(Bicarbonate=Not Mentioned | INFLUENZA=True) = 0.7473404255319149
+P(Bicarbonate=Normal | INFLUENZA=True) = 0.22639627659574468
+P(Bilirubin=High | INFLUENZA=False) = 0.008313512030006404
+P(Bilirubin=Low | INFLUENZA=False) = 0.0034763516604153326
+P(Bilirubin=Not Mentioned | INFLUENZA=False) = 0.896041075839356
+P(Bilirubin=Normal | INFLUENZA=False) = 0.0921690604702223
+P(Bilirubin=High | INFLUENZA=True) = 0.018284574468085107
+P(Bilirubin=Low | INFLUENZA=True) = 0.00997340425531915
+P(Bilirubin=Not Mentioned | INFLUENZA=True) = 0.7642952127659575
+P(Bilirubin=Normal | INFLUENZA=True) = 0.2074468085106383
+P(C reactive protein=High | INFLUENZA=False) = 0.0028359710913914557
+P(C reactive protein=Low | INFLUENZA=False) = 7.890403439758485E-4
+P(C reactive protein=Not Mentioned | INFLUENZA=False) = 0.994350928551825
+P(C reactive protein=Normal | INFLUENZA=False) = 0.0020240600128076116
+P(C reactive protein=High | INFLUENZA=True) = 0.0269281914893617
+P(C reactive protein=Low | INFLUENZA=True) = 0.0036569148936170214
+P(C reactive protein=Not Mentioned | INFLUENZA=True) = 0.9544547872340425
+P(C reactive protein=Normal | INFLUENZA=True) = 0.014960106382978724
+P(Calcium.ionized=High | INFLUENZA=False) = 4.574146921599122E-4
+P(Calcium.ionized=Low | INFLUENZA=False) = 0.00505443234836703
+P(Calcium.ionized=Not Mentioned | INFLUENZA=False) = 0.9822523099441954
+P(Calcium.ionized=Normal | INFLUENZA=False) = 0.01223584301527765
+P(Calcium.ionized=High | INFLUENZA=True) = 9.973404255319148E-4
+P(Calcium.ionized=Low | INFLUENZA=True) = 0.018617021276595744
+P(Calcium.ionized=Not Mentioned | INFLUENZA=True) = 0.9361702127659575
+P(Calcium.ionized=Normal | INFLUENZA=True) = 0.0442154255319149
+P(Carbon dioxide=High | INFLUENZA=False) = 9.377001189278199E-4
+P(Carbon dioxide=Low | INFLUENZA=False) = 7.204281401518616E-4
+P(Carbon dioxide=Not Mentioned | INFLUENZA=False) = 0.9960547982801208
+P(Carbon dioxide=Normal | INFLUENZA=False) = 0.002287073460799561
+P(Carbon dioxide=High | INFLUENZA=True) = 0.00997340425531915
+P(Carbon dioxide=Low | INFLUENZA=True) = 0.0029920212765957447
+P(Carbon dioxide=Not Mentioned | INFLUENZA=True) = 0.976063829787234
+P(Carbon dioxide=Normal | INFLUENZA=True) = 0.010970744680851064
+P(Carbon dioxide=High | INFLUENZA=False) = 0.0019440124416796269
+P(Carbon dioxide=Low | INFLUENZA=False) = 0.004779983533071082
+P(Carbon dioxide=Not Mentioned | INFLUENZA=False) = 0.9886789863690422
+P(Carbon dioxide=Normal | INFLUENZA=False) = 0.004597017656207117
+P(Carbon dioxide=High | INFLUENZA=True) = 0.013962765957446808
+P(Carbon dioxide=Low | INFLUENZA=True) = 0.03291223404255319
+P(Carbon dioxide=Not Mentioned | INFLUENZA=True) = 0.9271941489361702
+P(Carbon dioxide=Normal | INFLUENZA=True) = 0.025930851063829786
+P(Carbon dioxide=High | INFLUENZA=False) = 2.287073460799561E-5
+P(Carbon dioxide=Low | INFLUENZA=False) = 2.287073460799561E-5
+P(Carbon dioxide=Not Mentioned | INFLUENZA=False) = 0.9993024425944561
+P(Carbon dioxide=Normal | INFLUENZA=False) = 6.518159363278749E-4
+P(Carbon dioxide=High | INFLUENZA=True) = 0.0029920212765957447
+P(Carbon dioxide=Low | INFLUENZA=True) = 0.018617021276595744
+P(Carbon dioxide=Not Mentioned | INFLUENZA=True) = 0.7938829787234043
+P(Carbon dioxide=Normal | INFLUENZA=True) = 0.18450797872340424
+P(Carboxyhemoglobin/Hemoglobin.total=High | INFLUENZA=False) = 0.0034763516604153326
+P(Carboxyhemoglobin/Hemoglobin.total=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | INFLUENZA=False) = 0.9959061385051687
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | INFLUENZA=False) = 6.060744671118836E-4
+P(Carboxyhemoglobin/Hemoglobin.total=High | INFLUENZA=True) = 0.018949468085106384
+P(Carboxyhemoglobin/Hemoglobin.total=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | INFLUENZA=True) = 0.9727393617021277
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | INFLUENZA=True) = 0.007978723404255319
+P(Leukocytes=High | INFLUENZA=False) = 1.1435367303997804E-5
+P(Leukocytes=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Leukocytes=Not Mentioned | INFLUENZA=False) = 0.999965693898088
+P(Leukocytes=Normal | INFLUENZA=False) = 1.1435367303997804E-5
+P(Leukocytes=High | INFLUENZA=True) = 0.002327127659574468
+P(Leukocytes=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Leukocytes=Not Mentioned | INFLUENZA=True) = 0.9886968085106383
+P(Leukocytes=Normal | INFLUENZA=True) = 0.008643617021276596
+P(Hematocrit=High | INFLUENZA=False) = 1.2578904034397584E-4
+P(Hematocrit=Low | INFLUENZA=False) = 0.0027330527856554753
+P(Hematocrit=Not Mentioned | INFLUENZA=False) = 0.9930244259445613
+P(Hematocrit=Normal | INFLUENZA=False) = 0.0041167322294392095
+P(Hematocrit=High | INFLUENZA=True) = 6.648936170212766E-4
+P(Hematocrit=Low | INFLUENZA=True) = 0.01363031914893617
+P(Hematocrit=Not Mentioned | INFLUENZA=True) = 0.965093085106383
+P(Hematocrit=Normal | INFLUENZA=True) = 0.020611702127659573
+P(Chloride=High | INFLUENZA=False) = 0.026530052145274905
+P(Chloride=Low | INFLUENZA=False) = 0.008313512030006404
+P(Chloride=Not Mentioned | INFLUENZA=False) = 0.8168968987283871
+P(Chloride=Normal | INFLUENZA=False) = 0.14825953709633152
+P(Chloride=High | INFLUENZA=True) = 0.052194148936170214
+P(Chloride=Low | INFLUENZA=True) = 0.02360372340425532
+P(Chloride=Not Mentioned | INFLUENZA=True) = 0.5442154255319149
+P(Chloride=Normal | INFLUENZA=True) = 0.37998670212765956
+P(Creatine kinase=High | INFLUENZA=False) = 0.002858841825999451
+P(Creatine kinase=Low | INFLUENZA=False) = 3.0875491720794073E-4
+P(Creatine kinase=Not Mentioned | INFLUENZA=False) = 0.9891935778977221
+P(Creatine kinase=Normal | INFLUENZA=False) = 0.007638825359070533
+P(Creatine kinase=High | INFLUENZA=True) = 0.01928191489361702
+P(Creatine kinase=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Creatine kinase=Not Mentioned | INFLUENZA=True) = 0.9564494680851063
+P(Creatine kinase=Normal | INFLUENZA=True) = 0.023936170212765957
+P(Creatinine=High | INFLUENZA=False) = 0.01828515231909249
+P(Creatinine=Low | INFLUENZA=False) = 0.0043568749428231635
+P(Creatinine=Not Mentioned | INFLUENZA=False) = 0.8097612295306925
+P(Creatinine=Normal | INFLUENZA=False) = 0.16759674320739182
+P(Creatinine=High | INFLUENZA=True) = 0.04454787234042553
+P(Creatinine=Low | INFLUENZA=True) = 0.01695478723404255
+P(Creatinine=Not Mentioned | INFLUENZA=True) = 0.535904255319149
+P(Creatinine=Normal | INFLUENZA=True) = 0.402593085106383
+P(Glucose=High | INFLUENZA=False) = 0.03370002744488153
+P(Glucose=Low | INFLUENZA=False) = 8.004757112798463E-4
+P(Glucose=Not Mentioned | INFLUENZA=False) = 0.9364422285243802
+P(Glucose=Normal | INFLUENZA=False) = 0.029057268319458422
+P(Glucose=High | INFLUENZA=True) = 0.09607712765957446
+P(Glucose=Low | INFLUENZA=True) = 0.0013297872340425532
+P(Glucose=Not Mentioned | INFLUENZA=True) = 0.8238031914893617
+P(Glucose=Normal | INFLUENZA=True) = 0.07878989361702128
+P(Glucose=High | INFLUENZA=False) = 2.515780806879517E-4
+P(Glucose=Low | INFLUENZA=False) = 9.148293843198243E-5
+P(Glucose=Not Mentioned | INFLUENZA=False) = 0.9979645046198884
+P(Glucose=Normal | INFLUENZA=False) = 0.001692434360991675
+P(Glucose=High | INFLUENZA=True) = 0.0016622340425531915
+P(Glucose=Low | INFLUENZA=True) = 6.648936170212766E-4
+P(Glucose=Not Mentioned | INFLUENZA=True) = 0.9870345744680851
+P(Glucose=Normal | INFLUENZA=True) = 0.010638297872340425
+P(Glucose=High | INFLUENZA=False) = 0.08008187722989663
+P(Glucose=Low | INFLUENZA=False) = 0.0021269783185435915
+P(Glucose=Not Mentioned | INFLUENZA=False) = 0.8114536638916842
+P(Glucose=Normal | INFLUENZA=False) = 0.10633748055987559
+P(Glucose=High | INFLUENZA=True) = 0.1761968085106383
+P(Glucose=Low | INFLUENZA=True) = 0.0036569148936170214
+P(Glucose=Not Mentioned | INFLUENZA=True) = 0.535904255319149
+P(Glucose=Normal | INFLUENZA=True) = 0.28424202127659576
+P(Lactate=High | INFLUENZA=False) = 1.1435367303997804E-5
+P(Lactate=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Lactate=Not Mentioned | INFLUENZA=False) = 0.999965693898088
+P(Lactate=Normal | INFLUENZA=False) = 1.1435367303997804E-5
+P(Lactate=High | INFLUENZA=True) = 9.973404255319148E-4
+P(Lactate=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Lactate=Not Mentioned | INFLUENZA=True) = 0.991688829787234
+P(Lactate=Normal | INFLUENZA=True) = 0.006981382978723404
+P(Methemoglobin/Hemoglobin.total=High | INFLUENZA=False) = 9.94876955447809E-4
+P(Methemoglobin/Hemoglobin.total=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | INFLUENZA=False) = 0.9986506266581282
+P(Methemoglobin/Hemoglobin.total=Normal | INFLUENZA=False) = 3.430610191199341E-4
+P(Methemoglobin/Hemoglobin.total=High | INFLUENZA=True) = 0.007646276595744681
+P(Methemoglobin/Hemoglobin.total=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | INFLUENZA=True) = 0.9883643617021277
+P(Methemoglobin/Hemoglobin.total=Normal | INFLUENZA=True) = 0.0036569148936170214
+P(Eosinophils/100 leukocytes=High | INFLUENZA=False) = 0.003098984539383405
+P(Eosinophils/100 leukocytes=Low | INFLUENZA=False) = 0.003316256518159363
+P(Eosinophils/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.9497873021681457
+P(Eosinophils/100 leukocytes=Normal | INFLUENZA=False) = 0.04379745677431159
+P(Eosinophils/100 leukocytes=High | INFLUENZA=True) = 0.002327127659574468
+P(Eosinophils/100 leukocytes=Low | INFLUENZA=True) = 0.01761968085106383
+P(Eosinophils/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.8866356382978723
+P(Eosinophils/100 leukocytes=Normal | INFLUENZA=True) = 0.09341755319148937
+P(Monocytes/100 leukocytes=High | INFLUENZA=False) = 0.0037164943737992865
+P(Monocytes/100 leukocytes=Low | INFLUENZA=False) = 0.002161284420455585
+P(Monocytes/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.9451788491446346
+P(Monocytes/100 leukocytes=Normal | INFLUENZA=False) = 0.0489433720611106
+P(Monocytes/100 leukocytes=High | INFLUENZA=True) = 0.026263297872340427
+P(Monocytes/100 leukocytes=Low | INFLUENZA=True) = 0.003324468085106383
+P(Monocytes/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.867686170212766
+P(Monocytes/100 leukocytes=Normal | INFLUENZA=True) = 0.10272606382978723
+P(Neutrophils.segmented/100 leukocytes=High | INFLUENZA=False) = 0.008462171804958375
+P(Neutrophils.segmented/100 leukocytes=Low | INFLUENZA=False) = 0.002584393010703504
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.9511481108773214
+P(Neutrophils.segmented/100 leukocytes=Normal | INFLUENZA=False) = 0.03780532430701674
+P(Neutrophils.segmented/100 leukocytes=High | INFLUENZA=True) = 0.026595744680851064
+P(Neutrophils.segmented/100 leukocytes=Low | INFLUENZA=True) = 0.004321808510638298
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.8853058510638298
+P(Neutrophils.segmented/100 leukocytes=Normal | INFLUENZA=True) = 0.08377659574468085
+P(Oxygen=High | INFLUENZA=False) = 0.0013493733418717408
+P(Oxygen=Low | INFLUENZA=False) = 4.2310859024791874E-4
+P(Oxygen=Not Mentioned | INFLUENZA=False) = 0.9970954167047845
+P(Oxygen=Normal | INFLUENZA=False) = 0.0011321013630957825
+P(Oxygen=High | INFLUENZA=True) = 0.006316489361702127
+P(Oxygen=Low | INFLUENZA=True) = 0.0036569148936170214
+P(Oxygen=Not Mentioned | INFLUENZA=True) = 0.9813829787234043
+P(Oxygen=Normal | INFLUENZA=True) = 0.008643617021276596
+P(Oxygen=High | INFLUENZA=False) = 0.004070990760223219
+P(Oxygen=Low | INFLUENZA=False) = 2.401427133839539E-4
+P(Oxygen=Not Mentioned | INFLUENZA=False) = 0.9939506906961851
+P(Oxygen=Normal | INFLUENZA=False) = 0.0017381758302076663
+P(Oxygen=High | INFLUENZA=True) = 0.022938829787234043
+P(Oxygen=Low | INFLUENZA=True) = 0.002327127659574468
+P(Oxygen=Not Mentioned | INFLUENZA=True) = 0.9617686170212766
+P(Oxygen=Normal | INFLUENZA=True) = 0.012965425531914893
+P(Oxygen saturation=High | INFLUENZA=False) = 1.9440124416796267E-4
+P(Oxygen saturation=Low | INFLUENZA=False) = 5.145915286799012E-4
+P(Oxygen saturation=Not Mentioned | INFLUENZA=False) = 0.9988907693715122
+P(Oxygen saturation=Normal | INFLUENZA=False) = 4.0023785563992313E-4
+P(Oxygen saturation=High | INFLUENZA=True) = 0.0013297872340425532
+P(Oxygen saturation=Low | INFLUENZA=True) = 0.0013297872340425532
+P(Oxygen saturation=Not Mentioned | INFLUENZA=True) = 0.9910239361702128
+P(Oxygen saturation=Normal | INFLUENZA=True) = 0.006316489361702127
+P(pH=High | INFLUENZA=False) = 7.089927728478639E-4
+P(pH=Low | INFLUENZA=False) = 0.0013265026072637454
+P(pH=Not Mentioned | INFLUENZA=False) = 0.9959404446070808
+P(pH=Normal | INFLUENZA=False) = 0.0020240600128076116
+P(pH=High | INFLUENZA=True) = 0.0019946808510638296
+P(pH=Low | INFLUENZA=True) = 0.00997340425531915
+P(pH=Not Mentioned | INFLUENZA=True) = 0.9720744680851063
+P(pH=Normal | INFLUENZA=True) = 0.015957446808510637
+P(pH=High | INFLUENZA=False) = 0.0019211417070716312
+P(pH=Low | INFLUENZA=False) = 0.0020583661147196048
+P(pH=Not Mentioned | INFLUENZA=False) = 0.9892050132650261
+P(pH=Normal | INFLUENZA=False) = 0.006815478913182692
+P(pH=High | INFLUENZA=True) = 0.010970744680851064
+P(pH=Low | INFLUENZA=True) = 0.011303191489361703
+P(pH=Not Mentioned | INFLUENZA=True) = 0.932845744680851
+P(pH=Normal | INFLUENZA=True) = 0.04488031914893617
+P(Phosphate=High | INFLUENZA=False) = 0.0021955905223675783
+P(Phosphate=Low | INFLUENZA=False) = 0.005123044552191016
+P(Phosphate=Not Mentioned | INFLUENZA=False) = 0.9618058732046474
+P(Phosphate=Normal | INFLUENZA=False) = 0.03087549172079407
+P(Phosphate=High | INFLUENZA=True) = 0.008311170212765957
+P(Phosphate=Low | INFLUENZA=True) = 0.03158244680851064
+P(Phosphate=Not Mentioned | INFLUENZA=True) = 0.8587101063829787
+P(Phosphate=Normal | INFLUENZA=True) = 0.10139627659574468
+P(Potassium=High | INFLUENZA=False) = 0.003613576068063306
+P(Potassium=Low | INFLUENZA=False) = 0.017976397401884548
+P(Potassium=Not Mentioned | INFLUENZA=False) = 0.8140037508004757
+P(Potassium=Normal | INFLUENZA=False) = 0.16440627572957645
+P(Potassium=High | INFLUENZA=True) = 0.00997340425531915
+P(Potassium=Low | INFLUENZA=True) = 0.04188829787234043
+P(Potassium=Not Mentioned | INFLUENZA=True) = 0.5501994680851063
+P(Potassium=Normal | INFLUENZA=True) = 0.39793882978723405
+P(Protein=High | INFLUENZA=False) = 0.012716128442045558
+P(Protein=Low | INFLUENZA=False) = 0.013619522459061385
+P(Protein=Not Mentioned | INFLUENZA=False) = 0.8924046290366846
+P(Protein=Normal | INFLUENZA=False) = 0.0812597200622084
+P(Protein=High | INFLUENZA=True) = 0.022606382978723406
+P(Protein=Low | INFLUENZA=True) = 0.043882978723404256
+P(Protein=Not Mentioned | INFLUENZA=True) = 0.7503324468085106
+P(Protein=Normal | INFLUENZA=True) = 0.1831781914893617
+P(Sodium=High | INFLUENZA=False) = 2.287073460799561E-4
+P(Sodium=Low | INFLUENZA=False) = 0.002046930747415607
+P(Sodium=Not Mentioned | INFLUENZA=False) = 0.9882901838807062
+P(Sodium=Normal | INFLUENZA=False) = 0.009434178025798188
+P(Sodium=High | INFLUENZA=True) = 0.0029920212765957447
+P(Sodium=Low | INFLUENZA=True) = 0.007646276595744681
+P(Sodium=Not Mentioned | INFLUENZA=True) = 0.9551196808510638
+P(Sodium=Normal | INFLUENZA=True) = 0.034242021276595744
+P(Sodium=High | INFLUENZA=False) = 6.861220382398683E-4
+P(Sodium=Low | INFLUENZA=False) = 0.03318543591620163
+P(Sodium=Not Mentioned | INFLUENZA=False) = 0.8158791510383313
+P(Sodium=Normal | INFLUENZA=False) = 0.15024929100722714
+P(Sodium=High | INFLUENZA=True) = 6.648936170212766E-4
+P(Sodium=Low | INFLUENZA=True) = 0.09474734042553191
+P(Sodium=Not Mentioned | INFLUENZA=True) = 0.551529255319149
+P(Sodium=Normal | INFLUENZA=True) = 0.35305851063829785
+P(Specific gravity=High | INFLUENZA=False) = 0.003259079681639374
+P(Specific gravity=Low | INFLUENZA=False) = 0.004151038331351203
+P(Specific gravity=Not Mentioned | INFLUENZA=False) = 0.9241034672033666
+P(Specific gravity=Normal | INFLUENZA=False) = 0.06848641478364285
+P(Specific gravity=High | INFLUENZA=True) = 0.008311170212765957
+P(Specific gravity=Low | INFLUENZA=True) = 0.006648936170212766
+P(Specific gravity=Not Mentioned | INFLUENZA=True) = 0.7915558510638298
+P(Specific gravity=Normal | INFLUENZA=True) = 0.1934840425531915
+P(Basophils/100 leukocytes=High | INFLUENZA=False) = 0.004242521269783185
+P(Basophils/100 leukocytes=Low | INFLUENZA=False) = 5.946390998078858E-4
+P(Basophils/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.9514911718964413
+P(Basophils/100 leukocytes=Normal | INFLUENZA=False) = 0.04367166773396761
+P(Basophils/100 leukocytes=High | INFLUENZA=True) = 0.005984042553191489
+P(Basophils/100 leukocytes=Low | INFLUENZA=True) = 0.0019946808510638296
+P(Basophils/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.8866356382978723
+P(Basophils/100 leukocytes=Normal | INFLUENZA=True) = 0.10538563829787234
+P(Hemoglobin=High | INFLUENZA=False) = 1.1435367303997804E-5
+P(Hemoglobin=Low | INFLUENZA=False) = 6.861220382398682E-5
+P(Hemoglobin=Not Mentioned | INFLUENZA=False) = 0.999874210959656
+P(Hemoglobin=Normal | INFLUENZA=False) = 4.574146921599122E-5
+P(Hemoglobin=High | INFLUENZA=True) = 6.648936170212766E-4
+P(Hemoglobin=Low | INFLUENZA=True) = 0.002327127659574468
+P(Hemoglobin=Not Mentioned | INFLUENZA=True) = 0.9950132978723404
+P(Hemoglobin=Normal | INFLUENZA=True) = 0.0019946808510638296
+P(Triacylglycerol lipase=High | INFLUENZA=False) = 0.003339127252767359
+P(Triacylglycerol lipase=Low | INFLUENZA=False) = 0.008725185252950326
+P(Triacylglycerol lipase=Not Mentioned | INFLUENZA=False) = 0.9501303631872656
+P(Triacylglycerol lipase=Normal | INFLUENZA=False) = 0.03780532430701674
+P(Triacylglycerol lipase=High | INFLUENZA=True) = 0.003989361702127659
+P(Triacylglycerol lipase=Low | INFLUENZA=True) = 0.010305851063829786
+P(Triacylglycerol lipase=Not Mentioned | INFLUENZA=True) = 0.9335106382978723
+P(Triacylglycerol lipase=Normal | INFLUENZA=True) = 0.052194148936170214
+P(Urea nitrogen=High | INFLUENZA=False) = 0.016283963040892874
+P(Urea nitrogen=Low | INFLUENZA=False) = 0.012979141890037509
+P(Urea nitrogen=Not Mentioned | INFLUENZA=False) = 0.8120826090934041
+P(Urea nitrogen=Normal | INFLUENZA=False) = 0.15865428597566553
+P(Urea nitrogen=High | INFLUENZA=True) = 0.04222074468085106
+P(Urea nitrogen=Low | INFLUENZA=True) = 0.0382313829787234
+P(Urea nitrogen=Not Mentioned | INFLUENZA=True) = 0.5452127659574468
+P(Urea nitrogen=Normal | INFLUENZA=True) = 0.37433510638297873
+P(Urea nitrogen/Creatinine=High | INFLUENZA=False) = 0.003739365108407282
+P(Urea nitrogen/Creatinine=Low | INFLUENZA=False) = 8.919586497118287E-4
+P(Urea nitrogen/Creatinine=Not Mentioned | INFLUENZA=False) = 0.9674778153874303
+P(Urea nitrogen/Creatinine=Normal | INFLUENZA=False) = 0.027890860854450646
+P(Urea nitrogen/Creatinine=High | INFLUENZA=True) = 0.007978723404255319
+P(Urea nitrogen/Creatinine=Low | INFLUENZA=True) = 0.002327127659574468
+P(Urea nitrogen/Creatinine=Not Mentioned | INFLUENZA=True) = 0.9222074468085106
+P(Urea nitrogen/Creatinine=Normal | INFLUENZA=True) = 0.06748670212765957
+P(Platelet mean volume=High | INFLUENZA=False) = 0.005134479919495014
+P(Platelet mean volume=Low | INFLUENZA=False) = 0.005317445796358979
+P(Platelet mean volume=Not Mentioned | INFLUENZA=False) = 0.8060218644222853
+P(Platelet mean volume=Normal | INFLUENZA=False) = 0.18352620986186077
+P(Platelet mean volume=High | INFLUENZA=True) = 0.014960106382978724
+P(Platelet mean volume=Low | INFLUENZA=True) = 0.008976063829787235
+P(Platelet mean volume=Not Mentioned | INFLUENZA=True) = 0.5388962765957447
+P(Platelet mean volume=Normal | INFLUENZA=True) = 0.43716755319148937
+P(Lactate=High | INFLUENZA=False) = 0.0033619979873753545
+P(Lactate=Low | INFLUENZA=False) = 1.8296587686396487E-4
+P(Lactate=Not Mentioned | INFLUENZA=False) = 0.9783414143262281
+P(Lactate=Normal | INFLUENZA=False) = 0.01811362180953252
+P(Lactate=High | INFLUENZA=True) = 0.015292553191489361
+P(Lactate=Low | INFLUENZA=True) = 6.648936170212766E-4
+P(Lactate=Not Mentioned | INFLUENZA=True) = 0.8962765957446809
+P(Lactate=Normal | INFLUENZA=True) = 0.08776595744680851
+P(Anion gap=High | INFLUENZA=False) = 0.014900283597109138
+P(Anion gap=Low | INFLUENZA=False) = 0.0021955905223675783
+P(Anion gap=Not Mentioned | INFLUENZA=False) = 0.8112706980148202
+P(Anion gap=Normal | INFLUENZA=False) = 0.17163342786570304
+P(Anion gap=High | INFLUENZA=True) = 0.043550531914893616
+P(Anion gap=Low | INFLUENZA=True) = 0.018617021276595744
+P(Anion gap=Not Mentioned | INFLUENZA=True) = 0.5458776595744681
+P(Anion gap=Normal | INFLUENZA=True) = 0.39195478723404253
+P(Vancomycin^trough=High | INFLUENZA=False) = 8.119110785838441E-4
+P(Vancomycin^trough=Low | INFLUENZA=False) = 0.0011778428323117739
+P(Vancomycin^trough=Not Mentioned | INFLUENZA=False) = 0.9950599213246729
+P(Vancomycin^trough=Normal | INFLUENZA=False) = 0.0029503247644314333
+P(Vancomycin^trough=High | INFLUENZA=True) = 0.0036569148936170214
+P(Vancomycin^trough=Low | INFLUENZA=True) = 0.010305851063829786
+P(Vancomycin^trough=Not Mentioned | INFLUENZA=True) = 0.9637632978723404
+P(Vancomycin^trough=Normal | INFLUENZA=True) = 0.022273936170212765
+P(Hematocrit=High | INFLUENZA=False) = 0.009365565821974202
+P(Hematocrit=Low | INFLUENZA=False) = 0.05251120665995792
+P(Hematocrit=Not Mentioned | INFLUENZA=False) = 0.8013447991949502
+P(Hematocrit=Normal | INFLUENZA=False) = 0.13677842832311773
+P(Hematocrit=High | INFLUENZA=True) = 0.014627659574468085
+P(Hematocrit=Low | INFLUENZA=True) = 0.12134308510638298
+P(Hematocrit=Not Mentioned | INFLUENZA=True) = 0.527593085106383
+P(Hematocrit=Normal | INFLUENZA=True) = 0.33643617021276595
+P(pH=High | INFLUENZA=False) = 0.0019668831762876225
+P(pH=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(pH=Not Mentioned | INFLUENZA=False) = 0.9171621992498399
+P(pH=Normal | INFLUENZA=False) = 0.08085948220656848
+P(pH=High | INFLUENZA=True) = 0.008311170212765957
+P(pH=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(pH=Not Mentioned | INFLUENZA=True) = 0.770279255319149
+P(pH=Normal | INFLUENZA=True) = 0.22107712765957446
+P(Erythrocytes=High | INFLUENZA=False) = 1.1435367303997804E-5
+P(Erythrocytes=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Erythrocytes=Not Mentioned | INFLUENZA=False) = 0.999965693898088
+P(Erythrocytes=Normal | INFLUENZA=False) = 1.1435367303997804E-5
+P(Erythrocytes=High | INFLUENZA=True) = 0.005651595744680851
+P(Erythrocytes=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Erythrocytes=Not Mentioned | INFLUENZA=True) = 0.9886968085106383
+P(Erythrocytes=Normal | INFLUENZA=True) = 0.005319148936170213
+P(Specific gravity=High | INFLUENZA=False) = 1.1435367303997804E-5
+P(Specific gravity=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Specific gravity=Not Mentioned | INFLUENZA=False) = 0.9997598572866161
+P(Specific gravity=Normal | INFLUENZA=False) = 2.172719787759583E-4
+P(Specific gravity=High | INFLUENZA=True) = 3.324468085106383E-4
+P(Specific gravity=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Specific gravity=Not Mentioned | INFLUENZA=True) = 0.9867021276595744
+P(Specific gravity=Normal | INFLUENZA=True) = 0.012632978723404254
+P(Leukocytes=High | INFLUENZA=False) = 0.014351385966517244
+P(Leukocytes=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Leukocytes=Not Mentioned | INFLUENZA=False) = 0.9637956271155429
+P(Leukocytes=Normal | INFLUENZA=False) = 0.021841551550635805
+P(Leukocytes=High | INFLUENZA=True) = 0.024601063829787235
+P(Leukocytes=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Leukocytes=Not Mentioned | INFLUENZA=True) = 0.898936170212766
+P(Leukocytes=Normal | INFLUENZA=True) = 0.07613031914893617
+P(Monocytes/100 leukocytes=High | INFLUENZA=False) = 0.010977952611837892
+P(Monocytes/100 leukocytes=Low | INFLUENZA=False) = 0.0017953526667276553
+P(Monocytes/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.8921073094867807
+P(Monocytes/100 leukocytes=Normal | INFLUENZA=False) = 0.09511938523465374
+P(Monocytes/100 leukocytes=High | INFLUENZA=True) = 0.07513297872340426
+P(Monocytes/100 leukocytes=Low | INFLUENZA=True) = 0.005651595744680851
+P(Monocytes/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.7327127659574468
+P(Monocytes/100 leukocytes=Normal | INFLUENZA=True) = 0.18650265957446807
+P(Potassium=High | INFLUENZA=False) = 0.001109230628487787
+P(Potassium=Low | INFLUENZA=False) = 0.0018639648705516421
+P(Potassium=Not Mentioned | INFLUENZA=False) = 0.9888162107766901
+P(Potassium=Normal | INFLUENZA=False) = 0.008210593724270424
+P(Potassium=High | INFLUENZA=True) = 0.005319148936170213
+P(Potassium=Low | INFLUENZA=True) = 0.009308510638297872
+P(Potassium=Not Mentioned | INFLUENZA=True) = 0.9557845744680851
+P(Potassium=Normal | INFLUENZA=True) = 0.029587765957446808
+P(Leukocytes=High | INFLUENZA=False) = 0.026758759491354863
+P(Leukocytes=Low | INFLUENZA=False) = 0.006449547159454762
+P(Leukocytes=Not Mentioned | INFLUENZA=False) = 0.802351111517702
+P(Leukocytes=Normal | INFLUENZA=False) = 0.16444058183148844
+P(Leukocytes=High | INFLUENZA=True) = 0.041555851063829786
+P(Leukocytes=Low | INFLUENZA=True) = 0.05352393617021277
+P(Leukocytes=Not Mentioned | INFLUENZA=True) = 0.5289228723404256
+P(Leukocytes=Normal | INFLUENZA=True) = 0.3759973404255319
+P(Alkaline phosphatase=High | INFLUENZA=False) = 0.01385966517244534
+P(Alkaline phosphatase=Low | INFLUENZA=False) = 0.0025157808068795168
+P(Alkaline phosphatase=Not Mentioned | INFLUENZA=False) = 0.8937654377458604
+P(Alkaline phosphatase=Normal | INFLUENZA=False) = 0.08985911627481474
+P(Alkaline phosphatase=High | INFLUENZA=True) = 0.026263297872340427
+P(Alkaline phosphatase=Low | INFLUENZA=True) = 0.006316489361702127
+P(Alkaline phosphatase=Not Mentioned | INFLUENZA=True) = 0.7802526595744681
+P(Alkaline phosphatase=Normal | INFLUENZA=True) = 0.18716755319148937
+P(Basophils/100 leukocytes=High | INFLUENZA=False) = 0.0021269783185435915
+P(Basophils/100 leukocytes=Low | INFLUENZA=False) = 1.1435367303997804E-5
+P(Basophils/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.9407419266306833
+P(Basophils/100 leukocytes=Normal | INFLUENZA=False) = 0.057119659683469035
+P(Basophils/100 leukocytes=High | INFLUENZA=True) = 0.008311170212765957
+P(Basophils/100 leukocytes=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Basophils/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.8736702127659575
+P(Basophils/100 leukocytes=Normal | INFLUENZA=True) = 0.11768617021276596
+P(Eosinophils=High | INFLUENZA=False) = 0.006037873936510841
+P(Eosinophils=Low | INFLUENZA=False) = 0.002046930747415607
+P(Eosinophils=Not Mentioned | INFLUENZA=False) = 0.8721525935413046
+P(Eosinophils=Normal | INFLUENZA=False) = 0.11976260177476901
+P(Eosinophils=High | INFLUENZA=True) = 0.005651595744680851
+P(Eosinophils=Low | INFLUENZA=True) = 0.027925531914893616
+P(Eosinophils=Not Mentioned | INFLUENZA=True) = 0.7686170212765957
+P(Eosinophils=Normal | INFLUENZA=True) = 0.19780585106382978
+P(Eosinophils/100 leukocytes=High | INFLUENZA=False) = 0.006586771567102735
+P(Eosinophils/100 leukocytes=Low | INFLUENZA=False) = 3.430610191199341E-5
+P(Eosinophils/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.9042287988290184
+P(Eosinophils/100 leukocytes=Normal | INFLUENZA=False) = 0.08915012350196688
+P(Eosinophils/100 leukocytes=High | INFLUENZA=True) = 0.012965425531914893
+P(Eosinophils/100 leukocytes=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Eosinophils/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.8218085106382979
+P(Eosinophils/100 leukocytes=Normal | INFLUENZA=True) = 0.16489361702127658
+P(Hemoglobin=High | INFLUENZA=False) = 0.0055461531424389355
+P(Hemoglobin=Low | INFLUENZA=False) = 0.062196962766444056
+P(Hemoglobin=Not Mentioned | INFLUENZA=False) = 0.8031744579635898
+P(Hemoglobin=Normal | INFLUENZA=False) = 0.1290824261275272
+P(Hemoglobin=High | INFLUENZA=True) = 0.00964095744680851
+P(Hemoglobin=Low | INFLUENZA=True) = 0.1456117021276596
+P(Hemoglobin=Not Mentioned | INFLUENZA=True) = 0.5319148936170213
+P(Hemoglobin=Normal | INFLUENZA=True) = 0.31283244680851063
+P(Lymphocytes=High | INFLUENZA=False) = 0.004242521269783185
+P(Lymphocytes=Low | INFLUENZA=False) = 0.020046198883908153
+P(Lymphocytes=Not Mentioned | INFLUENZA=False) = 0.8423520263470863
+P(Lymphocytes=Normal | INFLUENZA=False) = 0.1333592534992224
+P(Lymphocytes=High | INFLUENZA=True) = 0.0029920212765957447
+P(Lymphocytes=Low | INFLUENZA=True) = 0.15857712765957446
+P(Lymphocytes=Not Mentioned | INFLUENZA=True) = 0.6173537234042553
+P(Lymphocytes=Normal | INFLUENZA=True) = 0.22107712765957446
+P(Lymphocytes/100 leukocytes=High | INFLUENZA=False) = 0.008839538925990303
+P(Lymphocytes/100 leukocytes=Low | INFLUENZA=False) = 0.03713063763608087
+P(Lymphocytes/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.8360854450644954
+P(Lymphocytes/100 leukocytes=Normal | INFLUENZA=False) = 0.11794437837343336
+P(Lymphocytes/100 leukocytes=High | INFLUENZA=True) = 0.01795212765957447
+P(Lymphocytes/100 leukocytes=Low | INFLUENZA=True) = 0.16655585106382978
+P(Lymphocytes/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.5934175531914894
+P(Lymphocytes/100 leukocytes=Normal | INFLUENZA=True) = 0.2220744680851064
+P(Monocytes=High | INFLUENZA=False) = 0.02120117098161193
+P(Monocytes=Low | INFLUENZA=False) = 0.004242521269783185
+P(Monocytes=Not Mentioned | INFLUENZA=False) = 0.849076022321837
+P(Monocytes=Normal | INFLUENZA=False) = 0.1254802854267679
+P(Monocytes=High | INFLUENZA=True) = 0.07313829787234043
+P(Monocytes=Low | INFLUENZA=True) = 0.012300531914893617
+P(Monocytes=Not Mentioned | INFLUENZA=True) = 0.6220079787234043
+P(Monocytes=Normal | INFLUENZA=True) = 0.2925531914893617
+P(Neutrophils=High | INFLUENZA=False) = 0.024963406824627207
+P(Neutrophils=Low | INFLUENZA=False) = 0.007490165584118562
+P(Neutrophils=Not Mentioned | INFLUENZA=False) = 0.8394703137864789
+P(Neutrophils=Normal | INFLUENZA=False) = 0.1280761138047754
+P(Neutrophils=High | INFLUENZA=True) = 0.05285904255319149
+P(Neutrophils=Low | INFLUENZA=True) = 0.03357712765957447
+P(Neutrophils=Not Mentioned | INFLUENZA=True) = 0.6077127659574468
+P(Neutrophils=Normal | INFLUENZA=True) = 0.3058510638297872
+P(Neutrophils.band form/100 leukocytes=High | INFLUENZA=False) = 0.0018982709724636355
+P(Neutrophils.band form/100 leukocytes=Low | INFLUENZA=False) = 0.0019097063397676332
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.989719604793706
+P(Neutrophils.band form/100 leukocytes=Normal | INFLUENZA=False) = 0.006472417894062757
+P(Neutrophils.band form/100 leukocytes=High | INFLUENZA=True) = 0.01928191489361702
+P(Neutrophils.band form/100 leukocytes=Low | INFLUENZA=True) = 0.017287234042553192
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.9192154255319149
+P(Neutrophils.band form/100 leukocytes=Normal | INFLUENZA=True) = 0.0442154255319149
+P(Neutrophils/100 leukocytes=High | INFLUENZA=False) = 0.029514683011618335
+P(Neutrophils/100 leukocytes=Low | INFLUENZA=False) = 0.005980697099990852
+P(Neutrophils/100 leukocytes=Not Mentioned | INFLUENZA=False) = 0.8832220290915744
+P(Neutrophils/100 leukocytes=Normal | INFLUENZA=False) = 0.08128259079681639
+P(Neutrophils/100 leukocytes=High | INFLUENZA=True) = 0.12865691489361702
+P(Neutrophils/100 leukocytes=Low | INFLUENZA=True) = 0.013297872340425532
+P(Neutrophils/100 leukocytes=Not Mentioned | INFLUENZA=True) = 0.7047872340425532
+P(Neutrophils/100 leukocytes=Normal | INFLUENZA=True) = 0.15325797872340424
+P(Platelets=High | INFLUENZA=False) = 0.011115177019485866
+P(Platelets=Low | INFLUENZA=False) = 0.022207483304363736
+P(Platelets=Not Mentioned | INFLUENZA=False) = 0.8014705882352942
+P(Platelets=Normal | INFLUENZA=False) = 0.16520675144085628
+P(Platelets=High | INFLUENZA=True) = 0.025930851063829786
+P(Platelets=Low | INFLUENZA=True) = 0.10305851063829788
+P(Platelets=Not Mentioned | INFLUENZA=True) = 0.527593085106383
+P(Platelets=Normal | INFLUENZA=True) = 0.34341755319148937
+P(Erythrocyte mean corpuscular hemoglobin=High | INFLUENZA=False) = 0.01082929283688592
+P(Erythrocyte mean corpuscular hemoglobin=Low | INFLUENZA=False) = 0.03764522916476077
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | INFLUENZA=False) = 0.8027742201079499
+P(Erythrocyte mean corpuscular hemoglobin=Normal | INFLUENZA=False) = 0.14875125789040344
+P(Erythrocyte mean corpuscular hemoglobin=High | INFLUENZA=True) = 0.023936170212765957
+P(Erythrocyte mean corpuscular hemoglobin=Low | INFLUENZA=True) = 0.10638297872340426
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | INFLUENZA=True) = 0.5295877659574468
+P(Erythrocyte mean corpuscular hemoglobin=Normal | INFLUENZA=True) = 0.340093085106383
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | INFLUENZA=False) = 0.002104107583935596
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | INFLUENZA=False) = 0.05390632147104565
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | INFLUENZA=False) = 0.8053357423840454
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | INFLUENZA=False) = 0.13865382856097339
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | INFLUENZA=True) = 0.005651595744680851
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | INFLUENZA=True) = 0.09607712765957446
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | INFLUENZA=True) = 0.53125
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | INFLUENZA=True) = 0.3670212765957447
+P(Erythrocyte mean corpuscular volume=High | INFLUENZA=False) = 0.013390815112981428
+P(Erythrocyte mean corpuscular volume=Low | INFLUENZA=False) = 0.021898728387155796
+P(Erythrocyte mean corpuscular volume=Not Mentioned | INFLUENZA=False) = 0.8013333638276462
+P(Erythrocyte mean corpuscular volume=Normal | INFLUENZA=False) = 0.16337709267221664
+P(Erythrocyte mean corpuscular volume=High | INFLUENZA=True) = 0.02726063829787234
+P(Erythrocyte mean corpuscular volume=Low | INFLUENZA=True) = 0.061502659574468085
+P(Erythrocyte mean corpuscular volume=Not Mentioned | INFLUENZA=True) = 0.5259308510638298
+P(Erythrocyte mean corpuscular volume=Normal | INFLUENZA=True) = 0.3853058510638298
+P(Erythrocyte distribution width=High | INFLUENZA=False) = 0.05421507638825359
+P(Erythrocyte distribution width=Low | INFLUENZA=False) = 1.4865977495197145E-4
+P(Erythrocyte distribution width=Not Mentioned | INFLUENZA=False) = 0.8032545055347178
+P(Erythrocyte distribution width=Normal | INFLUENZA=False) = 0.14238175830207667
+P(Erythrocyte distribution width=High | INFLUENZA=True) = 0.1293218085106383
+P(Erythrocyte distribution width=Low | INFLUENZA=True) = 3.324468085106383E-4
+P(Erythrocyte distribution width=Not Mentioned | INFLUENZA=True) = 0.5299202127659575
+P(Erythrocyte distribution width=Normal | INFLUENZA=True) = 0.3404255319148936
+P(Erythrocytes=High | INFLUENZA=False) = 0.011526850242429786
+P(Erythrocytes=Low | INFLUENZA=False) = 0.04510108864696734
+P(Erythrocytes=Not Mentioned | INFLUENZA=False) = 0.8016192480102461
+P(Erythrocytes=Normal | INFLUENZA=False) = 0.14175281310035678
+P(Erythrocytes=High | INFLUENZA=True) = 0.030917553191489363
+P(Erythrocytes=Low | INFLUENZA=True) = 0.09840425531914894
+P(Erythrocytes=Not Mentioned | INFLUENZA=True) = 0.527593085106383
+P(Erythrocytes=Normal | INFLUENZA=True) = 0.34308510638297873

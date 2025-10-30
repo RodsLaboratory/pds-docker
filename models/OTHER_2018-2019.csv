@@ -1,0 +1,1775 @@
+Feature (description),Attribute,F,T
+Class Prior,N/A,0.1105,0.8895
+N_C_AGE (N/A),M,0.0004,0.0003
+N_C_AGE (N/A),ge18less65,0.2425,0.5678
+N_C_AGE (N/A),ge5less18,0.2235,0.16
+N_C_AGE (N/A),ge65,0.0847,0.1382
+N_C_AGE (N/A),less5,0.4489,0.1337
+N_D_RACE (N/A),BLACK,0.351,0.3819
+N_D_RACE (N/A),M,0.007,0.0061
+N_D_RACE (N/A),NOT_SPECIFIED,0.0241,0.0197
+N_D_RACE (N/A),OTHER,0.0307,0.0304
+N_D_RACE (N/A),WHITE,0.5873,0.5618
+C_D_C0000737 (Abdominal Pain),M,0.69,0.5847
+C_D_C0000737 (Abdominal Pain),N,0.1696,0.1893
+C_D_C0000737 (Abdominal Pain),P,0.1404,0.226
+C_D_C0003578 (Apnea),M,0.9576,0.9741
+C_D_C0003578 (Apnea),N,0.0086,0.0015
+C_D_C0003578 (Apnea),P,0.0338,0.0244
+C_D_C0003862 (Arthralgia),M,0.9113,0.8461
+C_D_C0003862 (Arthralgia),N,0.0366,0.0676
+C_D_C0003862 (Arthralgia),P,0.0521,0.0863
+C_D_C0004604 (Back Pain),M,0.9028,0.8038
+C_D_C0004604 (Back Pain),N,0.0338,0.0587
+C_D_C0004604 (Back Pain),P,0.0634,0.1375
+C_D_C0005603 (Birth History),M,0.8623,0.97
+C_D_C0005603 (Birth History),N,0.0004,0.0001
+C_D_C0005603 (Birth History),P,0.1373,0.0299
+C_D_C0007859 (Neck Pain),M,0.8845,0.8514
+C_D_C0007859 (Neck Pain),N,0.0887,0.0872
+C_D_C0007859 (Neck Pain),P,0.0268,0.0614
+C_D_C0008031 (Chest Pain),M,0.7071,0.4899
+C_D_C0008031 (Chest Pain),N,0.189,0.3548
+C_D_C0008031 (Chest Pain),P,0.1039,0.1554
+C_D_C0008035 (Chest wall pain),M,0.9969,0.9859
+C_D_C0008035 (Chest wall pain),N,0.0004,0.0006
+C_D_C0008035 (Chest wall pain),P,0.0027,0.0135
+C_D_C0009791 (Consciousness related finding),M,0.9798,0.9498
+C_D_C0009791 (Consciousness related finding),N,0.0004,0.0007
+C_D_C0009791 (Consciousness related finding),P,0.0198,0.0495
+C_D_C0009806 (Constipation),M,0.9168,0.8749
+C_D_C0009806 (Constipation),N,0.0237,0.0318
+C_D_C0009806 (Constipation),P,0.0595,0.0933
+C_D_C0009812 (Constitutional Symptom),M,0.515,0.8085
+C_D_C0009812 (Constitutional Symptom),N,0.0066,0.0122
+C_D_C0009812 (Constitutional Symptom),P,0.4784,0.1792
+C_D_C0010200 (Coughing),M,0.2575,0.5934
+C_D_C0010200 (Coughing),N,0.0688,0.2207
+C_D_C0010200 (Coughing),P,0.6737,0.1859
+C_D_C0010520 (Cyanosis),M,0.949,0.9587
+C_D_C0010520 (Cyanosis),N,0.0206,0.0279
+C_D_C0010520 (Cyanosis),P,0.0303,0.0134
+C_D_C0011991 (Diarrhea),M,0.5648,0.6453
+C_D_C0011991 (Diarrhea),N,0.1315,0.1466
+C_D_C0011991 (Diarrhea),P,0.3038,0.2081
+C_D_C0012569 (Diplopia),M,0.9701,0.9281
+C_D_C0012569 (Diplopia),N,0.0171,0.038
+C_D_C0012569 (Diplopia),P,0.0128,0.0339
+C_D_C0012833 (Dizziness),M,0.9389,0.8588
+C_D_C0012833 (Dizziness),N,0.0109,0.0192
+C_D_C0012833 (Dizziness),P,0.0502,0.122
+C_D_C0013404 (Dyspnea),M,0.5667,0.4484
+C_D_C0013404 (Dyspnea),N,0.1202,0.3206
+C_D_C0013404 (Dyspnea),P,0.3131,0.231
+C_D_C0013428 (Dysuria),M,0.767,0.6568
+C_D_C0013428 (Dysuria),N,0.196,0.2868
+C_D_C0013428 (Dysuria),P,0.037,0.0564
+C_D_C0015230 (Exanthema),M,0.3073,0.3728
+C_D_C0015230 (Exanthema),N,0.592,0.5312
+C_D_C0015230 (Exanthema),P,0.1007,0.096
+C_D_C0015672 (Fatigue),M,0.8324,0.9324
+C_D_C0015672 (Fatigue),N,0.0093,0.0179
+C_D_C0015672 (Fatigue),P,0.1583,0.0497
+C_D_C0015967 (Fever),M,0.1214,0.3275
+C_D_C0015967 (Fever),N,0.1501,0.4556
+C_D_C0015967 (Fever),P,0.7285,0.2169
+C_D_C0016199 (Flank Pain),M,0.9973,0.976
+C_D_C0016199 (Flank Pain),N,0.0012,0.003
+C_D_C0016199 (Flank Pain),P,0.0016,0.021
+C_D_C0016512 (Foot pain),M,0.9984,0.9809
+C_D_C0016512 (Foot pain),N,0.0004,0.0005
+C_D_C0016512 (Foot pain),P,0.0012,0.0186
+C_D_C0016928 (Gait),M,0.9856,0.9506
+C_D_C0016928 (Gait),N,0.0004,0.0005
+C_D_C0016928 (Gait),P,0.014,0.049
+C_D_C0018681 (Headache),M,0.7487,0.6649
+C_D_C0018681 (Headache),N,0.0972,0.1933
+C_D_C0018681 (Headache),P,0.154,0.1417
+C_D_C0018808 (Heart murmur),M,0.3228,0.387
+C_D_C0018808 (Heart murmur),N,0.6492,0.5854
+C_D_C0018808 (Heart murmur),P,0.028,0.0275
+C_D_C0018926 (Hematemesis),M,0.9876,0.9737
+C_D_C0018926 (Hematemesis),N,0.0047,0.0176
+C_D_C0018926 (Hematemesis),P,0.0078,0.0087
+C_D_C0019029 (Hemoglobin concentration result),M,0.6799,0.7457
+C_D_C0019029 (Hemoglobin concentration result),N,0.0004,0.0001
+C_D_C0019029 (Hemoglobin concentration result),P,0.3197,0.2542
+C_D_C0019079 (Hemoptysis),M,0.9603,0.9618
+C_D_C0019079 (Hemoptysis),N,0.028,0.0235
+C_D_C0019079 (Hemoptysis),P,0.0117,0.0146
+C_D_C0019214 (Hepatosplenomegaly),M,0.9487,0.9288
+C_D_C0019214 (Hepatosplenomegaly),N,0.0342,0.0685
+C_D_C0019214 (Hepatosplenomegaly),P,0.0171,0.0027
+C_D_C0020440 (Hypercapnia),M,0.9879,0.9982
+C_D_C0020440 (Hypercapnia),N,0.0008,0.0002
+C_D_C0020440 (Hypercapnia),P,0.0113,0.0016
+C_D_C0020580 (Hypesthesia),M,0.8872,0.7108
+C_D_C0020580 (Hypesthesia),N,0.0832,0.222
+C_D_C0020580 (Hypesthesia),P,0.0296,0.0673
+C_D_C0021294 ('Infant  Premature'),M,0.9817,0.9979
+C_D_C0021294 ('Infant  Premature'),N,0.0004,0
+C_D_C0021294 ('Infant  Premature'),P,0.0179,0.002
+C_D_C0022346 (Icterus),M,0.7802,0.7231
+C_D_C0022346 (Icterus),N,0.1237,0.0671
+C_D_C0022346 (Icterus),P,0.0961,0.2097
+C_D_C0023380 (Lethargy),M,0.9498,0.9841
+C_D_C0023380 (Lethargy),N,0.007,0.0025
+C_D_C0023380 (Lethargy),P,0.0432,0.0135
+C_D_C0024031 (Low Back Pain),M,0.9934,0.9653
+C_D_C0024031 (Low Back Pain),N,0.0008,0.0006
+C_D_C0024031 (Low Back Pain),P,0.0058,0.034
+C_D_C0025287 (Meningism),M,0.9607,0.9765
+C_D_C0025287 (Meningism),N,0.0342,0.021
+C_D_C0025287 (Meningism),P,0.0051,0.0026
+C_D_C0026821 (Muscle Cramp),M,0.9949,0.9776
+C_D_C0026821 (Muscle Cramp),N,0.0008,0.0016
+C_D_C0026821 (Muscle Cramp),P,0.0043,0.0207
+C_D_C0026827 (Muscle hypotonia),M,0.9918,0.9988
+C_D_C0026827 (Muscle hypotonia),N,0.0004,0
+C_D_C0026827 (Muscle hypotonia),P,0.0078,0.0011
+C_D_C0026858 (Musculoskeletal Pain),M,0.9984,0.9899
+C_D_C0026858 (Musculoskeletal Pain),N,0.0004,0.0003
+C_D_C0026858 (Musculoskeletal Pain),P,0.0012,0.0098
+C_D_C0027424 (Nasal congestion (finding)),M,0.6632,0.8517
+C_D_C0027424 (Nasal congestion (finding)),N,0.0412,0.1149
+C_D_C0027424 (Nasal congestion (finding)),P,0.2956,0.0334
+C_D_C0027497 (Nausea),M,0.739,0.59
+C_D_C0027497 (Nausea),N,0.0898,0.1929
+C_D_C0027497 (Nausea),P,0.1711,0.2171
+C_D_C0028643 (Numbness),M,0.8876,0.7093
+C_D_C0028643 (Numbness),N,0.0832,0.2231
+C_D_C0028643 (Numbness),P,0.0292,0.0676
+C_D_C0029053 (Decreased translucency),M,0.9028,0.9855
+C_D_C0029053 (Decreased translucency),N,0.0016,0.0002
+C_D_C0029053 (Decreased translucency),P,0.0957,0.0142
+C_D_C0030193 (Pain),M,0.7694,0.4505
+C_D_C0030193 (Pain),N,0.0731,0.1307
+C_D_C0030193 (Pain),P,0.1575,0.4188
+C_D_C0030232 (Pallor),M,0.8709,0.9368
+C_D_C0030232 (Pallor),N,0.105,0.0484
+C_D_C0030232 (Pallor),P,0.0241,0.0148
+C_D_C0030252 (Palpitations),M,0.9063,0.7923
+C_D_C0030252 (Palpitations),N,0.0459,0.1129
+C_D_C0030252 (Palpitations),P,0.0478,0.0948
+C_D_C0030544 (PARENTAL CONCERNS),M,0.9899,0.9986
+C_D_C0030544 (PARENTAL CONCERNS),N,0.0008,0
+C_D_C0030544 (PARENTAL CONCERNS),P,0.0093,0.0014
+C_D_C0032617 (Polyuria),M,0.9611,0.9255
+C_D_C0032617 (Polyuria),N,0.0331,0.0694
+C_D_C0032617 (Polyuria),P,0.0058,0.0051
+C_D_C0033774 (Pruritus),M,0.9669,0.9314
+C_D_C0033774 (Pruritus),N,0.0124,0.0244
+C_D_C0033774 (Pruritus),P,0.0206,0.0442
+C_D_C0034642 (Rales),M,0.8246,0.8987
+C_D_C0034642 (Rales),N,0.0261,0.0215
+C_D_C0034642 (Rales),P,0.1494,0.0798
+C_D_C0037011 (Shoulder Pain),M,0.9981,0.9845
+C_D_C0037011 (Shoulder Pain),N,0.0004,0.0003
+C_D_C0037011 (Shoulder Pain),P,0.0016,0.0151
+C_D_C0037090 ('Signs and Symptoms  Respiratory'),M,0.5344,0.8367
+C_D_C0037090 ('Signs and Symptoms  Respiratory'),N,0.0031,0.0014
+C_D_C0037090 ('Signs and Symptoms  Respiratory'),P,0.4625,0.1619
+C_D_C0037763 (Spasm),M,0.9949,0.9778
+C_D_C0037763 (Spasm),N,0.0004,0.0015
+C_D_C0037763 (Spasm),P,0.0047,0.0207
+C_D_C0039231 (Tachycardia),M,0.795,0.9317
+C_D_C0039231 (Tachycardia),N,0.0136,0.0206
+C_D_C0039231 (Tachycardia),P,0.1914,0.0477
+C_D_C0040460 (Toothache),M,0.9988,0.9833
+C_D_C0040460 (Toothache),N,0.0004,0.0007
+C_D_C0040460 (Toothache),P,0.0008,0.0159
+C_D_C0041657 (Unconscious State),M,0.9883,0.9315
+C_D_C0041657 (Unconscious State),N,0.0047,0.0398
+C_D_C0041657 (Unconscious State),P,0.007,0.0287
+C_D_C0042571 (Vertigo),M,0.9549,0.8908
+C_D_C0042571 (Vertigo),N,0.0082,0.0173
+C_D_C0042571 (Vertigo),P,0.037,0.092
+C_D_C0042963 (Vomiting),M,0.4652,0.5699
+C_D_C0042963 (Vomiting),N,0.2482,0.2759
+C_D_C0042963 (Vomiting),P,0.2867,0.1542
+C_D_C0043144 (Wheezing),M,0.6772,0.8479
+C_D_C0043144 (Wheezing),N,0.1334,0.101
+C_D_C0043144 (Wheezing),P,0.1894,0.0511
+C_D_C0085393 (Immunocompromised Host),M,0.9739,0.9888
+C_D_C0085393 (Immunocompromised Host),N,0.0078,0.0057
+C_D_C0085393 (Immunocompromised Host),P,0.0183,0.0055
+C_D_C0085593 (Chills),M,0.7721,0.5897
+C_D_C0085593 (Chills),N,0.056,0.1939
+C_D_C0085593 (Chills),P,0.1719,0.2164
+C_D_C0085639 (Falls),M,0.9806,0.8972
+C_D_C0085639 (Falls),N,0.0016,0.0069
+C_D_C0085639 (Falls),P,0.0179,0.0959
+C_D_C0149744 (Oral lesion),M,0.9876,0.9855
+C_D_C0149744 (Oral lesion),N,0.0089,0.0128
+C_D_C0149744 (Oral lesion),P,0.0035,0.0017
+C_D_C0150055 (Chronic pain),M,0.9946,0.9788
+C_D_C0150055 (Chronic pain),N,0.0008,0.0002
+C_D_C0150055 (Chronic pain),P,0.0047,0.021
+C_D_C0150312 (Present),M,0.3909,0.752
+C_D_C0150312 (Present),N,0.0093,0.0079
+C_D_C0150312 (Present),P,0.5998,0.2401
+C_D_C0150618 (History and physical examination),M,0.8541,0.745
+C_D_C0150618 (History and physical examination),N,0.0004,0.0004
+C_D_C0150618 (History and physical examination),P,0.1455,0.2546
+C_D_C0150872 (chest findings),M,0.9934,0.9995
+C_D_C0150872 (chest findings),N,0.0004,0
+C_D_C0150872 (chest findings),P,0.0062,0.0005
+C_D_C0151315 (Neck stiffness),M,0.9825,0.987
+C_D_C0151315 (Neck stiffness),N,0.0062,0.0049
+C_D_C0151315 (Neck stiffness),P,0.0113,0.0082
+C_D_C0151602 (Facial swelling (finding)),M,0.9946,0.9795
+C_D_C0151602 (Facial swelling (finding)),N,0.0019,0.0098
+C_D_C0151602 (Facial swelling (finding)),P,0.0035,0.0108
+C_D_C0151827 (Eye pain),M,0.9584,0.9298
+C_D_C0151827 (Eye pain),N,0.0093,0.0076
+C_D_C0151827 (Eye pain),P,0.0323,0.0626
+C_D_C0152447 (Urethral discharge),M,0.9988,0.9876
+C_D_C0152447 (Urethral discharge),N,0.0008,0.0101
+C_D_C0152447 (Urethral discharge),P,0.0004,0.0022
+C_D_C0162275 (Ketonuria),M,0.9794,0.9549
+C_D_C0162275 (Ketonuria),N,0.0008,0.0002
+C_D_C0162275 (Ketonuria),P,0.0198,0.0449
+C_D_C0184511 (Improved),M,0.93,0.9563
+C_D_C0184511 (Improved),N,0.0039,0.0013
+C_D_C0184511 (Improved),P,0.0661,0.0424
+C_D_C0205160 (Negative),M,0.0863,0.1854
+C_D_C0205160 (Negative),N,0.0058,0.0067
+C_D_C0205160 (Negative),P,0.9078,0.8078
+C_D_C0205161 (Abnormal),M,0.7962,0.9404
+C_D_C0205161 (Abnormal),N,0.0117,0.0174
+C_D_C0205161 (Abnormal),P,0.1921,0.0422
+C_D_C0220870 (Lightheadedness),M,0.9685,0.9255
+C_D_C0220870 (Lightheadedness),N,0.0058,0.016
+C_D_C0220870 (Lightheadedness),P,0.0257,0.0584
+C_D_C0221198 (Lesion),M,0.8693,0.8467
+C_D_C0221198 (Lesion),N,0.0677,0.0764
+C_D_C0221198 (Lesion),P,0.063,0.0769
+C_D_C0221423 (Illness (finding)),M,0.5854,0.8833
+C_D_C0221423 (Illness (finding)),N,0.0521,0.0221
+C_D_C0221423 (Illness (finding)),P,0.3625,0.0946
+C_D_C0221785 (Pain in wrist),M,0.9988,0.9893
+C_D_C0221785 (Pain in wrist),N,0.0004,0.0005
+C_D_C0221785 (Pain in wrist),P,0.0008,0.0101
+C_D_C0227791 (Vaginal Discharge),M,0.9946,0.9706
+C_D_C0227791 (Vaginal Discharge),N,0.0016,0.0106
+C_D_C0227791 (Vaginal Discharge),P,0.0039,0.0188
+C_D_C0231217 (Multiple symptoms),M,0.9732,0.9798
+C_D_C0231217 (Multiple symptoms),N,0.0004,0
+C_D_C0231217 (Multiple symptoms),P,0.0264,0.0201
+C_D_C0231218 (Malaise),M,0.825,0.9418
+C_D_C0231218 (Malaise),N,0.0121,0.0147
+C_D_C0231218 (Malaise),P,0.163,0.0434
+C_D_C0231221 (Asymptomatic),M,0.9934,0.9712
+C_D_C0231221 (Asymptomatic),N,0.0004,0.0001
+C_D_C0231221 (Asymptomatic),P,0.0062,0.0287
+C_D_C0231528 (Myalgia),M,0.8242,0.858
+C_D_C0231528 (Myalgia),N,0.0338,0.096
+C_D_C0231528 (Myalgia),P,0.142,0.046
+C_D_C0231589 (Limitation of joint movement),M,0.9988,0.9863
+C_D_C0231589 (Limitation of joint movement),N,0.0004,0.0002
+C_D_C0231589 (Limitation of joint movement),P,0.0008,0.0134
+C_D_C0231627 (Step-off),M,0.9988,0.9902
+C_D_C0231627 (Step-off),N,0.0004,0.0069
+C_D_C0231627 (Step-off),P,0.0008,0.0029
+C_D_C0231683 (Gait normal),M,0.9646,0.9263
+C_D_C0231683 (Gait normal),N,0.0004,0
+C_D_C0231683 (Gait normal),P,0.035,0.0736
+C_D_C0231749 (Knee pain),M,0.9961,0.974
+C_D_C0231749 (Knee pain),N,0.0004,0.001
+C_D_C0231749 (Knee pain),P,0.0035,0.025
+C_D_C0231835 (Tachypnea),M,0.8277,0.9762
+C_D_C0231835 (Tachypnea),N,0.0198,0.0043
+C_D_C0231835 (Tachypnea),P,0.1525,0.0194
+C_D_C0231875 (Expiratory wheezing),M,0.9343,0.9758
+C_D_C0231875 (Expiratory wheezing),N,0.0019,0.0003
+C_D_C0231875 (Expiratory wheezing),P,0.0638,0.0238
+C_D_C0231898 (Diaphragmatic breathing),M,0.9914,0.9997
+C_D_C0231898 (Diaphragmatic breathing),N,0.0008,0
+C_D_C0231898 (Diaphragmatic breathing),P,0.0078,0.0002
+C_D_C0232202 (Normal sinus rhythm),M,0.942,0.9111
+C_D_C0232202 (Normal sinus rhythm),N,0.0004,0.0002
+C_D_C0232202 (Normal sinus rhythm),P,0.0576,0.0886
+C_D_C0232462 (Decrease in appetite),M,0.9798,0.9948
+C_D_C0232462 (Decrease in appetite),N,0.0004,0.0002
+C_D_C0232462 (Decrease in appetite),P,0.0198,0.005
+C_D_C0232466 (Feeding difficulties),M,0.9926,0.9989
+C_D_C0232466 (Feeding difficulties),N,0.0004,0.0002
+C_D_C0232466 (Feeding difficulties),P,0.007,0.0009
+C_D_C0232493 (Epigastric pain),M,0.9949,0.9821
+C_D_C0232493 (Epigastric pain),N,0.0004,0.0006
+C_D_C0232493 (Epigastric pain),P,0.0047,0.0173
+C_D_C0232495 (Lower abdominal pain),M,0.9946,0.9827
+C_D_C0232495 (Lower abdominal pain),N,0.0012,0.0011
+C_D_C0232495 (Lower abdominal pain),P,0.0043,0.0162
+C_D_C0233401 (Psychiatric symptom),M,0.9343,0.9712
+C_D_C0233401 (Psychiatric symptom),N,0.0004,0
+C_D_C0233401 (Psychiatric symptom),P,0.0653,0.0288
+C_D_C0233657 (Flight of ideas),M,0.9992,0.9932
+C_D_C0233657 (Flight of ideas),N,0.0004,0.0049
+C_D_C0233657 (Flight of ideas),P,0.0004,0.0018
+C_D_C0233762 ('Hallucinations  Auditory'),M,0.9988,0.9919
+C_D_C0233762 ('Hallucinations  Auditory'),N,0.0004,0.0051
+C_D_C0233762 ('Hallucinations  Auditory'),P,0.0008,0.003
+C_D_C0234215 (Sensory Discomfort),M,0.9716,0.92
+C_D_C0234215 (Sensory Discomfort),N,0.0008,0.0041
+C_D_C0234215 (Sensory Discomfort),P,0.0276,0.0759
+C_D_C0234233 (Sore to touch),M,0.5356,0.3664
+C_D_C0234233 (Sore to touch),N,0.3353,0.295
+C_D_C0234233 (Sore to touch),P,0.1291,0.3386
+C_D_C0234238 (Ache),M,0.9164,0.9868
+C_D_C0234238 (Ache),N,0.0008,0.0004
+C_D_C0234238 (Ache),P,0.0828,0.0129
+C_D_C0234254 (Radiating pain),M,0.9981,0.9838
+C_D_C0234254 (Radiating pain),N,0.0004,0.0012
+C_D_C0234254 (Radiating pain),P,0.0016,0.015
+C_D_C0234422 (Awake),M,0.8923,0.8536
+C_D_C0234422 (Awake),N,0.0004,0.0007
+C_D_C0234422 (Awake),P,0.1074,0.1458
+C_D_C0234425 (Level of consciousness),M,0.9903,0.9594
+C_D_C0234425 (Level of consciousness),N,0.0039,0.0201
+C_D_C0234425 (Level of consciousness),P,0.0058,0.0206
+C_D_C0234725 (Hearing normal),M,0.9292,0.8706
+C_D_C0234725 (Hearing normal),N,0.0004,0
+C_D_C0234725 (Hearing normal),P,0.0704,0.1293
+C_D_C0235031 (Neurologic Symptoms),M,0.6768,0.8465
+C_D_C0235031 (Neurologic Symptoms),N,0.0012,0.0043
+C_D_C0235031 (Neurologic Symptoms),P,0.3221,0.1492
+C_D_C0235634 (Renal angle tenderness),M,0.9732,0.9434
+C_D_C0235634 (Renal angle tenderness),N,0.0229,0.0441
+C_D_C0235634 (Renal angle tenderness),P,0.0039,0.0125
+C_D_C0235839 (Fever of the newborn),M,0.9953,0.9997
+C_D_C0235839 (Fever of the newborn),N,0.0004,0.0001
+C_D_C0235839 (Fever of the newborn),P,0.0043,0.0002
+C_D_C0237304 (Noisy respiration),M,0.9899,0.9986
+C_D_C0237304 (Noisy respiration),N,0.0004,0.0002
+C_D_C0237304 (Noisy respiration),P,0.0097,0.0012
+C_D_C0238656 (Ankle pain),M,0.9977,0.9872
+C_D_C0238656 (Ankle pain),N,0.0004,0.0007
+C_D_C0238656 (Ankle pain),P,0.0019,0.0121
+C_D_C0238953 (CERVICAL MOTION TENDERNESS),M,0.9992,0.9919
+C_D_C0238953 (CERVICAL MOTION TENDERNESS),N,0.0004,0.0056
+C_D_C0238953 (CERVICAL MOTION TENDERNESS),P,0.0004,0.0025
+C_D_C0239008 (Chest wall tenderness),M,0.9533,0.9225
+C_D_C0239008 (Chest wall tenderness),N,0.0428,0.0681
+C_D_C0239008 (Chest wall tenderness),P,0.0039,0.0093
+C_D_C0239110 (Consciousness clear),M,0.352,0.1778
+C_D_C0239110 (Consciousness clear),N,0.0043,0.004
+C_D_C0239110 (Consciousness clear),P,0.6437,0.8182
+C_D_C0239133 (Hacking cough),M,0.9969,0.9998
+C_D_C0239133 (Hacking cough),N,0.0004,0
+C_D_C0239133 (Hacking cough),P,0.0027,0.0002
+C_D_C0239134 (Productive Cough),M,0.9288,0.9762
+C_D_C0239134 (Productive Cough),N,0.0027,0.0014
+C_D_C0239134 (Productive Cough),P,0.0685,0.0224
+C_D_C0239833 (Hand pain),M,0.9992,0.9928
+C_D_C0239833 (Hand pain),N,0.0004,0.0001
+C_D_C0239833 (Hand pain),P,0.0004,0.0072
+C_D_C0239998 (Recurrent infections),M,0.9949,0.9815
+C_D_C0239998 (Recurrent infections),N,0.0023,0.0162
+C_D_C0239998 (Recurrent infections),P,0.0027,0.0022
+C_D_C0240417 (muscle mass),M,0.9809,0.9971
+C_D_C0240417 (muscle mass),N,0.0004,0
+C_D_C0240417 (muscle mass),P,0.0187,0.0029
+C_D_C0240859 (Basilar Rales),M,0.8257,0.8994
+C_D_C0240859 (Basilar Rales),N,0.0261,0.0211
+C_D_C0240859 (Basilar Rales),P,0.1482,0.0795
+C_D_C0241028 (Sexually active),M,0.9977,0.9863
+C_D_C0241028 (Sexually active),N,0.0004,0.0009
+C_D_C0241028 (Sexually active),P,0.0019,0.0128
+C_D_C0241136 (Pain of skin),M,0.9841,0.9574
+C_D_C0241136 (Pain of skin),N,0.0008,0.0001
+C_D_C0241136 (Pain of skin),P,0.0152,0.0425
+C_D_C0241889 (Family history),M,0.3069,0.6011
+C_D_C0241889 (Family history),N,0.1412,0.0557
+C_D_C0241889 (Family history),P,0.5519,0.3432
+C_D_C0242429 (Sore Throat),M,0.7332,0.7199
+C_D_C0242429 (Sore Throat),N,0.0891,0.1636
+C_D_C0242429 (Sore Throat),P,0.1778,0.1165
+C_D_C0260522 (Encounter due to family history of asthma),M,0.9883,0.998
+C_D_C0260522 (Encounter due to family history of asthma),N,0.0027,0.0007
+C_D_C0260522 (Encounter due to family history of asthma),P,0.0089,0.0013
+C_D_C0262512 (History of present illness),M,0.0389,0.0684
+C_D_C0262512 (History of present illness),N,0.0039,0.0074
+C_D_C0262512 (History of present illness),P,0.9572,0.9242
+C_D_C0262926 (Medical History),M,0.0397,0.0723
+C_D_C0262926 (Medical History),N,0.0089,0.0236
+C_D_C0262926 (Medical History),P,0.9514,0.9041
+C_D_C0277799 (Intermittent fever (finding)),M,0.9914,0.9989
+C_D_C0277799 (Intermittent fever (finding)),N,0.0004,0.0001
+C_D_C0277799 (Intermittent fever (finding)),P,0.0082,0.001
+C_D_C0277873 (Nasal Flaring),M,0.9572,0.9937
+C_D_C0277873 (Nasal Flaring),N,0.0152,0.0041
+C_D_C0277873 (Nasal Flaring),P,0.0276,0.0022
+C_D_C0278005 (Normal bowel sounds),M,0.5959,0.7372
+C_D_C0278005 (Normal bowel sounds),N,0.0004,0
+C_D_C0278005 (Normal bowel sounds),P,0.4037,0.2628
+C_D_C0278030 (Color of urine),M,0.9829,0.9572
+C_D_C0278030 (Color of urine),N,0.0004,0
+C_D_C0278030 (Color of urine),P,0.0167,0.0428
+C_D_C0278134 (Absence of sensation),M,0.9918,0.9709
+C_D_C0278134 (Absence of sensation),N,0.0004,0.0009
+C_D_C0278134 (Absence of sensation),P,0.0078,0.0282
+C_D_C0278140 (Severe pain),M,0.9961,0.9844
+C_D_C0278140 (Severe pain),N,0.0004,0.0007
+C_D_C0278140 (Severe pain),P,0.0035,0.0148
+C_D_C0302133 (Mottling),M,0.9895,0.9992
+C_D_C0302133 (Mottling),N,0.0012,0.0001
+C_D_C0302133 (Mottling),P,0.0093,0.0006
+C_D_C0302844 (MCV - low),M,0.9821,0.9964
+C_D_C0302844 (MCV - low),N,0.0004,0
+C_D_C0302844 (MCV - low),P,0.0175,0.0036
+C_D_C0311392 (Physical findings),M,0.8009,0.7801
+C_D_C0311392 (Physical findings),N,0.0716,0.1058
+C_D_C0311392 (Physical findings),P,0.1276,0.1141
+C_D_C0332119 (Past history of),M,0.3963,0.4094
+C_D_C0332119 (Past history of),N,0.049,0.0819
+C_D_C0332119 (Past history of),P,0.5546,0.5087
+C_D_C0332167 (High risk of),M,0.9529,0.9942
+C_D_C0332167 (High risk of),N,0.0156,0.0008
+C_D_C0332167 (High risk of),P,0.0315,0.005
+C_D_C0332516 (Symmetrical),M,0.6309,0.6285
+C_D_C0332516 (Symmetrical),N,0.0008,0.0002
+C_D_C0332516 (Symmetrical),P,0.3683,0.3713
+C_D_C0332523 (Retraction (finding)),M,0.8082,0.8803
+C_D_C0332523 (Retraction (finding)),N,0.0564,0.1018
+C_D_C0332523 (Retraction (finding)),P,0.1354,0.0179
+C_D_C0332563 (Papule),M,0.9918,0.9915
+C_D_C0332563 (Papule),N,0.0004,0.0002
+C_D_C0332563 (Papule),P,0.0078,0.0082
+C_D_C0332575 (Redness),M,0.9144,0.8847
+C_D_C0332575 (Redness),N,0.0175,0.0308
+C_D_C0332575 (Redness),P,0.0681,0.0845
+C_D_C0333274 (Purulent discharge),M,0.9957,0.9838
+C_D_C0333274 (Purulent discharge),N,0.0031,0.0116
+C_D_C0333274 (Purulent discharge),P,0.0012,0.0046
+C_D_C0333942 (Polychromatophilic stain reaction),M,0.9876,0.9986
+C_D_C0333942 (Polychromatophilic stain reaction),N,0.0004,0
+C_D_C0333942 (Polychromatophilic stain reaction),P,0.0121,0.0014
+C_D_C0342593 (Reduced anion gap),M,0.9864,0.9977
+C_D_C0342593 (Reduced anion gap),N,0.0004,0
+C_D_C0342593 (Reduced anion gap),P,0.0132,0.0022
+C_D_C0344232 (Blurred vision),M,0.9763,0.9438
+C_D_C0344232 (Blurred vision),N,0.0163,0.0306
+C_D_C0344232 (Blurred vision),P,0.0074,0.0255
+C_D_C0347530 (Base deficit (finding)),M,0.9623,0.9904
+C_D_C0347530 (Base deficit (finding)),N,0.0004,0
+C_D_C0347530 (Base deficit (finding)),P,0.0373,0.0096
+C_D_C0349790 (Exacerbation of asthma),M,0.9522,0.9841
+C_D_C0349790 (Exacerbation of asthma),N,0.0012,0.0007
+C_D_C0349790 (Exacerbation of asthma),P,0.0467,0.0153
+C_D_C0392171 (Influenza-like symptoms),M,0.8888,0.9988
+C_D_C0392171 (Influenza-like symptoms),N,0.0004,0
+C_D_C0392171 (Influenza-like symptoms),P,0.1109,0.0011
+C_D_C0423640 (Right Flank Pain),M,0.9992,0.9923
+C_D_C0423640 (Right Flank Pain),N,0.0004,0
+C_D_C0423640 (Right Flank Pain),P,0.0004,0.0076
+C_D_C0424000 (Feeling suicidal (finding)),M,0.9973,0.9743
+C_D_C0424000 (Feeling suicidal (finding)),N,0.0004,0.0081
+C_D_C0424000 (Feeling suicidal (finding)),P,0.0023,0.0176
+C_D_C0424480 (Facial symmetry),M,0.944,0.8784
+C_D_C0424480 (Facial symmetry),N,0.0004,0.0001
+C_D_C0424480 (Facial symmetry),P,0.0556,0.1215
+C_D_C0424489 (Chapping of lips),M,0.9907,0.9992
+C_D_C0424489 (Chapping of lips),N,0.0004,0
+C_D_C0424489 (Chapping of lips),P,0.0089,0.0007
+C_D_C0424589 (Vitality),M,0.9848,0.9962
+C_D_C0424589 (Vitality),N,0.0016,0.0005
+C_D_C0424589 (Vitality),P,0.0136,0.0032
+C_D_C0424755 (Fever symptoms (finding)),M,0.2081,0.4777
+C_D_C0424755 (Fever symptoms (finding)),N,0.1505,0.402
+C_D_C0424755 (Fever symptoms (finding)),P,0.6414,0.1202
+C_D_C0424768 (Prolonged fever),M,0.9922,0.9994
+C_D_C0424768 (Prolonged fever),N,0.0004,0
+C_D_C0424768 (Prolonged fever),P,0.0074,0.0006
+C_D_C0424945 (Social and personal history),M,0.0459,0.0953
+C_D_C0424945 (Social and personal history),N,0.0109,0.0249
+C_D_C0424945 (Social and personal history),P,0.9432,0.8798
+C_D_C0425293 (Never smoked tobacco),M,0.9312,0.8802
+C_D_C0425293 (Never smoked tobacco),N,0.0035,0.0054
+C_D_C0425293 (Never smoked tobacco),P,0.0653,0.1144
+C_D_C0425452 (No obstruction of airway),M,0.886,0.7231
+C_D_C0425452 (No obstruction of airway),N,0.0004,0.0002
+C_D_C0425452 (No obstruction of airway),P,0.1136,0.2767
+C_D_C0425470 (Intercostal Retractions),M,0.7966,0.8799
+C_D_C0425470 (Intercostal Retractions),N,0.0564,0.1021
+C_D_C0425470 (Intercostal Retractions),P,0.147,0.0181
+C_D_C0425542 (Added respiratory sounds),M,0.9887,0.995
+C_D_C0425542 (Added respiratory sounds),N,0.007,0.0041
+C_D_C0425542 (Added respiratory sounds),P,0.0043,0.0009
+C_D_C0425710 (Peripheral perfusion),M,0.4757,0.6765
+C_D_C0425710 (Peripheral perfusion),N,0.0004,0.0001
+C_D_C0425710 (Peripheral perfusion),P,0.5239,0.3234
+C_D_C0425932 (Date of last menstrual period),M,0.9957,0.9827
+C_D_C0425932 (Date of last menstrual period),N,0.0004,0.0001
+C_D_C0425932 (Date of last menstrual period),P,0.0039,0.0171
+C_D_C0426317 (Genitourinary symptoms),M,0.741,0.8936
+C_D_C0426317 (Genitourinary symptoms),N,0.0004,0.0003
+C_D_C0426317 (Genitourinary symptoms),P,0.2587,0.1061
+C_D_C0426576 (Gastrointestinal symptom),M,0.5702,0.8361
+C_D_C0426576 (Gastrointestinal symptom),N,0.0004,0.0004
+C_D_C0426576 (Gastrointestinal symptom),P,0.4294,0.1635
+C_D_C0428167 (Inspired fraction of oxygen),M,0.7343,0.4792
+C_D_C0428167 (Inspired fraction of oxygen),N,0.0012,0.0005
+C_D_C0428167 (Inspired fraction of oxygen),P,0.2645,0.5203
+C_D_C0438105 (Examination finding),M,0.986,0.9637
+C_D_C0438105 (Examination finding),N,0.0004,0.0001
+C_D_C0438105 (Examination finding),P,0.0136,0.0362
+C_D_C0438141 (Urine screening normal),M,0.9767,0.9962
+C_D_C0438141 (Urine screening normal),N,0.0004,0
+C_D_C0438141 (Urine screening normal),P,0.0229,0.0038
+C_D_C0442757 (3/4),M,0.9798,0.9951
+C_D_C0442757 (3/4),N,0.0004,0
+C_D_C0442757 (3/4),P,0.0198,0.0049
+C_D_C0442797 (Decreasing),M,0.9767,0.9918
+C_D_C0442797 (Decreasing),N,0.0004,0.0003
+C_D_C0442797 (Decreasing),P,0.0229,0.0078
+C_D_C0455204 (Homicidal thoughts),M,0.9969,0.9749
+C_D_C0455204 (Homicidal thoughts),N,0.0008,0.0066
+C_D_C0455204 (Homicidal thoughts),P,0.0023,0.0185
+C_D_C0455458 (PMH - past medical history),M,0.7067,0.4756
+C_D_C0455458 (PMH - past medical history),N,0.0303,0.0412
+C_D_C0455458 (PMH - past medical history),P,0.2629,0.4832
+C_D_C0455542 (H/O: pneumonia),M,0.9922,0.9989
+C_D_C0455542 (H/O: pneumonia),N,0.0016,0.0001
+C_D_C0455542 (H/O: pneumonia),P,0.0062,0.001
+C_D_C0455544 (H/O: asthma),M,0.9354,0.9712
+C_D_C0455544 (H/O: asthma),N,0.0047,0.0014
+C_D_C0455544 (H/O: asthma),P,0.0599,0.0274
+C_D_C0455899 (Red throat),M,0.6309,0.7911
+C_D_C0455899 (Red throat),N,0.0793,0.0946
+C_D_C0455899 (Red throat),P,0.2898,0.1142
+C_D_C0455900 (Moist oral mucosa),M,0.9759,0.996
+C_D_C0455900 (Moist oral mucosa),N,0.0004,0
+C_D_C0455900 (Moist oral mucosa),P,0.0237,0.0039
+C_D_C0456984 (Test Result),M,0.802,0.9654
+C_D_C0456984 (Test Result),N,0.0058,0.0041
+C_D_C0456984 (Test Result),P,0.1921,0.0305
+C_D_C0457096 (Yellow sputum),M,0.9879,0.9958
+C_D_C0457096 (Yellow sputum),N,0.0004,0.0001
+C_D_C0457096 (Yellow sputum),P,0.0117,0.004
+C_D_C0459424 (Abnormal result),M,0.9938,0.9996
+C_D_C0459424 (Abnormal result),N,0.0004,0
+C_D_C0459424 (Abnormal result),P,0.0058,0.0004
+C_D_C0460139 (Pressure (finding)),M,0.9794,0.9535
+C_D_C0460139 (Pressure (finding)),N,0.0004,0.0009
+C_D_C0460139 (Pressure (finding)),P,0.0202,0.0456
+C_D_C0475806 (1/3 meter (distance vision finding)),M,0.9918,0.9704
+C_D_C0475806 (1/3 meter (distance vision finding)),N,0.0004,0.0005
+C_D_C0475806 (1/3 meter (distance vision finding)),P,0.0078,0.0291
+C_D_C0476270 (Cardiovascular symptoms),M,0.7464,0.8872
+C_D_C0476270 (Cardiovascular symptoms),N,0.0004,0.0001
+C_D_C0476270 (Cardiovascular symptoms),P,0.2532,0.1127
+C_D_C0476273 (Respiratory distress),M,0.8102,0.9358
+C_D_C0476273 (Respiratory distress),N,0.0424,0.0278
+C_D_C0476273 (Respiratory distress),P,0.1474,0.0364
+C_D_C0489543 (History source),M,0.4127,0.76
+C_D_C0489543 (History source),N,0.0004,0
+C_D_C0489543 (History source),P,0.5869,0.24
+C_D_C0489547 (Hospital course),M,0.9199,0.8231
+C_D_C0489547 (Hospital course),N,0.0004,0.0004
+C_D_C0489547 (Hospital course),P,0.0797,0.1765
+C_D_C0489749 (Rectal temperature),M,0.9887,0.9986
+C_D_C0489749 (Rectal temperature),N,0.0004,0
+C_D_C0489749 (Rectal temperature),P,0.0109,0.0014
+C_D_C0516979 (energy level),M,0.9879,0.9989
+C_D_C0516979 (energy level),N,0.0004,0
+C_D_C0516979 (energy level),P,0.0117,0.0011
+C_D_C0518610 (Social warmth),M,0.9899,0.9576
+C_D_C0518610 (Social warmth),N,0.0012,0.0051
+C_D_C0518610 (Social warmth),P,0.0089,0.0373
+C_D_C0521654 (Neurologic Deficits),M,0.753,0.8468
+C_D_C0521654 (Neurologic Deficits),N,0.0008,0.0072
+C_D_C0521654 (Neurologic Deficits),P,0.2462,0.146
+C_D_C0524587 (Mean Corpuscular Volume (result)),M,0.7013,0.752
+C_D_C0524587 (Mean Corpuscular Volume (result)),N,0.0004,0
+C_D_C0524587 (Mean Corpuscular Volume (result)),P,0.2983,0.248
+C_D_C0542538 (Observation of Sensation),M,0.949,0.8054
+C_D_C0542538 (Observation of Sensation),N,0.0008,0.0024
+C_D_C0542538 (Observation of Sensation),P,0.0502,0.1922
+C_D_C0547030 (Visual disturbance),M,0.9926,0.9664
+C_D_C0547030 (Visual disturbance),N,0.0066,0.0277
+C_D_C0547030 (Visual disturbance),P,0.0008,0.0059
+C_D_C0549206 (Patient currently pregnant),M,0.9763,0.9863
+C_D_C0549206 (Patient currently pregnant),N,0.0066,0.001
+C_D_C0549206 (Patient currently pregnant),P,0.0171,0.0127
+C_D_C0558145 (Skin appearance normal (finding)),M,0.0747,0.1449
+C_D_C0558145 (Skin appearance normal (finding)),N,0.0093,0.0133
+C_D_C0558145 (Skin appearance normal (finding)),P,0.916,0.8418
+C_D_C0559474 (Family social history),M,0.9868,0.9971
+C_D_C0559474 (Family social history),N,0.0004,0
+C_D_C0559474 (Family social history),P,0.0128,0.0029
+C_D_C0562381 (Victim of abuse finding),M,0.9953,0.9802
+C_D_C0562381 (Victim of abuse finding),N,0.0004,0.0014
+C_D_C0562381 (Victim of abuse finding),P,0.0043,0.0184
+C_D_C0562483 (Persistent cough),M,0.9891,0.9978
+C_D_C0562483 (Persistent cough),N,0.0008,0
+C_D_C0562483 (Persistent cough),P,0.0101,0.0021
+C_D_C0566275 (Able to drink),M,0.9841,0.9954
+C_D_C0566275 (Able to drink),N,0.0004,0.0001
+C_D_C0566275 (Able to drink),P,0.0156,0.0044
+C_D_C0576709 (Normal sensation),M,0.9973,0.9865
+C_D_C0576709 (Normal sensation),N,0.0004,0
+C_D_C0576709 (Normal sensation),P,0.0023,0.0134
+C_D_C0577559 (Mass of body structure),M,0.9463,0.8651
+C_D_C0577559 (Mass of body structure),N,0.0035,0.0073
+C_D_C0577559 (Mass of body structure),P,0.0502,0.1276
+C_D_C0577573 (Mass of body region),M,0.9475,0.8708
+C_D_C0577573 (Mass of body region),N,0.0035,0.0074
+C_D_C0577573 (Mass of body region),P,0.049,0.1218
+C_D_C0577962 (Expiratory crackles),M,0.9953,0.9999
+C_D_C0577962 (Expiratory crackles),N,0.0004,0
+C_D_C0577962 (Expiratory crackles),P,0.0043,0.0001
+C_D_C0578022 (Finding of body mass index),M,0.9588,0.9164
+C_D_C0578022 (Finding of body mass index),N,0.0004,0.0001
+C_D_C0578022 (Finding of body mass index),P,0.0408,0.0835
+C_D_C0578617 (Pupils equal),M,0.9452,0.8973
+C_D_C0578617 (Pupils equal),N,0.0004,0
+C_D_C0578617 (Pupils equal),P,0.0545,0.1026
+C_D_C0578671 (Does move),M,0.5741,0.7967
+C_D_C0578671 (Does move),N,0.0004,0.0002
+C_D_C0578671 (Does move),P,0.4255,0.2031
+C_D_C0582051 (Feels warm),M,0.1556,0.22
+C_D_C0582051 (Feels warm),N,0.0027,0.0052
+C_D_C0582051 (Feels warm),P,0.8417,0.7748
+C_D_C0586406 (Eye symptom),M,0.6632,0.8761
+C_D_C0586406 (Eye symptom),N,0.0004,0.0002
+C_D_C0586406 (Eye symptom),P,0.3364,0.1237
+C_D_C0586407 (Skin symptom),M,0.5904,0.8373
+C_D_C0586407 (Skin symptom),N,0.0008,0.0007
+C_D_C0586407 (Skin symptom),P,0.4088,0.162
+C_D_C0586514 (Discharge status),M,0.9296,0.7874
+C_D_C0586514 (Discharge status),N,0.0004,0
+C_D_C0586514 (Discharge status),P,0.07,0.2126
+C_D_C0587366 (Urine cocaine level result),M,0.9934,0.9771
+C_D_C0587366 (Urine cocaine level result),N,0.0004,0
+C_D_C0587366 (Urine cocaine level result),P,0.0062,0.0228
+C_D_C0595998 (Household composition),M,0.8573,0.9009
+C_D_C0595998 (Household composition),N,0.0004,0.0015
+C_D_C0595998 (Household composition),P,0.1424,0.0976
+C_D_C0600116 (Does speak),M,0.9844,0.9648
+C_D_C0600116 (Does speak),N,0.0004,0.0007
+C_D_C0600116 (Does speak),P,0.0152,0.0346
+C_D_C0683369 (Clouded consciousness),M,0.9658,0.9152
+C_D_C0683369 (Clouded consciousness),N,0.021,0.068
+C_D_C0683369 (Clouded consciousness),P,0.0132,0.0167
+C_D_C0694551 (Right lower quadrant pain),M,0.9992,0.9912
+C_D_C0694551 (Right lower quadrant pain),N,0.0004,0.0008
+C_D_C0694551 (Right lower quadrant pain),P,0.0004,0.008
+C_D_C0700153 (Myotonus (finding)),M,0.9988,0.9914
+C_D_C0700153 (Myotonus (finding)),N,0.0004,0
+C_D_C0700153 (Myotonus (finding)),P,0.0008,0.0086
+C_D_C0700292 (Hypoxemia),M,0.9809,0.9971
+C_D_C0700292 (Hypoxemia),N,0.0004,0.0005
+C_D_C0700292 (Hypoxemia),P,0.0187,0.0023
+C_D_C0700590 (Increased sweating),M,0.986,0.9625
+C_D_C0700590 (Increased sweating),N,0.0027,0.0056
+C_D_C0700590 (Increased sweating),P,0.0113,0.0319
+C_D_C0728731 (Prematurity of fetus),M,0.9837,0.9981
+C_D_C0728731 (Prematurity of fetus),N,0.0004,0
+C_D_C0728731 (Prematurity of fetus),P,0.0159,0.0018
+C_D_C0728899 (Intoxication),M,0.9984,0.9842
+C_D_C0728899 (Intoxication),N,0.0004,0.001
+C_D_C0728899 (Intoxication),P,0.0012,0.0148
+C_D_C0741302 (atypia morphology),M,0.9514,0.9839
+C_D_C0741302 (atypia morphology),N,0.0016,0.0006
+C_D_C0741302 (atypia morphology),P,0.0471,0.0156
+C_D_C0743973 (FEVER HIGH (finding)),M,0.9736,0.9981
+C_D_C0743973 (FEVER HIGH (finding)),N,0.0016,0
+C_D_C0743973 (FEVER HIGH (finding)),P,0.0249,0.0019
+C_D_C0744689 (heart size),M,0.9782,0.9932
+C_D_C0744689 (heart size),N,0.0004,0.0001
+C_D_C0744689 (heart size),P,0.0214,0.0067
+C_D_C0744961 (surgical history),M,0.564,0.7467
+C_D_C0744961 (surgical history),N,0.0016,0.0014
+C_D_C0744961 (surgical history),P,0.4345,0.2519
+C_D_C0746674 (Generalized muscle weakness),M,0.9701,0.9851
+C_D_C0746674 (Generalized muscle weakness),N,0.0012,0.0004
+C_D_C0746674 (Generalized muscle weakness),P,0.0288,0.0145
+C_D_C0746857 (Focal Neurologic Deficits),M,0.9113,0.9543
+C_D_C0746857 (Focal Neurologic Deficits),N,0.0875,0.043
+C_D_C0746857 (Focal Neurologic Deficits),P,0.0012,0.0027
+C_D_C0746961 (Oxygen saturation below reference range),M,0.986,0.9981
+C_D_C0746961 (Oxygen saturation below reference range),N,0.0019,0
+C_D_C0746961 (Oxygen saturation below reference range),P,0.0121,0.0018
+C_D_C0750280 (Visual changes),M,0.9907,0.9687
+C_D_C0750280 (Visual changes),N,0.0023,0.0071
+C_D_C0750280 (Visual changes),P,0.007,0.0242
+C_D_C0751054 ('Consciousness  Level Altered'),M,0.9689,0.9906
+C_D_C0751054 ('Consciousness  Level Altered'),N,0.028,0.0072
+C_D_C0751054 ('Consciousness  Level Altered'),P,0.0031,0.0023
+C_D_C0805732 (Completion Status),M,0.9304,0.9794
+C_D_C0805732 (Completion Status),N,0.0004,0.0002
+C_D_C0805732 (Completion Status),P,0.0692,0.0203
+C_D_C0808334 (Tube number),M,0.9907,0.9994
+C_D_C0808334 (Tube number),N,0.0004,0
+C_D_C0808334 (Tube number),P,0.0089,0.0005
+C_D_C0849970 (Feeling tired),M,0.9522,0.9895
+C_D_C0849970 (Feeling tired),N,0.0012,0.0001
+C_D_C0849970 (Feeling tired),P,0.0467,0.0104
+C_D_C0850149 (Dry cough),M,0.9335,0.9856
+C_D_C0850149 (Dry cough),N,0.0004,0.0001
+C_D_C0850149 (Dry cough),P,0.0661,0.0143
+C_D_C0851511 (family issues),M,0.6756,0.878
+C_D_C0851511 (family issues),N,0.324,0.1219
+C_D_C0851511 (family issues),P,0.0004,0.0001
+C_D_C0853697 (Neutrophil count decreased),M,0.9829,0.9974
+C_D_C0853697 (Neutrophil count decreased),N,0.0019,0.0005
+C_D_C0853697 (Neutrophil count decreased),P,0.0152,0.0021
+C_D_C0859927 (Increased work of breathing),M,0.9242,0.9936
+C_D_C0859927 (Increased work of breathing),N,0.0233,0.0028
+C_D_C0859927 (Increased work of breathing),P,0.0525,0.0037
+C_D_C0860864 (Decreased albumin),M,0.9914,0.9988
+C_D_C0860864 (Decreased albumin),N,0.0004,0
+C_D_C0860864 (Decreased albumin),P,0.0082,0.0012
+C_D_C0860901 (Decreased total protein),M,0.9802,0.9972
+C_D_C0860901 (Decreased total protein),N,0.0004,0
+C_D_C0860901 (Decreased total protein),P,0.0194,0.0027
+C_D_C0863146 (Yellow color on exam),M,0.9063,0.9771
+C_D_C0863146 (Yellow color on exam),N,0.0004,0
+C_D_C0863146 (Yellow color on exam),P,0.0933,0.0229
+C_D_C0871269 (Rhythm),M,0.224,0.1763
+C_D_C0871269 (Rhythm),N,0.0016,0.0016
+C_D_C0871269 (Rhythm),P,0.7744,0.8221
+C_D_C0948106 (Rupture of Membranes),M,0.6332,0.84
+C_D_C0948106 (Rupture of Membranes),N,0.0047,0.0021
+C_D_C0948106 (Rupture of Membranes),P,0.3621,0.1578
+C_D_C1112320 (temperature intolerance),M,0.9946,0.9999
+C_D_C1112320 (temperature intolerance),N,0.0004,0
+C_D_C1112320 (temperature intolerance),P,0.0051,0
+C_D_C1116171 (Vaccinated at),M,0.9852,0.9968
+C_D_C1116171 (Vaccinated at),N,0.0004,0
+C_D_C1116171 (Vaccinated at),P,0.0144,0.0032
+C_D_C1260880 (Rhinorrhea),M,0.7865,0.8717
+C_D_C1260880 (Rhinorrhea),N,0.0366,0.0721
+C_D_C1260880 (Rhinorrhea),P,0.177,0.0562
+C_D_C1261031 (Platelet morphology - result),M,0.963,0.9942
+C_D_C1261031 (Platelet morphology - result),N,0.0004,0
+C_D_C1261031 (Platelet morphology - result),P,0.0366,0.0057
+C_D_C1261327 (Family history of asthma),M,0.9584,0.9925
+C_D_C1261327 (Family history of asthma),N,0.0023,0.0007
+C_D_C1261327 (Family history of asthma),P,0.0393,0.0069
+C_D_C1273937 (Not significant),M,0.9743,0.9923
+C_D_C1273937 (Not significant),N,0.0004,0.0001
+C_D_C1273937 (Not significant),P,0.0253,0.0076
+C_D_C1277295 (Cough with fever),M,0.9806,0.9985
+C_D_C1277295 (Cough with fever),N,0.0012,0.0003
+C_D_C1277295 (Cough with fever),P,0.0183,0.0012
+C_D_C1279889 (Deterioration of status),M,0.9187,0.8749
+C_D_C1279889 (Deterioration of status),N,0.0047,0.0073
+C_D_C1279889 (Deterioration of status),P,0.0766,0.1178
+C_D_C1299487 (Patient name),M,0.9848,0.956
+C_D_C1299487 (Patient name),N,0.0004,0
+C_D_C1299487 (Patient name),P,0.0148,0.0439
+C_D_C1304698 (Liquid (finding)),M,0.9588,0.9837
+C_D_C1304698 (Liquid (finding)),N,0.0008,0.0003
+C_D_C1304698 (Liquid (finding)),P,0.0405,0.0159
+C_D_C1314687 (Sexual intercourse - finding),M,0.0416,0.0812
+C_D_C1314687 (Sexual intercourse - finding),N,0.0004,0.007
+C_D_C1314687 (Sexual intercourse - finding),P,0.958,0.9118
+C_D_C1320474 (Nuchal Rigidity),M,0.9751,0.9904
+C_D_C1320474 (Nuchal Rigidity),N,0.0218,0.0082
+C_D_C1320474 (Nuchal Rigidity),P,0.0031,0.0014
+C_D_C1321013 (Hydration status),M,0.8818,0.9707
+C_D_C1321013 (Hydration status),N,0.0012,0.0001
+C_D_C1321013 (Hydration status),P,0.1171,0.0292
+C_D_C1330956 (Base excess result),M,0.9623,0.9895
+C_D_C1330956 (Base excess result),N,0.0004,0
+C_D_C1330956 (Base excess result),P,0.0373,0.0105
+C_D_C1363945 (Therapy Object (animal model)),M,0.6367,0.8602
+C_D_C1363945 (Therapy Object (animal model)),N,0.0019,0.0006
+C_D_C1363945 (Therapy Object (animal model)),P,0.3613,0.1392
+C_D_C1444775 (Sharp sensation quality),M,0.9914,0.9537
+C_D_C1444775 (Sharp sensation quality),N,0.0004,0.0011
+C_D_C1444775 (Sharp sensation quality),P,0.0082,0.0452
+C_D_C1446409 (Positive),M,0.6068,0.8154
+C_D_C1446409 (Positive),N,0.0319,0.0785
+C_D_C1446409 (Positive),P,0.3613,0.1061
+C_D_C1446787 (Cramping sensation quality),M,0.9965,0.9814
+C_D_C1446787 (Cramping sensation quality),N,0.0008,0.0004
+C_D_C1446787 (Cramping sensation quality),P,0.0027,0.0182
+C_D_C1455844 (Hearing examination finding),M,0.9837,0.9759
+C_D_C1455844 (Hearing examination finding),N,0.0066,0.0008
+C_D_C1455844 (Hearing examination finding),P,0.0097,0.0233
+C_D_C1457868 (Worse),M,0.9082,0.8595
+C_D_C1457868 (Worse),N,0.0047,0.0071
+C_D_C1457868 (Worse),P,0.0871,0.1334
+C_D_C1457887 (Symptoms),M,0.2544,0.4622
+C_D_C1457887 (Symptoms),N,0.0381,0.0672
+C_D_C1457887 (Symptoms),P,0.7075,0.4706
+C_D_C1504561 (Hypophagia),M,0.9763,0.9973
+C_D_C1504561 (Hypophagia),N,0.0008,0
+C_D_C1504561 (Hypophagia),P,0.0229,0.0027
+C_D_C1509143 (Physical assessment findings),M,0.6962,0.8516
+C_D_C1509143 (Physical assessment findings),N,0.0078,0.0103
+C_D_C1509143 (Physical assessment findings),P,0.296,0.1381
+C_D_C1513302 (Mild Adverse Event),M,0.6262,0.6832
+C_D_C1513302 (Mild Adverse Event),N,0.0023,0.0019
+C_D_C1513302 (Mild Adverse Event),P,0.3715,0.315
+C_D_C1513916 (Negative Finding),M,0.1,0.2033
+C_D_C1513916 (Negative Finding),N,0.0066,0.0076
+C_D_C1513916 (Negative Finding),P,0.8934,0.789
+C_D_C1514241 (Positive Finding),M,0.7709,0.8404
+C_D_C1514241 (Positive Finding),N,0.0342,0.0813
+C_D_C1514241 (Positive Finding),P,0.1949,0.0783
+C_D_C1519353 (Skin Papule),M,0.9914,0.9941
+C_D_C1519353 (Skin Papule),N,0.0004,0
+C_D_C1519353 (Skin Papule),P,0.0082,0.0058
+C_D_C1519885 (Vaccinated (qualifier)),M,0.9852,0.9968
+C_D_C1519885 (Vaccinated (qualifier)),N,0.0004,0
+C_D_C1519885 (Vaccinated (qualifier)),P,0.0144,0.0032
+C_D_C1546419 (Ambulatory Status - Oxygen therapy),M,0.5935,0.8903
+C_D_C1546419 (Ambulatory Status - Oxygen therapy),N,0.0004,0
+C_D_C1546419 (Ambulatory Status - Oxygen therapy),P,0.4061,0.1097
+C_D_C1548428 (Referral type - Psychiatric),M,0.5741,0.4506
+C_D_C1548428 (Referral type - Psychiatric),N,0.0004,0.0015
+C_D_C1548428 (Referral type - Psychiatric),P,0.4255,0.5479
+C_D_C1550457 (Normal Observation Interpretation),M,0.0747,0.147
+C_D_C1550457 (Normal Observation Interpretation),N,0.0093,0.0133
+C_D_C1550457 (Normal Observation Interpretation),P,0.916,0.8397
+C_D_C1551394 (normal Device Alert Level),M,0.0747,0.147
+C_D_C1551394 (normal Device Alert Level),N,0.0093,0.0133
+C_D_C1551394 (normal Device Alert Level),P,0.916,0.8397
+C_D_C1551395 (Device Alert Level - Serious),M,0.965,0.9855
+C_D_C1551395 (Device Alert Level - Serious),N,0.0023,0.0022
+C_D_C1551395 (Device Alert Level - Serious),P,0.0327,0.0123
+C_D_C1551396 (DeviceAlertLevel - Critical),M,0.9086,0.9914
+C_D_C1551396 (DeviceAlertLevel - Critical),N,0.0008,0.0002
+C_D_C1551396 (DeviceAlertLevel - Critical),P,0.0906,0.0084
+C_D_C1552745 (Equipment Alert Level - Serious),M,0.965,0.9855
+C_D_C1552745 (Equipment Alert Level - Serious),N,0.0023,0.0022
+C_D_C1552745 (Equipment Alert Level - Serious),P,0.0327,0.0123
+C_D_C1555319 (discharge diagnosis),M,0.9942,0.9753
+C_D_C1555319 (discharge diagnosis),N,0.0004,0.0002
+C_D_C1555319 (discharge diagnosis),P,0.0054,0.0245
+C_D_C1556354 (Adverse Event Associated with Constitutional Symptoms),M,0.515,0.8085
+C_D_C1556354 (Adverse Event Associated with Constitutional Symptoms),N,0.0066,0.0122
+C_D_C1556354 (Adverse Event Associated with Constitutional Symptoms),P,0.4784,0.1792
+C_D_C1557397 (Adverse Event Associated with Pain),M,0.7783,0.4656
+C_D_C1557397 (Adverse Event Associated with Pain),N,0.0747,0.1356
+C_D_C1557397 (Adverse Event Associated with Pain),P,0.147,0.3988
+C_D_C1559138 ('Pruritus  CTCAE'),M,0.9914,0.9646
+C_D_C1559138 ('Pruritus  CTCAE'),N,0.0047,0.0225
+C_D_C1559138 ('Pruritus  CTCAE'),P,0.0039,0.013
+C_D_C1559265 (Adverse Event Associated with the Gastrointestinal System),M,0.1035,0.2136
+C_D_C1559265 (Adverse Event Associated with the Gastrointestinal System),N,0.0004,0.0013
+C_D_C1559265 (Adverse Event Associated with the Gastrointestinal System),P,0.8961,0.7851
+C_D_C1560435 ('Gastritis  CTCAE'),M,0.9946,0.9738
+C_D_C1560435 ('Gastritis  CTCAE'),N,0.0004,0.0003
+C_D_C1560435 ('Gastritis  CTCAE'),P,0.0051,0.0259
+C_D_C1561534 ('Lipase  CTCAE'),M,0.9638,0.9263
+C_D_C1561534 ('Lipase  CTCAE'),N,0.0004,0.0004
+C_D_C1561534 ('Lipase  CTCAE'),P,0.0358,0.0732
+C_D_C1561549 ('Glomerular Filtration Rate  CTCAE'),M,0.9992,0.9999
+C_D_C1561549 ('Glomerular Filtration Rate  CTCAE'),N,0.0004,0
+C_D_C1561549 ('Glomerular Filtration Rate  CTCAE'),P,0.0004,0
+C_D_C1578513 (Query Status Code - new),M,0.8316,0.7448
+C_D_C1578513 (Query Status Code - new),N,0.0685,0.114
+C_D_C1578513 (Query Status Code - new),P,0.1,0.1412
+C_D_C1642390 (Pupil equal round and reacting to light),M,0.9362,0.8885
+C_D_C1642390 (Pupil equal round and reacting to light),N,0.0004,0
+C_D_C1642390 (Pupil equal round and reacting to light),P,0.0634,0.1114
+C_D_C1659989 (Respiratory problem),M,0.9615,0.9959
+C_D_C1659989 (Respiratory problem),N,0.0004,0.0001
+C_D_C1659989 (Respiratory problem),P,0.0381,0.004
+C_D_C1704258 (Abnormality),M,0.9619,0.9279
+C_D_C1704258 (Abnormality),N,0.0016,0.0032
+C_D_C1704258 (Abnormality),P,0.0366,0.0688
+C_D_C1704632 (Disease Response),M,0.6733,0.8721
+C_D_C1704632 (Disease Response),N,0.0023,0.0029
+C_D_C1704632 (Disease Response),P,0.3244,0.1251
+C_D_C1706353 (Crack),M,0.9424,0.8896
+C_D_C1706353 (Crack),N,0.0016,0.0006
+C_D_C1706353 (Crack),P,0.056,0.1098
+C_D_C1709157 (Negative Surgical Margin),M,0.2746,0.189
+C_D_C1709157 (Negative Surgical Margin),N,0.0152,0.0216
+C_D_C1709157 (Negative Surgical Margin),P,0.7102,0.7895
+C_D_C1761613 (Conjunctival hyperemia),M,0.9833,0.9647
+C_D_C1761613 (Conjunctival hyperemia),N,0.007,0.0279
+C_D_C1761613 (Conjunctival hyperemia),P,0.0097,0.0073
+C_D_C1846718 (CREATININE CLEARANCE QUANTITATIVE TRAIT LOCUS),M,0.9059,0.8948
+C_D_C1846718 (CREATININE CLEARANCE QUANTITATIVE TRAIT LOCUS),N,0.0004,0
+C_D_C1846718 (CREATININE CLEARANCE QUANTITATIVE TRAIT LOCUS),P,0.0937,0.1051
+C_D_C1858120 (Generalized hypotonia),M,0.9918,0.9988
+C_D_C1858120 (Generalized hypotonia),N,0.0004,0
+C_D_C1858120 (Generalized hypotonia),P,0.0078,0.0011
+C_D_C1858724 (CARONTE),M,0.9911,0.9713
+C_D_C1858724 (CARONTE),N,0.0004,0.002
+C_D_C1858724 (CARONTE),P,0.0086,0.0267
+C_D_C1866503 (ACUTE INSULIN RESPONSE),M,0.8689,0.7394
+C_D_C1866503 (ACUTE INSULIN RESPONSE),N,0.0031,0.0059
+C_D_C1866503 (ACUTE INSULIN RESPONSE),P,0.128,0.2547
+C_D_C1873497 (Normal assessment finding),M,0.0747,0.147
+C_D_C1873497 (Normal assessment finding),N,0.0093,0.0133
+C_D_C1873497 (Normal assessment finding),P,0.916,0.8397
+C_D_C1880851 (Fracture of Medical Device Material),M,0.9879,0.8621
+C_D_C1880851 (Fracture of Medical Device Material),N,0.0031,0.0416
+C_D_C1880851 (Fracture of Medical Device Material),P,0.0089,0.0963
+C_D_C1881674 (Medical Device Emits Smoke),M,0.7935,0.6467
+C_D_C1881674 (Medical Device Emits Smoke),N,0.0257,0.0214
+C_D_C1881674 (Medical Device Emits Smoke),P,0.1809,0.332
+C_D_C1881706 (Medical Device Material Crack),M,0.9424,0.8899
+C_D_C1881706 (Medical Device Material Crack),N,0.0016,0.0006
+C_D_C1881706 (Medical Device Material Crack),P,0.056,0.1095
+C_D_C1882136 (Obstruction within Medical Device),M,0.9934,0.9798
+C_D_C1882136 (Obstruction within Medical Device),N,0.0008,0.0043
+C_D_C1882136 (Obstruction within Medical Device),P,0.0058,0.0159
+C_D_C1882272 ('Pain by Anatomic Descriptor  CTCAE'),M,0.7783,0.4656
+C_D_C1882272 ('Pain by Anatomic Descriptor  CTCAE'),N,0.0747,0.1356
+C_D_C1882272 ('Pain by Anatomic Descriptor  CTCAE'),P,0.147,0.3988
+C_D_C1959629 ('Seizure  CTCAE 3.0'),M,0.9218,0.9456
+C_D_C1959629 ('Seizure  CTCAE 3.0'),N,0.0405,0.018
+C_D_C1959629 ('Seizure  CTCAE 3.0'),P,0.0377,0.0364
+C_D_C1959630 ('Eye Pain  CTCAE 3.0'),M,0.9588,0.9306
+C_D_C1959630 ('Eye Pain  CTCAE 3.0'),N,0.0093,0.0077
+C_D_C1959630 ('Eye Pain  CTCAE 3.0'),P,0.0319,0.0618
+C_D_C1961028 (Oriented to place),M,0.8152,0.6348
+C_D_C1961028 (Oriented to place),N,0.0012,0.0011
+C_D_C1961028 (Oriented to place),P,0.1836,0.3642
+C_D_C1961131 ('Cough  CTCAE'),M,0.2727,0.6021
+C_D_C1961131 ('Cough  CTCAE'),N,0.0704,0.2215
+C_D_C1961131 ('Cough  CTCAE'),P,0.6569,0.1764
+C_D_C1962948 ('Atelectasis  CTCAE'),M,0.956,0.99
+C_D_C1962948 ('Atelectasis  CTCAE'),N,0.0012,0.0001
+C_D_C1962948 ('Atelectasis  CTCAE'),P,0.0428,0.0098
+C_D_C1962958 ('Hematoma  CTCAE'),M,0.9934,0.9622
+C_D_C1962958 ('Hematoma  CTCAE'),N,0.0016,0.0043
+C_D_C1962958 ('Hematoma  CTCAE'),P,0.0051,0.0335
+C_D_C1963064 ('Anxiety  CTCAE 3.0'),M,0.944,0.8689
+C_D_C1963064 ('Anxiety  CTCAE 3.0'),N,0.0226,0.0561
+C_D_C1963064 ('Anxiety  CTCAE 3.0'),P,0.0335,0.075
+C_D_C1963065 ('Apnea  CTCAE'),M,0.9623,0.976
+C_D_C1963065 ('Apnea  CTCAE'),N,0.007,0.0015
+C_D_C1963065 ('Apnea  CTCAE'),P,0.0307,0.0225
+C_D_C1963066 ('Joint Pain  CTCAE 3'),M,0.9409,0.8988
+C_D_C1963066 ('Joint Pain  CTCAE 3'),N,0.0358,0.0563
+C_D_C1963066 ('Joint Pain  CTCAE 3'),P,0.0233,0.0449
+C_D_C1963071 ('Back Pain  CTCAE 3.0'),M,0.9039,0.8048
+C_D_C1963071 ('Back Pain  CTCAE 3.0'),N,0.0346,0.0607
+C_D_C1963071 ('Back Pain  CTCAE 3.0'),P,0.0615,0.1345
+C_D_C1963076 ('Platelets  CTCAE'),M,0.6803,0.7483
+C_D_C1963076 ('Platelets  CTCAE'),N,0.0004,0.0001
+C_D_C1963076 ('Platelets  CTCAE'),P,0.3193,0.2516
+C_D_C1963083 ('Cholecystitis  CTCAE 3.0'),M,0.9926,0.9793
+C_D_C1963083 ('Cholecystitis  CTCAE 3.0'),N,0.0004,0.0014
+C_D_C1963083 ('Cholecystitis  CTCAE 3.0'),P,0.007,0.0193
+C_D_C1963086 ('Confusion  CTCAE 3.0'),M,0.9669,0.917
+C_D_C1963086 ('Confusion  CTCAE 3.0'),N,0.021,0.0681
+C_D_C1963086 ('Confusion  CTCAE 3.0'),P,0.0121,0.0149
+C_D_C1963087 ('Constipation  CTCAE'),M,0.9168,0.8752
+C_D_C1963087 ('Constipation  CTCAE'),N,0.0237,0.0318
+C_D_C1963087 ('Constipation  CTCAE'),P,0.0595,0.0931
+C_D_C1963090 ('Dehydration  CTCAE'),M,0.8063,0.9516
+C_D_C1963090 ('Dehydration  CTCAE'),N,0.0047,0.0016
+C_D_C1963090 ('Dehydration  CTCAE'),P,0.189,0.0468
+C_D_C1963091 ('Diarrhea  CTCAE'),M,0.5741,0.649
+C_D_C1963091 ('Diarrhea  CTCAE'),N,0.1315,0.1476
+C_D_C1963091 ('Diarrhea  CTCAE'),P,0.2944,0.2033
+C_D_C1963093 ('Dizziness  CTCAE 3.0'),M,0.9603,0.8982
+C_D_C1963093 ('Dizziness  CTCAE 3.0'),N,0.0082,0.0164
+C_D_C1963093 ('Dizziness  CTCAE 3.0'),P,0.0315,0.0854
+C_D_C1963113 ('Fracture  CTCAE'),M,0.9879,0.8621
+C_D_C1963113 ('Fracture  CTCAE'),N,0.0031,0.0416
+C_D_C1963113 ('Fracture  CTCAE'),P,0.0089,0.0963
+C_D_C1963138 ('Hypertension  CTCAE'),M,0.8767,0.8115
+C_D_C1963138 ('Hypertension  CTCAE'),N,0.0019,0.0033
+C_D_C1963138 ('Hypertension  CTCAE'),P,0.1214,0.1851
+C_D_C1963140 ('Hypoxia  CTCAE'),M,0.937,0.9869
+C_D_C1963140 ('Hypoxia  CTCAE'),N,0.0062,0.0031
+C_D_C1963140 ('Hypoxia  CTCAE'),P,0.0568,0.01
+C_D_C1963175 ('Sinus Bradycardia  CTCAE'),M,0.9953,0.9832
+C_D_C1963175 ('Sinus Bradycardia  CTCAE'),N,0.0004,0
+C_D_C1963175 ('Sinus Bradycardia  CTCAE'),P,0.0043,0.0167
+C_D_C1963177 ('Muscle Pain  CTCAE 3'),M,0.9242,0.8844
+C_D_C1963177 ('Muscle Pain  CTCAE 3'),N,0.0268,0.0857
+C_D_C1963177 ('Muscle Pain  CTCAE 3'),P,0.049,0.0299
+C_D_C1963179 ('Nausea  CTCAE 3.0'),M,0.7417,0.5959
+C_D_C1963179 ('Nausea  CTCAE 3.0'),N,0.0906,0.1942
+C_D_C1963179 ('Nausea  CTCAE 3.0'),P,0.1676,0.2098
+C_D_C1963180 ('Neck Pain  CTCAE 3.0'),M,0.8868,0.8529
+C_D_C1963180 ('Neck Pain  CTCAE 3.0'),N,0.0887,0.0874
+C_D_C1963180 ('Neck Pain  CTCAE 3.0'),P,0.0245,0.0597
+C_D_C1963184 ('Nystagmus  CTCAE 3.0'),M,0.9914,0.9786
+C_D_C1963184 ('Nystagmus  CTCAE 3.0'),N,0.0047,0.0188
+C_D_C1963184 ('Nystagmus  CTCAE 3.0'),P,0.0039,0.0027
+C_D_C1963198 ('Pancreatitis  CTCAE 3.0'),M,0.9907,0.968
+C_D_C1963198 ('Pancreatitis  CTCAE 3.0'),N,0.0012,0.0017
+C_D_C1963198 ('Pancreatitis  CTCAE 3.0'),P,0.0082,0.0303
+C_D_C1963215 ('Pneumothorax  CTCAE'),M,0.881,0.9473
+C_D_C1963215 ('Pneumothorax  CTCAE'),N,0.0296,0.0123
+C_D_C1963215 ('Pneumothorax  CTCAE'),P,0.0895,0.0404
+C_D_C1963221 ('Aspiration  CTCAE'),M,0.9704,0.9887
+C_D_C1963221 ('Aspiration  CTCAE'),N,0.0012,0.0007
+C_D_C1963221 ('Aspiration  CTCAE'),P,0.0284,0.0106
+C_D_C1963223 ('Rash and Dermatitis Associated with Radiation Excluding Chemoradiation  CTCAE'),M,0.9918,0.9647
+C_D_C1963223 ('Rash and Dermatitis Associated with Radiation Excluding Chemoradiation  CTCAE'),N,0.0016,0.0137
+C_D_C1963223 ('Rash and Dermatitis Associated with Radiation Excluding Chemoradiation  CTCAE'),P,0.0066,0.0217
+C_D_C1963246 ('Sinus Tachycardia  CTCAE 3.0'),M,0.9448,0.9783
+C_D_C1963246 ('Sinus Tachycardia  CTCAE 3.0'),N,0.0004,0.0002
+C_D_C1963246 ('Sinus Tachycardia  CTCAE 3.0'),P,0.0548,0.0215
+C_D_C1963281 ('Vomiting  CTCAE'),M,0.5581,0.5994
+C_D_C1963281 ('Vomiting  CTCAE'),N,0.2513,0.2793
+C_D_C1963281 ('Vomiting  CTCAE'),P,0.1906,0.1213
+C_D_C1997237 (White sputum),M,0.9926,0.9991
+C_D_C1997237 (White sputum),N,0.0004,0
+C_D_C1997237 (White sputum),P,0.007,0.0008
+C_D_C1998827 (Respiratory Status),M,0.9704,0.9977
+C_D_C1998827 (Respiratory Status),N,0.0004,0
+C_D_C1998827 (Respiratory Status),P,0.0292,0.0022
+C_D_C1999266 ('Depression  CTCAE'),M,0.9502,0.8777
+C_D_C1999266 ('Depression  CTCAE'),N,0.0156,0.0476
+C_D_C1999266 ('Depression  CTCAE'),P,0.0342,0.0747
+C_D_C2004062 (History of previous events),M,0.3384,0.6044
+C_D_C2004062 (History of previous events),N,0.0389,0.0351
+C_D_C2004062 (History of previous events),P,0.6227,0.3605
+C_D_C2010848 (jaundice),M,0.8794,0.9465
+C_D_C2010848 (jaundice),N,0.1151,0.0487
+C_D_C2010848 (jaundice),P,0.0054,0.0047
+C_D_C2108107 (continuous electrocardiogram sinus bradycardia (finding)),M,0.9953,0.9832
+C_D_C2108107 (continuous electrocardiogram sinus bradycardia (finding)),N,0.0004,0
+C_D_C2108107 (continuous electrocardiogram sinus bradycardia (finding)),P,0.0043,0.0167
+C_D_C2108109 (continuous electrocardiogram sinus tachycardia),M,0.9448,0.9783
+C_D_C2108109 (continuous electrocardiogram sinus tachycardia),N,0.0004,0.0002
+C_D_C2108109 (continuous electrocardiogram sinus tachycardia),P,0.0548,0.0215
+C_D_C2239178 (Newborn (finding)),M,0.9872,0.9969
+C_D_C2239178 (Newborn (finding)),N,0.0004,0.0001
+C_D_C2239178 (Newborn (finding)),P,0.0124,0.0029
+C_D_C2242996 (Has tingling sensation),M,0.9638,0.8938
+C_D_C2242996 (Has tingling sensation),N,0.035,0.0929
+C_D_C2242996 (Has tingling sensation),P,0.0012,0.0133
+C_D_C2314972 (Ready for discharge),M,0.9992,0.9909
+C_D_C2314972 (Ready for discharge),N,0.0004,0
+C_D_C2314972 (Ready for discharge),P,0.0004,0.0091
+C_D_C2364135 (Discomfort),M,0.9712,0.92
+C_D_C2364135 (Discomfort),N,0.0008,0.0041
+C_D_C2364135 (Discomfort),P,0.028,0.0759
+C_D_C2673594 (Oral mucosal lesions),M,0.9973,0.9862
+C_D_C2673594 (Oral mucosal lesions),N,0.0023,0.0137
+C_D_C2673594 (Oral mucosal lesions),P,0.0004,0
+C_D_C2709070 (on room air),M,0.8849,0.9364
+C_D_C2709070 (on room air),N,0.0012,0.0014
+C_D_C2709070 (on room air),P,0.114,0.0622
+C_D_C2712334 (Actual Aspiration),M,0.9704,0.9887
+C_D_C2712334 (Actual Aspiration),N,0.0012,0.0007
+C_D_C2712334 (Actual Aspiration),P,0.0284,0.0106
+C_D_C2750120 (Interstitial thickening),M,0.9946,0.9998
+C_D_C2750120 (Interstitial thickening),N,0.0004,0
+C_D_C2750120 (Interstitial thickening),P,0.0051,0.0001
+C_D_C2825142 (Experimental Result),M,0.93,0.9616
+C_D_C2825142 (Experimental Result),N,0.0012,0.0004
+C_D_C2825142 (Experimental Result),P,0.0688,0.038
+C_D_C2826292 (Related to Cancer),M,0.7596,0.8757
+C_D_C2826292 (Related to Cancer),N,0.0019,0.0023
+C_D_C2826292 (Related to Cancer),P,0.2384,0.1219
+C_D_C2826600 (Tissue Congestion),M,0.7725,0.9411
+C_D_C2826600 (Tissue Congestion),N,0.0113,0.0188
+C_D_C2826600 (Tissue Congestion),P,0.2163,0.0401
+C_D_C2827071 (Unintentional Material Aspiration),M,0.9704,0.9887
+C_D_C2827071 (Unintentional Material Aspiration),N,0.0012,0.0007
+C_D_C2827071 (Unintentional Material Aspiration),P,0.0284,0.0106
+C_D_C2926602 ('Discharge  body substance'),M,0.401,0.3489
+C_D_C2926602 ('Discharge  body substance'),N,0.3224,0.1412
+C_D_C2926602 ('Discharge  body substance'),P,0.2765,0.5099
+C_D_C2957312 (Head bobbing),M,0.986,0.9987
+C_D_C2957312 (Head bobbing),N,0.0047,0.0008
+C_D_C2957312 (Head bobbing),P,0.0093,0.0004
+C_D_C3160712 ('Palpitations  CTCAE'),M,0.907,0.7938
+C_D_C3160712 ('Palpitations  CTCAE'),N,0.0459,0.1131
+C_D_C3160712 ('Palpitations  CTCAE'),P,0.0471,0.0931
+C_D_C3242635 (IV drug use),M,0.9891,0.9667
+C_D_C3242635 (IV drug use),N,0.0054,0.0137
+C_D_C3242635 (IV drug use),P,0.0054,0.0196
+C_D_C3272283 (American College of Cardiology/American Heart Association Lesion Complexity Score C),M,0.9595,0.9948
+C_D_C3272283 (American College of Cardiology/American Heart Association Lesion Complexity Score C),N,0.0156,0.0008
+C_D_C3272283 (American College of Cardiology/American Heart Association Lesion Complexity Score C),P,0.0249,0.0044
+C_D_C3472705 (Mild dehydration),M,0.9802,0.9943
+C_D_C3472705 (Mild dehydration),N,0.0004,0
+C_D_C3472705 (Mild dehydration),P,0.0194,0.0057
+C_D_C3539909 (Allergic disposition),M,0.8783,0.9417
+C_D_C3539909 (Allergic disposition),N,0.0004,0.001
+C_D_C3539909 (Allergic disposition),P,0.1214,0.0573
+C_D_C3641827 (Agree),M,0.8794,0.8148
+C_D_C3641827 (Agree),N,0.0012,0.0039
+C_D_C3641827 (Agree),P,0.1194,0.1813
+C_D_C3714536 (Social History),M,0.0463,0.0956
+C_D_C3714536 (Social History),N,0.0105,0.0246
+C_D_C3714536 (Social History),P,0.9432,0.8797
+C_D_C3714552 (Weakness),M,0.8156,0.663
+C_D_C3714552 (Weakness),N,0.0323,0.1044
+C_D_C3714552 (Weakness),P,0.1521,0.2326
+C_D_C3714772 (Recurrent fevers),M,0.9844,0.9803
+C_D_C3714772 (Recurrent fevers),N,0.0043,0.0178
+C_D_C3714772 (Recurrent fevers),P,0.0113,0.0018
+C_D_C3810851 (Center of town),M,0.9895,0.9733
+C_D_C3810851 (Center of town),N,0.0008,0.0001
+C_D_C3810851 (Center of town),P,0.0097,0.0265
+C_D_C3812660 (Skin Bruise),M,0.9918,0.9466
+C_D_C3812660 (Skin Bruise),N,0.0008,0.0106
+C_D_C3812660 (Skin Bruise),P,0.0074,0.0427
+C_D_C3813276 (Labor After Cesarean),M,0.9992,0.9902
+C_D_C3813276 (Labor After Cesarean),N,0.0004,0.0002
+C_D_C3813276 (Labor After Cesarean),P,0.0004,0.0095
+C_D_C3814420 (Full Term Birth),M,0.8977,0.9777
+C_D_C3814420 (Full Term Birth),N,0.0004,0.0002
+C_D_C3814420 (Full Term Birth),P,0.1019,0.022
+C_D_C3827868 (Tachycardia by ECG Finding),M,0.7985,0.9341
+C_D_C3827868 (Tachycardia by ECG Finding),N,0.0132,0.0207
+C_D_C3827868 (Tachycardia by ECG Finding),P,0.1883,0.0452
+C_D_C3835651 (Resident - answer to question),M,0.7775,0.6289
+C_D_C3835651 (Resident - answer to question),N,0.0031,0.0008
+C_D_C3835651 (Resident - answer to question),P,0.2194,0.3703
+C_D_C3842633 (At work),M,0.9965,0.9792
+C_D_C3842633 (At work),N,0.0004,0.0003
+C_D_C3842633 (At work),P,0.0031,0.0205
+C_D_C3842674 (Day 5),M,0.9903,0.999
+C_D_C3842674 (Day 5),N,0.0004,0
+C_D_C3842674 (Day 5),P,0.0093,0.001
+C_D_C3842982 (Numbness or tingling),M,0.9907,0.9596
+C_D_C3842982 (Numbness or tingling),N,0.0031,0.0145
+C_D_C3842982 (Numbness or tingling),P,0.0062,0.0259
+C_D_C3843197 (One or Two Days),M,0.9665,0.9871
+C_D_C3843197 (One or Two Days),N,0.0008,0.0001
+C_D_C3843197 (One or Two Days),P,0.0327,0.0128
+C_D_C3843946 (Nausea or vomiting),M,0.9642,0.9361
+C_D_C3843946 (Nausea or vomiting),N,0.0237,0.0346
+C_D_C3843946 (Nausea or vomiting),P,0.0121,0.0293
+C_D_C3890735 (Complete Response with Incomplete Platelet Recovery),M,0.9642,0.9842
+C_D_C3890735 (Complete Response with Incomplete Platelet Recovery),N,0.0008,0.0002
+C_D_C3890735 (Complete Response with Incomplete Platelet Recovery),P,0.035,0.0156
+C_D_C3898139 (New or Worsening Symptom),M,0.9856,0.9477
+C_D_C3898139 (New or Worsening Symptom),N,0.0008,0.0004
+C_D_C3898139 (New or Worsening Symptom),P,0.0136,0.052
+C_D_C4018905 (Too early),M,0.9689,0.9921
+C_D_C4018905 (Too early),N,0.0004,0.0002
+C_D_C4018905 (Too early),P,0.0307,0.0077
+C_D_C4018909 (Overdose),M,0.9992,0.9897
+C_D_C4018909 (Overdose),N,0.0004,0.0003
+C_D_C4018909 (Overdose),P,0.0004,0.0101
+C_D_C4035626 (3 times),M,0.9055,0.8495
+C_D_C4035626 (3 times),N,0.0004,0.0002
+C_D_C4035626 (3 times),P,0.0941,0.1503
+C_D_C4035627 (2 times),M,0.8569,0.7778
+C_D_C4035627 (2 times),N,0.0004,0.0001
+C_D_C4035627 (2 times),P,0.1427,0.2221
+C_D_C4049863 (Radiologic Impression),M,0.0591,0.1346
+C_D_C4049863 (Radiologic Impression),N,0.0039,0.0028
+C_D_C4049863 (Radiologic Impression),P,0.937,0.8626
+C_D_C4050223 (Progressive Metabolic Disease),M,0.9724,0.9881
+C_D_C4050223 (Progressive Metabolic Disease),N,0.0008,0
+C_D_C4050223 (Progressive Metabolic Disease),P,0.0268,0.0119
+C_D_C4050242 (Pathologic Complete Response),M,0.9833,0.9978
+C_D_C4050242 (Pathologic Complete Response),N,0.0004,0.0001
+C_D_C4050242 (Pathologic Complete Response),P,0.0163,0.0021
+C_D_C4050568 (High Risk Acute Leukemia),M,0.9595,0.9948
+C_D_C4050568 (High Risk Acute Leukemia),N,0.0156,0.0008
+C_D_C4050568 (High Risk Acute Leukemia),P,0.0249,0.0044
+C_D_C4054315 (Organomegaly),M,0.7137,0.7547
+C_D_C4054315 (Organomegaly),N,0.2851,0.2436
+C_D_C4054315 (Organomegaly),P,0.0012,0.0017
+C_D_C4061338 (Oxygen desaturation),M,0.9903,0.9995
+C_D_C4061338 (Oxygen desaturation),N,0.0016,0
+C_D_C4061338 (Oxygen desaturation),P,0.0082,0.0004
+C_D_C4068744 (Reactive to light),M,0.8689,0.7989
+C_D_C4068744 (Reactive to light),N,0.0004,0.0001
+C_D_C4068744 (Reactive to light),P,0.1307,0.201
+C_D_C4068782 (Labored),M,0.9782,0.9426
+C_D_C4068782 (Labored),N,0.0004,0
+C_D_C4068782 (Labored),P,0.0214,0.0574
+C_D_C4068789 (Numbness and Tingling),M,0.9992,0.9912
+C_D_C4068789 (Numbness and Tingling),N,0.0004,0.0014
+C_D_C4068789 (Numbness and Tingling),P,0.0004,0.0074
+C_D_C4068833 (Vascularity),M,0.9837,0.9955
+C_D_C4068833 (Vascularity),N,0.0004,0
+C_D_C4068833 (Vascularity),P,0.0159,0.0045
+C_D_C4084203 (Improved - answer to question),M,0.846,0.8931
+C_D_C4084203 (Improved - answer to question),N,0.0128,0.0052
+C_D_C4084203 (Improved - answer to question),P,0.1412,0.1017
+C_D_C4084859 (Peribronchial Cuffing),M,0.956,0.9979
+C_D_C4084859 (Peribronchial Cuffing),N,0.0004,0
+C_D_C4084859 (Peribronchial Cuffing),P,0.0436,0.0021
+C_D_C4255036 (Sips),M,0.9876,0.9971
+C_D_C4255036 (Sips),N,0.0004,0
+C_D_C4255036 (Sips),P,0.0121,0.0029
+C_D_C4264325 (Well-hydrated),M,0.9576,0.9892
+C_D_C4264325 (Well-hydrated),N,0.0008,0.0001
+C_D_C4264325 (Well-hydrated),P,0.0416,0.0107
+C_D_C4264428 (Mildly dehydrated),M,0.9883,0.9981
+C_D_C4264428 (Mildly dehydrated),N,0.0004,0
+C_D_C4264428 (Mildly dehydrated),P,0.0113,0.0018
+C_D_C4264481 (4 times),M,0.944,0.9115
+C_D_C4264481 (4 times),N,0.0004,0.0001
+C_D_C4264481 (4 times),P,0.0556,0.0883
+C_D_C4281574 (Much),M,0.8553,0.8143
+C_D_C4281574 (Much),N,0.0171,0.0088
+C_D_C4281574 (Much),P,0.1276,0.1769
+C_D_C4282165 (Swollen Lymph Node),M,0.5523,0.6714
+C_D_C4282165 (Swollen Lymph Node),N,0.4146,0.3046
+C_D_C4282165 (Swollen Lymph Node),P,0.0331,0.0241
+C_D_C4283785 (Complete Pharyngeal Contraction),M,0.8549,0.9224
+C_D_C4283785 (Complete Pharyngeal Contraction),N,0.0023,0.0034
+C_D_C4283785 (Complete Pharyngeal Contraction),P,0.1427,0.0741
+C_D_C4283904 (Laboratory observation),M,0.6188,0.8586
+C_D_C4283904 (Laboratory observation),N,0.0027,0.0013
+C_D_C4283904 (Laboratory observation),P,0.3785,0.1402
+C_D_C4314218 (Abnormal balance),M,0.9895,0.9704
+C_D_C4314218 (Abnormal balance),N,0.0097,0.0264
+C_D_C4314218 (Abnormal balance),P,0.0008,0.0032
+C_D_C4318482 (Crutches Usually Used),M,0.9984,0.9835
+C_D_C4318482 (Crutches Usually Used),N,0.0004,0.0003
+C_D_C4318482 (Crutches Usually Used),P,0.0012,0.0162
+C_D_C4319571 (High risk),M,0.9595,0.9948
+C_D_C4319571 (High risk),N,0.0156,0.0008
+C_D_C4319571 (High risk),P,0.0249,0.0044
+C_D_C4319730 (Completely Able),M,0.9829,0.9538
+C_D_C4319730 (Completely Able),N,0.0008,0.0049
+C_D_C4319730 (Completely Able),P,0.0163,0.0413
+C_D_C4319731 (Complete Agreement),M,0.9829,0.9538
+C_D_C4319731 (Complete Agreement),N,0.0008,0.0049
+C_D_C4319731 (Complete Agreement),P,0.0163,0.0414
+C_D_C4321237 (High Level),M,0.7919,0.9285
+C_D_C4321237 (High Level),N,0.0124,0.0024
+C_D_C4321237 (High Level),P,0.1956,0.0691
+C_D_C4321351 (Low Level),M,0.762,0.8488
+C_D_C4321351 (Low Level),N,0.0089,0.013
+C_D_C4321351 (Low Level),P,0.2291,0.1381
+C_D_C4520890 (Nasal (intended site)),M,0.9382,0.961
+C_D_C4520890 (Nasal (intended site)),N,0.0043,0.0085
+C_D_C4520890 (Nasal (intended site)),P,0.0576,0.0305
+C_D_C4521229 (Neck Pain Score 6),M,0.9961,0.9847
+C_D_C4521229 (Neck Pain Score 6),N,0.0004,0.0007
+C_D_C4521229 (Neck Pain Score 6),P,0.0035,0.0146
+C_D_C4521903 (Rectal (intended site)),M,0.7433,0.9371
+C_D_C4521903 (Rectal (intended site)),N,0.0019,0.002
+C_D_C4521903 (Rectal (intended site)),P,0.2548,0.0608
+C_D_C4521986 (Oral (intended site)),M,0.7565,0.8049
+C_D_C4521986 (Oral (intended site)),N,0.0086,0.0087
+C_D_C4521986 (Oral (intended site)),P,0.2349,0.1864
+C_D_C4522216 (Influenza B (result)),M,0.9911,0.9999
+C_D_C4522216 (Influenza B (result)),N,0.0004,0
+C_D_C4522216 (Influenza B (result)),P,0.0086,0
+C_D_C4534306 (Supplemental oxygen),M,0.979,0.9978
+C_D_C4534306 (Supplemental oxygen),N,0.0019,0
+C_D_C4534306 (Supplemental oxygen),P,0.0191,0.0021
+C_D_C4534363 (At home),M,0.6021,0.7627
+C_D_C4534363 (At home),N,0.0105,0.0057
+C_D_C4534363 (At home),P,0.3874,0.2317
+C_D_C4551932 ('Otitis Media  CTCAE'),M,0.9467,0.9864
+C_D_C4551932 ('Otitis Media  CTCAE'),N,0.0031,0.0008
+C_D_C4551932 ('Otitis Media  CTCAE'),P,0.0502,0.0128
+C_D_C4552646 ('Myalgia  CTCAE 5'),M,0.9848,0.9973
+C_D_C4552646 ('Myalgia  CTCAE 5'),N,0.0012,0.0004
+C_D_C4552646 ('Myalgia  CTCAE 5'),P,0.014,0.0023
+C_D_C4552651 ('Respiratory Failure  CTCAE'),M,0.9724,0.997
+C_D_C4552651 ('Respiratory Failure  CTCAE'),N,0.0008,0.0002
+C_D_C4552651 ('Respiratory Failure  CTCAE'),P,0.0268,0.0028
+C_D_C4552662 ('Rhinorrhea  CTCAE'),M,0.8347,0.8949
+C_D_C4552662 ('Rhinorrhea  CTCAE'),N,0.0303,0.0598
+C_D_C4552662 ('Rhinorrhea  CTCAE'),P,0.135,0.0452
+C_D_C4552735 ('Anxiety  CTCAE 5.0'),M,0.944,0.8689
+C_D_C4552735 ('Anxiety  CTCAE 5.0'),N,0.0226,0.0561
+C_D_C4552735 ('Anxiety  CTCAE 5.0'),P,0.0335,0.075
+C_D_C4552740 ('Fever  CTCAE'),M,0.2081,0.4779
+C_D_C4552740 ('Fever  CTCAE'),N,0.1505,0.4021
+C_D_C4552740 ('Fever  CTCAE'),P,0.6414,0.1199
+C_D_C4552746 ('Sore Throat  CTCAE'),M,0.7382,0.724
+C_D_C4552746 ('Sore Throat  CTCAE'),N,0.0887,0.1636
+C_D_C4552746 ('Sore Throat  CTCAE'),P,0.1731,0.1125
+C_D_C4552777 ('Pleural Effusion  CTCAE'),M,0.9078,0.9798
+C_D_C4552777 ('Pleural Effusion  CTCAE'),N,0.0366,0.0053
+C_D_C4552777 ('Pleural Effusion  CTCAE'),P,0.0556,0.0149
+C_D_C4552837 ('Sepsis  CTCAE'),M,0.9261,0.9817
+C_D_C4552837 ('Sepsis  CTCAE'),N,0.0047,0.0014
+C_D_C4552837 ('Sepsis  CTCAE'),P,0.0692,0.0169
+C_D_C4552842 ('Upper Respiratory Infection  CTCAE'),M,0.9786,0.9946
+C_D_C4552842 ('Upper Respiratory Infection  CTCAE'),N,0.0004,0
+C_D_C4552842 ('Upper Respiratory Infection  CTCAE'),P,0.021,0.0054
+C_D_C4552844 ('Meningitis  CTCAE'),M,0.9471,0.9754
+C_D_C4552844 ('Meningitis  CTCAE'),N,0.0019,0.002
+C_D_C4552844 ('Meningitis  CTCAE'),P,0.051,0.0225
+C_D_C4552845 ('Arthritis  CTCAE'),M,0.9525,0.9154
+C_D_C4552845 ('Arthritis  CTCAE'),N,0.0004,0.0007
+C_D_C4552845 ('Arthritis  CTCAE'),P,0.0471,0.0838
+C_D_C4552901 ('Bronchospasm  CTCAE'),M,0.9856,0.9962
+C_D_C4552901 ('Bronchospasm  CTCAE'),N,0.0019,0.0002
+C_D_C4552901 ('Bronchospasm  CTCAE'),P,0.0124,0.0036
+C_D_C4552903 ('Lethargy  CTCAE'),M,0.9677,0.9907
+C_D_C4552903 ('Lethargy  CTCAE'),N,0.0047,0.002
+C_D_C4552903 ('Lethargy  CTCAE'),P,0.0276,0.0072
+C_D_C4552938 ('Productive Cough  CTCAE'),M,0.9498,0.9802
+C_D_C4552938 ('Productive Cough  CTCAE'),N,0.0027,0.0014
+C_D_C4552938 ('Productive Cough  CTCAE'),P,0.0475,0.0183
+C_D_C4552984 ('Tracheitis  CTCAE'),M,0.9864,0.9994
+C_D_C4552984 ('Tracheitis  CTCAE'),N,0.0004,0.0001
+C_D_C4552984 ('Tracheitis  CTCAE'),P,0.0132,0.0005
+C_D_C4552989 ('Malaise  CTCAE'),M,0.9553,0.9704
+C_D_C4552989 ('Malaise  CTCAE'),N,0.0039,0.0108
+C_D_C4552989 ('Malaise  CTCAE'),P,0.0408,0.0188
+C_D_C4553004 ('Pain  CTCAE'),M,0.7783,0.4656
+C_D_C4553004 ('Pain  CTCAE'),N,0.0747,0.1356
+C_D_C4553004 ('Pain  CTCAE'),P,0.147,0.3988
+C_D_C4553119 ('Flank Pain  CTCAE'),M,0.9973,0.9761
+C_D_C4553119 ('Flank Pain  CTCAE'),N,0.0012,0.003
+C_D_C4553119 ('Flank Pain  CTCAE'),P,0.0016,0.0209
+C_D_C4553185 ('Chills  CTCAE'),M,0.7725,0.5899
+C_D_C4553185 ('Chills  CTCAE'),N,0.056,0.1939
+C_D_C4553185 ('Chills  CTCAE'),P,0.1715,0.2161
+C_D_C4553186 ('Cholecystitis  CTCAE 5.0'),M,0.9926,0.9793
+C_D_C4553186 ('Cholecystitis  CTCAE 5.0'),N,0.0004,0.0014
+C_D_C4553186 ('Cholecystitis  CTCAE 5.0'),P,0.007,0.0193
+C_D_C4553197 ('Headache  CTCAE'),M,0.7631,0.6854
+C_D_C4553197 ('Headache  CTCAE'),N,0.0933,0.1902
+C_D_C4553197 ('Headache  CTCAE'),P,0.1435,0.1244
+C_D_C4553305 ('Conjunctivitis  CTCAE'),M,0.986,0.9895
+C_D_C4553305 ('Conjunctivitis  CTCAE'),N,0.0023,0.0007
+C_D_C4553305 ('Conjunctivitis  CTCAE'),P,0.0117,0.0099
+C_D_C4553308 ('Pharyngitis  CTCAE'),M,0.9603,0.9805
+C_D_C4553308 ('Pharyngitis  CTCAE'),N,0.0019,0.0008
+C_D_C4553308 ('Pharyngitis  CTCAE'),P,0.0377,0.0187
+C_D_C4553314 ('Hallucinations  CTCAE'),M,0.9946,0.9834
+C_D_C4553314 ('Hallucinations  CTCAE'),N,0.0008,0.0092
+C_D_C4553314 ('Hallucinations  CTCAE'),P,0.0047,0.0073
+C_D_C4553401 ('Seizure  CTCAE 5.0'),M,0.9218,0.9456
+C_D_C4553401 ('Seizure  CTCAE 5.0'),N,0.0405,0.018
+C_D_C4553401 ('Seizure  CTCAE 5.0'),P,0.0377,0.0364
+C_D_C4553526 ('Appendicitis  CTCAE'),M,0.9868,0.9661
+C_D_C4553526 ('Appendicitis  CTCAE'),N,0.0012,0.0045
+C_D_C4553526 ('Appendicitis  CTCAE'),P,0.0121,0.0294
+C_D_C4553554 ('Sinus Tachycardia  CTCAE 5.0'),M,0.9448,0.9783
+C_D_C4553554 ('Sinus Tachycardia  CTCAE 5.0'),N,0.0004,0.0002
+C_D_C4553554 ('Sinus Tachycardia  CTCAE 5.0'),P,0.0548,0.0215
+C_D_C4553646 ('Cyanosis  CTCAE'),M,0.949,0.9587
+C_D_C4553646 ('Cyanosis  CTCAE'),N,0.0206,0.0279
+C_D_C4553646 ('Cyanosis  CTCAE'),P,0.0303,0.0134
+C_D_C4553722 ('Eye Pain  CTCAE 5.0'),M,0.9588,0.9306
+C_D_C4553722 ('Eye Pain  CTCAE 5.0'),N,0.0093,0.0077
+C_D_C4553722 ('Eye Pain  CTCAE 5.0'),P,0.0319,0.0618
+C_D_C4553726 ('Fall  CTCAE'),M,0.9833,0.9134
+C_D_C4553726 ('Fall  CTCAE'),N,0.0016,0.0064
+C_D_C4553726 ('Fall  CTCAE'),P,0.0152,0.0802
+C_D_C4553736 ('Meningismus  CTCAE'),M,0.9642,0.9773
+C_D_C4553736 ('Meningismus  CTCAE'),N,0.0311,0.0205
+C_D_C4553736 ('Meningismus  CTCAE'),P,0.0047,0.0022
+C_D_C4553767 ('Nausea  CTCAE 5.0'),M,0.7417,0.5959
+C_D_C4553767 ('Nausea  CTCAE 5.0'),N,0.0906,0.1942
+C_D_C4553767 ('Nausea  CTCAE 5.0'),P,0.1676,0.2098
+C_D_C4553830 ('Dizziness  CTCAE 5.0'),M,0.9603,0.8982
+C_D_C4553830 ('Dizziness  CTCAE 5.0'),N,0.0082,0.0164
+C_D_C4553830 ('Dizziness  CTCAE 5.0'),P,0.0315,0.0854
+C_D_C4553909 ('Neck Pain  CTCAE 5.0'),M,0.8868,0.8529
+C_D_C4553909 ('Neck Pain  CTCAE 5.0'),N,0.0887,0.0874
+C_D_C4553909 ('Neck Pain  CTCAE 5.0'),P,0.0245,0.0597
+C_D_C4553925 ('Wheezing  CTCAE'),M,0.79,0.9101
+C_D_C4553925 ('Wheezing  CTCAE'),N,0.0953,0.0626
+C_D_C4553925 ('Wheezing  CTCAE'),P,0.1147,0.0273
+C_D_C4553945 ('Back Pain  CTCAE 5.0'),M,0.9039,0.8048
+C_D_C4553945 ('Back Pain  CTCAE 5.0'),N,0.0346,0.0607
+C_D_C4553945 ('Back Pain  CTCAE 5.0'),P,0.0615,0.1345
+C_D_C4553946 ('Bacteremia  CTCAE'),M,0.9685,0.9908
+C_D_C4553946 ('Bacteremia  CTCAE'),N,0.0027,0.0002
+C_D_C4553946 ('Bacteremia  CTCAE'),P,0.0288,0.009
+C_D_C4553950 ('Flu Like Symptoms  CTCAE'),M,0.9704,0.9992
+C_D_C4553950 ('Flu Like Symptoms  CTCAE'),N,0.0004,0
+C_D_C4553950 ('Flu Like Symptoms  CTCAE'),P,0.0292,0.0007
+C_D_C4553955 ('Dysuria  CTCAE'),M,0.7678,0.6574
+C_D_C4553955 ('Dysuria  CTCAE'),N,0.1956,0.2868
+C_D_C4553955 ('Dysuria  CTCAE'),P,0.0366,0.0559
+C_D_C4554036 ('Nystagmus  CTCAE 5.0'),M,0.9914,0.9786
+C_D_C4554036 ('Nystagmus  CTCAE 5.0'),N,0.0047,0.0188
+C_D_C4554036 ('Nystagmus  CTCAE 5.0'),P,0.0039,0.0027
+C_D_C4554100 ('Stroke  CTCAE'),M,0.9895,0.9709
+C_D_C4554100 ('Stroke  CTCAE'),N,0.0004,0.0035
+C_D_C4554100 ('Stroke  CTCAE'),P,0.0101,0.0256
+C_D_C4554104 ('Suicidal Ideation  CTCAE'),M,0.9973,0.9771
+C_D_C4554104 ('Suicidal Ideation  CTCAE'),N,0.0004,0.0079
+C_D_C4554104 ('Suicidal Ideation  CTCAE'),P,0.0023,0.015
+C_D_C4554169 ('Intracranial Hemorrhage  CTCAE'),M,0.9946,0.9688
+C_D_C4554169 ('Intracranial Hemorrhage  CTCAE'),N,0.0008,0.0077
+C_D_C4554169 ('Intracranial Hemorrhage  CTCAE'),P,0.0047,0.0234
+C_D_C4554179 ('Pancreatitis  CTCAE 5.0'),M,0.9907,0.968
+C_D_C4554179 ('Pancreatitis  CTCAE 5.0'),N,0.0012,0.0017
+C_D_C4554179 ('Pancreatitis  CTCAE 5.0'),P,0.0082,0.0303
+C_D_C4554323 ('Abdominal Pain  CTCAE 5'),M,0.6927,0.5878
+C_D_C4554323 ('Abdominal Pain  CTCAE 5'),N,0.1723,0.1932
+C_D_C4554323 ('Abdominal Pain  CTCAE 5'),P,0.135,0.219
+C_D_C4554407 ('Bruising  CTCAE'),M,0.9763,0.9244
+C_D_C4554407 ('Bruising  CTCAE'),N,0.0171,0.0475
+C_D_C4554407 ('Bruising  CTCAE'),P,0.0066,0.0282
+C_D_C4554554 (Faint - appearance),M,0.9759,0.992
+C_D_C4554554 (Faint - appearance),N,0.0004,0.0003
+C_D_C4554554 (Faint - appearance),P,0.0237,0.0077
+C_D_C4554627 ('Epistaxis  CTCAE'),M,0.9926,0.9767
+C_D_C4554627 ('Epistaxis  CTCAE'),N,0.0039,0.019
+C_D_C4554627 ('Epistaxis  CTCAE'),P,0.0035,0.0043
+C_D_C4554630 ('Hematuria  CTCAE'),M,0.9055,0.8099
+C_D_C4554630 ('Hematuria  CTCAE'),N,0.0708,0.1271
+C_D_C4554630 ('Hematuria  CTCAE'),P,0.0237,0.063
+C_D_C4554631 ('Nasal Congestion  CTCAE'),M,0.6651,0.8523
+C_D_C4554631 ('Nasal Congestion  CTCAE'),N,0.0412,0.1149
+C_D_C4554631 ('Nasal Congestion  CTCAE'),P,0.2937,0.0328
+C_D_C4554644 ('Syncope  CTCAE 5.0'),M,0.9553,0.9273
+C_D_C4554644 ('Syncope  CTCAE 5.0'),N,0.0268,0.0322
+C_D_C4554644 ('Syncope  CTCAE 5.0'),P,0.0179,0.0405
+C_D_C4554645 ('Fatigue  CTCAE 5.0'),M,0.8853,0.9433
+C_D_C4554645 ('Fatigue  CTCAE 5.0'),N,0.0082,0.018
+C_D_C4554645 ('Fatigue  CTCAE 5.0'),P,0.1066,0.0387
+C_D_C4554648 ('Vaginal Discharge  CTCAE'),M,0.9946,0.9706
+C_D_C4554648 ('Vaginal Discharge  CTCAE'),N,0.0016,0.0108
+C_D_C4554648 ('Vaginal Discharge  CTCAE'),P,0.0039,0.0186
+C_D_C4555211 ('Confusion  CTCAE 5.0'),M,0.9669,0.917
+C_D_C4555211 ('Confusion  CTCAE 5.0'),N,0.021,0.0681
+C_D_C4555211 ('Confusion  CTCAE 5.0'),P,0.0121,0.0149
+C_D_C4684400 (Rous Sarcoma Virus Positive),M,0.9759,0.9999
+C_D_C4684400 (Rous Sarcoma Virus Positive),N,0.0004,0
+C_D_C4684400 (Rous Sarcoma Virus Positive),P,0.0237,0.0001
+C_D_C4698447 (Patient age),M,0.923,0.8474
+C_D_C4698447 (Patient age),N,0.0008,0.0002
+C_D_C4698447 (Patient age),P,0.0762,0.1524
+C_D_C4722210 (Mild Hallucination),M,0.627,0.6837
+C_D_C4722210 (Mild Hallucination),N,0.0023,0.0019
+C_D_C4722210 (Mild Hallucination),P,0.3707,0.3143
+C_D_C4747995 (Nasal secretions),M,0.9922,0.9995
+C_D_C4747995 (Nasal secretions),N,0.0004,0
+C_D_C4747995 (Nasal secretions),P,0.0074,0.0005
+C_D_C4760388 (Mechanical ventilation finding),M,0.9876,0.999
+C_D_C4760388 (Mechanical ventilation finding),N,0.0004,0
+C_D_C4760388 (Mechanical ventilation finding),P,0.0121,0.001
+C_D_C4761380 (Poorly Marginated Nodule),M,0.9755,0.9924
+C_D_C4761380 (Poorly Marginated Nodule),N,0.0004,0
+C_D_C4761380 (Poorly Marginated Nodule),P,0.0241,0.0076
+C_D_C4761387 (Well Marginated Nodule),M,0.3991,0.4551
+C_D_C4761387 (Well Marginated Nodule),N,0.0222,0.0146
+C_D_C4761387 (Well Marginated Nodule),P,0.5788,0.5303
+C_D_C4761390 (Round Nodule),M,0.8643,0.7951
+C_D_C4761390 (Round Nodule),N,0.0008,0.0005
+C_D_C4761390 (Round Nodule),P,0.135,0.2044
+C_D_C4761489 (Epidermal cGVHD Score 0),M,0.2742,0.1888
+C_D_C4761489 (Epidermal cGVHD Score 0),N,0.0152,0.0216
+C_D_C4761489 (Epidermal cGVHD Score 0),P,0.7106,0.7896
+C_D_C5200925 (Normal Gait),M,0.0743,0.1444
+C_D_C5200925 (Normal Gait),N,0.0093,0.0123
+C_D_C5200925 (Normal Gait),P,0.9164,0.8433
+C_D_C5200928 (High (finding)),M,0.7923,0.9287
+C_D_C5200928 (High (finding)),N,0.0124,0.0024
+C_D_C5200928 (High (finding)),P,0.1953,0.0689
+C_D_C5202633 (Normal Immune Presence),M,0.0747,0.147
+C_D_C5202633 (Normal Immune Presence),N,0.0093,0.0133
+C_D_C5202633 (Normal Immune Presence),P,0.916,0.8397
+C_D_C5202919 (Residual Cancer Burden Class 0),M,0.9833,0.9978
+C_D_C5202919 (Residual Cancer Burden Class 0),N,0.0004,0.0001
+C_D_C5202919 (Residual Cancer Burden Class 0),P,0.0163,0.0021
+C_D_C5202936 (IPSS-R Risk Category High),M,0.7647,0.9244
+C_D_C5202936 (IPSS-R Risk Category High),N,0.0226,0.0031
+C_D_C5202936 (IPSS-R Risk Category High),P,0.2128,0.0725
+C_D_C5202937 (International Prognostic Index High Risk Group),M,0.9595,0.9948
+C_D_C5202937 (International Prognostic Index High Risk Group),N,0.0156,0.0008
+C_D_C5202937 (International Prognostic Index High Risk Group),P,0.0249,0.0044
+C_D_C5202951 (Very Well),M,0.9502,0.972
+C_D_C5202951 (Very Well),N,0.0023,0.0005
+C_D_C5202951 (Very Well),P,0.0475,0.0275
+C_D_C5202952 (Describes Very Well),M,0.9502,0.972
+C_D_C5202952 (Describes Very Well),N,0.0023,0.0005
+C_D_C5202952 (Describes Very Well),P,0.0475,0.0275
+C_D_C5202953 (Can Do Very Well),M,0.9502,0.972
+C_D_C5202953 (Can Do Very Well),N,0.0023,0.0005
+C_D_C5202953 (Can Do Very Well),P,0.0475,0.0275
+C_D_C5203106 (IPSS-R Risk Category Low),M,0.7557,0.8394
+C_D_C5203106 (IPSS-R Risk Category Low),N,0.0093,0.013
+C_D_C5203106 (IPSS-R Risk Category Low),P,0.2349,0.1476
+C_D_C5231182 (Normal lung),M,0.9907,0.9989
+C_D_C5231182 (Normal lung),N,0.0004,0
+C_D_C5231182 (Normal lung),P,0.0089,0.0011
+L_D_11253-2 (Tacrolimus),H,0.0012,0.0002
+L_D_11253-2 (Tacrolimus),L,0.0019,0.0002
+L_D_11253-2 (Tacrolimus),M,0.9841,0.996
+L_D_11253-2 (Tacrolimus),N,0.0128,0.0036
+L_D_11277-1 (Epithelial cells.squamous),H,0.0023,0.0017
+L_D_11277-1 (Epithelial cells.squamous),L,0.0004,0
+L_D_11277-1 (Epithelial cells.squamous),M,0.9572,0.9812
+L_D_11277-1 (Epithelial cells.squamous),N,0.04,0.017
+L_D_14627-4 (Bicarbonate),H,0.0467,0.01
+L_D_14627-4 (Bicarbonate),L,0.0338,0.006
+L_D_14627-4 (Bicarbonate),M,0.8612,0.9718
+L_D_14627-4 (Bicarbonate),N,0.0583,0.0121
+L_D_1751-7 (Albumin),H,0.0012,0.0013
+L_D_1751-7 (Albumin),L,0.1248,0.0714
+L_D_1751-7 (Albumin),M,0.717,0.7321
+L_D_1751-7 (Albumin),N,0.1571,0.1952
+L_D_1759-0 (Albumin/Globulin),H,0.0004,0
+L_D_1759-0 (Albumin/Globulin),L,0.0548,0.0723
+L_D_1759-0 (Albumin/Globulin),M,0.9323,0.8955
+L_D_1759-0 (Albumin/Globulin),N,0.0124,0.0322
+L_D_17861-6 (Calcium),H,0.0019,0.0058
+L_D_17861-6 (Calcium),L,0.1221,0.0478
+L_D_17861-6 (Calcium),M,0.4903,0.5989
+L_D_17861-6 (Calcium),N,0.3857,0.3475
+L_D_19123-9 (Magnesium),H,0.0237,0.0067
+L_D_19123-9 (Magnesium),L,0.0066,0.0098
+L_D_19123-9 (Magnesium),M,0.7321,0.8616
+L_D_19123-9 (Magnesium),N,0.2376,0.1219
+L_D_19161-9 (Urobilinogen),H,0.0027,0.0035
+L_D_19161-9 (Urobilinogen),L,0.0004,0
+L_D_19161-9 (Urobilinogen),M,0.9876,0.9608
+L_D_19161-9 (Urobilinogen),N,0.0093,0.0357
+L_D_19218-7 (Oxygen content),H,0.0004,0.0001
+L_D_19218-7 (Oxygen content),L,0.0074,0.0012
+L_D_19218-7 (Oxygen content),M,0.9879,0.9977
+L_D_19218-7 (Oxygen content),N,0.0043,0.0011
+L_D_1924-0 (Base deficit),H,0.0109,0.0024
+L_D_1924-0 (Base deficit),L,0.0004,0
+L_D_1924-0 (Base deficit),M,0.9848,0.9964
+L_D_1924-0 (Base deficit),N,0.0039,0.0012
+L_D_1925-7 (Base excess),H,0.0105,0.0041
+L_D_1925-7 (Base excess),L,0.0004,0
+L_D_1925-7 (Base excess),M,0.9763,0.9914
+L_D_1925-7 (Base excess),N,0.0128,0.0044
+L_D_19258-3 (Oxygen^^adjusted to patient's actual temperature),H,0.0016,0
+L_D_19258-3 (Oxygen^^adjusted to patient's actual temperature),L,0.0004,0
+L_D_19258-3 (Oxygen^^adjusted to patient's actual temperature),M,0.9965,0.9999
+L_D_19258-3 (Oxygen^^adjusted to patient's actual temperature),N,0.0016,0
+L_D_1960-4 (Bicarbonate),H,0.0101,0.0015
+L_D_1960-4 (Bicarbonate),L,0.0047,0.0014
+L_D_1960-4 (Bicarbonate),M,0.9705,0.994
+L_D_1960-4 (Bicarbonate),N,0.0148,0.003
+L_D_1963-8 (Bicarbonate),H,0.0004,0
+L_D_1963-8 (Bicarbonate),L,0.0008,0
+L_D_1963-8 (Bicarbonate),M,0.9984,0.9995
+L_D_1963-8 (Bicarbonate),N,0.0004,0.0004
+L_D_1988-5 (C reactive protein),H,0.0805,0.0089
+L_D_1988-5 (C reactive protein),L,0.0004,0
+L_D_1988-5 (C reactive protein),M,0.8701,0.9883
+L_D_1988-5 (C reactive protein),N,0.049,0.0028
+L_D_1994-3 (Calcium.ionized),H,0.0035,0.0009
+L_D_1994-3 (Calcium.ionized),L,0.0148,0.0134
+L_D_1994-3 (Calcium.ionized),M,0.8674,0.9619
+L_D_1994-3 (Calcium.ionized),N,0.1143,0.0238
+L_D_2019-8 (Carbon dioxide),H,0.0105,0.0019
+L_D_2019-8 (Carbon dioxide),L,0.0035,0.0017
+L_D_2019-8 (Carbon dioxide),M,0.9666,0.9914
+L_D_2019-8 (Carbon dioxide),N,0.0194,0.0049
+L_D_2021-4 (Carbon dioxide),H,0.028,0.0048
+L_D_2021-4 (Carbon dioxide),L,0.0595,0.0127
+L_D_2021-4 (Carbon dioxide),M,0.8507,0.9678
+L_D_2021-4 (Carbon dioxide),N,0.0618,0.0147
+L_D_2028-9 (Carbon dioxide),H,0.0078,0.0048
+L_D_2028-9 (Carbon dioxide),L,0.0474,0.0322
+L_D_2028-9 (Carbon dioxide),M,0.4879,0.5899
+L_D_2028-9 (Carbon dioxide),N,0.4568,0.3731
+L_D_2032-1 (Carboxyhemoglobin/Hemoglobin.total),H,0.0276,0.0134
+L_D_2032-1 (Carboxyhemoglobin/Hemoglobin.total),L,0.0004,0
+L_D_2032-1 (Carboxyhemoglobin/Hemoglobin.total),M,0.9631,0.9856
+L_D_2032-1 (Carboxyhemoglobin/Hemoglobin.total),N,0.0089,0.001
+L_D_20570-8 (Hematocrit),H,0.0062,0.0016
+L_D_20570-8 (Hematocrit),L,0.0288,0.0083
+L_D_20570-8 (Hematocrit),M,0.9005,0.9762
+L_D_20570-8 (Hematocrit),N,0.0645,0.0139
+L_D_2075-0 (Chloride),H,0.0925,0.0841
+L_D_2075-0 (Chloride),L,0.014,0.0148
+L_D_2075-0 (Chloride),M,0.4934,0.61
+L_D_2075-0 (Chloride),N,0.4001,0.2911
+L_D_2160-0 (Creatinine),H,0.0354,0.0445
+L_D_2160-0 (Creatinine),L,0.0152,0.0086
+L_D_2160-0 (Creatinine),M,0.4961,0.587
+L_D_2160-0 (Creatinine),N,0.4533,0.3599
+L_D_2336-6 (Globulin),H,0.0167,0.0299
+L_D_2336-6 (Globulin),L,0.0004,0.0002
+L_D_2336-6 (Globulin),M,0.9261,0.8839
+L_D_2336-6 (Globulin),N,0.0568,0.086
+L_D_2339-0 (Glucose),H,0.1614,0.0755
+L_D_2339-0 (Glucose),L,0.0031,0.0009
+L_D_2339-0 (Glucose),M,0.6874,0.8705
+L_D_2339-0 (Glucose),N,0.1481,0.0531
+L_D_2342-4 (Glucose),H,0.0031,0.0008
+L_D_2342-4 (Glucose),L,0.0035,0.0002
+L_D_2342-4 (Glucose),M,0.9767,0.9962
+L_D_2342-4 (Glucose),N,0.0167,0.0028
+L_D_2345-7 (Glucose),H,0.1664,0.184
+L_D_2345-7 (Glucose),L,0.0047,0.0043
+L_D_2345-7 (Glucose),M,0.4778,0.5818
+L_D_2345-7 (Glucose),N,0.3511,0.2299
+L_D_2465-3 (IgG),H,0.0008,0.0003
+L_D_2465-3 (IgG),L,0.007,0.0006
+L_D_2465-3 (IgG),M,0.9883,0.9966
+L_D_2465-3 (IgG),N,0.0039,0.0025
+L_D_2614-6 (Methemoglobin/Hemoglobin.total),H,0.0105,0.0019
+L_D_2614-6 (Methemoglobin/Hemoglobin.total),L,0.0004,0
+L_D_2614-6 (Methemoglobin/Hemoglobin.total),M,0.9848,0.9967
+L_D_2614-6 (Methemoglobin/Hemoglobin.total),N,0.0043,0.0013
+L_D_2617-9 (Methemoglobin/Hemoglobin.total),H,0.0027,0.0004
+L_D_2617-9 (Methemoglobin/Hemoglobin.total),L,0.0004,0.0001
+L_D_2617-9 (Methemoglobin/Hemoglobin.total),M,0.9673,0.9861
+L_D_2617-9 (Methemoglobin/Hemoglobin.total),N,0.0295,0.0133
+L_D_2703-7 (Oxygen),H,0.0074,0.0026
+L_D_2703-7 (Oxygen),L,0.0047,0.0011
+L_D_2703-7 (Oxygen),M,0.9813,0.9939
+L_D_2703-7 (Oxygen),N,0.0066,0.0025
+L_D_2705-2 (Oxygen),H,0.0731,0.0168
+L_D_2705-2 (Oxygen),L,0.0058,0.001
+L_D_2705-2 (Oxygen),M,0.8573,0.9716
+L_D_2705-2 (Oxygen),N,0.0638,0.0106
+L_D_2711-0 (Oxygen saturation),H,0.0264,0.0018
+L_D_2711-0 (Oxygen saturation),L,0.0264,0.0043
+L_D_2711-0 (Oxygen saturation),M,0.9207,0.9907
+L_D_2711-0 (Oxygen saturation),N,0.0264,0.0031
+L_D_2714-4 (Oxyhemoglobin/Hemoglobin.total),H,0.0004,0.0001
+L_D_2714-4 (Oxyhemoglobin/Hemoglobin.total),L,0.0019,0.0004
+L_D_2714-4 (Oxyhemoglobin/Hemoglobin.total),M,0.9883,0.9979
+L_D_2714-4 (Oxyhemoglobin/Hemoglobin.total),N,0.0093,0.0015
+L_D_2744-1 (pH),H,0.0023,0.002
+L_D_2744-1 (pH),L,0.0078,0.0017
+L_D_2744-1 (pH),M,0.967,0.9918
+L_D_2744-1 (pH),N,0.0229,0.0045
+L_D_2746-6 (pH),H,0.0241,0.0063
+L_D_2746-6 (pH),L,0.026,0.0046
+L_D_2746-6 (pH),M,0.862,0.9716
+L_D_2746-6 (pH),N,0.0879,0.0175
+L_D_2777-1 (Phosphate),H,0.0093,0.0053
+L_D_2777-1 (Phosphate),L,0.0618,0.0117
+L_D_2777-1 (Phosphate),M,0.7683,0.9062
+L_D_2777-1 (Phosphate),N,0.1606,0.0768
+L_D_2823-3 (Potassium),H,0.0257,0.0063
+L_D_2823-3 (Potassium),L,0.0334,0.0358
+L_D_2823-3 (Potassium),M,0.4926,0.595
+L_D_2823-3 (Potassium),N,0.4483,0.3629
+L_D_2947-0 (Sodium),H,0.0012,0.0004
+L_D_2947-0 (Sodium),L,0.0175,0.0049
+L_D_2947-0 (Sodium),M,0.8884,0.9703
+L_D_2947-0 (Sodium),N,0.0929,0.0245
+L_D_2951-2 (Sodium),H,0.0019,0.0031
+L_D_2951-2 (Sodium),L,0.0739,0.0479
+L_D_2951-2 (Sodium),M,0.5027,0.5955
+L_D_2951-2 (Sodium),N,0.4215,0.3535
+L_D_2965-2 (Specific gravity),H,0.0074,0.0051
+L_D_2965-2 (Specific gravity),L,0.0027,0.0064
+L_D_2965-2 (Specific gravity),M,0.7558,0.8644
+L_D_2965-2 (Specific gravity),N,0.2341,0.1241
+L_D_30313-1 (Hemoglobin),H,0.0008,0.0002
+L_D_30313-1 (Hemoglobin),L,0.0093,0.0018
+L_D_30313-1 (Hemoglobin),M,0.9848,0.9975
+L_D_30313-1 (Hemoglobin),N,0.0051,0.0004
+L_D_3040-3 (Triacylglycerol lipase),H,0.0054,0.0061
+L_D_3040-3 (Triacylglycerol lipase),L,0.0198,0.0224
+L_D_3040-3 (Triacylglycerol lipase),M,0.9421,0.8975
+L_D_3040-3 (Triacylglycerol lipase),N,0.0327,0.0741
+L_D_3094-0 (Urea nitrogen),H,0.0385,0.0409
+L_D_3094-0 (Urea nitrogen),L,0.0432,0.0256
+L_D_3094-0 (Urea nitrogen),M,0.486,0.5915
+L_D_3094-0 (Urea nitrogen),N,0.4323,0.342
+L_D_32623-1 (Platelet mean volume),H,0.0124,0.0104
+L_D_32623-1 (Platelet mean volume),L,0.0183,0.0118
+L_D_32623-1 (Platelet mean volume),M,0.4938,0.5781
+L_D_32623-1 (Platelet mean volume),N,0.4755,0.3997
+L_D_32693-4 (Lactate),H,0.0303,0.0128
+L_D_32693-4 (Lactate),L,0.0004,0.0005
+L_D_32693-4 (Lactate),M,0.8468,0.9351
+L_D_32693-4 (Lactate),N,0.1225,0.0515
+L_D_33037-3 (Anion gap),H,0.0253,0.0458
+L_D_33037-3 (Anion gap),L,0.1446,0.0186
+L_D_33037-3 (Anion gap),M,0.4938,0.5983
+L_D_33037-3 (Anion gap),N,0.3363,0.3374
+L_D_38483-4 (Creatinine),H,0.0039,0.0055
+L_D_38483-4 (Creatinine),L,0.0012,0.0009
+L_D_38483-4 (Creatinine),M,0.9879,0.9682
+L_D_38483-4 (Creatinine),N,0.007,0.0255
+L_D_4049-3 (Theophylline),H,0.0008,0
+L_D_4049-3 (Theophylline),L,0.0023,0.0002
+L_D_4049-3 (Theophylline),M,0.9856,0.9996
+L_D_4049-3 (Theophylline),N,0.0113,0.0002
+L_D_4092-3 (Vancomycin^trough),H,0.0066,0.0014
+L_D_4092-3 (Vancomycin^trough),L,0.0144,0.0017
+L_D_4092-3 (Vancomycin^trough),M,0.9432,0.9901
+L_D_4092-3 (Vancomycin^trough),N,0.0358,0.0068
+L_D_4544-3 (Hematocrit),H,0.026,0.0187
+L_D_4544-3 (Hematocrit),L,0.1547,0.1263
+L_D_4544-3 (Hematocrit),M,0.4829,0.5689
+L_D_4544-3 (Hematocrit),N,0.3363,0.2862
+L_D_50560-2 (pH),H,0.0012,0.0025
+L_D_50560-2 (pH),L,0.0004,0
+L_D_50560-2 (pH),M,0.9821,0.9421
+L_D_50560-2 (pH),N,0.0163,0.0554
+L_D_55782-7 (Hemoglobin),H,0.0008,0.0005
+L_D_55782-7 (Hemoglobin),L,0.0148,0.0063
+L_D_55782-7 (Hemoglobin),M,0.9666,0.9858
+L_D_55782-7 (Hemoglobin),N,0.0179,0.0074
+L_D_5803-2 (pH),H,0.0093,0.0054
+L_D_5803-2 (pH),L,0.0004,0
+L_D_5803-2 (pH),M,0.7333,0.8176
+L_D_5803-2 (pH),N,0.257,0.177
+L_D_5821-4 (Leukocytes),H,0.021,0.0222
+L_D_5821-4 (Leukocytes),L,0.0004,0
+L_D_5821-4 (Leukocytes),M,0.9195,0.9452
+L_D_5821-4 (Leukocytes),N,0.0591,0.0326
+L_D_5905-5 (Monocytes/100 leukocytes),H,0.1112,0.0243
+L_D_5905-5 (Monocytes/100 leukocytes),L,0.0109,0.0055
+L_D_5905-5 (Monocytes/100 leukocytes),M,0.6734,0.7618
+L_D_5905-5 (Monocytes/100 leukocytes),N,0.2045,0.2084
+L_D_6298-4 (Potassium),H,0.0128,0.0022
+L_D_6298-4 (Potassium),L,0.0144,0.0039
+L_D_6298-4 (Potassium),M,0.888,0.9732
+L_D_6298-4 (Potassium),N,0.0848,0.0208
+L_D_6301-6 (Coagulation tissue factor induced.INR),H,0.0377,0.0326
+L_D_6301-6 (Coagulation tissue factor induced.INR),L,0.0004,0.0002
+L_D_6301-6 (Coagulation tissue factor induced.INR),M,0.8701,0.8382
+L_D_6301-6 (Coagulation tissue factor induced.INR),N,0.0918,0.129
+L_D_6690-2 (Leukocytes),H,0.0428,0.0564
+L_D_6690-2 (Leukocytes),L,0.0548,0.016
+L_D_6690-2 (Leukocytes),M,0.4821,0.5703
+L_D_6690-2 (Leukocytes),N,0.4203,0.3572
+L_D_704-7 (Basophils),H,0.0467,0.0902
+L_D_704-7 (Basophils),L,0.0008,0.0002
+L_D_704-7 (Basophils),M,0.9265,0.8508
+L_D_704-7 (Basophils),N,0.026,0.0588
+L_D_711-2 (Eosinophils),H,0.0078,0.0112
+L_D_711-2 (Eosinophils),L,0.0548,0.0039
+L_D_711-2 (Eosinophils),M,0.7247,0.7235
+L_D_711-2 (Eosinophils),N,0.2127,0.2615
+L_D_718-7 (Hemoglobin),H,0.0206,0.0148
+L_D_718-7 (Hemoglobin),L,0.161,0.1349
+L_D_718-7 (Hemoglobin),M,0.4883,0.5732
+L_D_718-7 (Hemoglobin),N,0.3301,0.277
+L_D_731-0 (Lymphocytes),H,0.0039,0.0071
+L_D_731-0 (Lymphocytes),L,0.1897,0.047
+L_D_731-0 (Lymphocytes),M,0.5575,0.6564
+L_D_731-0 (Lymphocytes),N,0.2488,0.2895
+L_D_736-9 (Lymphocytes/100 leukocytes),H,0.0206,0.0171
+L_D_736-9 (Lymphocytes/100 leukocytes),L,0.2146,0.0846
+L_D_736-9 (Lymphocytes/100 leukocytes),M,0.5397,0.6431
+L_D_736-9 (Lymphocytes/100 leukocytes),N,0.2251,0.2552
+L_D_742-7 (Monocytes),H,0.0976,0.0448
+L_D_742-7 (Monocytes),L,0.0167,0.0111
+L_D_742-7 (Monocytes),M,0.5661,0.6729
+L_D_742-7 (Monocytes),N,0.3196,0.2712
+L_D_751-8 (Neutrophils),H,0.0743,0.0563
+L_D_751-8 (Neutrophils),L,0.0299,0.0172
+L_D_751-8 (Neutrophils),M,0.5537,0.65
+L_D_751-8 (Neutrophils),N,0.3421,0.2765
+L_D_764-1 (Neutrophils.band form/100 leukocytes),H,0.0128,0.0045
+L_D_764-1 (Neutrophils.band form/100 leukocytes),L,0.0229,0.0017
+L_D_764-1 (Neutrophils.band form/100 leukocytes),M,0.9207,0.9766
+L_D_764-1 (Neutrophils.band form/100 leukocytes),N,0.0435,0.0172
+L_D_770-8 (Neutrophils/100 leukocytes),H,0.203,0.0692
+L_D_770-8 (Neutrophils/100 leukocytes),L,0.0167,0.0121
+L_D_770-8 (Neutrophils/100 leukocytes),M,0.6353,0.7428
+L_D_770-8 (Neutrophils/100 leukocytes),N,0.145,0.176
+L_D_777-3 (Platelets),H,0.0603,0.0258
+L_D_777-3 (Platelets),L,0.0747,0.043
+L_D_777-3 (Platelets),M,0.4806,0.5683
+L_D_777-3 (Platelets),N,0.3845,0.363
+L_D_785-6 (Erythrocyte mean corpuscular hemoglobin),H,0.0245,0.0276
+L_D_785-6 (Erythrocyte mean corpuscular hemoglobin),L,0.1283,0.074
+L_D_785-6 (Erythrocyte mean corpuscular hemoglobin),M,0.4848,0.5703
+L_D_785-6 (Erythrocyte mean corpuscular hemoglobin),N,0.3624,0.328
+L_D_786-4 (Erythrocyte mean corpuscular hemoglobin concentration),H,0.0128,0.0069
+L_D_786-4 (Erythrocyte mean corpuscular hemoglobin concentration),L,0.0572,0.0629
+L_D_786-4 (Erythrocyte mean corpuscular hemoglobin concentration),M,0.4852,0.5738
+L_D_786-4 (Erythrocyte mean corpuscular hemoglobin concentration),N,0.4448,0.3564
+L_D_787-2 (Erythrocyte mean corpuscular volume),H,0.0381,0.0277
+L_D_787-2 (Erythrocyte mean corpuscular volume),L,0.0653,0.0523
+L_D_787-2 (Erythrocyte mean corpuscular volume),M,0.4806,0.5682
+L_D_787-2 (Erythrocyte mean corpuscular volume),N,0.416,0.3518
+L_D_788-0 (Erythrocyte distribution width),H,0.1633,0.1226
+L_D_788-0 (Erythrocyte distribution width),L,0.0004,0.0008
+L_D_788-0 (Erythrocyte distribution width),M,0.4837,0.5715
+L_D_788-0 (Erythrocyte distribution width),N,0.3526,0.3051
+L_D_789-8 (Erythrocytes),H,0.028,0.0254
+L_D_789-8 (Erythrocytes),L,0.1007,0.1006
+L_D_789-8 (Erythrocytes),M,0.4817,0.5685
+L_D_789-8 (Erythrocytes),N,0.3896,0.3055

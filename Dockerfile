@@ -6,32 +6,23 @@ ENV LANG=en_US.UTF-8
 
 RUN apt-get update && \
   apt-get upgrade -y && \
-  apt-get install -q -y openjdk-8-jdk python3-pip wget unzip maven inotify-tools
+  apt-get install -q -y openjdk-21-jdk python3-pip wget unzip maven inotify-tools nginx vim python3-numpy python3-matplotlib python3-watchdog
 
-# Install MetaMapLite
-RUN mkdir /opt/metamaplite
-RUN mkdir /opt/metamaplite/data
-RUN mkdir /opt/metamaplite/public_mm_lite
-RUN mkdir /opt/metamaplite/inbox
-RUN mkdir /opt/metamaplite/outbox
-RUN mkdir /opt/metamaplite/error
+# build metamap lite
+COPY ./metamap_install_files /opt/metamap_install_files
+RUN cd /opt && \
+    unzip /opt/metamap_install_files/public_mm_lite_3.6.2rc8_binaryonly.zip && \
+    unzip /opt/metamap_install_files/public_mm_data_lite_usabase_2022aa.zip && \
+    unzip /opt/metamap_install_files/public_mm_data_lite_usabase_2022ab.zip
 
-RUN cd /opt/metamaplite
-RUN wget https://github.com/LHNCBC/metamaplite/archive/refs/tags/RELEASE3.6.2rc8.zip
-RUN unzip RELEASE3.6.2rc8.zip
-RUN rm RELEASE3.6.2rc8.zip
-RUN mv metamaplite-RELEASE3.6.2rc8
-RUN mvn clean install
-
-
-# Install CDS
-
-# Install PDS
-
-# Install nginx webserver to view pipeline
-RUN sudo apt install nginx \
-    && sudo systemctl enable nginx \
-    && sudo systemctl start nginx
+# copy source code to docker
+copy ./brat2csv /opt/brat2csv
+COPY ./cds /opt/cds
+COPY ./com /opt/com
+COPY ./models /opt/models
+COPY ./PDS /opt/PDS
 
 
+WORKDIR /opt/com
 
+#CMD ["python3", "file_watcher.py"]

@@ -1,0 +1,63 @@
+--- Discharge Report #5 ---
+Emergency Department Discharge Summary
+
+Patient Name: Sophia N. Johnson
+MRN: 3746519283
+Date of Birth: 1995-07-30
+Date of Visit: 06/05/2025
+Time of Visit: 02:11 PM
+Date of Discharge: 06/05/2025
+Time of Discharge: 06:41 PM
+
+Chief Complaint:
+Congestion, cough, wheezing, and mild respiratory distress.
+
+History of Present Illness:
+Patient presented to the ER with nasal congestion, persistent cough, wheezing, and low-grade fever for the past 3 days. Mild shortness of breath, particularly on exertion. No known COVID-19 exposure. Patient has no significant medical history and is a non-smoker.
+
+Vital Signs on Arrival:
+- Temp: 100.6°F
+- BP: 116/74 mmHg
+- HR: 92 bpm
+- RR: 22/min
+- O2 Sat: 97% on room air
+
+Physical Examination:
+- General: Mild distress, alert
+- Lungs: Mild expiratory wheezing, scattered rhonchi
+- Heart: Normal S1/S2, no murmur
+- Abdomen: Soft, non-distended
+- HEENT: Mild nasal congestion
+
+Diagnostics:
+- RSV rapid antigen: Positive
+- COVID-19 antigen: Negative
+- Chest X-ray: Hyperinflation, no infiltrates
+- CBC: Normal limits
+
+Diagnosis:
+- Respiratory Syncytial Virus (RSV) infection (ICD-10: J12.1)
+
+Treatment:
+- Albuterol nebulizer treatment
+- Acetaminophen 650 mg PO
+- Supportive care and fluids
+
+Discharge Medications:
+- Albuterol Inhaler: 2 puffs every 4-6 hours as needed
+- Acetaminophen 500 mg PO q6h PRN
+
+Instructions:
+- Rest, hydration, and supportive measures
+- Monitor for increased breathing difficulty
+- Return to ED if wheezing worsens, high fever persists, or breathing becomes labored
+
+Follow-Up:
+- Follow up with PCP or pediatrician (if child) in 3–5 days
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

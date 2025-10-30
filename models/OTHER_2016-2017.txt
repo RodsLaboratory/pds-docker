@@ -1,0 +1,2671 @@
+===== Class Prior Probabilities =====
+P(OTHER=F) = 0.07246740220661986
+P(OTHER=True) = 0.9275325977933802
+
+===== Conditional Probabilities =====
+P(AGE=Not Mentioned | OTHER=F) = 5.753739930955121E-4
+P(AGE=18-64 | OTHER=F) = 0.2813578826237054
+P(AGE=5-17 | OTHER=F) = 0.2042577675489068
+P(AGE=65+ | OTHER=F) = 0.11680092059838895
+P(AGE=<5 | OTHER=F) = 0.3970080552359033
+P(AGE=Not Mentioned | OTHER=True) = 4.504910352283989E-5
+P(AGE=18-64 | OTHER=True) = 0.5851428056581675
+P(AGE=5-17 | OTHER=True) = 0.15834759888278224
+P(AGE=65+ | OTHER=True) = 0.12420037841246959
+P(AGE=<5 | OTHER=True) = 0.13226416794305793
+P(N_D_RACE=BLACK | OTHER=F) = 0.34349827387802073
+P(N_D_RACE=Not Mentioned | OTHER=F) = 0.0034522439585730723
+P(N_D_RACE=NOT_SPECIFIED | OTHER=F) = 0.014959723820483314
+P(N_D_RACE=OTHER | OTHER=F) = 0.04833141542002301
+P(N_D_RACE=WHITE | OTHER=F) = 0.5897583429228999
+P(N_D_RACE=BLACK | OTHER=True) = 0.38953959816199657
+P(N_D_RACE=Not Mentioned | OTHER=True) = 0.0019821605550049554
+P(N_D_RACE=NOT_SPECIFIED | OTHER=True) = 0.0084692314622939
+P(N_D_RACE=OTHER | OTHER=True) = 0.03698531399225156
+P(N_D_RACE=WHITE | OTHER=True) = 0.563023695828453
+P(Abdominal Pain=Not Mentioned | OTHER=F) = 0.7004608294930875
+P(Abdominal Pain=Negated | OTHER=F) = 0.12960829493087558
+P(Abdominal Pain=Present | OTHER=F) = 0.16993087557603687
+P(Abdominal Pain=Not Mentioned | OTHER=True) = 0.6357001261488556
+P(Abdominal Pain=Negated | OTHER=True) = 0.13160028834024148
+P(Abdominal Pain=Present | OTHER=True) = 0.23269958551090286
+P(Apnea=Not Mentioned | OTHER=F) = 0.9602534562211982
+P(Apnea=Negated | OTHER=F) = 0.004608294930875576
+P(Apnea=Present | OTHER=F) = 0.03513824884792627
+P(Apnea=Not Mentioned | OTHER=True) = 0.9743196972427465
+P(Apnea=Negated | OTHER=True) = 0.0026581366011894036
+P(Apnea=Present | OTHER=True) = 0.023022166156064155
+P(Back Pain=Not Mentioned | OTHER=F) = 0.9130184331797235
+P(Back Pain=Negated | OTHER=F) = 0.014976958525345621
+P(Back Pain=Present | OTHER=F) = 0.07200460829493087
+P(Back Pain=Not Mentioned | OTHER=True) = 0.8160479365651468
+P(Back Pain=Negated | OTHER=True) = 0.03766444404397189
+P(Back Pain=Present | OTHER=True) = 0.14628761939088125
+P(Birth History=Not Mentioned | OTHER=F) = 0.869815668202765
+P(Birth History=Negated | OTHER=F) = 5.76036866359447E-4
+P(Birth History=Present | OTHER=F) = 0.12960829493087558
+P(Birth History=Not Mentioned | OTHER=True) = 0.9757613984501712
+P(Birth History=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Birth History=Present | OTHER=True) = 0.024103442061632726
+P(Chest Pain=Not Mentioned | OTHER=F) = 0.6929723502304147
+P(Chest Pain=Negated | OTHER=F) = 0.17338709677419356
+P(Chest Pain=Present | OTHER=F) = 0.1336405529953917
+P(Chest Pain=Not Mentioned | OTHER=True) = 0.5856911155163093
+P(Chest Pain=Negated | OTHER=True) = 0.24247612182375203
+P(Chest Pain=Present | OTHER=True) = 0.17183276265993871
+P(Constitutional Symptom=Not Mentioned | OTHER=F) = 0.6163594470046083
+P(Constitutional Symptom=Negated | OTHER=F) = 0.005184331797235023
+P(Constitutional Symptom=Present | OTHER=F) = 0.3784562211981567
+P(Constitutional Symptom=Not Mentioned | OTHER=True) = 0.8353757433771851
+P(Constitutional Symptom=Negated | OTHER=True) = 0.0028383492521174987
+P(Constitutional Symptom=Present | OTHER=True) = 0.16178590737069742
+P(Coughing=Not Mentioned | OTHER=F) = 0.30817972350230416
+P(Coughing=Negated | OTHER=F) = 0.07258064516129033
+P(Coughing=Present | OTHER=F) = 0.6192396313364056
+P(Coughing=Not Mentioned | OTHER=True) = 0.7325193728599748
+P(Coughing=Negated | OTHER=True) = 0.13506938187060732
+P(Coughing=Present | OTHER=True) = 0.13241124526941792
+P(Diarrhea=Not Mentioned | OTHER=F) = 0.5714285714285714
+P(Diarrhea=Negated | OTHER=F) = 0.1434331797235023
+P(Diarrhea=Present | OTHER=F) = 0.28513824884792627
+P(Diarrhea=Not Mentioned | OTHER=True) = 0.7381059650387457
+P(Diarrhea=Negated | OTHER=True) = 0.09911695801045234
+P(Diarrhea=Present | OTHER=True) = 0.16277707695080196
+P(Diplopia=Not Mentioned | OTHER=F) = 0.9786866359447005
+P(Diplopia=Negated | OTHER=F) = 0.010944700460829493
+P(Diplopia=Present | OTHER=F) = 0.010368663594470046
+P(Diplopia=Not Mentioned | OTHER=True) = 0.9522887006667868
+P(Diplopia=Negated | OTHER=True) = 0.012299513425842495
+P(Diplopia=Present | OTHER=True) = 0.0354117859073707
+P(Dizziness=Not Mentioned | OTHER=F) = 0.9170506912442397
+P(Dizziness=Negated | OTHER=F) = 0.00576036866359447
+P(Dizziness=Present | OTHER=F) = 0.0771889400921659
+P(Dizziness=Not Mentioned | OTHER=True) = 0.8571814741394846
+P(Dizziness=Negated | OTHER=True) = 0.0195080194629663
+P(Dizziness=Present | OTHER=True) = 0.1233105063975491
+P(Dyspnea=Not Mentioned | OTHER=F) = 0.5679723502304147
+P(Dyspnea=Negated | OTHER=F) = 0.12557603686635946
+P(Dyspnea=Present | OTHER=F) = 0.3064516129032258
+P(Dyspnea=Not Mentioned | OTHER=True) = 0.5608668228509641
+P(Dyspnea=Negated | OTHER=True) = 0.1812488736709317
+P(Dyspnea=Present | OTHER=True) = 0.25788430347810415
+P(Dysuria=Not Mentioned | OTHER=F) = 0.8283410138248848
+P(Dysuria=Negated | OTHER=F) = 0.1175115207373272
+P(Dysuria=Present | OTHER=F) = 0.05414746543778802
+P(Dysuria=Not Mentioned | OTHER=True) = 0.7807713101459722
+P(Dysuria=Negated | OTHER=True) = 0.12979816183096055
+P(Dysuria=Present | OTHER=True) = 0.08943052802306722
+P(Exanthema=Not Mentioned | OTHER=F) = 0.33122119815668205
+P(Exanthema=Negated | OTHER=F) = 0.5685483870967742
+P(Exanthema=Present | OTHER=F) = 0.10023041474654378
+P(Exanthema=Not Mentioned | OTHER=True) = 0.4596323661921067
+P(Exanthema=Negated | OTHER=True) = 0.45647864480086503
+P(Exanthema=Present | OTHER=True) = 0.08388898900702829
+P(Fatigue=Not Mentioned | OTHER=F) = 0.8784562211981567
+P(Fatigue=Negated | OTHER=F) = 0.0069124423963133645
+P(Fatigue=Present | OTHER=F) = 0.11463133640552996
+P(Fatigue=Not Mentioned | OTHER=True) = 0.9407550910073887
+P(Fatigue=Negated | OTHER=True) = 0.01784105244188142
+P(Fatigue=Present | OTHER=True) = 0.04140385655072986
+P(Fever=Not Mentioned | OTHER=F) = 0.1445852534562212
+P(Fever=Negated | OTHER=F) = 0.17511520737327188
+P(Fever=Present | OTHER=F) = 0.6802995391705069
+P(Fever=Not Mentioned | OTHER=True) = 0.4081366011894035
+P(Fever=Negated | OTHER=True) = 0.3647954586411966
+P(Fever=Present | OTHER=True) = 0.22706794016939988
+P(Foot pain=Not Mentioned | OTHER=F) = 0.9988479262672811
+P(Foot pain=Negated | OTHER=F) = 5.76036866359447E-4
+P(Foot pain=Present | OTHER=F) = 5.76036866359447E-4
+P(Foot pain=Not Mentioned | OTHER=True) = 0.9823842133717787
+P(Foot pain=Negated | OTHER=True) = 5.406379527842854E-4
+P(Foot pain=Present | OTHER=True) = 0.017075148675437017
+P(Glycosuria=Not Mentioned | OTHER=F) = 0.8438940092165899
+P(Glycosuria=Negated | OTHER=F) = 5.76036866359447E-4
+P(Glycosuria=Present | OTHER=F) = 0.15552995391705068
+P(Glycosuria=Not Mentioned | OTHER=True) = 0.8962425662281492
+P(Glycosuria=Negated | OTHER=True) = 3.153721391241665E-4
+P(Glycosuria=Present | OTHER=True) = 0.10344206163272662
+P(Headache=Not Mentioned | OTHER=F) = 0.7488479262672811
+P(Headache=Negated | OTHER=F) = 0.09158986175115208
+P(Headache=Present | OTHER=F) = 0.1595622119815668
+P(Headache=Not Mentioned | OTHER=True) = 0.7174716165074788
+P(Headache=Negated | OTHER=True) = 0.14191746260587493
+P(Headache=Present | OTHER=True) = 0.14061092088664623
+P(Heart murmur=Not Mentioned | OTHER=F) = 0.30702764976958524
+P(Heart murmur=Negated | OTHER=F) = 0.6722350230414746
+P(Heart murmur=Present | OTHER=F) = 0.020737327188940093
+P(Heart murmur=Not Mentioned | OTHER=True) = 0.39349432330149575
+P(Heart murmur=Negated | OTHER=True) = 0.5765453234817084
+P(Heart murmur=Present | OTHER=True) = 0.02996035321679582
+P(Hemoglobin concentration result=Not Mentioned | OTHER=F) = 0.695852534562212
+P(Hemoglobin concentration result=Negated | OTHER=F) = 5.76036866359447E-4
+P(Hemoglobin concentration result=Present | OTHER=F) = 0.30357142857142855
+P(Hemoglobin concentration result=Not Mentioned | OTHER=True) = 0.7825283834925212
+P(Hemoglobin concentration result=Negated | OTHER=True) = 1.8021265092809516E-4
+P(Hemoglobin concentration result=Present | OTHER=True) = 0.21729140385655074
+P(Hepatosplenomegaly=Not Mentioned | OTHER=F) = 0.9487327188940092
+P(Hepatosplenomegaly=Negated | OTHER=F) = 0.04435483870967742
+P(Hepatosplenomegaly=Present | OTHER=F) = 0.0069124423963133645
+P(Hepatosplenomegaly=Not Mentioned | OTHER=True) = 0.9013786267795999
+P(Hepatosplenomegaly=Negated | OTHER=True) = 0.0935754189944134
+P(Hepatosplenomegaly=Present | OTHER=True) = 0.005045954225986664
+P(Hypercapnia=Not Mentioned | OTHER=F) = 0.9855990783410138
+P(Hypercapnia=Negated | OTHER=F) = 0.001152073732718894
+P(Hypercapnia=Present | OTHER=F) = 0.013248847926267281
+P(Hypercapnia=Not Mentioned | OTHER=True) = 0.9985582987925753
+P(Hypercapnia=Negated | OTHER=True) = 4.054784645882141E-4
+P(Hypercapnia=Present | OTHER=True) = 0.001036222742836547
+P(Hypesthesia=Not Mentioned | OTHER=F) = 0.9326036866359447
+P(Hypesthesia=Negated | OTHER=F) = 0.03513824884792627
+P(Hypesthesia=Present | OTHER=F) = 0.03225806451612903
+P(Hypesthesia=Not Mentioned | OTHER=True) = 0.825869526040728
+P(Hypesthesia=Negated | OTHER=True) = 0.08879978374481888
+P(Hypesthesia=Present | OTHER=True) = 0.08533069021445305
+P(Infant, Premature=Not Mentioned | OTHER=F) = 0.9861751152073732
+P(Infant, Premature=Negated | OTHER=F) = 5.76036866359447E-4
+P(Infant, Premature=Present | OTHER=F) = 0.013248847926267281
+P(Infant, Premature=Not Mentioned | OTHER=True) = 0.997972607677059
+P(Infant, Premature=Negated | OTHER=True) = 9.010632546404758E-5
+P(Infant, Premature=Present | OTHER=True) = 0.0019372859974770228
+P(Icterus=Not Mentioned | OTHER=F) = 0.7390552995391705
+P(Icterus=Negated | OTHER=F) = 0.09158986175115208
+P(Icterus=Present | OTHER=F) = 0.1693548387096774
+P(Icterus=Not Mentioned | OTHER=True) = 0.7353126689493602
+P(Icterus=Negated | OTHER=True) = 0.04771129933321319
+P(Icterus=Present | OTHER=True) = 0.21697603171742658
+P(Lethargy=Not Mentioned | OTHER=F) = 0.9470046082949308
+P(Lethargy=Negated | OTHER=F) = 0.013824884792626729
+P(Lethargy=Present | OTHER=F) = 0.03917050691244239
+P(Lethargy=Not Mentioned | OTHER=True) = 0.9808524058388899
+P(Lethargy=Negated | OTHER=True) = 0.004099837808614165
+P(Lethargy=Present | OTHER=True) = 0.015047756352495945
+P(Low Back Pain=Not Mentioned | OTHER=F) = 0.9902073732718893
+P(Low Back Pain=Negated | OTHER=F) = 5.76036866359447E-4
+P(Low Back Pain=Present | OTHER=F) = 0.009216589861751152
+P(Low Back Pain=Not Mentioned | OTHER=True) = 0.9637322040007209
+P(Low Back Pain=Negated | OTHER=True) = 6.30744278248333E-4
+P(Low Back Pain=Present | OTHER=True) = 0.035637051721030814
+P(Musculoskeletal Pain=Not Mentioned | OTHER=F) = 0.9976958525345622
+P(Musculoskeletal Pain=Negated | OTHER=F) = 0.0017281105990783411
+P(Musculoskeletal Pain=Present | OTHER=F) = 5.76036866359447E-4
+P(Musculoskeletal Pain=Not Mentioned | OTHER=True) = 0.9908542079653991
+P(Musculoskeletal Pain=Negated | OTHER=True) = 2.2526581366011893E-4
+P(Musculoskeletal Pain=Present | OTHER=True) = 0.00892052622094071
+P(Nasal congestion (finding)=Not Mentioned | OTHER=F) = 0.7188940092165899
+P(Nasal congestion (finding)=Negated | OTHER=F) = 0.038018433179723504
+P(Nasal congestion (finding)=Present | OTHER=F) = 0.24308755760368664
+P(Nasal congestion (finding)=Not Mentioned | OTHER=True) = 0.9385474860335196
+P(Nasal congestion (finding)=Negated | OTHER=True) = 0.03410524418814201
+P(Nasal congestion (finding)=Present | OTHER=True) = 0.02734726977833844
+P(Nausea=Not Mentioned | OTHER=F) = 0.7379032258064516
+P(Nausea=Negated | OTHER=F) = 0.09331797235023041
+P(Nausea=Present | OTHER=F) = 0.16877880184331798
+P(Nausea=Not Mentioned | OTHER=True) = 0.6417823031176788
+P(Nausea=Negated | OTHER=True) = 0.14250315372139125
+P(Nausea=Present | OTHER=True) = 0.2157145431609299
+P(Numbness=Not Mentioned | OTHER=F) = 0.9320276497695853
+P(Numbness=Negated | OTHER=F) = 0.03571428571428571
+P(Numbness=Present | OTHER=F) = 0.03225806451612903
+P(Numbness=Not Mentioned | OTHER=True) = 0.8234366552531988
+P(Numbness=Negated | OTHER=True) = 0.09132276085781221
+P(Numbness=Present | OTHER=True) = 0.085240583888989
+P(Decreased translucency=Not Mentioned | OTHER=F) = 0.9222350230414746
+P(Decreased translucency=Negated | OTHER=F) = 0.002880184331797235
+P(Decreased translucency=Present | OTHER=F) = 0.0748847926267281
+P(Decreased translucency=Not Mentioned | OTHER=True) = 0.9911245269417913
+P(Decreased translucency=Negated | OTHER=True) = 2.703189763921427E-4
+P(Decreased translucency=Present | OTHER=True) = 0.008605154081816543
+P(Pain=Not Mentioned | OTHER=F) = 0.7350230414746544
+P(Pain=Negated | OTHER=F) = 0.05357142857142857
+P(Pain=Present | OTHER=F) = 0.21140552995391704
+P(Pain=Not Mentioned | OTHER=True) = 0.46134438637592357
+P(Pain=Negated | OTHER=True) = 0.10105424400792935
+P(Pain=Present | OTHER=True) = 0.43760136961614704
+P(Pallor=Not Mentioned | OTHER=F) = 0.8905529953917051
+P(Pallor=Negated | OTHER=F) = 0.09216589861751152
+P(Pallor=Present | OTHER=F) = 0.01728110599078341
+P(Pallor=Not Mentioned | OTHER=True) = 0.9427374301675978
+P(Pallor=Negated | OTHER=True) = 0.041944494503514146
+P(Pallor=Present | OTHER=True) = 0.015318075328888087
+P(Palpitations=Not Mentioned | OTHER=F) = 0.9475806451612904
+P(Palpitations=Negated | OTHER=F) = 0.023617511520737326
+P(Palpitations=Present | OTHER=F) = 0.02880184331797235
+P(Palpitations=Not Mentioned | OTHER=True) = 0.8796630023427645
+P(Palpitations=Negated | OTHER=True) = 0.052667147233735806
+P(Palpitations=Present | OTHER=True) = 0.06766985042349973
+P(Rales=Not Mentioned | OTHER=F) = 0.8289170506912442
+P(Rales=Negated | OTHER=F) = 0.032834101382488476
+P(Rales=Present | OTHER=F) = 0.1382488479262673
+P(Rales=Not Mentioned | OTHER=True) = 0.8811948098756532
+P(Rales=Negated | OTHER=True) = 0.01806631825554154
+P(Rales=Present | OTHER=True) = 0.10073887186880519
+P(Seizures=Not Mentioned | OTHER=F) = 0.8997695852534562
+P(Seizures=Negated | OTHER=F) = 0.0293778801843318
+P(Seizures=Present | OTHER=F) = 0.07085253456221198
+P(Seizures=Not Mentioned | OTHER=True) = 0.9281852586051541
+P(Seizures=Negated | OTHER=True) = 0.01094791854388178
+P(Seizures=Present | OTHER=True) = 0.06086682285096414
+P(Signs and Symptoms, Respiratory=Not Mentioned | OTHER=F) = 0.6059907834101382
+P(Signs and Symptoms, Respiratory=Negated | OTHER=F) = 0.002880184331797235
+P(Signs and Symptoms, Respiratory=Present | OTHER=F) = 0.3911290322580645
+P(Signs and Symptoms, Respiratory=Not Mentioned | OTHER=True) = 0.8580825373941251
+P(Signs and Symptoms, Respiratory=Negated | OTHER=True) = 0.0019823391602090466
+P(Signs and Symptoms, Respiratory=Present | OTHER=True) = 0.1399351234456659
+P(Tachycardia=Not Mentioned | OTHER=F) = 0.8323732718894009
+P(Tachycardia=Negated | OTHER=F) = 0.013824884792626729
+P(Tachycardia=Present | OTHER=F) = 0.15380184331797234
+P(Tachycardia=Not Mentioned | OTHER=True) = 0.9381870607316634
+P(Tachycardia=Negated | OTHER=True) = 0.016129032258064516
+P(Tachycardia=Present | OTHER=True) = 0.04568390701027212
+P(Toothache=Not Mentioned | OTHER=F) = 0.9965437788018433
+P(Toothache=Negated | OTHER=F) = 5.76036866359447E-4
+P(Toothache=Present | OTHER=F) = 0.002880184331797235
+P(Toothache=Not Mentioned | OTHER=True) = 0.9795909172823932
+P(Toothache=Negated | OTHER=True) = 0.0013065417192286899
+P(Toothache=Present | OTHER=True) = 0.019102540998378086
+P(Unconscious State=Not Mentioned | OTHER=F) = 0.9844470046082949
+P(Unconscious State=Negated | OTHER=F) = 0.006336405529953917
+P(Unconscious State=Present | OTHER=F) = 0.009216589861751152
+P(Unconscious State=Not Mentioned | OTHER=True) = 0.9442241845377546
+P(Unconscious State=Negated | OTHER=True) = 0.02887907731122725
+P(Unconscious State=Present | OTHER=True) = 0.0268967381510182
+P(Vertigo=Not Mentioned | OTHER=F) = 0.9389400921658986
+P(Vertigo=Negated | OTHER=F) = 0.004608294930875576
+P(Vertigo=Present | OTHER=F) = 0.056451612903225805
+P(Vertigo=Not Mentioned | OTHER=True) = 0.8897549107947378
+P(Vertigo=Negated | OTHER=True) = 0.01558839430528023
+P(Vertigo=Present | OTHER=True) = 0.09465669489998198
+P(Vomiting=Not Mentioned | OTHER=F) = 0.5097926267281107
+P(Vomiting=Negated | OTHER=F) = 0.2304147465437788
+P(Vomiting=Present | OTHER=F) = 0.2597926267281106
+P(Vomiting=Not Mentioned | OTHER=True) = 0.677959992791494
+P(Vomiting=Negated | OTHER=True) = 0.17246350693818707
+P(Vomiting=Present | OTHER=True) = 0.14957650027031896
+P(Wheezing=Not Mentioned | OTHER=F) = 0.6854838709677419
+P(Wheezing=Negated | OTHER=F) = 0.11117511520737328
+P(Wheezing=Present | OTHER=F) = 0.2033410138248848
+P(Wheezing=Not Mentioned | OTHER=True) = 0.8593890791133537
+P(Wheezing=Negated | OTHER=True) = 0.09159307983420437
+P(Wheezing=Present | OTHER=True) = 0.049017841052441884
+P(Immunocompromised Host=Not Mentioned | OTHER=F) = 0.9775345622119815
+P(Immunocompromised Host=Negated | OTHER=F) = 0.006336405529953917
+P(Immunocompromised Host=Present | OTHER=F) = 0.016129032258064516
+P(Immunocompromised Host=Not Mentioned | OTHER=True) = 0.9944584609839611
+P(Immunocompromised Host=Negated | OTHER=True) = 0.0011263290683005947
+P(Immunocompromised Host=Present | OTHER=True) = 0.004415209947738331
+P(Chills=Not Mentioned | OTHER=F) = 0.7690092165898618
+P(Chills=Negated | OTHER=F) = 0.04435483870967742
+P(Chills=Present | OTHER=F) = 0.18663594470046083
+P(Chills=Not Mentioned | OTHER=True) = 0.6356100198233916
+P(Chills=Negated | OTHER=True) = 0.11038024869345828
+P(Chills=Present | OTHER=True) = 0.2540097314831501
+P(Falls=Not Mentioned | OTHER=F) = 0.9527649769585254
+P(Falls=Negated | OTHER=F) = 0.0017281105990783411
+P(Falls=Present | OTHER=F) = 0.04550691244239631
+P(Falls=Not Mentioned | OTHER=True) = 0.9047576139845017
+P(Falls=Negated | OTHER=True) = 0.007073346548927734
+P(Falls=Present | OTHER=True) = 0.08816903946657055
+P(Present=Not Mentioned | OTHER=F) = 0.6883640552995391
+P(Present=Negated | OTHER=F) = 0.002880184331797235
+P(Present=Present | OTHER=F) = 0.3087557603686636
+P(Present=Not Mentioned | OTHER=True) = 0.7882501351594882
+P(Present=Negated | OTHER=True) = 0.004460263110470355
+P(Present=Present | OTHER=True) = 0.20728960173004146
+P(Neck stiffness=Not Mentioned | OTHER=F) = 0.9671658986175116
+P(Neck stiffness=Negated | OTHER=F) = 0.019585253456221197
+P(Neck stiffness=Present | OTHER=F) = 0.013248847926267281
+P(Neck stiffness=Not Mentioned | OTHER=True) = 0.9864840511803928
+P(Neck stiffness=Negated | OTHER=True) = 0.005541539016038926
+P(Neck stiffness=Present | OTHER=True) = 0.00797440980356821
+P(Congestion of nasal sinus=Not Mentioned | OTHER=F) = 0.9798387096774194
+P(Congestion of nasal sinus=Negated | OTHER=F) = 0.001152073732718894
+P(Congestion of nasal sinus=Present | OTHER=F) = 0.019009216589861752
+P(Congestion of nasal sinus=Not Mentioned | OTHER=True) = 0.9954946837267976
+P(Congestion of nasal sinus=Negated | OTHER=True) = 3.153721391241665E-4
+P(Congestion of nasal sinus=Present | OTHER=True) = 0.004189944134078212
+P(Abnormal=Not Mentioned | OTHER=F) = 0.8669354838709677
+P(Abnormal=Negated | OTHER=F) = 0.008064516129032258
+P(Abnormal=Present | OTHER=F) = 0.125
+P(Abnormal=Not Mentioned | OTHER=True) = 0.9558479005226167
+P(Abnormal=Negated | OTHER=True) = 0.006217336457019283
+P(Abnormal=Present | OTHER=True) = 0.037934763020364026
+P(Lesion=Not Mentioned | OTHER=F) = 0.8824884792626728
+P(Lesion=Negated | OTHER=F) = 0.04262672811059908
+P(Lesion=Present | OTHER=F) = 0.0748847926267281
+P(Lesion=Not Mentioned | OTHER=True) = 0.9016939989187241
+P(Lesion=Negated | OTHER=True) = 0.024779239502613085
+P(Lesion=Present | OTHER=True) = 0.07352676157866282
+P(Illness (finding)=Not Mentioned | OTHER=F) = 0.636520737327189
+P(Illness (finding)=Negated | OTHER=F) = 0.05357142857142857
+P(Illness (finding)=Present | OTHER=F) = 0.3099078341013825
+P(Illness (finding)=Not Mentioned | OTHER=True) = 0.8841232654532348
+P(Illness (finding)=Negated | OTHER=True) = 0.01986844476482249
+P(Illness (finding)=Present | OTHER=True) = 0.09600828978194269
+P(Malaise=Not Mentioned | OTHER=F) = 0.8150921658986175
+P(Malaise=Negated | OTHER=F) = 0.010368663594470046
+P(Malaise=Present | OTHER=F) = 0.17453917050691245
+P(Malaise=Not Mentioned | OTHER=True) = 0.9370156785006307
+P(Malaise=Negated | OTHER=True) = 0.014462065236979635
+P(Malaise=Present | OTHER=True) = 0.04852225626238962
+P(Asymptomatic=Not Mentioned | OTHER=F) = 0.993663594470046
+P(Asymptomatic=Negated | OTHER=F) = 5.76036866359447E-4
+P(Asymptomatic=Present | OTHER=F) = 0.00576036866359447
+P(Asymptomatic=Not Mentioned | OTHER=True) = 0.9732384213371779
+P(Asymptomatic=Negated | OTHER=True) = 5.406379527842854E-4
+P(Asymptomatic=Present | OTHER=True) = 0.026220940710037846
+P(Myalgia=Not Mentioned | OTHER=F) = 0.8248847926267281
+P(Myalgia=Negated | OTHER=F) = 0.02304147465437788
+P(Myalgia=Present | OTHER=F) = 0.15207373271889402
+P(Myalgia=Not Mentioned | OTHER=True) = 0.924130473959272
+P(Myalgia=Negated | OTHER=True) = 0.04140385655072986
+P(Myalgia=Present | OTHER=True) = 0.0344656694899982
+P(Gait normal=Not Mentioned | OTHER=F) = 0.9579493087557603
+P(Gait normal=Negated | OTHER=F) = 5.76036866359447E-4
+P(Gait normal=Present | OTHER=F) = 0.041474654377880185
+P(Gait normal=Not Mentioned | OTHER=True) = 0.9121913858352856
+P(Gait normal=Negated | OTHER=True) = 4.505316273202379E-5
+P(Gait normal=Present | OTHER=True) = 0.08776356100198233
+P(Knee pain=Not Mentioned | OTHER=F) = 0.9953917050691244
+P(Knee pain=Negated | OTHER=F) = 5.76036866359447E-4
+P(Knee pain=Present | OTHER=F) = 0.004032258064516129
+P(Knee pain=Not Mentioned | OTHER=True) = 0.9746801225446027
+P(Knee pain=Negated | OTHER=True) = 0.0013515948819607137
+P(Knee pain=Present | OTHER=True) = 0.023968282573436656
+P(Tachypnea=Not Mentioned | OTHER=F) = 0.8404377880184332
+P(Tachypnea=Negated | OTHER=F) = 0.016705069124423964
+P(Tachypnea=Present | OTHER=F) = 0.14285714285714285
+P(Tachypnea=Not Mentioned | OTHER=True) = 0.9730131555235177
+P(Tachypnea=Negated | OTHER=True) = 0.009416111010992972
+P(Tachypnea=Present | OTHER=True) = 0.017570733465489277
+P(Expiratory wheezing=Not Mentioned | OTHER=F) = 0.9245391705069125
+P(Expiratory wheezing=Negated | OTHER=F) = 0.0017281105990783411
+P(Expiratory wheezing=Present | OTHER=F) = 0.07373271889400922
+P(Expiratory wheezing=Not Mentioned | OTHER=True) = 0.9863488916921967
+P(Expiratory wheezing=Negated | OTHER=True) = 9.010632546404758E-5
+P(Expiratory wheezing=Present | OTHER=True) = 0.013561001982339161
+P(Diaphragmatic breathing=Not Mentioned | OTHER=F) = 0.9930875576036866
+P(Diaphragmatic breathing=Negated | OTHER=F) = 5.76036866359447E-4
+P(Diaphragmatic breathing=Present | OTHER=F) = 0.006336405529953917
+P(Diaphragmatic breathing=Not Mentioned | OTHER=True) = 0.9996395746981438
+P(Diaphragmatic breathing=Negated | OTHER=True) = 9.010632546404758E-5
+P(Diaphragmatic breathing=Present | OTHER=True) = 2.703189763921427E-4
+P(Decrease in appetite=Not Mentioned | OTHER=F) = 0.9740783410138248
+P(Decrease in appetite=Negated | OTHER=F) = 5.76036866359447E-4
+P(Decrease in appetite=Present | OTHER=F) = 0.02534562211981567
+P(Decrease in appetite=Not Mentioned | OTHER=True) = 0.9950441520994774
+P(Decrease in appetite=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Decrease in appetite=Present | OTHER=True) = 0.004820688412326545
+P(Feeding difficulties=Not Mentioned | OTHER=F) = 0.9855990783410138
+P(Feeding difficulties=Negated | OTHER=F) = 0.001152073732718894
+P(Feeding difficulties=Present | OTHER=F) = 0.013248847926267281
+P(Feeding difficulties=Not Mentioned | OTHER=True) = 0.9990088304198955
+P(Feeding difficulties=Negated | OTHER=True) = 9.010632546404758E-5
+P(Feeding difficulties=Present | OTHER=True) = 9.010632546404757E-4
+P(Flight of ideas=Not Mentioned | OTHER=F) = 0.9988479262672811
+P(Flight of ideas=Negated | OTHER=F) = 5.76036866359447E-4
+P(Flight of ideas=Present | OTHER=F) = 5.76036866359447E-4
+P(Flight of ideas=Not Mentioned | OTHER=True) = 0.9882861776896739
+P(Flight of ideas=Negated | OTHER=True) = 0.009190845197332853
+P(Flight of ideas=Present | OTHER=True) = 0.002522977112993332
+P(Hallucinations, Visual=Not Mentioned | OTHER=F) = 0.9988479262672811
+P(Hallucinations, Visual=Negated | OTHER=F) = 5.76036866359447E-4
+P(Hallucinations, Visual=Present | OTHER=F) = 5.76036866359447E-4
+P(Hallucinations, Visual=Not Mentioned | OTHER=True) = 0.9865291043431249
+P(Hallucinations, Visual=Negated | OTHER=True) = 0.009055685709136781
+P(Hallucinations, Visual=Present | OTHER=True) = 0.004415209947738331
+P(Sensory Discomfort=Not Mentioned | OTHER=F) = 0.961405529953917
+P(Sensory Discomfort=Negated | OTHER=F) = 0.004032258064516129
+P(Sensory Discomfort=Present | OTHER=F) = 0.03456221198156682
+P(Sensory Discomfort=Not Mentioned | OTHER=True) = 0.91273202378807
+P(Sensory Discomfort=Negated | OTHER=True) = 0.004685528924130474
+P(Sensory Discomfort=Present | OTHER=True) = 0.0825824472877996
+P(Sore to touch=Not Mentioned | OTHER=F) = 0.4902073732718894
+P(Sore to touch=Negated | OTHER=F) = 0.3024193548387097
+P(Sore to touch=Present | OTHER=F) = 0.2073732718894009
+P(Sore to touch=Not Mentioned | OTHER=True) = 0.37227428365471255
+P(Sore to touch=Negated | OTHER=True) = 0.28680843395206346
+P(Sore to touch=Present | OTHER=True) = 0.340917282393224
+P(Ache=Not Mentioned | OTHER=F) = 0.9164746543778802
+P(Ache=Negated | OTHER=F) = 0.001152073732718894
+P(Ache=Present | OTHER=F) = 0.08237327188940093
+P(Ache=Not Mentioned | OTHER=True) = 0.9870697422959092
+P(Ache=Negated | OTHER=True) = 3.604253018561903E-4
+P(Ache=Present | OTHER=True) = 0.012569832402234637
+P(Radiating pain=Not Mentioned | OTHER=F) = 0.9976958525345622
+P(Radiating pain=Negated | OTHER=F) = 0.001152073732718894
+P(Radiating pain=Present | OTHER=F) = 0.001152073732718894
+P(Radiating pain=Not Mentioned | OTHER=True) = 0.9842313930437917
+P(Radiating pain=Negated | OTHER=True) = 0.001261488556496666
+P(Radiating pain=Present | OTHER=True) = 0.014507118399711659
+P(Level of consciousness=Not Mentioned | OTHER=F) = 0.993663594470046
+P(Level of consciousness=Negated | OTHER=F) = 0.001152073732718894
+P(Level of consciousness=Present | OTHER=F) = 0.005184331797235023
+P(Level of consciousness=Not Mentioned | OTHER=True) = 0.958280771310146
+P(Level of consciousness=Negated | OTHER=True) = 0.021805730762299514
+P(Level of consciousness=Present | OTHER=True) = 0.019913497927554515
+P(Neurologic Symptoms=Not Mentioned | OTHER=F) = 0.7033410138248848
+P(Neurologic Symptoms=Negated | OTHER=F) = 0.0017281105990783411
+P(Neurologic Symptoms=Present | OTHER=F) = 0.29493087557603687
+P(Neurologic Symptoms=Not Mentioned | OTHER=True) = 0.8735808253739412
+P(Neurologic Symptoms=Negated | OTHER=True) = 0.003919625157686069
+P(Neurologic Symptoms=Present | OTHER=True) = 0.12249954946837267
+P(Ankle pain=Not Mentioned | OTHER=F) = 0.9988479262672811
+P(Ankle pain=Negated | OTHER=F) = 5.76036866359447E-4
+P(Ankle pain=Present | OTHER=F) = 5.76036866359447E-4
+P(Ankle pain=Not Mentioned | OTHER=True) = 0.9833303297891512
+P(Ankle pain=Negated | OTHER=True) = 2.703189763921427E-4
+P(Ankle pain=Present | OTHER=True) = 0.01639935123445666
+P(Chest wall tenderness=Not Mentioned | OTHER=F) = 0.940668202764977
+P(Chest wall tenderness=Negated | OTHER=F) = 0.057027649769585256
+P(Chest wall tenderness=Present | OTHER=F) = 0.002304147465437788
+P(Chest wall tenderness=Not Mentioned | OTHER=True) = 0.9048026671472338
+P(Chest wall tenderness=Negated | OTHER=True) = 0.08497026491259686
+P(Chest wall tenderness=Present | OTHER=True) = 0.0102270679401694
+P(Consciousness clear=Not Mentioned | OTHER=F) = 0.3220046082949309
+P(Consciousness clear=Negated | OTHER=F) = 0.002880184331797235
+P(Consciousness clear=Present | OTHER=F) = 0.6751152073732719
+P(Consciousness clear=Not Mentioned | OTHER=True) = 0.15651468733105064
+P(Consciousness clear=Negated | OTHER=True) = 0.003919625157686069
+P(Consciousness clear=Present | OTHER=True) = 0.8395656875112633
+P(Productive Cough=Not Mentioned | OTHER=F) = 0.9153225806451613
+P(Productive Cough=Negated | OTHER=F) = 0.0034562211981566822
+P(Productive Cough=Present | OTHER=F) = 0.08122119815668202
+P(Productive Cough=Not Mentioned | OTHER=True) = 0.984772030996576
+P(Productive Cough=Negated | OTHER=True) = 0.0013966480446927375
+P(Productive Cough=Present | OTHER=True) = 0.013831320958731304
+P(Basilar Rales=Not Mentioned | OTHER=F) = 0.8306451612903226
+P(Basilar Rales=Negated | OTHER=F) = 0.032834101382488476
+P(Basilar Rales=Present | OTHER=F) = 0.13652073732718895
+P(Basilar Rales=Not Mentioned | OTHER=True) = 0.8823661921066859
+P(Basilar Rales=Negated | OTHER=True) = 0.017886105604613445
+P(Basilar Rales=Present | OTHER=True) = 0.09974770228870067
+P(Family history=Not Mentioned | OTHER=F) = 0.35023041474654376
+P(Family history=Negated | OTHER=F) = 0.14746543778801843
+P(Family history=Present | OTHER=F) = 0.5023041474654378
+P(Family history=Not Mentioned | OTHER=True) = 0.5881690394665705
+P(Family history=Negated | OTHER=True) = 0.057893314110650566
+P(Family history=Present | OTHER=True) = 0.35393764642277886
+P(Sore Throat=Not Mentioned | OTHER=F) = 0.7430875576036866
+P(Sore Throat=Negated | OTHER=F) = 0.07776497695852534
+P(Sore Throat=Present | OTHER=F) = 0.179147465437788
+P(Sore Throat=Not Mentioned | OTHER=True) = 0.8723643899801766
+P(Sore Throat=Negated | OTHER=True) = 0.06424581005586592
+P(Sore Throat=Present | OTHER=True) = 0.06338979996395747
+P(Encounter due to family history of asthma=Not Mentioned | OTHER=F) = 0.9902073732718893
+P(Encounter due to family history of asthma=Negated | OTHER=F) = 0.002880184331797235
+P(Encounter due to family history of asthma=Present | OTHER=F) = 0.0069124423963133645
+P(Encounter due to family history of asthma=Not Mentioned | OTHER=True) = 0.998152820327987
+P(Encounter due to family history of asthma=Negated | OTHER=True) = 5.856911155163092E-4
+P(Encounter due to family history of asthma=Present | OTHER=True) = 0.001261488556496666
+P(Nasal Flaring=Not Mentioned | OTHER=F) = 0.9660138248847926
+P(Nasal Flaring=Negated | OTHER=F) = 0.012672811059907835
+P(Nasal Flaring=Present | OTHER=F) = 0.02131336405529954
+P(Nasal Flaring=Not Mentioned | OTHER=True) = 0.9967111191205623
+P(Nasal Flaring=Negated | OTHER=True) = 0.0015768606956208327
+P(Nasal Flaring=Present | OTHER=True) = 0.001712020183816904
+P(Normal bowel sounds=Not Mentioned | OTHER=F) = 0.6071428571428571
+P(Normal bowel sounds=Negated | OTHER=F) = 5.76036866359447E-4
+P(Normal bowel sounds=Present | OTHER=F) = 0.3922811059907834
+P(Normal bowel sounds=Not Mentioned | OTHER=True) = 0.7524779239502614
+P(Normal bowel sounds=Negated | OTHER=True) = 1.8021265092809516E-4
+P(Normal bowel sounds=Present | OTHER=True) = 0.2473418633988106
+P(Absence of sensation=Not Mentioned | OTHER=F) = 0.9907834101382489
+P(Absence of sensation=Negated | OTHER=F) = 5.76036866359447E-4
+P(Absence of sensation=Present | OTHER=F) = 0.008640552995391706
+P(Absence of sensation=Not Mentioned | OTHER=True) = 0.9706703910614525
+P(Absence of sensation=Negated | OTHER=True) = 9.010632546404757E-4
+P(Absence of sensation=Present | OTHER=True) = 0.02842854568390701
+P(MCV - low=Not Mentioned | OTHER=F) = 0.978110599078341
+P(MCV - low=Negated | OTHER=F) = 5.76036866359447E-4
+P(MCV - low=Present | OTHER=F) = 0.02131336405529954
+P(MCV - low=Not Mentioned | OTHER=True) = 0.9951793115876735
+P(MCV - low=Negated | OTHER=True) = 4.505316273202379E-5
+P(MCV - low=Present | OTHER=True) = 0.0047756352495945216
+P(Probable diagnosis=Not Mentioned | OTHER=F) = 0.6808755760368663
+P(Probable diagnosis=Negated | OTHER=F) = 0.008640552995391706
+P(Probable diagnosis=Present | OTHER=F) = 0.31048387096774194
+P(Probable diagnosis=Not Mentioned | OTHER=True) = 0.7472517570733466
+P(Probable diagnosis=Negated | OTHER=True) = 0.006082176968823212
+P(Probable diagnosis=Present | OTHER=True) = 0.24666606595783025
+P(High risk of=Not Mentioned | OTHER=F) = 0.9821428571428571
+P(High risk of=Negated | OTHER=F) = 0.004608294930875576
+P(High risk of=Present | OTHER=F) = 0.013248847926267281
+P(High risk of=Not Mentioned | OTHER=True) = 0.9965759596323662
+P(High risk of=Negated | OTHER=True) = 1.8021265092809516E-4
+P(High risk of=Present | OTHER=True) = 0.003243827716705713
+P(Symmetrical=Not Mentioned | OTHER=F) = 0.6152073732718893
+P(Symmetrical=Negated | OTHER=F) = 5.76036866359447E-4
+P(Symmetrical=Present | OTHER=F) = 0.38421658986175117
+P(Symmetrical=Not Mentioned | OTHER=True) = 0.6865200937105784
+P(Symmetrical=Negated | OTHER=True) = 2.2526581366011893E-4
+P(Symmetrical=Present | OTHER=True) = 0.3132546404757614
+P(Retraction (finding)=Not Mentioned | OTHER=F) = 0.7955069124423964
+P(Retraction (finding)=Negated | OTHER=F) = 0.08352534562211981
+P(Retraction (finding)=Present | OTHER=F) = 0.12096774193548387
+P(Retraction (finding)=Not Mentioned | OTHER=True) = 0.8748423139304379
+P(Retraction (finding)=Negated | OTHER=True) = 0.11321859794557577
+P(Retraction (finding)=Present | OTHER=True) = 0.011939088123986304
+P(Reduced anion gap=Not Mentioned | OTHER=F) = 0.9867511520737328
+P(Reduced anion gap=Negated | OTHER=F) = 5.76036866359447E-4
+P(Reduced anion gap=Present | OTHER=F) = 0.012672811059907835
+P(Reduced anion gap=Not Mentioned | OTHER=True) = 0.9978825013515948
+P(Reduced anion gap=Negated | OTHER=True) = 4.505316273202379E-5
+P(Reduced anion gap=Present | OTHER=True) = 0.002072445485673094
+P(Blurred vision=Not Mentioned | OTHER=F) = 0.9746543778801844
+P(Blurred vision=Negated | OTHER=F) = 0.016129032258064516
+P(Blurred vision=Present | OTHER=F) = 0.009216589861751152
+P(Blurred vision=Not Mentioned | OTHER=True) = 0.9359794557577942
+P(Blurred vision=Negated | OTHER=True) = 0.03861056046134439
+P(Blurred vision=Present | OTHER=True) = 0.025409983780861418
+P(Absence of pain sensation=Not Mentioned | OTHER=F) = 0.9965437788018433
+P(Absence of pain sensation=Negated | OTHER=F) = 5.76036866359447E-4
+P(Absence of pain sensation=Present | OTHER=F) = 0.002880184331797235
+P(Absence of pain sensation=Not Mentioned | OTHER=True) = 0.9766624617048116
+P(Absence of pain sensation=Negated | OTHER=True) = 7.659037664444044E-4
+P(Absence of pain sensation=Present | OTHER=True) = 0.022571634528743917
+P(Exacerbation of asthma=Not Mentioned | OTHER=F) = 0.9602534562211982
+P(Exacerbation of asthma=Negated | OTHER=F) = 0.001152073732718894
+P(Exacerbation of asthma=Present | OTHER=F) = 0.03859447004608295
+P(Exacerbation of asthma=Not Mentioned | OTHER=True) = 0.9861686790412687
+P(Exacerbation of asthma=Negated | OTHER=True) = 2.703189763921427E-4
+P(Exacerbation of asthma=Present | OTHER=True) = 0.013561001982339161
+P(Influenza-like symptoms=Not Mentioned | OTHER=F) = 0.9262672811059908
+P(Influenza-like symptoms=Negated | OTHER=F) = 5.76036866359447E-4
+P(Influenza-like symptoms=Present | OTHER=F) = 0.07315668202764977
+P(Influenza-like symptoms=Not Mentioned | OTHER=True) = 0.9989637772571635
+P(Influenza-like symptoms=Negated | OTHER=True) = 4.505316273202379E-5
+P(Influenza-like symptoms=Present | OTHER=True) = 9.911695801045233E-4
+P(Home oxygen supply=Not Mentioned | OTHER=F) = 0.9798387096774194
+P(Home oxygen supply=Negated | OTHER=F) = 5.76036866359447E-4
+P(Home oxygen supply=Present | OTHER=F) = 0.019585253456221197
+P(Home oxygen supply=Not Mentioned | OTHER=True) = 0.9954496305640655
+P(Home oxygen supply=Negated | OTHER=True) = 4.054784645882141E-4
+P(Home oxygen supply=Present | OTHER=True) = 0.004144890971346188
+P(Feeling suicidal (finding)=Not Mentioned | OTHER=F) = 0.9976958525345622
+P(Feeling suicidal (finding)=Negated | OTHER=F) = 0.001152073732718894
+P(Feeling suicidal (finding)=Present | OTHER=F) = 0.001152073732718894
+P(Feeling suicidal (finding)=Not Mentioned | OTHER=True) = 0.9685078392503154
+P(Feeling suicidal (finding)=Negated | OTHER=True) = 0.010407280591097495
+P(Feeling suicidal (finding)=Present | OTHER=True) = 0.021084880158587133
+P(Facial symmetry=Not Mentioned | OTHER=F) = 0.886520737327189
+P(Facial symmetry=Negated | OTHER=F) = 5.76036866359447E-4
+P(Facial symmetry=Present | OTHER=F) = 0.11290322580645161
+P(Facial symmetry=Not Mentioned | OTHER=True) = 0.8660118940349613
+P(Facial symmetry=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Facial symmetry=Present | OTHER=True) = 0.13385294647684268
+P(Fever symptoms (finding)=Not Mentioned | OTHER=F) = 0.2534562211981567
+P(Fever symptoms (finding)=Negated | OTHER=F) = 0.14573732718894009
+P(Fever symptoms (finding)=Present | OTHER=F) = 0.6008064516129032
+P(Fever symptoms (finding)=Not Mentioned | OTHER=True) = 0.6008289781942693
+P(Fever symptoms (finding)=Negated | OTHER=True) = 0.2667147233735808
+P(Fever symptoms (finding)=Present | OTHER=True) = 0.13245629843214993
+P(Never smoked tobacco=Not Mentioned | OTHER=F) = 0.9418202764976958
+P(Never smoked tobacco=Negated | OTHER=F) = 0.002304147465437788
+P(Never smoked tobacco=Present | OTHER=F) = 0.05587557603686636
+P(Never smoked tobacco=Not Mentioned | OTHER=True) = 0.8935393764642278
+P(Never smoked tobacco=Negated | OTHER=True) = 0.00986664263831321
+P(Never smoked tobacco=Present | OTHER=True) = 0.096593980897459
+P(No obstruction of airway=Not Mentioned | OTHER=F) = 0.8145161290322581
+P(No obstruction of airway=Negated | OTHER=F) = 5.76036866359447E-4
+P(No obstruction of airway=Present | OTHER=F) = 0.18490783410138248
+P(No obstruction of airway=Not Mentioned | OTHER=True) = 0.7013876374121464
+P(No obstruction of airway=Negated | OTHER=True) = 9.010632546404758E-5
+P(No obstruction of airway=Present | OTHER=True) = 0.2985222562623896
+P(Intercostal Retractions=Not Mentioned | OTHER=F) = 0.7816820276497696
+P(Intercostal Retractions=Negated | OTHER=F) = 0.08294930875576037
+P(Intercostal Retractions=Present | OTHER=F) = 0.13536866359447006
+P(Intercostal Retractions=Not Mentioned | OTHER=True) = 0.8747972607677059
+P(Intercostal Retractions=Negated | OTHER=True) = 0.11339881059650388
+P(Intercostal Retractions=Present | OTHER=True) = 0.011803928635790233
+P(Bounding pulse=Not Mentioned | OTHER=F) = 0.9925115207373272
+P(Bounding pulse=Negated | OTHER=F) = 5.76036866359447E-4
+P(Bounding pulse=Present | OTHER=F) = 0.0069124423963133645
+P(Bounding pulse=Not Mentioned | OTHER=True) = 0.9997296810236078
+P(Bounding pulse=Negated | OTHER=True) = 4.505316273202379E-5
+P(Bounding pulse=Present | OTHER=True) = 2.2526581366011893E-4
+P(Peripheral perfusion=Not Mentioned | OTHER=F) = 0.5305299539170507
+P(Peripheral perfusion=Negated | OTHER=F) = 5.76036866359447E-4
+P(Peripheral perfusion=Present | OTHER=F) = 0.46889400921658986
+P(Peripheral perfusion=Not Mentioned | OTHER=True) = 0.7172012975310866
+P(Peripheral perfusion=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Peripheral perfusion=Present | OTHER=True) = 0.2826635429807172
+P(Genitourinary symptoms=Not Mentioned | OTHER=F) = 0.7505760368663594
+P(Genitourinary symptoms=Negated | OTHER=F) = 5.76036866359447E-4
+P(Genitourinary symptoms=Present | OTHER=F) = 0.2488479262672811
+P(Genitourinary symptoms=Not Mentioned | OTHER=True) = 0.9033159127770769
+P(Genitourinary symptoms=Negated | OTHER=True) = 2.2526581366011893E-4
+P(Genitourinary symptoms=Present | OTHER=True) = 0.09645882140926293
+P(Gastrointestinal symptom=Not Mentioned | OTHER=F) = 0.6388248847926268
+P(Gastrointestinal symptom=Negated | OTHER=F) = 5.76036866359447E-4
+P(Gastrointestinal symptom=Present | OTHER=F) = 0.36059907834101385
+P(Gastrointestinal symptom=Not Mentioned | OTHER=True) = 0.8572715804649487
+P(Gastrointestinal symptom=Negated | OTHER=True) = 2.2526581366011893E-4
+P(Gastrointestinal symptom=Present | OTHER=True) = 0.14250315372139125
+P(Inspired fraction of oxygen=Not Mentioned | OTHER=F) = 0.7379032258064516
+P(Inspired fraction of oxygen=Negated | OTHER=F) = 5.76036866359447E-4
+P(Inspired fraction of oxygen=Present | OTHER=F) = 0.26152073732718895
+P(Inspired fraction of oxygen=Not Mentioned | OTHER=True) = 0.5545593800684808
+P(Inspired fraction of oxygen=Negated | OTHER=True) = 6.757974409803568E-4
+P(Inspired fraction of oxygen=Present | OTHER=True) = 0.44476482249053884
+P(Urine screening normal=Not Mentioned | OTHER=F) = 0.9815668202764977
+P(Urine screening normal=Negated | OTHER=F) = 5.76036866359447E-4
+P(Urine screening normal=Present | OTHER=F) = 0.017857142857142856
+P(Urine screening normal=Not Mentioned | OTHER=True) = 0.996125428005046
+P(Urine screening normal=Negated | OTHER=True) = 4.505316273202379E-5
+P(Urine screening normal=Present | OTHER=True) = 0.003829518832222022
+P(Decreasing=Not Mentioned | OTHER=F) = 0.9735023041474654
+P(Decreasing=Negated | OTHER=F) = 0.001152073732718894
+P(Decreasing=Present | OTHER=F) = 0.02534562211981567
+P(Decreasing=Not Mentioned | OTHER=True) = 0.9921156965218958
+P(Decreasing=Negated | OTHER=True) = 7.208506037123806E-4
+P(Decreasing=Present | OTHER=True) = 0.007163452874391782
+P(Homicidal thoughts=Not Mentioned | OTHER=F) = 0.9982718894009217
+P(Homicidal thoughts=Negated | OTHER=F) = 0.001152073732718894
+P(Homicidal thoughts=Present | OTHER=F) = 5.76036866359447E-4
+P(Homicidal thoughts=Not Mentioned | OTHER=True) = 0.9704451252477924
+P(Homicidal thoughts=Negated | OTHER=True) = 0.010497386916561543
+P(Homicidal thoughts=Present | OTHER=True) = 0.01905748783564606
+P(PMH - past medical history=Not Mentioned | OTHER=F) = 0.6808755760368663
+P(PMH - past medical history=Negated | OTHER=F) = 0.02304147465437788
+P(PMH - past medical history=Present | OTHER=F) = 0.2960829493087558
+P(PMH - past medical history=Not Mentioned | OTHER=True) = 0.4814380969544062
+P(PMH - past medical history=Negated | OTHER=True) = 0.036583168138403316
+P(PMH - past medical history=Present | OTHER=True) = 0.4819787349071905
+P(H/O: asthma=Not Mentioned | OTHER=F) = 0.9308755760368663
+P(H/O: asthma=Negated | OTHER=F) = 0.004608294930875576
+P(H/O: asthma=Present | OTHER=F) = 0.06451612903225806
+P(H/O: asthma=Not Mentioned | OTHER=True) = 0.9747251757073346
+P(H/O: asthma=Negated | OTHER=True) = 0.0013966480446927375
+P(H/O: asthma=Present | OTHER=True) = 0.02387817624797261
+P(Red throat=Not Mentioned | OTHER=F) = 0.6664746543778802
+P(Red throat=Negated | OTHER=F) = 0.07142857142857142
+P(Red throat=Present | OTHER=F) = 0.2620967741935484
+P(Red throat=Not Mentioned | OTHER=True) = 0.7982519372859975
+P(Red throat=Negated | OTHER=True) = 0.11195710938907912
+P(Red throat=Present | OTHER=True) = 0.08979095332492341
+P(Test Result=Not Mentioned | OTHER=F) = 0.9285714285714286
+P(Test Result=Negated | OTHER=F) = 0.008064516129032258
+P(Test Result=Present | OTHER=F) = 0.06336405529953917
+P(Test Result=Not Mentioned | OTHER=True) = 0.9619300774914399
+P(Test Result=Negated | OTHER=True) = 0.0028383492521174987
+P(Test Result=Present | OTHER=True) = 0.035231573256442605
+P(Yellow sputum=Not Mentioned | OTHER=F) = 0.9821428571428571
+P(Yellow sputum=Negated | OTHER=F) = 5.76036866359447E-4
+P(Yellow sputum=Present | OTHER=F) = 0.01728110599078341
+P(Yellow sputum=Not Mentioned | OTHER=True) = 0.9977022887006668
+P(Yellow sputum=Negated | OTHER=True) = 9.010632546404758E-5
+P(Yellow sputum=Present | OTHER=True) = 0.0022076049738691656
+P(Cardiovascular symptoms=Not Mentioned | OTHER=F) = 0.7350230414746544
+P(Cardiovascular symptoms=Negated | OTHER=F) = 5.76036866359447E-4
+P(Cardiovascular symptoms=Present | OTHER=F) = 0.26440092165898615
+P(Cardiovascular symptoms=Not Mentioned | OTHER=True) = 0.8943052802306722
+P(Cardiovascular symptoms=Negated | OTHER=True) = 1.8021265092809516E-4
+P(Cardiovascular symptoms=Present | OTHER=True) = 0.10551450711839971
+P(Respiratory distress=Not Mentioned | OTHER=F) = 0.8052995391705069
+P(Respiratory distress=Negated | OTHER=F) = 0.04205069124423963
+P(Respiratory distress=Present | OTHER=F) = 0.15264976958525345
+P(Respiratory distress=Not Mentioned | OTHER=True) = 0.926157866282213
+P(Respiratory distress=Negated | OTHER=True) = 0.026085781221841773
+P(Respiratory distress=Present | OTHER=True) = 0.04775635249594522
+P(History source=Not Mentioned | OTHER=F) = 0.4792626728110599
+P(History source=Negated | OTHER=F) = 5.76036866359447E-4
+P(History source=Present | OTHER=F) = 0.5201612903225806
+P(History source=Not Mentioned | OTHER=True) = 0.7671202018381691
+P(History source=Negated | OTHER=True) = 4.505316273202379E-5
+P(History source=Present | OTHER=True) = 0.23283474499909892
+P(Hospital course=Not Mentioned | OTHER=F) = 0.8732718894009217
+P(Hospital course=Negated | OTHER=F) = 0.001152073732718894
+P(Hospital course=Present | OTHER=F) = 0.12557603686635946
+P(Hospital course=Not Mentioned | OTHER=True) = 0.782213011353397
+P(Hospital course=Negated | OTHER=True) = 4.054784645882141E-4
+P(Hospital course=Present | OTHER=True) = 0.21738151018201476
+P(Rectal temperature=Not Mentioned | OTHER=F) = 0.9855990783410138
+P(Rectal temperature=Negated | OTHER=F) = 0.001152073732718894
+P(Rectal temperature=Present | OTHER=F) = 0.013248847926267281
+P(Rectal temperature=Not Mentioned | OTHER=True) = 0.9984231393043792
+P(Rectal temperature=Negated | OTHER=True) = 4.505316273202379E-5
+P(Rectal temperature=Present | OTHER=True) = 0.0015318075328888089
+P(Social warmth=Not Mentioned | OTHER=F) = 0.993663594470046
+P(Social warmth=Negated | OTHER=F) = 0.001152073732718894
+P(Social warmth=Present | OTHER=F) = 0.005184331797235023
+P(Social warmth=Not Mentioned | OTHER=True) = 0.9541809335015318
+P(Social warmth=Negated | OTHER=True) = 0.009100738871868805
+P(Social warmth=Present | OTHER=True) = 0.036718327626599385
+P(Neurologic Deficits=Not Mentioned | OTHER=F) = 0.761520737327189
+P(Neurologic Deficits=Negated | OTHER=F) = 5.76036866359447E-4
+P(Neurologic Deficits=Present | OTHER=F) = 0.23790322580645162
+P(Neurologic Deficits=Not Mentioned | OTHER=True) = 0.838844836907551
+P(Neurologic Deficits=Negated | OTHER=True) = 0.009776536312849162
+P(Neurologic Deficits=Present | OTHER=True) = 0.15137862677959993
+P(Mean Corpuscular Volume (result)=Not Mentioned | OTHER=F) = 0.717741935483871
+P(Mean Corpuscular Volume (result)=Negated | OTHER=F) = 5.76036866359447E-4
+P(Mean Corpuscular Volume (result)=Present | OTHER=F) = 0.2816820276497696
+P(Mean Corpuscular Volume (result)=Not Mentioned | OTHER=True) = 0.791674175527122
+P(Mean Corpuscular Volume (result)=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Mean Corpuscular Volume (result)=Present | OTHER=True) = 0.20819066498468192
+P(Observation of Sensation=Not Mentioned | OTHER=F) = 0.9176267281105991
+P(Observation of Sensation=Negated | OTHER=F) = 5.76036866359447E-4
+P(Observation of Sensation=Present | OTHER=F) = 0.08179723502304148
+P(Observation of Sensation=Not Mentioned | OTHER=True) = 0.7985222562623896
+P(Observation of Sensation=Negated | OTHER=True) = 0.002072445485673094
+P(Observation of Sensation=Present | OTHER=True) = 0.19940529825193729
+P(Lives with family=Not Mentioned | OTHER=F) = 0.9879032258064516
+P(Lives with family=Negated | OTHER=F) = 5.76036866359447E-4
+P(Lives with family=Present | OTHER=F) = 0.01152073732718894
+P(Lives with family=Not Mentioned | OTHER=True) = 0.9983330329789151
+P(Lives with family=Negated | OTHER=True) = 9.010632546404758E-5
+P(Lives with family=Present | OTHER=True) = 0.0015768606956208327
+P(Lives with mother=Not Mentioned | OTHER=F) = 0.978110599078341
+P(Lives with mother=Negated | OTHER=F) = 5.76036866359447E-4
+P(Lives with mother=Present | OTHER=F) = 0.02131336405529954
+P(Lives with mother=Not Mentioned | OTHER=True) = 0.9952243647504054
+P(Lives with mother=Negated | OTHER=True) = 9.010632546404758E-5
+P(Lives with mother=Present | OTHER=True) = 0.004685528924130474
+P(Skin appearance normal (finding)=Not Mentioned | OTHER=F) = 0.0956221198156682
+P(Skin appearance normal (finding)=Negated | OTHER=F) = 0.013824884792626729
+P(Skin appearance normal (finding)=Present | OTHER=F) = 0.8905529953917051
+P(Skin appearance normal (finding)=Not Mentioned | OTHER=True) = 0.15768606956208325
+P(Skin appearance normal (finding)=Negated | OTHER=True) = 0.011353397008469995
+P(Skin appearance normal (finding)=Present | OTHER=True) = 0.8309605334294468
+P(Persistent cough=Not Mentioned | OTHER=F) = 0.9861751152073732
+P(Persistent cough=Negated | OTHER=F) = 5.76036866359447E-4
+P(Persistent cough=Present | OTHER=F) = 0.013248847926267281
+P(Persistent cough=Not Mentioned | OTHER=True) = 0.9980176608397909
+P(Persistent cough=Negated | OTHER=True) = 9.010632546404758E-5
+P(Persistent cough=Present | OTHER=True) = 0.001892232834744999
+P(Able to drink=Not Mentioned | OTHER=F) = 0.9804147465437788
+P(Able to drink=Negated | OTHER=F) = 0.001152073732718894
+P(Able to drink=Present | OTHER=F) = 0.018433179723502304
+P(Able to drink=Not Mentioned | OTHER=True) = 0.9949540457740134
+P(Able to drink=Negated | OTHER=True) = 9.010632546404758E-5
+P(Able to drink=Present | OTHER=True) = 0.004955847900522617
+P(Feeding poor=Not Mentioned | OTHER=F) = 0.9907834101382489
+P(Feeding poor=Negated | OTHER=F) = 5.76036866359447E-4
+P(Feeding poor=Present | OTHER=F) = 0.008640552995391706
+P(Feeding poor=Not Mentioned | OTHER=True) = 0.9994143088844837
+P(Feeding poor=Negated | OTHER=True) = 9.010632546404758E-5
+P(Feeding poor=Present | OTHER=True) = 4.955847900522617E-4
+P(Mass of body structure=Not Mentioned | OTHER=F) = 0.9228110599078341
+P(Mass of body structure=Negated | OTHER=F) = 0.0069124423963133645
+P(Mass of body structure=Present | OTHER=F) = 0.07027649769585254
+P(Mass of body structure=Not Mentioned | OTHER=True) = 0.857992431068661
+P(Mass of body structure=Negated | OTHER=True) = 0.00653270859614345
+P(Mass of body structure=Present | OTHER=True) = 0.13547486033519554
+P(Mass of body region=Not Mentioned | OTHER=F) = 0.9251152073732719
+P(Mass of body region=Negated | OTHER=F) = 0.0069124423963133645
+P(Mass of body region=Present | OTHER=F) = 0.06797235023041474
+P(Mass of body region=Not Mentioned | OTHER=True) = 0.8634889169219679
+P(Mass of body region=Negated | OTHER=True) = 0.0063524959452153544
+P(Mass of body region=Present | OTHER=True) = 0.13015858713281672
+P(Does move=Not Mentioned | OTHER=F) = 0.6215437788018433
+P(Does move=Negated | OTHER=F) = 5.76036866359447E-4
+P(Does move=Present | OTHER=F) = 0.3778801843317972
+P(Does move=Not Mentioned | OTHER=True) = 0.8331230852405839
+P(Does move=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Does move=Present | OTHER=True) = 0.16674175527122004
+P(Normal coordination=Not Mentioned | OTHER=F) = 0.9354838709677419
+P(Normal coordination=Negated | OTHER=F) = 5.76036866359447E-4
+P(Normal coordination=Present | OTHER=F) = 0.06394009216589862
+P(Normal coordination=Not Mentioned | OTHER=True) = 0.9662101279509822
+P(Normal coordination=Negated | OTHER=True) = 9.010632546404758E-5
+P(Normal coordination=Present | OTHER=True) = 0.03369976572355379
+P(Feels warm=Not Mentioned | OTHER=F) = 0.14573732718894009
+P(Feels warm=Negated | OTHER=F) = 0.001152073732718894
+P(Feels warm=Present | OTHER=F) = 0.853110599078341
+P(Feels warm=Not Mentioned | OTHER=True) = 0.21733645701928275
+P(Feels warm=Negated | OTHER=True) = 0.008109569291764282
+P(Feels warm=Present | OTHER=True) = 0.774553973688953
+P(Eye symptom=Not Mentioned | OTHER=F) = 0.717741935483871
+P(Eye symptom=Negated | OTHER=F) = 5.76036866359447E-4
+P(Eye symptom=Present | OTHER=F) = 0.2816820276497696
+P(Eye symptom=Not Mentioned | OTHER=True) = 0.9042169760317175
+P(Eye symptom=Negated | OTHER=True) = 2.703189763921427E-4
+P(Eye symptom=Present | OTHER=True) = 0.09551270499189043
+P(Skin symptom=Not Mentioned | OTHER=F) = 0.6486175115207373
+P(Skin symptom=Negated | OTHER=F) = 0.0017281105990783411
+P(Skin symptom=Present | OTHER=F) = 0.34965437788018433
+P(Skin symptom=Not Mentioned | OTHER=True) = 0.8639845017120202
+P(Skin symptom=Negated | OTHER=True) = 4.5053162732023786E-4
+P(Skin symptom=Present | OTHER=True) = 0.1355649666606596
+P(Discharge status=Not Mentioned | OTHER=F) = 0.9274193548387096
+P(Discharge status=Negated | OTHER=F) = 5.76036866359447E-4
+P(Discharge status=Present | OTHER=F) = 0.07200460829493087
+P(Discharge status=Not Mentioned | OTHER=True) = 0.7905478464588214
+P(Discharge status=Negated | OTHER=True) = 4.505316273202379E-5
+P(Discharge status=Present | OTHER=True) = 0.20940710037844656
+P(Laboratory test finding=Not Mentioned | OTHER=F) = 0.6451612903225806
+P(Laboratory test finding=Negated | OTHER=F) = 0.001152073732718894
+P(Laboratory test finding=Present | OTHER=F) = 0.35368663594470046
+P(Laboratory test finding=Not Mentioned | OTHER=True) = 0.6544422418453776
+P(Laboratory test finding=Negated | OTHER=True) = 0.0026581366011894036
+P(Laboratory test finding=Present | OTHER=True) = 0.34289962155343306
+P(Follow-up status=Not Mentioned | OTHER=F) = 0.9199308755760369
+P(Follow-up status=Negated | OTHER=F) = 0.005184331797235023
+P(Follow-up status=Present | OTHER=F) = 0.0748847926267281
+P(Follow-up status=Not Mentioned | OTHER=True) = 0.9468372679762119
+P(Follow-up status=Negated | OTHER=True) = 0.002072445485673094
+P(Follow-up status=Present | OTHER=True) = 0.051090286538114975
+P(Household composition=Not Mentioned | OTHER=F) = 0.8571428571428571
+P(Household composition=Negated | OTHER=F) = 5.76036866359447E-4
+P(Household composition=Present | OTHER=F) = 0.14228110599078342
+P(Household composition=Not Mentioned | OTHER=True) = 0.8746170481167778
+P(Household composition=Negated | OTHER=True) = 7.208506037123806E-4
+P(Household composition=Present | OTHER=True) = 0.12466210127950982
+P(Hypoxemia=Not Mentioned | OTHER=F) = 0.9815668202764977
+P(Hypoxemia=Negated | OTHER=F) = 0.0017281105990783411
+P(Hypoxemia=Present | OTHER=F) = 0.016705069124423964
+P(Hypoxemia=Not Mentioned | OTHER=True) = 0.9968913317714904
+P(Hypoxemia=Negated | OTHER=True) = 4.054784645882141E-4
+P(Hypoxemia=Present | OTHER=True) = 0.0027031897639214274
+P(Prematurity of fetus=Not Mentioned | OTHER=F) = 0.9890552995391705
+P(Prematurity of fetus=Negated | OTHER=F) = 5.76036866359447E-4
+P(Prematurity of fetus=Present | OTHER=F) = 0.010368663594470046
+P(Prematurity of fetus=Not Mentioned | OTHER=True) = 0.998062714002523
+P(Prematurity of fetus=Negated | OTHER=True) = 9.010632546404758E-5
+P(Prematurity of fetus=Present | OTHER=True) = 0.0018471796720129752
+P(Intoxication=Not Mentioned | OTHER=F) = 0.9982718894009217
+P(Intoxication=Negated | OTHER=F) = 5.76036866359447E-4
+P(Intoxication=Present | OTHER=F) = 0.001152073732718894
+P(Intoxication=Not Mentioned | OTHER=True) = 0.9862137322040008
+P(Intoxication=Negated | OTHER=True) = 4.5053162732023786E-4
+P(Intoxication=Present | OTHER=True) = 0.013335736168679042
+P(atypia morphology=Not Mentioned | OTHER=F) = 0.9337557603686636
+P(atypia morphology=Negated | OTHER=F) = 0.0017281105990783411
+P(atypia morphology=Present | OTHER=F) = 0.06451612903225806
+P(atypia morphology=Not Mentioned | OTHER=True) = 0.9838259145792034
+P(atypia morphology=Negated | OTHER=True) = 5.856911155163092E-4
+P(atypia morphology=Present | OTHER=True) = 0.01558839430528023
+P(FEVER HIGH (finding)=Not Mentioned | OTHER=F) = 0.9752304147465438
+P(FEVER HIGH (finding)=Negated | OTHER=F) = 0.0017281105990783411
+P(FEVER HIGH (finding)=Present | OTHER=F) = 0.02304147465437788
+P(FEVER HIGH (finding)=Not Mentioned | OTHER=True) = 0.9983780861416471
+P(FEVER HIGH (finding)=Negated | OTHER=True) = 4.505316273202379E-5
+P(FEVER HIGH (finding)=Present | OTHER=True) = 0.0015768606956208327
+P(surgical history=Not Mentioned | OTHER=F) = 0.6480414746543779
+P(surgical history=Negated | OTHER=F) = 5.76036866359447E-4
+P(surgical history=Present | OTHER=F) = 0.3513824884792627
+P(surgical history=Not Mentioned | OTHER=True) = 0.755766804829699
+P(surgical history=Negated | OTHER=True) = 5.406379527842854E-4
+P(surgical history=Present | OTHER=True) = 0.24369255721751668
+P(Generalized muscle weakness=Not Mentioned | OTHER=F) = 0.9608294930875576
+P(Generalized muscle weakness=Negated | OTHER=F) = 5.76036866359447E-4
+P(Generalized muscle weakness=Present | OTHER=F) = 0.03859447004608295
+P(Generalized muscle weakness=Not Mentioned | OTHER=True) = 0.9852225626238962
+P(Generalized muscle weakness=Negated | OTHER=True) = 4.054784645882141E-4
+P(Generalized muscle weakness=Present | OTHER=True) = 0.014371958911515588
+P(Oxygen saturation below reference range=Not Mentioned | OTHER=F) = 0.9804147465437788
+P(Oxygen saturation below reference range=Negated | OTHER=F) = 0.001152073732718894
+P(Oxygen saturation below reference range=Present | OTHER=F) = 0.018433179723502304
+P(Oxygen saturation below reference range=Not Mentioned | OTHER=True) = 0.9975220760497386
+P(Oxygen saturation below reference range=Negated | OTHER=True) = 1.8021265092809516E-4
+P(Oxygen saturation below reference range=Present | OTHER=True) = 0.002297711299333213
+P(White blood cell count decreased=Not Mentioned | OTHER=F) = 0.9827188940092166
+P(White blood cell count decreased=Negated | OTHER=F) = 5.76036866359447E-4
+P(White blood cell count decreased=Present | OTHER=F) = 0.016705069124423964
+P(White blood cell count decreased=Not Mentioned | OTHER=True) = 0.9963506938187061
+P(White blood cell count decreased=Negated | OTHER=True) = 9.010632546404758E-5
+P(White blood cell count decreased=Present | OTHER=True) = 0.003559199855829879
+P(Completion Status=Not Mentioned | OTHER=F) = 0.9573732718894009
+P(Completion Status=Negated | OTHER=F) = 0.001152073732718894
+P(Completion Status=Present | OTHER=F) = 0.041474654377880185
+P(Completion Status=Not Mentioned | OTHER=True) = 0.9899981978734907
+P(Completion Status=Negated | OTHER=True) = 4.505316273202379E-5
+P(Completion Status=Present | OTHER=True) = 0.009956748963777257
+P(Tube number=Not Mentioned | OTHER=F) = 0.9809907834101382
+P(Tube number=Negated | OTHER=F) = 5.76036866359447E-4
+P(Tube number=Present | OTHER=F) = 0.018433179723502304
+P(Tube number=Not Mentioned | OTHER=True) = 0.9986934582807713
+P(Tube number=Negated | OTHER=True) = 4.505316273202379E-5
+P(Tube number=Present | OTHER=True) = 0.001261488556496666
+P(Feeling tired=Not Mentioned | OTHER=F) = 0.9706221198156681
+P(Feeling tired=Negated | OTHER=F) = 5.76036866359447E-4
+P(Feeling tired=Present | OTHER=F) = 0.02880184331797235
+P(Feeling tired=Not Mentioned | OTHER=True) = 0.9906739953144711
+P(Feeling tired=Negated | OTHER=True) = 4.505316273202379E-5
+P(Feeling tired=Present | OTHER=True) = 0.0092809515227969
+P(Dry cough=Not Mentioned | OTHER=F) = 0.923963133640553
+P(Dry cough=Negated | OTHER=F) = 5.76036866359447E-4
+P(Dry cough=Present | OTHER=F) = 0.07546082949308756
+P(Dry cough=Not Mentioned | OTHER=True) = 0.9860785727158047
+P(Dry cough=Negated | OTHER=True) = 9.010632546404758E-5
+P(Dry cough=Present | OTHER=True) = 0.013831320958731304
+P(family issues=Not Mentioned | OTHER=F) = 0.6964285714285714
+P(family issues=Negated | OTHER=F) = 0.3029953917050691
+P(family issues=Present | OTHER=F) = 5.76036866359447E-4
+P(family issues=Not Mentioned | OTHER=True) = 0.8685799243106866
+P(family issues=Negated | OTHER=True) = 0.13060911876013695
+P(family issues=Present | OTHER=True) = 8.109569291764282E-4
+P(Neutrophil count decreased=Not Mentioned | OTHER=F) = 0.9827188940092166
+P(Neutrophil count decreased=Negated | OTHER=F) = 0.0034562211981566822
+P(Neutrophil count decreased=Present | OTHER=F) = 0.013824884792626729
+P(Neutrophil count decreased=Not Mentioned | OTHER=True) = 0.9971616507478825
+P(Neutrophil count decreased=Negated | OTHER=True) = 4.955847900522617E-4
+P(Neutrophil count decreased=Present | OTHER=True) = 0.002342764462065237
+P(Increased work of breathing=Not Mentioned | OTHER=F) = 0.945852534562212
+P(Increased work of breathing=Negated | OTHER=F) = 0.00576036866359447
+P(Increased work of breathing=Present | OTHER=F) = 0.04838709677419355
+P(Increased work of breathing=Not Mentioned | OTHER=True) = 0.9956298432149937
+P(Increased work of breathing=Negated | OTHER=True) = 7.659037664444044E-4
+P(Increased work of breathing=Present | OTHER=True) = 0.003604253018561903
+P(Yellow color on exam=Not Mentioned | OTHER=F) = 0.9199308755760369
+P(Yellow color on exam=Negated | OTHER=F) = 5.76036866359447E-4
+P(Yellow color on exam=Present | OTHER=F) = 0.07949308755760369
+P(Yellow color on exam=Not Mentioned | OTHER=True) = 0.981167777978014
+P(Yellow color on exam=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Yellow color on exam=Present | OTHER=True) = 0.01869706253378987
+P(Rupture of Membranes=Not Mentioned | OTHER=F) = 0.7206221198156681
+P(Rupture of Membranes=Negated | OTHER=F) = 0.0017281105990783411
+P(Rupture of Membranes=Present | OTHER=F) = 0.27764976958525345
+P(Rupture of Membranes=Not Mentioned | OTHER=True) = 0.8485312668949361
+P(Rupture of Membranes=Negated | OTHER=True) = 0.001712020183816904
+P(Rupture of Membranes=Present | OTHER=True) = 0.14975671292124706
+P(Rhinorrhea=Not Mentioned | OTHER=F) = 0.7788018433179723
+P(Rhinorrhea=Negated | OTHER=F) = 0.01728110599078341
+P(Rhinorrhea=Present | OTHER=F) = 0.20391705069124424
+P(Rhinorrhea=Not Mentioned | OTHER=True) = 0.9112002162551811
+P(Rhinorrhea=Negated | OTHER=True) = 0.025725355919985583
+P(Rhinorrhea=Present | OTHER=True) = 0.0630744278248333
+P(Platelet morphology - result=Not Mentioned | OTHER=F) = 0.9452764976958525
+P(Platelet morphology - result=Negated | OTHER=F) = 5.76036866359447E-4
+P(Platelet morphology - result=Present | OTHER=F) = 0.05414746543778802
+P(Platelet morphology - result=Not Mentioned | OTHER=True) = 0.9918003243827717
+P(Platelet morphology - result=Negated | OTHER=True) = 4.505316273202379E-5
+P(Platelet morphology - result=Present | OTHER=True) = 0.008154622454496305
+P(Family history of asthma=Not Mentioned | OTHER=F) = 0.9556451612903226
+P(Family history of asthma=Negated | OTHER=F) = 0.002880184331797235
+P(Family history of asthma=Present | OTHER=F) = 0.041474654377880185
+P(Family history of asthma=Not Mentioned | OTHER=True) = 0.9922508560100919
+P(Family history of asthma=Negated | OTHER=True) = 5.856911155163092E-4
+P(Family history of asthma=Present | OTHER=True) = 0.007163452874391782
+P(Cough with fever=Not Mentioned | OTHER=F) = 0.9838709677419355
+P(Cough with fever=Negated | OTHER=F) = 0.001152073732718894
+P(Cough with fever=Present | OTHER=F) = 0.014976958525345621
+P(Cough with fever=Not Mentioned | OTHER=True) = 0.9978825013515948
+P(Cough with fever=Negated | OTHER=True) = 6.30744278248333E-4
+P(Cough with fever=Present | OTHER=True) = 0.001486754370156785
+P(Patient name=Not Mentioned | OTHER=F) = 0.9763824884792627
+P(Patient name=Negated | OTHER=F) = 5.76036866359447E-4
+P(Patient name=Present | OTHER=F) = 0.02304147465437788
+P(Patient name=Not Mentioned | OTHER=True) = 0.9527392322941071
+P(Patient name=Negated | OTHER=True) = 4.505316273202379E-5
+P(Patient name=Present | OTHER=True) = 0.04721571454316093
+P(Nuchal Rigidity=Not Mentioned | OTHER=F) = 0.9694700460829493
+P(Nuchal Rigidity=Negated | OTHER=F) = 0.025921658986175114
+P(Nuchal Rigidity=Present | OTHER=F) = 0.004608294930875576
+P(Nuchal Rigidity=Not Mentioned | OTHER=True) = 0.9929266534510722
+P(Nuchal Rigidity=Negated | OTHER=True) = 0.006037123806091188
+P(Nuchal Rigidity=Present | OTHER=True) = 0.001036222742836547
+P(Hydration status=Not Mentioned | OTHER=F) = 0.8836405529953917
+P(Hydration status=Negated | OTHER=F) = 5.76036866359447E-4
+P(Hydration status=Present | OTHER=F) = 0.11578341013824885
+P(Hydration status=Not Mentioned | OTHER=True) = 0.973373580825374
+P(Hydration status=Negated | OTHER=True) = 1.8021265092809516E-4
+P(Hydration status=Present | OTHER=True) = 0.026446206523697963
+P(Therapy Object (animal model)=Not Mentioned | OTHER=F) = 0.6710829493087558
+P(Therapy Object (animal model)=Negated | OTHER=F) = 0.002304147465437788
+P(Therapy Object (animal model)=Present | OTHER=F) = 0.32661290322580644
+P(Therapy Object (animal model)=Not Mentioned | OTHER=True) = 0.8676788610560461
+P(Therapy Object (animal model)=Negated | OTHER=True) = 0.001081275905568571
+P(Therapy Object (animal model)=Present | OTHER=True) = 0.1312398630383853
+P(Tattoo=Not Mentioned | OTHER=F) = 0.9711981566820277
+P(Tattoo=Negated | OTHER=F) = 5.76036866359447E-4
+P(Tattoo=Present | OTHER=F) = 0.028225806451612902
+P(Tattoo=Not Mentioned | OTHER=True) = 0.9377815822670752
+P(Tattoo=Negated | OTHER=True) = 4.505316273202379E-5
+P(Tattoo=Present | OTHER=True) = 0.062173364570192825
+P(Sharp sensation quality=Not Mentioned | OTHER=F) = 0.9873271889400922
+P(Sharp sensation quality=Negated | OTHER=F) = 5.76036866359447E-4
+P(Sharp sensation quality=Present | OTHER=F) = 0.012096774193548387
+P(Sharp sensation quality=Not Mentioned | OTHER=True) = 0.9522436475040548
+P(Sharp sensation quality=Negated | OTHER=True) = 7.208506037123806E-4
+P(Sharp sensation quality=Present | OTHER=True) = 0.04703550189223284
+P(Positive=Not Mentioned | OTHER=F) = 0.738479262672811
+P(Positive=Negated | OTHER=F) = 0.024193548387096774
+P(Positive=Present | OTHER=F) = 0.23732718894009217
+P(Positive=Not Mentioned | OTHER=True) = 0.831411065056767
+P(Positive=Negated | OTHER=True) = 0.05032438277167057
+P(Positive=Present | OTHER=True) = 0.11826455217156244
+P(Symptoms=Not Mentioned | OTHER=F) = 0.27880184331797236
+P(Symptoms=Negated | OTHER=F) = 0.03686635944700461
+P(Symptoms=Present | OTHER=F) = 0.684331797235023
+P(Symptoms=Not Mentioned | OTHER=True) = 0.46886826455217157
+P(Symptoms=Negated | OTHER=True) = 0.05289241304739593
+P(Symptoms=Present | OTHER=True) = 0.4782393224004325
+P(Hypophagia=Not Mentioned | OTHER=F) = 0.9792626728110599
+P(Hypophagia=Negated | OTHER=F) = 5.76036866359447E-4
+P(Hypophagia=Present | OTHER=F) = 0.020161290322580645
+P(Hypophagia=Not Mentioned | OTHER=True) = 0.9960803748423139
+P(Hypophagia=Negated | OTHER=True) = 4.505316273202379E-5
+P(Hypophagia=Present | OTHER=True) = 0.0038745719949540456
+P(Physical assessment findings=Not Mentioned | OTHER=F) = 0.668778801843318
+P(Physical assessment findings=Negated | OTHER=F) = 0.010944700460829493
+P(Physical assessment findings=Present | OTHER=F) = 0.32027649769585254
+P(Physical assessment findings=Not Mentioned | OTHER=True) = 0.8396557938367274
+P(Physical assessment findings=Negated | OTHER=True) = 0.013741214633267256
+P(Physical assessment findings=Present | OTHER=True) = 0.14660299153000542
+P(Mild Adverse Event=Not Mentioned | OTHER=F) = 0.6226958525345622
+P(Mild Adverse Event=Negated | OTHER=F) = 0.001152073732718894
+P(Mild Adverse Event=Present | OTHER=F) = 0.3761520737327189
+P(Mild Adverse Event=Not Mentioned | OTHER=True) = 0.6968372679762119
+P(Mild Adverse Event=Negated | OTHER=True) = 0.002162551811137142
+P(Mild Adverse Event=Present | OTHER=True) = 0.3010001802126509
+P(Positive Finding=Not Mentioned | OTHER=F) = 0.8099078341013825
+P(Positive Finding=Negated | OTHER=F) = 0.020161290322580645
+P(Positive Finding=Present | OTHER=F) = 0.16993087557603687
+P(Positive Finding=Not Mentioned | OTHER=True) = 0.8661470535231574
+P(Positive Finding=Negated | OTHER=True) = 0.04856730942512164
+P(Positive Finding=Present | OTHER=True) = 0.08528563705172103
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | OTHER=F) = 0.6998847926267281
+P(Ambulatory Status - Oxygen therapy=Negated | OTHER=F) = 5.76036866359447E-4
+P(Ambulatory Status - Oxygen therapy=Present | OTHER=F) = 0.2995391705069124
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | OTHER=True) = 0.9342223824112452
+P(Ambulatory Status - Oxygen therapy=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Ambulatory Status - Oxygen therapy=Present | OTHER=True) = 0.06564245810055866
+P(Referral type - Psychiatric=Not Mentioned | OTHER=F) = 0.591589861751152
+P(Referral type - Psychiatric=Negated | OTHER=F) = 0.001152073732718894
+P(Referral type - Psychiatric=Present | OTHER=F) = 0.40725806451612906
+P(Referral type - Psychiatric=Not Mentioned | OTHER=True) = 0.5044152099477384
+P(Referral type - Psychiatric=Negated | OTHER=True) = 9.911695801045233E-4
+P(Referral type - Psychiatric=Present | OTHER=True) = 0.49459362047215716
+P(Normal Observation Interpretation=Not Mentioned | OTHER=F) = 0.0956221198156682
+P(Normal Observation Interpretation=Negated | OTHER=F) = 0.013824884792626729
+P(Normal Observation Interpretation=Present | OTHER=F) = 0.8905529953917051
+P(Normal Observation Interpretation=Not Mentioned | OTHER=True) = 0.15845197332852767
+P(Normal Observation Interpretation=Negated | OTHER=True) = 0.011353397008469995
+P(Normal Observation Interpretation=Present | OTHER=True) = 0.8301946296630024
+P(normal Device Alert Level=Not Mentioned | OTHER=F) = 0.0956221198156682
+P(normal Device Alert Level=Negated | OTHER=F) = 0.013824884792626729
+P(normal Device Alert Level=Present | OTHER=F) = 0.8905529953917051
+P(normal Device Alert Level=Not Mentioned | OTHER=True) = 0.15845197332852767
+P(normal Device Alert Level=Negated | OTHER=True) = 0.011353397008469995
+P(normal Device Alert Level=Present | OTHER=True) = 0.8301946296630024
+P(Device Alert Level - Serious=Not Mentioned | OTHER=F) = 0.9550691244239631
+P(Device Alert Level - Serious=Negated | OTHER=F) = 0.0034562211981566822
+P(Device Alert Level - Serious=Present | OTHER=F) = 0.041474654377880185
+P(Device Alert Level - Serious=Not Mentioned | OTHER=True) = 0.9799513425842494
+P(Device Alert Level - Serious=Negated | OTHER=True) = 0.002297711299333213
+P(Device Alert Level - Serious=Present | OTHER=True) = 0.017750946116417372
+P(DeviceAlertLevel - Critical=Not Mentioned | OTHER=F) = 0.934331797235023
+P(DeviceAlertLevel - Critical=Negated | OTHER=F) = 5.76036866359447E-4
+P(DeviceAlertLevel - Critical=Present | OTHER=F) = 0.06509216589861751
+P(DeviceAlertLevel - Critical=Not Mentioned | OTHER=True) = 0.9905838889890071
+P(DeviceAlertLevel - Critical=Negated | OTHER=True) = 2.703189763921427E-4
+P(DeviceAlertLevel - Critical=Present | OTHER=True) = 0.009145792034600829
+P(Equipment Alert Level - Serious=Not Mentioned | OTHER=F) = 0.9550691244239631
+P(Equipment Alert Level - Serious=Negated | OTHER=F) = 0.0034562211981566822
+P(Equipment Alert Level - Serious=Present | OTHER=F) = 0.041474654377880185
+P(Equipment Alert Level - Serious=Not Mentioned | OTHER=True) = 0.9799513425842494
+P(Equipment Alert Level - Serious=Negated | OTHER=True) = 0.002297711299333213
+P(Equipment Alert Level - Serious=Present | OTHER=True) = 0.017750946116417372
+P(Gender Status - Intact=Not Mentioned | OTHER=F) = 0.2966589861751152
+P(Gender Status - Intact=Negated | OTHER=F) = 0.0017281105990783411
+P(Gender Status - Intact=Present | OTHER=F) = 0.7016129032258065
+P(Gender Status - Intact=Not Mentioned | OTHER=True) = 0.3691205622634709
+P(Gender Status - Intact=Negated | OTHER=True) = 0.002748242926653451
+P(Gender Status - Intact=Present | OTHER=True) = 0.6281311948098757
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | OTHER=F) = 0.6163594470046083
+P(Adverse Event Associated with Constitutional Symptoms=Negated | OTHER=F) = 0.005184331797235023
+P(Adverse Event Associated with Constitutional Symptoms=Present | OTHER=F) = 0.3784562211981567
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | OTHER=True) = 0.8353757433771851
+P(Adverse Event Associated with Constitutional Symptoms=Negated | OTHER=True) = 0.0028383492521174987
+P(Adverse Event Associated with Constitutional Symptoms=Present | OTHER=True) = 0.16178590737069742
+P(Adverse Event Associated with Pain=Not Mentioned | OTHER=F) = 0.7523041474654378
+P(Adverse Event Associated with Pain=Negated | OTHER=F) = 0.052995391705069124
+P(Adverse Event Associated with Pain=Present | OTHER=F) = 0.19470046082949308
+P(Adverse Event Associated with Pain=Not Mentioned | OTHER=True) = 0.4793205983060011
+P(Adverse Event Associated with Pain=Negated | OTHER=True) = 0.10506397549107947
+P(Adverse Event Associated with Pain=Present | OTHER=True) = 0.41561542620291947
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | OTHER=F) = 0.11347926267281105
+P(Adverse Event Associated with the Gastrointestinal System=Negated | OTHER=F) = 0.001152073732718894
+P(Adverse Event Associated with the Gastrointestinal System=Present | OTHER=F) = 0.8853686635944701
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | OTHER=True) = 0.19841412867183275
+P(Adverse Event Associated with the Gastrointestinal System=Negated | OTHER=True) = 5.856911155163092E-4
+P(Adverse Event Associated with the Gastrointestinal System=Present | OTHER=True) = 0.801000180212651
+P(Lipase, CTCAE=Not Mentioned | OTHER=F) = 0.966589861751152
+P(Lipase, CTCAE=Negated | OTHER=F) = 5.76036866359447E-4
+P(Lipase, CTCAE=Present | OTHER=F) = 0.032834101382488476
+P(Lipase, CTCAE=Not Mentioned | OTHER=True) = 0.9295819066498469
+P(Lipase, CTCAE=Negated | OTHER=True) = 4.054784645882141E-4
+P(Lipase, CTCAE=Present | OTHER=True) = 0.07001261488556497
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | OTHER=F) = 0.9061059907834101
+P(Glomerular Filtration Rate, CTCAE=Negated | OTHER=F) = 5.76036866359447E-4
+P(Glomerular Filtration Rate, CTCAE=Present | OTHER=F) = 0.09331797235023041
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | OTHER=True) = 0.9805820868624977
+P(Glomerular Filtration Rate, CTCAE=Negated | OTHER=True) = 4.505316273202379E-5
+P(Glomerular Filtration Rate, CTCAE=Present | OTHER=True) = 0.01937285997477023
+P(Breastfeeding (mother)=Not Mentioned | OTHER=F) = 0.9873271889400922
+P(Breastfeeding (mother)=Negated | OTHER=F) = 0.0017281105990783411
+P(Breastfeeding (mother)=Present | OTHER=F) = 0.010944700460829493
+P(Breastfeeding (mother)=Not Mentioned | OTHER=True) = 0.9982879798161831
+P(Breastfeeding (mother)=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Breastfeeding (mother)=Present | OTHER=True) = 0.0015768606956208327
+P(Breastfeeding (infant)=Not Mentioned | OTHER=F) = 0.9873271889400922
+P(Breastfeeding (infant)=Negated | OTHER=F) = 0.0017281105990783411
+P(Breastfeeding (infant)=Present | OTHER=F) = 0.010944700460829493
+P(Breastfeeding (infant)=Not Mentioned | OTHER=True) = 0.9982879798161831
+P(Breastfeeding (infant)=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Breastfeeding (infant)=Present | OTHER=True) = 0.0015768606956208327
+P(Pupil equal round and reacting to light=Not Mentioned | OTHER=F) = 0.8922811059907834
+P(Pupil equal round and reacting to light=Negated | OTHER=F) = 5.76036866359447E-4
+P(Pupil equal round and reacting to light=Present | OTHER=F) = 0.10714285714285714
+P(Pupil equal round and reacting to light=Not Mentioned | OTHER=True) = 0.8575418994413407
+P(Pupil equal round and reacting to light=Negated | OTHER=True) = 9.010632546404758E-5
+P(Pupil equal round and reacting to light=Present | OTHER=True) = 0.14236799423319518
+P(Respiratory problem=Not Mentioned | OTHER=F) = 0.9867511520737328
+P(Respiratory problem=Negated | OTHER=F) = 5.76036866359447E-4
+P(Respiratory problem=Present | OTHER=F) = 0.012672811059907835
+P(Respiratory problem=Not Mentioned | OTHER=True) = 0.9976572355379347
+P(Respiratory problem=Negated | OTHER=True) = 2.703189763921427E-4
+P(Respiratory problem=Present | OTHER=True) = 0.002072445485673094
+P(Disease Response=Not Mentioned | OTHER=F) = 0.6877880184331797
+P(Disease Response=Negated | OTHER=F) = 0.00576036866359447
+P(Disease Response=Present | OTHER=F) = 0.3064516129032258
+P(Disease Response=Not Mentioned | OTHER=True) = 0.8763741214633267
+P(Disease Response=Negated | OTHER=True) = 0.002342764462065237
+P(Disease Response=Present | OTHER=True) = 0.12128311407460804
+P(Crack=Not Mentioned | OTHER=F) = 0.956221198156682
+P(Crack=Negated | OTHER=F) = 5.76036866359447E-4
+P(Crack=Present | OTHER=F) = 0.043202764976958526
+P(Crack=Not Mentioned | OTHER=True) = 0.9105244188142008
+P(Crack=Negated | OTHER=True) = 3.604253018561903E-4
+P(Crack=Present | OTHER=True) = 0.08911515588394306
+P(Negative Surgical Margin=Not Mentioned | OTHER=F) = 0.2557603686635945
+P(Negative Surgical Margin=Negated | OTHER=F) = 0.016705069124423964
+P(Negative Surgical Margin=Present | OTHER=F) = 0.7275345622119815
+P(Negative Surgical Margin=Not Mentioned | OTHER=True) = 0.17854568390701028
+P(Negative Surgical Margin=Negated | OTHER=True) = 0.01784105244188142
+P(Negative Surgical Margin=Present | OTHER=True) = 0.8036132636511083
+P(Conjunctival hyperemia=Not Mentioned | OTHER=F) = 0.9850230414746544
+P(Conjunctival hyperemia=Negated | OTHER=F) = 0.0069124423963133645
+P(Conjunctival hyperemia=Present | OTHER=F) = 0.008064516129032258
+P(Conjunctival hyperemia=Not Mentioned | OTHER=True) = 0.9608938547486033
+P(Conjunctival hyperemia=Negated | OTHER=True) = 0.031086682285096413
+P(Conjunctival hyperemia=Present | OTHER=True) = 0.008019462966300234
+P(Intact sensation=Not Mentioned | OTHER=F) = 0.9982718894009217
+P(Intact sensation=Negated | OTHER=F) = 5.76036866359447E-4
+P(Intact sensation=Present | OTHER=F) = 0.001152073732718894
+P(Intact sensation=Not Mentioned | OTHER=True) = 0.9873400612723013
+P(Intact sensation=Negated | OTHER=True) = 4.505316273202379E-5
+P(Intact sensation=Present | OTHER=True) = 0.012614885564966661
+P(CARONTE=Not Mentioned | OTHER=F) = 0.9930875576036866
+P(CARONTE=Negated | OTHER=F) = 5.76036866359447E-4
+P(CARONTE=Present | OTHER=F) = 0.006336405529953917
+P(CARONTE=Not Mentioned | OTHER=True) = 0.9708055505496486
+P(CARONTE=Negated | OTHER=True) = 0.0020273923229410704
+P(CARONTE=Present | OTHER=True) = 0.027167057127410344
+P(ACUTE INSULIN RESPONSE=Not Mentioned | OTHER=F) = 0.8139400921658986
+P(ACUTE INSULIN RESPONSE=Negated | OTHER=F) = 0.004608294930875576
+P(ACUTE INSULIN RESPONSE=Present | OTHER=F) = 0.1814516129032258
+P(ACUTE INSULIN RESPONSE=Not Mentioned | OTHER=True) = 0.7131465128852046
+P(ACUTE INSULIN RESPONSE=Negated | OTHER=True) = 0.004505316273202379
+P(ACUTE INSULIN RESPONSE=Present | OTHER=True) = 0.2823481708415931
+P(Normal assessment finding=Not Mentioned | OTHER=F) = 0.0956221198156682
+P(Normal assessment finding=Negated | OTHER=F) = 0.013824884792626729
+P(Normal assessment finding=Present | OTHER=F) = 0.8905529953917051
+P(Normal assessment finding=Not Mentioned | OTHER=True) = 0.15845197332852767
+P(Normal assessment finding=Negated | OTHER=True) = 0.011353397008469995
+P(Normal assessment finding=Present | OTHER=True) = 0.8301946296630024
+P(Fracture of Medical Device Material=Not Mentioned | OTHER=F) = 0.9890552995391705
+P(Fracture of Medical Device Material=Negated | OTHER=F) = 0.002304147465437788
+P(Fracture of Medical Device Material=Present | OTHER=F) = 0.008640552995391706
+P(Fracture of Medical Device Material=Not Mentioned | OTHER=True) = 0.8688502432870787
+P(Fracture of Medical Device Material=Negated | OTHER=True) = 0.03613263651108308
+P(Fracture of Medical Device Material=Present | OTHER=True) = 0.09501712020183817
+P(Medical Device Emits Smoke=Not Mentioned | OTHER=F) = 0.8058755760368663
+P(Medical Device Emits Smoke=Negated | OTHER=F) = 0.024193548387096774
+P(Medical Device Emits Smoke=Present | OTHER=F) = 0.16993087557603687
+P(Medical Device Emits Smoke=Not Mentioned | OTHER=True) = 0.6482249053883583
+P(Medical Device Emits Smoke=Negated | OTHER=True) = 0.03734907190484772
+P(Medical Device Emits Smoke=Present | OTHER=True) = 0.31442602270679404
+P(Medical Device Material Crack=Not Mentioned | OTHER=F) = 0.956221198156682
+P(Medical Device Material Crack=Negated | OTHER=F) = 5.76036866359447E-4
+P(Medical Device Material Crack=Present | OTHER=F) = 0.043202764976958526
+P(Medical Device Material Crack=Not Mentioned | OTHER=True) = 0.910974950441521
+P(Medical Device Material Crack=Negated | OTHER=True) = 3.604253018561903E-4
+P(Medical Device Material Crack=Present | OTHER=True) = 0.08866462425662282
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | OTHER=F) = 0.7523041474654378
+P(Pain by Anatomic Descriptor, CTCAE=Negated | OTHER=F) = 0.052995391705069124
+P(Pain by Anatomic Descriptor, CTCAE=Present | OTHER=F) = 0.19470046082949308
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | OTHER=True) = 0.4793205983060011
+P(Pain by Anatomic Descriptor, CTCAE=Negated | OTHER=True) = 0.10506397549107947
+P(Pain by Anatomic Descriptor, CTCAE=Present | OTHER=True) = 0.41561542620291947
+P(Oriented to place=Not Mentioned | OTHER=F) = 0.8012672811059908
+P(Oriented to place=Negated | OTHER=F) = 0.0017281105990783411
+P(Oriented to place=Present | OTHER=F) = 0.19700460829493088
+P(Oriented to place=Not Mentioned | OTHER=True) = 0.6164173724995494
+P(Oriented to place=Negated | OTHER=True) = 7.659037664444044E-4
+P(Oriented to place=Present | OTHER=True) = 0.3828167237340061
+P(Cough, CTCAE=Not Mentioned | OTHER=F) = 0.3248847926267281
+P(Cough, CTCAE=Negated | OTHER=F) = 0.07258064516129033
+P(Cough, CTCAE=Present | OTHER=F) = 0.6025345622119815
+P(Cough, CTCAE=Not Mentioned | OTHER=True) = 0.7438727698684447
+P(Cough, CTCAE=Negated | OTHER=True) = 0.13506938187060732
+P(Cough, CTCAE=Present | OTHER=True) = 0.12105784826094791
+P(Atelectasis, CTCAE=Not Mentioned | OTHER=F) = 0.966589861751152
+P(Atelectasis, CTCAE=Negated | OTHER=F) = 5.76036866359447E-4
+P(Atelectasis, CTCAE=Present | OTHER=F) = 0.032834101382488476
+P(Atelectasis, CTCAE=Not Mentioned | OTHER=True) = 0.9909443142908633
+P(Atelectasis, CTCAE=Negated | OTHER=True) = 9.010632546404758E-5
+P(Atelectasis, CTCAE=Present | OTHER=True) = 0.008965579383672734
+P(Hematoma, CTCAE=Not Mentioned | OTHER=F) = 0.9902073732718893
+P(Hematoma, CTCAE=Negated | OTHER=F) = 5.76036866359447E-4
+P(Hematoma, CTCAE=Present | OTHER=F) = 0.009216589861751152
+P(Hematoma, CTCAE=Not Mentioned | OTHER=True) = 0.9670661380428907
+P(Hematoma, CTCAE=Negated | OTHER=True) = 0.003784465669489998
+P(Hematoma, CTCAE=Present | OTHER=True) = 0.02914939628761939
+P(Anxiety, CTCAE 3.0=Not Mentioned | OTHER=F) = 0.9602534562211982
+P(Anxiety, CTCAE 3.0=Negated | OTHER=F) = 0.008640552995391706
+P(Anxiety, CTCAE 3.0=Present | OTHER=F) = 0.03110599078341014
+P(Anxiety, CTCAE 3.0=Not Mentioned | OTHER=True) = 0.9134528743917824
+P(Anxiety, CTCAE 3.0=Negated | OTHER=True) = 0.012975310866822852
+P(Anxiety, CTCAE 3.0=Present | OTHER=True) = 0.07357181474139485
+P(Apnea, CTCAE=Not Mentioned | OTHER=F) = 0.9660138248847926
+P(Apnea, CTCAE=Negated | OTHER=F) = 0.004608294930875576
+P(Apnea, CTCAE=Present | OTHER=F) = 0.0293778801843318
+P(Apnea, CTCAE=Not Mentioned | OTHER=True) = 0.9768426743557398
+P(Apnea, CTCAE=Negated | OTHER=True) = 0.0026130834384573798
+P(Apnea, CTCAE=Present | OTHER=True) = 0.020544242205802848
+P(Back Pain, CTCAE 3.0=Not Mentioned | OTHER=F) = 0.9130184331797235
+P(Back Pain, CTCAE 3.0=Negated | OTHER=F) = 0.016129032258064516
+P(Back Pain, CTCAE 3.0=Present | OTHER=F) = 0.07085253456221198
+P(Back Pain, CTCAE 3.0=Not Mentioned | OTHER=True) = 0.8171742656334474
+P(Back Pain, CTCAE 3.0=Negated | OTHER=True) = 0.03816002883402415
+P(Back Pain, CTCAE 3.0=Present | OTHER=True) = 0.1446657055325284
+P(Platelets, CTCAE=Not Mentioned | OTHER=F) = 0.6918202764976958
+P(Platelets, CTCAE=Negated | OTHER=F) = 5.76036866359447E-4
+P(Platelets, CTCAE=Present | OTHER=F) = 0.3076036866359447
+P(Platelets, CTCAE=Not Mentioned | OTHER=True) = 0.7838349252117499
+P(Platelets, CTCAE=Negated | OTHER=True) = 9.010632546404758E-5
+P(Platelets, CTCAE=Present | OTHER=True) = 0.2160749684627861
+P(Dehydration, CTCAE=Not Mentioned | OTHER=F) = 0.8173963133640553
+P(Dehydration, CTCAE=Negated | OTHER=F) = 0.004032258064516129
+P(Dehydration, CTCAE=Present | OTHER=F) = 0.17857142857142858
+P(Dehydration, CTCAE=Not Mentioned | OTHER=True) = 0.9521535411785907
+P(Dehydration, CTCAE=Negated | OTHER=True) = 0.001261488556496666
+P(Dehydration, CTCAE=Present | OTHER=True) = 0.046584970264912595
+P(Diarrhea, CTCAE=Not Mentioned | OTHER=F) = 0.5835253456221198
+P(Diarrhea, CTCAE=Negated | OTHER=F) = 0.1434331797235023
+P(Diarrhea, CTCAE=Present | OTHER=F) = 0.2730414746543779
+P(Diarrhea, CTCAE=Not Mentioned | OTHER=True) = 0.74243106866102
+P(Diarrhea, CTCAE=Negated | OTHER=True) = 0.09992791493962876
+P(Diarrhea, CTCAE=Present | OTHER=True) = 0.15764101639935124
+P(Dizziness, CTCAE 3.0=Not Mentioned | OTHER=F) = 0.9418202764976958
+P(Dizziness, CTCAE 3.0=Negated | OTHER=F) = 0.004608294930875576
+P(Dizziness, CTCAE 3.0=Present | OTHER=F) = 0.05357142857142857
+P(Dizziness, CTCAE 3.0=Not Mentioned | OTHER=True) = 0.8959722472517571
+P(Dizziness, CTCAE 3.0=Negated | OTHER=True) = 0.014957650027031897
+P(Dizziness, CTCAE 3.0=Present | OTHER=True) = 0.08907010272121103
+P(Fracture, CTCAE=Not Mentioned | OTHER=F) = 0.9890552995391705
+P(Fracture, CTCAE=Negated | OTHER=F) = 0.002304147465437788
+P(Fracture, CTCAE=Present | OTHER=F) = 0.008640552995391706
+P(Fracture, CTCAE=Not Mentioned | OTHER=True) = 0.8688502432870787
+P(Fracture, CTCAE=Negated | OTHER=True) = 0.03613263651108308
+P(Fracture, CTCAE=Present | OTHER=True) = 0.09501712020183817
+P(Hypertension, CTCAE=Not Mentioned | OTHER=F) = 0.8467741935483871
+P(Hypertension, CTCAE=Negated | OTHER=F) = 0.009792626728110598
+P(Hypertension, CTCAE=Present | OTHER=F) = 0.1434331797235023
+P(Hypertension, CTCAE=Not Mentioned | OTHER=True) = 0.8056857091367814
+P(Hypertension, CTCAE=Negated | OTHER=True) = 0.0015318075328888089
+P(Hypertension, CTCAE=Present | OTHER=True) = 0.1927824833303298
+P(Hypoxia, CTCAE=Not Mentioned | OTHER=F) = 0.9331797235023042
+P(Hypoxia, CTCAE=Negated | OTHER=F) = 0.006336405529953917
+P(Hypoxia, CTCAE=Present | OTHER=F) = 0.06048387096774194
+P(Hypoxia, CTCAE=Not Mentioned | OTHER=True) = 0.9872049017841052
+P(Hypoxia, CTCAE=Negated | OTHER=True) = 0.0032888808794377367
+P(Hypoxia, CTCAE=Present | OTHER=True) = 0.00950621733645702
+P(Muscle Pain, CTCAE 3=Not Mentioned | OTHER=F) = 0.9567972350230415
+P(Muscle Pain, CTCAE 3=Negated | OTHER=F) = 0.01555299539170507
+P(Muscle Pain, CTCAE 3=Present | OTHER=F) = 0.027649769585253458
+P(Muscle Pain, CTCAE 3=Not Mentioned | OTHER=True) = 0.9516579563885385
+P(Muscle Pain, CTCAE 3=Negated | OTHER=True) = 0.030185619030455937
+P(Muscle Pain, CTCAE 3=Present | OTHER=True) = 0.018156424581005588
+P(Nausea, CTCAE 3.0=Not Mentioned | OTHER=F) = 0.743663594470046
+P(Nausea, CTCAE 3.0=Negated | OTHER=F) = 0.09274193548387097
+P(Nausea, CTCAE 3.0=Present | OTHER=F) = 0.16359447004608296
+P(Nausea, CTCAE 3.0=Not Mentioned | OTHER=True) = 0.6491710218057307
+P(Nausea, CTCAE 3.0=Negated | OTHER=True) = 0.1426383132095873
+P(Nausea, CTCAE 3.0=Present | OTHER=True) = 0.20819066498468192
+P(Pancreatitis, CTCAE 3.0=Not Mentioned | OTHER=F) = 0.9890552995391705
+P(Pancreatitis, CTCAE 3.0=Negated | OTHER=F) = 5.76036866359447E-4
+P(Pancreatitis, CTCAE 3.0=Present | OTHER=F) = 0.010368663594470046
+P(Pancreatitis, CTCAE 3.0=Not Mentioned | OTHER=True) = 0.9681023607857272
+P(Pancreatitis, CTCAE 3.0=Negated | OTHER=True) = 0.0020273923229410704
+P(Pancreatitis, CTCAE 3.0=Present | OTHER=True) = 0.029870246891331772
+P(Pneumothorax, CTCAE=Not Mentioned | OTHER=F) = 0.9101382488479263
+P(Pneumothorax, CTCAE=Negated | OTHER=F) = 0.016129032258064516
+P(Pneumothorax, CTCAE=Present | OTHER=F) = 0.07373271889400922
+P(Pneumothorax, CTCAE=Not Mentioned | OTHER=True) = 0.9566138042890611
+P(Pneumothorax, CTCAE=Negated | OTHER=True) = 0.0102270679401694
+P(Pneumothorax, CTCAE=Present | OTHER=True) = 0.03315912777076951
+P(Aspiration, CTCAE=Not Mentioned | OTHER=F) = 0.972926267281106
+P(Aspiration, CTCAE=Negated | OTHER=F) = 0.002304147465437788
+P(Aspiration, CTCAE=Present | OTHER=F) = 0.02476958525345622
+P(Aspiration, CTCAE=Not Mentioned | OTHER=True) = 0.9908992611281312
+P(Aspiration, CTCAE=Negated | OTHER=True) = 4.955847900522617E-4
+P(Aspiration, CTCAE=Present | OTHER=True) = 0.008605154081816543
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | OTHER=F) = 0.9412442396313364
+P(Sinus Tachycardia, CTCAE 3.0=Negated | OTHER=F) = 5.76036866359447E-4
+P(Sinus Tachycardia, CTCAE 3.0=Present | OTHER=F) = 0.058179723502304145
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | OTHER=True) = 0.9790953324923409
+P(Sinus Tachycardia, CTCAE 3.0=Negated | OTHER=True) = 9.010632546404758E-5
+P(Sinus Tachycardia, CTCAE 3.0=Present | OTHER=True) = 0.02081456118219499
+P(Vomiting, CTCAE=Not Mentioned | OTHER=F) = 0.5961981566820277
+P(Vomiting, CTCAE=Negated | OTHER=F) = 0.22235023041474655
+P(Vomiting, CTCAE=Present | OTHER=F) = 0.1814516129032258
+P(Vomiting, CTCAE=Not Mentioned | OTHER=True) = 0.7187331050639755
+P(Vomiting, CTCAE=Negated | OTHER=True) = 0.16750765903766443
+P(Vomiting, CTCAE=Present | OTHER=True) = 0.11375923589836007
+P(Respiratory Status=Not Mentioned | OTHER=F) = 0.9660138248847926
+P(Respiratory Status=Negated | OTHER=F) = 0.0017281105990783411
+P(Respiratory Status=Present | OTHER=F) = 0.03225806451612903
+P(Respiratory Status=Not Mentioned | OTHER=True) = 0.9973869165615427
+P(Respiratory Status=Negated | OTHER=True) = 4.505316273202379E-5
+P(Respiratory Status=Present | OTHER=True) = 0.002568030275725356
+P(Depression, CTCAE=Not Mentioned | OTHER=F) = 0.9671658986175116
+P(Depression, CTCAE=Negated | OTHER=F) = 0.00576036866359447
+P(Depression, CTCAE=Present | OTHER=F) = 0.02707373271889401
+P(Depression, CTCAE=Not Mentioned | OTHER=True) = 0.92052622094071
+P(Depression, CTCAE=Negated | OTHER=True) = 0.0130654171922869
+P(Depression, CTCAE=Present | OTHER=True) = 0.06640836186700307
+P(History of previous events=Not Mentioned | OTHER=F) = 0.34735023041474655
+P(History of previous events=Negated | OTHER=F) = 0.03341013824884793
+P(History of previous events=Present | OTHER=F) = 0.6192396313364056
+P(History of previous events=Not Mentioned | OTHER=True) = 0.6074067399531448
+P(History of previous events=Negated | OTHER=True) = 0.031582267075148676
+P(History of previous events=Present | OTHER=True) = 0.36101099297170663
+P(jaundice=Not Mentioned | OTHER=F) = 0.9061059907834101
+P(jaundice=Negated | OTHER=F) = 0.0846774193548387
+P(jaundice=Present | OTHER=F) = 0.009216589861751152
+P(jaundice=Not Mentioned | OTHER=True) = 0.9611641737249955
+P(jaundice=Negated | OTHER=True) = 0.03482609479185439
+P(jaundice=Present | OTHER=True) = 0.004009731483150117
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | OTHER=F) = 0.9412442396313364
+P(continuous electrocardiogram sinus tachycardia=Negated | OTHER=F) = 5.76036866359447E-4
+P(continuous electrocardiogram sinus tachycardia=Present | OTHER=F) = 0.058179723502304145
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | OTHER=True) = 0.9790953324923409
+P(continuous electrocardiogram sinus tachycardia=Negated | OTHER=True) = 9.010632546404758E-5
+P(continuous electrocardiogram sinus tachycardia=Present | OTHER=True) = 0.02081456118219499
+P(Has tingling sensation=Not Mentioned | OTHER=F) = 0.9752304147465438
+P(Has tingling sensation=Negated | OTHER=F) = 0.021889400921658985
+P(Has tingling sensation=Present | OTHER=F) = 0.002880184331797235
+P(Has tingling sensation=Not Mentioned | OTHER=True) = 0.9379167417552712
+P(Has tingling sensation=Negated | OTHER=True) = 0.04919805370336998
+P(Has tingling sensation=Present | OTHER=True) = 0.012885204541358804
+P(Discomfort=Not Mentioned | OTHER=F) = 0.961405529953917
+P(Discomfort=Negated | OTHER=F) = 0.004032258064516129
+P(Discomfort=Present | OTHER=F) = 0.03456221198156682
+P(Discomfort=Not Mentioned | OTHER=True) = 0.9126869706253379
+P(Discomfort=Negated | OTHER=True) = 0.004685528924130474
+P(Discomfort=Present | OTHER=True) = 0.08262750045053163
+P(on room air=Not Mentioned | OTHER=F) = 0.8807603686635944
+P(on room air=Negated | OTHER=F) = 0.0017281105990783411
+P(on room air=Present | OTHER=F) = 0.1175115207373272
+P(on room air=Not Mentioned | OTHER=True) = 0.9330960533429447
+P(on room air=Negated | OTHER=True) = 6.757974409803568E-4
+P(on room air=Present | OTHER=True) = 0.06622814921607496
+P(Actual Aspiration=Not Mentioned | OTHER=F) = 0.972926267281106
+P(Actual Aspiration=Negated | OTHER=F) = 0.002304147465437788
+P(Actual Aspiration=Present | OTHER=F) = 0.02476958525345622
+P(Actual Aspiration=Not Mentioned | OTHER=True) = 0.9908992611281312
+P(Actual Aspiration=Negated | OTHER=True) = 4.955847900522617E-4
+P(Actual Aspiration=Present | OTHER=True) = 0.008605154081816543
+P(Related to Cancer=Not Mentioned | OTHER=F) = 0.8369815668202765
+P(Related to Cancer=Negated | OTHER=F) = 0.001152073732718894
+P(Related to Cancer=Present | OTHER=F) = 0.16186635944700462
+P(Related to Cancer=Not Mentioned | OTHER=True) = 0.8913317714903586
+P(Related to Cancer=Negated | OTHER=True) = 0.003243827716705713
+P(Related to Cancer=Present | OTHER=True) = 0.10542440079293566
+P(Tissue Congestion=Not Mentioned | OTHER=F) = 0.7862903225806451
+P(Tissue Congestion=Negated | OTHER=F) = 0.008064516129032258
+P(Tissue Congestion=Present | OTHER=F) = 0.2056451612903226
+P(Tissue Congestion=Not Mentioned | OTHER=True) = 0.9595422598666427
+P(Tissue Congestion=Negated | OTHER=True) = 0.002072445485673094
+P(Tissue Congestion=Present | OTHER=True) = 0.03838529464768427
+P(Unintentional Material Aspiration=Not Mentioned | OTHER=F) = 0.972926267281106
+P(Unintentional Material Aspiration=Negated | OTHER=F) = 0.002304147465437788
+P(Unintentional Material Aspiration=Present | OTHER=F) = 0.02476958525345622
+P(Unintentional Material Aspiration=Not Mentioned | OTHER=True) = 0.9908992611281312
+P(Unintentional Material Aspiration=Negated | OTHER=True) = 4.955847900522617E-4
+P(Unintentional Material Aspiration=Present | OTHER=True) = 0.008605154081816543
+P(Discharge, body substance=Not Mentioned | OTHER=F) = 0.4314516129032258
+P(Discharge, body substance=Negated | OTHER=F) = 0.2436635944700461
+P(Discharge, body substance=Present | OTHER=F) = 0.3248847926267281
+P(Discharge, body substance=Not Mentioned | OTHER=True) = 0.3759686429987385
+P(Discharge, body substance=Negated | OTHER=True) = 0.11848981798522257
+P(Discharge, body substance=Present | OTHER=True) = 0.5055415390160389
+P(Head bobbing=Not Mentioned | OTHER=F) = 0.9867511520737328
+P(Head bobbing=Negated | OTHER=F) = 0.0034562211981566822
+P(Head bobbing=Present | OTHER=F) = 0.009792626728110598
+P(Head bobbing=Not Mentioned | OTHER=True) = 0.999819787349072
+P(Head bobbing=Negated | OTHER=True) = 9.010632546404758E-5
+P(Head bobbing=Present | OTHER=True) = 9.010632546404758E-5
+P(Palpitations, CTCAE=Not Mentioned | OTHER=F) = 0.9504608294930875
+P(Palpitations, CTCAE=Negated | OTHER=F) = 0.023617511520737326
+P(Palpitations, CTCAE=Present | OTHER=F) = 0.025921658986175114
+P(Palpitations, CTCAE=Not Mentioned | OTHER=True) = 0.8949810776716526
+P(Palpitations, CTCAE=Negated | OTHER=True) = 0.052306721931879616
+P(Palpitations, CTCAE=Present | OTHER=True) = 0.05271220039646783
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Not Mentioned | OTHER=F) = 0.9832949308755761
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Negated | OTHER=F) = 0.004608294930875576
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Present | OTHER=F) = 0.012096774193548387
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Not Mentioned | OTHER=True) = 0.9968913317714904
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Negated | OTHER=True) = 1.8021265092809516E-4
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Present | OTHER=True) = 0.0029284555775815463
+P(Mild dehydration=Not Mentioned | OTHER=F) = 0.9775345622119815
+P(Mild dehydration=Negated | OTHER=F) = 5.76036866359447E-4
+P(Mild dehydration=Present | OTHER=F) = 0.021889400921658985
+P(Mild dehydration=Not Mentioned | OTHER=True) = 0.9946386736348891
+P(Mild dehydration=Negated | OTHER=True) = 4.505316273202379E-5
+P(Mild dehydration=Present | OTHER=True) = 0.005316273202378807
+P(History of bronchiolitis=Not Mentioned | OTHER=F) = 0.9930875576036866
+P(History of bronchiolitis=Negated | OTHER=F) = 5.76036866359447E-4
+P(History of bronchiolitis=Present | OTHER=F) = 0.006336405529953917
+P(History of bronchiolitis=Not Mentioned | OTHER=True) = 0.9997296810236078
+P(History of bronchiolitis=Negated | OTHER=True) = 4.505316273202379E-5
+P(History of bronchiolitis=Present | OTHER=True) = 2.2526581366011893E-4
+P(Allergic disposition=Not Mentioned | OTHER=F) = 0.8680875576036866
+P(Allergic disposition=Negated | OTHER=F) = 0.001152073732718894
+P(Allergic disposition=Present | OTHER=F) = 0.13076036866359447
+P(Allergic disposition=Not Mentioned | OTHER=True) = 0.9354388178050099
+P(Allergic disposition=Negated | OTHER=True) = 0.0031537213912416653
+P(Allergic disposition=Present | OTHER=True) = 0.061407460803748426
+P(Agree=Not Mentioned | OTHER=F) = 0.8819124423963134
+P(Agree=Negated | OTHER=F) = 0.002304147465437788
+P(Agree=Present | OTHER=F) = 0.11578341013824885
+P(Agree=Not Mentioned | OTHER=True) = 0.8274914398990809
+P(Agree=Negated | OTHER=True) = 0.004955847900522617
+P(Agree=Present | OTHER=True) = 0.16755271220039647
+P(Weakness=Not Mentioned | OTHER=F) = 0.815668202764977
+P(Weakness=Negated | OTHER=F) = 0.026497695852534562
+P(Weakness=Present | OTHER=F) = 0.1578341013824885
+P(Weakness=Not Mentioned | OTHER=True) = 0.7421607496846279
+P(Weakness=Negated | OTHER=True) = 0.08469994593620472
+P(Weakness=Present | OTHER=True) = 0.1731393043791674
+P(Recurrent fevers=Not Mentioned | OTHER=F) = 0.9913594470046083
+P(Recurrent fevers=Negated | OTHER=F) = 0.001152073732718894
+P(Recurrent fevers=Present | OTHER=F) = 0.007488479262672811
+P(Recurrent fevers=Not Mentioned | OTHER=True) = 0.9897729320598306
+P(Recurrent fevers=Negated | OTHER=True) = 0.008740313570012615
+P(Recurrent fevers=Present | OTHER=True) = 0.001486754370156785
+P(Center of town=Not Mentioned | OTHER=F) = 0.9913594470046083
+P(Center of town=Negated | OTHER=F) = 5.76036866359447E-4
+P(Center of town=Present | OTHER=F) = 0.008064516129032258
+P(Center of town=Not Mentioned | OTHER=True) = 0.9706253378987205
+P(Center of town=Negated | OTHER=True) = 1.8021265092809516E-4
+P(Center of town=Present | OTHER=True) = 0.029194449450351413
+P(Skin Bruise=Not Mentioned | OTHER=F) = 0.9896313364055299
+P(Skin Bruise=Negated | OTHER=F) = 0.004032258064516129
+P(Skin Bruise=Present | OTHER=F) = 0.006336405529953917
+P(Skin Bruise=Not Mentioned | OTHER=True) = 0.958325824472878
+P(Skin Bruise=Negated | OTHER=True) = 0.008650207244548567
+P(Skin Bruise=Present | OTHER=True) = 0.03302396828257344
+P(Full Term Birth=Not Mentioned | OTHER=F) = 0.9009216589861752
+P(Full Term Birth=Negated | OTHER=F) = 5.76036866359447E-4
+P(Full Term Birth=Present | OTHER=F) = 0.09850230414746544
+P(Full Term Birth=Not Mentioned | OTHER=True) = 0.9810326184898179
+P(Full Term Birth=Negated | OTHER=True) = 4.505316273202379E-5
+P(Full Term Birth=Present | OTHER=True) = 0.01892232834744999
+P(Tachycardia by ECG Finding=Not Mentioned | OTHER=F) = 0.8341013824884793
+P(Tachycardia by ECG Finding=Negated | OTHER=F) = 0.014400921658986175
+P(Tachycardia by ECG Finding=Present | OTHER=F) = 0.15149769585253456
+P(Tachycardia by ECG Finding=Not Mentioned | OTHER=True) = 0.9415660479365652
+P(Tachycardia by ECG Finding=Negated | OTHER=True) = 0.01630924490899261
+P(Tachycardia by ECG Finding=Present | OTHER=True) = 0.04212470715444224
+P(Karnofsky Performance Status 80=Not Mentioned | OTHER=F) = 0.9907834101382489
+P(Karnofsky Performance Status 80=Negated | OTHER=F) = 5.76036866359447E-4
+P(Karnofsky Performance Status 80=Present | OTHER=F) = 0.008640552995391706
+P(Karnofsky Performance Status 80=Not Mentioned | OTHER=True) = 0.9993692557217516
+P(Karnofsky Performance Status 80=Negated | OTHER=True) = 4.505316273202379E-5
+P(Karnofsky Performance Status 80=Present | OTHER=True) = 5.856911155163092E-4
+P(Resident - answer to question=Not Mentioned | OTHER=F) = 0.44527649769585254
+P(Resident - answer to question=Negated | OTHER=F) = 0.001152073732718894
+P(Resident - answer to question=Present | OTHER=F) = 0.5535714285714286
+P(Resident - answer to question=Not Mentioned | OTHER=True) = 0.5623085240583889
+P(Resident - answer to question=Negated | OTHER=True) = 0.001712020183816904
+P(Resident - answer to question=Present | OTHER=True) = 0.4359794557577942
+P(Transplant=Not Mentioned | OTHER=F) = 0.9815668202764977
+P(Transplant=Negated | OTHER=F) = 0.0017281105990783411
+P(Transplant=Present | OTHER=F) = 0.016705069124423964
+P(Transplant=Not Mentioned | OTHER=True) = 0.9956298432149937
+P(Transplant=Negated | OTHER=True) = 2.703189763921427E-4
+P(Transplant=Present | OTHER=True) = 0.004099837808614165
+P(At work=Not Mentioned | OTHER=F) = 0.994815668202765
+P(At work=Negated | OTHER=F) = 5.76036866359447E-4
+P(At work=Present | OTHER=F) = 0.004608294930875576
+P(At work=Not Mentioned | OTHER=True) = 0.9776536312849162
+P(At work=Negated | OTHER=True) = 3.604253018561903E-4
+P(At work=Present | OTHER=True) = 0.02198594341322761
+P(Numbness or tingling=Not Mentioned | OTHER=F) = 0.9890552995391705
+P(Numbness or tingling=Negated | OTHER=F) = 0.0034562211981566822
+P(Numbness or tingling=Present | OTHER=F) = 0.007488479262672811
+P(Numbness or tingling=Not Mentioned | OTHER=True) = 0.9692286898540278
+P(Numbness or tingling=Negated | OTHER=True) = 0.015092809515227968
+P(Numbness or tingling=Present | OTHER=True) = 0.015678500630744278
+P(Nausea or vomiting=Not Mentioned | OTHER=F) = 0.9550691244239631
+P(Nausea or vomiting=Negated | OTHER=F) = 0.029953917050691243
+P(Nausea or vomiting=Present | OTHER=F) = 0.014976958525345621
+P(Nausea or vomiting=Not Mentioned | OTHER=True) = 0.9217877094972067
+P(Nausea or vomiting=Negated | OTHER=True) = 0.04189944134078212
+P(Nausea or vomiting=Present | OTHER=True) = 0.036312849162011177
+P(UTD=Not Mentioned | OTHER=F) = 0.9786866359447005
+P(UTD=Negated | OTHER=F) = 5.76036866359447E-4
+P(UTD=Present | OTHER=F) = 0.020737327188940093
+P(UTD=Not Mentioned | OTHER=True) = 0.9936024508920526
+P(UTD=Negated | OTHER=True) = 4.054784645882141E-4
+P(UTD=Present | OTHER=True) = 0.005992070643359164
+P(Too early=Not Mentioned | OTHER=F) = 0.9717741935483871
+P(Too early=Negated | OTHER=F) = 5.76036866359447E-4
+P(Too early=Present | OTHER=F) = 0.027649769585253458
+P(Too early=Not Mentioned | OTHER=True) = 0.9928816002883403
+P(Too early=Negated | OTHER=True) = 4.505316273202379E-5
+P(Too early=Present | OTHER=True) = 0.007073346548927734
+P(Overdose=Not Mentioned | OTHER=F) = 0.9982718894009217
+P(Overdose=Negated | OTHER=F) = 5.76036866359447E-4
+P(Overdose=Present | OTHER=F) = 0.001152073732718894
+P(Overdose=Not Mentioned | OTHER=True) = 0.9871147954586412
+P(Overdose=Negated | OTHER=True) = 8.56010091908452E-4
+P(Overdose=Present | OTHER=True) = 0.012029194449450352
+P(3 times=Not Mentioned | OTHER=F) = 0.9205069124423964
+P(3 times=Negated | OTHER=F) = 5.76036866359447E-4
+P(3 times=Present | OTHER=F) = 0.07891705069124424
+P(3 times=Not Mentioned | OTHER=True) = 0.8699315191926473
+P(3 times=Negated | OTHER=True) = 9.010632546404758E-5
+P(3 times=Present | OTHER=True) = 0.12997837448188862
+P(2 times=Not Mentioned | OTHER=F) = 0.8830645161290323
+P(2 times=Negated | OTHER=F) = 5.76036866359447E-4
+P(2 times=Present | OTHER=F) = 0.11635944700460829
+P(2 times=Not Mentioned | OTHER=True) = 0.8150567669850424
+P(2 times=Negated | OTHER=True) = 9.010632546404758E-5
+P(2 times=Present | OTHER=True) = 0.1848531266894936
+P(Radiologic Impression=Not Mentioned | OTHER=F) = 0.08237327188940093
+P(Radiologic Impression=Negated | OTHER=F) = 0.004032258064516129
+P(Radiologic Impression=Present | OTHER=F) = 0.913594470046083
+P(Radiologic Impression=Not Mentioned | OTHER=True) = 0.14007028293386195
+P(Radiologic Impression=Negated | OTHER=True) = 0.0024328707875292846
+P(Radiologic Impression=Present | OTHER=True) = 0.8574968462786088
+P(Pathologic Complete Response=Not Mentioned | OTHER=F) = 0.9855990783410138
+P(Pathologic Complete Response=Negated | OTHER=F) = 5.76036866359447E-4
+P(Pathologic Complete Response=Present | OTHER=F) = 0.013824884792626729
+P(Pathologic Complete Response=Not Mentioned | OTHER=True) = 0.9977923950261308
+P(Pathologic Complete Response=Negated | OTHER=True) = 4.505316273202379E-5
+P(Pathologic Complete Response=Present | OTHER=True) = 0.002162551811137142
+P(High Risk Acute Leukemia=Not Mentioned | OTHER=F) = 0.9832949308755761
+P(High Risk Acute Leukemia=Negated | OTHER=F) = 0.004608294930875576
+P(High Risk Acute Leukemia=Present | OTHER=F) = 0.012096774193548387
+P(High Risk Acute Leukemia=Not Mentioned | OTHER=True) = 0.9968913317714904
+P(High Risk Acute Leukemia=Negated | OTHER=True) = 1.8021265092809516E-4
+P(High Risk Acute Leukemia=Present | OTHER=True) = 0.0029284555775815463
+P(Organomegaly=Not Mentioned | OTHER=F) = 0.663594470046083
+P(Organomegaly=Negated | OTHER=F) = 0.3358294930875576
+P(Organomegaly=Present | OTHER=F) = 5.76036866359447E-4
+P(Organomegaly=Not Mentioned | OTHER=True) = 0.7842854568390701
+P(Organomegaly=Negated | OTHER=True) = 0.2115696521895837
+P(Organomegaly=Present | OTHER=True) = 0.004144890971346188
+P(Rambling=Not Mentioned | OTHER=F) = 0.9988479262672811
+P(Rambling=Negated | OTHER=F) = 5.76036866359447E-4
+P(Rambling=Present | OTHER=F) = 5.76036866359447E-4
+P(Rambling=Not Mentioned | OTHER=True) = 0.988601549828798
+P(Rambling=Negated | OTHER=True) = 4.505316273202379E-5
+P(Rambling=Present | OTHER=True) = 0.011353397008469995
+P(Reactive to light=Not Mentioned | OTHER=F) = 0.8767281105990783
+P(Reactive to light=Negated | OTHER=F) = 5.76036866359447E-4
+P(Reactive to light=Present | OTHER=F) = 0.12269585253456221
+P(Reactive to light=Not Mentioned | OTHER=True) = 0.7861326365110831
+P(Reactive to light=Negated | OTHER=True) = 4.505316273202379E-5
+P(Reactive to light=Present | OTHER=True) = 0.2138223103261849
+P(Peribronchial Cuffing=Not Mentioned | OTHER=F) = 0.972926267281106
+P(Peribronchial Cuffing=Negated | OTHER=F) = 5.76036866359447E-4
+P(Peribronchial Cuffing=Present | OTHER=F) = 0.026497695852534562
+P(Peribronchial Cuffing=Not Mentioned | OTHER=True) = 0.9989187240944314
+P(Peribronchial Cuffing=Negated | OTHER=True) = 4.505316273202379E-5
+P(Peribronchial Cuffing=Present | OTHER=True) = 0.001036222742836547
+P(Much=Not Mentioned | OTHER=F) = 0.8755760368663594
+P(Much=Negated | OTHER=F) = 0.017857142857142856
+P(Much=Present | OTHER=F) = 0.10656682027649769
+P(Much=Not Mentioned | OTHER=True) = 0.8397008469994593
+P(Much=Negated | OTHER=True) = 0.007929356640836186
+P(Much=Present | OTHER=True) = 0.15236979635970446
+P(Swollen Lymph Node=Not Mentioned | OTHER=F) = 0.5426267281105991
+P(Swollen Lymph Node=Negated | OTHER=F) = 0.42972350230414746
+P(Swollen Lymph Node=Present | OTHER=F) = 0.027649769585253458
+P(Swollen Lymph Node=Not Mentioned | OTHER=True) = 0.6490809154802667
+P(Swollen Lymph Node=Negated | OTHER=True) = 0.32528383492521173
+P(Swollen Lymph Node=Present | OTHER=True) = 0.025635249594521535
+P(Complete Pharyngeal Contraction=Not Mentioned | OTHER=F) = 0.8358294930875576
+P(Complete Pharyngeal Contraction=Negated | OTHER=F) = 0.004032258064516129
+P(Complete Pharyngeal Contraction=Present | OTHER=F) = 0.16013824884792627
+P(Complete Pharyngeal Contraction=Not Mentioned | OTHER=True) = 0.9176428185258605
+P(Complete Pharyngeal Contraction=Negated | OTHER=True) = 0.002297711299333213
+P(Complete Pharyngeal Contraction=Present | OTHER=True) = 0.08005947017480627
+P(Laboratory observation=Not Mentioned | OTHER=F) = 0.7695852534562212
+P(Laboratory observation=Negated | OTHER=F) = 0.001152073732718894
+P(Laboratory observation=Present | OTHER=F) = 0.22926267281105991
+P(Laboratory observation=Not Mentioned | OTHER=True) = 0.8977743737610381
+P(Laboratory observation=Negated | OTHER=True) = 0.0013966480446927375
+P(Laboratory observation=Present | OTHER=True) = 0.10082897819426924
+P(Crutches Usually Used=Not Mentioned | OTHER=F) = 0.9988479262672811
+P(Crutches Usually Used=Negated | OTHER=F) = 5.76036866359447E-4
+P(Crutches Usually Used=Present | OTHER=F) = 5.76036866359447E-4
+P(Crutches Usually Used=Not Mentioned | OTHER=True) = 0.9819336817444585
+P(Crutches Usually Used=Negated | OTHER=True) = 4.955847900522617E-4
+P(Crutches Usually Used=Present | OTHER=True) = 0.017570733465489277
+P(High risk=Not Mentioned | OTHER=F) = 0.9832949308755761
+P(High risk=Negated | OTHER=F) = 0.004608294930875576
+P(High risk=Present | OTHER=F) = 0.012096774193548387
+P(High risk=Not Mentioned | OTHER=True) = 0.9968913317714904
+P(High risk=Negated | OTHER=True) = 1.8021265092809516E-4
+P(High risk=Present | OTHER=True) = 0.0029284555775815463
+P(High Level=Not Mentioned | OTHER=F) = 0.8145161290322581
+P(High Level=Negated | OTHER=F) = 0.002880184331797235
+P(High Level=Present | OTHER=F) = 0.1826036866359447
+P(High Level=Not Mentioned | OTHER=True) = 0.9339520634348532
+P(High Level=Negated | OTHER=True) = 0.001892232834744999
+P(High Level=Present | OTHER=True) = 0.06415570373040187
+P(Low Level=Not Mentioned | OTHER=F) = 0.8076036866359447
+P(Low Level=Negated | OTHER=F) = 0.008640552995391706
+P(Low Level=Present | OTHER=F) = 0.1837557603686636
+P(Low Level=Not Mentioned | OTHER=True) = 0.8754730582086863
+P(Low Level=Negated | OTHER=True) = 0.005856911155163093
+P(Low Level=Present | OTHER=True) = 0.11867003063615066
+P(Nasal (intended site)=Not Mentioned | OTHER=F) = 0.9400921658986175
+P(Nasal (intended site)=Negated | OTHER=F) = 0.00576036866359447
+P(Nasal (intended site)=Present | OTHER=F) = 0.05414746543778802
+P(Nasal (intended site)=Not Mentioned | OTHER=True) = 0.9680573076229951
+P(Nasal (intended site)=Negated | OTHER=True) = 0.0059019643178951165
+P(Nasal (intended site)=Present | OTHER=True) = 0.02604072805910975
+P(Rectal (intended site)=Not Mentioned | OTHER=F) = 0.7724654377880185
+P(Rectal (intended site)=Negated | OTHER=F) = 0.001152073732718894
+P(Rectal (intended site)=Present | OTHER=F) = 0.22638248847926268
+P(Rectal (intended site)=Not Mentioned | OTHER=True) = 0.9358893494323302
+P(Rectal (intended site)=Negated | OTHER=True) = 0.0012164353937646423
+P(Rectal (intended site)=Present | OTHER=True) = 0.06289421517390521
+P(Oral (intended site)=Not Mentioned | OTHER=F) = 0.755184331797235
+P(Oral (intended site)=Negated | OTHER=F) = 0.008064516129032258
+P(Oral (intended site)=Present | OTHER=F) = 0.2367511520737327
+P(Oral (intended site)=Not Mentioned | OTHER=True) = 0.816228149216075
+P(Oral (intended site)=Negated | OTHER=True) = 0.004820688412326545
+P(Oral (intended site)=Present | OTHER=True) = 0.1789511623715985
+P(Influenza B (result)=Not Mentioned | OTHER=F) = 0.9337557603686636
+P(Influenza B (result)=Negated | OTHER=F) = 0.009216589861751152
+P(Influenza B (result)=Present | OTHER=F) = 0.057027649769585256
+P(Influenza B (result)=Not Mentioned | OTHER=True) = 0.999909893674536
+P(Influenza B (result)=Negated | OTHER=True) = 4.505316273202379E-5
+P(Influenza B (result)=Present | OTHER=True) = 4.505316273202379E-5
+P(Supplemental oxygen=Not Mentioned | OTHER=F) = 0.9752304147465438
+P(Supplemental oxygen=Negated | OTHER=F) = 0.0017281105990783411
+P(Supplemental oxygen=Present | OTHER=F) = 0.02304147465437788
+P(Supplemental oxygen=Not Mentioned | OTHER=True) = 0.9967111191205623
+P(Supplemental oxygen=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Supplemental oxygen=Present | OTHER=True) = 0.0031537213912416653
+P(At home=Not Mentioned | OTHER=F) = 0.6111751152073732
+P(At home=Negated | OTHER=F) = 0.006336405529953917
+P(At home=Present | OTHER=F) = 0.3824884792626728
+P(At home=Not Mentioned | OTHER=True) = 0.7625247792395026
+P(At home=Negated | OTHER=True) = 0.004189944134078212
+P(At home=Present | OTHER=True) = 0.23328527662641918
+P(Myalgia, CTCAE 5=Not Mentioned | OTHER=F) = 0.9850230414746544
+P(Myalgia, CTCAE 5=Negated | OTHER=F) = 0.001152073732718894
+P(Myalgia, CTCAE 5=Present | OTHER=F) = 0.013824884792626729
+P(Myalgia, CTCAE 5=Not Mentioned | OTHER=True) = 0.9974770228870067
+P(Myalgia, CTCAE 5=Negated | OTHER=True) = 1.8021265092809516E-4
+P(Myalgia, CTCAE 5=Present | OTHER=True) = 0.002342764462065237
+P(Respiratory Failure, CTCAE=Not Mentioned | OTHER=F) = 0.9735023041474654
+P(Respiratory Failure, CTCAE=Negated | OTHER=F) = 0.0017281105990783411
+P(Respiratory Failure, CTCAE=Present | OTHER=F) = 0.02476958525345622
+P(Respiratory Failure, CTCAE=Not Mentioned | OTHER=True) = 0.9965759596323662
+P(Respiratory Failure, CTCAE=Negated | OTHER=True) = 9.010632546404758E-5
+P(Respiratory Failure, CTCAE=Present | OTHER=True) = 0.0033339340421697605
+P(Rhinorrhea, CTCAE=Not Mentioned | OTHER=F) = 0.8329493087557603
+P(Rhinorrhea, CTCAE=Negated | OTHER=F) = 0.010944700460829493
+P(Rhinorrhea, CTCAE=Present | OTHER=F) = 0.15610599078341014
+P(Rhinorrhea, CTCAE=Not Mentioned | OTHER=True) = 0.9369255721751667
+P(Rhinorrhea, CTCAE=Negated | OTHER=True) = 0.013155523517750947
+P(Rhinorrhea, CTCAE=Present | OTHER=True) = 0.04991890430708236
+P(Anxiety, CTCAE 5.0=Not Mentioned | OTHER=F) = 0.9602534562211982
+P(Anxiety, CTCAE 5.0=Negated | OTHER=F) = 0.008640552995391706
+P(Anxiety, CTCAE 5.0=Present | OTHER=F) = 0.03110599078341014
+P(Anxiety, CTCAE 5.0=Not Mentioned | OTHER=True) = 0.9134528743917824
+P(Anxiety, CTCAE 5.0=Negated | OTHER=True) = 0.012975310866822852
+P(Anxiety, CTCAE 5.0=Present | OTHER=True) = 0.07357181474139485
+P(Fever, CTCAE=Not Mentioned | OTHER=F) = 0.2534562211981567
+P(Fever, CTCAE=Negated | OTHER=F) = 0.14573732718894009
+P(Fever, CTCAE=Present | OTHER=F) = 0.6008064516129032
+P(Fever, CTCAE=Not Mentioned | OTHER=True) = 0.6011894034961254
+P(Fever, CTCAE=Negated | OTHER=True) = 0.26657956388538473
+P(Fever, CTCAE=Present | OTHER=True) = 0.1322310326184898
+P(Sore Throat, CTCAE=Not Mentioned | OTHER=F) = 0.75
+P(Sore Throat, CTCAE=Negated | OTHER=F) = 0.07546082949308756
+P(Sore Throat, CTCAE=Present | OTHER=F) = 0.17453917050691245
+P(Sore Throat, CTCAE=Not Mentioned | OTHER=True) = 0.8760587493242026
+P(Sore Throat, CTCAE=Negated | OTHER=True) = 0.06397549107947378
+P(Sore Throat, CTCAE=Present | OTHER=True) = 0.059965759596323664
+P(Pleural Effusion, CTCAE=Not Mentioned | OTHER=F) = 0.9383640552995391
+P(Pleural Effusion, CTCAE=Negated | OTHER=F) = 0.01728110599078341
+P(Pleural Effusion, CTCAE=Present | OTHER=F) = 0.04435483870967742
+P(Pleural Effusion, CTCAE=Not Mentioned | OTHER=True) = 0.9890971346188503
+P(Pleural Effusion, CTCAE=Negated | OTHER=True) = 0.001712020183816904
+P(Pleural Effusion, CTCAE=Present | OTHER=True) = 0.009190845197332853
+P(Sepsis, CTCAE=Not Mentioned | OTHER=F) = 0.9193548387096774
+P(Sepsis, CTCAE=Negated | OTHER=F) = 0.004032258064516129
+P(Sepsis, CTCAE=Present | OTHER=F) = 0.07661290322580645
+P(Sepsis, CTCAE=Not Mentioned | OTHER=True) = 0.9839610740673995
+P(Sepsis, CTCAE=Negated | OTHER=True) = 8.109569291764282E-4
+P(Sepsis, CTCAE=Present | OTHER=True) = 0.01522796900342404
+P(Upper Respiratory Infection, CTCAE=Not Mentioned | OTHER=F) = 0.9763824884792627
+P(Upper Respiratory Infection, CTCAE=Negated | OTHER=F) = 5.76036866359447E-4
+P(Upper Respiratory Infection, CTCAE=Present | OTHER=F) = 0.02304147465437788
+P(Upper Respiratory Infection, CTCAE=Not Mentioned | OTHER=True) = 0.9938727698684447
+P(Upper Respiratory Infection, CTCAE=Negated | OTHER=True) = 4.505316273202379E-5
+P(Upper Respiratory Infection, CTCAE=Present | OTHER=True) = 0.006082176968823212
+P(Meningitis, CTCAE=Not Mentioned | OTHER=F) = 0.9164746543778802
+P(Meningitis, CTCAE=Negated | OTHER=F) = 0.004032258064516129
+P(Meningitis, CTCAE=Present | OTHER=F) = 0.07949308755760369
+P(Meningitis, CTCAE=Not Mentioned | OTHER=True) = 0.9741394845918183
+P(Meningitis, CTCAE=Negated | OTHER=True) = 0.001892232834744999
+P(Meningitis, CTCAE=Present | OTHER=True) = 0.023968282573436656
+P(Arthritis, CTCAE=Not Mentioned | OTHER=F) = 0.9487327188940092
+P(Arthritis, CTCAE=Negated | OTHER=F) = 0.001152073732718894
+P(Arthritis, CTCAE=Present | OTHER=F) = 0.05011520737327189
+P(Arthritis, CTCAE=Not Mentioned | OTHER=True) = 0.905298251937286
+P(Arthritis, CTCAE=Negated | OTHER=True) = 4.955847900522617E-4
+P(Arthritis, CTCAE=Present | OTHER=True) = 0.09420616327266174
+P(Bronchospasm, CTCAE=Not Mentioned | OTHER=F) = 0.9775345622119815
+P(Bronchospasm, CTCAE=Negated | OTHER=F) = 0.002304147465437788
+P(Bronchospasm, CTCAE=Present | OTHER=F) = 0.020161290322580645
+P(Bronchospasm, CTCAE=Not Mentioned | OTHER=True) = 0.9968913317714904
+P(Bronchospasm, CTCAE=Negated | OTHER=True) = 9.010632546404758E-5
+P(Bronchospasm, CTCAE=Present | OTHER=True) = 0.003018561903045594
+P(Lethargy, CTCAE=Not Mentioned | OTHER=F) = 0.967741935483871
+P(Lethargy, CTCAE=Negated | OTHER=F) = 0.012096774193548387
+P(Lethargy, CTCAE=Present | OTHER=F) = 0.020161290322580645
+P(Lethargy, CTCAE=Not Mentioned | OTHER=True) = 0.9895026130834385
+P(Lethargy, CTCAE=Negated | OTHER=True) = 0.0036943593440259504
+P(Lethargy, CTCAE=Present | OTHER=True) = 0.006803027572535592
+P(Productive Cough, CTCAE=Not Mentioned | OTHER=F) = 0.9464285714285714
+P(Productive Cough, CTCAE=Negated | OTHER=F) = 0.0034562211981566822
+P(Productive Cough, CTCAE=Present | OTHER=F) = 0.05011520737327189
+P(Productive Cough, CTCAE=Not Mentioned | OTHER=True) = 0.9883312308524058
+P(Productive Cough, CTCAE=Negated | OTHER=True) = 0.0013966480446927375
+P(Productive Cough, CTCAE=Present | OTHER=True) = 0.010272121102901424
+P(Malaise, CTCAE=Not Mentioned | OTHER=F) = 0.9395161290322581
+P(Malaise, CTCAE=Negated | OTHER=F) = 0.004608294930875576
+P(Malaise, CTCAE=Present | OTHER=F) = 0.05587557603686636
+P(Malaise, CTCAE=Not Mentioned | OTHER=True) = 0.9679672012975311
+P(Malaise, CTCAE=Negated | OTHER=True) = 0.006938187060731664
+P(Malaise, CTCAE=Present | OTHER=True) = 0.02509461164173725
+P(Pain, CTCAE=Not Mentioned | OTHER=F) = 0.7523041474654378
+P(Pain, CTCAE=Negated | OTHER=F) = 0.052995391705069124
+P(Pain, CTCAE=Present | OTHER=F) = 0.19470046082949308
+P(Pain, CTCAE=Not Mentioned | OTHER=True) = 0.4793205983060011
+P(Pain, CTCAE=Negated | OTHER=True) = 0.10506397549107947
+P(Pain, CTCAE=Present | OTHER=True) = 0.41561542620291947
+P(Chills, CTCAE=Not Mentioned | OTHER=F) = 0.7695852534562212
+P(Chills, CTCAE=Negated | OTHER=F) = 0.04435483870967742
+P(Chills, CTCAE=Present | OTHER=F) = 0.1860599078341014
+P(Chills, CTCAE=Not Mentioned | OTHER=True) = 0.6365110830780321
+P(Chills, CTCAE=Negated | OTHER=True) = 0.11038024869345828
+P(Chills, CTCAE=Present | OTHER=True) = 0.25310866822850964
+P(Headache, CTCAE=Not Mentioned | OTHER=F) = 0.7574884792626728
+P(Headache, CTCAE=Negated | OTHER=F) = 0.09216589861751152
+P(Headache, CTCAE=Present | OTHER=F) = 0.15034562211981567
+P(Headache, CTCAE=Not Mentioned | OTHER=True) = 0.7370697422959092
+P(Headache, CTCAE=Negated | OTHER=True) = 0.1389890070282934
+P(Headache, CTCAE=Present | OTHER=True) = 0.12394125067579743
+P(Conjunctivitis, CTCAE=Not Mentioned | OTHER=F) = 0.9838709677419355
+P(Conjunctivitis, CTCAE=Negated | OTHER=F) = 0.0017281105990783411
+P(Conjunctivitis, CTCAE=Present | OTHER=F) = 0.014400921658986175
+P(Conjunctivitis, CTCAE=Not Mentioned | OTHER=True) = 0.9898179852225626
+P(Conjunctivitis, CTCAE=Negated | OTHER=True) = 0.0011713822310326185
+P(Conjunctivitis, CTCAE=Present | OTHER=True) = 0.009010632546404758
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | OTHER=F) = 0.9412442396313364
+P(Sinus Tachycardia, CTCAE 5.0=Negated | OTHER=F) = 5.76036866359447E-4
+P(Sinus Tachycardia, CTCAE 5.0=Present | OTHER=F) = 0.058179723502304145
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | OTHER=True) = 0.9790953324923409
+P(Sinus Tachycardia, CTCAE 5.0=Negated | OTHER=True) = 9.010632546404758E-5
+P(Sinus Tachycardia, CTCAE 5.0=Present | OTHER=True) = 0.02081456118219499
+P(Fall, CTCAE=Not Mentioned | OTHER=F) = 0.9821428571428571
+P(Fall, CTCAE=Negated | OTHER=F) = 0.0017281105990783411
+P(Fall, CTCAE=Present | OTHER=F) = 0.016129032258064516
+P(Fall, CTCAE=Not Mentioned | OTHER=True) = 0.9209767525680302
+P(Fall, CTCAE=Negated | OTHER=True) = 0.006848080735267616
+P(Fall, CTCAE=Present | OTHER=True) = 0.07217516669670211
+P(Nausea, CTCAE 5.0=Not Mentioned | OTHER=F) = 0.743663594470046
+P(Nausea, CTCAE 5.0=Negated | OTHER=F) = 0.09274193548387097
+P(Nausea, CTCAE 5.0=Present | OTHER=F) = 0.16359447004608296
+P(Nausea, CTCAE 5.0=Not Mentioned | OTHER=True) = 0.6491710218057307
+P(Nausea, CTCAE 5.0=Negated | OTHER=True) = 0.1426383132095873
+P(Nausea, CTCAE 5.0=Present | OTHER=True) = 0.20819066498468192
+P(Dizziness, CTCAE 5.0=Not Mentioned | OTHER=F) = 0.9418202764976958
+P(Dizziness, CTCAE 5.0=Negated | OTHER=F) = 0.004608294930875576
+P(Dizziness, CTCAE 5.0=Present | OTHER=F) = 0.05357142857142857
+P(Dizziness, CTCAE 5.0=Not Mentioned | OTHER=True) = 0.8959722472517571
+P(Dizziness, CTCAE 5.0=Negated | OTHER=True) = 0.014957650027031897
+P(Dizziness, CTCAE 5.0=Present | OTHER=True) = 0.08907010272121103
+P(Wheezing, CTCAE=Not Mentioned | OTHER=F) = 0.8145161290322581
+P(Wheezing, CTCAE=Negated | OTHER=F) = 0.06566820276497695
+P(Wheezing, CTCAE=Present | OTHER=F) = 0.11981566820276497
+P(Wheezing, CTCAE=Not Mentioned | OTHER=True) = 0.9311587673454677
+P(Wheezing, CTCAE=Negated | OTHER=True) = 0.0420346008289782
+P(Wheezing, CTCAE=Present | OTHER=True) = 0.026806631825554154
+P(Back Pain, CTCAE 5.0=Not Mentioned | OTHER=F) = 0.9130184331797235
+P(Back Pain, CTCAE 5.0=Negated | OTHER=F) = 0.016129032258064516
+P(Back Pain, CTCAE 5.0=Present | OTHER=F) = 0.07085253456221198
+P(Back Pain, CTCAE 5.0=Not Mentioned | OTHER=True) = 0.8171742656334474
+P(Back Pain, CTCAE 5.0=Negated | OTHER=True) = 0.03816002883402415
+P(Back Pain, CTCAE 5.0=Present | OTHER=True) = 0.1446657055325284
+P(Flu Like Symptoms, CTCAE=Not Mentioned | OTHER=F) = 0.9827188940092166
+P(Flu Like Symptoms, CTCAE=Negated | OTHER=F) = 5.76036866359447E-4
+P(Flu Like Symptoms, CTCAE=Present | OTHER=F) = 0.016705069124423964
+P(Flu Like Symptoms, CTCAE=Not Mentioned | OTHER=True) = 0.9993692557217516
+P(Flu Like Symptoms, CTCAE=Negated | OTHER=True) = 4.505316273202379E-5
+P(Flu Like Symptoms, CTCAE=Present | OTHER=True) = 5.856911155163092E-4
+P(Suicidal Ideation, CTCAE=Not Mentioned | OTHER=F) = 0.9976958525345622
+P(Suicidal Ideation, CTCAE=Negated | OTHER=F) = 0.001152073732718894
+P(Suicidal Ideation, CTCAE=Present | OTHER=F) = 0.001152073732718894
+P(Suicidal Ideation, CTCAE=Not Mentioned | OTHER=True) = 0.9723824112452694
+P(Suicidal Ideation, CTCAE=Negated | OTHER=True) = 0.010497386916561543
+P(Suicidal Ideation, CTCAE=Present | OTHER=True) = 0.01712020183816904
+P(Pancreatitis, CTCAE 5.0=Not Mentioned | OTHER=F) = 0.9890552995391705
+P(Pancreatitis, CTCAE 5.0=Negated | OTHER=F) = 5.76036866359447E-4
+P(Pancreatitis, CTCAE 5.0=Present | OTHER=F) = 0.010368663594470046
+P(Pancreatitis, CTCAE 5.0=Not Mentioned | OTHER=True) = 0.9681023607857272
+P(Pancreatitis, CTCAE 5.0=Negated | OTHER=True) = 0.0020273923229410704
+P(Pancreatitis, CTCAE 5.0=Present | OTHER=True) = 0.029870246891331772
+P(Abdominal Pain, CTCAE 5=Not Mentioned | OTHER=F) = 0.7044930875576036
+P(Abdominal Pain, CTCAE 5=Negated | OTHER=F) = 0.13018433179723501
+P(Abdominal Pain, CTCAE 5=Present | OTHER=F) = 0.16532258064516128
+P(Abdominal Pain, CTCAE 5=Not Mentioned | OTHER=True) = 0.6384934222382411
+P(Abdominal Pain, CTCAE 5=Negated | OTHER=True) = 0.13502432870787529
+P(Abdominal Pain, CTCAE 5=Present | OTHER=True) = 0.2264822490538836
+P(Bruising, CTCAE=Not Mentioned | OTHER=F) = 0.9804147465437788
+P(Bruising, CTCAE=Negated | OTHER=F) = 0.013824884792626729
+P(Bruising, CTCAE=Present | OTHER=F) = 0.00576036866359447
+P(Bruising, CTCAE=Not Mentioned | OTHER=True) = 0.9540007208506037
+P(Bruising, CTCAE=Negated | OTHER=True) = 0.031717426563344746
+P(Bruising, CTCAE=Present | OTHER=True) = 0.01428185258605154
+P(TM genotype=Not Mentioned | OTHER=F) = 0.9735023041474654
+P(TM genotype=Negated | OTHER=F) = 5.76036866359447E-4
+P(TM genotype=Present | OTHER=F) = 0.025921658986175114
+P(TM genotype=Not Mentioned | OTHER=True) = 0.9916651648945756
+P(TM genotype=Negated | OTHER=True) = 4.505316273202379E-5
+P(TM genotype=Present | OTHER=True) = 0.008289781942692377
+P(Nasal Congestion, CTCAE=Not Mentioned | OTHER=F) = 0.7206221198156681
+P(Nasal Congestion, CTCAE=Negated | OTHER=F) = 0.038018433179723504
+P(Nasal Congestion, CTCAE=Present | OTHER=F) = 0.2413594470046083
+P(Nasal Congestion, CTCAE=Not Mentioned | OTHER=True) = 0.9394936024508921
+P(Nasal Congestion, CTCAE=Negated | OTHER=True) = 0.03410524418814201
+P(Nasal Congestion, CTCAE=Present | OTHER=True) = 0.02640115336096594
+P(Fatigue, CTCAE 5.0=Not Mentioned | OTHER=F) = 0.913594470046083
+P(Fatigue, CTCAE 5.0=Negated | OTHER=F) = 0.0069124423963133645
+P(Fatigue, CTCAE 5.0=Present | OTHER=F) = 0.07949308755760369
+P(Fatigue, CTCAE 5.0=Not Mentioned | OTHER=True) = 0.9503063615065778
+P(Fatigue, CTCAE 5.0=Negated | OTHER=True) = 0.017886105604613445
+P(Fatigue, CTCAE 5.0=Present | OTHER=True) = 0.0318075328888088
+P(Rous Sarcoma Virus Positive=Not Mentioned | OTHER=F) = 0.9683179723502304
+P(Rous Sarcoma Virus Positive=Negated | OTHER=F) = 5.76036866359447E-4
+P(Rous Sarcoma Virus Positive=Present | OTHER=F) = 0.03110599078341014
+P(Rous Sarcoma Virus Positive=Not Mentioned | OTHER=True) = 0.999819787349072
+P(Rous Sarcoma Virus Positive=Negated | OTHER=True) = 4.505316273202379E-5
+P(Rous Sarcoma Virus Positive=Present | OTHER=True) = 1.3515948819607136E-4
+P(Patient age=Not Mentioned | OTHER=F) = 0.6658986175115207
+P(Patient age=Negated | OTHER=F) = 5.76036866359447E-4
+P(Patient age=Present | OTHER=F) = 0.33352534562211983
+P(Patient age=Not Mentioned | OTHER=True) = 0.861912056226347
+P(Patient age=Negated | OTHER=True) = 1.3515948819607136E-4
+P(Patient age=Present | OTHER=True) = 0.13795278428545685
+P(Mild Hallucination=Not Mentioned | OTHER=F) = 0.625
+P(Mild Hallucination=Negated | OTHER=F) = 0.001152073732718894
+P(Mild Hallucination=Present | OTHER=F) = 0.3738479262672811
+P(Mild Hallucination=Not Mentioned | OTHER=True) = 0.6974229590917282
+P(Mild Hallucination=Negated | OTHER=True) = 0.002162551811137142
+P(Mild Hallucination=Present | OTHER=True) = 0.30041448909713464
+P(Nasal secretions=Not Mentioned | OTHER=F) = 0.9925115207373272
+P(Nasal secretions=Negated | OTHER=F) = 5.76036866359447E-4
+P(Nasal secretions=Present | OTHER=F) = 0.0069124423963133645
+P(Nasal secretions=Not Mentioned | OTHER=True) = 0.9994593620472157
+P(Nasal secretions=Negated | OTHER=True) = 4.505316273202379E-5
+P(Nasal secretions=Present | OTHER=True) = 4.955847900522617E-4
+P(Epidermal cGVHD Score 2=Not Mentioned | OTHER=F) = 0.6226958525345622
+P(Epidermal cGVHD Score 2=Negated | OTHER=F) = 0.001152073732718894
+P(Epidermal cGVHD Score 2=Present | OTHER=F) = 0.3761520737327189
+P(Epidermal cGVHD Score 2=Not Mentioned | OTHER=True) = 0.693187961794918
+P(Epidermal cGVHD Score 2=Negated | OTHER=True) = 0.002162551811137142
+P(Epidermal cGVHD Score 2=Present | OTHER=True) = 0.30464948639394485
+P(Poorly Marginated Nodule=Not Mentioned | OTHER=F) = 0.9746543778801844
+P(Poorly Marginated Nodule=Negated | OTHER=F) = 5.76036866359447E-4
+P(Poorly Marginated Nodule=Present | OTHER=F) = 0.02476958525345622
+P(Poorly Marginated Nodule=Not Mentioned | OTHER=True) = 0.9941881420075689
+P(Poorly Marginated Nodule=Negated | OTHER=True) = 4.505316273202379E-5
+P(Poorly Marginated Nodule=Present | OTHER=True) = 0.005766804829699045
+P(Well Marginated Nodule=Not Mentioned | OTHER=F) = 0.39400921658986177
+P(Well Marginated Nodule=Negated | OTHER=F) = 0.02707373271889401
+P(Well Marginated Nodule=Present | OTHER=F) = 0.5789170506912442
+P(Well Marginated Nodule=Not Mentioned | OTHER=True) = 0.4858082537394125
+P(Well Marginated Nodule=Negated | OTHER=True) = 0.011218237520273924
+P(Well Marginated Nodule=Present | OTHER=True) = 0.5029735087403135
+P(Round Nodule=Not Mentioned | OTHER=F) = 0.8715437788018433
+P(Round Nodule=Negated | OTHER=F) = 0.001152073732718894
+P(Round Nodule=Present | OTHER=F) = 0.12730414746543778
+P(Round Nodule=Not Mentioned | OTHER=True) = 0.7758605154081817
+P(Round Nodule=Negated | OTHER=True) = 6.30744278248333E-4
+P(Round Nodule=Present | OTHER=True) = 0.22350874031357001
+P(Epidermal cGVHD Score 0=Not Mentioned | OTHER=F) = 0.25460829493087556
+P(Epidermal cGVHD Score 0=Negated | OTHER=F) = 0.016705069124423964
+P(Epidermal cGVHD Score 0=Present | OTHER=F) = 0.7286866359447005
+P(Epidermal cGVHD Score 0=Not Mentioned | OTHER=True) = 0.17786988646602991
+P(Epidermal cGVHD Score 0=Negated | OTHER=True) = 0.017795999279149398
+P(Epidermal cGVHD Score 0=Present | OTHER=True) = 0.8043341142548207
+P(Normal Gait=Not Mentioned | OTHER=F) = 0.09504608294930876
+P(Normal Gait=Negated | OTHER=F) = 0.013248847926267281
+P(Normal Gait=Present | OTHER=F) = 0.8917050691244239
+P(Normal Gait=Not Mentioned | OTHER=True) = 0.157190484772031
+P(Normal Gait=Negated | OTHER=True) = 0.010857812218417733
+P(Normal Gait=Present | OTHER=True) = 0.8319517030095512
+P(High (finding)=Not Mentioned | OTHER=F) = 0.8145161290322581
+P(High (finding)=Negated | OTHER=F) = 0.002880184331797235
+P(High (finding)=Present | OTHER=F) = 0.1826036866359447
+P(High (finding)=Not Mentioned | OTHER=True) = 0.9342223824112452
+P(High (finding)=Negated | OTHER=True) = 0.001892232834744999
+P(High (finding)=Present | OTHER=True) = 0.06388538475400973
+P(Normal Immune Presence=Not Mentioned | OTHER=F) = 0.0956221198156682
+P(Normal Immune Presence=Negated | OTHER=F) = 0.013824884792626729
+P(Normal Immune Presence=Present | OTHER=F) = 0.8905529953917051
+P(Normal Immune Presence=Not Mentioned | OTHER=True) = 0.15845197332852767
+P(Normal Immune Presence=Negated | OTHER=True) = 0.011353397008469995
+P(Normal Immune Presence=Present | OTHER=True) = 0.8301946296630024
+P(Residual Cancer Burden Class 0=Not Mentioned | OTHER=F) = 0.9855990783410138
+P(Residual Cancer Burden Class 0=Negated | OTHER=F) = 5.76036866359447E-4
+P(Residual Cancer Burden Class 0=Present | OTHER=F) = 0.013824884792626729
+P(Residual Cancer Burden Class 0=Not Mentioned | OTHER=True) = 0.9977923950261308
+P(Residual Cancer Burden Class 0=Negated | OTHER=True) = 4.505316273202379E-5
+P(Residual Cancer Burden Class 0=Present | OTHER=True) = 0.002162551811137142
+P(IPSS-R Risk Category High=Not Mentioned | OTHER=F) = 0.8035714285714286
+P(IPSS-R Risk Category High=Negated | OTHER=F) = 0.00576036866359447
+P(IPSS-R Risk Category High=Present | OTHER=F) = 0.19066820276497695
+P(IPSS-R Risk Category High=Not Mentioned | OTHER=True) = 0.931924671111912
+P(IPSS-R Risk Category High=Negated | OTHER=True) = 0.0019823391602090466
+P(IPSS-R Risk Category High=Present | OTHER=True) = 0.0660929897278789
+P(International Prognostic Index High Risk Group=Not Mentioned | OTHER=F) = 0.9832949308755761
+P(International Prognostic Index High Risk Group=Negated | OTHER=F) = 0.004608294930875576
+P(International Prognostic Index High Risk Group=Present | OTHER=F) = 0.012096774193548387
+P(International Prognostic Index High Risk Group=Not Mentioned | OTHER=True) = 0.9968913317714904
+P(International Prognostic Index High Risk Group=Negated | OTHER=True) = 1.8021265092809516E-4
+P(International Prognostic Index High Risk Group=Present | OTHER=True) = 0.0029284555775815463
+P(IPSS-R Risk Category Low=Not Mentioned | OTHER=F) = 0.8012672811059908
+P(IPSS-R Risk Category Low=Negated | OTHER=F) = 0.008640552995391706
+P(IPSS-R Risk Category Low=Present | OTHER=F) = 0.19009216589861752
+P(IPSS-R Risk Category Low=Not Mentioned | OTHER=True) = 0.8695710938907911
+P(IPSS-R Risk Category Low=Negated | OTHER=True) = 0.0059019643178951165
+P(IPSS-R Risk Category Low=Present | OTHER=True) = 0.12452694179131375
+P(N_D_PULSE=High | OTHER=F) = 0.008059873344847437
+P(N_D_PULSE=Low | OTHER=F) = 0.0011514104778353484
+P(N_D_PULSE=Not Mentioned | OTHER=F) = 0.971790443293034
+P(N_D_PULSE=Normal | OTHER=F) = 0.018998272884283247
+P(N_D_PULSE=High | OTHER=True) = 0.0014416362571518673
+P(N_D_PULSE=Low | OTHER=True) = 0.0010361760598279048
+P(N_D_PULSE=Not Mentioned | OTHER=True) = 0.989908546199937
+P(N_D_PULSE=Normal | OTHER=True) = 0.0076136414830833
+P(N_D_TEMPERATURE=High | OTHER=F) = 0.008635578583765112
+P(N_D_TEMPERATURE=Low | OTHER=F) = 0.0057570523891767415
+P(N_D_TEMPERATURE=Not Mentioned | OTHER=F) = 0.971790443293034
+P(N_D_TEMPERATURE=Normal | OTHER=F) = 0.013816925734024179
+P(N_D_TEMPERATURE=High | OTHER=True) = 4.955624633959544E-4
+P(N_D_TEMPERATURE=Low | OTHER=True) = 0.0024327611839437763
+P(N_D_TEMPERATURE=Not Mentioned | OTHER=True) = 0.9900436995990449
+P(N_D_TEMPERATURE=Normal | OTHER=True) = 0.007027976753615353
+P(Tacrolimus=High | OTHER=F) = 0.0011514104778353484
+P(Tacrolimus=Low | OTHER=F) = 0.0028785261945883708
+P(Tacrolimus=Not Mentioned | OTHER=F) = 0.9798503166378814
+P(Tacrolimus=Normal | OTHER=F) = 0.016119746689694875
+P(Tacrolimus=High | OTHER=True) = 4.5051133035995854E-5
+P(Tacrolimus=Low | OTHER=True) = 2.7030679821597514E-4
+P(Tacrolimus=Not Mentioned | OTHER=True) = 0.9965761138892644
+P(Tacrolimus=Normal | OTHER=True) = 0.003108528179483714
+P(Epithelial cells.squamous=High | OTHER=F) = 0.010938399539435808
+P(Epithelial cells.squamous=Low | OTHER=F) = 5.757052389176742E-4
+P(Epithelial cells.squamous=Not Mentioned | OTHER=F) = 0.9412780656303973
+P(Epithelial cells.squamous=Normal | OTHER=F) = 0.04720782959124928
+P(Epithelial cells.squamous=High | OTHER=True) = 0.002162454385727801
+P(Epithelial cells.squamous=Low | OTHER=True) = 4.5051133035995854E-5
+P(Epithelial cells.squamous=Not Mentioned | OTHER=True) = 0.9840068477722215
+P(Epithelial cells.squamous=Normal | OTHER=True) = 0.013785646709014731
+P(Erythrocytes=High | OTHER=F) = 0.04951065054691998
+P(Erythrocytes=Low | OTHER=F) = 5.757052389176742E-4
+P(Erythrocytes=Not Mentioned | OTHER=F) = 0.9142199194012666
+P(Erythrocytes=Normal | OTHER=F) = 0.035693724812895795
+P(Erythrocytes=High | OTHER=True) = 0.0347794747037888
+P(Erythrocytes=Low | OTHER=True) = 4.5051133035995854E-5
+P(Erythrocytes=Not Mentioned | OTHER=True) = 0.9338649367031581
+P(Erythrocytes=Normal | OTHER=True) = 0.03131053746001712
+P(Bicarbonate=High | OTHER=F) = 0.02936096718480138
+P(Bicarbonate=Low | OTHER=F) = 0.021876799078871616
+P(Bicarbonate=Not Mentioned | OTHER=F) = 0.8946459412780656
+P(Bicarbonate=Normal | OTHER=F) = 0.05411629245826137
+P(Bicarbonate=High | OTHER=True) = 0.005135829166103527
+P(Bicarbonate=Low | OTHER=True) = 0.00554128936342749
+P(Bicarbonate=Not Mentioned | OTHER=True) = 0.9815290354552417
+P(Bicarbonate=Normal | OTHER=True) = 0.007793846015227283
+P(Coagulation surface induced=High | OTHER=F) = 0.046632124352331605
+P(Coagulation surface induced=Low | OTHER=F) = 0.004029936672423719
+P(Coagulation surface induced=Not Mentioned | OTHER=F) = 0.8675877950489349
+P(Coagulation surface induced=Normal | OTHER=F) = 0.08175014392630973
+P(Coagulation surface induced=High | OTHER=True) = 0.028742622876965357
+P(Coagulation surface induced=Low | OTHER=True) = 0.00608190295985944
+P(Coagulation surface induced=Not Mentioned | OTHER=True) = 0.8680452313375682
+P(Coagulation surface induced=Normal | OTHER=True) = 0.09713024282560706
+P(Alanine aminotransferase=High | OTHER=F) = 0.03223949337938975
+P(Alanine aminotransferase=Low | OTHER=F) = 0.046632124352331605
+P(Alanine aminotransferase=Not Mentioned | OTHER=F) = 0.7012089810017271
+P(Alanine aminotransferase=Normal | OTHER=F) = 0.21991940126655152
+P(Alanine aminotransferase=High | OTHER=True) = 0.020182907600126143
+P(Alanine aminotransferase=Low | OTHER=True) = 0.04856512141280353
+P(Alanine aminotransferase=Not Mentioned | OTHER=True) = 0.761048790377078
+P(Alanine aminotransferase=Normal | OTHER=True) = 0.17020318060999234
+P(Albumin=High | OTHER=F) = 5.757052389176742E-4
+P(Albumin=Low | OTHER=F) = 0.14335060449050085
+P(Albumin=Not Mentioned | OTHER=F) = 0.6989061600460564
+P(Albumin=Normal | OTHER=F) = 0.15716753022452504
+P(Albumin=High | OTHER=True) = 0.0012163805919718882
+P(Albumin=Low | OTHER=True) = 0.06442312024147408
+P(Albumin=Not Mentioned | OTHER=True) = 0.7725818804342929
+P(Albumin=Normal | OTHER=True) = 0.16177861873226113
+P(Calcium=High | OTHER=F) = 0.004029936672423719
+P(Calcium=Low | OTHER=F) = 0.15083477259643063
+P(Calcium=Not Mentioned | OTHER=F) = 0.43120322394933797
+P(Calcium=Normal | OTHER=F) = 0.4139320667818077
+P(Calcium=High | OTHER=True) = 0.004144704239311619
+P(Calcium=Low | OTHER=True) = 0.04491597963688787
+P(Calcium=Not Mentioned | OTHER=True) = 0.6366175609316574
+P(Calcium=Normal | OTHER=True) = 0.31432175519214306
+P(Magnesium=High | OTHER=F) = 0.021301093839953943
+P(Magnesium=Low | OTHER=F) = 0.008635578583765112
+P(Magnesium=Not Mentioned | OTHER=F) = 0.7288428324697754
+P(Magnesium=Normal | OTHER=F) = 0.24122049510650548
+P(Magnesium=High | OTHER=True) = 0.006802721088435374
+P(Magnesium=Low | OTHER=True) = 0.008649817542911204
+P(Magnesium=Not Mentioned | OTHER=True) = 0.8862458890841105
+P(Magnesium=Normal | OTHER=True) = 0.09830157228454296
+P(Urobilinogen=High | OTHER=F) = 0.004605641911341394
+P(Urobilinogen=Low | OTHER=F) = 5.757052389176742E-4
+P(Urobilinogen=Not Mentioned | OTHER=F) = 0.9827288428324698
+P(Urobilinogen=Normal | OTHER=F) = 0.012089810017271158
+P(Urobilinogen=High | OTHER=True) = 0.0026129657160877595
+P(Urobilinogen=Low | OTHER=True) = 9.010226607199171E-5
+P(Urobilinogen=Not Mentioned | OTHER=True) = 0.9630580709104833
+P(Urobilinogen=Normal | OTHER=True) = 0.03423886110735685
+P(Aspartate aminotransferase=High | OTHER=F) = 0.05181347150259067
+P(Aspartate aminotransferase=Low | OTHER=F) = 0.029936672423719057
+P(Aspartate aminotransferase=Not Mentioned | OTHER=F) = 0.7098445595854922
+P(Aspartate aminotransferase=Normal | OTHER=F) = 0.20840529648819806
+P(Aspartate aminotransferase=High | OTHER=True) = 0.03631121322701266
+P(Aspartate aminotransferase=Low | OTHER=True) = 0.039509843672568365
+P(Aspartate aminotransferase=Not Mentioned | OTHER=True) = 0.7664999774744334
+P(Aspartate aminotransferase=Normal | OTHER=True) = 0.1576789656259855
+P(Oxygen content=High | OTHER=F) = 5.757052389176742E-4
+P(Oxygen content=Low | OTHER=F) = 0.002302820955670697
+P(Oxygen content=Not Mentioned | OTHER=F) = 0.9919401266551525
+P(Oxygen content=Normal | OTHER=F) = 0.0051813471502590676
+P(Oxygen content=High | OTHER=True) = 4.5051133035995854E-5
+P(Oxygen content=Low | OTHER=True) = 1.8020453214398342E-4
+P(Oxygen content=Not Mentioned | OTHER=True) = 0.999594539802676
+P(Oxygen content=Normal | OTHER=True) = 1.8020453214398342E-4
+P(Base deficit=High | OTHER=F) = 0.011514104778353483
+P(Base deficit=Low | OTHER=F) = 5.757052389176742E-4
+P(Base deficit=Not Mentioned | OTHER=F) = 0.9838802533103052
+P(Base deficit=Normal | OTHER=F) = 0.004029936672423719
+P(Base deficit=High | OTHER=True) = 0.0025679145830517637
+P(Base deficit=Low | OTHER=True) = 4.5051133035995854E-5
+P(Base deficit=Not Mentioned | OTHER=True) = 0.9968013695544443
+P(Base deficit=Normal | OTHER=True) = 5.856647294679461E-4
+P(Oxygen^^adjusted to patient's actual temperature=High | OTHER=F) = 0.02475532527345999
+P(Oxygen^^adjusted to patient's actual temperature=Low | OTHER=F) = 0.0017271157167530224
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | OTHER=F) = 0.9349453080023028
+P(Oxygen^^adjusted to patient's actual temperature=Normal | OTHER=F) = 0.03857225100748417
+P(Oxygen^^adjusted to patient's actual temperature=High | OTHER=True) = 0.004009550840203631
+P(Oxygen^^adjusted to patient's actual temperature=Low | OTHER=True) = 8.109203946479254E-4
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | OTHER=True) = 0.9913952335901248
+P(Oxygen^^adjusted to patient's actual temperature=Normal | OTHER=True) = 0.003784295175023652
+P(Base excess=High | OTHER=F) = 0.013241220495106506
+P(Base excess=Low | OTHER=F) = 5.757052389176742E-4
+P(Base excess=Not Mentioned | OTHER=F) = 0.9838802533103052
+P(Base excess=Normal | OTHER=F) = 0.002302820955670697
+P(Base excess=High | OTHER=True) = 0.0011713294589358921
+P(Base excess=Low | OTHER=True) = 4.5051133035995854E-5
+P(Base excess=Not Mentioned | OTHER=True) = 0.9978825967473082
+P(Base excess=Normal | OTHER=True) = 9.010226607199171E-4
+P(Bicarbonate=High | OTHER=F) = 0.00978698906160046
+P(Bicarbonate=Low | OTHER=F) = 0.0028785261945883708
+P(Bicarbonate=Not Mentioned | OTHER=F) = 0.9804260218767991
+P(Bicarbonate=Normal | OTHER=F) = 0.0069084628670120895
+P(Bicarbonate=High | OTHER=True) = 0.001261431725007884
+P(Bicarbonate=Low | OTHER=True) = 0.0018020453214398341
+P(Bicarbonate=Not Mentioned | OTHER=True) = 0.9947290174347885
+P(Bicarbonate=Normal | OTHER=True) = 0.002207505518763797
+P(Bicarbonate=High | OTHER=F) = 0.0017271157167530224
+P(Bicarbonate=Low | OTHER=F) = 0.0063327576280944155
+P(Bicarbonate=Not Mentioned | OTHER=F) = 0.970063327576281
+P(Bicarbonate=Normal | OTHER=F) = 0.021876799078871616
+P(Bicarbonate=High | OTHER=True) = 0.00554128936342749
+P(Bicarbonate=Low | OTHER=True) = 0.021669594990314005
+P(Bicarbonate=Not Mentioned | OTHER=True) = 0.6137766364824075
+P(Bicarbonate=Normal | OTHER=True) = 0.359012479163851
+P(Bilirubin=High | OTHER=F) = 0.02475532527345999
+P(Bilirubin=Low | OTHER=F) = 0.013816925734024179
+P(Bilirubin=Not Mentioned | OTHER=F) = 0.7351755900978699
+P(Bilirubin=Normal | OTHER=F) = 0.22625215889464595
+P(Bilirubin=High | OTHER=True) = 0.01608325449385052
+P(Bilirubin=Low | OTHER=True) = 0.008514664143803218
+P(Bilirubin=Not Mentioned | OTHER=True) = 0.78217777177096
+P(Bilirubin=Normal | OTHER=True) = 0.19322430959138623
+P(C reactive protein=High | OTHER=F) = 0.07714450201496834
+P(C reactive protein=Low | OTHER=F) = 0.004605641911341394
+P(C reactive protein=Not Mentioned | OTHER=F) = 0.8819804260218768
+P(C reactive protein=Normal | OTHER=F) = 0.03626943005181347
+P(C reactive protein=High | OTHER=True) = 0.006217056358967428
+P(C reactive protein=Low | OTHER=True) = 0.0017569941884038383
+P(C reactive protein=Not Mentioned | OTHER=True) = 0.9873406316168851
+P(C reactive protein=Normal | OTHER=True) = 0.004685317835743569
+P(Calcium.ionized=High | OTHER=F) = 5.757052389176742E-4
+P(Calcium.ionized=Low | OTHER=F) = 0.02072538860103627
+P(Calcium.ionized=Not Mentioned | OTHER=F) = 0.8923431203223949
+P(Calcium.ionized=Normal | OTHER=F) = 0.08635578583765112
+P(Calcium.ionized=High | OTHER=True) = 7.658692616119296E-4
+P(Calcium.ionized=Low | OTHER=True) = 0.011127629859890976
+P(Calcium.ionized=Not Mentioned | OTHER=True) = 0.9635536333738793
+P(Calcium.ionized=Normal | OTHER=True) = 0.024552867504617742
+P(Carbon dioxide=High | OTHER=F) = 0.013241220495106506
+P(Carbon dioxide=Low | OTHER=F) = 0.004029936672423719
+P(Carbon dioxide=Not Mentioned | OTHER=F) = 0.9689119170984456
+P(Carbon dioxide=Normal | OTHER=F) = 0.013816925734024179
+P(Carbon dioxide=High | OTHER=True) = 0.0016668919223318467
+P(Carbon dioxide=Low | OTHER=True) = 0.0013965851241158715
+P(Carbon dioxide=Not Mentioned | OTHER=True) = 0.9920259494526288
+P(Carbon dioxide=Normal | OTHER=True) = 0.004910573500923548
+P(Carbon dioxide=High | OTHER=F) = 0.02648244099021301
+P(Carbon dioxide=Low | OTHER=F) = 0.039723661485319514
+P(Carbon dioxide=Not Mentioned | OTHER=F) = 0.8831318364997122
+P(Carbon dioxide=Normal | OTHER=F) = 0.050662061024755324
+P(Carbon dioxide=High | OTHER=True) = 0.0038743974410956434
+P(Carbon dioxide=Low | OTHER=True) = 0.010046402667027075
+P(Carbon dioxide=Not Mentioned | OTHER=True) = 0.9762130017569942
+P(Carbon dioxide=Normal | OTHER=True) = 0.009866198134883092
+P(Carbon dioxide=High | OTHER=F) = 0.009211283822682787
+P(Carbon dioxide=Low | OTHER=F) = 0.05296488198042602
+P(Carbon dioxide=Not Mentioned | OTHER=F) = 0.46459412780656306
+P(Carbon dioxide=Normal | OTHER=F) = 0.47322970639032813
+P(Carbon dioxide=High | OTHER=True) = 9.010226607199171E-5
+P(Carbon dioxide=Low | OTHER=True) = 9.010226607199171E-5
+P(Carbon dioxide=Not Mentioned | OTHER=True) = 0.9973419831508763
+P(Carbon dioxide=Normal | OTHER=True) = 0.002477812316979772
+P(Carboxyhemoglobin/Hemoglobin.total=High | OTHER=F) = 0.014968336211859529
+P(Carboxyhemoglobin/Hemoglobin.total=Low | OTHER=F) = 0.0011514104778353484
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | OTHER=F) = 0.9746689694876224
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | OTHER=F) = 0.009211283822682787
+P(Carboxyhemoglobin/Hemoglobin.total=High | OTHER=True) = 0.007343334684867324
+P(Carboxyhemoglobin/Hemoglobin.total=Low | OTHER=True) = 4.5051133035995854E-5
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | OTHER=True) = 0.9912600801910169
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | OTHER=True) = 0.0013515339910798758
+P(Leukocytes=High | OTHER=F) = 0.007484168105929764
+P(Leukocytes=Low | OTHER=F) = 5.757052389176742E-4
+P(Leukocytes=Not Mentioned | OTHER=F) = 0.9706390328151986
+P(Leukocytes=Normal | OTHER=F) = 0.021301093839953943
+P(Leukocytes=High | OTHER=True) = 4.5051133035995854E-5
+P(Leukocytes=Low | OTHER=True) = 4.5051133035995854E-5
+P(Leukocytes=Not Mentioned | OTHER=True) = 0.999864846600892
+P(Leukocytes=Normal | OTHER=True) = 4.5051133035995854E-5
+P(Hematocrit=High | OTHER=F) = 0.002302820955670697
+P(Hematocrit=Low | OTHER=F) = 0.02360391479562464
+P(Hematocrit=Not Mentioned | OTHER=F) = 0.9199769717904432
+P(Hematocrit=Normal | OTHER=F) = 0.05411629245826137
+P(Hematocrit=High | OTHER=True) = 3.6040906428796683E-4
+P(Hematocrit=Low | OTHER=True) = 0.005361084831283507
+P(Hematocrit=Not Mentioned | OTHER=True) = 0.9852682794972294
+P(Hematocrit=Normal | OTHER=True) = 0.00901022660719917
+P(Chloride=High | OTHER=F) = 0.09614277489925158
+P(Chloride=Low | OTHER=F) = 0.018998272884283247
+P(Chloride=Not Mentioned | OTHER=F) = 0.43350604490500866
+P(Chloride=Normal | OTHER=F) = 0.45135290731145655
+P(Chloride=High | OTHER=True) = 0.05829616614857864
+P(Chloride=Low | OTHER=True) = 0.0163085101590305
+P(Chloride=Not Mentioned | OTHER=True) = 0.6282831013199982
+P(Chloride=Normal | OTHER=True) = 0.29711222237239265
+P(Creatine kinase=High | OTHER=F) = 0.017271157167530225
+P(Creatine kinase=Low | OTHER=F) = 0.0011514104778353484
+P(Creatine kinase=Not Mentioned | OTHER=F) = 0.9591249280368451
+P(Creatine kinase=Normal | OTHER=F) = 0.022452504317789293
+P(Creatine kinase=High | OTHER=True) = 0.006352209758075416
+P(Creatine kinase=Low | OTHER=True) = 5.406135964319503E-4
+P(Creatine kinase=Not Mentioned | OTHER=True) = 0.9771590755507501
+P(Creatine kinase=Normal | OTHER=True) = 0.015948101094742533
+P(Creatinine=High | OTHER=F) = 0.04432930339666091
+P(Creatinine=Low | OTHER=F) = 0.022452504317789293
+P(Creatinine=Not Mentioned | OTHER=F) = 0.4571099597006333
+P(Creatinine=Normal | OTHER=F) = 0.4761082325849165
+P(Creatinine=High | OTHER=True) = 0.03869892327792044
+P(Creatinine=Low | OTHER=True) = 0.009866198134883092
+P(Creatinine=Not Mentioned | OTHER=True) = 0.6143623012118755
+P(Creatinine=Normal | OTHER=True) = 0.337072577375321
+P(Glucose=High | OTHER=F) = 0.12953367875647667
+P(Glucose=Low | OTHER=F) = 0.004029936672423719
+P(Glucose=Not Mentioned | OTHER=F) = 0.7282671272308578
+P(Glucose=Normal | OTHER=F) = 0.1381692573402418
+P(Glucose=High | OTHER=True) = 0.06969410280668559
+P(Glucose=Low | OTHER=True) = 0.0013965851241158715
+P(Glucose=Not Mentioned | OTHER=True) = 0.8730459071045636
+P(Glucose=Normal | OTHER=True) = 0.055863404964634863
+P(Glucose=High | OTHER=F) = 0.004029936672423719
+P(Glucose=Low | OTHER=F) = 0.0051813471502590676
+P(Glucose=Not Mentioned | OTHER=F) = 0.9602763385146805
+P(Glucose=Normal | OTHER=F) = 0.03051237766263673
+P(Glucose=High | OTHER=True) = 5.856647294679461E-4
+P(Glucose=Low | OTHER=True) = 3.6040906428796683E-4
+P(Glucose=Not Mentioned | OTHER=True) = 0.9954948866964004
+P(Glucose=Normal | OTHER=True) = 0.0035590395098436724
+P(Glucose=High | OTHER=F) = 0.17501439263097293
+P(Glucose=Low | OTHER=F) = 0.00978698906160046
+P(Glucose=Not Mentioned | OTHER=F) = 0.41968911917098445
+P(Glucose=Normal | OTHER=F) = 0.3955094991364421
+P(Glucose=High | OTHER=True) = 0.1576789656259855
+P(Glucose=Low | OTHER=True) = 0.004550164436635582
+P(Glucose=Not Mentioned | OTHER=True) = 0.6172005225931432
+P(Glucose=Normal | OTHER=True) = 0.2205703473442357
+P(Lactate=High | OTHER=F) = 0.0017271157167530224
+P(Lactate=Low | OTHER=F) = 5.757052389176742E-4
+P(Lactate=Not Mentioned | OTHER=F) = 0.9804260218767991
+P(Lactate=Normal | OTHER=F) = 0.017271157167530225
+P(Lactate=High | OTHER=True) = 4.5051133035995854E-5
+P(Lactate=Low | OTHER=True) = 4.5051133035995854E-5
+P(Lactate=Not Mentioned | OTHER=True) = 0.999864846600892
+P(Lactate=Normal | OTHER=True) = 4.5051133035995854E-5
+P(Methemoglobin/Hemoglobin.total=High | OTHER=F) = 0.004029936672423719
+P(Methemoglobin/Hemoglobin.total=Low | OTHER=F) = 5.757052389176742E-4
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | OTHER=F) = 0.9879101899827288
+P(Methemoglobin/Hemoglobin.total=Normal | OTHER=F) = 0.007484168105929764
+P(Methemoglobin/Hemoglobin.total=High | OTHER=True) = 0.001892147587511826
+P(Methemoglobin/Hemoglobin.total=Low | OTHER=True) = 4.5051133035995854E-5
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | OTHER=True) = 0.9975672388160562
+P(Methemoglobin/Hemoglobin.total=Normal | OTHER=True) = 4.955624633959544E-4
+P(Eosinophils/100 leukocytes=High | OTHER=F) = 0.0028785261945883708
+P(Eosinophils/100 leukocytes=Low | OTHER=F) = 0.0063327576280944155
+P(Eosinophils/100 leukocytes=Not Mentioned | OTHER=F) = 0.8981001727115717
+P(Eosinophils/100 leukocytes=Normal | OTHER=F) = 0.09268854346574554
+P(Eosinophils/100 leukocytes=High | OTHER=True) = 0.0068928233545073655
+P(Eosinophils/100 leukocytes=Low | OTHER=True) = 0.0038743974410956434
+P(Eosinophils/100 leukocytes=Not Mentioned | OTHER=True) = 0.8968779564806055
+P(Eosinophils/100 leukocytes=Normal | OTHER=True) = 0.0923548227237915
+P(Monocytes/100 leukocytes=High | OTHER=F) = 0.022452504317789293
+P(Monocytes/100 leukocytes=Low | OTHER=F) = 0.0034542314335060447
+P(Monocytes/100 leukocytes=Not Mentioned | OTHER=F) = 0.8802533103051238
+P(Monocytes/100 leukocytes=Normal | OTHER=F) = 0.09383995394358088
+P(Monocytes/100 leukocytes=High | OTHER=True) = 0.007118079019687345
+P(Monocytes/100 leukocytes=Low | OTHER=True) = 0.004775420101815561
+P(Monocytes/100 leukocytes=Not Mentioned | OTHER=True) = 0.8870568094787584
+P(Monocytes/100 leukocytes=Normal | OTHER=True) = 0.1010496913997387
+P(Neutrophils.segmented/100 leukocytes=High | OTHER=F) = 0.021876799078871616
+P(Neutrophils.segmented/100 leukocytes=Low | OTHER=F) = 0.0028785261945883708
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | OTHER=F) = 0.8963730569948186
+P(Neutrophils.segmented/100 leukocytes=Normal | OTHER=F) = 0.07887161773172136
+P(Neutrophils.segmented/100 leukocytes=High | OTHER=True) = 0.01761499301707438
+P(Neutrophils.segmented/100 leukocytes=Low | OTHER=True) = 0.0050006757669955396
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | OTHER=True) = 0.9001216380591972
+P(Neutrophils.segmented/100 leukocytes=Normal | OTHER=True) = 0.0772626931567329
+P(Oxygen=High | OTHER=F) = 0.007484168105929764
+P(Oxygen=Low | OTHER=F) = 0.0051813471502590676
+P(Oxygen=Not Mentioned | OTHER=F) = 0.9781232009211284
+P(Oxygen=Normal | OTHER=F) = 0.009211283822682787
+P(Oxygen=High | OTHER=True) = 0.0023426589178717843
+P(Oxygen=Low | OTHER=True) = 7.658692616119296E-4
+P(Oxygen=Not Mentioned | OTHER=True) = 0.9944136595035366
+P(Oxygen=Normal | OTHER=True) = 0.002477812316979772
+P(Oxygen=High | OTHER=F) = 0.031088082901554404
+P(Oxygen=Low | OTHER=F) = 0.004029936672423719
+P(Oxygen=Not Mentioned | OTHER=F) = 0.9476108232584917
+P(Oxygen=Normal | OTHER=F) = 0.017271157167530225
+P(Oxygen=High | OTHER=True) = 0.008875073208091184
+P(Oxygen=Low | OTHER=True) = 6.30715862503942E-4
+P(Oxygen=Not Mentioned | OTHER=True) = 0.9868450691534892
+P(Oxygen=Normal | OTHER=True) = 0.0036491417759156645
+P(Oxygen saturation=High | OTHER=F) = 0.0034542314335060447
+P(Oxygen saturation=Low | OTHER=F) = 0.0028785261945883708
+P(Oxygen saturation=Not Mentioned | OTHER=F) = 0.9850316637881404
+P(Oxygen saturation=Normal | OTHER=F) = 0.008635578583765112
+P(Oxygen saturation=High | OTHER=True) = 3.15357931251971E-4
+P(Oxygen saturation=Low | OTHER=True) = 0.0012163805919718882
+P(Oxygen saturation=Not Mentioned | OTHER=True) = 0.9977474433482002
+P(Oxygen saturation=Normal | OTHER=True) = 7.208181285759337E-4
+P(pH=High | OTHER=F) = 0.004029936672423719
+P(pH=Low | OTHER=F) = 0.014968336211859529
+P(pH=Not Mentioned | OTHER=F) = 0.9579735175590098
+P(pH=Normal | OTHER=F) = 0.023028209556706966
+P(pH=High | OTHER=True) = 0.0015317385232238591
+P(pH=Low | OTHER=True) = 0.002522863450015768
+P(pH=Not Mentioned | OTHER=True) = 0.9918457449204847
+P(pH=Normal | OTHER=True) = 0.004099653106275623
+P(pH=High | OTHER=F) = 0.014392630972941854
+P(pH=Low | OTHER=F) = 0.024179620034542316
+P(pH=Not Mentioned | OTHER=F) = 0.8940702360391479
+P(pH=Normal | OTHER=F) = 0.06735751295336788
+P(pH=High | OTHER=True) = 0.0038293463080596476
+P(pH=Low | OTHER=True) = 0.004369959904491598
+P(pH=Not Mentioned | OTHER=True) = 0.978240302743614
+P(pH=Normal | OTHER=True) = 0.013560391043834753
+P(Phosphate=High | OTHER=F) = 0.00978698906160046
+P(Phosphate=Low | OTHER=F) = 0.07541738629821532
+P(Phosphate=Not Mentioned | OTHER=F) = 0.7714450201496834
+P(Phosphate=Normal | OTHER=F) = 0.14335060449050085
+P(Phosphate=High | OTHER=True) = 0.004099653106275623
+P(Phosphate=Low | OTHER=True) = 0.011488038924178942
+P(Phosphate=Not Mentioned | OTHER=True) = 0.9257106816236428
+P(Phosphate=Normal | OTHER=True) = 0.0587016263459026
+P(Potassium=High | OTHER=F) = 0.02475532527345999
+P(Potassium=Low | OTHER=F) = 0.04605641911341393
+P(Potassium=Not Mentioned | OTHER=F) = 0.44271732872769143
+P(Potassium=Normal | OTHER=F) = 0.48647092688543464
+P(Potassium=High | OTHER=True) = 0.005766545028607469
+P(Potassium=Low | OTHER=True) = 0.03595080416272469
+P(Potassium=Not Mentioned | OTHER=True) = 0.6213902779654908
+P(Potassium=Normal | OTHER=True) = 0.336892372843177
+P(Protein=High | OTHER=F) = 0.021301093839953943
+P(Protein=Low | OTHER=F) = 0.04720782959124928
+P(Protein=Not Mentioned | OTHER=F) = 0.7127230857800806
+P(Protein=Normal | OTHER=F) = 0.21876799078871617
+P(Protein=High | OTHER=True) = 0.02694057755552552
+P(Protein=Low | OTHER=True) = 0.028742622876965357
+P(Protein=Not Mentioned | OTHER=True) = 0.7732576474298328
+P(Protein=Normal | OTHER=True) = 0.17105915213767625
+P(Sodium=High | OTHER=F) = 0.0028785261945883708
+P(Sodium=Low | OTHER=F) = 0.00978698906160046
+P(Sodium=Not Mentioned | OTHER=F) = 0.9136442141623489
+P(Sodium=Normal | OTHER=F) = 0.0736902705814623
+P(Sodium=High | OTHER=True) = 4.955624633959544E-4
+P(Sodium=Low | OTHER=True) = 0.0038293463080596476
+P(Sodium=Not Mentioned | OTHER=True) = 0.9767085642203901
+P(Sodium=Normal | OTHER=True) = 0.018966527008154255
+P(Sodium=High | OTHER=F) = 0.0034542314335060447
+P(Sodium=Low | OTHER=F) = 0.0846286701208981
+P(Sodium=Not Mentioned | OTHER=F) = 0.4415659182498561
+P(Sodium=Normal | OTHER=F) = 0.4703511801957398
+P(Sodium=High | OTHER=True) = 0.0018020453214398341
+P(Sodium=Low | OTHER=True) = 0.054106410776231025
+P(Sodium=Not Mentioned | OTHER=True) = 0.6235527323512187
+P(Sodium=Normal | OTHER=True) = 0.3205388115511105
+P(Specific gravity=High | OTHER=F) = 0.010938399539435808
+P(Specific gravity=Low | OTHER=F) = 0.0051813471502590676
+P(Specific gravity=Not Mentioned | OTHER=F) = 0.7322970639032815
+P(Specific gravity=Normal | OTHER=F) = 0.2515831894070236
+P(Specific gravity=High | OTHER=True) = 0.005496238230391495
+P(Specific gravity=Low | OTHER=True) = 0.00792899941433527
+P(Specific gravity=Not Mentioned | OTHER=True) = 0.8488083975311979
+P(Specific gravity=Normal | OTHER=True) = 0.13776636482407534
+P(Basophils/100 leukocytes=High | OTHER=F) = 0.007484168105929764
+P(Basophils/100 leukocytes=Low | OTHER=F) = 5.757052389176742E-4
+P(Basophils/100 leukocytes=Not Mentioned | OTHER=F) = 0.9050086355785838
+P(Basophils/100 leukocytes=Normal | OTHER=F) = 0.08693149107656879
+P(Basophils/100 leukocytes=High | OTHER=True) = 0.011623192323286931
+P(Basophils/100 leukocytes=Low | OTHER=True) = 4.5051133035995854E-5
+P(Basophils/100 leukocytes=Not Mentioned | OTHER=True) = 0.901878632247601
+P(Basophils/100 leukocytes=Normal | OTHER=True) = 0.08645312429607604
+P(Hemoglobin=High | OTHER=F) = 5.757052389176742E-4
+P(Hemoglobin=Low | OTHER=F) = 0.004605641911341394
+P(Hemoglobin=Not Mentioned | OTHER=F) = 0.9919401266551525
+P(Hemoglobin=Normal | OTHER=F) = 0.0028785261945883708
+P(Hemoglobin=High | OTHER=True) = 4.5051133035995854E-5
+P(Hemoglobin=Low | OTHER=True) = 2.2525566517997926E-4
+P(Hemoglobin=Not Mentioned | OTHER=True) = 0.9996846420687481
+P(Hemoglobin=Normal | OTHER=True) = 4.5051133035995854E-5
+P(Triacylglycerol lipase=High | OTHER=F) = 0.004029936672423719
+P(Triacylglycerol lipase=Low | OTHER=F) = 0.014392630972941854
+P(Triacylglycerol lipase=Not Mentioned | OTHER=F) = 0.9372481289579735
+P(Triacylglycerol lipase=Normal | OTHER=F) = 0.04432930339666091
+P(Triacylglycerol lipase=High | OTHER=True) = 0.005766545028607469
+P(Triacylglycerol lipase=Low | OTHER=True) = 0.017344686218858405
+P(Triacylglycerol lipase=Not Mentioned | OTHER=True) = 0.8984997972699014
+P(Triacylglycerol lipase=Normal | OTHER=True) = 0.07838897148263278
+P(Urea nitrogen=High | OTHER=F) = 0.04605641911341393
+P(Urea nitrogen=Low | OTHER=F) = 0.07253886010362694
+P(Urea nitrogen=Not Mentioned | OTHER=F) = 0.43753598157743234
+P(Urea nitrogen=Normal | OTHER=F) = 0.4438687392055268
+P(Urea nitrogen=High | OTHER=True) = 0.034283912240392844
+P(Urea nitrogen=Low | OTHER=True) = 0.02554399243140965
+P(Urea nitrogen=Not Mentioned | OTHER=True) = 0.6171554714601072
+P(Urea nitrogen=Normal | OTHER=True) = 0.32301662386809027
+P(Urea nitrogen/Creatinine=High | OTHER=F) = 0.012665515256188831
+P(Urea nitrogen/Creatinine=Low | OTHER=F) = 0.0011514104778353484
+P(Urea nitrogen/Creatinine=Not Mentioned | OTHER=F) = 0.9268854346574554
+P(Urea nitrogen/Creatinine=Normal | OTHER=F) = 0.059297639608520435
+P(Urea nitrogen/Creatinine=High | OTHER=True) = 0.009280533405415146
+P(Urea nitrogen/Creatinine=Low | OTHER=True) = 0.001261431725007884
+P(Urea nitrogen/Creatinine=Not Mentioned | OTHER=True) = 0.9348560616299499
+P(Urea nitrogen/Creatinine=Normal | OTHER=True) = 0.054601973239626976
+P(Platelet mean volume=High | OTHER=F) = 0.021876799078871616
+P(Platelet mean volume=Low | OTHER=F) = 0.017846862406447898
+P(Platelet mean volume=Not Mentioned | OTHER=F) = 0.43005181347150256
+P(Platelet mean volume=Normal | OTHER=F) = 0.5302245250431779
+P(Platelet mean volume=High | OTHER=True) = 0.01076722079560301
+P(Platelet mean volume=Low | OTHER=True) = 0.009370635671487137
+P(Platelet mean volume=Not Mentioned | OTHER=True) = 0.6059827904671803
+P(Platelet mean volume=Normal | OTHER=True) = 0.3738793530657296
+P(Lactate=High | OTHER=F) = 0.024179620034542316
+P(Lactate=Low | OTHER=F) = 0.0011514104778353484
+P(Lactate=Not Mentioned | OTHER=F) = 0.8670120898100173
+P(Lactate=Normal | OTHER=F) = 0.10765687967760507
+P(Lactate=High | OTHER=True) = 0.00792899941433527
+P(Lactate=Low | OTHER=True) = 2.7030679821597514E-4
+P(Lactate=Not Mentioned | OTHER=True) = 0.9495427309996847
+P(Lactate=Normal | OTHER=True) = 0.042257962787764114
+P(Anion gap=High | OTHER=F) = 0.07599309153713299
+P(Anion gap=Low | OTHER=F) = 0.051237766263673
+P(Anion gap=Not Mentioned | OTHER=F) = 0.44905008635578586
+P(Anion gap=Normal | OTHER=F) = 0.4237190558434082
+P(Anion gap=High | OTHER=True) = 0.034509167905572825
+P(Anion gap=Low | OTHER=True) = 0.005225931432175519
+P(Anion gap=Not Mentioned | OTHER=True) = 0.6158489886020634
+P(Anion gap=Normal | OTHER=True) = 0.3444159120601883
+P(Vancomycin^trough=High | OTHER=F) = 0.0057570523891767415
+P(Vancomycin^trough=Low | OTHER=F) = 0.016119746689694875
+P(Vancomycin^trough=Not Mentioned | OTHER=F) = 0.9303396660909614
+P(Vancomycin^trough=Normal | OTHER=F) = 0.04778353483016695
+P(Vancomycin^trough=High | OTHER=True) = 0.0020723521196558095
+P(Vancomycin^trough=Low | OTHER=True) = 0.0023877100509077805
+P(Vancomycin^trough=Not Mentioned | OTHER=True) = 0.989773392800829
+P(Vancomycin^trough=Normal | OTHER=True) = 0.005766545028607469
+P(Hematocrit=High | OTHER=F) = 0.02648244099021301
+P(Hematocrit=Low | OTHER=F) = 0.16465169833045482
+P(Hematocrit=Not Mentioned | OTHER=F) = 0.408175014392631
+P(Hematocrit=Normal | OTHER=F) = 0.4006908462867012
+P(Hematocrit=High | OTHER=True) = 0.01946208947155021
+P(Hematocrit=Low | OTHER=True) = 0.10785241248817408
+P(Hematocrit=Not Mentioned | OTHER=True) = 0.5966572059287291
+P(Hematocrit=Normal | OTHER=True) = 0.2760282921115466
+P(pH=High | OTHER=F) = 0.012089810017271158
+P(pH=Low | OTHER=F) = 5.757052389176742E-4
+P(pH=Not Mentioned | OTHER=F) = 0.7052389176741508
+P(pH=Normal | OTHER=F) = 0.2820955670696603
+P(pH=High | OTHER=True) = 0.0035590395098436724
+P(pH=Low | OTHER=True) = 4.5051133035995854E-5
+P(pH=Not Mentioned | OTHER=True) = 0.8401135288552507
+P(pH=Normal | OTHER=True) = 0.15628238050186963
+P(Erythrocytes=High | OTHER=F) = 0.017846862406447898
+P(Erythrocytes=Low | OTHER=F) = 5.757052389176742E-4
+P(Erythrocytes=Not Mentioned | OTHER=F) = 0.9712147380541163
+P(Erythrocytes=Normal | OTHER=F) = 0.010362694300518135
+P(Erythrocytes=High | OTHER=True) = 4.5051133035995854E-5
+P(Erythrocytes=Low | OTHER=True) = 4.5051133035995854E-5
+P(Erythrocytes=Not Mentioned | OTHER=True) = 0.999864846600892
+P(Erythrocytes=Normal | OTHER=True) = 4.5051133035995854E-5
+P(Specific gravity=High | OTHER=F) = 5.757052389176742E-4
+P(Specific gravity=Low | OTHER=F) = 5.757052389176742E-4
+P(Specific gravity=Not Mentioned | OTHER=F) = 0.9666090961427749
+P(Specific gravity=Normal | OTHER=F) = 0.03223949337938975
+P(Specific gravity=High | OTHER=True) = 4.5051133035995854E-5
+P(Specific gravity=Low | OTHER=True) = 4.5051133035995854E-5
+P(Specific gravity=Not Mentioned | OTHER=True) = 0.9990539262062441
+P(Specific gravity=Normal | OTHER=True) = 8.559715276839213E-4
+P(Leukocytes=High | OTHER=F) = 0.02475532527345999
+P(Leukocytes=Low | OTHER=F) = 5.757052389176742E-4
+P(Leukocytes=Not Mentioned | OTHER=F) = 0.8934945308002303
+P(Leukocytes=Normal | OTHER=F) = 0.08117443868739206
+P(Leukocytes=High | OTHER=True) = 0.029283236473397305
+P(Leukocytes=Low | OTHER=True) = 4.5051133035995854E-5
+P(Leukocytes=Not Mentioned | OTHER=True) = 0.9286840564040185
+P(Leukocytes=Normal | OTHER=True) = 0.04198765598954814
+P(Monocytes/100 leukocytes=High | OTHER=F) = 0.1226252158894646
+P(Monocytes/100 leukocytes=Low | OTHER=F) = 0.007484168105929764
+P(Monocytes/100 leukocytes=Not Mentioned | OTHER=F) = 0.6090961427748992
+P(Monocytes/100 leukocytes=Normal | OTHER=F) = 0.2607944732297064
+P(Monocytes/100 leukocytes=High | OTHER=True) = 0.023561742577825832
+P(Monocytes/100 leukocytes=Low | OTHER=True) = 0.003468937243771681
+P(Monocytes/100 leukocytes=Not Mentioned | OTHER=True) = 0.7808712889129161
+P(Monocytes/100 leukocytes=Normal | OTHER=True) = 0.19209803126548633
+P(Potassium=High | OTHER=F) = 0.012089810017271158
+P(Potassium=Low | OTHER=F) = 0.011514104778353483
+P(Potassium=Not Mentioned | OTHER=F) = 0.9107656879677605
+P(Potassium=Normal | OTHER=F) = 0.06563039723661486
+P(Potassium=High | OTHER=True) = 0.0022525566517997927
+P(Potassium=Low | OTHER=True) = 0.0032887327116276972
+P(Potassium=Not Mentioned | OTHER=True) = 0.978015047078434
+P(Potassium=Normal | OTHER=True) = 0.016443663558138488
+P(Leukocytes=High | OTHER=F) = 0.04548071387449626
+P(Leukocytes=Low | OTHER=F) = 0.057570523891767415
+P(Leukocytes=Not Mentioned | OTHER=F) = 0.408175014392631
+P(Leukocytes=Normal | OTHER=F) = 0.48877374784110533
+P(Leukocytes=High | OTHER=True) = 0.05482722890480696
+P(Leukocytes=Low | OTHER=True) = 0.013425237644726765
+P(Leukocytes=Not Mentioned | OTHER=True) = 0.5990899671126729
+P(Leukocytes=Normal | OTHER=True) = 0.3326575663377934
+P(Alkaline phosphatase=High | OTHER=F) = 0.031088082901554404
+P(Alkaline phosphatase=Low | OTHER=F) = 0.00978698906160046
+P(Alkaline phosphatase=Not Mentioned | OTHER=F) = 0.7772020725388601
+P(Alkaline phosphatase=Normal | OTHER=F) = 0.18192285549798504
+P(Alkaline phosphatase=High | OTHER=True) = 0.027976753615353425
+P(Alkaline phosphatase=Low | OTHER=True) = 0.0064423120241474075
+P(Alkaline phosphatase=Not Mentioned | OTHER=True) = 0.7760958688111006
+P(Alkaline phosphatase=Normal | OTHER=True) = 0.18948506554939856
+P(Basophils/100 leukocytes=High | OTHER=F) = 0.008059873344847437
+P(Basophils/100 leukocytes=Low | OTHER=F) = 5.757052389176742E-4
+P(Basophils/100 leukocytes=Not Mentioned | OTHER=F) = 0.8399539435808866
+P(Basophils/100 leukocytes=Normal | OTHER=F) = 0.1514104778353483
+P(Basophils/100 leukocytes=High | OTHER=True) = 0.004054601973239627
+P(Basophils/100 leukocytes=Low | OTHER=True) = 4.5051133035995854E-5
+P(Basophils/100 leukocytes=Not Mentioned | OTHER=True) = 0.8811551110510429
+P(Basophils/100 leukocytes=Normal | OTHER=True) = 0.11474523584268144
+P(Eosinophils=High | OTHER=F) = 0.007484168105929764
+P(Eosinophils=Low | OTHER=F) = 0.06102475532527346
+P(Eosinophils=Not Mentioned | OTHER=F) = 0.7006332757628094
+P(Eosinophils=Normal | OTHER=F) = 0.23085780080598733
+P(Eosinophils=High | OTHER=True) = 0.013154930846510789
+P(Eosinophils=Low | OTHER=True) = 0.00446006217056359
+P(Eosinophils=Not Mentioned | OTHER=True) = 0.7410911384421318
+P(Eosinophils=Normal | OTHER=True) = 0.2412938685407938
+P(Eosinophils/100 leukocytes=High | OTHER=F) = 0.027633851468048358
+P(Eosinophils/100 leukocytes=Low | OTHER=F) = 5.757052389176742E-4
+P(Eosinophils/100 leukocytes=Not Mentioned | OTHER=F) = 0.7553252734599885
+P(Eosinophils/100 leukocytes=Normal | OTHER=F) = 0.21646516983304548
+P(Eosinophils/100 leukocytes=High | OTHER=True) = 0.012704419516150832
+P(Eosinophils/100 leukocytes=Low | OTHER=True) = 4.5051133035995854E-5
+P(Eosinophils/100 leukocytes=Not Mentioned | OTHER=True) = 0.8057845654818219
+P(Eosinophils/100 leukocytes=Normal | OTHER=True) = 0.1814659638689913
+P(Hemoglobin=High | OTHER=F) = 0.01669545192861255
+P(Hemoglobin=Low | OTHER=F) = 0.16983304548071387
+P(Hemoglobin=Not Mentioned | OTHER=F) = 0.41450777202072536
+P(Hemoglobin=Normal | OTHER=F) = 0.39896373056994816
+P(Hemoglobin=High | OTHER=True) = 0.011758345722394918
+P(Hemoglobin=Low | OTHER=True) = 0.1261431725007884
+P(Hemoglobin=Not Mentioned | OTHER=True) = 0.6003513988376807
+P(Hemoglobin=Normal | OTHER=True) = 0.2617470829391359
+P(Lymphocytes=High | OTHER=F) = 0.0017271157167530224
+P(Lymphocytes=Low | OTHER=F) = 0.1940126655152562
+P(Lymphocytes=Not Mentioned | OTHER=F) = 0.4899251583189407
+P(Lymphocytes=Normal | OTHER=F) = 0.3143350604490501
+P(Lymphocytes=High | OTHER=True) = 0.00901022660719917
+P(Lymphocytes=Low | OTHER=True) = 0.040500968599360275
+P(Lymphocytes=Not Mentioned | OTHER=True) = 0.6799116997792495
+P(Lymphocytes=Normal | OTHER=True) = 0.27057710501419113
+P(Lymphocytes/100 leukocytes=High | OTHER=F) = 0.028785261945883708
+P(Lymphocytes/100 leukocytes=Low | OTHER=F) = 0.2135866436384571
+P(Lymphocytes/100 leukocytes=Not Mentioned | OTHER=F) = 0.47380541162924583
+P(Lymphocytes/100 leukocytes=Normal | OTHER=F) = 0.28382268278641337
+P(Lymphocytes/100 leukocytes=High | OTHER=True) = 0.016443663558138488
+P(Lymphocytes/100 leukocytes=Low | OTHER=True) = 0.07820876695048881
+P(Lymphocytes/100 leukocytes=Not Mentioned | OTHER=True) = 0.6645042122809388
+P(Lymphocytes/100 leukocytes=Normal | OTHER=True) = 0.24084335721043384
+P(Monocytes=High | OTHER=F) = 0.11629245826137018
+P(Monocytes=Low | OTHER=F) = 0.017271157167530225
+P(Monocytes=Not Mentioned | OTHER=F) = 0.4933793897524468
+P(Monocytes=Normal | OTHER=F) = 0.37305699481865284
+P(Monocytes=High | OTHER=True) = 0.04315898544848403
+P(Monocytes=Low | OTHER=True) = 0.00901022660719917
+P(Monocytes=Not Mentioned | OTHER=True) = 0.6927963238275443
+P(Monocytes=Normal | OTHER=True) = 0.25503446411677255
+P(Neutrophils=High | OTHER=F) = 0.059873344847438115
+P(Neutrophils=Low | OTHER=F) = 0.03281519861830743
+P(Neutrophils=Not Mentioned | OTHER=F) = 0.47956246401842256
+P(Neutrophils=Normal | OTHER=F) = 0.42774899251583187
+P(Neutrophils=High | OTHER=True) = 0.052484569986935174
+P(Neutrophils=Low | OTHER=True) = 0.01446141370455467
+P(Neutrophils=Not Mentioned | OTHER=True) = 0.673424336622066
+P(Neutrophils=Normal | OTHER=True) = 0.2596296796864441
+P(Neutrophils.band form/100 leukocytes=High | OTHER=F) = 0.02360391479562464
+P(Neutrophils.band form/100 leukocytes=Low | OTHER=F) = 0.027633851468048358
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | OTHER=F) = 0.8986758779504893
+P(Neutrophils.band form/100 leukocytes=Normal | OTHER=F) = 0.05008635578583765
+P(Neutrophils.band form/100 leukocytes=High | OTHER=True) = 0.004054601973239627
+P(Neutrophils.band form/100 leukocytes=Low | OTHER=True) = 0.0036491417759156645
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | OTHER=True) = 0.977924944812362
+P(Neutrophils.band form/100 leukocytes=Normal | OTHER=True) = 0.014371311438482678
+P(Neutrophils/100 leukocytes=High | OTHER=F) = 0.19286125503742085
+P(Neutrophils/100 leukocytes=Low | OTHER=F) = 0.025331030512377662
+P(Neutrophils/100 leukocytes=Not Mentioned | OTHER=F) = 0.5768566493955095
+P(Neutrophils/100 leukocytes=Normal | OTHER=F) = 0.204951065054692
+P(Neutrophils/100 leukocytes=High | OTHER=True) = 0.06126954092895436
+P(Neutrophils/100 leukocytes=Low | OTHER=True) = 0.01054196513042303
+P(Neutrophils/100 leukocytes=Not Mentioned | OTHER=True) = 0.7611839437761859
+P(Neutrophils/100 leukocytes=Normal | OTHER=True) = 0.16700455016443663
+P(Platelets=High | OTHER=F) = 0.059873344847438115
+P(Platelets=Low | OTHER=F) = 0.10938399539435809
+P(Platelets=Not Mentioned | OTHER=F) = 0.40875071963154863
+P(Platelets=Normal | OTHER=F) = 0.42199194012665514
+P(Platelets=High | OTHER=True) = 0.022795873316213904
+P(Platelets=Low | OTHER=True) = 0.04721358742172366
+P(Platelets=Not Mentioned | OTHER=True) = 0.596702257061765
+P(Platelets=Normal | OTHER=True) = 0.3332882822002973
+P(Erythrocyte mean corpuscular hemoglobin=High | OTHER=F) = 0.02360391479562464
+P(Erythrocyte mean corpuscular hemoglobin=Low | OTHER=F) = 0.1560161197466897
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | OTHER=F) = 0.4104778353483017
+P(Erythrocyte mean corpuscular hemoglobin=Normal | OTHER=F) = 0.409902130109384
+P(Erythrocyte mean corpuscular hemoglobin=High | OTHER=True) = 0.018561066810830293
+P(Erythrocyte mean corpuscular hemoglobin=Low | OTHER=True) = 0.08451592557552823
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | OTHER=True) = 0.5991800693787449
+P(Erythrocyte mean corpuscular hemoglobin=Normal | OTHER=True) = 0.2977429382348966
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | OTHER=F) = 0.015544041450777202
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | OTHER=F) = 0.07426597582037997
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | OTHER=F) = 0.41220495106505467
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | OTHER=F) = 0.49798503166378816
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | OTHER=True) = 0.005225931432175519
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | OTHER=True) = 0.10839302608460603
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | OTHER=True) = 0.6053971257377123
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | OTHER=True) = 0.28098391674550616
+P(Erythrocyte mean corpuscular volume=High | OTHER=F) = 0.035693724812895795
+P(Erythrocyte mean corpuscular volume=Low | OTHER=F) = 0.07714450201496834
+P(Erythrocyte mean corpuscular volume=Not Mentioned | OTHER=F) = 0.4058721934369603
+P(Erythrocyte mean corpuscular volume=Normal | OTHER=F) = 0.4812895797351756
+P(Erythrocyte mean corpuscular volume=High | OTHER=True) = 0.022885975582285896
+P(Erythrocyte mean corpuscular volume=Low | OTHER=True) = 0.05140334279407127
+P(Erythrocyte mean corpuscular volume=Not Mentioned | OTHER=True) = 0.5962517457314052
+P(Erythrocyte mean corpuscular volume=Normal | OTHER=True) = 0.3294589358922377
+P(Erythrocyte distribution width=High | OTHER=F) = 0.18998272884283246
+P(Erythrocyte distribution width=Low | OTHER=F) = 5.757052389176742E-4
+P(Erythrocyte distribution width=Not Mentioned | OTHER=F) = 0.409902130109384
+P(Erythrocyte distribution width=Normal | OTHER=F) = 0.39953943580886586
+P(Erythrocyte distribution width=High | OTHER=True) = 0.11145650313105375
+P(Erythrocyte distribution width=Low | OTHER=True) = 4.5051133035995853E-4
+P(Erythrocyte distribution width=Not Mentioned | OTHER=True) = 0.6005316033698247
+P(Erythrocyte distribution width=Normal | OTHER=True) = 0.28756138216876154
+P(Erythrocytes=High | OTHER=F) = 0.03857225100748417
+P(Erythrocytes=Low | OTHER=F) = 0.11686816350028785
+P(Erythrocytes=Not Mentioned | OTHER=F) = 0.40875071963154863
+P(Erythrocytes=Normal | OTHER=F) = 0.43580886586067935
+P(Erythrocytes=High | OTHER=True) = 0.02671532189034554
+P(Erythrocytes=Low | OTHER=True) = 0.08591251069964409
+P(Erythrocytes=Not Mentioned | OTHER=True) = 0.597287921791233
+P(Erythrocytes=Normal | OTHER=True) = 0.2900842456187773

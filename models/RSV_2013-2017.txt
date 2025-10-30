@@ -1,0 +1,2671 @@
+===== Class Prior Probabilities =====
+P(RSV=False) = 0.987465416972503
+P(RSV=True) = 0.012534583027497036
+
+===== Conditional Probabilities =====
+P(AGE=Not Mentioned | RSV=False) = 1.1435236537867785E-5
+P(AGE=18-64 | RSV=False) = 0.5897723244405311
+P(AGE=5-17 | RSV=False) = 0.15988747727246738
+P(AGE=65+ | RSV=False) = 0.12040160550720992
+P(AGE=<5 | RSV=False) = 0.1299271575432538
+P(AGE=Not Mentioned | RSV=True) = 8.976660682226212E-4
+P(AGE=18-64 | RSV=True) = 0.07001795332136446
+P(AGE=5-17 | RSV=True) = 0.06463195691202872
+P(AGE=65+ | RSV=True) = 0.06642728904847396
+P(AGE=<5 | RSV=True) = 0.7980251346499102
+P(N_D_RACE=BLACK | RSV=False) = 0.38838637377214147
+P(N_D_RACE=Not Mentioned | RSV=False) = 0.00299603197292136
+P(N_D_RACE=NOT_SPECIFIED | RSV=False) = 0.006632437191963316
+P(N_D_RACE=OTHER | RSV=False) = 0.029880273073448524
+P(N_D_RACE=WHITE | RSV=False) = 0.5721048839895253
+P(N_D_RACE=BLACK | RSV=True) = 0.21813285457809695
+P(N_D_RACE=Not Mentioned | RSV=True) = 0.008976660682226212
+P(N_D_RACE=NOT_SPECIFIED | RSV=True) = 0.00807899461400359
+P(N_D_RACE=OTHER | RSV=True) = 0.0466786355475763
+P(N_D_RACE=WHITE | RSV=True) = 0.718132854578097
+P(Abdominal Pain=Not Mentioned | RSV=False) = 0.6558601209875696
+P(Abdominal Pain=Negated | RSV=False) = 0.12342333070316877
+P(Abdominal Pain=Present | RSV=False) = 0.2207165483092616
+P(Abdominal Pain=Not Mentioned | RSV=True) = 0.8785971223021583
+P(Abdominal Pain=Negated | RSV=True) = 0.0737410071942446
+P(Abdominal Pain=Present | RSV=True) = 0.047661870503597124
+P(Apnea=Not Mentioned | RSV=False) = 0.9788328930666576
+P(Apnea=Negated | RSV=False) = 0.0021613091358194106
+P(Apnea=Present | RSV=False) = 0.01900579779752307
+P(Apnea=Not Mentioned | RSV=True) = 0.9010791366906474
+P(Apnea=Negated | RSV=True) = 0.022482014388489208
+P(Apnea=Present | RSV=True) = 0.0764388489208633
+P(Back Pain=Not Mentioned | RSV=False) = 0.8318753073290107
+P(Back Pain=Negated | RSV=False) = 0.028543003190503964
+P(Back Pain=Present | RSV=False) = 0.13958168948048533
+P(Back Pain=Not Mentioned | RSV=True) = 0.9568345323741008
+P(Back Pain=Negated | RSV=True) = 0.007194244604316547
+P(Back Pain=Present | RSV=True) = 0.03597122302158273
+P(Birth History=Not Mentioned | RSV=False) = 0.9781925051745629
+P(Birth History=Negated | RSV=False) = 4.57419922924743E-5
+P(Birth History=Present | RSV=False) = 0.02176175283314465
+P(Birth History=Not Mentioned | RSV=True) = 0.6969424460431655
+P(Birth History=Negated | RSV=True) = 8.992805755395684E-4
+P(Birth History=Present | RSV=True) = 0.302158273381295
+P(Chest Pain=Not Mentioned | RSV=False) = 0.6140290690361019
+P(Chest Pain=Negated | RSV=False) = 0.2085834848536828
+P(Chest Pain=Present | RSV=False) = 0.17738744611021534
+P(Chest Pain=Not Mentioned | RSV=True) = 0.8839928057553957
+P(Chest Pain=Negated | RSV=True) = 0.06924460431654676
+P(Chest Pain=Present | RSV=True) = 0.046762589928057555
+P(Constitutional Symptom=Not Mentioned | RSV=False) = 0.8298054821777763
+P(Constitutional Symptom=Negated | RSV=False) = 0.0031790684643269638
+P(Constitutional Symptom=Present | RSV=False) = 0.16701544935789678
+P(Constitutional Symptom=Not Mentioned | RSV=True) = 0.4352517985611511
+P(Constitutional Symptom=Negated | RSV=True) = 0.007194244604316547
+P(Constitutional Symptom=Present | RSV=True) = 0.5575539568345323
+P(Coughing=Not Mentioned | RSV=False) = 0.7455601678731117
+P(Coughing=Negated | RSV=False) = 0.11967248733518589
+P(Coughing=Present | RSV=False) = 0.1347673447917024
+P(Coughing=Not Mentioned | RSV=True) = 0.26888489208633093
+P(Coughing=Negated | RSV=True) = 0.02787769784172662
+P(Coughing=Present | RSV=True) = 0.7032374100719424
+P(Diarrhea=Not Mentioned | RSV=False) = 0.7512436104154516
+P(Diarrhea=Negated | RSV=False) = 0.07450226994636751
+P(Diarrhea=Present | RSV=False) = 0.17425411963818085
+P(Diarrhea=Not Mentioned | RSV=True) = 0.6483812949640287
+P(Diarrhea=Negated | RSV=True) = 0.1052158273381295
+P(Diarrhea=Present | RSV=True) = 0.24640287769784172
+P(Diplopia=Not Mentioned | RSV=False) = 0.9587635939483344
+P(Diplopia=Negated | RSV=False) = 0.014099969124155202
+P(Diplopia=Present | RSV=False) = 0.027136436927510377
+P(Diplopia=Not Mentioned | RSV=True) = 0.9910071942446043
+P(Diplopia=Negated | RSV=True) = 0.0017985611510791368
+P(Diplopia=Present | RSV=True) = 0.007194244604316547
+P(Dizziness=Not Mentioned | RSV=False) = 0.8814710624721259
+P(Dizziness=Negated | RSV=False) = 0.015369309410271365
+P(Dizziness=Present | RSV=False) = 0.10315962811760267
+P(Dizziness=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Dizziness=Negated | RSV=True) = 0.002697841726618705
+P(Dizziness=Present | RSV=True) = 0.018884892086330936
+P(Dyspnea=Not Mentioned | RSV=False) = 0.5772067652406601
+P(Dyspnea=Negated | RSV=False) = 0.16497993070088168
+P(Dyspnea=Present | RSV=False) = 0.25781330405845826
+P(Dyspnea=Not Mentioned | RSV=True) = 0.64568345323741
+P(Dyspnea=Negated | RSV=True) = 0.02697841726618705
+P(Dyspnea=Present | RSV=True) = 0.3273381294964029
+P(Dysuria=Not Mentioned | RSV=False) = 0.8261346872963052
+P(Dysuria=Negated | RSV=False) = 0.09245600192116368
+P(Dysuria=Present | RSV=False) = 0.08140931078253114
+P(Dysuria=Not Mentioned | RSV=True) = 0.9316546762589928
+P(Dysuria=Negated | RSV=True) = 0.050359712230215826
+P(Dysuria=Present | RSV=True) = 0.017985611510791366
+P(Exanthema=Not Mentioned | RSV=False) = 0.46813498461925507
+P(Exanthema=Negated | RSV=False) = 0.45006689766372776
+P(Exanthema=Present | RSV=False) = 0.08179811771701717
+P(Exanthema=Not Mentioned | RSV=True) = 0.37410071942446044
+P(Exanthema=Negated | RSV=True) = 0.5746402877697842
+P(Exanthema=Present | RSV=True) = 0.051258992805755396
+P(Fatigue=Not Mentioned | RSV=False) = 0.9474081443617277
+P(Fatigue=Negated | RSV=False) = 0.011424062575045456
+P(Fatigue=Present | RSV=False) = 0.04116779306322687
+P(Fatigue=Not Mentioned | RSV=True) = 0.9217625899280576
+P(Fatigue=Negated | RSV=True) = 0.0035971223021582736
+P(Fatigue=Present | RSV=True) = 0.07464028776978417
+P(Fever=Not Mentioned | RSV=False) = 0.4231362997015335
+P(Fever=Negated | RSV=False) = 0.34810799684380256
+P(Fever=Present | RSV=False) = 0.22875570345466398
+P(Fever=Not Mentioned | RSV=True) = 0.13848920863309352
+P(Fever=Negated | RSV=True) = 0.2446043165467626
+P(Fever=Present | RSV=True) = 0.6169064748201439
+P(Foot pain=Not Mentioned | RSV=False) = 0.9840017381957071
+P(Foot pain=Negated | RSV=False) = 4.688554209978616E-4
+P(Foot pain=Present | RSV=False) = 0.015529406383295025
+P(Foot pain=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Foot pain=Negated | RSV=True) = 8.992805755395684E-4
+P(Foot pain=Present | RSV=True) = 8.992805755395684E-4
+P(Glycosuria=Not Mentioned | RSV=False) = 0.9148512813475591
+P(Glycosuria=Negated | RSV=False) = 1.1435498073118575E-4
+P(Glycosuria=Present | RSV=False) = 0.08503436367170972
+P(Glycosuria=Not Mentioned | RSV=True) = 0.835431654676259
+P(Glycosuria=Negated | RSV=True) = 8.992805755395684E-4
+P(Glycosuria=Present | RSV=True) = 0.16366906474820145
+P(Headache=Not Mentioned | RSV=False) = 0.7415577435475202
+P(Headache=Negated | RSV=False) = 0.11575011149610621
+P(Headache=Present | RSV=False) = 0.14269214495637358
+P(Headache=Not Mentioned | RSV=True) = 0.9334532374100719
+P(Headache=Negated | RSV=True) = 0.046762589928057555
+P(Headache=Present | RSV=True) = 0.019784172661870502
+P(Heart murmur=Not Mentioned | RSV=False) = 0.3688977323407321
+P(Heart murmur=Negated | RSV=False) = 0.6035655882991984
+P(Heart murmur=Present | RSV=False) = 0.027536679360069528
+P(Heart murmur=Not Mentioned | RSV=True) = 0.2607913669064748
+P(Heart murmur=Negated | RSV=True) = 0.710431654676259
+P(Heart murmur=Present | RSV=True) = 0.02877697841726619
+P(Hemoglobin concentration result=Not Mentioned | RSV=False) = 0.8079179388658273
+P(Hemoglobin concentration result=Negated | RSV=False) = 8.004848651183003E-5
+P(Hemoglobin concentration result=Present | RSV=False) = 0.19200201264766087
+P(Hemoglobin concentration result=Not Mentioned | RSV=True) = 0.6915467625899281
+P(Hemoglobin concentration result=Negated | RSV=True) = 8.992805755395684E-4
+P(Hemoglobin concentration result=Present | RSV=True) = 0.30755395683453235
+P(Hepatosplenomegaly=Not Mentioned | RSV=False) = 0.9078298855306642
+P(Hepatosplenomegaly=Negated | RSV=False) = 0.08888812652235067
+P(Hepatosplenomegaly=Present | RSV=False) = 0.003281987946985031
+P(Hepatosplenomegaly=Not Mentioned | RSV=True) = 0.9739208633093526
+P(Hepatosplenomegaly=Negated | RSV=True) = 0.018884892086330936
+P(Hepatosplenomegaly=Present | RSV=True) = 0.007194244604316547
+P(Hypercapnia=Not Mentioned | RSV=False) = 0.9983647237755441
+P(Hypercapnia=Negated | RSV=False) = 1.829679691698972E-4
+P(Hypercapnia=Present | RSV=False) = 0.001452308255286059
+P(Hypercapnia=Not Mentioned | RSV=True) = 0.9847122302158273
+P(Hypercapnia=Negated | RSV=True) = 0.0035971223021582736
+P(Hypercapnia=Present | RSV=True) = 0.011690647482014389
+P(Hypesthesia=Not Mentioned | RSV=False) = 0.8489828124463961
+P(Hypesthesia=Negated | RSV=False) = 0.06552540395896943
+P(Hypesthesia=Present | RSV=False) = 0.08549178359463447
+P(Hypesthesia=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Hypesthesia=Negated | RSV=True) = 0.009892086330935251
+P(Hypesthesia=Present | RSV=True) = 0.011690647482014389
+P(Infant, Premature=Not Mentioned | RSV=False) = 0.9983304172813247
+P(Infant, Premature=Negated | RSV=False) = 3.430649421935573E-5
+P(Infant, Premature=Present | RSV=False) = 0.0016352762244559562
+P(Infant, Premature=Not Mentioned | RSV=True) = 0.9613309352517986
+P(Infant, Premature=Negated | RSV=True) = 8.992805755395684E-4
+P(Infant, Premature=Present | RSV=True) = 0.03776978417266187
+P(Icterus=Not Mentioned | RSV=False) = 0.7090923645179366
+P(Icterus=Negated | RSV=False) = 0.06414170869212209
+P(Icterus=Present | RSV=False) = 0.22676592678994134
+P(Icterus=Not Mentioned | RSV=True) = 0.7967625899280576
+P(Icterus=Negated | RSV=True) = 0.14388489208633093
+P(Icterus=Present | RSV=True) = 0.05935251798561151
+P(Lethargy=Not Mentioned | RSV=False) = 0.9839788671995608
+P(Lethargy=Negated | RSV=False) = 0.0038537628506409597
+P(Lethargy=Present | RSV=False) = 0.012167369949798163
+P(Lethargy=Not Mentioned | RSV=True) = 0.9226618705035972
+P(Lethargy=Negated | RSV=True) = 0.030575539568345324
+P(Lethargy=Present | RSV=True) = 0.046762589928057555
+P(Low Back Pain=Not Mentioned | RSV=False) = 0.965373311834597
+P(Low Back Pain=Negated | RSV=False) = 5.145974132903359E-4
+P(Low Back Pain=Present | RSV=False) = 0.03411209075211271
+P(Low Back Pain=Not Mentioned | RSV=True) = 0.9964028776978417
+P(Low Back Pain=Negated | RSV=True) = 8.992805755395684E-4
+P(Low Back Pain=Present | RSV=True) = 0.002697841726618705
+P(Musculoskeletal Pain=Not Mentioned | RSV=False) = 0.9906114560819697
+P(Musculoskeletal Pain=Negated | RSV=False) = 0.0014294372591398218
+P(Musculoskeletal Pain=Present | RSV=False) = 0.007959106658890528
+P(Musculoskeletal Pain=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Musculoskeletal Pain=Negated | RSV=True) = 8.992805755395684E-4
+P(Musculoskeletal Pain=Present | RSV=True) = 8.992805755395684E-4
+P(Nasal congestion (finding)=Not Mentioned | RSV=False) = 0.9404782325294179
+P(Nasal congestion (finding)=Negated | RSV=False) = 0.02904616510572118
+P(Nasal congestion (finding)=Present | RSV=False) = 0.030475602364861
+P(Nasal congestion (finding)=Not Mentioned | RSV=True) = 0.6007194244604317
+P(Nasal congestion (finding)=Negated | RSV=True) = 0.02697841726618705
+P(Nasal congestion (finding)=Present | RSV=True) = 0.3723021582733813
+P(Nausea=Not Mentioned | RSV=False) = 0.660136997266916
+P(Nausea=Negated | RSV=False) = 0.11872334099511704
+P(Nausea=Present | RSV=False) = 0.221139661737967
+P(Nausea=Not Mentioned | RSV=True) = 0.9199640287769785
+P(Nausea=Negated | RSV=True) = 0.03776978417266187
+P(Nausea=Present | RSV=True) = 0.04226618705035971
+P(Numbness=Not Mentioned | RSV=False) = 0.8451633560899745
+P(Numbness=Negated | RSV=False) = 0.06844145596761467
+P(Numbness=Present | RSV=False) = 0.08639518794241083
+P(Numbness=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Numbness=Negated | RSV=True) = 0.01079136690647482
+P(Numbness=Present | RSV=True) = 0.01079136690647482
+P(Decreased translucency=Not Mentioned | RSV=False) = 0.9890676638420987
+P(Decreased translucency=Negated | RSV=False) = 3.201939460473201E-4
+P(Decreased translucency=Present | RSV=False) = 0.010612142211854038
+P(Decreased translucency=Not Mentioned | RSV=True) = 0.8785971223021583
+P(Decreased translucency=Negated | RSV=True) = 0.0035971223021582736
+P(Decreased translucency=Present | RSV=True) = 0.11780575539568346
+P(Pain=Not Mentioned | RSV=False) = 0.4628403490114012
+P(Pain=Negated | RSV=False) = 0.10075817352224777
+P(Pain=Present | RSV=False) = 0.43640147746635105
+P(Pain=Not Mentioned | RSV=True) = 0.8857913669064749
+P(Pain=Negated | RSV=True) = 0.030575539568345324
+P(Pain=Present | RSV=True) = 0.08363309352517985
+P(Pallor=Not Mentioned | RSV=False) = 0.9410614429311469
+P(Pallor=Negated | RSV=False) = 0.045547588825231286
+P(Pallor=Present | RSV=False) = 0.013390968243621851
+P(Pallor=Not Mentioned | RSV=True) = 0.8687050359712231
+P(Pallor=Negated | RSV=True) = 0.11061151079136691
+P(Pallor=Present | RSV=True) = 0.02068345323741007
+P(Palpitations=Not Mentioned | RSV=False) = 0.8994247944469221
+P(Palpitations=Negated | RSV=False) = 0.043386279689411875
+P(Palpitations=Present | RSV=False) = 0.057188925863665994
+P(Palpitations=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Palpitations=Negated | RSV=True) = 0.011690647482014389
+P(Palpitations=Present | RSV=True) = 0.009892086330935251
+P(Rales=Not Mentioned | RSV=False) = 0.8852562123343283
+P(Rales=Negated | RSV=False) = 0.017610667032602605
+P(Rales=Present | RSV=False) = 0.09713312063306917
+P(Rales=Not Mentioned | RSV=True) = 0.7544964028776978
+P(Rales=Negated | RSV=True) = 0.03147482014388489
+P(Rales=Present | RSV=True) = 0.21402877697841727
+P(Seizures=Not Mentioned | RSV=False) = 0.9330108522876714
+P(Seizures=Negated | RSV=False) = 0.011195352613583084
+P(Seizures=Present | RSV=False) = 0.055793795098745526
+P(Seizures=Not Mentioned | RSV=True) = 0.9019784172661871
+P(Seizures=Negated | RSV=True) = 0.046762589928057555
+P(Seizures=Present | RSV=True) = 0.051258992805755396
+P(Signs and Symptoms, Respiratory=Not Mentioned | RSV=False) = 0.8515672350109209
+P(Signs and Symptoms, Respiratory=Negated | RSV=False) = 0.0022413576223312406
+P(Signs and Symptoms, Respiratory=Present | RSV=False) = 0.14619140736674785
+P(Signs and Symptoms, Respiratory=Not Mentioned | RSV=True) = 0.4370503597122302
+P(Signs and Symptoms, Respiratory=Negated | RSV=True) = 8.992805755395684E-4
+P(Signs and Symptoms, Respiratory=Present | RSV=True) = 0.5620503597122302
+P(Tachycardia=Not Mentioned | RSV=False) = 0.9462531590563427
+P(Tachycardia=Negated | RSV=False) = 0.010291948265806717
+P(Tachycardia=Present | RSV=False) = 0.04345489267785058
+P(Tachycardia=Not Mentioned | RSV=True) = 0.8381294964028777
+P(Tachycardia=Negated | RSV=True) = 0.007194244604316547
+P(Tachycardia=Present | RSV=True) = 0.15467625899280577
+P(Toothache=Not Mentioned | RSV=False) = 0.9780667146957586
+P(Toothache=Negated | RSV=False) = 0.0010863723169462645
+P(Toothache=Present | RSV=False) = 0.02084691298729516
+P(Toothache=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Toothache=Negated | RSV=True) = 8.992805755395684E-4
+P(Toothache=Present | RSV=True) = 8.992805755395684E-4
+P(Unconscious State=Not Mentioned | RSV=False) = 0.9414388143675598
+P(Unconscious State=Negated | RSV=False) = 0.03063569933788466
+P(Unconscious State=Present | RSV=False) = 0.02792548629455556
+P(Unconscious State=Not Mentioned | RSV=True) = 0.9946043165467626
+P(Unconscious State=Negated | RSV=True) = 0.0017985611510791368
+P(Unconscious State=Present | RSV=True) = 0.0035971223021582736
+P(Vertigo=Not Mentioned | RSV=False) = 0.908001418001761
+P(Vertigo=Negated | RSV=False) = 0.012659096366942263
+P(Vertigo=Present | RSV=False) = 0.07933948563129667
+P(Vertigo=Not Mentioned | RSV=True) = 0.9775179856115108
+P(Vertigo=Negated | RSV=True) = 0.002697841726618705
+P(Vertigo=Present | RSV=True) = 0.019784172661870502
+P(Vomiting=Not Mentioned | RSV=False) = 0.7054444406326118
+P(Vomiting=Negated | RSV=False) = 0.1442016307020252
+P(Vomiting=Present | RSV=False) = 0.150353928665363
+P(Vomiting=Not Mentioned | RSV=True) = 0.5404676258992805
+P(Vomiting=Negated | RSV=True) = 0.19514388489208634
+P(Vomiting=Present | RSV=True) = 0.2643884892086331
+P(Wheezing=Not Mentioned | RSV=False) = 0.8565531121708005
+P(Wheezing=Negated | RSV=False) = 0.09699589465619175
+P(Wheezing=Present | RSV=False) = 0.04645099317300765
+P(Wheezing=Not Mentioned | RSV=True) = 0.5143884892086331
+P(Wheezing=Negated | RSV=True) = 0.10971223021582734
+P(Wheezing=Present | RSV=True) = 0.37589928057553956
+P(Immunocompromised Host=Not Mentioned | RSV=False) = 0.9950255583381934
+P(Immunocompromised Host=Negated | RSV=False) = 9.14839845849486E-4
+P(Immunocompromised Host=Present | RSV=False) = 0.004059601815957094
+P(Immunocompromised Host=Not Mentioned | RSV=True) = 0.9892086330935251
+P(Immunocompromised Host=Negated | RSV=True) = 0.002697841726618705
+P(Immunocompromised Host=Present | RSV=True) = 0.008093525179856115
+P(Chills=Not Mentioned | RSV=False) = 0.6637277436618751
+P(Chills=Negated | RSV=False) = 0.08291879652818278
+P(Chills=Present | RSV=False) = 0.253353459809942
+P(Chills=Not Mentioned | RSV=True) = 0.9226618705035972
+P(Chills=Negated | RSV=True) = 0.018884892086330936
+P(Chills=Present | RSV=True) = 0.05845323741007194
+P(Falls=Not Mentioned | RSV=False) = 0.9146683133783892
+P(Falls=Negated | RSV=False) = 0.0063352659325076905
+P(Falls=Present | RSV=False) = 0.07899642068910312
+P(Falls=Not Mentioned | RSV=True) = 0.9811151079136691
+P(Falls=Negated | RSV=True) = 8.992805755395684E-4
+P(Falls=Present | RSV=True) = 0.017985611510791366
+P(Present=Not Mentioned | RSV=False) = 0.7733255571946436
+P(Present=Negated | RSV=False) = 0.004745731700344208
+P(Present=Present | RSV=False) = 0.22192871110501217
+P(Present=Not Mentioned | RSV=True) = 0.6834532374100719
+P(Present=Negated | RSV=True) = 0.00539568345323741
+P(Present=Present | RSV=True) = 0.31115107913669066
+P(Neck stiffness=Not Mentioned | RSV=False) = 0.9821720585040081
+P(Neck stiffness=Negated | RSV=False) = 0.006552540395896944
+P(Neck stiffness=Present | RSV=False) = 0.011275401100094914
+P(Neck stiffness=Not Mentioned | RSV=True) = 0.9955035971223022
+P(Neck stiffness=Negated | RSV=True) = 0.002697841726618705
+P(Neck stiffness=Present | RSV=True) = 0.0017985611510791368
+P(Congestion of nasal sinus=Not Mentioned | RSV=False) = 0.9954601072649719
+P(Congestion of nasal sinus=Negated | RSV=False) = 2.858874518279644E-4
+P(Congestion of nasal sinus=Present | RSV=False) = 0.00425400528320011
+P(Congestion of nasal sinus=Not Mentioned | RSV=True) = 0.9946043165467626
+P(Congestion of nasal sinus=Negated | RSV=True) = 8.992805755395684E-4
+P(Congestion of nasal sinus=Present | RSV=True) = 0.0044964028776978415
+P(Abnormal=Not Mentioned | RSV=False) = 0.9598957082575732
+P(Abnormal=Negated | RSV=False) = 0.006198039955630267
+P(Abnormal=Present | RSV=False) = 0.03390625178679657
+P(Abnormal=Not Mentioned | RSV=True) = 0.8525179856115108
+P(Abnormal=Negated | RSV=True) = 0.007194244604316547
+P(Abnormal=Present | RSV=True) = 0.14028776978417265
+P(Lesion=Not Mentioned | RSV=False) = 0.9112834059487461
+P(Lesion=Negated | RSV=False) = 0.024917950301325376
+P(Lesion=Present | RSV=False) = 0.06379864374992852
+P(Lesion=Not Mentioned | RSV=True) = 0.9037769784172662
+P(Lesion=Negated | RSV=True) = 0.06654676258992806
+P(Lesion=Present | RSV=True) = 0.029676258992805755
+P(Illness (finding)=Not Mentioned | RSV=False) = 0.897572243759077
+P(Illness (finding)=Negated | RSV=False) = 0.01860555536496392
+P(Illness (finding)=Present | RSV=False) = 0.08382220087595915
+P(Illness (finding)=Not Mentioned | RSV=True) = 0.6007194244604317
+P(Illness (finding)=Negated | RSV=True) = 0.04946043165467626
+P(Illness (finding)=Present | RSV=True) = 0.3498201438848921
+P(Malaise=Not Mentioned | RSV=False) = 0.9538920717691859
+P(Malaise=Negated | RSV=False) = 0.011526982057703524
+P(Malaise=Present | RSV=False) = 0.03458094617311057
+P(Malaise=Not Mentioned | RSV=True) = 0.8965827338129496
+P(Malaise=Negated | RSV=True) = 0.01079136690647482
+P(Malaise=Present | RSV=True) = 0.09262589928057553
+P(Asymptomatic=Not Mentioned | RSV=False) = 0.9725891111187348
+P(Asymptomatic=Negated | RSV=False) = 3.545004402666758E-4
+P(Asymptomatic=Present | RSV=False) = 0.027056388440998547
+P(Asymptomatic=Not Mentioned | RSV=True) = 0.9928057553956835
+P(Asymptomatic=Negated | RSV=True) = 8.992805755395684E-4
+P(Asymptomatic=Present | RSV=True) = 0.006294964028776978
+P(Myalgia=Not Mentioned | RSV=False) = 0.9522110535524375
+P(Myalgia=Negated | RSV=False) = 0.018822829828353174
+P(Myalgia=Present | RSV=False) = 0.02896611661920935
+P(Myalgia=Not Mentioned | RSV=True) = 0.9703237410071942
+P(Myalgia=Negated | RSV=True) = 0.012589928057553957
+P(Myalgia=Present | RSV=True) = 0.0170863309352518
+P(Gait normal=Not Mentioned | RSV=False) = 0.9261838599380195
+P(Gait normal=Negated | RSV=False) = 2.287099614623715E-5
+P(Gait normal=Present | RSV=False) = 0.07379326906583417
+P(Gait normal=Not Mentioned | RSV=True) = 0.9865107913669064
+P(Gait normal=Negated | RSV=True) = 8.992805755395684E-4
+P(Gait normal=Present | RSV=True) = 0.012589928057553957
+P(Knee pain=Not Mentioned | RSV=False) = 0.9739041933971434
+P(Knee pain=Negated | RSV=False) = 0.0017267602090409047
+P(Knee pain=Present | RSV=False) = 0.024369046393815683
+P(Knee pain=Not Mentioned | RSV=True) = 0.9973021582733813
+P(Knee pain=Negated | RSV=True) = 8.992805755395684E-4
+P(Knee pain=Present | RSV=True) = 0.0017985611510791368
+P(Tachypnea=Not Mentioned | RSV=False) = 0.976946035884593
+P(Tachypnea=Negated | RSV=False) = 0.007204363786064702
+P(Tachypnea=Present | RSV=False) = 0.015849600329342343
+P(Tachypnea=Not Mentioned | RSV=True) = 0.6510791366906474
+P(Tachypnea=Negated | RSV=True) = 0.02068345323741007
+P(Tachypnea=Present | RSV=True) = 0.32823741007194246
+P(Expiratory wheezing=Not Mentioned | RSV=False) = 0.9874095166214965
+P(Expiratory wheezing=Negated | RSV=False) = 1.9440346724301576E-4
+P(Expiratory wheezing=Present | RSV=False) = 0.012396079911260535
+P(Expiratory wheezing=Not Mentioned | RSV=True) = 0.9118705035971223
+P(Expiratory wheezing=Negated | RSV=True) = 0.0017985611510791368
+P(Expiratory wheezing=Present | RSV=True) = 0.08633093525179857
+P(Diaphragmatic breathing=Not Mentioned | RSV=False) = 0.9995425800770753
+P(Diaphragmatic breathing=Negated | RSV=False) = 3.430649421935573E-5
+P(Diaphragmatic breathing=Present | RSV=False) = 4.2311342870538724E-4
+P(Diaphragmatic breathing=Not Mentioned | RSV=True) = 0.9802158273381295
+P(Diaphragmatic breathing=Negated | RSV=True) = 0.0017985611510791368
+P(Diaphragmatic breathing=Present | RSV=True) = 0.017985611510791366
+P(Decrease in appetite=Not Mentioned | RSV=False) = 0.9955287202534107
+P(Decrease in appetite=Negated | RSV=False) = 1.1435498073118575E-4
+P(Decrease in appetite=Present | RSV=False) = 0.004356924765858177
+P(Decrease in appetite=Not Mentioned | RSV=True) = 0.9811151079136691
+P(Decrease in appetite=Negated | RSV=True) = 8.992805755395684E-4
+P(Decrease in appetite=Present | RSV=True) = 0.017985611510791366
+P(Feeding difficulties=Not Mentioned | RSV=False) = 0.9989479341772731
+P(Feeding difficulties=Negated | RSV=False) = 5.7177490365592876E-5
+P(Feeding difficulties=Present | RSV=False) = 9.94888332361316E-4
+P(Feeding difficulties=Not Mentioned | RSV=True) = 0.9622302158273381
+P(Feeding difficulties=Negated | RSV=True) = 0.0017985611510791368
+P(Feeding difficulties=Present | RSV=True) = 0.03597122302158273
+P(Flight of ideas=Not Mentioned | RSV=False) = 0.9912975859663568
+P(Flight of ideas=Negated | RSV=False) = 0.006792685855432434
+P(Flight of ideas=Present | RSV=False) = 0.0019097281782108019
+P(Flight of ideas=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Flight of ideas=Negated | RSV=True) = 8.992805755395684E-4
+P(Flight of ideas=Present | RSV=True) = 8.992805755395684E-4
+P(Hallucinations, Visual=Not Mentioned | RSV=False) = 0.9894793417727309
+P(Hallucinations, Visual=Negated | RSV=False) = 0.006689766372774366
+P(Hallucinations, Visual=Present | RSV=False) = 0.0038308918544947227
+P(Hallucinations, Visual=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Hallucinations, Visual=Negated | RSV=True) = 8.992805755395684E-4
+P(Hallucinations, Visual=Present | RSV=True) = 8.992805755395684E-4
+P(Sensory Discomfort=Not Mentioned | RSV=False) = 0.9126899722117396
+P(Sensory Discomfort=Negated | RSV=False) = 0.00441410225622377
+P(Sensory Discomfort=Present | RSV=False) = 0.08289592553203655
+P(Sensory Discomfort=Not Mentioned | RSV=True) = 0.9865107913669064
+P(Sensory Discomfort=Negated | RSV=True) = 0.0017985611510791368
+P(Sensory Discomfort=Present | RSV=True) = 0.011690647482014389
+P(Sore to touch=Not Mentioned | RSV=False) = 0.3758619506672613
+P(Sore to touch=Negated | RSV=False) = 0.2895925532036548
+P(Sore to touch=Present | RSV=False) = 0.3345454961290839
+P(Sore to touch=Not Mentioned | RSV=True) = 0.6196043165467626
+P(Sore to touch=Negated | RSV=True) = 0.31744604316546765
+P(Sore to touch=Present | RSV=True) = 0.06294964028776978
+P(Ache=Not Mentioned | RSV=False) = 0.9885988084211008
+P(Ache=Negated | RSV=False) = 3.0875844797420153E-4
+P(Ache=Present | RSV=False) = 0.011092433130925018
+P(Ache=Not Mentioned | RSV=True) = 0.9937050359712231
+P(Ache=Negated | RSV=True) = 8.992805755395684E-4
+P(Ache=Present | RSV=True) = 0.00539568345323741
+P(Radiating pain=Not Mentioned | RSV=False) = 0.9835671892689286
+P(Radiating pain=Negated | RSV=False) = 0.001074936818873146
+P(Radiating pain=Present | RSV=False) = 0.015357873912198245
+P(Radiating pain=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Radiating pain=Negated | RSV=True) = 8.992805755395684E-4
+P(Radiating pain=Present | RSV=True) = 8.992805755395684E-4
+P(Level of consciousness=Not Mentioned | RSV=False) = 0.958054593067801
+P(Level of consciousness=Negated | RSV=False) = 0.024025981451622127
+P(Level of consciousness=Present | RSV=False) = 0.017919425480576807
+P(Level of consciousness=Not Mentioned | RSV=True) = 0.9937050359712231
+P(Level of consciousness=Negated | RSV=True) = 8.992805755395684E-4
+P(Level of consciousness=Present | RSV=True) = 0.00539568345323741
+P(Neurologic Symptoms=Not Mentioned | RSV=False) = 0.8648324127757384
+P(Neurologic Symptoms=Negated | RSV=False) = 0.004082472812103331
+P(Neurologic Symptoms=Present | RSV=False) = 0.13108511441215823
+P(Neurologic Symptoms=Not Mentioned | RSV=True) = 0.5629496402877698
+P(Neurologic Symptoms=Negated | RSV=True) = 8.992805755395684E-4
+P(Neurologic Symptoms=Present | RSV=True) = 0.43615107913669066
+P(Ankle pain=Not Mentioned | RSV=False) = 0.9851109815087996
+P(Ankle pain=Negated | RSV=False) = 4.8029091907098015E-4
+P(Ankle pain=Present | RSV=False) = 0.014408727572129404
+P(Ankle pain=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Ankle pain=Negated | RSV=True) = 8.992805755395684E-4
+P(Ankle pain=Present | RSV=True) = 8.992805755395684E-4
+P(Chest wall tenderness=Not Mentioned | RSV=False) = 0.9169782839891591
+P(Chest wall tenderness=Negated | RSV=False) = 0.07401054352922341
+P(Chest wall tenderness=Present | RSV=False) = 0.009011172481617436
+P(Chest wall tenderness=Not Mentioned | RSV=True) = 0.9748201438848921
+P(Chest wall tenderness=Negated | RSV=True) = 0.022482014388489208
+P(Chest wall tenderness=Present | RSV=True) = 0.002697841726618705
+P(Consciousness clear=Not Mentioned | RSV=False) = 0.17776481754662823
+P(Consciousness clear=Negated | RSV=False) = 0.005043054650245292
+P(Consciousness clear=Present | RSV=False) = 0.8171921278031264
+P(Consciousness clear=Not Mentioned | RSV=True) = 0.5368705035971223
+P(Consciousness clear=Negated | RSV=True) = 0.002697841726618705
+P(Consciousness clear=Present | RSV=True) = 0.460431654676259
+P(Productive Cough=Not Mentioned | RSV=False) = 0.9812800896543049
+P(Productive Cough=Negated | RSV=False) = 0.001772502201333379
+P(Productive Cough=Present | RSV=False) = 0.016947408144361728
+P(Productive Cough=Not Mentioned | RSV=True) = 0.9640287769784173
+P(Productive Cough=Negated | RSV=True) = 0.0044964028776978415
+P(Productive Cough=Present | RSV=True) = 0.03147482014388489
+P(Basilar Rales=Not Mentioned | RSV=False) = 0.885713632257253
+P(Basilar Rales=Negated | RSV=False) = 0.01739339256921335
+P(Basilar Rales=Present | RSV=False) = 0.09689297517353368
+P(Basilar Rales=Not Mentioned | RSV=True) = 0.7562949640287769
+P(Basilar Rales=Negated | RSV=True) = 0.03147482014388489
+P(Basilar Rales=Present | RSV=True) = 0.21223021582733814
+P(Family history=Not Mentioned | RSV=False) = 0.5605452445481263
+P(Family history=Negated | RSV=False) = 0.03642206136288266
+P(Family history=Present | RSV=False) = 0.40303269408899106
+P(Family history=Not Mentioned | RSV=True) = 0.22661870503597123
+P(Family history=Negated | RSV=True) = 0.24910071942446044
+P(Family history=Present | RSV=True) = 0.5242805755395683
+P(Sore Throat=Not Mentioned | RSV=False) = 0.8906766384209864
+P(Sore Throat=Negated | RSV=False) = 0.05290061408624653
+P(Sore Throat=Present | RSV=False) = 0.056422747492767045
+P(Sore Throat=Not Mentioned | RSV=True) = 0.9379496402877698
+P(Sore Throat=Negated | RSV=True) = 0.0341726618705036
+P(Sore Throat=Present | RSV=True) = 0.02787769784172662
+P(Encounter due to family history of asthma=Not Mentioned | RSV=False) = 0.9985362562466408
+P(Encounter due to family history of asthma=Negated | RSV=False) = 4.57419922924743E-4
+P(Encounter due to family history of asthma=Present | RSV=False) = 0.0010063238304344345
+P(Encounter due to family history of asthma=Not Mentioned | RSV=True) = 0.9676258992805755
+P(Encounter due to family history of asthma=Negated | RSV=True) = 0.012589928057553957
+P(Encounter due to family history of asthma=Present | RSV=True) = 0.019784172661870502
+P(Nasal Flaring=Not Mentioned | RSV=False) = 0.9967980605395268
+P(Nasal Flaring=Negated | RSV=False) = 9.720173362150788E-4
+P(Nasal Flaring=Present | RSV=False) = 0.002229922124258122
+P(Nasal Flaring=Not Mentioned | RSV=True) = 0.914568345323741
+P(Nasal Flaring=Negated | RSV=True) = 0.024280575539568347
+P(Nasal Flaring=Present | RSV=True) = 0.06115107913669065
+P(Normal bowel sounds=Not Mentioned | RSV=False) = 0.747229750591787
+P(Normal bowel sounds=Negated | RSV=False) = 6.861298843871145E-5
+P(Normal bowel sounds=Present | RSV=False) = 0.2527016364197743
+P(Normal bowel sounds=Not Mentioned | RSV=True) = 0.5269784172661871
+P(Normal bowel sounds=Negated | RSV=True) = 8.992805755395684E-4
+P(Normal bowel sounds=Present | RSV=True) = 0.4721223021582734
+P(Absence of sensation=Not Mentioned | RSV=False) = 0.9693528651640422
+P(Absence of sensation=Negated | RSV=False) = 0.0010863723169462645
+P(Absence of sensation=Present | RSV=False) = 0.029560762519011515
+P(Absence of sensation=Not Mentioned | RSV=True) = 0.9910071942446043
+P(Absence of sensation=Negated | RSV=True) = 8.992805755395684E-4
+P(Absence of sensation=Present | RSV=True) = 0.008093525179856115
+P(MCV - low=Not Mentioned | RSV=False) = 0.9958146077052386
+P(MCV - low=Negated | RSV=False) = 1.1435498073118575E-5
+P(MCV - low=Present | RSV=False) = 0.00417395679668828
+P(MCV - low=Not Mentioned | RSV=True) = 0.9703237410071942
+P(MCV - low=Negated | RSV=True) = 8.992805755395684E-4
+P(MCV - low=Present | RSV=True) = 0.02877697841726619
+P(Probable diagnosis=Not Mentioned | RSV=False) = 0.7581506512516153
+P(Probable diagnosis=Negated | RSV=False) = 0.006129426967191556
+P(Probable diagnosis=Present | RSV=False) = 0.2357199217811932
+P(Probable diagnosis=Not Mentioned | RSV=True) = 0.6996402877697842
+P(Probable diagnosis=Negated | RSV=True) = 0.006294964028776978
+P(Probable diagnosis=Present | RSV=True) = 0.29406474820143885
+P(High risk of=Not Mentioned | RSV=False) = 0.9961119306551397
+P(High risk of=Negated | RSV=False) = 3.4306494219355724E-4
+P(High risk of=Present | RSV=False) = 0.003545004402666758
+P(High risk of=Not Mentioned | RSV=True) = 0.9901079136690647
+P(High risk of=Negated | RSV=True) = 0.0017985611510791368
+P(High risk of=Present | RSV=True) = 0.008093525179856115
+P(Symmetrical=Not Mentioned | RSV=False) = 0.7169828581883884
+P(Symmetrical=Negated | RSV=False) = 1.4866147495054148E-4
+P(Symmetrical=Present | RSV=False) = 0.28286848033666107
+P(Symmetrical=Not Mentioned | RSV=True) = 0.7311151079136691
+P(Symmetrical=Negated | RSV=True) = 8.992805755395684E-4
+P(Symmetrical=Present | RSV=True) = 0.26798561151079137
+P(Retraction (finding)=Not Mentioned | RSV=False) = 0.8704701133257859
+P(Retraction (finding)=Negated | RSV=False) = 0.11650485436893204
+P(Retraction (finding)=Present | RSV=False) = 0.013025032305282057
+P(Retraction (finding)=Not Mentioned | RSV=True) = 0.5926258992805755
+P(Retraction (finding)=Negated | RSV=True) = 0.07284172661870504
+P(Retraction (finding)=Present | RSV=True) = 0.3345323741007194
+P(Reduced anion gap=Not Mentioned | RSV=False) = 0.997781513373815
+P(Reduced anion gap=Negated | RSV=False) = 1.1435498073118575E-5
+P(Reduced anion gap=Present | RSV=False) = 0.002207051128111885
+P(Reduced anion gap=Not Mentioned | RSV=True) = 0.9820143884892086
+P(Reduced anion gap=Negated | RSV=True) = 8.992805755395684E-4
+P(Reduced anion gap=Present | RSV=True) = 0.0170863309352518
+P(Blurred vision=Not Mentioned | RSV=False) = 0.9540407332441364
+P(Blurred vision=Negated | RSV=False) = 0.02269946367514037
+P(Blurred vision=Present | RSV=False) = 0.02325980308072318
+P(Blurred vision=Not Mentioned | RSV=True) = 0.9955035971223022
+P(Blurred vision=Negated | RSV=True) = 0.002697841726618705
+P(Blurred vision=Present | RSV=True) = 0.0017985611510791368
+P(Absence of pain sensation=Not Mentioned | RSV=False) = 0.9828238818941759
+P(Absence of pain sensation=Negated | RSV=False) = 8.004848651183002E-4
+P(Absence of pain sensation=Present | RSV=False) = 0.0163756332407058
+P(Absence of pain sensation=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Absence of pain sensation=Negated | RSV=True) = 8.992805755395684E-4
+P(Absence of pain sensation=Present | RSV=True) = 8.992805755395684E-4
+P(Exacerbation of asthma=Not Mentioned | RSV=False) = 0.9868606127139867
+P(Exacerbation of asthma=Negated | RSV=False) = 2.287099614623715E-4
+P(Exacerbation of asthma=Present | RSV=False) = 0.012910677324550871
+P(Exacerbation of asthma=Not Mentioned | RSV=True) = 0.9622302158273381
+P(Exacerbation of asthma=Negated | RSV=True) = 8.992805755395684E-4
+P(Exacerbation of asthma=Present | RSV=True) = 0.0368705035971223
+P(Influenza-like symptoms=Not Mentioned | RSV=False) = 0.9991537731425892
+P(Influenza-like symptoms=Negated | RSV=False) = 5.7177490365592876E-5
+P(Influenza-like symptoms=Present | RSV=False) = 7.890493670451817E-4
+P(Influenza-like symptoms=Not Mentioned | RSV=True) = 0.9955035971223022
+P(Influenza-like symptoms=Negated | RSV=True) = 8.992805755395684E-4
+P(Influenza-like symptoms=Present | RSV=True) = 0.0035971223021582736
+P(Home oxygen supply=Not Mentioned | RSV=False) = 0.9955515912495568
+P(Home oxygen supply=Negated | RSV=False) = 2.172744633892529E-4
+P(Home oxygen supply=Present | RSV=False) = 0.004231134287053873
+P(Home oxygen supply=Not Mentioned | RSV=True) = 0.9838129496402878
+P(Home oxygen supply=Negated | RSV=True) = 8.992805755395684E-4
+P(Home oxygen supply=Present | RSV=True) = 0.015287769784172662
+P(Feeling suicidal (finding)=Not Mentioned | RSV=False) = 0.9735268219607305
+P(Feeling suicidal (finding)=Negated | RSV=False) = 0.008999736983544318
+P(Feeling suicidal (finding)=Present | RSV=False) = 0.01747344105572518
+P(Feeling suicidal (finding)=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Feeling suicidal (finding)=Negated | RSV=True) = 8.992805755395684E-4
+P(Feeling suicidal (finding)=Present | RSV=True) = 8.992805755395684E-4
+P(Facial symmetry=Not Mentioned | RSV=False) = 0.8711791142063192
+P(Facial symmetry=Negated | RSV=False) = 1.1435498073118575E-4
+P(Facial symmetry=Present | RSV=False) = 0.12870653081294955
+P(Facial symmetry=Not Mentioned | RSV=True) = 0.9721223021582733
+P(Facial symmetry=Negated | RSV=True) = 8.992805755395684E-4
+P(Facial symmetry=Present | RSV=True) = 0.02697841726618705
+P(Fever symptoms (finding)=Not Mentioned | RSV=False) = 0.6218852562123344
+P(Fever symptoms (finding)=Negated | RSV=False) = 0.24166638077921485
+P(Fever symptoms (finding)=Present | RSV=False) = 0.13644836300845084
+P(Fever symptoms (finding)=Not Mentioned | RSV=True) = 0.24370503597122303
+P(Fever symptoms (finding)=Negated | RSV=True) = 0.2131294964028777
+P(Fever symptoms (finding)=Present | RSV=True) = 0.5431654676258992
+P(Never smoked tobacco=Not Mentioned | RSV=False) = 0.8827404027582422
+P(Never smoked tobacco=Negated | RSV=False) = 0.008073461639621714
+P(Never smoked tobacco=Present | RSV=False) = 0.10918613560213615
+P(Never smoked tobacco=Not Mentioned | RSV=True) = 0.954136690647482
+P(Never smoked tobacco=Negated | RSV=True) = 8.992805755395684E-4
+P(Never smoked tobacco=Present | RSV=True) = 0.044964028776978415
+P(No obstruction of airway=Not Mentioned | RSV=False) = 0.7181378434937734
+P(No obstruction of airway=Negated | RSV=False) = 9.14839845849486E-5
+P(No obstruction of airway=Present | RSV=False) = 0.2817706725216417
+P(No obstruction of airway=Not Mentioned | RSV=True) = 0.9379496402877698
+P(No obstruction of airway=Negated | RSV=True) = 8.992805755395684E-4
+P(No obstruction of airway=Present | RSV=True) = 0.06115107913669065
+P(Intercostal Retractions=Not Mentioned | RSV=False) = 0.8704358068315665
+P(Intercostal Retractions=Negated | RSV=False) = 0.11656203185929763
+P(Intercostal Retractions=Present | RSV=False) = 0.01300216130913582
+P(Intercostal Retractions=Not Mentioned | RSV=True) = 0.5611510791366906
+P(Intercostal Retractions=Negated | RSV=True) = 0.07464028776978417
+P(Intercostal Retractions=Present | RSV=True) = 0.3642086330935252
+P(Bounding pulse=Not Mentioned | RSV=False) = 0.9997827255366107
+P(Bounding pulse=Negated | RSV=False) = 1.1435498073118575E-5
+P(Bounding pulse=Present | RSV=False) = 2.0583896531613434E-4
+P(Bounding pulse=Not Mentioned | RSV=True) = 0.9937050359712231
+P(Bounding pulse=Negated | RSV=True) = 8.992805755395684E-4
+P(Bounding pulse=Present | RSV=True) = 0.00539568345323741
+P(Peripheral perfusion=Not Mentioned | RSV=False) = 0.7104760597847839
+P(Peripheral perfusion=Negated | RSV=False) = 3.430649421935573E-5
+P(Peripheral perfusion=Present | RSV=False) = 0.28948963372099673
+P(Peripheral perfusion=Not Mentioned | RSV=True) = 0.4613309352517986
+P(Peripheral perfusion=Negated | RSV=True) = 8.992805755395684E-4
+P(Peripheral perfusion=Present | RSV=True) = 0.5377697841726619
+P(Genitourinary symptoms=Not Mentioned | RSV=False) = 0.9020778299998856
+P(Genitourinary symptoms=Negated | RSV=False) = 2.4014545953549008E-4
+P(Genitourinary symptoms=Present | RSV=False) = 0.09768202454057887
+P(Genitourinary symptoms=Not Mentioned | RSV=True) = 0.612410071942446
+P(Genitourinary symptoms=Negated | RSV=True) = 8.992805755395684E-4
+P(Genitourinary symptoms=Present | RSV=True) = 0.38669064748201437
+P(Gastrointestinal symptom=Not Mentioned | RSV=False) = 0.8513499605475316
+P(Gastrointestinal symptom=Negated | RSV=False) = 2.172744633892529E-4
+P(Gastrointestinal symptom=Present | RSV=False) = 0.1484327649890791
+P(Gastrointestinal symptom=Not Mentioned | RSV=True) = 0.4748201438848921
+P(Gastrointestinal symptom=Negated | RSV=True) = 8.992805755395684E-4
+P(Gastrointestinal symptom=Present | RSV=True) = 0.5242805755395683
+P(Inspired fraction of oxygen=Not Mentioned | RSV=False) = 0.6374489690898487
+P(Inspired fraction of oxygen=Negated | RSV=False) = 2.630164556817272E-4
+P(Inspired fraction of oxygen=Present | RSV=False) = 0.36228801445446956
+P(Inspired fraction of oxygen=Not Mentioned | RSV=True) = 0.8866906474820144
+P(Inspired fraction of oxygen=Negated | RSV=True) = 8.992805755395684E-4
+P(Inspired fraction of oxygen=Present | RSV=True) = 0.11241007194244604
+P(Urine screening normal=Not Mentioned | RSV=False) = 0.9962034146397246
+P(Urine screening normal=Negated | RSV=False) = 1.1435498073118575E-5
+P(Urine screening normal=Present | RSV=False) = 0.003785149862202248
+P(Urine screening normal=Not Mentioned | RSV=True) = 0.9739208633093526
+P(Urine screening normal=Negated | RSV=True) = 8.992805755395684E-4
+P(Urine screening normal=Present | RSV=True) = 0.025179856115107913
+P(Decreasing=Not Mentioned | RSV=False) = 0.9925440552563267
+P(Decreasing=Negated | RSV=False) = 2.287099614623715E-4
+P(Decreasing=Present | RSV=False) = 0.007227234782210939
+P(Decreasing=Not Mentioned | RSV=True) = 0.9631294964028777
+P(Decreasing=Negated | RSV=True) = 0.0017985611510791368
+P(Decreasing=Present | RSV=True) = 0.03507194244604316
+P(Homicidal thoughts=Not Mentioned | RSV=False) = 0.9738355804087047
+P(Homicidal thoughts=Negated | RSV=False) = 0.008279300604937848
+P(Homicidal thoughts=Present | RSV=False) = 0.017885118986357453
+P(Homicidal thoughts=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Homicidal thoughts=Negated | RSV=True) = 8.992805755395684E-4
+P(Homicidal thoughts=Present | RSV=True) = 8.992805755395684E-4
+P(PMH - past medical history=Not Mentioned | RSV=False) = 0.4706164877011218
+P(PMH - past medical history=Negated | RSV=False) = 0.03785149862202248
+P(PMH - past medical history=Present | RSV=False) = 0.4915320136768557
+P(PMH - past medical history=Not Mentioned | RSV=True) = 0.8462230215827338
+P(PMH - past medical history=Negated | RSV=True) = 0.012589928057553957
+P(PMH - past medical history=Present | RSV=True) = 0.14118705035971224
+P(H/O: asthma=Not Mentioned | RSV=False) = 0.9738470159067778
+P(H/O: asthma=Negated | RSV=False) = 0.0033277299392775054
+P(H/O: asthma=Present | RSV=False) = 0.022825254153944676
+P(H/O: asthma=Not Mentioned | RSV=True) = 0.9613309352517986
+P(H/O: asthma=Negated | RSV=True) = 0.01079136690647482
+P(H/O: asthma=Present | RSV=True) = 0.02787769784172662
+P(Red throat=Not Mentioned | RSV=False) = 0.7941152926915732
+P(Red throat=Negated | RSV=False) = 0.10709343945475545
+P(Red throat=Present | RSV=False) = 0.09879126785367137
+P(Red throat=Not Mentioned | RSV=True) = 0.6636690647482014
+P(Red throat=Negated | RSV=True) = 0.040467625899280574
+P(Red throat=Present | RSV=True) = 0.295863309352518
+P(Test Result=Not Mentioned | RSV=False) = 0.9672258625224421
+P(Test Result=Negated | RSV=False) = 0.0024128900934280192
+P(Test Result=Present | RSV=False) = 0.030361247384129816
+P(Test Result=Not Mentioned | RSV=True) = 0.9568345323741008
+P(Test Result=Negated | RSV=True) = 0.0035971223021582736
+P(Test Result=Present | RSV=True) = 0.039568345323741004
+P(Yellow sputum=Not Mentioned | RSV=False) = 0.9968666735279655
+P(Yellow sputum=Negated | RSV=False) = 3.430649421935573E-5
+P(Yellow sputum=Present | RSV=False) = 0.0030990199778151337
+P(Yellow sputum=Not Mentioned | RSV=True) = 0.9937050359712231
+P(Yellow sputum=Negated | RSV=True) = 8.992805755395684E-4
+P(Yellow sputum=Present | RSV=True) = 0.00539568345323741
+P(Cardiovascular symptoms=Not Mentioned | RSV=False) = 0.8898418470616488
+P(Cardiovascular symptoms=Negated | RSV=False) = 1.0291948265806717E-4
+P(Cardiovascular symptoms=Present | RSV=False) = 0.11005523345569317
+P(Cardiovascular symptoms=Not Mentioned | RSV=True) = 0.5719424460431655
+P(Cardiovascular symptoms=Negated | RSV=True) = 8.992805755395684E-4
+P(Cardiovascular symptoms=Present | RSV=True) = 0.427158273381295
+P(Respiratory distress=Not Mentioned | RSV=False) = 0.9264697473898476
+P(Respiratory distress=Negated | RSV=False) = 0.023328416069161893
+P(Respiratory distress=Present | RSV=False) = 0.050201836540990544
+P(Respiratory distress=Not Mentioned | RSV=True) = 0.6205035971223022
+P(Respiratory distress=Negated | RSV=True) = 0.045863309352517985
+P(Respiratory distress=Present | RSV=True) = 0.33363309352517984
+P(History source=Not Mentioned | RSV=False) = 0.7599002824568024
+P(History source=Negated | RSV=False) = 3.430649421935573E-5
+P(History source=Present | RSV=False) = 0.24006541104897824
+P(History source=Not Mentioned | RSV=True) = 0.28597122302158273
+P(History source=Negated | RSV=True) = 8.992805755395684E-4
+P(History source=Present | RSV=True) = 0.7131294964028777
+P(Hospital course=Not Mentioned | RSV=False) = 0.7643258202110993
+P(Hospital course=Negated | RSV=False) = 8.576623554838931E-4
+P(Hospital course=Present | RSV=False) = 0.2348165174334168
+P(Hospital course=Not Mentioned | RSV=True) = 0.960431654676259
+P(Hospital course=Negated | RSV=True) = 0.0017985611510791368
+P(Hospital course=Present | RSV=True) = 0.03776978417266187
+P(Rectal temperature=Not Mentioned | RSV=False) = 0.9990508536599312
+P(Rectal temperature=Negated | RSV=False) = 3.430649421935573E-5
+P(Rectal temperature=Present | RSV=False) = 9.14839845849486E-4
+P(Rectal temperature=Not Mentioned | RSV=True) = 0.9811151079136691
+P(Rectal temperature=Negated | RSV=True) = 0.0017985611510791368
+P(Rectal temperature=Present | RSV=True) = 0.0170863309352518
+P(Social warmth=Not Mentioned | RSV=False) = 0.9583976580099947
+P(Social warmth=Negated | RSV=False) = 0.00794767116081741
+P(Social warmth=Present | RSV=False) = 0.033654670829187966
+P(Social warmth=Not Mentioned | RSV=True) = 0.9964028776978417
+P(Social warmth=Negated | RSV=True) = 0.0017985611510791368
+P(Social warmth=Present | RSV=True) = 0.0017985611510791368
+P(Neurologic Deficits=Not Mentioned | RSV=False) = 0.8511098150879961
+P(Neurologic Deficits=Negated | RSV=False) = 0.007284412272576532
+P(Neurologic Deficits=Present | RSV=False) = 0.1416057726394273
+P(Neurologic Deficits=Not Mentioned | RSV=True) = 0.8174460431654677
+P(Neurologic Deficits=Negated | RSV=True) = 8.992805755395684E-4
+P(Neurologic Deficits=Present | RSV=True) = 0.18165467625899281
+P(Mean Corpuscular Volume (result)=Not Mentioned | RSV=False) = 0.8150994316557457
+P(Mean Corpuscular Volume (result)=Negated | RSV=False) = 5.7177490365592876E-5
+P(Mean Corpuscular Volume (result)=Present | RSV=False) = 0.18484339085388865
+P(Mean Corpuscular Volume (result)=Not Mentioned | RSV=True) = 0.7428057553956835
+P(Mean Corpuscular Volume (result)=Negated | RSV=True) = 8.992805755395684E-4
+P(Mean Corpuscular Volume (result)=Present | RSV=True) = 0.256294964028777
+P(Observation of Sensation=Not Mentioned | RSV=False) = 0.7925943714478484
+P(Observation of Sensation=Negated | RSV=False) = 0.002229922124258122
+P(Observation of Sensation=Present | RSV=False) = 0.20517570642789346
+P(Observation of Sensation=Not Mentioned | RSV=True) = 0.9649280575539568
+P(Observation of Sensation=Negated | RSV=True) = 8.992805755395684E-4
+P(Observation of Sensation=Present | RSV=True) = 0.0341726618705036
+P(Lives with family=Not Mentioned | RSV=False) = 0.994213637975002
+P(Lives with family=Negated | RSV=False) = 1.1435498073118575E-4
+P(Lives with family=Present | RSV=False) = 0.005672007044266813
+P(Lives with family=Not Mentioned | RSV=True) = 0.9883093525179856
+P(Lives with family=Negated | RSV=True) = 8.992805755395684E-4
+P(Lives with family=Present | RSV=True) = 0.01079136690647482
+P(Lives with mother=Not Mentioned | RSV=False) = 0.9924640067698148
+P(Lives with mother=Negated | RSV=False) = 8.004848651183003E-5
+P(Lives with mother=Present | RSV=False) = 0.00745594474367331
+P(Lives with mother=Not Mentioned | RSV=True) = 0.947841726618705
+P(Lives with mother=Negated | RSV=True) = 8.992805755395684E-4
+P(Lives with mother=Present | RSV=True) = 0.051258992805755396
+P(Skin appearance normal (finding)=Not Mentioned | RSV=False) = 0.16847919311125595
+P(Skin appearance normal (finding)=Negated | RSV=False) = 0.01170995002687342
+P(Skin appearance normal (finding)=Present | RSV=False) = 0.8198108568618706
+P(Skin appearance normal (finding)=Not Mentioned | RSV=True) = 0.08543165467625899
+P(Skin appearance normal (finding)=Negated | RSV=True) = 0.008093525179856115
+P(Skin appearance normal (finding)=Present | RSV=True) = 0.9064748201438849
+P(Persistent cough=Not Mentioned | RSV=False) = 0.998170320308301
+P(Persistent cough=Negated | RSV=False) = 4.57419922924743E-5
+P(Persistent cough=Present | RSV=False) = 0.0017839376994064978
+P(Persistent cough=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Persistent cough=Negated | RSV=True) = 8.992805755395684E-4
+P(Persistent cough=Present | RSV=True) = 0.02068345323741007
+P(Able to drink=Not Mentioned | RSV=False) = 0.9957345592187268
+P(Able to drink=Negated | RSV=False) = 4.57419922924743E-5
+P(Able to drink=Present | RSV=False) = 0.004219698788980754
+P(Able to drink=Not Mentioned | RSV=True) = 0.9901079136690647
+P(Able to drink=Negated | RSV=True) = 8.992805755395684E-4
+P(Able to drink=Present | RSV=True) = 0.008992805755395683
+P(Feeding poor=Not Mentioned | RSV=False) = 0.9994282250963441
+P(Feeding poor=Negated | RSV=False) = 2.287099614623715E-5
+P(Feeding poor=Present | RSV=False) = 5.489039075096916E-4
+P(Feeding poor=Not Mentioned | RSV=True) = 0.9748201438848921
+P(Feeding poor=Negated | RSV=True) = 8.992805755395684E-4
+P(Feeding poor=Present | RSV=True) = 0.024280575539568347
+P(Mass of body structure=Not Mentioned | RSV=False) = 0.8673825288460439
+P(Mass of body structure=Negated | RSV=False) = 0.008325042597230322
+P(Mass of body structure=Present | RSV=False) = 0.12429242855672579
+P(Mass of body structure=Not Mentioned | RSV=True) = 0.966726618705036
+P(Mass of body structure=Negated | RSV=True) = 0.0035971223021582736
+P(Mass of body structure=Present | RSV=True) = 0.029676258992805755
+P(Mass of body region=Not Mentioned | RSV=False) = 0.8732489393575538
+P(Mass of body region=Negated | RSV=False) = 0.008302171601084086
+P(Mass of body region=Present | RSV=False) = 0.1184488890413622
+P(Mass of body region=Not Mentioned | RSV=True) = 0.966726618705036
+P(Mass of body region=Negated | RSV=True) = 0.0035971223021582736
+P(Mass of body region=Present | RSV=True) = 0.029676258992805755
+P(Does move=Not Mentioned | RSV=False) = 0.8376616693540088
+P(Does move=Negated | RSV=False) = 1.1435498073118575E-4
+P(Does move=Present | RSV=False) = 0.1622239756652601
+P(Does move=Not Mentioned | RSV=True) = 0.5323741007194245
+P(Does move=Negated | RSV=True) = 8.992805755395684E-4
+P(Does move=Present | RSV=True) = 0.46672661870503596
+P(Normal coordination=Not Mentioned | RSV=False) = 0.9644356009926013
+P(Normal coordination=Negated | RSV=False) = 4.57419922924743E-5
+P(Normal coordination=Present | RSV=False) = 0.03551865701510629
+P(Normal coordination=Not Mentioned | RSV=True) = 0.9379496402877698
+P(Normal coordination=Negated | RSV=True) = 8.992805755395684E-4
+P(Normal coordination=Present | RSV=True) = 0.06115107913669065
+P(Feels warm=Not Mentioned | RSV=False) = 0.24100312189097395
+P(Feels warm=Negated | RSV=False) = 0.00794767116081741
+P(Feels warm=Present | RSV=False) = 0.7510492069482086
+P(Feels warm=Not Mentioned | RSV=True) = 0.16546762589928057
+P(Feels warm=Negated | RSV=True) = 0.002697841726618705
+P(Feels warm=Present | RSV=True) = 0.8318345323741008
+P(Eye symptom=Not Mentioned | RSV=False) = 0.8903793154710854
+P(Eye symptom=Negated | RSV=False) = 2.515809576086086E-4
+P(Eye symptom=Present | RSV=False) = 0.10936910357130605
+P(Eye symptom=Not Mentioned | RSV=True) = 0.5566546762589928
+P(Eye symptom=Negated | RSV=True) = 8.992805755395684E-4
+P(Eye symptom=Present | RSV=True) = 0.44244604316546765
+P(Skin symptom=Not Mentioned | RSV=False) = 0.8561871762324608
+P(Skin symptom=Negated | RSV=False) = 3.316294441204387E-4
+P(Skin symptom=Present | RSV=False) = 0.14348119432341877
+P(Skin symptom=Not Mentioned | RSV=True) = 0.47571942446043164
+P(Skin symptom=Negated | RSV=True) = 8.992805755395684E-4
+P(Skin symptom=Present | RSV=True) = 0.5233812949640287
+P(Discharge status=Not Mentioned | RSV=False) = 0.8649124612622503
+P(Discharge status=Negated | RSV=False) = 2.287099614623715E-5
+P(Discharge status=Present | RSV=False) = 0.13506466774160347
+P(Discharge status=Not Mentioned | RSV=True) = 0.9829136690647482
+P(Discharge status=Negated | RSV=True) = 8.992805755395684E-4
+P(Discharge status=Present | RSV=True) = 0.01618705035971223
+P(Laboratory test finding=Not Mentioned | RSV=False) = 0.6907155191144351
+P(Laboratory test finding=Negated | RSV=False) = 0.004505586240808718
+P(Laboratory test finding=Present | RSV=False) = 0.30477889464475627
+P(Laboratory test finding=Not Mentioned | RSV=True) = 0.7526978417266187
+P(Laboratory test finding=Negated | RSV=True) = 0.0035971223021582736
+P(Laboratory test finding=Present | RSV=True) = 0.24370503597122303
+P(Follow-up status=Not Mentioned | RSV=False) = 0.9567852527816849
+P(Follow-up status=Negated | RSV=False) = 8.576623554838931E-4
+P(Follow-up status=Present | RSV=False) = 0.0423570848628312
+P(Follow-up status=Not Mentioned | RSV=True) = 0.9595323741007195
+P(Follow-up status=Negated | RSV=True) = 8.992805755395684E-4
+P(Follow-up status=Present | RSV=True) = 0.039568345323741004
+P(Household composition=Not Mentioned | RSV=False) = 0.8715679211408053
+P(Household composition=Negated | RSV=False) = 9.262753439226045E-4
+P(Household composition=Present | RSV=False) = 0.1275058035152721
+P(Household composition=Not Mentioned | RSV=True) = 0.7329136690647482
+P(Household composition=Negated | RSV=True) = 0.0017985611510791368
+P(Household composition=Present | RSV=True) = 0.2652877697841727
+P(Hypoxemia=Not Mentioned | RSV=False) = 0.9975528034123526
+P(Hypoxemia=Negated | RSV=False) = 3.4306494219355724E-4
+P(Hypoxemia=Present | RSV=False) = 0.0021041316454538175
+P(Hypoxemia=Not Mentioned | RSV=True) = 0.9487410071942446
+P(Hypoxemia=Negated | RSV=True) = 0.0044964028776978415
+P(Hypoxemia=Present | RSV=True) = 0.046762589928057555
+P(Prematurity of fetus=Not Mentioned | RSV=False) = 0.9984790787562753
+P(Prematurity of fetus=Negated | RSV=False) = 3.430649421935573E-5
+P(Prematurity of fetus=Present | RSV=False) = 0.0014866147495054148
+P(Prematurity of fetus=Not Mentioned | RSV=True) = 0.9640287769784173
+P(Prematurity of fetus=Negated | RSV=True) = 8.992805755395684E-4
+P(Prematurity of fetus=Present | RSV=True) = 0.03507194244604316
+P(Intoxication=Not Mentioned | RSV=False) = 0.9873752101272771
+P(Intoxication=Negated | RSV=False) = 5.260329113634544E-4
+P(Intoxication=Present | RSV=False) = 0.012098756961359453
+P(Intoxication=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Intoxication=Negated | RSV=True) = 8.992805755395684E-4
+P(Intoxication=Present | RSV=True) = 8.992805755395684E-4
+P(atypia morphology=Not Mentioned | RSV=False) = 0.9850766750145803
+P(atypia morphology=Negated | RSV=False) = 6.289523940215216E-4
+P(atypia morphology=Present | RSV=False) = 0.014294372591398218
+P(atypia morphology=Not Mentioned | RSV=True) = 0.8821942446043165
+P(atypia morphology=Negated | RSV=True) = 8.992805755395684E-4
+P(atypia morphology=Present | RSV=True) = 0.11690647482014388
+P(FEVER HIGH (finding)=Not Mentioned | RSV=False) = 0.9979987878372043
+P(FEVER HIGH (finding)=Negated | RSV=False) = 4.57419922924743E-5
+P(FEVER HIGH (finding)=Present | RSV=False) = 0.0019554701705032764
+P(FEVER HIGH (finding)=Not Mentioned | RSV=True) = 0.97931654676259
+P(FEVER HIGH (finding)=Negated | RSV=True) = 0.0017985611510791368
+P(FEVER HIGH (finding)=Present | RSV=True) = 0.018884892086330936
+P(surgical history=Not Mentioned | RSV=False) = 0.8041670954978444
+P(surgical history=Negated | RSV=False) = 4.1167793063226867E-4
+P(surgical history=Present | RSV=False) = 0.19542122657152333
+P(surgical history=Not Mentioned | RSV=True) = 0.5296762589928058
+P(surgical history=Negated | RSV=True) = 8.992805755395684E-4
+P(surgical history=Present | RSV=True) = 0.4694244604316547
+P(Generalized muscle weakness=Not Mentioned | RSV=False) = 0.9864146282891352
+P(Generalized muscle weakness=Negated | RSV=False) = 3.0875844797420153E-4
+P(Generalized muscle weakness=Present | RSV=False) = 0.013276613262890665
+P(Generalized muscle weakness=Not Mentioned | RSV=True) = 0.9865107913669064
+P(Generalized muscle weakness=Negated | RSV=True) = 8.992805755395684E-4
+P(Generalized muscle weakness=Present | RSV=True) = 0.012589928057553957
+P(Oxygen saturation below reference range=Not Mentioned | RSV=False) = 0.9979187393506924
+P(Oxygen saturation below reference range=Negated | RSV=False) = 2.0583896531613434E-4
+P(Oxygen saturation below reference range=Present | RSV=False) = 0.0018754216839914463
+P(Oxygen saturation below reference range=Not Mentioned | RSV=True) = 0.9550359712230215
+P(Oxygen saturation below reference range=Negated | RSV=True) = 0.002697841726618705
+P(Oxygen saturation below reference range=Present | RSV=True) = 0.04226618705035971
+P(White blood cell count decreased=Not Mentioned | RSV=False) = 0.9974155774354752
+P(White blood cell count decreased=Negated | RSV=False) = 4.57419922924743E-5
+P(White blood cell count decreased=Present | RSV=False) = 0.0025386805722323238
+P(White blood cell count decreased=Not Mentioned | RSV=True) = 0.987410071942446
+P(White blood cell count decreased=Negated | RSV=True) = 8.992805755395684E-4
+P(White blood cell count decreased=Present | RSV=True) = 0.011690647482014389
+P(Completion Status=Not Mentioned | RSV=False) = 0.9889761798575137
+P(Completion Status=Negated | RSV=False) = 9.14839845849486E-5
+P(Completion Status=Present | RSV=False) = 0.010932336157901358
+P(Completion Status=Not Mentioned | RSV=True) = 0.9307553956834532
+P(Completion Status=Negated | RSV=True) = 8.992805755395684E-4
+P(Completion Status=Present | RSV=True) = 0.0683453237410072
+P(Tube number=Not Mentioned | RSV=False) = 0.9990165471657118
+P(Tube number=Negated | RSV=False) = 1.1435498073118575E-5
+P(Tube number=Present | RSV=False) = 9.720173362150788E-4
+P(Tube number=Not Mentioned | RSV=True) = 0.9802158273381295
+P(Tube number=Negated | RSV=True) = 8.992805755395684E-4
+P(Tube number=Present | RSV=True) = 0.018884892086330936
+P(Feeling tired=Not Mentioned | RSV=False) = 0.9902912621359223
+P(Feeling tired=Negated | RSV=False) = 6.861298843871145E-5
+P(Feeling tired=Present | RSV=False) = 0.009640124875638959
+P(Feeling tired=Not Mentioned | RSV=True) = 0.966726618705036
+P(Feeling tired=Negated | RSV=True) = 0.0017985611510791368
+P(Feeling tired=Present | RSV=True) = 0.03147482014388489
+P(Dry cough=Not Mentioned | RSV=False) = 0.9860601278488684
+P(Dry cough=Negated | RSV=False) = 1.0291948265806717E-4
+P(Dry cough=Present | RSV=False) = 0.013836952668473476
+P(Dry cough=Not Mentioned | RSV=True) = 0.9487410071942446
+P(Dry cough=Negated | RSV=True) = 8.992805755395684E-4
+P(Dry cough=Present | RSV=True) = 0.050359712230215826
+P(family issues=Not Mentioned | RSV=False) = 0.9664025066611777
+P(family issues=Negated | RSV=False) = 0.03315150891397075
+P(family issues=Present | RSV=False) = 4.4598442485162444E-4
+P(family issues=Not Mentioned | RSV=True) = 0.7877697841726619
+P(family issues=Negated | RSV=True) = 0.21133093525179855
+P(family issues=Present | RSV=True) = 8.992805755395684E-4
+P(Neutrophil count decreased=Not Mentioned | RSV=False) = 0.997392706439329
+P(Neutrophil count decreased=Negated | RSV=False) = 5.603394055828102E-4
+P(Neutrophil count decreased=Present | RSV=False) = 0.002046954155088225
+P(Neutrophil count decreased=Not Mentioned | RSV=True) = 0.9838129496402878
+P(Neutrophil count decreased=Negated | RSV=True) = 0.0035971223021582736
+P(Neutrophil count decreased=Present | RSV=True) = 0.012589928057553957
+P(Increased work of breathing=Not Mentioned | RSV=False) = 0.9970610769952085
+P(Increased work of breathing=Negated | RSV=False) = 6.746943863139959E-4
+P(Increased work of breathing=Present | RSV=False) = 0.0022642286184774776
+P(Increased work of breathing=Not Mentioned | RSV=True) = 0.8767985611510791
+P(Increased work of breathing=Negated | RSV=True) = 0.014388489208633094
+P(Increased work of breathing=Present | RSV=True) = 0.10881294964028777
+P(Yellow color on exam=Not Mentioned | RSV=False) = 0.9826637849211523
+P(Yellow color on exam=Negated | RSV=False) = 1.1435498073118575E-4
+P(Yellow color on exam=Present | RSV=False) = 0.017221860098116572
+P(Yellow color on exam=Not Mentioned | RSV=True) = 0.8678057553956835
+P(Yellow color on exam=Negated | RSV=True) = 8.992805755395684E-4
+P(Yellow color on exam=Present | RSV=True) = 0.13129496402877697
+P(Rupture of Membranes=Not Mentioned | RSV=False) = 0.8495545873500521
+P(Rupture of Membranes=Negated | RSV=False) = 0.0016581472206021934
+P(Rupture of Membranes=Present | RSV=False) = 0.14878726542934578
+P(Rupture of Membranes=Not Mentioned | RSV=True) = 0.5980215827338129
+P(Rupture of Membranes=Negated | RSV=True) = 0.0035971223021582736
+P(Rupture of Membranes=Present | RSV=True) = 0.3983812949640288
+P(Rhinorrhea=Not Mentioned | RSV=False) = 0.937413519045822
+P(Rhinorrhea=Negated | RSV=False) = 0.013917001154985306
+P(Rhinorrhea=Present | RSV=False) = 0.04866947979919265
+P(Rhinorrhea=Not Mentioned | RSV=True) = 0.72931654676259
+P(Rhinorrhea=Negated | RSV=True) = 0.01079136690647482
+P(Rhinorrhea=Present | RSV=True) = 0.25989208633093525
+P(Platelet morphology - result=Not Mentioned | RSV=False) = 0.9958603496975311
+P(Platelet morphology - result=Negated | RSV=False) = 1.1435498073118575E-5
+P(Platelet morphology - result=Present | RSV=False) = 0.004128214804395806
+P(Platelet morphology - result=Not Mentioned | RSV=True) = 0.935251798561151
+P(Platelet morphology - result=Negated | RSV=True) = 8.992805755395684E-4
+P(Platelet morphology - result=Present | RSV=True) = 0.06384892086330936
+P(Family history of asthma=Not Mentioned | RSV=False) = 0.9928528137043009
+P(Family history of asthma=Negated | RSV=False) = 4.4598442485162444E-4
+P(Family history of asthma=Present | RSV=False) = 0.006701201870847485
+P(Family history of asthma=Not Mentioned | RSV=True) = 0.8669064748201439
+P(Family history of asthma=Negated | RSV=True) = 0.012589928057553957
+P(Family history of asthma=Present | RSV=True) = 0.12050359712230216
+P(Cough with fever=Not Mentioned | RSV=False) = 0.9979416103468387
+P(Cough with fever=Negated | RSV=False) = 6.518233901677587E-4
+P(Cough with fever=Present | RSV=False) = 0.0014065662629935847
+P(Cough with fever=Not Mentioned | RSV=True) = 0.9847122302158273
+P(Cough with fever=Negated | RSV=True) = 0.0017985611510791368
+P(Cough with fever=Present | RSV=True) = 0.013489208633093525
+P(Patient name=Not Mentioned | RSV=False) = 0.9170125904833785
+P(Patient name=Negated | RSV=False) = 1.1435498073118575E-5
+P(Patient name=Present | RSV=False) = 0.08297597401854838
+P(Patient name=Not Mentioned | RSV=True) = 0.9829136690647482
+P(Patient name=Negated | RSV=True) = 8.992805755395684E-4
+P(Patient name=Present | RSV=True) = 0.01618705035971223
+P(Nuchal Rigidity=Not Mentioned | RSV=False) = 0.9838873832149759
+P(Nuchal Rigidity=Negated | RSV=False) = 0.015254954429540179
+P(Nuchal Rigidity=Present | RSV=False) = 8.576623554838931E-4
+P(Nuchal Rigidity=Not Mentioned | RSV=True) = 0.9883093525179856
+P(Nuchal Rigidity=Negated | RSV=True) = 0.008093525179856115
+P(Nuchal Rigidity=Present | RSV=True) = 0.0035971223021582736
+P(Hydration status=Not Mentioned | RSV=False) = 0.9740071128798015
+P(Hydration status=Negated | RSV=False) = 2.744519537548458E-4
+P(Hydration status=Present | RSV=False) = 0.025718435166443676
+P(Hydration status=Not Mentioned | RSV=True) = 0.9010791366906474
+P(Hydration status=Negated | RSV=True) = 0.0017985611510791368
+P(Hydration status=Present | RSV=True) = 0.09712230215827339
+P(Therapy Object (animal model)=Not Mentioned | RSV=False) = 0.878097590540556
+P(Therapy Object (animal model)=Negated | RSV=False) = 9.14839845849486E-4
+P(Therapy Object (animal model)=Present | RSV=False) = 0.12098756961359453
+P(Therapy Object (animal model)=Not Mentioned | RSV=True) = 0.48651079136690645
+P(Therapy Object (animal model)=Negated | RSV=True) = 0.0035971223021582736
+P(Therapy Object (animal model)=Present | RSV=True) = 0.5098920863309353
+P(Tattoo=Not Mentioned | RSV=False) = 0.9515134881699773
+P(Tattoo=Negated | RSV=False) = 2.287099614623715E-5
+P(Tattoo=Present | RSV=False) = 0.04846364083387652
+P(Tattoo=Not Mentioned | RSV=True) = 0.9910071942446043
+P(Tattoo=Negated | RSV=True) = 8.992805755395684E-4
+P(Tattoo=Present | RSV=True) = 0.008093525179856115
+P(Sharp sensation quality=Not Mentioned | RSV=False) = 0.9512161652200761
+P(Sharp sensation quality=Negated | RSV=False) = 6.97565382460233E-4
+P(Sharp sensation quality=Present | RSV=False) = 0.048086269397463605
+P(Sharp sensation quality=Not Mentioned | RSV=True) = 0.9955035971223022
+P(Sharp sensation quality=Negated | RSV=True) = 8.992805755395684E-4
+P(Sharp sensation quality=Present | RSV=True) = 0.0035971223021582736
+P(Positive=Not Mentioned | RSV=False) = 0.8306745800313332
+P(Positive=Negated | RSV=False) = 0.059819090420483265
+P(Positive=Present | RSV=False) = 0.10950632954818347
+P(Positive=Not Mentioned | RSV=True) = 0.7760791366906474
+P(Positive=Negated | RSV=True) = 0.02068345323741007
+P(Positive=Present | RSV=True) = 0.20323741007194246
+P(Symptoms=Not Mentioned | RSV=False) = 0.4661337724564593
+P(Symptoms=Negated | RSV=False) = 0.058069459215296125
+P(Symptoms=Present | RSV=False) = 0.4757967683282445
+P(Symptoms=Not Mentioned | RSV=True) = 0.27428057553956836
+P(Symptoms=Negated | RSV=True) = 0.025179856115107913
+P(Symptoms=Present | RSV=True) = 0.7005395683453237
+P(Hypophagia=Not Mentioned | RSV=False) = 0.9969009800221849
+P(Hypophagia=Negated | RSV=False) = 2.287099614623715E-5
+P(Hypophagia=Present | RSV=False) = 0.0030761489816688967
+P(Hypophagia=Not Mentioned | RSV=True) = 0.9658273381294964
+P(Hypophagia=Negated | RSV=True) = 8.992805755395684E-4
+P(Hypophagia=Present | RSV=True) = 0.03327338129496403
+P(Physical assessment findings=Not Mentioned | RSV=False) = 0.8387251706748088
+P(Physical assessment findings=Negated | RSV=False) = 0.007810445183939987
+P(Physical assessment findings=Present | RSV=False) = 0.15346438414125127
+P(Physical assessment findings=Not Mentioned | RSV=True) = 0.39118705035971224
+P(Physical assessment findings=Negated | RSV=True) = 0.00539568345323741
+P(Physical assessment findings=Present | RSV=True) = 0.6034172661870504
+P(Mild Adverse Event=Not Mentioned | RSV=False) = 0.6918933754159663
+P(Mild Adverse Event=Negated | RSV=False) = 0.0018182441936258533
+P(Mild Adverse Event=Present | RSV=False) = 0.3062883803904079
+P(Mild Adverse Event=Not Mentioned | RSV=True) = 0.579136690647482
+P(Mild Adverse Event=Negated | RSV=True) = 0.0017985611510791368
+P(Mild Adverse Event=Present | RSV=True) = 0.41906474820143885
+P(Positive Finding=Not Mentioned | RSV=False) = 0.8616190378171922
+P(Positive Finding=Negated | RSV=False) = 0.059819090420483265
+P(Positive Finding=Present | RSV=False) = 0.07856187176232461
+P(Positive Finding=Not Mentioned | RSV=True) = 0.8138489208633094
+P(Positive Finding=Negated | RSV=True) = 0.0170863309352518
+P(Positive Finding=Present | RSV=True) = 0.16906474820143885
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | RSV=False) = 0.9403181355563942
+P(Ambulatory Status - Oxygen therapy=Negated | RSV=False) = 3.430649421935573E-5
+P(Ambulatory Status - Oxygen therapy=Present | RSV=False) = 0.05964755794938648
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | RSV=True) = 0.45143884892086333
+P(Ambulatory Status - Oxygen therapy=Negated | RSV=True) = 8.992805755395684E-4
+P(Ambulatory Status - Oxygen therapy=Present | RSV=True) = 0.5476618705035972
+P(Referral type - Psychiatric=Not Mentioned | RSV=False) = 0.52289958489142
+P(Referral type - Psychiatric=Negated | RSV=False) = 0.0027559550356215765
+P(Referral type - Psychiatric=Present | RSV=False) = 0.4743444600729585
+P(Referral type - Psychiatric=Not Mentioned | RSV=True) = 0.8039568345323741
+P(Referral type - Psychiatric=Negated | RSV=True) = 0.0017985611510791368
+P(Referral type - Psychiatric=Present | RSV=True) = 0.19424460431654678
+P(Normal Observation Interpretation=Not Mentioned | RSV=False) = 0.16964561391471406
+P(Normal Observation Interpretation=Negated | RSV=False) = 0.011732821023019658
+P(Normal Observation Interpretation=Present | RSV=False) = 0.8186215650622662
+P(Normal Observation Interpretation=Not Mentioned | RSV=True) = 0.08543165467625899
+P(Normal Observation Interpretation=Negated | RSV=True) = 0.008093525179856115
+P(Normal Observation Interpretation=Present | RSV=True) = 0.9064748201438849
+P(normal Device Alert Level=Not Mentioned | RSV=False) = 0.16964561391471406
+P(normal Device Alert Level=Negated | RSV=False) = 0.011732821023019658
+P(normal Device Alert Level=Present | RSV=False) = 0.8186215650622662
+P(normal Device Alert Level=Not Mentioned | RSV=True) = 0.08543165467625899
+P(normal Device Alert Level=Negated | RSV=True) = 0.008093525179856115
+P(normal Device Alert Level=Present | RSV=True) = 0.9064748201438849
+P(Device Alert Level - Serious=Not Mentioned | RSV=False) = 0.9785241346186834
+P(Device Alert Level - Serious=Negated | RSV=False) = 0.002069825151234462
+P(Device Alert Level - Serious=Present | RSV=False) = 0.01940604023008222
+P(Device Alert Level - Serious=Not Mentioned | RSV=True) = 0.9550359712230215
+P(Device Alert Level - Serious=Negated | RSV=True) = 0.0035971223021582736
+P(Device Alert Level - Serious=Present | RSV=True) = 0.04136690647482014
+P(DeviceAlertLevel - Critical=Not Mentioned | RSV=False) = 0.9906228915800428
+P(DeviceAlertLevel - Critical=Negated | RSV=False) = 2.515809576086086E-4
+P(DeviceAlertLevel - Critical=Present | RSV=False) = 0.009125527462348623
+P(DeviceAlertLevel - Critical=Not Mentioned | RSV=True) = 0.8480215827338129
+P(DeviceAlertLevel - Critical=Negated | RSV=True) = 8.992805755395684E-4
+P(DeviceAlertLevel - Critical=Present | RSV=True) = 0.1510791366906475
+P(Equipment Alert Level - Serious=Not Mentioned | RSV=False) = 0.9785241346186834
+P(Equipment Alert Level - Serious=Negated | RSV=False) = 0.002069825151234462
+P(Equipment Alert Level - Serious=Present | RSV=False) = 0.01940604023008222
+P(Equipment Alert Level - Serious=Not Mentioned | RSV=True) = 0.9550359712230215
+P(Equipment Alert Level - Serious=Negated | RSV=True) = 0.0035971223021582736
+P(Equipment Alert Level - Serious=Present | RSV=True) = 0.04136690647482014
+P(Gender Status - Intact=Not Mentioned | RSV=False) = 0.35303669651331665
+P(Gender Status - Intact=Negated | RSV=False) = 0.001395130764920466
+P(Gender Status - Intact=Present | RSV=False) = 0.6455681727217629
+P(Gender Status - Intact=Not Mentioned | RSV=True) = 0.2868705035971223
+P(Gender Status - Intact=Negated | RSV=True) = 0.0017985611510791368
+P(Gender Status - Intact=Present | RSV=True) = 0.7113309352517986
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | RSV=False) = 0.8298054821777763
+P(Adverse Event Associated with Constitutional Symptoms=Negated | RSV=False) = 0.0031790684643269638
+P(Adverse Event Associated with Constitutional Symptoms=Present | RSV=False) = 0.16701544935789678
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | RSV=True) = 0.4352517985611511
+P(Adverse Event Associated with Constitutional Symptoms=Negated | RSV=True) = 0.007194244604316547
+P(Adverse Event Associated with Constitutional Symptoms=Present | RSV=True) = 0.5575539568345323
+P(Adverse Event Associated with Pain=Not Mentioned | RSV=False) = 0.4795361761981543
+P(Adverse Event Associated with Pain=Negated | RSV=False) = 0.10375427401740482
+P(Adverse Event Associated with Pain=Present | RSV=False) = 0.41670954978444086
+P(Adverse Event Associated with Pain=Not Mentioned | RSV=True) = 0.8884892086330936
+P(Adverse Event Associated with Pain=Negated | RSV=True) = 0.030575539568345324
+P(Adverse Event Associated with Pain=Present | RSV=True) = 0.08093525179856115
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | RSV=False) = 0.23059681864443607
+P(Adverse Event Associated with the Gastrointestinal System=Negated | RSV=False) = 4.8029091907098015E-4
+P(Adverse Event Associated with the Gastrointestinal System=Present | RSV=False) = 0.768922890436493
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | RSV=True) = 0.08633093525179857
+P(Adverse Event Associated with the Gastrointestinal System=Negated | RSV=True) = 0.0017985611510791368
+P(Adverse Event Associated with the Gastrointestinal System=Present | RSV=True) = 0.9118705035971223
+P(Lipase, CTCAE=Not Mentioned | RSV=False) = 0.9351607259254177
+P(Lipase, CTCAE=Negated | RSV=False) = 5.832104017290473E-4
+P(Lipase, CTCAE=Present | RSV=False) = 0.06425606367285328
+P(Lipase, CTCAE=Not Mentioned | RSV=True) = 0.9730215827338129
+P(Lipase, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Lipase, CTCAE=Present | RSV=True) = 0.026079136690647483
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | RSV=False) = 0.9825265589442748
+P(Glomerular Filtration Rate, CTCAE=Negated | RSV=False) = 1.1435498073118575E-5
+P(Glomerular Filtration Rate, CTCAE=Present | RSV=False) = 0.017462005557652063
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | RSV=True) = 0.8498201438848921
+P(Glomerular Filtration Rate, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Glomerular Filtration Rate, CTCAE=Present | RSV=True) = 0.14928057553956833
+P(Breastfeeding (mother)=Not Mentioned | RSV=False) = 0.9982160623005935
+P(Breastfeeding (mother)=Negated | RSV=False) = 1.257904788043043E-4
+P(Breastfeeding (mother)=Present | RSV=False) = 0.0016581472206021934
+P(Breastfeeding (mother)=Not Mentioned | RSV=True) = 0.9748201438848921
+P(Breastfeeding (mother)=Negated | RSV=True) = 0.002697841726618705
+P(Breastfeeding (mother)=Present | RSV=True) = 0.022482014388489208
+P(Breastfeeding (infant)=Not Mentioned | RSV=False) = 0.9982160623005935
+P(Breastfeeding (infant)=Negated | RSV=False) = 1.257904788043043E-4
+P(Breastfeeding (infant)=Present | RSV=False) = 0.0016581472206021934
+P(Breastfeeding (infant)=Not Mentioned | RSV=True) = 0.9748201438848921
+P(Breastfeeding (infant)=Negated | RSV=True) = 0.002697841726618705
+P(Breastfeeding (infant)=Present | RSV=True) = 0.022482014388489208
+P(Pupil equal round and reacting to light=Not Mentioned | RSV=False) = 0.8332704380939312
+P(Pupil equal round and reacting to light=Negated | RSV=False) = 5.260329113634544E-4
+P(Pupil equal round and reacting to light=Present | RSV=False) = 0.16620352899470536
+P(Pupil equal round and reacting to light=Not Mentioned | RSV=True) = 0.9469424460431655
+P(Pupil equal round and reacting to light=Negated | RSV=True) = 8.992805755395684E-4
+P(Pupil equal round and reacting to light=Present | RSV=True) = 0.052158273381294966
+P(Respiratory problem=Not Mentioned | RSV=False) = 0.9986849177215914
+P(Respiratory problem=Negated | RSV=False) = 1.0291948265806717E-4
+P(Respiratory problem=Present | RSV=False) = 0.0012121627957505689
+P(Respiratory problem=Not Mentioned | RSV=True) = 0.9559352517985612
+P(Respiratory problem=Negated | RSV=True) = 0.002697841726618705
+P(Respiratory problem=Present | RSV=True) = 0.04136690647482014
+P(Disease Response=Not Mentioned | RSV=False) = 0.8896817500886252
+P(Disease Response=Negated | RSV=False) = 0.0018754216839914463
+P(Disease Response=Present | RSV=False) = 0.10844282822738345
+P(Disease Response=Not Mentioned | RSV=True) = 0.5053956834532374
+P(Disease Response=Negated | RSV=True) = 0.009892086330935251
+P(Disease Response=Present | RSV=True) = 0.4847122302158273
+P(Crack=Not Mentioned | RSV=False) = 0.9210493213031894
+P(Crack=Negated | RSV=False) = 2.9732294990108296E-4
+P(Crack=Present | RSV=False) = 0.07865335574690956
+P(Crack=Not Mentioned | RSV=True) = 0.9739208633093526
+P(Crack=Negated | RSV=True) = 0.0017985611510791368
+P(Crack=Present | RSV=True) = 0.024280575539568347
+P(Negative Surgical Margin=Not Mentioned | RSV=False) = 0.1835397440735531
+P(Negative Surgical Margin=Negated | RSV=False) = 0.01843402289386714
+P(Negative Surgical Margin=Present | RSV=False) = 0.7980262330325797
+P(Negative Surgical Margin=Not Mentioned | RSV=True) = 0.4658273381294964
+P(Negative Surgical Margin=Negated | RSV=True) = 0.017985611510791366
+P(Negative Surgical Margin=Present | RSV=True) = 0.5161870503597122
+P(Conjunctival hyperemia=Not Mentioned | RSV=False) = 0.9671000720436379
+P(Conjunctival hyperemia=Negated | RSV=False) = 0.02560408018571249
+P(Conjunctival hyperemia=Present | RSV=False) = 0.00729584777064965
+P(Conjunctival hyperemia=Not Mentioned | RSV=True) = 0.9910071942446043
+P(Conjunctival hyperemia=Negated | RSV=True) = 0.006294964028776978
+P(Conjunctival hyperemia=Present | RSV=True) = 0.002697841726618705
+P(Intact sensation=Not Mentioned | RSV=False) = 0.9867119512390362
+P(Intact sensation=Negated | RSV=False) = 2.287099614623715E-5
+P(Intact sensation=Present | RSV=False) = 0.013265177764817547
+P(Intact sensation=Not Mentioned | RSV=True) = 0.9973021582733813
+P(Intact sensation=Negated | RSV=True) = 8.992805755395684E-4
+P(Intact sensation=Present | RSV=True) = 0.0017985611510791368
+P(CARONTE=Not Mentioned | RSV=False) = 0.9713083353345455
+P(CARONTE=Negated | RSV=False) = 0.001966905668576395
+P(CARONTE=Present | RSV=False) = 0.02672475899687811
+P(CARONTE=Not Mentioned | RSV=True) = 0.9919064748201439
+P(CARONTE=Negated | RSV=True) = 8.992805755395684E-4
+P(CARONTE=Present | RSV=True) = 0.007194244604316547
+P(ACUTE INSULIN RESPONSE=Not Mentioned | RSV=False) = 0.7232152046382381
+P(ACUTE INSULIN RESPONSE=Negated | RSV=False) = 0.004311182773565703
+P(ACUTE INSULIN RESPONSE=Present | RSV=False) = 0.2724736125881963
+P(ACUTE INSULIN RESPONSE=Not Mentioned | RSV=True) = 0.8830935251798561
+P(ACUTE INSULIN RESPONSE=Negated | RSV=True) = 0.002697841726618705
+P(ACUTE INSULIN RESPONSE=Present | RSV=True) = 0.11420863309352518
+P(Normal assessment finding=Not Mentioned | RSV=False) = 0.16964561391471406
+P(Normal assessment finding=Negated | RSV=False) = 0.011732821023019658
+P(Normal assessment finding=Present | RSV=False) = 0.8186215650622662
+P(Normal assessment finding=Not Mentioned | RSV=True) = 0.08543165467625899
+P(Normal assessment finding=Negated | RSV=True) = 0.008093525179856115
+P(Normal assessment finding=Present | RSV=True) = 0.9064748201438849
+P(Fracture of Medical Device Material=Not Mentioned | RSV=False) = 0.8722769220213387
+P(Fracture of Medical Device Material=Negated | RSV=False) = 0.03746269168753645
+P(Fracture of Medical Device Material=Present | RSV=False) = 0.09026038629112491
+P(Fracture of Medical Device Material=Not Mentioned | RSV=True) = 0.9955035971223022
+P(Fracture of Medical Device Material=Negated | RSV=True) = 0.0017985611510791368
+P(Fracture of Medical Device Material=Present | RSV=True) = 0.002697841726618705
+P(Medical Device Emits Smoke=Not Mentioned | RSV=False) = 0.6806865873043101
+P(Medical Device Emits Smoke=Negated | RSV=False) = 0.030349811886056698
+P(Medical Device Emits Smoke=Present | RSV=False) = 0.28896360080963324
+P(Medical Device Emits Smoke=Not Mentioned | RSV=True) = 0.8794964028776978
+P(Medical Device Emits Smoke=Negated | RSV=True) = 0.01618705035971223
+P(Medical Device Emits Smoke=Present | RSV=True) = 0.10431654676258993
+P(Medical Device Material Crack=Not Mentioned | RSV=False) = 0.921495305728041
+P(Medical Device Material Crack=Negated | RSV=False) = 2.744519537548458E-4
+P(Medical Device Material Crack=Present | RSV=False) = 0.07823024231820416
+P(Medical Device Material Crack=Not Mentioned | RSV=True) = 0.9748201438848921
+P(Medical Device Material Crack=Negated | RSV=True) = 0.0017985611510791368
+P(Medical Device Material Crack=Present | RSV=True) = 0.023381294964028777
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | RSV=False) = 0.4795361761981543
+P(Pain by Anatomic Descriptor, CTCAE=Negated | RSV=False) = 0.10375427401740482
+P(Pain by Anatomic Descriptor, CTCAE=Present | RSV=False) = 0.41670954978444086
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | RSV=True) = 0.8884892086330936
+P(Pain by Anatomic Descriptor, CTCAE=Negated | RSV=True) = 0.030575539568345324
+P(Pain by Anatomic Descriptor, CTCAE=Present | RSV=True) = 0.08093525179856115
+P(Oriented to place=Not Mentioned | RSV=False) = 0.6499708394799135
+P(Oriented to place=Negated | RSV=False) = 0.0014980502475785333
+P(Oriented to place=Present | RSV=False) = 0.34853111027250794
+P(Oriented to place=Not Mentioned | RSV=True) = 0.9370503597122302
+P(Oriented to place=Negated | RSV=True) = 8.992805755395684E-4
+P(Oriented to place=Present | RSV=True) = 0.06205035971223022
+P(Cough, CTCAE=Not Mentioned | RSV=False) = 0.7565153750271593
+P(Cough, CTCAE=Negated | RSV=False) = 0.11892917996043317
+P(Cough, CTCAE=Present | RSV=False) = 0.12455544501240752
+P(Cough, CTCAE=Not Mentioned | RSV=True) = 0.2886690647482014
+P(Cough, CTCAE=Negated | RSV=True) = 0.02877697841726619
+P(Cough, CTCAE=Present | RSV=True) = 0.6825539568345323
+P(Atelectasis, CTCAE=Not Mentioned | RSV=False) = 0.9913661989547955
+P(Atelectasis, CTCAE=Negated | RSV=False) = 3.430649421935573E-5
+P(Atelectasis, CTCAE=Present | RSV=False) = 0.008599494550985168
+P(Atelectasis, CTCAE=Not Mentioned | RSV=True) = 0.9487410071942446
+P(Atelectasis, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Atelectasis, CTCAE=Present | RSV=True) = 0.050359712230215826
+P(Hematoma, CTCAE=Not Mentioned | RSV=False) = 0.9678090729241712
+P(Hematoma, CTCAE=Negated | RSV=False) = 0.0038651983487140783
+P(Hematoma, CTCAE=Present | RSV=False) = 0.02832572872711471
+P(Hematoma, CTCAE=Not Mentioned | RSV=True) = 0.9955035971223022
+P(Hematoma, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Hematoma, CTCAE=Present | RSV=True) = 0.0035971223021582736
+P(Anxiety, CTCAE 3.0=Not Mentioned | RSV=False) = 0.9139021350074903
+P(Anxiety, CTCAE 3.0=Negated | RSV=False) = 0.009525769894907773
+P(Anxiety, CTCAE 3.0=Present | RSV=False) = 0.07657209509760197
+P(Anxiety, CTCAE 3.0=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Anxiety, CTCAE 3.0=Negated | RSV=True) = 0.007194244604316547
+P(Anxiety, CTCAE 3.0=Present | RSV=True) = 0.014388489208633094
+P(Apnea, CTCAE=Not Mentioned | RSV=False) = 0.9807311857467952
+P(Apnea, CTCAE=Negated | RSV=False) = 0.002092696147380699
+P(Apnea, CTCAE=Present | RSV=False) = 0.0171761181058241
+P(Apnea, CTCAE=Not Mentioned | RSV=True) = 0.914568345323741
+P(Apnea, CTCAE=Negated | RSV=True) = 0.02068345323741007
+P(Apnea, CTCAE=Present | RSV=True) = 0.06474820143884892
+P(Back Pain, CTCAE 3.0=Not Mentioned | RSV=False) = 0.8330417281324688
+P(Back Pain, CTCAE 3.0=Negated | RSV=False) = 0.02897755211728247
+P(Back Pain, CTCAE 3.0=Present | RSV=False) = 0.13798071975024873
+P(Back Pain, CTCAE 3.0=Not Mentioned | RSV=True) = 0.9568345323741008
+P(Back Pain, CTCAE 3.0=Negated | RSV=True) = 0.007194244604316547
+P(Back Pain, CTCAE 3.0=Present | RSV=True) = 0.03597122302158273
+P(Platelets, CTCAE=Not Mentioned | RSV=False) = 0.8045330314361842
+P(Platelets, CTCAE=Negated | RSV=False) = 6.861298843871145E-5
+P(Platelets, CTCAE=Present | RSV=False) = 0.19539835557537708
+P(Platelets, CTCAE=Not Mentioned | RSV=True) = 0.7077338129496403
+P(Platelets, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Platelets, CTCAE=Present | RSV=True) = 0.29136690647482016
+P(Dehydration, CTCAE=Not Mentioned | RSV=False) = 0.956213477878029
+P(Dehydration, CTCAE=Negated | RSV=False) = 0.0013265177764817547
+P(Dehydration, CTCAE=Present | RSV=False) = 0.042460004345489265
+P(Dehydration, CTCAE=Not Mentioned | RSV=True) = 0.8048561151079137
+P(Dehydration, CTCAE=Negated | RSV=True) = 0.00539568345323741
+P(Dehydration, CTCAE=Present | RSV=True) = 0.18974820143884893
+P(Diarrhea, CTCAE=Not Mentioned | RSV=False) = 0.7554861802005787
+P(Diarrhea, CTCAE=Negated | RSV=False) = 0.07508548034809656
+P(Diarrhea, CTCAE=Present | RSV=False) = 0.1694283394513248
+P(Diarrhea, CTCAE=Not Mentioned | RSV=True) = 0.658273381294964
+P(Diarrhea, CTCAE=Negated | RSV=True) = 0.10611510791366907
+P(Diarrhea, CTCAE=Present | RSV=True) = 0.2356115107913669
+P(Dizziness, CTCAE 3.0=Not Mentioned | RSV=False) = 0.9175614943908882
+P(Dizziness, CTCAE 3.0=Negated | RSV=False) = 0.011675643532654064
+P(Dizziness, CTCAE 3.0=Present | RSV=False) = 0.07076286207645774
+P(Dizziness, CTCAE 3.0=Not Mentioned | RSV=True) = 0.9802158273381295
+P(Dizziness, CTCAE 3.0=Negated | RSV=True) = 0.002697841726618705
+P(Dizziness, CTCAE 3.0=Present | RSV=True) = 0.0170863309352518
+P(Fracture, CTCAE=Not Mentioned | RSV=False) = 0.8722769220213387
+P(Fracture, CTCAE=Negated | RSV=False) = 0.03746269168753645
+P(Fracture, CTCAE=Present | RSV=False) = 0.09026038629112491
+P(Fracture, CTCAE=Not Mentioned | RSV=True) = 0.9955035971223022
+P(Fracture, CTCAE=Negated | RSV=True) = 0.0017985611510791368
+P(Fracture, CTCAE=Present | RSV=True) = 0.002697841726618705
+P(Hypertension, CTCAE=Not Mentioned | RSV=False) = 0.8011938659988336
+P(Hypertension, CTCAE=Negated | RSV=False) = 0.005317506604000137
+P(Hypertension, CTCAE=Present | RSV=False) = 0.1934886273971663
+P(Hypertension, CTCAE=Not Mentioned | RSV=True) = 0.9361510791366906
+P(Hypertension, CTCAE=Negated | RSV=True) = 0.002697841726618705
+P(Hypertension, CTCAE=Present | RSV=True) = 0.06115107913669065
+P(Hypoxia, CTCAE=Not Mentioned | RSV=False) = 0.9895936967534621
+P(Hypoxia, CTCAE=Negated | RSV=False) = 0.0028131325259871695
+P(Hypoxia, CTCAE=Present | RSV=False) = 0.0075931707205507334
+P(Hypoxia, CTCAE=Not Mentioned | RSV=True) = 0.8974820143884892
+P(Hypoxia, CTCAE=Negated | RSV=True) = 0.014388489208633094
+P(Hypoxia, CTCAE=Present | RSV=True) = 0.08812949640287769
+P(Muscle Pain, CTCAE 3=Not Mentioned | RSV=False) = 0.9748990817295047
+P(Muscle Pain, CTCAE 3=Negated | RSV=False) = 0.01332235525518314
+P(Muscle Pain, CTCAE 3=Present | RSV=False) = 0.011778563015312132
+P(Muscle Pain, CTCAE 3=Not Mentioned | RSV=True) = 0.9856115107913669
+P(Muscle Pain, CTCAE 3=Negated | RSV=True) = 0.009892086330935251
+P(Muscle Pain, CTCAE 3=Present | RSV=True) = 0.0044964028776978415
+P(Nausea, CTCAE 3.0=Not Mentioned | RSV=False) = 0.6673871030452732
+P(Nausea, CTCAE 3.0=Negated | RSV=False) = 0.11882626047777511
+P(Nausea, CTCAE 3.0=Present | RSV=False) = 0.21378663647695176
+P(Nausea, CTCAE 3.0=Not Mentioned | RSV=True) = 0.9235611510791367
+P(Nausea, CTCAE 3.0=Negated | RSV=True) = 0.03776978417266187
+P(Nausea, CTCAE 3.0=Present | RSV=True) = 0.03866906474820144
+P(Pancreatitis, CTCAE 3.0=Not Mentioned | RSV=False) = 0.9712625933422531
+P(Pancreatitis, CTCAE 3.0=Negated | RSV=False) = 0.0017153247109677862
+P(Pancreatitis, CTCAE 3.0=Present | RSV=False) = 0.027022081946779193
+P(Pancreatitis, CTCAE 3.0=Not Mentioned | RSV=True) = 0.9892086330935251
+P(Pancreatitis, CTCAE 3.0=Negated | RSV=True) = 8.992805755395684E-4
+P(Pancreatitis, CTCAE 3.0=Present | RSV=True) = 0.009892086330935251
+P(Pneumothorax, CTCAE=Not Mentioned | RSV=False) = 0.9610049515706657
+P(Pneumothorax, CTCAE=Negated | RSV=False) = 0.008290736103010966
+P(Pneumothorax, CTCAE=Present | RSV=False) = 0.030704312326323372
+P(Pneumothorax, CTCAE=Not Mentioned | RSV=True) = 0.9298561151079137
+P(Pneumothorax, CTCAE=Negated | RSV=True) = 0.013489208633093525
+P(Pneumothorax, CTCAE=Present | RSV=True) = 0.05665467625899281
+P(Aspiration, CTCAE=Not Mentioned | RSV=False) = 0.9913661989547955
+P(Aspiration, CTCAE=Negated | RSV=False) = 4.345489267785058E-4
+P(Aspiration, CTCAE=Present | RSV=False) = 0.008199252118426018
+P(Aspiration, CTCAE=Not Mentioned | RSV=True) = 0.960431654676259
+P(Aspiration, CTCAE=Negated | RSV=True) = 0.0017985611510791368
+P(Aspiration, CTCAE=Present | RSV=True) = 0.03776978417266187
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | RSV=False) = 0.9816117190984254
+P(Sinus Tachycardia, CTCAE 3.0=Negated | RSV=False) = 1.1435498073118575E-4
+P(Sinus Tachycardia, CTCAE 3.0=Present | RSV=False) = 0.01827392592084348
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | RSV=True) = 0.966726618705036
+P(Sinus Tachycardia, CTCAE 3.0=Negated | RSV=True) = 8.992805755395684E-4
+P(Sinus Tachycardia, CTCAE 3.0=Present | RSV=True) = 0.03237410071942446
+P(Vomiting, CTCAE=Not Mentioned | RSV=False) = 0.7499399636351162
+P(Vomiting, CTCAE=Negated | RSV=False) = 0.13769483229842075
+P(Vomiting, CTCAE=Present | RSV=False) = 0.11236520406646311
+P(Vomiting, CTCAE=Not Mentioned | RSV=True) = 0.6798561151079137
+P(Vomiting, CTCAE=Negated | RSV=True) = 0.18615107913669066
+P(Vomiting, CTCAE=Present | RSV=True) = 0.13399280575539568
+P(Respiratory Status=Not Mentioned | RSV=False) = 0.9968094960375999
+P(Respiratory Status=Negated | RSV=False) = 2.287099614623715E-5
+P(Respiratory Status=Present | RSV=False) = 0.0031676329662538453
+P(Respiratory Status=Not Mentioned | RSV=True) = 0.9199640287769785
+P(Respiratory Status=Negated | RSV=True) = 0.002697841726618705
+P(Respiratory Status=Present | RSV=True) = 0.07733812949640288
+P(Depression, CTCAE=Not Mentioned | RSV=False) = 0.9239768088099077
+P(Depression, CTCAE=Negated | RSV=False) = 0.008016284149256122
+P(Depression, CTCAE=Present | RSV=False) = 0.06800690704083616
+P(Depression, CTCAE=Not Mentioned | RSV=True) = 0.9856115107913669
+P(Depression, CTCAE=Negated | RSV=True) = 0.002697841726618705
+P(Depression, CTCAE=Present | RSV=True) = 0.011690647482014389
+P(History of previous events=Not Mentioned | RSV=False) = 0.6151726188434137
+P(History of previous events=Negated | RSV=False) = 0.02880601964618569
+P(History of previous events=Present | RSV=False) = 0.3560213615104006
+P(History of previous events=Not Mentioned | RSV=True) = 0.17535971223021582
+P(History of previous events=Negated | RSV=True) = 0.03866906474820144
+P(History of previous events=Present | RSV=True) = 0.7859712230215827
+P(jaundice=Not Mentioned | RSV=False) = 0.9427653321440416
+P(jaundice=Negated | RSV=False) = 0.05117385387720562
+P(jaundice=Present | RSV=False) = 0.006060813978752844
+P(jaundice=Not Mentioned | RSV=True) = 0.8453237410071942
+P(jaundice=Negated | RSV=True) = 0.14118705035971224
+P(jaundice=Present | RSV=True) = 0.013489208633093525
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | RSV=False) = 0.9816117190984254
+P(continuous electrocardiogram sinus tachycardia=Negated | RSV=False) = 1.1435498073118575E-4
+P(continuous electrocardiogram sinus tachycardia=Present | RSV=False) = 0.01827392592084348
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | RSV=True) = 0.966726618705036
+P(continuous electrocardiogram sinus tachycardia=Negated | RSV=True) = 8.992805755395684E-4
+P(continuous electrocardiogram sinus tachycardia=Present | RSV=True) = 0.03237410071942446
+P(Has tingling sensation=Not Mentioned | RSV=False) = 0.956888172264343
+P(Has tingling sensation=Negated | RSV=False) = 0.02929774606332979
+P(Has tingling sensation=Present | RSV=False) = 0.013814081672327238
+P(Has tingling sensation=Not Mentioned | RSV=True) = 0.9910071942446043
+P(Has tingling sensation=Negated | RSV=True) = 0.008093525179856115
+P(Has tingling sensation=Present | RSV=True) = 8.992805755395684E-4
+P(Discomfort=Not Mentioned | RSV=False) = 0.9126556657175203
+P(Discomfort=Negated | RSV=False) = 0.00441410225622377
+P(Discomfort=Present | RSV=False) = 0.0829302320262559
+P(Discomfort=Not Mentioned | RSV=True) = 0.9865107913669064
+P(Discomfort=Negated | RSV=True) = 0.0017985611510791368
+P(Discomfort=Present | RSV=True) = 0.011690647482014389
+P(on room air=Not Mentioned | RSV=False) = 0.9057143183871373
+P(on room air=Negated | RSV=False) = 4.8029091907098015E-4
+P(on room air=Present | RSV=False) = 0.09380539069379167
+P(on room air=Not Mentioned | RSV=True) = 0.8732014388489209
+P(on room air=Negated | RSV=True) = 0.0017985611510791368
+P(on room air=Present | RSV=True) = 0.125
+P(Actual Aspiration=Not Mentioned | RSV=False) = 0.9913547634567224
+P(Actual Aspiration=Negated | RSV=False) = 4.345489267785058E-4
+P(Actual Aspiration=Present | RSV=False) = 0.008210687616499136
+P(Actual Aspiration=Not Mentioned | RSV=True) = 0.960431654676259
+P(Actual Aspiration=Negated | RSV=True) = 0.0017985611510791368
+P(Actual Aspiration=Present | RSV=True) = 0.03776978417266187
+P(Related to Cancer=Not Mentioned | RSV=False) = 0.8913513328073004
+P(Related to Cancer=Negated | RSV=False) = 0.002950358502864592
+P(Related to Cancer=Present | RSV=False) = 0.10569830868983499
+P(Related to Cancer=Not Mentioned | RSV=True) = 0.8938848920863309
+P(Related to Cancer=Negated | RSV=True) = 8.992805755395684E-4
+P(Related to Cancer=Present | RSV=True) = 0.1052158273381295
+P(Tissue Congestion=Not Mentioned | RSV=False) = 0.963932439077384
+P(Tissue Congestion=Negated | RSV=False) = 0.0019325991743570391
+P(Tissue Congestion=Present | RSV=False) = 0.034134961748258946
+P(Tissue Congestion=Not Mentioned | RSV=True) = 0.6933453237410072
+P(Tissue Congestion=Negated | RSV=True) = 0.0035971223021582736
+P(Tissue Congestion=Present | RSV=True) = 0.30305755395683454
+P(Unintentional Material Aspiration=Not Mentioned | RSV=False) = 0.9913661989547955
+P(Unintentional Material Aspiration=Negated | RSV=False) = 4.345489267785058E-4
+P(Unintentional Material Aspiration=Present | RSV=False) = 0.008199252118426018
+P(Unintentional Material Aspiration=Not Mentioned | RSV=True) = 0.960431654676259
+P(Unintentional Material Aspiration=Negated | RSV=True) = 0.0017985611510791368
+P(Unintentional Material Aspiration=Present | RSV=True) = 0.03776978417266187
+P(Discharge, body substance=Not Mentioned | RSV=False) = 0.3957254108202683
+P(Discharge, body substance=Negated | RSV=False) = 0.12828341738424417
+P(Discharge, body substance=Present | RSV=False) = 0.47599117179548756
+P(Discharge, body substance=Not Mentioned | RSV=True) = 0.48201438848920863
+P(Discharge, body substance=Negated | RSV=True) = 0.33363309352517984
+P(Discharge, body substance=Present | RSV=True) = 0.1843525179856115
+P(Head bobbing=Not Mentioned | RSV=False) = 0.9997598545404646
+P(Head bobbing=Negated | RSV=False) = 5.7177490365592876E-5
+P(Head bobbing=Present | RSV=False) = 1.829679691698972E-4
+P(Head bobbing=Not Mentioned | RSV=True) = 0.954136690647482
+P(Head bobbing=Negated | RSV=True) = 0.008992805755395683
+P(Head bobbing=Present | RSV=True) = 0.0368705035971223
+P(Palpitations, CTCAE=Not Mentioned | RSV=False) = 0.9070980136539847
+P(Palpitations, CTCAE=Negated | RSV=False) = 0.0429746017587796
+P(Palpitations, CTCAE=Present | RSV=False) = 0.049927384587235696
+P(Palpitations, CTCAE=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Palpitations, CTCAE=Negated | RSV=True) = 0.011690647482014389
+P(Palpitations, CTCAE=Present | RSV=True) = 0.009892086330935251
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Not Mentioned | RSV=False) = 0.9965579150799914
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Negated | RSV=False) = 3.4306494219355724E-4
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Present | RSV=False) = 0.0030990199778151337
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Not Mentioned | RSV=True) = 0.9910071942446043
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Negated | RSV=True) = 0.0017985611510791368
+P(American College of Cardiology/American Heart Association Lesion Complexity Score C=Present | RSV=True) = 0.007194244604316547
+P(Mild dehydration=Not Mentioned | RSV=False) = 0.9951056068247053
+P(Mild dehydration=Negated | RSV=False) = 1.0291948265806717E-4
+P(Mild dehydration=Present | RSV=False) = 0.0047914736926366825
+P(Mild dehydration=Not Mentioned | RSV=True) = 0.9856115107913669
+P(Mild dehydration=Negated | RSV=True) = 8.992805755395684E-4
+P(Mild dehydration=Present | RSV=True) = 0.013489208633093525
+P(History of bronchiolitis=Not Mentioned | RSV=False) = 0.9996798060539527
+P(History of bronchiolitis=Negated | RSV=False) = 1.1435498073118575E-5
+P(History of bronchiolitis=Present | RSV=False) = 3.0875844797420153E-4
+P(History of bronchiolitis=Not Mentioned | RSV=True) = 0.9829136690647482
+P(History of bronchiolitis=Negated | RSV=True) = 8.992805755395684E-4
+P(History of bronchiolitis=Present | RSV=True) = 0.01618705035971223
+P(Allergic disposition=Not Mentioned | RSV=False) = 0.9255777785401443
+P(Allergic disposition=Negated | RSV=False) = 0.007330154264869006
+P(Allergic disposition=Present | RSV=False) = 0.06709206719498667
+P(Allergic disposition=Not Mentioned | RSV=True) = 0.7607913669064749
+P(Allergic disposition=Negated | RSV=True) = 0.0017985611510791368
+P(Allergic disposition=Present | RSV=True) = 0.23741007194244604
+P(Agree=Not Mentioned | RSV=False) = 0.917252735942914
+P(Agree=Negated | RSV=False) = 0.0018068086955527348
+P(Agree=Present | RSV=False) = 0.08094045536153327
+P(Agree=Not Mentioned | RSV=True) = 0.9244604316546763
+P(Agree=Negated | RSV=True) = 8.992805755395684E-4
+P(Agree=Present | RSV=True) = 0.07464028776978417
+P(Weakness=Not Mentioned | RSV=False) = 0.7874026553226525
+P(Weakness=Negated | RSV=False) = 0.04892106075680126
+P(Weakness=Present | RSV=False) = 0.16367628392054617
+P(Weakness=Not Mentioned | RSV=True) = 0.9442446043165468
+P(Weakness=Negated | RSV=True) = 0.006294964028776978
+P(Weakness=Present | RSV=True) = 0.04946043165467626
+P(Recurrent fevers=Not Mentioned | RSV=False) = 0.9924411357736687
+P(Recurrent fevers=Negated | RSV=False) = 0.005969329994167896
+P(Recurrent fevers=Present | RSV=False) = 0.0015895342321634819
+P(Recurrent fevers=Not Mentioned | RSV=True) = 0.9892086330935251
+P(Recurrent fevers=Negated | RSV=True) = 0.0035971223021582736
+P(Recurrent fevers=Present | RSV=True) = 0.007194244604316547
+P(Center of town=Not Mentioned | RSV=False) = 0.9695472686312853
+P(Center of town=Negated | RSV=False) = 2.172744633892529E-4
+P(Center of town=Present | RSV=False) = 0.03023545690532551
+P(Center of town=Not Mentioned | RSV=True) = 0.9946043165467626
+P(Center of town=Negated | RSV=True) = 8.992805755395684E-4
+P(Center of town=Present | RSV=True) = 0.0044964028776978415
+P(Skin Bruise=Not Mentioned | RSV=False) = 0.9550470570745709
+P(Skin Bruise=Negated | RSV=False) = 0.011332578590460508
+P(Skin Bruise=Present | RSV=False) = 0.03362036433496861
+P(Skin Bruise=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Skin Bruise=Negated | RSV=True) = 8.992805755395684E-4
+P(Skin Bruise=Present | RSV=True) = 8.992805755395684E-4
+P(Full Term Birth=Not Mentioned | RSV=False) = 0.98118860566972
+P(Full Term Birth=Negated | RSV=False) = 4.57419922924743E-5
+P(Full Term Birth=Present | RSV=False) = 0.01876565233798758
+P(Full Term Birth=Not Mentioned | RSV=True) = 0.7464028776978417
+P(Full Term Birth=Negated | RSV=True) = 8.992805755395684E-4
+P(Full Term Birth=Present | RSV=True) = 0.2526978417266187
+P(Tachycardia by ECG Finding=Not Mentioned | RSV=False) = 0.94888332361316
+P(Tachycardia by ECG Finding=Negated | RSV=False) = 0.010394867748464784
+P(Tachycardia by ECG Finding=Present | RSV=False) = 0.04072180863837525
+P(Tachycardia by ECG Finding=Not Mentioned | RSV=True) = 0.8390287769784173
+P(Tachycardia by ECG Finding=Negated | RSV=True) = 0.007194244604316547
+P(Tachycardia by ECG Finding=Present | RSV=True) = 0.15377697841726617
+P(Karnofsky Performance Status 80=Not Mentioned | RSV=False) = 0.9993138701156129
+P(Karnofsky Performance Status 80=Negated | RSV=False) = 1.1435498073118575E-5
+P(Karnofsky Performance Status 80=Present | RSV=False) = 6.746943863139959E-4
+P(Karnofsky Performance Status 80=Not Mentioned | RSV=True) = 0.9775179856115108
+P(Karnofsky Performance Status 80=Negated | RSV=True) = 8.992805755395684E-4
+P(Karnofsky Performance Status 80=Present | RSV=True) = 0.02158273381294964
+P(Resident - answer to question=Not Mentioned | RSV=False) = 0.5618260203323155
+P(Resident - answer to question=Negated | RSV=False) = 0.0024929385799398493
+P(Resident - answer to question=Present | RSV=False) = 0.4356810410877446
+P(Resident - answer to question=Not Mentioned | RSV=True) = 0.2239208633093525
+P(Resident - answer to question=Negated | RSV=True) = 8.992805755395684E-4
+P(Resident - answer to question=Present | RSV=True) = 0.7751798561151079
+P(Transplant=Not Mentioned | RSV=False) = 0.9949112033574622
+P(Transplant=Negated | RSV=False) = 2.0583896531613434E-4
+P(Transplant=Present | RSV=False) = 0.0048829576772216315
+P(Transplant=Not Mentioned | RSV=True) = 0.9811151079136691
+P(Transplant=Negated | RSV=True) = 0.0017985611510791368
+P(Transplant=Present | RSV=True) = 0.0170863309352518
+P(At work=Not Mentioned | RSV=False) = 0.9785241346186834
+P(At work=Negated | RSV=False) = 1.829679691698972E-4
+P(At work=Present | RSV=False) = 0.021292897412146787
+P(At work=Not Mentioned | RSV=True) = 0.9982014388489209
+P(At work=Negated | RSV=True) = 8.992805755395684E-4
+P(At work=Present | RSV=True) = 8.992805755395684E-4
+P(Numbness or tingling=Not Mentioned | RSV=False) = 0.9654190538268894
+P(Numbness or tingling=Negated | RSV=False) = 0.016924537148215492
+P(Numbness or tingling=Present | RSV=False) = 0.01765640902489508
+P(Numbness or tingling=Not Mentioned | RSV=True) = 0.9964028776978417
+P(Numbness or tingling=Negated | RSV=True) = 0.0017985611510791368
+P(Numbness or tingling=Present | RSV=True) = 0.0017985611510791368
+P(Nausea or vomiting=Not Mentioned | RSV=False) = 0.9302663327501229
+P(Nausea or vomiting=Negated | RSV=False) = 0.03557583450547189
+P(Nausea or vomiting=Present | RSV=False) = 0.03415783274440518
+P(Nausea or vomiting=Not Mentioned | RSV=True) = 0.9811151079136691
+P(Nausea or vomiting=Negated | RSV=True) = 0.01079136690647482
+P(Nausea or vomiting=Present | RSV=True) = 0.008093525179856115
+P(UTD=Not Mentioned | RSV=False) = 0.9909888275183826
+P(UTD=Negated | RSV=False) = 2.9732294990108296E-4
+P(UTD=Present | RSV=False) = 0.008713849531716354
+P(UTD=Not Mentioned | RSV=True) = 0.9658273381294964
+P(UTD=Negated | RSV=True) = 0.0017985611510791368
+P(UTD=Present | RSV=True) = 0.03237410071942446
+P(Too early=Not Mentioned | RSV=False) = 0.9931958786464945
+P(Too early=Negated | RSV=False) = 1.0291948265806717E-4
+P(Too early=Present | RSV=False) = 0.006701201870847485
+P(Too early=Not Mentioned | RSV=True) = 0.927158273381295
+P(Too early=Negated | RSV=True) = 8.992805755395684E-4
+P(Too early=Present | RSV=True) = 0.07194244604316546
+P(Overdose=Not Mentioned | RSV=False) = 0.9904627946070191
+P(Overdose=Negated | RSV=False) = 7.090008805333516E-4
+P(Overdose=Present | RSV=False) = 0.00882820451244754
+P(Overdose=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Overdose=Negated | RSV=True) = 8.992805755395684E-4
+P(Overdose=Present | RSV=True) = 8.992805755395684E-4
+P(3 times=Not Mentioned | RSV=False) = 0.8872345535009777
+P(3 times=Negated | RSV=False) = 9.14839845849486E-5
+P(3 times=Present | RSV=False) = 0.11267396251443731
+P(3 times=Not Mentioned | RSV=True) = 0.9568345323741008
+P(3 times=Negated | RSV=True) = 8.992805755395684E-4
+P(3 times=Present | RSV=True) = 0.04226618705035971
+P(2 times=Not Mentioned | RSV=False) = 0.8435623863597379
+P(2 times=Negated | RSV=False) = 4.57419922924743E-5
+P(2 times=Present | RSV=False) = 0.15639187164796964
+P(2 times=Not Mentioned | RSV=True) = 0.9379496402877698
+P(2 times=Negated | RSV=True) = 8.992805755395684E-4
+P(2 times=Present | RSV=True) = 0.06115107913669065
+P(Radiologic Impression=Not Mentioned | RSV=False) = 0.1482497970199092
+P(Radiologic Impression=Negated | RSV=False) = 0.0024014545953549007
+P(Radiologic Impression=Present | RSV=False) = 0.849348748384736
+P(Radiologic Impression=Not Mentioned | RSV=True) = 0.0683453237410072
+P(Radiologic Impression=Negated | RSV=True) = 0.002697841726618705
+P(Radiologic Impression=Present | RSV=True) = 0.9289568345323741
+P(Pathologic Complete Response=Not Mentioned | RSV=False) = 0.9972326094663053
+P(Pathologic Complete Response=Negated | RSV=False) = 3.430649421935573E-5
+P(Pathologic Complete Response=Present | RSV=False) = 0.0027330840394753394
+P(Pathologic Complete Response=Not Mentioned | RSV=True) = 0.9721223021582733
+P(Pathologic Complete Response=Negated | RSV=True) = 8.992805755395684E-4
+P(Pathologic Complete Response=Present | RSV=True) = 0.02697841726618705
+P(High Risk Acute Leukemia=Not Mentioned | RSV=False) = 0.9965579150799914
+P(High Risk Acute Leukemia=Negated | RSV=False) = 3.4306494219355724E-4
+P(High Risk Acute Leukemia=Present | RSV=False) = 0.0030990199778151337
+P(High Risk Acute Leukemia=Not Mentioned | RSV=True) = 0.9910071942446043
+P(High Risk Acute Leukemia=Negated | RSV=True) = 0.0017985611510791368
+P(High Risk Acute Leukemia=Present | RSV=True) = 0.007194244604316547
+P(Organomegaly=Not Mentioned | RSV=False) = 0.7469552986380322
+P(Organomegaly=Negated | RSV=False) = 0.25054032728395487
+P(Organomegaly=Present | RSV=False) = 0.002504374078012968
+P(Organomegaly=Not Mentioned | RSV=True) = 0.6061151079136691
+P(Organomegaly=Negated | RSV=True) = 0.39118705035971224
+P(Organomegaly=Present | RSV=True) = 0.002697841726618705
+P(Rambling=Not Mentioned | RSV=False) = 0.9918922318661589
+P(Rambling=Negated | RSV=False) = 1.1435498073118575E-5
+P(Rambling=Present | RSV=False) = 0.008096332635767952
+P(Rambling=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Rambling=Negated | RSV=True) = 8.992805755395684E-4
+P(Rambling=Present | RSV=True) = 8.992805755395684E-4
+P(Reactive to light=Not Mentioned | RSV=False) = 0.7842464578544719
+P(Reactive to light=Negated | RSV=False) = 2.0583896531613434E-4
+P(Reactive to light=Present | RSV=False) = 0.21554770318021202
+P(Reactive to light=Not Mentioned | RSV=True) = 0.9433453237410072
+P(Reactive to light=Negated | RSV=True) = 8.992805755395684E-4
+P(Reactive to light=Present | RSV=True) = 0.05575539568345324
+P(Peribronchial Cuffing=Not Mentioned | RSV=False) = 0.9992566926252473
+P(Peribronchial Cuffing=Negated | RSV=False) = 1.1435498073118575E-5
+P(Peribronchial Cuffing=Present | RSV=False) = 7.318718766795888E-4
+P(Peribronchial Cuffing=Not Mentioned | RSV=True) = 0.947841726618705
+P(Peribronchial Cuffing=Negated | RSV=True) = 8.992805755395684E-4
+P(Peribronchial Cuffing=Present | RSV=True) = 0.051258992805755396
+P(Much=Not Mentioned | RSV=False) = 0.834699875353071
+P(Much=Negated | RSV=False) = 0.008096332635767952
+P(Much=Present | RSV=False) = 0.15720379201116105
+P(Much=Not Mentioned | RSV=True) = 0.9019784172661871
+P(Much=Negated | RSV=True) = 0.018884892086330936
+P(Much=Present | RSV=True) = 0.07913669064748201
+P(Swollen Lymph Node=Not Mentioned | RSV=False) = 0.6248584857113452
+P(Swollen Lymph Node=Negated | RSV=False) = 0.3498233215547703
+P(Swollen Lymph Node=Present | RSV=False) = 0.025318192733884526
+P(Swollen Lymph Node=Not Mentioned | RSV=True) = 0.5701438848920863
+P(Swollen Lymph Node=Negated | RSV=True) = 0.41906474820143885
+P(Swollen Lymph Node=Present | RSV=True) = 0.01079136690647482
+P(Complete Pharyngeal Contraction=Not Mentioned | RSV=False) = 0.9388315208068887
+P(Complete Pharyngeal Contraction=Negated | RSV=False) = 0.002275664116550596
+P(Complete Pharyngeal Contraction=Present | RSV=False) = 0.05889281507656066
+P(Complete Pharyngeal Contraction=Not Mentioned | RSV=True) = 0.7607913669064749
+P(Complete Pharyngeal Contraction=Negated | RSV=True) = 0.0035971223021582736
+P(Complete Pharyngeal Contraction=Present | RSV=True) = 0.2356115107913669
+P(Laboratory observation=Not Mentioned | RSV=False) = 0.8890184912003842
+P(Laboratory observation=Negated | RSV=False) = 0.002950358502864592
+P(Laboratory observation=Present | RSV=False) = 0.10803115029675117
+P(Laboratory observation=Not Mentioned | RSV=True) = 0.7410071942446043
+P(Laboratory observation=Negated | RSV=True) = 0.0017985611510791368
+P(Laboratory observation=Present | RSV=True) = 0.25719424460431656
+P(Crutches Usually Used=Not Mentioned | RSV=False) = 0.9808798472217457
+P(Crutches Usually Used=Negated | RSV=False) = 5.260329113634544E-4
+P(Crutches Usually Used=Present | RSV=False) = 0.0185941198668908
+P(Crutches Usually Used=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Crutches Usually Used=Negated | RSV=True) = 8.992805755395684E-4
+P(Crutches Usually Used=Present | RSV=True) = 8.992805755395684E-4
+P(High risk=Not Mentioned | RSV=False) = 0.9965579150799914
+P(High risk=Negated | RSV=False) = 3.4306494219355724E-4
+P(High risk=Present | RSV=False) = 0.0030990199778151337
+P(High risk=Not Mentioned | RSV=True) = 0.9910071942446043
+P(High risk=Negated | RSV=True) = 0.0017985611510791368
+P(High risk=Present | RSV=True) = 0.007194244604316547
+P(High Level=Not Mentioned | RSV=False) = 0.9376651000034306
+P(High Level=Negated | RSV=False) = 0.001772502201333379
+P(High Level=Present | RSV=False) = 0.06056239779523597
+P(High Level=Not Mentioned | RSV=True) = 0.7095323741007195
+P(High Level=Negated | RSV=True) = 0.0017985611510791368
+P(High Level=Present | RSV=True) = 0.2886690647482014
+P(Low Level=Not Mentioned | RSV=False) = 0.8954681121136231
+P(Low Level=Negated | RSV=False) = 0.006712637368920604
+P(Low Level=Present | RSV=False) = 0.09781925051745628
+P(Low Level=Not Mentioned | RSV=True) = 0.7482014388489209
+P(Low Level=Negated | RSV=True) = 0.006294964028776978
+P(Low Level=Present | RSV=True) = 0.24550359712230216
+P(Nasal (intended site)=Not Mentioned | RSV=False) = 0.9750820496986746
+P(Nasal (intended site)=Negated | RSV=False) = 0.003236245954692557
+P(Nasal (intended site)=Present | RSV=False) = 0.02168170434663282
+P(Nasal (intended site)=Not Mentioned | RSV=True) = 0.8776978417266187
+P(Nasal (intended site)=Negated | RSV=True) = 0.009892086330935251
+P(Nasal (intended site)=Present | RSV=True) = 0.11241007194244604
+P(Rectal (intended site)=Not Mentioned | RSV=False) = 0.9319359154687983
+P(Rectal (intended site)=Negated | RSV=False) = 0.001154985305384976
+P(Rectal (intended site)=Present | RSV=False) = 0.06690909922581678
+P(Rectal (intended site)=Not Mentioned | RSV=True) = 0.4523381294964029
+P(Rectal (intended site)=Negated | RSV=True) = 0.0035971223021582736
+P(Rectal (intended site)=Present | RSV=True) = 0.5440647482014388
+P(Oral (intended site)=Not Mentioned | RSV=False) = 0.8294395462394365
+P(Oral (intended site)=Negated | RSV=False) = 0.005306071105927019
+P(Oral (intended site)=Present | RSV=False) = 0.16525438265463652
+P(Oral (intended site)=Not Mentioned | RSV=True) = 0.8255395683453237
+P(Oral (intended site)=Negated | RSV=True) = 0.0044964028776978415
+P(Oral (intended site)=Present | RSV=True) = 0.16996402877697842
+P(Influenza B (result)=Not Mentioned | RSV=False) = 0.9999542580077075
+P(Influenza B (result)=Negated | RSV=False) = 1.1435498073118575E-5
+P(Influenza B (result)=Present | RSV=False) = 3.430649421935573E-5
+P(Influenza B (result)=Not Mentioned | RSV=True) = 0.9919064748201439
+P(Influenza B (result)=Negated | RSV=True) = 0.00539568345323741
+P(Influenza B (result)=Present | RSV=True) = 0.002697841726618705
+P(Supplemental oxygen=Not Mentioned | RSV=False) = 0.9950484293343397
+P(Supplemental oxygen=Negated | RSV=False) = 0.0010520658227269088
+P(Supplemental oxygen=Present | RSV=False) = 0.003899504842933434
+P(Supplemental oxygen=Not Mentioned | RSV=True) = 0.9532374100719424
+P(Supplemental oxygen=Negated | RSV=True) = 0.0044964028776978415
+P(Supplemental oxygen=Present | RSV=True) = 0.04226618705035971
+P(At home=Not Mentioned | RSV=False) = 0.7692316488844672
+P(At home=Negated | RSV=False) = 0.0038308918544947227
+P(At home=Present | RSV=False) = 0.22693745926103812
+P(At home=Not Mentioned | RSV=True) = 0.5404676258992805
+P(At home=Negated | RSV=True) = 0.007194244604316547
+P(At home=Present | RSV=True) = 0.4523381294964029
+P(Myalgia, CTCAE 5=Not Mentioned | RSV=False) = 0.9974041419374021
+P(Myalgia, CTCAE 5=Negated | RSV=False) = 7.890493670451817E-4
+P(Myalgia, CTCAE 5=Present | RSV=False) = 0.0018068086955527348
+P(Myalgia, CTCAE 5=Not Mentioned | RSV=True) = 0.9964028776978417
+P(Myalgia, CTCAE 5=Negated | RSV=True) = 8.992805755395684E-4
+P(Myalgia, CTCAE 5=Present | RSV=True) = 0.002697841726618705
+P(Respiratory Failure, CTCAE=Not Mentioned | RSV=False) = 0.9961348016512859
+P(Respiratory Failure, CTCAE=Negated | RSV=False) = 9.14839845849486E-5
+P(Respiratory Failure, CTCAE=Present | RSV=False) = 0.0037737143641291297
+P(Respiratory Failure, CTCAE=Not Mentioned | RSV=True) = 0.9649280575539568
+P(Respiratory Failure, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Respiratory Failure, CTCAE=Present | RSV=True) = 0.0341726618705036
+P(Rhinorrhea, CTCAE=Not Mentioned | RSV=False) = 0.9591066588905279
+P(Rhinorrhea, CTCAE=Negated | RSV=False) = 0.007478815739819548
+P(Rhinorrhea, CTCAE=Present | RSV=False) = 0.033414525369652476
+P(Rhinorrhea, CTCAE=Not Mentioned | RSV=True) = 0.7778776978417267
+P(Rhinorrhea, CTCAE=Negated | RSV=True) = 0.007194244604316547
+P(Rhinorrhea, CTCAE=Present | RSV=True) = 0.21492805755395683
+P(Anxiety, CTCAE 5.0=Not Mentioned | RSV=False) = 0.9139021350074903
+P(Anxiety, CTCAE 5.0=Negated | RSV=False) = 0.009525769894907773
+P(Anxiety, CTCAE 5.0=Present | RSV=False) = 0.07657209509760197
+P(Anxiety, CTCAE 5.0=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Anxiety, CTCAE 5.0=Negated | RSV=True) = 0.007194244604316547
+P(Anxiety, CTCAE 5.0=Present | RSV=True) = 0.014388489208633094
+P(Fever, CTCAE=Not Mentioned | RSV=False) = 0.6222054501583817
+P(Fever, CTCAE=Negated | RSV=False) = 0.2416435097830686
+P(Fever, CTCAE=Present | RSV=False) = 0.13615104005854975
+P(Fever, CTCAE=Not Mentioned | RSV=True) = 0.24370503597122303
+P(Fever, CTCAE=Negated | RSV=True) = 0.21402877697841727
+P(Fever, CTCAE=Present | RSV=True) = 0.5422661870503597
+P(Sore Throat, CTCAE=Not Mentioned | RSV=False) = 0.8967260169016662
+P(Sore Throat, CTCAE=Negated | RSV=False) = 0.05169988678856908
+P(Sore Throat, CTCAE=Present | RSV=False) = 0.05157409630976477
+P(Sore Throat, CTCAE=Not Mentioned | RSV=True) = 0.9406474820143885
+P(Sore Throat, CTCAE=Negated | RSV=True) = 0.03237410071942446
+P(Sore Throat, CTCAE=Present | RSV=True) = 0.02697841726618705
+P(Pleural Effusion, CTCAE=Not Mentioned | RSV=False) = 0.9901426006609718
+P(Pleural Effusion, CTCAE=Negated | RSV=False) = 0.0015437922398710076
+P(Pleural Effusion, CTCAE=Present | RSV=False) = 0.008313607099157204
+P(Pleural Effusion, CTCAE=Not Mentioned | RSV=True) = 0.9388489208633094
+P(Pleural Effusion, CTCAE=Negated | RSV=True) = 0.019784172661870502
+P(Pleural Effusion, CTCAE=Present | RSV=True) = 0.04136690647482014
+P(Sepsis, CTCAE=Not Mentioned | RSV=False) = 0.9873980811234233
+P(Sepsis, CTCAE=Negated | RSV=False) = 9.14839845849486E-4
+P(Sepsis, CTCAE=Present | RSV=False) = 0.011687079030727182
+P(Sepsis, CTCAE=Not Mentioned | RSV=True) = 0.920863309352518
+P(Sepsis, CTCAE=Negated | RSV=True) = 0.002697841726618705
+P(Sepsis, CTCAE=Present | RSV=True) = 0.0764388489208633
+P(Upper Respiratory Infection, CTCAE=Not Mentioned | RSV=False) = 0.9901197296648255
+P(Upper Respiratory Infection, CTCAE=Negated | RSV=False) = 4.57419922924743E-5
+P(Upper Respiratory Infection, CTCAE=Present | RSV=False) = 0.009834528342881975
+P(Upper Respiratory Infection, CTCAE=Not Mentioned | RSV=True) = 0.9532374100719424
+P(Upper Respiratory Infection, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Upper Respiratory Infection, CTCAE=Present | RSV=True) = 0.045863309352517985
+P(Meningitis, CTCAE=Not Mentioned | RSV=False) = 0.9760655025329629
+P(Meningitis, CTCAE=Negated | RSV=False) = 0.001669582718675312
+P(Meningitis, CTCAE=Present | RSV=False) = 0.022264914748361866
+P(Meningitis, CTCAE=Not Mentioned | RSV=True) = 0.9460431654676259
+P(Meningitis, CTCAE=Negated | RSV=True) = 0.0035971223021582736
+P(Meningitis, CTCAE=Present | RSV=True) = 0.050359712230215826
+P(Arthritis, CTCAE=Not Mentioned | RSV=False) = 0.9168868000045742
+P(Arthritis, CTCAE=Negated | RSV=False) = 4.8029091907098015E-4
+P(Arthritis, CTCAE=Present | RSV=False) = 0.08263290907635482
+P(Arthritis, CTCAE=Not Mentioned | RSV=True) = 0.9640287769784173
+P(Arthritis, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Arthritis, CTCAE=Present | RSV=True) = 0.03507194244604316
+P(Bronchospasm, CTCAE=Not Mentioned | RSV=False) = 0.9959403981840429
+P(Bronchospasm, CTCAE=Negated | RSV=False) = 2.172744633892529E-4
+P(Bronchospasm, CTCAE=Present | RSV=False) = 0.0038423273525678412
+P(Bronchospasm, CTCAE=Not Mentioned | RSV=True) = 0.9757194244604317
+P(Bronchospasm, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Bronchospasm, CTCAE=Present | RSV=True) = 0.023381294964028777
+P(Lethargy, CTCAE=Not Mentioned | RSV=False) = 0.9905428430935309
+P(Lethargy, CTCAE=Negated | RSV=False) = 0.003259116950838794
+P(Lethargy, CTCAE=Present | RSV=False) = 0.006198039955630267
+P(Lethargy, CTCAE=Not Mentioned | RSV=True) = 0.9514388489208633
+P(Lethargy, CTCAE=Negated | RSV=True) = 0.02877697841726619
+P(Lethargy, CTCAE=Present | RSV=True) = 0.019784172661870502
+P(Productive Cough, CTCAE=Not Mentioned | RSV=False) = 0.9851452880030189
+P(Productive Cough, CTCAE=Negated | RSV=False) = 0.0017610667032602605
+P(Productive Cough, CTCAE=Present | RSV=False) = 0.013093645293720767
+P(Productive Cough, CTCAE=Not Mentioned | RSV=True) = 0.9784172661870504
+P(Productive Cough, CTCAE=Negated | RSV=True) = 0.0044964028776978415
+P(Productive Cough, CTCAE=Present | RSV=True) = 0.0170863309352518
+P(Malaise, CTCAE=Not Mentioned | RSV=False) = 0.9834413987901243
+P(Malaise, CTCAE=Negated | RSV=False) = 0.0036936658776172996
+P(Malaise, CTCAE=Present | RSV=False) = 0.012864935332258397
+P(Malaise, CTCAE=Not Mentioned | RSV=True) = 0.9910071942446043
+P(Malaise, CTCAE=Negated | RSV=True) = 0.0017985611510791368
+P(Malaise, CTCAE=Present | RSV=True) = 0.007194244604316547
+P(Pain, CTCAE=Not Mentioned | RSV=False) = 0.4795361761981543
+P(Pain, CTCAE=Negated | RSV=False) = 0.10375427401740482
+P(Pain, CTCAE=Present | RSV=False) = 0.41670954978444086
+P(Pain, CTCAE=Not Mentioned | RSV=True) = 0.8884892086330936
+P(Pain, CTCAE=Negated | RSV=True) = 0.030575539568345324
+P(Pain, CTCAE=Present | RSV=True) = 0.08093525179856115
+P(Chills, CTCAE=Not Mentioned | RSV=False) = 0.6641965990828731
+P(Chills, CTCAE=Negated | RSV=False) = 0.08291879652818278
+P(Chills, CTCAE=Present | RSV=False) = 0.25288460438894417
+P(Chills, CTCAE=Not Mentioned | RSV=True) = 0.9226618705035972
+P(Chills, CTCAE=Negated | RSV=True) = 0.018884892086330936
+P(Chills, CTCAE=Present | RSV=True) = 0.05845323741007194
+P(Headache, CTCAE=Not Mentioned | RSV=False) = 0.7638455292920283
+P(Headache, CTCAE=Negated | RSV=False) = 0.11295984996626528
+P(Headache, CTCAE=Present | RSV=False) = 0.12319462074170641
+P(Headache, CTCAE=Not Mentioned | RSV=True) = 0.9370503597122302
+P(Headache, CTCAE=Negated | RSV=True) = 0.045863309352517985
+P(Headache, CTCAE=Present | RSV=True) = 0.0170863309352518
+P(Conjunctivitis, CTCAE=Not Mentioned | RSV=False) = 0.9907715530549933
+P(Conjunctivitis, CTCAE=Negated | RSV=False) = 7.433073747527074E-4
+P(Conjunctivitis, CTCAE=Present | RSV=False) = 0.008485139570253982
+P(Conjunctivitis, CTCAE=Not Mentioned | RSV=True) = 0.9910071942446043
+P(Conjunctivitis, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Conjunctivitis, CTCAE=Present | RSV=True) = 0.008093525179856115
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | RSV=False) = 0.9816117190984254
+P(Sinus Tachycardia, CTCAE 5.0=Negated | RSV=False) = 1.1435498073118575E-4
+P(Sinus Tachycardia, CTCAE 5.0=Present | RSV=False) = 0.01827392592084348
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | RSV=True) = 0.966726618705036
+P(Sinus Tachycardia, CTCAE 5.0=Negated | RSV=True) = 8.992805755395684E-4
+P(Sinus Tachycardia, CTCAE 5.0=Present | RSV=True) = 0.03237410071942446
+P(Fall, CTCAE=Not Mentioned | RSV=False) = 0.9243770512424668
+P(Fall, CTCAE=Negated | RSV=False) = 0.005637700550047457
+P(Fall, CTCAE=Present | RSV=False) = 0.06998524820748568
+P(Fall, CTCAE=Not Mentioned | RSV=True) = 0.9973021582733813
+P(Fall, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Fall, CTCAE=Present | RSV=True) = 0.0017985611510791368
+P(Nausea, CTCAE 5.0=Not Mentioned | RSV=False) = 0.6673871030452732
+P(Nausea, CTCAE 5.0=Negated | RSV=False) = 0.11882626047777511
+P(Nausea, CTCAE 5.0=Present | RSV=False) = 0.21378663647695176
+P(Nausea, CTCAE 5.0=Not Mentioned | RSV=True) = 0.9235611510791367
+P(Nausea, CTCAE 5.0=Negated | RSV=True) = 0.03776978417266187
+P(Nausea, CTCAE 5.0=Present | RSV=True) = 0.03866906474820144
+P(Dizziness, CTCAE 5.0=Not Mentioned | RSV=False) = 0.9175614943908882
+P(Dizziness, CTCAE 5.0=Negated | RSV=False) = 0.011675643532654064
+P(Dizziness, CTCAE 5.0=Present | RSV=False) = 0.07076286207645774
+P(Dizziness, CTCAE 5.0=Not Mentioned | RSV=True) = 0.9802158273381295
+P(Dizziness, CTCAE 5.0=Negated | RSV=True) = 0.002697841726618705
+P(Dizziness, CTCAE 5.0=Present | RSV=True) = 0.0170863309352518
+P(Wheezing, CTCAE=Not Mentioned | RSV=False) = 0.9339714341258134
+P(Wheezing, CTCAE=Negated | RSV=False) = 0.03979553329445264
+P(Wheezing, CTCAE=Present | RSV=False) = 0.02623303257973401
+P(Wheezing, CTCAE=Not Mentioned | RSV=True) = 0.7032374100719424
+P(Wheezing, CTCAE=Negated | RSV=True) = 0.07014388489208633
+P(Wheezing, CTCAE=Present | RSV=True) = 0.22661870503597123
+P(Back Pain, CTCAE 5.0=Not Mentioned | RSV=False) = 0.8330417281324688
+P(Back Pain, CTCAE 5.0=Negated | RSV=False) = 0.02897755211728247
+P(Back Pain, CTCAE 5.0=Present | RSV=False) = 0.13798071975024873
+P(Back Pain, CTCAE 5.0=Not Mentioned | RSV=True) = 0.9568345323741008
+P(Back Pain, CTCAE 5.0=Negated | RSV=True) = 0.007194244604316547
+P(Back Pain, CTCAE 5.0=Present | RSV=True) = 0.03597122302158273
+P(Flu Like Symptoms, CTCAE=Not Mentioned | RSV=False) = 0.9996569350578064
+P(Flu Like Symptoms, CTCAE=Negated | RSV=False) = 1.1435498073118575E-5
+P(Flu Like Symptoms, CTCAE=Present | RSV=False) = 3.316294441204387E-4
+P(Flu Like Symptoms, CTCAE=Not Mentioned | RSV=True) = 0.9964028776978417
+P(Flu Like Symptoms, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Flu Like Symptoms, CTCAE=Present | RSV=True) = 0.002697841726618705
+P(Suicidal Ideation, CTCAE=Not Mentioned | RSV=False) = 0.9777350852516381
+P(Suicidal Ideation, CTCAE=Negated | RSV=False) = 0.008862511006666896
+P(Suicidal Ideation, CTCAE=Present | RSV=False) = 0.01340240374169497
+P(Suicidal Ideation, CTCAE=Not Mentioned | RSV=True) = 0.9982014388489209
+P(Suicidal Ideation, CTCAE=Negated | RSV=True) = 8.992805755395684E-4
+P(Suicidal Ideation, CTCAE=Present | RSV=True) = 8.992805755395684E-4
+P(Pancreatitis, CTCAE 5.0=Not Mentioned | RSV=False) = 0.9712625933422531
+P(Pancreatitis, CTCAE 5.0=Negated | RSV=False) = 0.0017153247109677862
+P(Pancreatitis, CTCAE 5.0=Present | RSV=False) = 0.027022081946779193
+P(Pancreatitis, CTCAE 5.0=Not Mentioned | RSV=True) = 0.9892086330935251
+P(Pancreatitis, CTCAE 5.0=Negated | RSV=True) = 8.992805755395684E-4
+P(Pancreatitis, CTCAE 5.0=Present | RSV=True) = 0.009892086330935251
+P(Abdominal Pain, CTCAE 5=Not Mentioned | RSV=False) = 0.6584445435520944
+P(Abdominal Pain, CTCAE 5=Negated | RSV=False) = 0.12508147792377097
+P(Abdominal Pain, CTCAE 5=Present | RSV=False) = 0.2164739785241346
+P(Abdominal Pain, CTCAE 5=Not Mentioned | RSV=True) = 0.8803956834532374
+P(Abdominal Pain, CTCAE 5=Negated | RSV=True) = 0.0737410071942446
+P(Abdominal Pain, CTCAE 5=Present | RSV=True) = 0.045863309352517985
+P(Bruising, CTCAE=Not Mentioned | RSV=False) = 0.9625373083124635
+P(Bruising, CTCAE=Negated | RSV=False) = 0.022207737257996272
+P(Bruising, CTCAE=Present | RSV=False) = 0.015254954429540179
+P(Bruising, CTCAE=Not Mentioned | RSV=True) = 0.987410071942446
+P(Bruising, CTCAE=Negated | RSV=True) = 0.007194244604316547
+P(Bruising, CTCAE=Present | RSV=True) = 0.00539568345323741
+P(TM genotype=Not Mentioned | RSV=False) = 0.9912061019817718
+P(TM genotype=Negated | RSV=False) = 1.1435498073118575E-5
+P(TM genotype=Present | RSV=False) = 0.008782462520155066
+P(TM genotype=Not Mentioned | RSV=True) = 0.9370503597122302
+P(TM genotype=Negated | RSV=True) = 8.992805755395684E-4
+P(TM genotype=Present | RSV=True) = 0.06205035971223022
+P(Nasal Congestion, CTCAE=Not Mentioned | RSV=False) = 0.9413358948849017
+P(Nasal Congestion, CTCAE=Negated | RSV=False) = 0.02904616510572118
+P(Nasal Congestion, CTCAE=Present | RSV=False) = 0.02961794000937711
+P(Nasal Congestion, CTCAE=Not Mentioned | RSV=True) = 0.6034172661870504
+P(Nasal Congestion, CTCAE=Negated | RSV=True) = 0.02697841726618705
+P(Nasal Congestion, CTCAE=Present | RSV=True) = 0.36960431654676257
+P(Fatigue, CTCAE 5.0=Not Mentioned | RSV=False) = 0.9577000926275344
+P(Fatigue, CTCAE 5.0=Negated | RSV=False) = 0.0113897560808261
+P(Fatigue, CTCAE 5.0=Present | RSV=False) = 0.030910151291639508
+P(Fatigue, CTCAE 5.0=Not Mentioned | RSV=True) = 0.9595323741007195
+P(Fatigue, CTCAE 5.0=Negated | RSV=True) = 0.002697841726618705
+P(Fatigue, CTCAE 5.0=Present | RSV=True) = 0.03776978417266187
+P(Rous Sarcoma Virus Positive=Not Mentioned | RSV=False) = 0.9999542580077075
+P(Rous Sarcoma Virus Positive=Negated | RSV=False) = 1.1435498073118575E-5
+P(Rous Sarcoma Virus Positive=Present | RSV=False) = 3.430649421935573E-5
+P(Rous Sarcoma Virus Positive=Not Mentioned | RSV=True) = 0.8776978417266187
+P(Rous Sarcoma Virus Positive=Negated | RSV=True) = 0.0017985611510791368
+P(Rous Sarcoma Virus Positive=Present | RSV=True) = 0.12050359712230216
+P(Patient age=Not Mentioned | RSV=False) = 0.8956396445847199
+P(Patient age=Negated | RSV=False) = 5.7177490365592876E-5
+P(Patient age=Present | RSV=False) = 0.10430317792491452
+P(Patient age=Not Mentioned | RSV=True) = 0.5899280575539568
+P(Patient age=Negated | RSV=True) = 8.992805755395684E-4
+P(Patient age=Present | RSV=True) = 0.4091726618705036
+P(Mild Hallucination=Not Mentioned | RSV=False) = 0.6924651503196222
+P(Mild Hallucination=Negated | RSV=False) = 0.0018182441936258533
+P(Mild Hallucination=Present | RSV=False) = 0.305716605486752
+P(Mild Hallucination=Not Mentioned | RSV=True) = 0.5800359712230215
+P(Mild Hallucination=Negated | RSV=True) = 0.0017985611510791368
+P(Mild Hallucination=Present | RSV=True) = 0.4181654676258993
+P(Nasal secretions=Not Mentioned | RSV=False) = 0.9995883220693678
+P(Nasal secretions=Negated | RSV=False) = 1.1435498073118575E-5
+P(Nasal secretions=Present | RSV=False) = 4.002424325591501E-4
+P(Nasal secretions=Not Mentioned | RSV=True) = 0.9766187050359713
+P(Nasal secretions=Negated | RSV=True) = 8.992805755395684E-4
+P(Nasal secretions=Present | RSV=True) = 0.022482014388489208
+P(Epidermal cGVHD Score 2=Not Mentioned | RSV=False) = 0.6895376628129039
+P(Epidermal cGVHD Score 2=Negated | RSV=False) = 0.0018182441936258533
+P(Epidermal cGVHD Score 2=Present | RSV=False) = 0.30864409299347034
+P(Epidermal cGVHD Score 2=Not Mentioned | RSV=True) = 0.5782374100719424
+P(Epidermal cGVHD Score 2=Negated | RSV=True) = 0.0017985611510791368
+P(Epidermal cGVHD Score 2=Present | RSV=True) = 0.4199640287769784
+P(Poorly Marginated Nodule=Not Mentioned | RSV=False) = 0.9945109609249031
+P(Poorly Marginated Nodule=Negated | RSV=False) = 6.861298843871145E-5
+P(Poorly Marginated Nodule=Present | RSV=False) = 0.005420426086658205
+P(Poorly Marginated Nodule=Not Mentioned | RSV=True) = 0.9775179856115108
+P(Poorly Marginated Nodule=Negated | RSV=True) = 8.992805755395684E-4
+P(Poorly Marginated Nodule=Present | RSV=True) = 0.02158273381294964
+P(Well Marginated Nodule=Not Mentioned | RSV=False) = 0.48317266458540603
+P(Well Marginated Nodule=Negated | RSV=False) = 0.012819193339965923
+P(Well Marginated Nodule=Present | RSV=False) = 0.5040081420746281
+P(Well Marginated Nodule=Not Mentioned | RSV=True) = 0.4055755395683453
+P(Well Marginated Nodule=Negated | RSV=True) = 0.02068345323741007
+P(Well Marginated Nodule=Present | RSV=True) = 0.5737410071942446
+P(Round Nodule=Not Mentioned | RSV=False) = 0.7798895330886136
+P(Round Nodule=Negated | RSV=False) = 6.403878920946402E-4
+P(Round Nodule=Present | RSV=False) = 0.2194700790192917
+P(Round Nodule=Not Mentioned | RSV=True) = 0.939748201438849
+P(Round Nodule=Negated | RSV=True) = 8.992805755395684E-4
+P(Round Nodule=Present | RSV=True) = 0.05935251798561151
+P(Epidermal cGVHD Score 0=Not Mentioned | RSV=False) = 0.18317380813521333
+P(Epidermal cGVHD Score 0=Negated | RSV=False) = 0.018399716399647787
+P(Epidermal cGVHD Score 0=Present | RSV=False) = 0.7984264754651389
+P(Epidermal cGVHD Score 0=Not Mentioned | RSV=True) = 0.4631294964028777
+P(Epidermal cGVHD Score 0=Negated | RSV=True) = 0.017985611510791366
+P(Epidermal cGVHD Score 0=Present | RSV=True) = 0.5188848920863309
+P(Normal Gait=Not Mentioned | RSV=False) = 0.1682504831497936
+P(Normal Gait=Negated | RSV=False) = 0.011344014088533626
+P(Normal Gait=Present | RSV=False) = 0.8204055027616728
+P(Normal Gait=Not Mentioned | RSV=True) = 0.08543165467625899
+P(Normal Gait=Negated | RSV=True) = 0.008093525179856115
+P(Normal Gait=Present | RSV=True) = 0.9064748201438849
+P(High (finding)=Not Mentioned | RSV=False) = 0.937893809964893
+P(High (finding)=Negated | RSV=False) = 0.0017381957071140233
+P(High (finding)=Present | RSV=False) = 0.06036799432799295
+P(High (finding)=Not Mentioned | RSV=True) = 0.7095323741007195
+P(High (finding)=Negated | RSV=True) = 0.0017985611510791368
+P(High (finding)=Present | RSV=True) = 0.2886690647482014
+P(Normal Immune Presence=Not Mentioned | RSV=False) = 0.16964561391471406
+P(Normal Immune Presence=Negated | RSV=False) = 0.011732821023019658
+P(Normal Immune Presence=Present | RSV=False) = 0.8186215650622662
+P(Normal Immune Presence=Not Mentioned | RSV=True) = 0.08543165467625899
+P(Normal Immune Presence=Negated | RSV=True) = 0.008093525179856115
+P(Normal Immune Presence=Present | RSV=True) = 0.9064748201438849
+P(Residual Cancer Burden Class 0=Not Mentioned | RSV=False) = 0.9972326094663053
+P(Residual Cancer Burden Class 0=Negated | RSV=False) = 3.430649421935573E-5
+P(Residual Cancer Burden Class 0=Present | RSV=False) = 0.0027330840394753394
+P(Residual Cancer Burden Class 0=Not Mentioned | RSV=True) = 0.9721223021582733
+P(Residual Cancer Burden Class 0=Negated | RSV=True) = 8.992805755395684E-4
+P(Residual Cancer Burden Class 0=Present | RSV=True) = 0.02697841726618705
+P(IPSS-R Risk Category High=Not Mentioned | RSV=False) = 0.9350806774389059
+P(IPSS-R Risk Category High=Negated | RSV=False) = 0.0020355186570151064
+P(IPSS-R Risk Category High=Present | RSV=False) = 0.06288380390407904
+P(IPSS-R Risk Category High=Not Mentioned | RSV=True) = 0.7059352517985612
+P(IPSS-R Risk Category High=Negated | RSV=True) = 0.002697841726618705
+P(IPSS-R Risk Category High=Present | RSV=True) = 0.29136690647482016
+P(International Prognostic Index High Risk Group=Not Mentioned | RSV=False) = 0.9965579150799914
+P(International Prognostic Index High Risk Group=Negated | RSV=False) = 3.4306494219355724E-4
+P(International Prognostic Index High Risk Group=Present | RSV=False) = 0.0030990199778151337
+P(International Prognostic Index High Risk Group=Not Mentioned | RSV=True) = 0.9910071942446043
+P(International Prognostic Index High Risk Group=Negated | RSV=True) = 0.0017985611510791368
+P(International Prognostic Index High Risk Group=Present | RSV=True) = 0.007194244604316547
+P(IPSS-R Risk Category Low=Not Mentioned | RSV=False) = 0.8886411197639713
+P(IPSS-R Risk Category Low=Negated | RSV=False) = 0.006964218326529212
+P(IPSS-R Risk Category Low=Present | RSV=False) = 0.10439466190949946
+P(IPSS-R Risk Category Low=Not Mentioned | RSV=True) = 0.7311151079136691
+P(IPSS-R Risk Category Low=Negated | RSV=True) = 0.008093525179856115
+P(IPSS-R Risk Category Low=Present | RSV=True) = 0.2607913669064748
+P(N_D_PULSE=High | RSV=False) = 0.0010063123227518067
+P(N_D_PULSE=Low | RSV=False) = 6.060744671118836E-4
+P(N_D_PULSE=Not Mentioned | RSV=False) = 0.9923497392736255
+P(N_D_PULSE=Normal | RSV=False) = 0.006037873936510841
+P(N_D_PULSE=High | RSV=True) = 0.006289308176100629
+P(N_D_PULSE=Low | RSV=True) = 0.0017969451931716084
+P(N_D_PULSE=Not Mentioned | RSV=True) = 0.9847259658580413
+P(N_D_PULSE=Normal | RSV=True) = 0.0071877807726864335
+P(N_D_TEMPERATURE=High | RSV=False) = 3.6593175372792974E-4
+P(N_D_TEMPERATURE=Low | RSV=False) = 0.0016123867898636905
+P(N_D_TEMPERATURE=Not Mentioned | RSV=False) = 0.9926013173543135
+P(N_D_TEMPERATURE=Normal | RSV=False) = 0.00542036410209496
+P(N_D_TEMPERATURE=High | RSV=True) = 0.0035938903863432167
+P(N_D_TEMPERATURE=Low | RSV=True) = 0.0035938903863432167
+P(N_D_TEMPERATURE=Not Mentioned | RSV=True) = 0.9847259658580413
+P(N_D_TEMPERATURE=Normal | RSV=True) = 0.008086253369272238
+P(Tacrolimus=High | RSV=False) = 5.717683651998902E-5
+P(Tacrolimus=Low | RSV=False) = 1.2578904034397584E-4
+P(Tacrolimus=Not Mentioned | RSV=False) = 0.9981703412313604
+P(Tacrolimus=Normal | RSV=False) = 0.0016466928917756838
+P(Tacrolimus=High | RSV=True) = 8.984725965858042E-4
+P(Tacrolimus=Low | RSV=True) = 0.0026954177897574125
+P(Tacrolimus=Not Mentioned | RSV=True) = 0.9811320754716981
+P(Tacrolimus=Normal | RSV=True) = 0.015274034141958671
+P(Epithelial cells.squamous=High | RSV=False) = 0.001235019668831763
+P(Epithelial cells.squamous=Low | RSV=False) = 1.1435367303997804E-5
+P(Epithelial cells.squamous=Not Mentioned | RSV=False) = 0.9920409843564175
+P(Epithelial cells.squamous=Normal | RSV=False) = 0.006712560607446711
+P(Epithelial cells.squamous=High | RSV=True) = 0.01078167115902965
+P(Epithelial cells.squamous=Low | RSV=True) = 8.984725965858042E-4
+P(Epithelial cells.squamous=Not Mentioned | RSV=True) = 0.9559748427672956
+P(Epithelial cells.squamous=Normal | RSV=True) = 0.03234501347708895
+P(Erythrocytes=High | RSV=False) = 0.020915286799011983
+P(Erythrocytes=Low | RSV=False) = 1.1435367303997804E-5
+P(Erythrocytes=Not Mentioned | RSV=False) = 0.9659226054340866
+P(Erythrocytes=Normal | RSV=False) = 0.013150672399597475
+P(Erythrocytes=High | RSV=True) = 0.03234501347708895
+P(Erythrocytes=Low | RSV=True) = 8.984725965858042E-4
+P(Erythrocytes=Not Mentioned | RSV=True) = 0.9442946990116802
+P(Erythrocytes=Normal | RSV=True) = 0.022461814914645103
+P(Bicarbonate=High | RSV=False) = 0.0026644405818314885
+P(Bicarbonate=Low | RSV=False) = 0.002687311316439484
+P(Bicarbonate=Not Mentioned | RSV=False) = 0.9907830939529778
+P(Bicarbonate=Normal | RSV=False) = 0.003865154148751258
+P(Bicarbonate=High | RSV=True) = 0.03593890386343217
+P(Bicarbonate=Low | RSV=True) = 0.030548068283917342
+P(Bicarbonate=Not Mentioned | RSV=True) = 0.8499550763701708
+P(Bicarbonate=Normal | RSV=True) = 0.08355795148247978
+P(Coagulation surface induced=High | RSV=False) = 0.013619522459061385
+P(Coagulation surface induced=Low | RSV=False) = 0.0024814747049675236
+P(Coagulation surface induced=Not Mentioned | RSV=False) = 0.932188271887293
+P(Coagulation surface induced=Normal | RSV=False) = 0.05171073094867807
+P(Coagulation surface induced=High | RSV=True) = 0.028751123090745734
+P(Coagulation surface induced=Low | RSV=True) = 8.984725965858042E-4
+P(Coagulation surface induced=Not Mentioned | RSV=True) = 0.9119496855345912
+P(Coagulation surface induced=Normal | RSV=True) = 0.05840071877807727
+P(Alanine aminotransferase=High | RSV=False) = 0.009640014637270149
+P(Alanine aminotransferase=Low | RSV=False) = 0.02438020309212332
+P(Alanine aminotransferase=Not Mentioned | RSV=False) = 0.8861037416521819
+P(Alanine aminotransferase=Normal | RSV=False) = 0.07987604061842467
+P(Alanine aminotransferase=High | RSV=True) = 0.022461814914645103
+P(Alanine aminotransferase=Low | RSV=True) = 0.034141958670260555
+P(Alanine aminotransferase=Not Mentioned | RSV=True) = 0.8158131176999102
+P(Alanine aminotransferase=Normal | RSV=True) = 0.1275831087151842
+P(Albumin=High | RSV=False) = 5.488976305918946E-4
+P(Albumin=Low | RSV=False) = 0.029926356234562253
+P(Albumin=Not Mentioned | RSV=False) = 0.8908494190833409
+P(Albumin=Normal | RSV=False) = 0.0786753270515049
+P(Albumin=High | RSV=True) = 8.984725965858042E-4
+P(Albumin=Low | RSV=True) = 0.11410601976639713
+P(Albumin=Not Mentioned | RSV=True) = 0.8086253369272237
+P(Albumin=Normal | RSV=True) = 0.07637017070979335
+P(Calcium=High | RSV=False) = 0.0015895160552556948
+P(Calcium=Low | RSV=False) = 0.021029640472051962
+P(Calcium=Not Mentioned | RSV=False) = 0.8315913457140244
+P(Calcium=Normal | RSV=False) = 0.145789497758668
+P(Calcium=High | RSV=True) = 0.0017969451931716084
+P(Calcium=Low | RSV=True) = 0.08355795148247978
+P(Calcium=Not Mentioned | RSV=True) = 0.5202156334231806
+P(Calcium=Normal | RSV=True) = 0.394429469901168
+P(Magnesium=High | RSV=False) = 0.0026987466837434817
+P(Magnesium=Low | RSV=False) = 0.0047113713292470955
+P(Magnesium=Not Mentioned | RSV=False) = 0.9439552648431068
+P(Magnesium=Normal | RSV=False) = 0.048634617143902666
+P(Magnesium=High | RSV=True) = 0.015274034141958671
+P(Magnesium=Low | RSV=True) = 0.0035938903863432167
+P(Magnesium=Not Mentioned | RSV=True) = 0.6873315363881402
+P(Magnesium=Normal | RSV=True) = 0.29380053908355797
+P(Urobilinogen=High | RSV=False) = 7.661696093678529E-4
+P(Urobilinogen=Low | RSV=False) = 2.287073460799561E-5
+P(Urobilinogen=Not Mentioned | RSV=False) = 0.9901655841185619
+P(Urobilinogen=Normal | RSV=False) = 0.009045375537462264
+P(Urobilinogen=High | RSV=True) = 0.0017969451931716084
+P(Urobilinogen=Low | RSV=True) = 8.984725965858042E-4
+P(Urobilinogen=Not Mentioned | RSV=True) = 0.9946091644204852
+P(Urobilinogen=Normal | RSV=True) = 0.0026954177897574125
+P(Aspartate aminotransferase=High | RSV=False) = 0.018399505992132466
+P(Aspartate aminotransferase=Low | RSV=False) = 0.01743893513859665
+P(Aspartate aminotransferase=Not Mentioned | RSV=False) = 0.8884479919495014
+P(Aspartate aminotransferase=Normal | RSV=False) = 0.07571356691976946
+P(Aspartate aminotransferase=High | RSV=True) = 0.028751123090745734
+P(Aspartate aminotransferase=Low | RSV=True) = 0.012578616352201259
+P(Aspartate aminotransferase=Not Mentioned | RSV=True) = 0.8185085354896675
+P(Aspartate aminotransferase=Normal | RSV=True) = 0.14016172506738545
+P(Oxygen content=High | RSV=False) = 2.287073460799561E-5
+P(Oxygen content=Low | RSV=False) = 8.004757112798463E-5
+P(Oxygen content=Not Mentioned | RSV=False) = 0.9998513402250481
+P(Oxygen content=Normal | RSV=False) = 4.574146921599122E-5
+P(Oxygen content=High | RSV=True) = 0.0017969451931716084
+P(Oxygen content=Low | RSV=True) = 0.0026954177897574125
+P(Oxygen content=Not Mentioned | RSV=True) = 0.9838274932614556
+P(Oxygen content=Normal | RSV=True) = 0.011680143755615454
+P(Base deficit=High | RSV=False) = 0.0011435367303997805
+P(Base deficit=Low | RSV=False) = 1.1435367303997804E-5
+P(Base deficit=Not Mentioned | RSV=False) = 0.9985362729850883
+P(Base deficit=Normal | RSV=False) = 3.0875491720794073E-4
+P(Base deficit=High | RSV=True) = 0.012578616352201259
+P(Base deficit=Low | RSV=True) = 8.984725965858042E-4
+P(Base deficit=Not Mentioned | RSV=True) = 0.9811320754716981
+P(Base deficit=Normal | RSV=True) = 0.005390835579514825
+P(Oxygen^^adjusted to patient's actual temperature=High | RSV=False) = 0.0021841551550635806
+P(Oxygen^^adjusted to patient's actual temperature=Low | RSV=False) = 2.858841825999451E-4
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | RSV=False) = 0.9956316896898728
+P(Oxygen^^adjusted to patient's actual temperature=Normal | RSV=False) = 0.0018982709724636355
+P(Oxygen^^adjusted to patient's actual temperature=High | RSV=True) = 0.05390835579514825
+P(Oxygen^^adjusted to patient's actual temperature=Low | RSV=True) = 0.006289308176100629
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | RSV=True) = 0.8688230008984726
+P(Oxygen^^adjusted to patient's actual temperature=Normal | RSV=True) = 0.07097933513027853
+P(Base excess=High | RSV=False) = 4.917207940719056E-4
+P(Base excess=Low | RSV=False) = 1.1435367303997804E-5
+P(Base excess=Not Mentioned | RSV=False) = 0.9991652181868081
+P(Base excess=Normal | RSV=False) = 3.3162565181593635E-4
+P(Base excess=High | RSV=True) = 0.017070979335130278
+P(Base excess=Low | RSV=True) = 8.984725965858042E-4
+P(Base excess=Not Mentioned | RSV=True) = 0.977538185085355
+P(Base excess=Normal | RSV=True) = 0.004492362982929021
+P(Bicarbonate=High | RSV=False) = 6.060744671118836E-4
+P(Bicarbonate=Low | RSV=False) = 0.0010406184246638
+P(Bicarbonate=Not Mentioned | RSV=False) = 0.9973355594181685
+P(Bicarbonate=Normal | RSV=False) = 0.0010177476900558047
+P(Bicarbonate=High | RSV=True) = 0.009883198562443846
+P(Bicarbonate=Low | RSV=True) = 0.005390835579514825
+P(Bicarbonate=Not Mentioned | RSV=True) = 0.9793351302785265
+P(Bicarbonate=Normal | RSV=True) = 0.005390835579514825
+P(Bicarbonate=High | RSV=False) = 0.0030303723355594183
+P(Bicarbonate=Low | RSV=False) = 0.010360442777422011
+P(Bicarbonate=Not Mentioned | RSV=False) = 0.8097955356326045
+P(Bicarbonate=Normal | RSV=False) = 0.17681364925441406
+P(Bicarbonate=High | RSV=True) = 0.0071877807726864335
+P(Bicarbonate=Low | RSV=True) = 0.02336028751123091
+P(Bicarbonate=Not Mentioned | RSV=True) = 0.7556154537286612
+P(Bicarbonate=Normal | RSV=True) = 0.2138364779874214
+P(Bilirubin=High | RSV=False) = 0.008313512030006404
+P(Bilirubin=Low | RSV=False) = 0.0034763516604153326
+P(Bilirubin=Not Mentioned | RSV=False) = 0.896041075839356
+P(Bilirubin=Normal | RSV=False) = 0.0921690604702223
+P(Bilirubin=High | RSV=True) = 0.016172506738544475
+P(Bilirubin=Low | RSV=True) = 0.01078167115902965
+P(Bilirubin=Not Mentioned | RSV=True) = 0.8301886792452831
+P(Bilirubin=Normal | RSV=True) = 0.14285714285714285
+P(C reactive protein=High | RSV=False) = 0.0028359710913914557
+P(C reactive protein=Low | RSV=False) = 7.890403439758485E-4
+P(C reactive protein=Not Mentioned | RSV=False) = 0.994350928551825
+P(C reactive protein=Normal | RSV=False) = 0.0020240600128076116
+P(C reactive protein=High | RSV=True) = 0.09883198562443846
+P(C reactive protein=Low | RSV=True) = 0.013477088948787063
+P(C reactive protein=Not Mentioned | RSV=True) = 0.8032345013477089
+P(C reactive protein=Normal | RSV=True) = 0.08445642407906559
+P(Calcium.ionized=High | RSV=False) = 4.574146921599122E-4
+P(Calcium.ionized=Low | RSV=False) = 0.00505443234836703
+P(Calcium.ionized=Not Mentioned | RSV=False) = 0.9822523099441954
+P(Calcium.ionized=Normal | RSV=False) = 0.01223584301527765
+P(Calcium.ionized=High | RSV=True) = 0.01078167115902965
+P(Calcium.ionized=Low | RSV=True) = 0.008086253369272238
+P(Calcium.ionized=Not Mentioned | RSV=True) = 0.8176100628930818
+P(Calcium.ionized=Normal | RSV=True) = 0.16352201257861634
+P(Carbon dioxide=High | RSV=False) = 9.377001189278199E-4
+P(Carbon dioxide=Low | RSV=False) = 7.204281401518616E-4
+P(Carbon dioxide=Not Mentioned | RSV=False) = 0.9960547982801208
+P(Carbon dioxide=Normal | RSV=False) = 0.002287073460799561
+P(Carbon dioxide=High | RSV=True) = 0.013477088948787063
+P(Carbon dioxide=Low | RSV=True) = 0.0017969451931716084
+P(Carbon dioxide=Not Mentioned | RSV=True) = 0.9739442946990117
+P(Carbon dioxide=Normal | RSV=True) = 0.01078167115902965
+P(Carbon dioxide=High | RSV=False) = 0.0019440124416796269
+P(Carbon dioxide=Low | RSV=False) = 0.004779983533071082
+P(Carbon dioxide=Not Mentioned | RSV=False) = 0.9886789863690422
+P(Carbon dioxide=Normal | RSV=False) = 0.004597017656207117
+P(Carbon dioxide=High | RSV=True) = 0.03773584905660377
+P(Carbon dioxide=Low | RSV=True) = 0.05660377358490566
+P(Carbon dioxide=Not Mentioned | RSV=True) = 0.8247978436657682
+P(Carbon dioxide=Normal | RSV=True) = 0.08086253369272237
+P(Carbon dioxide=High | RSV=False) = 2.287073460799561E-5
+P(Carbon dioxide=Low | RSV=False) = 2.287073460799561E-5
+P(Carbon dioxide=Not Mentioned | RSV=False) = 0.9993024425944561
+P(Carbon dioxide=Normal | RSV=False) = 6.518159363278749E-4
+P(Carbon dioxide=High | RSV=True) = 0.005390835579514825
+P(Carbon dioxide=Low | RSV=True) = 0.027852650494159928
+P(Carbon dioxide=Not Mentioned | RSV=True) = 0.7628032345013477
+P(Carbon dioxide=Normal | RSV=True) = 0.20395327942497754
+P(Carboxyhemoglobin/Hemoglobin.total=High | RSV=False) = 0.0034763516604153326
+P(Carboxyhemoglobin/Hemoglobin.total=Low | RSV=False) = 1.1435367303997804E-5
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | RSV=False) = 0.9959061385051687
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | RSV=False) = 6.060744671118836E-4
+P(Carboxyhemoglobin/Hemoglobin.total=High | RSV=True) = 0.009883198562443846
+P(Carboxyhemoglobin/Hemoglobin.total=Low | RSV=True) = 0.0026954177897574125
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | RSV=True) = 0.9784366576819407
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | RSV=True) = 0.008984725965858042
+P(Leukocytes=High | RSV=False) = 1.1435367303997804E-5
+P(Leukocytes=Low | RSV=False) = 1.1435367303997804E-5
+P(Leukocytes=Not Mentioned | RSV=False) = 0.999965693898088
+P(Leukocytes=Normal | RSV=False) = 1.1435367303997804E-5
+P(Leukocytes=High | RSV=True) = 0.004492362982929021
+P(Leukocytes=Low | RSV=True) = 8.984725965858042E-4
+P(Leukocytes=Not Mentioned | RSV=True) = 0.9883198562443846
+P(Leukocytes=Normal | RSV=True) = 0.006289308176100629
+P(Hematocrit=High | RSV=False) = 1.2578904034397584E-4
+P(Hematocrit=Low | RSV=False) = 0.0027330527856554753
+P(Hematocrit=Not Mentioned | RSV=False) = 0.9930244259445613
+P(Hematocrit=Normal | RSV=False) = 0.0041167322294392095
+P(Hematocrit=High | RSV=True) = 0.005390835579514825
+P(Hematocrit=Low | RSV=True) = 0.04043126684636118
+P(Hematocrit=Not Mentioned | RSV=True) = 0.8310871518418689
+P(Hematocrit=Normal | RSV=True) = 0.12309074573225516
+P(Chloride=High | RSV=False) = 0.026530052145274905
+P(Chloride=Low | RSV=False) = 0.008313512030006404
+P(Chloride=Not Mentioned | RSV=False) = 0.8168968987283871
+P(Chloride=Normal | RSV=False) = 0.14825953709633152
+P(Chloride=High | RSV=True) = 0.1087151841868823
+P(Chloride=Low | RSV=True) = 0.009883198562443846
+P(Chloride=Not Mentioned | RSV=True) = 0.5220125786163522
+P(Chloride=Normal | RSV=True) = 0.35938903863432164
+P(Creatine kinase=High | RSV=False) = 0.002858841825999451
+P(Creatine kinase=Low | RSV=False) = 3.0875491720794073E-4
+P(Creatine kinase=Not Mentioned | RSV=False) = 0.9891935778977221
+P(Creatine kinase=Normal | RSV=False) = 0.007638825359070533
+P(Creatine kinase=High | RSV=True) = 0.0017969451931716084
+P(Creatine kinase=Low | RSV=True) = 0.0017969451931716084
+P(Creatine kinase=Not Mentioned | RSV=True) = 0.9847259658580413
+P(Creatine kinase=Normal | RSV=True) = 0.011680143755615454
+P(Creatinine=High | RSV=False) = 0.01828515231909249
+P(Creatinine=Low | RSV=False) = 0.0043568749428231635
+P(Creatinine=Not Mentioned | RSV=False) = 0.8097612295306925
+P(Creatinine=Normal | RSV=False) = 0.16759674320739182
+P(Creatinine=High | RSV=True) = 0.022461814914645103
+P(Creatinine=Low | RSV=True) = 0.016172506738544475
+P(Creatinine=Not Mentioned | RSV=True) = 0.5588499550763701
+P(Creatinine=Normal | RSV=True) = 0.4025157232704403
+P(Glucose=High | RSV=False) = 0.03370002744488153
+P(Glucose=Low | RSV=False) = 8.004757112798463E-4
+P(Glucose=Not Mentioned | RSV=False) = 0.9364422285243802
+P(Glucose=Normal | RSV=False) = 0.029057268319458422
+P(Glucose=High | RSV=True) = 0.15633423180592992
+P(Glucose=Low | RSV=True) = 0.0035938903863432167
+P(Glucose=Not Mentioned | RSV=True) = 0.6352201257861635
+P(Glucose=Normal | RSV=True) = 0.20485175202156333
+P(Glucose=High | RSV=False) = 2.515780806879517E-4
+P(Glucose=Low | RSV=False) = 9.148293843198243E-5
+P(Glucose=Not Mentioned | RSV=False) = 0.9979645046198884
+P(Glucose=Normal | RSV=False) = 0.001692434360991675
+P(Glucose=High | RSV=True) = 0.005390835579514825
+P(Glucose=Low | RSV=True) = 0.0017969451931716084
+P(Glucose=Not Mentioned | RSV=True) = 0.9604672057502246
+P(Glucose=Normal | RSV=True) = 0.03234501347708895
+P(Glucose=High | RSV=False) = 0.08008187722989663
+P(Glucose=Low | RSV=False) = 0.0021269783185435915
+P(Glucose=Not Mentioned | RSV=False) = 0.8114536638916842
+P(Glucose=Normal | RSV=False) = 0.10633748055987559
+P(Glucose=High | RSV=True) = 0.10512129380053908
+P(Glucose=Low | RSV=True) = 0.0071877807726864335
+P(Glucose=Not Mentioned | RSV=True) = 0.5076370170709793
+P(Glucose=Normal | RSV=True) = 0.38005390835579517
+P(Lactate=High | RSV=False) = 1.1435367303997804E-5
+P(Lactate=Low | RSV=False) = 1.1435367303997804E-5
+P(Lactate=Not Mentioned | RSV=False) = 0.999965693898088
+P(Lactate=Normal | RSV=False) = 1.1435367303997804E-5
+P(Lactate=High | RSV=True) = 8.984725965858042E-4
+P(Lactate=Low | RSV=True) = 8.984725965858042E-4
+P(Lactate=Not Mentioned | RSV=True) = 0.9910152740341419
+P(Lactate=Normal | RSV=True) = 0.0071877807726864335
+P(Methemoglobin/Hemoglobin.total=High | RSV=False) = 9.94876955447809E-4
+P(Methemoglobin/Hemoglobin.total=Low | RSV=False) = 1.1435367303997804E-5
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | RSV=False) = 0.9986506266581282
+P(Methemoglobin/Hemoglobin.total=Normal | RSV=False) = 3.430610191199341E-4
+P(Methemoglobin/Hemoglobin.total=High | RSV=True) = 0.0071877807726864335
+P(Methemoglobin/Hemoglobin.total=Low | RSV=True) = 8.984725965858042E-4
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | RSV=True) = 0.9856244384546271
+P(Methemoglobin/Hemoglobin.total=Normal | RSV=True) = 0.006289308176100629
+P(Eosinophils/100 leukocytes=High | RSV=False) = 0.003098984539383405
+P(Eosinophils/100 leukocytes=Low | RSV=False) = 0.003316256518159363
+P(Eosinophils/100 leukocytes=Not Mentioned | RSV=False) = 0.9497873021681457
+P(Eosinophils/100 leukocytes=Normal | RSV=False) = 0.04379745677431159
+P(Eosinophils/100 leukocytes=High | RSV=True) = 0.0035938903863432167
+P(Eosinophils/100 leukocytes=Low | RSV=True) = 0.0071877807726864335
+P(Eosinophils/100 leukocytes=Not Mentioned | RSV=True) = 0.9460916442048517
+P(Eosinophils/100 leukocytes=Normal | RSV=True) = 0.0431266846361186
+P(Monocytes/100 leukocytes=High | RSV=False) = 0.0037164943737992865
+P(Monocytes/100 leukocytes=Low | RSV=False) = 0.002161284420455585
+P(Monocytes/100 leukocytes=Not Mentioned | RSV=False) = 0.9451788491446346
+P(Monocytes/100 leukocytes=Normal | RSV=False) = 0.0489433720611106
+P(Monocytes/100 leukocytes=High | RSV=True) = 0.0035938903863432167
+P(Monocytes/100 leukocytes=Low | RSV=True) = 0.0026954177897574125
+P(Monocytes/100 leukocytes=Not Mentioned | RSV=True) = 0.9415992812219227
+P(Monocytes/100 leukocytes=Normal | RSV=True) = 0.05211141060197664
+P(Neutrophils.segmented/100 leukocytes=High | RSV=False) = 0.008462171804958375
+P(Neutrophils.segmented/100 leukocytes=Low | RSV=False) = 0.002584393010703504
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | RSV=False) = 0.9511481108773214
+P(Neutrophils.segmented/100 leukocytes=Normal | RSV=False) = 0.03780532430701674
+P(Neutrophils.segmented/100 leukocytes=High | RSV=True) = 0.014375561545372867
+P(Neutrophils.segmented/100 leukocytes=Low | RSV=True) = 0.0035938903863432167
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | RSV=True) = 0.945193171608266
+P(Neutrophils.segmented/100 leukocytes=Normal | RSV=True) = 0.036837376460017966
+P(Oxygen=High | RSV=False) = 0.0013493733418717408
+P(Oxygen=Low | RSV=False) = 4.2310859024791874E-4
+P(Oxygen=Not Mentioned | RSV=False) = 0.9970954167047845
+P(Oxygen=Normal | RSV=False) = 0.0011321013630957825
+P(Oxygen=High | RSV=True) = 0.008984725965858042
+P(Oxygen=Low | RSV=True) = 0.004492362982929021
+P(Oxygen=Not Mentioned | RSV=True) = 0.977538185085355
+P(Oxygen=Normal | RSV=True) = 0.008984725965858042
+P(Oxygen=High | RSV=False) = 0.004070990760223219
+P(Oxygen=Low | RSV=False) = 2.401427133839539E-4
+P(Oxygen=Not Mentioned | RSV=False) = 0.9939506906961851
+P(Oxygen=Normal | RSV=False) = 0.0017381758302076663
+P(Oxygen=High | RSV=True) = 0.030548068283917342
+P(Oxygen=Low | RSV=True) = 0.008086253369272238
+P(Oxygen=Not Mentioned | RSV=True) = 0.9469901168014375
+P(Oxygen=Normal | RSV=True) = 0.014375561545372867
+P(Oxygen saturation=High | RSV=False) = 1.9440124416796267E-4
+P(Oxygen saturation=Low | RSV=False) = 5.145915286799012E-4
+P(Oxygen saturation=Not Mentioned | RSV=False) = 0.9988907693715122
+P(Oxygen saturation=Normal | RSV=False) = 4.0023785563992313E-4
+P(Oxygen saturation=High | RSV=True) = 0.004492362982929021
+P(Oxygen saturation=Low | RSV=True) = 0.0035938903863432167
+P(Oxygen saturation=Not Mentioned | RSV=True) = 0.9802336028751123
+P(Oxygen saturation=Normal | RSV=True) = 0.011680143755615454
+P(pH=High | RSV=False) = 7.089927728478639E-4
+P(pH=Low | RSV=False) = 0.0013265026072637454
+P(pH=Not Mentioned | RSV=False) = 0.9959404446070808
+P(pH=Normal | RSV=False) = 0.0020240600128076116
+P(pH=High | RSV=True) = 0.004492362982929021
+P(pH=Low | RSV=True) = 0.013477088948787063
+P(pH=Not Mentioned | RSV=True) = 0.9487870619946092
+P(pH=Normal | RSV=True) = 0.03324348607367475
+P(pH=High | RSV=False) = 0.0019211417070716312
+P(pH=Low | RSV=False) = 0.0020583661147196048
+P(pH=Not Mentioned | RSV=False) = 0.9892050132650261
+P(pH=Normal | RSV=False) = 0.006815478913182692
+P(pH=High | RSV=True) = 0.017969451931716084
+P(pH=Low | RSV=True) = 0.039532794249775384
+P(pH=Not Mentioned | RSV=True) = 0.839173405211141
+P(pH=Normal | RSV=True) = 0.10332434860736747
+P(Phosphate=High | RSV=False) = 0.0021955905223675783
+P(Phosphate=Low | RSV=False) = 0.005123044552191016
+P(Phosphate=Not Mentioned | RSV=False) = 0.9618058732046474
+P(Phosphate=Normal | RSV=False) = 0.03087549172079407
+P(Phosphate=High | RSV=True) = 0.006289308176100629
+P(Phosphate=Low | RSV=True) = 0.12039532794249776
+P(Phosphate=Not Mentioned | RSV=True) = 0.7124887690925427
+P(Phosphate=Normal | RSV=True) = 0.16082659478885894
+P(Potassium=High | RSV=False) = 0.003613576068063306
+P(Potassium=Low | RSV=False) = 0.017976397401884548
+P(Potassium=Not Mentioned | RSV=False) = 0.8140037508004757
+P(Potassium=Normal | RSV=False) = 0.16440627572957645
+P(Potassium=High | RSV=True) = 0.05480682839173405
+P(Potassium=Low | RSV=True) = 0.022461814914645103
+P(Potassium=Not Mentioned | RSV=True) = 0.5166217430368374
+P(Potassium=Normal | RSV=True) = 0.40610961365678344
+P(Protein=High | RSV=False) = 0.012716128442045558
+P(Protein=Low | RSV=False) = 0.013619522459061385
+P(Protein=Not Mentioned | RSV=False) = 0.8924046290366846
+P(Protein=Normal | RSV=False) = 0.0812597200622084
+P(Protein=High | RSV=True) = 0.0071877807726864335
+P(Protein=Low | RSV=True) = 0.042228212039532795
+P(Protein=Not Mentioned | RSV=True) = 0.8221024258760108
+P(Protein=Normal | RSV=True) = 0.12848158131176998
+P(Sodium=High | RSV=False) = 2.287073460799561E-4
+P(Sodium=Low | RSV=False) = 0.002046930747415607
+P(Sodium=Not Mentioned | RSV=False) = 0.9882901838807062
+P(Sodium=Normal | RSV=False) = 0.009434178025798188
+P(Sodium=High | RSV=True) = 0.0026954177897574125
+P(Sodium=Low | RSV=True) = 0.011680143755615454
+P(Sodium=Not Mentioned | RSV=True) = 0.8373764600179695
+P(Sodium=Normal | RSV=True) = 0.14824797843665768
+P(Sodium=High | RSV=False) = 6.861220382398683E-4
+P(Sodium=Low | RSV=False) = 0.03318543591620163
+P(Sodium=Not Mentioned | RSV=False) = 0.8158791510383313
+P(Sodium=Normal | RSV=False) = 0.15024929100722714
+P(Sodium=High | RSV=True) = 0.005390835579514825
+P(Sodium=Low | RSV=True) = 0.026954177897574125
+P(Sodium=Not Mentioned | RSV=True) = 0.5175202156334232
+P(Sodium=Normal | RSV=True) = 0.4501347708894879
+P(Specific gravity=High | RSV=False) = 0.003259079681639374
+P(Specific gravity=Low | RSV=False) = 0.004151038331351203
+P(Specific gravity=Not Mentioned | RSV=False) = 0.9241034672033666
+P(Specific gravity=Normal | RSV=False) = 0.06848641478364285
+P(Specific gravity=High | RSV=True) = 0.005390835579514825
+P(Specific gravity=Low | RSV=True) = 0.0017969451931716084
+P(Specific gravity=Not Mentioned | RSV=True) = 0.7151841868823001
+P(Specific gravity=Normal | RSV=True) = 0.2776280323450135
+P(Basophils/100 leukocytes=High | RSV=False) = 0.004242521269783185
+P(Basophils/100 leukocytes=Low | RSV=False) = 5.946390998078858E-4
+P(Basophils/100 leukocytes=Not Mentioned | RSV=False) = 0.9514911718964413
+P(Basophils/100 leukocytes=Normal | RSV=False) = 0.04367166773396761
+P(Basophils/100 leukocytes=High | RSV=True) = 0.0071877807726864335
+P(Basophils/100 leukocytes=Low | RSV=True) = 0.0017969451931716084
+P(Basophils/100 leukocytes=Not Mentioned | RSV=True) = 0.949685534591195
+P(Basophils/100 leukocytes=Normal | RSV=True) = 0.04132973944294699
+P(Hemoglobin=High | RSV=False) = 1.1435367303997804E-5
+P(Hemoglobin=Low | RSV=False) = 6.861220382398682E-5
+P(Hemoglobin=Not Mentioned | RSV=False) = 0.999874210959656
+P(Hemoglobin=Normal | RSV=False) = 4.574146921599122E-5
+P(Hemoglobin=High | RSV=True) = 0.0035938903863432167
+P(Hemoglobin=Low | RSV=True) = 0.0071877807726864335
+P(Hemoglobin=Not Mentioned | RSV=True) = 0.9847259658580413
+P(Hemoglobin=Normal | RSV=True) = 0.004492362982929021
+P(Triacylglycerol lipase=High | RSV=False) = 0.003339127252767359
+P(Triacylglycerol lipase=Low | RSV=False) = 0.008725185252950326
+P(Triacylglycerol lipase=Not Mentioned | RSV=False) = 0.9501303631872656
+P(Triacylglycerol lipase=Normal | RSV=False) = 0.03780532430701674
+P(Triacylglycerol lipase=High | RSV=True) = 0.005390835579514825
+P(Triacylglycerol lipase=Low | RSV=True) = 0.011680143755615454
+P(Triacylglycerol lipase=Not Mentioned | RSV=True) = 0.958670260557053
+P(Triacylglycerol lipase=Normal | RSV=True) = 0.02425876010781671
+P(Urea nitrogen=High | RSV=False) = 0.016283963040892874
+P(Urea nitrogen=Low | RSV=False) = 0.012979141890037509
+P(Urea nitrogen=Not Mentioned | RSV=False) = 0.8120826090934041
+P(Urea nitrogen=Normal | RSV=False) = 0.15865428597566553
+P(Urea nitrogen=High | RSV=True) = 0.022461814914645103
+P(Urea nitrogen=Low | RSV=True) = 0.07277628032345014
+P(Urea nitrogen=Not Mentioned | RSV=True) = 0.5471698113207547
+P(Urea nitrogen=Normal | RSV=True) = 0.35759209344115006
+P(Urea nitrogen/Creatinine=High | RSV=False) = 0.003739365108407282
+P(Urea nitrogen/Creatinine=Low | RSV=False) = 8.919586497118287E-4
+P(Urea nitrogen/Creatinine=Not Mentioned | RSV=False) = 0.9674778153874303
+P(Urea nitrogen/Creatinine=Normal | RSV=False) = 0.027890860854450646
+P(Urea nitrogen/Creatinine=High | RSV=True) = 0.005390835579514825
+P(Urea nitrogen/Creatinine=Low | RSV=True) = 8.984725965858042E-4
+P(Urea nitrogen/Creatinine=Not Mentioned | RSV=True) = 0.9829290206648698
+P(Urea nitrogen/Creatinine=Normal | RSV=True) = 0.01078167115902965
+P(Platelet mean volume=High | RSV=False) = 0.005134479919495014
+P(Platelet mean volume=Low | RSV=False) = 0.005317445796358979
+P(Platelet mean volume=Not Mentioned | RSV=False) = 0.8060218644222853
+P(Platelet mean volume=Normal | RSV=False) = 0.18352620986186077
+P(Platelet mean volume=High | RSV=True) = 0.011680143755615454
+P(Platelet mean volume=Low | RSV=True) = 0.025157232704402517
+P(Platelet mean volume=Not Mentioned | RSV=True) = 0.5013477088948787
+P(Platelet mean volume=Normal | RSV=True) = 0.4618149146451033
+P(Lactate=High | RSV=False) = 0.0033619979873753545
+P(Lactate=Low | RSV=False) = 1.8296587686396487E-4
+P(Lactate=Not Mentioned | RSV=False) = 0.9783414143262281
+P(Lactate=Normal | RSV=False) = 0.01811362180953252
+P(Lactate=High | RSV=True) = 0.019766397124887692
+P(Lactate=Low | RSV=True) = 0.0017969451931716084
+P(Lactate=Not Mentioned | RSV=True) = 0.9083557951482479
+P(Lactate=Normal | RSV=True) = 0.07008086253369272
+P(Anion gap=High | RSV=False) = 0.014900283597109138
+P(Anion gap=Low | RSV=False) = 0.0021955905223675783
+P(Anion gap=Not Mentioned | RSV=False) = 0.8112706980148202
+P(Anion gap=Normal | RSV=False) = 0.17163342786570304
+P(Anion gap=High | RSV=True) = 0.10422282120395328
+P(Anion gap=Low | RSV=True) = 0.04672057502246182
+P(Anion gap=Not Mentioned | RSV=True) = 0.5408805031446541
+P(Anion gap=Normal | RSV=True) = 0.3081761006289308
+P(Vancomycin^trough=High | RSV=False) = 8.119110785838441E-4
+P(Vancomycin^trough=Low | RSV=False) = 0.0011778428323117739
+P(Vancomycin^trough=Not Mentioned | RSV=False) = 0.9950599213246729
+P(Vancomycin^trough=Normal | RSV=False) = 0.0029503247644314333
+P(Vancomycin^trough=High | RSV=True) = 0.004492362982929021
+P(Vancomycin^trough=Low | RSV=True) = 0.018867924528301886
+P(Vancomycin^trough=Not Mentioned | RSV=True) = 0.9227313566936208
+P(Vancomycin^trough=Normal | RSV=True) = 0.05390835579514825
+P(Hematocrit=High | RSV=False) = 0.009365565821974202
+P(Hematocrit=Low | RSV=False) = 0.05251120665995792
+P(Hematocrit=Not Mentioned | RSV=False) = 0.8013447991949502
+P(Hematocrit=Normal | RSV=False) = 0.13677842832311773
+P(Hematocrit=High | RSV=True) = 0.019766397124887692
+P(Hematocrit=Low | RSV=True) = 0.14914645103324348
+P(Hematocrit=Not Mentioned | RSV=True) = 0.472596585804133
+P(Hematocrit=Normal | RSV=True) = 0.3584905660377358
+P(pH=High | RSV=False) = 0.0019668831762876225
+P(pH=Low | RSV=False) = 1.1435367303997804E-5
+P(pH=Not Mentioned | RSV=False) = 0.9171621992498399
+P(pH=Normal | RSV=False) = 0.08085948220656848
+P(pH=High | RSV=True) = 0.014375561545372867
+P(pH=Low | RSV=True) = 8.984725965858042E-4
+P(pH=Not Mentioned | RSV=True) = 0.710691823899371
+P(pH=Normal | RSV=True) = 0.27403414195867026
+P(Erythrocytes=High | RSV=False) = 1.1435367303997804E-5
+P(Erythrocytes=Low | RSV=False) = 1.1435367303997804E-5
+P(Erythrocytes=Not Mentioned | RSV=False) = 0.999965693898088
+P(Erythrocytes=Normal | RSV=False) = 1.1435367303997804E-5
+P(Erythrocytes=High | RSV=True) = 0.008086253369272238
+P(Erythrocytes=Low | RSV=True) = 8.984725965858042E-4
+P(Erythrocytes=Not Mentioned | RSV=True) = 0.9883198562443846
+P(Erythrocytes=Normal | RSV=True) = 0.0026954177897574125
+P(Specific gravity=High | RSV=False) = 1.1435367303997804E-5
+P(Specific gravity=Low | RSV=False) = 1.1435367303997804E-5
+P(Specific gravity=Not Mentioned | RSV=False) = 0.9997598572866161
+P(Specific gravity=Normal | RSV=False) = 2.172719787759583E-4
+P(Specific gravity=High | RSV=True) = 8.984725965858042E-4
+P(Specific gravity=Low | RSV=True) = 8.984725965858042E-4
+P(Specific gravity=Not Mentioned | RSV=True) = 0.9874213836477987
+P(Specific gravity=Normal | RSV=True) = 0.01078167115902965
+P(Leukocytes=High | RSV=False) = 0.014351385966517244
+P(Leukocytes=Low | RSV=False) = 1.1435367303997804E-5
+P(Leukocytes=Not Mentioned | RSV=False) = 0.9637956271155429
+P(Leukocytes=Normal | RSV=False) = 0.021841551550635805
+P(Leukocytes=High | RSV=True) = 0.018867924528301886
+P(Leukocytes=Low | RSV=True) = 8.984725965858042E-4
+P(Leukocytes=Not Mentioned | RSV=True) = 0.9272237196765498
+P(Leukocytes=Normal | RSV=True) = 0.053009883198562445
+P(Monocytes/100 leukocytes=High | RSV=False) = 0.010977952611837892
+P(Monocytes/100 leukocytes=Low | RSV=False) = 0.0017953526667276553
+P(Monocytes/100 leukocytes=Not Mentioned | RSV=False) = 0.8921073094867807
+P(Monocytes/100 leukocytes=Normal | RSV=False) = 0.09511938523465374
+P(Monocytes/100 leukocytes=High | RSV=True) = 0.1527403414195867
+P(Monocytes/100 leukocytes=Low | RSV=True) = 0.015274034141958671
+P(Monocytes/100 leukocytes=Not Mentioned | RSV=True) = 0.5849056603773585
+P(Monocytes/100 leukocytes=Normal | RSV=True) = 0.24707996406109614
+P(Potassium=High | RSV=False) = 0.001109230628487787
+P(Potassium=Low | RSV=False) = 0.0018639648705516421
+P(Potassium=Not Mentioned | RSV=False) = 0.9888162107766901
+P(Potassium=Normal | RSV=False) = 0.008210593724270424
+P(Potassium=High | RSV=True) = 0.02336028751123091
+P(Potassium=Low | RSV=True) = 0.019766397124887692
+P(Potassium=Not Mentioned | RSV=True) = 0.8274932614555256
+P(Potassium=Normal | RSV=True) = 0.1293800539083558
+P(Leukocytes=High | RSV=False) = 0.026758759491354863
+P(Leukocytes=Low | RSV=False) = 0.006449547159454762
+P(Leukocytes=Not Mentioned | RSV=False) = 0.802351111517702
+P(Leukocytes=Normal | RSV=False) = 0.16444058183148844
+P(Leukocytes=High | RSV=True) = 0.030548068283917342
+P(Leukocytes=Low | RSV=True) = 0.03773584905660377
+P(Leukocytes=Not Mentioned | RSV=True) = 0.47349505840071876
+P(Leukocytes=Normal | RSV=True) = 0.4582210242587601
+P(Alkaline phosphatase=High | RSV=False) = 0.01385966517244534
+P(Alkaline phosphatase=Low | RSV=False) = 0.0025157808068795168
+P(Alkaline phosphatase=Not Mentioned | RSV=False) = 0.8937654377458604
+P(Alkaline phosphatase=Normal | RSV=False) = 0.08985911627481474
+P(Alkaline phosphatase=High | RSV=True) = 0.017070979335130278
+P(Alkaline phosphatase=Low | RSV=True) = 0.009883198562443846
+P(Alkaline phosphatase=Not Mentioned | RSV=True) = 0.9065588499550764
+P(Alkaline phosphatase=Normal | RSV=True) = 0.0664869721473495
+P(Basophils/100 leukocytes=High | RSV=False) = 0.0021269783185435915
+P(Basophils/100 leukocytes=Low | RSV=False) = 1.1435367303997804E-5
+P(Basophils/100 leukocytes=Not Mentioned | RSV=False) = 0.9407419266306833
+P(Basophils/100 leukocytes=Normal | RSV=False) = 0.057119659683469035
+P(Basophils/100 leukocytes=High | RSV=True) = 0.006289308176100629
+P(Basophils/100 leukocytes=Low | RSV=True) = 8.984725965858042E-4
+P(Basophils/100 leukocytes=Not Mentioned | RSV=True) = 0.8598382749326146
+P(Basophils/100 leukocytes=Normal | RSV=True) = 0.132973944294699
+P(Eosinophils=High | RSV=False) = 0.006037873936510841
+P(Eosinophils=Low | RSV=False) = 0.002046930747415607
+P(Eosinophils=Not Mentioned | RSV=False) = 0.8721525935413046
+P(Eosinophils=Normal | RSV=False) = 0.11976260177476901
+P(Eosinophils=High | RSV=True) = 0.004492362982929021
+P(Eosinophils=Low | RSV=True) = 0.10152740341419586
+P(Eosinophils=Not Mentioned | RSV=True) = 0.7511230907457322
+P(Eosinophils=Normal | RSV=True) = 0.14285714285714285
+P(Eosinophils/100 leukocytes=High | RSV=False) = 0.006586771567102735
+P(Eosinophils/100 leukocytes=Low | RSV=False) = 3.430610191199341E-5
+P(Eosinophils/100 leukocytes=Not Mentioned | RSV=False) = 0.9042287988290184
+P(Eosinophils/100 leukocytes=Normal | RSV=False) = 0.08915012350196688
+P(Eosinophils/100 leukocytes=High | RSV=True) = 0.04132973944294699
+P(Eosinophils/100 leukocytes=Low | RSV=True) = 8.984725965858042E-4
+P(Eosinophils/100 leukocytes=Not Mentioned | RSV=True) = 0.7762803234501348
+P(Eosinophils/100 leukocytes=Normal | RSV=True) = 0.18149146451033243
+P(Hemoglobin=High | RSV=False) = 0.0055461531424389355
+P(Hemoglobin=Low | RSV=False) = 0.062196962766444056
+P(Hemoglobin=Not Mentioned | RSV=False) = 0.8031744579635898
+P(Hemoglobin=Normal | RSV=False) = 0.1290824261275272
+P(Hemoglobin=High | RSV=True) = 0.012578616352201259
+P(Hemoglobin=Low | RSV=True) = 0.13387241689128482
+P(Hemoglobin=Not Mentioned | RSV=True) = 0.4833782569631626
+P(Hemoglobin=Normal | RSV=True) = 0.3701707097933513
+P(Lymphocytes=High | RSV=False) = 0.004242521269783185
+P(Lymphocytes=Low | RSV=False) = 0.020046198883908153
+P(Lymphocytes=Not Mentioned | RSV=False) = 0.8423520263470863
+P(Lymphocytes=Normal | RSV=False) = 0.1333592534992224
+P(Lymphocytes=High | RSV=True) = 0.0026954177897574125
+P(Lymphocytes=Low | RSV=True) = 0.1509433962264151
+P(Lymphocytes=Not Mentioned | RSV=True) = 0.49595687331536387
+P(Lymphocytes=Normal | RSV=True) = 0.3504043126684636
+P(Lymphocytes/100 leukocytes=High | RSV=False) = 0.008839538925990303
+P(Lymphocytes/100 leukocytes=Low | RSV=False) = 0.03713063763608087
+P(Lymphocytes/100 leukocytes=Not Mentioned | RSV=False) = 0.8360854450644954
+P(Lymphocytes/100 leukocytes=Normal | RSV=False) = 0.11794437837343336
+P(Lymphocytes/100 leukocytes=High | RSV=True) = 0.04582210242587601
+P(Lymphocytes/100 leukocytes=Low | RSV=True) = 0.1778975741239892
+P(Lymphocytes/100 leukocytes=Not Mentioned | RSV=True) = 0.5022461814914645
+P(Lymphocytes/100 leukocytes=Normal | RSV=True) = 0.27403414195867026
+P(Monocytes=High | RSV=False) = 0.02120117098161193
+P(Monocytes=Low | RSV=False) = 0.004242521269783185
+P(Monocytes=Not Mentioned | RSV=False) = 0.849076022321837
+P(Monocytes=Normal | RSV=False) = 0.1254802854267679
+P(Monocytes=High | RSV=True) = 0.14734950584007186
+P(Monocytes=Low | RSV=True) = 0.016172506738544475
+P(Monocytes=Not Mentioned | RSV=True) = 0.5022461814914645
+P(Monocytes=Normal | RSV=True) = 0.33423180592991913
+P(Neutrophils=High | RSV=False) = 0.024963406824627207
+P(Neutrophils=Low | RSV=False) = 0.007490165584118562
+P(Neutrophils=Not Mentioned | RSV=False) = 0.8394703137864789
+P(Neutrophils=Normal | RSV=False) = 0.1280761138047754
+P(Neutrophils=High | RSV=True) = 0.04851752021563342
+P(Neutrophils=Low | RSV=True) = 0.022461814914645103
+P(Neutrophils=Not Mentioned | RSV=True) = 0.49326145552560646
+P(Neutrophils=Normal | RSV=True) = 0.435759209344115
+P(Neutrophils.band form/100 leukocytes=High | RSV=False) = 0.0018982709724636355
+P(Neutrophils.band form/100 leukocytes=Low | RSV=False) = 0.0019097063397676332
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | RSV=False) = 0.989719604793706
+P(Neutrophils.band form/100 leukocytes=Normal | RSV=False) = 0.006472417894062757
+P(Neutrophils.band form/100 leukocytes=High | RSV=True) = 0.019766397124887692
+P(Neutrophils.band form/100 leukocytes=Low | RSV=True) = 0.03773584905660377
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | RSV=True) = 0.89937106918239
+P(Neutrophils.band form/100 leukocytes=Normal | RSV=True) = 0.0431266846361186
+P(Neutrophils/100 leukocytes=High | RSV=False) = 0.029514683011618335
+P(Neutrophils/100 leukocytes=Low | RSV=False) = 0.005980697099990852
+P(Neutrophils/100 leukocytes=Not Mentioned | RSV=False) = 0.8832220290915744
+P(Neutrophils/100 leukocytes=Normal | RSV=False) = 0.08128259079681639
+P(Neutrophils/100 leukocytes=High | RSV=True) = 0.20844564240790656
+P(Neutrophils/100 leukocytes=Low | RSV=True) = 0.04851752021563342
+P(Neutrophils/100 leukocytes=Not Mentioned | RSV=True) = 0.5588499550763701
+P(Neutrophils/100 leukocytes=Normal | RSV=True) = 0.18418688230008984
+P(Platelets=High | RSV=False) = 0.011115177019485866
+P(Platelets=Low | RSV=False) = 0.022207483304363736
+P(Platelets=Not Mentioned | RSV=False) = 0.8014705882352942
+P(Platelets=Normal | RSV=False) = 0.16520675144085628
+P(Platelets=High | RSV=True) = 0.13566936208445643
+P(Platelets=Low | RSV=True) = 0.047619047619047616
+P(Platelets=Not Mentioned | RSV=True) = 0.4743935309973046
+P(Platelets=Normal | RSV=True) = 0.3423180592991914
+P(Erythrocyte mean corpuscular hemoglobin=High | RSV=False) = 0.01082929283688592
+P(Erythrocyte mean corpuscular hemoglobin=Low | RSV=False) = 0.03764522916476077
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | RSV=False) = 0.8027742201079499
+P(Erythrocyte mean corpuscular hemoglobin=Normal | RSV=False) = 0.14875125789040344
+P(Erythrocyte mean corpuscular hemoglobin=High | RSV=True) = 0.015274034141958671
+P(Erythrocyte mean corpuscular hemoglobin=Low | RSV=True) = 0.1761006289308176
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | RSV=True) = 0.4779874213836478
+P(Erythrocyte mean corpuscular hemoglobin=Normal | RSV=True) = 0.3306379155435759
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | RSV=False) = 0.002104107583935596
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | RSV=False) = 0.05390632147104565
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | RSV=False) = 0.8053357423840454
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | RSV=False) = 0.13865382856097339
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | RSV=True) = 0.011680143755615454
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | RSV=True) = 0.04582210242587601
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | RSV=True) = 0.4752920035938904
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | RSV=True) = 0.46720575022461813
+P(Erythrocyte mean corpuscular volume=High | RSV=False) = 0.013390815112981428
+P(Erythrocyte mean corpuscular volume=Low | RSV=False) = 0.021898728387155796
+P(Erythrocyte mean corpuscular volume=Not Mentioned | RSV=False) = 0.8013333638276462
+P(Erythrocyte mean corpuscular volume=Normal | RSV=False) = 0.16337709267221664
+P(Erythrocyte mean corpuscular volume=High | RSV=True) = 0.036837376460017966
+P(Erythrocyte mean corpuscular volume=Low | RSV=True) = 0.0431266846361186
+P(Erythrocyte mean corpuscular volume=Not Mentioned | RSV=True) = 0.472596585804133
+P(Erythrocyte mean corpuscular volume=Normal | RSV=True) = 0.4474393530997305
+P(Erythrocyte distribution width=High | RSV=False) = 0.05421507638825359
+P(Erythrocyte distribution width=Low | RSV=False) = 1.4865977495197145E-4
+P(Erythrocyte distribution width=Not Mentioned | RSV=False) = 0.8032545055347178
+P(Erythrocyte distribution width=Normal | RSV=False) = 0.14238175830207667
+P(Erythrocyte distribution width=High | RSV=True) = 0.1976639712488769
+P(Erythrocyte distribution width=Low | RSV=True) = 0.0026954177897574125
+P(Erythrocyte distribution width=Not Mentioned | RSV=True) = 0.481581311769991
+P(Erythrocyte distribution width=Normal | RSV=True) = 0.31805929919137466
+P(Erythrocytes=High | RSV=False) = 0.011526850242429786
+P(Erythrocytes=Low | RSV=False) = 0.04510108864696734
+P(Erythrocytes=Not Mentioned | RSV=False) = 0.8016192480102461
+P(Erythrocytes=Normal | RSV=False) = 0.14175281310035678
+P(Erythrocytes=High | RSV=True) = 0.02605570530098832
+P(Erythrocytes=Low | RSV=True) = 0.0862533692722372
+P(Erythrocytes=Not Mentioned | RSV=True) = 0.4743935309973046
+P(Erythrocytes=Normal | RSV=True) = 0.4132973944294699

@@ -1,0 +1,2145 @@
+===== Class Prior Probabilities =====
+P(ENTEROVIRUS=False) = 0.9980152619512028
+P(ENTEROVIRUS=True) = 0.0019847380487971805
+
+===== Conditional Probabilities =====
+P(AGE=Not Mentioned | ENTEROVIRUS=False) = 1.1428702042309055E-5
+P(AGE=18-64 | ENTEROVIRUS=False) = 0.5955153773185979
+P(AGE=5-17 | ENTEROVIRUS=False) = 0.15821895107372655
+P(AGE=65+ | ENTEROVIRUS=False) = 0.11846992537057566
+P(AGE=<5 | ENTEROVIRUS=False) = 0.12778431753505753
+P(AGE=Not Mentioned | ENTEROVIRUS=True) = 0.0056179775280898875
+P(AGE=18-64 | ENTEROVIRUS=True) = 0.0898876404494382
+P(AGE=5-17 | ENTEROVIRUS=True) = 0.15168539325842698
+P(AGE=65+ | ENTEROVIRUS=True) = 0.0056179775280898875
+P(AGE=<5 | ENTEROVIRUS=True) = 0.7471910112359551
+P(Abdominal Pain=Not Mentioned | ENTEROVIRUS=False) = 0.6488679611872407
+P(Abdominal Pain=Negated | ENTEROVIRUS=False) = 0.12775295152976673
+P(Abdominal Pain=Present | ENTEROVIRUS=False) = 0.22337908728299255
+P(Abdominal Pain=Not Mentioned | ENTEROVIRUS=True) = 0.7840909090909091
+P(Abdominal Pain=Negated | ENTEROVIRUS=True) = 0.08522727272727272
+P(Abdominal Pain=Present | ENTEROVIRUS=True) = 0.13068181818181818
+P(Apnea=Not Mentioned | ENTEROVIRUS=False) = 0.9836451535481217
+P(Apnea=Negated | ENTEROVIRUS=False) = 0.0017943472347623347
+P(Apnea=Present | ENTEROVIRUS=False) = 0.014560499217116015
+P(Apnea=Not Mentioned | ENTEROVIRUS=True) = 0.9545454545454546
+P(Apnea=Negated | ENTEROVIRUS=True) = 0.028409090909090908
+P(Apnea=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Back Pain=Not Mentioned | ENTEROVIRUS=False) = 0.8416288558464862
+P(Back Pain=Negated | ENTEROVIRUS=False) = 0.025715167377167218
+P(Back Pain=Present | ENTEROVIRUS=False) = 0.1326559767763466
+P(Back Pain=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Back Pain=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Back Pain=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Birth History=Not Mentioned | ENTEROVIRUS=False) = 0.979702161216956
+P(Birth History=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(Birth History=Present | ENTEROVIRUS=False) = 0.020252122929929027
+P(Birth History=Not Mentioned | ENTEROVIRUS=True) = 0.7045454545454546
+P(Birth History=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Birth History=Present | ENTEROVIRUS=True) = 0.2897727272727273
+P(Chest Pain=Not Mentioned | ENTEROVIRUS=False) = 0.6038149879424437
+P(Chest Pain=Negated | ENTEROVIRUS=False) = 0.20388127592946043
+P(Chest Pain=Present | ENTEROVIRUS=False) = 0.19230373612809581
+P(Chest Pain=Not Mentioned | ENTEROVIRUS=True) = 0.8977272727272727
+P(Chest Pain=Negated | ENTEROVIRUS=True) = 0.0625
+P(Chest Pain=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(Constitutional Symptom=Not Mentioned | ENTEROVIRUS=False) = 0.8308856303644696
+P(Constitutional Symptom=Negated | ENTEROVIRUS=False) = 0.00405728196395305
+P(Constitutional Symptom=Present | ENTEROVIRUS=False) = 0.1650570876715773
+P(Constitutional Symptom=Not Mentioned | ENTEROVIRUS=True) = 0.4375
+P(Constitutional Symptom=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Constitutional Symptom=Present | ENTEROVIRUS=True) = 0.5568181818181818
+P(Coughing=Not Mentioned | ENTEROVIRUS=False) = 0.742711178668983
+P(Coughing=Negated | ENTEROVIRUS=False) = 0.11247242762609004
+P(Coughing=Present | ENTEROVIRUS=False) = 0.14481639370492702
+P(Coughing=Not Mentioned | ENTEROVIRUS=True) = 0.4943181818181818
+P(Coughing=Negated | ENTEROVIRUS=True) = 0.1590909090909091
+P(Coughing=Present | ENTEROVIRUS=True) = 0.3465909090909091
+P(Diarrhea=Not Mentioned | ENTEROVIRUS=False) = 0.7435226350617735
+P(Diarrhea=Negated | ENTEROVIRUS=False) = 0.065922260191778
+P(Diarrhea=Present | ENTEROVIRUS=False) = 0.19055510474644846
+P(Diarrhea=Not Mentioned | ENTEROVIRUS=True) = 0.5454545454545454
+P(Diarrhea=Negated | ENTEROVIRUS=True) = 0.1534090909090909
+P(Diarrhea=Present | ENTEROVIRUS=True) = 0.30113636363636365
+P(Dizziness=Not Mentioned | ENTEROVIRUS=False) = 0.8779615301096038
+P(Dizziness=Negated | ENTEROVIRUS=False) = 0.01796633027418083
+P(Dizziness=Present | ENTEROVIRUS=False) = 0.10407213961621542
+P(Dizziness=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Dizziness=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Dizziness=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Dyspnea=Not Mentioned | ENTEROVIRUS=False) = 0.567310879230145
+P(Dyspnea=Negated | ENTEROVIRUS=False) = 0.1634113169594386
+P(Dyspnea=Present | ENTEROVIRUS=False) = 0.2692778038104164
+P(Dyspnea=Not Mentioned | ENTEROVIRUS=True) = 0.6477272727272727
+P(Dyspnea=Negated | ENTEROVIRUS=True) = 0.21022727272727273
+P(Dyspnea=Present | ENTEROVIRUS=True) = 0.14204545454545456
+P(Exanthema=Not Mentioned | ENTEROVIRUS=False) = 0.4672503057247677
+P(Exanthema=Negated | ENTEROVIRUS=False) = 0.43641496279872455
+P(Exanthema=Present | ENTEROVIRUS=False) = 0.09633473147650777
+P(Exanthema=Not Mentioned | ENTEROVIRUS=True) = 0.3465909090909091
+P(Exanthema=Negated | ENTEROVIRUS=True) = 0.45454545454545453
+P(Exanthema=Present | ENTEROVIRUS=True) = 0.19886363636363635
+P(Fatigue=Not Mentioned | ENTEROVIRUS=False) = 0.9487410996948467
+P(Fatigue=Negated | ENTEROVIRUS=False) = 0.008651725202006926
+P(Fatigue=Present | ENTEROVIRUS=False) = 0.04260717510314639
+P(Fatigue=Not Mentioned | ENTEROVIRUS=True) = 0.9545454545454546
+P(Fatigue=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Fatigue=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(Fever=Not Mentioned | ENTEROVIRUS=False) = 0.4084711475822028
+P(Fever=Negated | ENTEROVIRUS=False) = 0.35123489948226794
+P(Fever=Present | ENTEROVIRUS=False) = 0.24029395293552921
+P(Fever=Not Mentioned | ENTEROVIRUS=True) = 0.125
+P(Fever=Negated | ENTEROVIRUS=True) = 0.11363636363636363
+P(Fever=Present | ENTEROVIRUS=True) = 0.7613636363636364
+P(Foot pain=Not Mentioned | ENTEROVIRUS=False) = 0.9845937575002571
+P(Foot pain=Negated | ENTEROVIRUS=False) = 4.685874944283804E-4
+P(Foot pain=Present | ENTEROVIRUS=False) = 0.014937655005314469
+P(Foot pain=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Foot pain=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Foot pain=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Glycosuria=Not Mentioned | ENTEROVIRUS=False) = 0.9360435214921654
+P(Glycosuria=Negated | ENTEROVIRUS=False) = 5.7144816393704925E-5
+P(Glycosuria=Present | ENTEROVIRUS=False) = 0.06389933369144085
+P(Glycosuria=Not Mentioned | ENTEROVIRUS=True) = 0.7670454545454546
+P(Glycosuria=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Glycosuria=Present | ENTEROVIRUS=True) = 0.22727272727272727
+P(Headache=Not Mentioned | ENTEROVIRUS=False) = 0.7330194178086106
+P(Headache=Negated | ENTEROVIRUS=False) = 0.11527252362938158
+P(Headache=Present | ENTEROVIRUS=False) = 0.15170805856200784
+P(Headache=Not Mentioned | ENTEROVIRUS=True) = 0.8295454545454546
+P(Headache=Negated | ENTEROVIRUS=True) = 0.09659090909090909
+P(Headache=Present | ENTEROVIRUS=True) = 0.07386363636363637
+P(Hemoglobin concentration result=Not Mentioned | ENTEROVIRUS=False) = 0.8568522349337692
+P(Hemoglobin concentration result=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(Hemoglobin concentration result=Present | ENTEROVIRUS=False) = 0.14310204921311587
+P(Hemoglobin concentration result=Not Mentioned | ENTEROVIRUS=True) = 0.7272727272727273
+P(Hemoglobin concentration result=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Hemoglobin concentration result=Present | ENTEROVIRUS=True) = 0.26704545454545453
+P(Hemoptysis=Not Mentioned | ENTEROVIRUS=False) = 0.9799421694458096
+P(Hemoptysis=Negated | ENTEROVIRUS=False) = 0.008537435569219516
+P(Hemoptysis=Present | ENTEROVIRUS=False) = 0.011520394984970914
+P(Hemoptysis=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Hemoptysis=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Hemoptysis=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Hepatosplenomegaly=Not Mentioned | ENTEROVIRUS=False) = 0.9018709212887299
+P(Hepatosplenomegaly=Negated | ENTEROVIRUS=False) = 0.09568328056961953
+P(Hepatosplenomegaly=Present | ENTEROVIRUS=False) = 0.002445798141650571
+P(Hepatosplenomegaly=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Hepatosplenomegaly=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Hepatosplenomegaly=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Hypesthesia=Not Mentioned | ENTEROVIRUS=False) = 0.853549264546213
+P(Hypesthesia=Negated | ENTEROVIRUS=False) = 0.05450472587631576
+P(Hypesthesia=Present | ENTEROVIRUS=False) = 0.09194600957747123
+P(Hypesthesia=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Hypesthesia=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Hypesthesia=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Infant, Premature=Not Mentioned | ENTEROVIRUS=False) = 0.9984799478839275
+P(Infant, Premature=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Infant, Premature=Present | ENTEROVIRUS=False) = 0.001485765226236328
+P(Infant, Premature=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Infant, Premature=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Infant, Premature=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Icterus=Not Mentioned | ENTEROVIRUS=False) = 0.7193732356537939
+P(Icterus=Negated | ENTEROVIRUS=False) = 0.06625370012686149
+P(Icterus=Present | ENTEROVIRUS=False) = 0.21437306421934466
+P(Icterus=Not Mentioned | ENTEROVIRUS=True) = 0.7897727272727273
+P(Icterus=Negated | ENTEROVIRUS=True) = 0.1534090909090909
+P(Icterus=Present | ENTEROVIRUS=True) = 0.056818181818181816
+P(Lethargy=Not Mentioned | ENTEROVIRUS=False) = 0.9844451809776336
+P(Lethargy=Negated | ENTEROVIRUS=False) = 0.004160142633461718
+P(Lethargy=Present | ENTEROVIRUS=False) = 0.011394676388904762
+P(Lethargy=Not Mentioned | ENTEROVIRUS=True) = 0.9318181818181818
+P(Lethargy=Negated | ENTEROVIRUS=True) = 0.028409090909090908
+P(Lethargy=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(Low Back Pain=Not Mentioned | ENTEROVIRUS=False) = 0.9655759626044321
+P(Low Back Pain=Negated | ENTEROVIRUS=False) = 5.028743842646034E-4
+P(Low Back Pain=Present | ENTEROVIRUS=False) = 0.03392116301130325
+P(Low Back Pain=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Low Back Pain=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Low Back Pain=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Nasal congestion (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.9412779866738288
+P(Nasal congestion (finding)=Negated | ENTEROVIRUS=False) = 0.026480907916842863
+P(Nasal congestion (finding)=Present | ENTEROVIRUS=False) = 0.03224110540932832
+P(Nasal congestion (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.7159090909090909
+P(Nasal congestion (finding)=Negated | ENTEROVIRUS=True) = 0.028409090909090908
+P(Nasal congestion (finding)=Present | ENTEROVIRUS=True) = 0.2556818181818182
+P(Nausea=Not Mentioned | ENTEROVIRUS=False) = 0.6537481285072632
+P(Nausea=Negated | ENTEROVIRUS=False) = 0.11438106449363979
+P(Nausea=Present | ENTEROVIRUS=False) = 0.23187080699909712
+P(Nausea=Not Mentioned | ENTEROVIRUS=True) = 0.8977272727272727
+P(Nausea=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Nausea=Present | ENTEROVIRUS=True) = 0.06818181818181818
+P(Numbness=Not Mentioned | ENTEROVIRUS=False) = 0.8493205481330789
+P(Numbness=Negated | ENTEROVIRUS=False) = 0.05706481365075374
+P(Numbness=Present | ENTEROVIRUS=False) = 0.09361463821616742
+P(Numbness=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Numbness=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Numbness=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Decreased translucency=Not Mentioned | ENTEROVIRUS=False) = 0.989542498599952
+P(Decreased translucency=Negated | ENTEROVIRUS=False) = 3.085820085260066E-4
+P(Decreased translucency=Present | ENTEROVIRUS=False) = 0.010148919391521995
+P(Decreased translucency=Not Mentioned | ENTEROVIRUS=True) = 0.9375
+P(Decreased translucency=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Decreased translucency=Present | ENTEROVIRUS=True) = 0.05113636363636364
+P(Pain=Not Mentioned | ENTEROVIRUS=False) = 0.455192749465696
+P(Pain=Negated | ENTEROVIRUS=False) = 0.10556933380573048
+P(Pain=Present | ENTEROVIRUS=False) = 0.43923791672857354
+P(Pain=Not Mentioned | ENTEROVIRUS=True) = 0.7386363636363636
+P(Pain=Negated | ENTEROVIRUS=True) = 0.045454545454545456
+P(Pain=Present | ENTEROVIRUS=True) = 0.2159090909090909
+P(Pallor=Not Mentioned | ENTEROVIRUS=False) = 0.9337234419465811
+P(Pallor=Negated | ENTEROVIRUS=False) = 0.04692732322251049
+P(Pallor=Present | ENTEROVIRUS=False) = 0.019349234830908488
+P(Pallor=Not Mentioned | ENTEROVIRUS=True) = 0.8920454545454546
+P(Pallor=Negated | ENTEROVIRUS=True) = 0.07386363636363637
+P(Pallor=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Palpitations=Not Mentioned | ENTEROVIRUS=False) = 0.8988993908362573
+P(Palpitations=Negated | ENTEROVIRUS=False) = 0.03654982456541367
+P(Palpitations=Present | ENTEROVIRUS=False) = 0.06455078459832908
+P(Palpitations=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Palpitations=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Palpitations=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Rales=Not Mentioned | ENTEROVIRUS=False) = 0.8193766643427774
+P(Rales=Negated | ENTEROVIRUS=False) = 0.02308650582305679
+P(Rales=Present | ENTEROVIRUS=False) = 0.15753682983416575
+P(Rales=Not Mentioned | ENTEROVIRUS=True) = 0.8920454545454546
+P(Rales=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Rales=Present | ENTEROVIRUS=True) = 0.07386363636363637
+P(Rhonchi=Not Mentioned | ENTEROVIRUS=False) = 0.8969107512257564
+P(Rhonchi=Negated | ENTEROVIRUS=False) = 0.006937380710195778
+P(Rhonchi=Present | ENTEROVIRUS=False) = 0.09615186806404791
+P(Rhonchi=Not Mentioned | ENTEROVIRUS=True) = 0.9431818181818182
+P(Rhonchi=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Rhonchi=Present | ENTEROVIRUS=True) = 0.05113636363636364
+P(Signs and Symptoms, Respiratory=Not Mentioned | ENTEROVIRUS=False) = 0.8518463490176806
+P(Signs and Symptoms, Respiratory=Negated | ENTEROVIRUS=False) = 0.0020114975370584135
+P(Signs and Symptoms, Respiratory=Present | ENTEROVIRUS=False) = 0.146142153445261
+P(Signs and Symptoms, Respiratory=Not Mentioned | ENTEROVIRUS=True) = 0.48863636363636365
+P(Signs and Symptoms, Respiratory=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Signs and Symptoms, Respiratory=Present | ENTEROVIRUS=True) = 0.48863636363636365
+P(Tachycardia=Not Mentioned | ENTEROVIRUS=False) = 0.9529469581814234
+P(Tachycardia=Negated | ENTEROVIRUS=False) = 0.007371681314787936
+P(Tachycardia=Present | ENTEROVIRUS=False) = 0.039681360503788704
+P(Tachycardia=Not Mentioned | ENTEROVIRUS=True) = 0.875
+P(Tachycardia=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Tachycardia=Present | ENTEROVIRUS=True) = 0.10795454545454546
+P(Toothache=Not Mentioned | ENTEROVIRUS=False) = 0.9772563630753054
+P(Toothache=Negated | ENTEROVIRUS=False) = 0.0010400356583654296
+P(Toothache=Present | ENTEROVIRUS=False) = 0.021703601266329132
+P(Toothache=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Toothache=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Toothache=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Unconscious State=Not Mentioned | ENTEROVIRUS=False) = 0.9375750025715167
+P(Unconscious State=Negated | ENTEROVIRUS=False) = 0.031863949621129865
+P(Unconscious State=Present | ENTEROVIRUS=False) = 0.030561047807353393
+P(Unconscious State=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Unconscious State=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Unconscious State=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Vomiting=Not Mentioned | ENTEROVIRUS=False) = 0.7213847331908523
+P(Vomiting=Negated | ENTEROVIRUS=False) = 0.12809582042812898
+P(Vomiting=Present | ENTEROVIRUS=False) = 0.15051944638101877
+P(Vomiting=Not Mentioned | ENTEROVIRUS=True) = 0.4943181818181818
+P(Vomiting=Negated | ENTEROVIRUS=True) = 0.23863636363636365
+P(Vomiting=Present | ENTEROVIRUS=True) = 0.26704545454545453
+P(Wheezing=Not Mentioned | ENTEROVIRUS=False) = 0.8071705315610821
+P(Wheezing=Negated | ENTEROVIRUS=False) = 0.13824473981965096
+P(Wheezing=Present | ENTEROVIRUS=False) = 0.05458472861926695
+P(Wheezing=Not Mentioned | ENTEROVIRUS=True) = 0.8181818181818182
+P(Wheezing=Negated | ENTEROVIRUS=True) = 0.06818181818181818
+P(Wheezing=Present | ENTEROVIRUS=True) = 0.11363636363636363
+P(Immunocompromised Host=Not Mentioned | ENTEROVIRUS=False) = 0.9957484256603083
+P(Immunocompromised Host=Negated | ENTEROVIRUS=False) = 8.914591357417969E-4
+P(Immunocompromised Host=Present | ENTEROVIRUS=False) = 0.0033601152039498495
+P(Immunocompromised Host=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Immunocompromised Host=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Immunocompromised Host=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Chills=Not Mentioned | ENTEROVIRUS=False) = 0.6502280078174109
+P(Chills=Negated | ENTEROVIRUS=False) = 0.0673165937117844
+P(Chills=Present | ENTEROVIRUS=False) = 0.2824553984708047
+P(Chills=Not Mentioned | ENTEROVIRUS=True) = 0.9090909090909091
+P(Chills=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Chills=Present | ENTEROVIRUS=True) = 0.07954545454545454
+P(Falls=Not Mentioned | ENTEROVIRUS=False) = 0.9164085625792885
+P(Falls=Negated | ENTEROVIRUS=False) = 0.006937380710195778
+P(Falls=Present | ENTEROVIRUS=False) = 0.07665405671051578
+P(Falls=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Falls=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Falls=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(History and physical examination=Not Mentioned | ENTEROVIRUS=False) = 0.7721750460015772
+P(History and physical examination=Negated | ENTEROVIRUS=False) = 2.7429511868978367E-4
+P(History and physical examination=Present | ENTEROVIRUS=False) = 0.22755065887973303
+P(History and physical examination=Not Mentioned | ENTEROVIRUS=True) = 0.8806818181818182
+P(History and physical examination=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(History and physical examination=Present | ENTEROVIRUS=True) = 0.11363636363636363
+P(Neck stiffness=Not Mentioned | ENTEROVIRUS=False) = 0.9790049944569528
+P(Neck stiffness=Negated | ENTEROVIRUS=False) = 0.007131673085934375
+P(Neck stiffness=Present | ENTEROVIRUS=False) = 0.013863332457112815
+P(Neck stiffness=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Neck stiffness=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Neck stiffness=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Dry skin=Not Mentioned | ENTEROVIRUS=False) = 0.41568282341108836
+P(Dry skin=Negated | ENTEROVIRUS=False) = 0.0011771832177103214
+P(Dry skin=Present | ENTEROVIRUS=False) = 0.5831399933712013
+P(Dry skin=Not Mentioned | ENTEROVIRUS=True) = 0.24431818181818182
+P(Dry skin=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Dry skin=Present | ENTEROVIRUS=True) = 0.7443181818181818
+P(Abnormal=Not Mentioned | ENTEROVIRUS=False) = 0.9625930031886808
+P(Abnormal=Negated | ENTEROVIRUS=False) = 0.0055773340800256005
+P(Abnormal=Present | ENTEROVIRUS=False) = 0.031829662731293645
+P(Abnormal=Not Mentioned | ENTEROVIRUS=True) = 0.8409090909090909
+P(Abnormal=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Abnormal=Present | ENTEROVIRUS=True) = 0.13636363636363635
+P(Lightheadedness=Not Mentioned | ENTEROVIRUS=False) = 0.9347520486416677
+P(Lightheadedness=Negated | ENTEROVIRUS=False) = 0.0116003977279221
+P(Lightheadedness=Present | ENTEROVIRUS=False) = 0.05364755363041018
+P(Lightheadedness=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Lightheadedness=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Lightheadedness=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Illness (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.8984650902316651
+P(Illness (finding)=Negated | ENTEROVIRUS=False) = 0.01928066105123604
+P(Illness (finding)=Present | ENTEROVIRUS=False) = 0.08225424871709887
+P(Illness (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.5852272727272727
+P(Illness (finding)=Negated | ENTEROVIRUS=True) = 0.0625
+P(Illness (finding)=Present | ENTEROVIRUS=True) = 0.3522727272727273
+P(Multiple symptoms=Not Mentioned | ENTEROVIRUS=False) = 0.985039487068128
+P(Multiple symptoms=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(Multiple symptoms=Present | ENTEROVIRUS=False) = 0.014914797078756986
+P(Multiple symptoms=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Multiple symptoms=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Multiple symptoms=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Malaise=Not Mentioned | ENTEROVIRUS=False) = 0.9583185709224317
+P(Malaise=Negated | ENTEROVIRUS=False) = 0.010708938592180303
+P(Malaise=Present | ENTEROVIRUS=False) = 0.030972490485388072
+P(Malaise=Not Mentioned | ENTEROVIRUS=True) = 0.8977272727272727
+P(Malaise=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Malaise=Present | ENTEROVIRUS=True) = 0.09090909090909091
+P(Myalgia=Not Mentioned | ENTEROVIRUS=False) = 0.9608329428437546
+P(Myalgia=Negated | ENTEROVIRUS=False) = 0.010366069693818074
+P(Myalgia=Present | ENTEROVIRUS=False) = 0.028800987462427284
+P(Myalgia=Not Mentioned | ENTEROVIRUS=True) = 0.9375
+P(Myalgia=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Myalgia=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(Gait normal=Not Mentioned | ENTEROVIRUS=False) = 0.9425008857446541
+P(Gait normal=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Gait normal=Present | ENTEROVIRUS=False) = 0.057464827365509674
+P(Gait normal=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Gait normal=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Gait normal=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Tachypnea=Not Mentioned | ENTEROVIRUS=False) = 0.9789707075671166
+P(Tachypnea=Negated | ENTEROVIRUS=False) = 0.006411648399373693
+P(Tachypnea=Present | ENTEROVIRUS=False) = 0.01461764403350972
+P(Tachypnea=Not Mentioned | ENTEROVIRUS=True) = 0.8920454545454546
+P(Tachypnea=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Tachypnea=Present | ENTEROVIRUS=True) = 0.09659090909090909
+P(Expiratory wheezing=Not Mentioned | ENTEROVIRUS=False) = 0.9879424437409282
+P(Expiratory wheezing=Negated | ENTEROVIRUS=False) = 2.6286615541104265E-4
+P(Expiratory wheezing=Present | ENTEROVIRUS=False) = 0.011794690103660696
+P(Expiratory wheezing=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Expiratory wheezing=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Expiratory wheezing=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Decrease in appetite=Not Mentioned | ENTEROVIRUS=False) = 0.9950626878635839
+P(Decrease in appetite=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-4
+P(Decrease in appetite=Present | ENTEROVIRUS=False) = 0.004823022503628696
+P(Decrease in appetite=Not Mentioned | ENTEROVIRUS=True) = 0.9545454545454546
+P(Decrease in appetite=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Decrease in appetite=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(Feeding difficulties=Not Mentioned | ENTEROVIRUS=False) = 0.9989599643416346
+P(Feeding difficulties=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(Feeding difficulties=Present | ENTEROVIRUS=False) = 9.943198052504657E-4
+P(Feeding difficulties=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Feeding difficulties=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Feeding difficulties=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Sensory Discomfort=Not Mentioned | ENTEROVIRUS=False) = 0.9091968867504029
+P(Sensory Discomfort=Negated | ENTEROVIRUS=False) = 0.0044915825685452075
+P(Sensory Discomfort=Present | ENTEROVIRUS=False) = 0.08631153068105192
+P(Sensory Discomfort=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Sensory Discomfort=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Sensory Discomfort=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Sore to touch=Not Mentioned | ENTEROVIRUS=False) = 0.38663039875652877
+P(Sore to touch=Negated | ENTEROVIRUS=False) = 0.301461764403351
+P(Sore to touch=Present | ENTEROVIRUS=False) = 0.31190783684012025
+P(Sore to touch=Not Mentioned | ENTEROVIRUS=True) = 0.5681818181818182
+P(Sore to touch=Negated | ENTEROVIRUS=True) = 0.3522727272727273
+P(Sore to touch=Present | ENTEROVIRUS=True) = 0.07954545454545454
+P(Ache=Not Mentioned | ENTEROVIRUS=False) = 0.9887881870235551
+P(Ache=Negated | ENTEROVIRUS=False) = 3.5429786164097054E-4
+P(Ache=Present | ENTEROVIRUS=False) = 0.010857515114803935
+P(Ache=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Ache=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Ache=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Level of consciousness=Not Mentioned | ENTEROVIRUS=False) = 0.9600443443775215
+P(Level of consciousness=Negated | ENTEROVIRUS=False) = 0.024069396665028515
+P(Level of consciousness=Present | ENTEROVIRUS=False) = 0.01588625895744997
+P(Level of consciousness=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Level of consciousness=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Level of consciousness=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Neurologic Symptoms=Not Mentioned | ENTEROVIRUS=False) = 0.860875230007886
+P(Neurologic Symptoms=Negated | ENTEROVIRUS=False) = 0.006937380710195778
+P(Neurologic Symptoms=Present | ENTEROVIRUS=False) = 0.13218738928191823
+P(Neurologic Symptoms=Not Mentioned | ENTEROVIRUS=True) = 0.5909090909090909
+P(Neurologic Symptoms=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Neurologic Symptoms=Present | ENTEROVIRUS=True) = 0.4034090909090909
+P(Consciousness clear=Not Mentioned | ENTEROVIRUS=False) = 0.19273803673268797
+P(Consciousness clear=Negated | ENTEROVIRUS=False) = 0.004411579825594021
+P(Consciousness clear=Present | ENTEROVIRUS=False) = 0.802850383441718
+P(Consciousness clear=Not Mentioned | ENTEROVIRUS=True) = 0.4659090909090909
+P(Consciousness clear=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Consciousness clear=Present | ENTEROVIRUS=True) = 0.5284090909090909
+P(Productive Cough=Not Mentioned | ENTEROVIRUS=False) = 0.9787535572648205
+P(Productive Cough=Negated | ENTEROVIRUS=False) = 0.0018857789409922627
+P(Productive Cough=Present | ENTEROVIRUS=False) = 0.01936066379418723
+P(Productive Cough=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Productive Cough=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Productive Cough=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Low grade fever=Not Mentioned | ENTEROVIRUS=False) = 0.9944112369566956
+P(Low grade fever=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Low grade fever=Present | ENTEROVIRUS=False) = 0.005554476153468119
+P(Low grade fever=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Low grade fever=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Low grade fever=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(PHARYNGEAL EXUDATE=Not Mentioned | ENTEROVIRUS=False) = 0.9996228442118016
+P(PHARYNGEAL EXUDATE=Negated | ENTEROVIRUS=False) = 2.6286615541104265E-4
+P(PHARYNGEAL EXUDATE=Present | ENTEROVIRUS=False) = 1.1428963278740985E-4
+P(PHARYNGEAL EXUDATE=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(PHARYNGEAL EXUDATE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(PHARYNGEAL EXUDATE=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Basilar Rales=Not Mentioned | ENTEROVIRUS=False) = 0.8196852463513035
+P(Basilar Rales=Negated | ENTEROVIRUS=False) = 0.022892213447318194
+P(Basilar Rales=Present | ENTEROVIRUS=False) = 0.15742254020137833
+P(Basilar Rales=Not Mentioned | ENTEROVIRUS=True) = 0.8920454545454546
+P(Basilar Rales=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Basilar Rales=Present | ENTEROVIRUS=True) = 0.07386363636363637
+P(Exudate on tonsils=Not Mentioned | ENTEROVIRUS=False) = 0.994925540304239
+P(Exudate on tonsils=Negated | ENTEROVIRUS=False) = 0.004091568853789273
+P(Exudate on tonsils=Present | ENTEROVIRUS=False) = 9.828908419717247E-4
+P(Exudate on tonsils=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Exudate on tonsils=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Exudate on tonsils=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Family history=Not Mentioned | ENTEROVIRUS=False) = 0.5308982022240762
+P(Family history=Negated | ENTEROVIRUS=False) = 0.023863675326011177
+P(Family history=Present | ENTEROVIRUS=False) = 0.44523812244991257
+P(Family history=Not Mentioned | ENTEROVIRUS=True) = 0.13068181818181818
+P(Family history=Negated | ENTEROVIRUS=True) = 0.13068181818181818
+P(Family history=Present | ENTEROVIRUS=True) = 0.7386363636363636
+P(Sore Throat=Not Mentioned | ENTEROVIRUS=False) = 0.8890819113798187
+P(Sore Throat=Negated | ENTEROVIRUS=False) = 0.05378470118975508
+P(Sore Throat=Present | ENTEROVIRUS=False) = 0.05713338743042619
+P(Sore Throat=Not Mentioned | ENTEROVIRUS=True) = 0.8352272727272727
+P(Sore Throat=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Sore Throat=Present | ENTEROVIRUS=True) = 0.13068181818181818
+P(Encounter due to family history of asthma=Not Mentioned | ENTEROVIRUS=False) = 0.9988113878190109
+P(Encounter due to family history of asthma=Negated | ENTEROVIRUS=False) = 3.657268249197115E-4
+P(Encounter due to family history of asthma=Present | ENTEROVIRUS=False) = 8.22885356069351E-4
+P(Encounter due to family history of asthma=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Encounter due to family history of asthma=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Encounter due to family history of asthma=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Nasal Flaring=Not Mentioned | ENTEROVIRUS=False) = 0.9971084722904785
+P(Nasal Flaring=Negated | ENTEROVIRUS=False) = 8.571722459055739E-4
+P(Nasal Flaring=Present | ENTEROVIRUS=False) = 0.0020343554636158955
+P(Nasal Flaring=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Nasal Flaring=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Nasal Flaring=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Normal bowel sounds=Not Mentioned | ENTEROVIRUS=False) = 0.7520143547778781
+P(Normal bowel sounds=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Normal bowel sounds=Present | ENTEROVIRUS=False) = 0.24795135833228568
+P(Normal bowel sounds=Not Mentioned | ENTEROVIRUS=True) = 0.5170454545454546
+P(Normal bowel sounds=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Normal bowel sounds=Present | ENTEROVIRUS=True) = 0.4772727272727273
+P(High risk of=Not Mentioned | ENTEROVIRUS=False) = 0.996114152485228
+P(High risk of=Negated | ENTEROVIRUS=False) = 4.2287164131341645E-4
+P(High risk of=Present | ENTEROVIRUS=False) = 0.0034629758734585187
+P(High risk of=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(High risk of=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(High risk of=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Retraction (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.8739042481456507
+P(Retraction (finding)=Negated | ENTEROVIRUS=False) = 0.11127238648182224
+P(Retraction (finding)=Present | ENTEROVIRUS=False) = 0.014823365372527058
+P(Retraction (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.8806818181818182
+P(Retraction (finding)=Negated | ENTEROVIRUS=True) = 0.045454545454545456
+P(Retraction (finding)=Present | ENTEROVIRUS=True) = 0.07386363636363637
+P(Redness=Not Mentioned | ENTEROVIRUS=False) = 0.8860875230007886
+P(Redness=Negated | ENTEROVIRUS=False) = 0.02821811033521149
+P(Redness=Present | ENTEROVIRUS=False) = 0.0856943666639999
+P(Redness=Not Mentioned | ENTEROVIRUS=True) = 0.8920454545454546
+P(Redness=Negated | ENTEROVIRUS=True) = 0.045454545454545456
+P(Redness=Present | ENTEROVIRUS=True) = 0.0625
+P(Base deficit (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.9955769912111272
+P(Base deficit (finding)=Negated | ENTEROVIRUS=False) = 2.285792655748197E-5
+P(Base deficit (finding)=Present | ENTEROVIRUS=False) = 0.004400150862315279
+P(Base deficit (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Base deficit (finding)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Base deficit (finding)=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Exacerbation of asthma=Not Mentioned | ENTEROVIRUS=False) = 0.9872681349074826
+P(Exacerbation of asthma=Negated | ENTEROVIRUS=False) = 2.0572133901733774E-4
+P(Exacerbation of asthma=Present | ENTEROVIRUS=False) = 0.01252614375350012
+P(Exacerbation of asthma=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Exacerbation of asthma=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Exacerbation of asthma=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Influenza-like symptoms=Not Mentioned | ENTEROVIRUS=False) = 0.9979656445363841
+P(Influenza-like symptoms=Negated | ENTEROVIRUS=False) = 2.400082288535607E-4
+P(Influenza-like symptoms=Present | ENTEROVIRUS=False) = 0.0017943472347623347
+P(Influenza-like symptoms=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Influenza-like symptoms=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Influenza-like symptoms=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Facial symmetry=Not Mentioned | ENTEROVIRUS=False) = 0.9039167057156245
+P(Facial symmetry=Negated | ENTEROVIRUS=False) = 1.8286341245985575E-4
+P(Facial symmetry=Present | ENTEROVIRUS=False) = 0.0959004308719156
+P(Facial symmetry=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Facial symmetry=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Facial symmetry=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Fever symptoms (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.6161696972467627
+P(Fever symptoms (finding)=Negated | ENTEROVIRUS=False) = 0.23584808622009898
+P(Fever symptoms (finding)=Present | ENTEROVIRUS=False) = 0.14798221653313828
+P(Fever symptoms (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.16477272727272727
+P(Fever symptoms (finding)=Negated | ENTEROVIRUS=True) = 0.13068181818181818
+P(Fever symptoms (finding)=Present | ENTEROVIRUS=True) = 0.7045454545454546
+P(No obstruction of airway=Not Mentioned | ENTEROVIRUS=False) = 0.7449055396185013
+P(No obstruction of airway=Negated | ENTEROVIRUS=False) = 8.00027429511869E-5
+P(No obstruction of airway=Present | ENTEROVIRUS=False) = 0.25501445763854763
+P(No obstruction of airway=Not Mentioned | ENTEROVIRUS=True) = 0.9488636363636364
+P(No obstruction of airway=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(No obstruction of airway=Present | ENTEROVIRUS=True) = 0.045454545454545456
+P(Intercostal Retractions=Not Mentioned | ENTEROVIRUS=False) = 0.8739728219253231
+P(Intercostal Retractions=Negated | ENTEROVIRUS=False) = 0.11131810233493719
+P(Intercostal Retractions=Present | ENTEROVIRUS=False) = 0.014709075739739648
+P(Intercostal Retractions=Not Mentioned | ENTEROVIRUS=True) = 0.8693181818181818
+P(Intercostal Retractions=Negated | ENTEROVIRUS=True) = 0.045454545454545456
+P(Intercostal Retractions=Present | ENTEROVIRUS=True) = 0.08522727272727272
+P(Peripheral perfusion=Not Mentioned | ENTEROVIRUS=False) = 0.7428026103752129
+P(Peripheral perfusion=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Peripheral perfusion=Present | ENTEROVIRUS=False) = 0.2571859606615084
+P(Peripheral perfusion=Not Mentioned | ENTEROVIRUS=True) = 0.30113636363636365
+P(Peripheral perfusion=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Peripheral perfusion=Present | ENTEROVIRUS=True) = 0.6931818181818182
+P(Genitourinary symptoms=Not Mentioned | ENTEROVIRUS=False) = 0.9016537709864338
+P(Genitourinary symptoms=Negated | ENTEROVIRUS=False) = 4.114426780346755E-4
+P(Genitourinary symptoms=Present | ENTEROVIRUS=False) = 0.0979347863355315
+P(Genitourinary symptoms=Not Mentioned | ENTEROVIRUS=True) = 0.6363636363636364
+P(Genitourinary symptoms=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Genitourinary symptoms=Present | ENTEROVIRUS=True) = 0.35795454545454547
+P(Gastrointestinal symptom=Not Mentioned | ENTEROVIRUS=False) = 0.8531035349783421
+P(Gastrointestinal symptom=Negated | ENTEROVIRUS=False) = 2.0572133901733774E-4
+P(Gastrointestinal symptom=Present | ENTEROVIRUS=False) = 0.14669074368264054
+P(Gastrointestinal symptom=Not Mentioned | ENTEROVIRUS=True) = 0.4943181818181818
+P(Gastrointestinal symptom=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Gastrointestinal symptom=Present | ENTEROVIRUS=True) = 0.5
+P(Inspired fraction of oxygen=Not Mentioned | ENTEROVIRUS=False) = 0.7494885538932763
+P(Inspired fraction of oxygen=Negated | ENTEROVIRUS=False) = 1.0286066950866887E-4
+P(Inspired fraction of oxygen=Present | ENTEROVIRUS=False) = 0.250408585437215
+P(Inspired fraction of oxygen=Not Mentioned | ENTEROVIRUS=True) = 0.9545454545454546
+P(Inspired fraction of oxygen=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Inspired fraction of oxygen=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(3/4=Not Mentioned | ENTEROVIRUS=False) = 0.996559882053099
+P(3/4=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(3/4=Present | ENTEROVIRUS=False) = 0.0034286889836222956
+P(3/4=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(3/4=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(3/4=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Homicidal thoughts=Not Mentioned | ENTEROVIRUS=False) = 0.9756220213264455
+P(Homicidal thoughts=Negated | ENTEROVIRUS=False) = 0.007280249608558008
+P(Homicidal thoughts=Present | ENTEROVIRUS=False) = 0.017097729064996514
+P(Homicidal thoughts=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Homicidal thoughts=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Homicidal thoughts=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(PMH - past medical history=Not Mentioned | ENTEROVIRUS=False) = 0.41605997919928683
+P(PMH - past medical history=Negated | ENTEROVIRUS=False) = 0.04004708732870841
+P(PMH - past medical history=Present | ENTEROVIRUS=False) = 0.5438929334720047
+P(PMH - past medical history=Not Mentioned | ENTEROVIRUS=True) = 0.8579545454545454
+P(PMH - past medical history=Negated | ENTEROVIRUS=True) = 0.03977272727272727
+P(PMH - past medical history=Present | ENTEROVIRUS=True) = 0.10227272727272728
+P(H/O: asthma=Not Mentioned | ENTEROVIRUS=False) = 0.9741705429900454
+P(H/O: asthma=Negated | ENTEROVIRUS=False) = 0.003314399350834886
+P(H/O: asthma=Present | ENTEROVIRUS=False) = 0.022515057659119743
+P(H/O: asthma=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(H/O: asthma=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(H/O: asthma=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Red throat=Not Mentioned | ENTEROVIRUS=False) = 0.8069648102220648
+P(Red throat=Negated | ENTEROVIRUS=False) = 0.11334102883527435
+P(Red throat=Present | ENTEROVIRUS=False) = 0.0796941609426609
+P(Red throat=Not Mentioned | ENTEROVIRUS=True) = 0.5681818181818182
+P(Red throat=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Red throat=Present | ENTEROVIRUS=True) = 0.3977272727272727
+P(Test Result=Not Mentioned | ENTEROVIRUS=False) = 0.9680331897093615
+P(Test Result=Negated | ENTEROVIRUS=False) = 0.0026400905173891674
+P(Test Result=Present | ENTEROVIRUS=False) = 0.02932671977324937
+P(Test Result=Not Mentioned | ENTEROVIRUS=True) = 0.9261363636363636
+P(Test Result=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Test Result=Present | ENTEROVIRUS=True) = 0.0625
+P(Yellow sputum=Not Mentioned | ENTEROVIRUS=False) = 0.996468450346869
+P(Yellow sputum=Negated | ENTEROVIRUS=False) = 2.285792655748197E-5
+P(Yellow sputum=Present | ENTEROVIRUS=False) = 0.0035086917265734823
+P(Yellow sputum=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Yellow sputum=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Yellow sputum=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Cardiovascular symptoms=Not Mentioned | ENTEROVIRUS=False) = 0.8900076574053968
+P(Cardiovascular symptoms=Negated | ENTEROVIRUS=False) = 1.2571859606615084E-4
+P(Cardiovascular symptoms=Present | ENTEROVIRUS=False) = 0.1098666239985371
+P(Cardiovascular symptoms=Not Mentioned | ENTEROVIRUS=True) = 0.6363636363636364
+P(Cardiovascular symptoms=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Cardiovascular symptoms=Present | ENTEROVIRUS=True) = 0.35795454545454547
+P(Respiratory distress=Not Mentioned | ENTEROVIRUS=False) = 0.9224201972639062
+P(Respiratory distress=Negated | ENTEROVIRUS=False) = 0.025578019817822324
+P(Respiratory distress=Present | ENTEROVIRUS=False) = 0.05200178291827148
+P(Respiratory distress=Not Mentioned | ENTEROVIRUS=True) = 0.8636363636363636
+P(Respiratory distress=Negated | ENTEROVIRUS=True) = 0.03977272727272727
+P(Respiratory distress=Present | ENTEROVIRUS=True) = 0.09659090909090909
+P(History source=Not Mentioned | ENTEROVIRUS=False) = 0.7650548018789216
+P(History source=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(History source=Present | ENTEROVIRUS=False) = 0.23489948226796348
+P(History source=Not Mentioned | ENTEROVIRUS=True) = 0.1590909090909091
+P(History source=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(History source=Present | ENTEROVIRUS=True) = 0.8352272727272727
+P(Hospital course=Not Mentioned | ENTEROVIRUS=False) = 0.7609403750985748
+P(Hospital course=Negated | ENTEROVIRUS=False) = 8.686012091843149E-4
+P(Hospital course=Present | ENTEROVIRUS=False) = 0.23819102369224088
+P(Hospital course=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Hospital course=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Hospital course=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Social warmth=Not Mentioned | ENTEROVIRUS=False) = 0.9576214041624285
+P(Social warmth=Negated | ENTEROVIRUS=False) = 0.007851697772495057
+P(Social warmth=Present | ENTEROVIRUS=False) = 0.034526898065076514
+P(Social warmth=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Social warmth=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Social warmth=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Neurologic Deficits=Not Mentioned | ENTEROVIRUS=False) = 0.8598694812393568
+P(Neurologic Deficits=Negated | ENTEROVIRUS=False) = 0.006343074619701247
+P(Neurologic Deficits=Present | ENTEROVIRUS=False) = 0.13378744414094199
+P(Neurologic Deficits=Not Mentioned | ENTEROVIRUS=True) = 0.6193181818181818
+P(Neurologic Deficits=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Neurologic Deficits=Present | ENTEROVIRUS=True) = 0.375
+P(Mean Corpuscular Volume (result)=Not Mentioned | ENTEROVIRUS=False) = 0.8617209732905128
+P(Mean Corpuscular Volume (result)=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Mean Corpuscular Volume (result)=Present | ENTEROVIRUS=False) = 0.13824473981965096
+P(Mean Corpuscular Volume (result)=Not Mentioned | ENTEROVIRUS=True) = 0.7443181818181818
+P(Mean Corpuscular Volume (result)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Mean Corpuscular Volume (result)=Present | ENTEROVIRUS=True) = 0.25
+P(Observation of Sensation=Not Mentioned | ENTEROVIRUS=False) = 0.7789409922625918
+P(Observation of Sensation=Negated | ENTEROVIRUS=False) = 0.002285792655748197
+P(Observation of Sensation=Present | ENTEROVIRUS=False) = 0.21877321508165995
+P(Observation of Sensation=Not Mentioned | ENTEROVIRUS=True) = 0.9431818181818182
+P(Observation of Sensation=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Observation of Sensation=Present | ENTEROVIRUS=True) = 0.05113636363636364
+P(None=Not Mentioned | ENTEROVIRUS=False) = 0.2329565585105775
+P(None=Negated | ENTEROVIRUS=False) = 7.77169502954387E-4
+P(None=Present | ENTEROVIRUS=False) = 0.7662662719864681
+P(None=Not Mentioned | ENTEROVIRUS=True) = 0.03409090909090909
+P(None=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(None=Present | ENTEROVIRUS=True) = 0.9602272727272727
+P(Lives with mother=Not Mentioned | ENTEROVIRUS=False) = 0.9918397202189789
+P(Lives with mother=Negated | ENTEROVIRUS=False) = 8.00027429511869E-5
+P(Lives with mother=Present | ENTEROVIRUS=False) = 0.008080277038069877
+P(Lives with mother=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Lives with mother=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Lives with mother=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Skin appearance normal (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.20344697532486827
+P(Skin appearance normal (finding)=Negated | ENTEROVIRUS=False) = 0.01147467913185595
+P(Skin appearance normal (finding)=Present | ENTEROVIRUS=False) = 0.7850783455432758
+P(Skin appearance normal (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.06818181818181818
+P(Skin appearance normal (finding)=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Skin appearance normal (finding)=Present | ENTEROVIRUS=True) = 0.9204545454545454
+P(Persistent cough=Not Mentioned | ENTEROVIRUS=False) = 0.9981256500222865
+P(Persistent cough=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Persistent cough=Present | ENTEROVIRUS=False) = 0.0018400630878772986
+P(Persistent cough=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Persistent cough=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Persistent cough=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Mass of body structure=Not Mentioned | ENTEROVIRUS=False) = 0.8555493331199927
+P(Mass of body structure=Negated | ENTEROVIRUS=False) = 0.010914659931197642
+P(Mass of body structure=Present | ENTEROVIRUS=False) = 0.13353600694880968
+P(Mass of body structure=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Mass of body structure=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Mass of body structure=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Mass of body region=Not Mentioned | ENTEROVIRUS=False) = 0.8616981153639554
+P(Mass of body region=Negated | ENTEROVIRUS=False) = 0.0109032309679189
+P(Mass of body region=Present | ENTEROVIRUS=False) = 0.12739865366812578
+P(Mass of body region=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Mass of body region=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Mass of body region=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Does move=Not Mentioned | ENTEROVIRUS=False) = 0.845343268912077
+P(Does move=Negated | ENTEROVIRUS=False) = 1.2571859606615084E-4
+P(Does move=Present | ENTEROVIRUS=False) = 0.15453101249185686
+P(Does move=Not Mentioned | ENTEROVIRUS=True) = 0.4715909090909091
+P(Does move=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Does move=Present | ENTEROVIRUS=True) = 0.5227272727272727
+P(Feels warm=Not Mentioned | ENTEROVIRUS=False) = 0.2986616684000594
+P(Feels warm=Negated | ENTEROVIRUS=False) = 0.007737408139707647
+P(Feels warm=Present | ENTEROVIRUS=False) = 0.6936009234602329
+P(Feels warm=Not Mentioned | ENTEROVIRUS=True) = 0.1534090909090909
+P(Feels warm=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Feels warm=Present | ENTEROVIRUS=True) = 0.8352272727272727
+P(Eye symptom=Not Mentioned | ENTEROVIRUS=False) = 0.8862818153765272
+P(Eye symptom=Negated | ENTEROVIRUS=False) = 2.1715030229607873E-4
+P(Eye symptom=Present | ENTEROVIRUS=False) = 0.11350103432117672
+P(Eye symptom=Not Mentioned | ENTEROVIRUS=True) = 0.5909090909090909
+P(Eye symptom=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Eye symptom=Present | ENTEROVIRUS=True) = 0.4034090909090909
+P(Skin symptom=Not Mentioned | ENTEROVIRUS=False) = 0.8574808279141
+P(Skin symptom=Negated | ENTEROVIRUS=False) = 2.971530452472656E-4
+P(Skin symptom=Present | ENTEROVIRUS=False) = 0.14222201904065282
+P(Skin symptom=Not Mentioned | ENTEROVIRUS=True) = 0.5113636363636364
+P(Skin symptom=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Skin symptom=Present | ENTEROVIRUS=True) = 0.48295454545454547
+P(Discharge status=Not Mentioned | ENTEROVIRUS=False) = 0.9180771912179846
+P(Discharge status=Negated | ENTEROVIRUS=False) = 2.285792655748197E-5
+P(Discharge status=Present | ENTEROVIRUS=False) = 0.0818999508554579
+P(Discharge status=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Discharge status=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Discharge status=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Laboratory test finding=Not Mentioned | ENTEROVIRUS=False) = 0.7499685703509834
+P(Laboratory test finding=Negated | ENTEROVIRUS=False) = 0.005645907859698047
+P(Laboratory test finding=Present | ENTEROVIRUS=False) = 0.2443855217893185
+P(Laboratory test finding=Not Mentioned | ENTEROVIRUS=True) = 0.8352272727272727
+P(Laboratory test finding=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Laboratory test finding=Present | ENTEROVIRUS=True) = 0.1534090909090909
+P(Household composition=Not Mentioned | ENTEROVIRUS=False) = 0.8824188257883128
+P(Household composition=Negated | ENTEROVIRUS=False) = 0.0019886396105009314
+P(Household composition=Present | ENTEROVIRUS=False) = 0.11559253460118632
+P(Household composition=Not Mentioned | ENTEROVIRUS=True) = 0.7329545454545454
+P(Household composition=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Household composition=Present | ENTEROVIRUS=True) = 0.26136363636363635
+P(Hypoxemia=Not Mentioned | ENTEROVIRUS=False) = 0.9979885024629416
+P(Hypoxemia=Negated | ENTEROVIRUS=False) = 3.200109718047476E-4
+P(Hypoxemia=Present | ENTEROVIRUS=False) = 0.0016914865652536658
+P(Hypoxemia=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Hypoxemia=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Hypoxemia=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Prematurity of fetus=Not Mentioned | ENTEROVIRUS=False) = 0.9986399533698298
+P(Prematurity of fetus=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Prematurity of fetus=Present | ENTEROVIRUS=False) = 0.0013257597403339542
+P(Prematurity of fetus=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Prematurity of fetus=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Prematurity of fetus=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(atypia morphology=Not Mentioned | ENTEROVIRUS=False) = 0.985793798644525
+P(atypia morphology=Negated | ENTEROVIRUS=False) = 6.400219436094952E-4
+P(atypia morphology=Present | ENTEROVIRUS=False) = 0.01356617941186555
+P(atypia morphology=Not Mentioned | ENTEROVIRUS=True) = 0.8693181818181818
+P(atypia morphology=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(atypia morphology=Present | ENTEROVIRUS=True) = 0.125
+P(FEVER HIGH (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.9979199286832692
+P(FEVER HIGH (finding)=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(FEVER HIGH (finding)=Present | ENTEROVIRUS=False) = 0.0020343554636158955
+P(FEVER HIGH (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.9545454545454546
+P(FEVER HIGH (finding)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(FEVER HIGH (finding)=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(surgical history=Not Mentioned | ENTEROVIRUS=False) = 0.8126221470450415
+P(surgical history=Negated | ENTEROVIRUS=False) = 3.885847514771935E-4
+P(surgical history=Present | ENTEROVIRUS=False) = 0.18698926820348127
+P(surgical history=Not Mentioned | ENTEROVIRUS=True) = 0.5056818181818182
+P(surgical history=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(surgical history=Present | ENTEROVIRUS=True) = 0.48863636363636365
+P(Oxygen saturation below reference range=Not Mentioned | ENTEROVIRUS=False) = 0.9981370789855653
+P(Oxygen saturation below reference range=Negated | ENTEROVIRUS=False) = 1.9429237573859675E-4
+P(Oxygen saturation below reference range=Present | ENTEROVIRUS=False) = 0.001668628638696184
+P(Oxygen saturation below reference range=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Oxygen saturation below reference range=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Oxygen saturation below reference range=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(White blood cell count decreased=Not Mentioned | ENTEROVIRUS=False) = 0.9978284969770392
+P(White blood cell count decreased=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(White blood cell count decreased=Present | ENTEROVIRUS=False) = 0.0021372161331245643
+P(White blood cell count decreased=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(White blood cell count decreased=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(White blood cell count decreased=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Confirmation=Not Mentioned | ENTEROVIRUS=False) = 0.8029418151479479
+P(Confirmation=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-4
+P(Confirmation=Present | ENTEROVIRUS=False) = 0.19694389521926467
+P(Confirmation=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Confirmation=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Confirmation=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Completion Status=Not Mentioned | ENTEROVIRUS=False) = 0.986456678514692
+P(Completion Status=Negated | ENTEROVIRUS=False) = 2.0572133901733774E-4
+P(Completion Status=Present | ENTEROVIRUS=False) = 0.01333760014629073
+P(Completion Status=Not Mentioned | ENTEROVIRUS=True) = 0.9488636363636364
+P(Completion Status=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Completion Status=Present | ENTEROVIRUS=True) = 0.045454545454545456
+P(Tube number=Not Mentioned | ENTEROVIRUS=False) = 0.9989028195252408
+P(Tube number=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Tube number=Present | ENTEROVIRUS=False) = 0.0010857515114803937
+P(Tube number=Not Mentioned | ENTEROVIRUS=True) = 0.9318181818181818
+P(Tube number=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Tube number=Present | ENTEROVIRUS=True) = 0.0625
+P(Dry cough=Not Mentioned | ENTEROVIRUS=False) = 0.9857595117546887
+P(Dry cough=Negated | ENTEROVIRUS=False) = 9.143170622992788E-5
+P(Dry cough=Present | ENTEROVIRUS=False) = 0.01414905653908134
+P(Dry cough=Not Mentioned | ENTEROVIRUS=True) = 0.9318181818181818
+P(Dry cough=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Dry cough=Present | ENTEROVIRUS=True) = 0.0625
+P(family issues=Not Mentioned | ENTEROVIRUS=False) = 0.9996228442118016
+P(family issues=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(family issues=Present | ENTEROVIRUS=False) = 3.657268249197115E-4
+P(family issues=Not Mentioned | ENTEROVIRUS=True) = 0.875
+P(family issues=Negated | ENTEROVIRUS=True) = 0.11931818181818182
+P(family issues=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Neutrophil count decreased=Not Mentioned | ENTEROVIRUS=False) = 0.9975999177114644
+P(Neutrophil count decreased=Negated | ENTEROVIRUS=False) = 6.400219436094952E-4
+P(Neutrophil count decreased=Present | ENTEROVIRUS=False) = 0.0017600603449261117
+P(Neutrophil count decreased=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Neutrophil count decreased=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Neutrophil count decreased=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Increased work of breathing=Not Mentioned | ENTEROVIRUS=False) = 0.9976570625278581
+P(Increased work of breathing=Negated | ENTEROVIRUS=False) = 6.857377967244591E-4
+P(Increased work of breathing=Present | ENTEROVIRUS=False) = 0.001657199675417443
+P(Increased work of breathing=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Increased work of breathing=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Increased work of breathing=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Yellow color on exam=Not Mentioned | ENTEROVIRUS=False) = 0.9871652742379738
+P(Yellow color on exam=Negated | ENTEROVIRUS=False) = 1.0286066950866887E-4
+P(Yellow color on exam=Present | ENTEROVIRUS=False) = 0.012731865092517457
+P(Yellow color on exam=Not Mentioned | ENTEROVIRUS=True) = 0.8011363636363636
+P(Yellow color on exam=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Yellow color on exam=Present | ENTEROVIRUS=True) = 0.19318181818181818
+P(Rupture of Membranes=Not Mentioned | ENTEROVIRUS=False) = 0.8540407099671988
+P(Rupture of Membranes=Negated | ENTEROVIRUS=False) = 0.001565767969187515
+P(Rupture of Membranes=Present | ENTEROVIRUS=False) = 0.1443935220636136
+P(Rupture of Membranes=Not Mentioned | ENTEROVIRUS=True) = 0.5625
+P(Rupture of Membranes=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Rupture of Membranes=Present | ENTEROVIRUS=True) = 0.42045454545454547
+P(Rhinorrhea=Not Mentioned | ENTEROVIRUS=False) = 0.9448781101066323
+P(Rhinorrhea=Negated | ENTEROVIRUS=False) = 0.01113181023349372
+P(Rhinorrhea=Present | ENTEROVIRUS=False) = 0.04399007965987405
+P(Rhinorrhea=Not Mentioned | ENTEROVIRUS=True) = 0.6931818181818182
+P(Rhinorrhea=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Rhinorrhea=Present | ENTEROVIRUS=True) = 0.2840909090909091
+P(Platelet morphology - result=Not Mentioned | ENTEROVIRUS=False) = 0.9979084997199904
+P(Platelet morphology - result=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Platelet morphology - result=Present | ENTEROVIRUS=False) = 0.002080071316730859
+P(Platelet morphology - result=Not Mentioned | ENTEROVIRUS=True) = 0.9545454545454546
+P(Platelet morphology - result=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Platelet morphology - result=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(Family history of asthma=Not Mentioned | ENTEROVIRUS=False) = 0.9933597723350515
+P(Family history of asthma=Negated | ENTEROVIRUS=False) = 3.5429786164097054E-4
+P(Family history of asthma=Present | ENTEROVIRUS=False) = 0.006285929803307542
+P(Family history of asthma=Not Mentioned | ENTEROVIRUS=True) = 0.9318181818181818
+P(Family history of asthma=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Family history of asthma=Present | ENTEROVIRUS=True) = 0.0625
+P(Blood pressure finding=Not Mentioned | ENTEROVIRUS=False) = 0.8081762803296113
+P(Blood pressure finding=Negated | ENTEROVIRUS=False) = 0.001497194189515069
+P(Blood pressure finding=Present | ENTEROVIRUS=False) = 0.19032652548087364
+P(Blood pressure finding=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Blood pressure finding=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Blood pressure finding=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Systemic arterial pressure=Not Mentioned | ENTEROVIRUS=False) = 0.8071133867446884
+P(Systemic arterial pressure=Negated | ENTEROVIRUS=False) = 0.001474336262957587
+P(Systemic arterial pressure=Present | ENTEROVIRUS=False) = 0.19141227699235402
+P(Systemic arterial pressure=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Systemic arterial pressure=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Systemic arterial pressure=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Not significant=Not Mentioned | ENTEROVIRUS=False) = 0.8558236282386825
+P(Not significant=Negated | ENTEROVIRUS=False) = 1.0286066950866887E-4
+P(Not significant=Present | ENTEROVIRUS=False) = 0.14407351109180885
+P(Not significant=Not Mentioned | ENTEROVIRUS=True) = 0.6931818181818182
+P(Not significant=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Not significant=Present | ENTEROVIRUS=True) = 0.30113636363636365
+P(Cough with fever=Not Mentioned | ENTEROVIRUS=False) = 0.9981485079488439
+P(Cough with fever=Negated | ENTEROVIRUS=False) = 6.514509068882362E-4
+P(Cough with fever=Present | ENTEROVIRUS=False) = 0.0012000411442678034
+P(Cough with fever=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Cough with fever=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Cough with fever=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Patient name=Not Mentioned | ENTEROVIRUS=False) = 0.7533172565916546
+P(Patient name=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Patient name=Present | ENTEROVIRUS=False) = 0.24667131444506668
+P(Patient name=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Patient name=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Patient name=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Sexual intercourse - finding=Not Mentioned | ENTEROVIRUS=False) = 0.29521012148987963
+P(Sexual intercourse - finding=Negated | ENTEROVIRUS=False) = 0.00521160725510589
+P(Sexual intercourse - finding=Present | ENTEROVIRUS=False) = 0.6995782712550145
+P(Sexual intercourse - finding=Not Mentioned | ENTEROVIRUS=True) = 0.03977272727272727
+P(Sexual intercourse - finding=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Sexual intercourse - finding=Present | ENTEROVIRUS=True) = 0.9488636363636364
+P(Hydration status=Not Mentioned | ENTEROVIRUS=False) = 0.9720333268569208
+P(Hydration status=Negated | ENTEROVIRUS=False) = 3.428688983622296E-4
+P(Hydration status=Present | ENTEROVIRUS=False) = 0.02762380424471696
+P(Hydration status=Not Mentioned | ENTEROVIRUS=True) = 0.9204545454545454
+P(Hydration status=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Hydration status=Present | ENTEROVIRUS=True) = 0.0625
+P(Base excess result=Not Mentioned | ENTEROVIRUS=False) = 0.9963655896773603
+P(Base excess result=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Base excess result=Present | ENTEROVIRUS=False) = 0.0036229813593608926
+P(Base excess result=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Base excess result=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Base excess result=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Therapy Object (animal model)=Not Mentioned | ENTEROVIRUS=False) = 0.8860303781843949
+P(Therapy Object (animal model)=Negated | ENTEROVIRUS=False) = 9.828908419717247E-4
+P(Therapy Object (animal model)=Present | ENTEROVIRUS=False) = 0.11298673097363338
+P(Therapy Object (animal model)=Not Mentioned | ENTEROVIRUS=True) = 0.6363636363636364
+P(Therapy Object (animal model)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Therapy Object (animal model)=Present | ENTEROVIRUS=True) = 0.35795454545454547
+P(Sharp sensation quality=Not Mentioned | ENTEROVIRUS=False) = 0.9506040207092815
+P(Sharp sensation quality=Negated | ENTEROVIRUS=False) = 6.971667600032001E-4
+P(Sharp sensation quality=Present | ENTEROVIRUS=False) = 0.04869881253071534
+P(Sharp sensation quality=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Sharp sensation quality=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Sharp sensation quality=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Positive=Not Mentioned | ENTEROVIRUS=False) = 0.821605312182132
+P(Positive=Negated | ENTEROVIRUS=False) = 0.04771592168874361
+P(Positive=Present | ENTEROVIRUS=False) = 0.13067876612912444
+P(Positive=Not Mentioned | ENTEROVIRUS=True) = 0.9261363636363636
+P(Positive=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Positive=Present | ENTEROVIRUS=True) = 0.0625
+P(Symptoms=Not Mentioned | ENTEROVIRUS=False) = 0.46530738196738175
+P(Symptoms=Negated | ENTEROVIRUS=False) = 0.06517937757865984
+P(Symptoms=Present | ENTEROVIRUS=False) = 0.4695132404539584
+P(Symptoms=Not Mentioned | ENTEROVIRUS=True) = 0.3068181818181818
+P(Symptoms=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Symptoms=Present | ENTEROVIRUS=True) = 0.6704545454545454
+P(Physical assessment findings=Not Mentioned | ENTEROVIRUS=False) = 0.8431717658891162
+P(Physical assessment findings=Negated | ENTEROVIRUS=False) = 0.005417328594123227
+P(Physical assessment findings=Present | ENTEROVIRUS=False) = 0.15141090551676056
+P(Physical assessment findings=Not Mentioned | ENTEROVIRUS=True) = 0.5
+P(Physical assessment findings=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Physical assessment findings=Present | ENTEROVIRUS=True) = 0.4943181818181818
+P(Mild Adverse Event=Not Mentioned | ENTEROVIRUS=False) = 0.6972010468930363
+P(Mild Adverse Event=Negated | ENTEROVIRUS=False) = 0.0018057761980410758
+P(Mild Adverse Event=Present | ENTEROVIRUS=False) = 0.3009931769089226
+P(Mild Adverse Event=Not Mentioned | ENTEROVIRUS=True) = 0.6363636363636364
+P(Mild Adverse Event=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Mild Adverse Event=Present | ENTEROVIRUS=True) = 0.35795454545454547
+P(Positive Finding=Not Mentioned | ENTEROVIRUS=False) = 0.8564750791455708
+P(Positive Finding=Negated | ENTEROVIRUS=False) = 0.04813879333005703
+P(Positive Finding=Present | ENTEROVIRUS=False) = 0.09538612752437227
+P(Positive Finding=Not Mentioned | ENTEROVIRUS=True) = 0.9261363636363636
+P(Positive Finding=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Positive Finding=Present | ENTEROVIRUS=True) = 0.0625
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | ENTEROVIRUS=False) = 0.9430494759820337
+P(Ambulatory Status - Oxygen therapy=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Ambulatory Status - Oxygen therapy=Present | ENTEROVIRUS=False) = 0.05693909505468759
+P(Ambulatory Status - Oxygen therapy=Not Mentioned | ENTEROVIRUS=True) = 0.6363636363636364
+P(Ambulatory Status - Oxygen therapy=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Ambulatory Status - Oxygen therapy=Present | ENTEROVIRUS=True) = 0.35795454545454547
+P(Referral type - Psychiatric=Not Mentioned | ENTEROVIRUS=False) = 0.5743854074996857
+P(Referral type - Psychiatric=Negated | ENTEROVIRUS=False) = 0.005097317622318479
+P(Referral type - Psychiatric=Present | ENTEROVIRUS=False) = 0.42051727487799584
+P(Referral type - Psychiatric=Not Mentioned | ENTEROVIRUS=True) = 0.6193181818181818
+P(Referral type - Psychiatric=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Referral type - Psychiatric=Present | ENTEROVIRUS=True) = 0.375
+P(Normal Observation Interpretation=Not Mentioned | ENTEROVIRUS=False) = 0.2050698881104495
+P(Normal Observation Interpretation=Negated | ENTEROVIRUS=False) = 0.01149753705841343
+P(Normal Observation Interpretation=Present | ENTEROVIRUS=False) = 0.783432574831137
+P(Normal Observation Interpretation=Not Mentioned | ENTEROVIRUS=True) = 0.06818181818181818
+P(Normal Observation Interpretation=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Normal Observation Interpretation=Present | ENTEROVIRUS=True) = 0.9204545454545454
+P(normal Device Alert Level=Not Mentioned | ENTEROVIRUS=False) = 0.2050698881104495
+P(normal Device Alert Level=Negated | ENTEROVIRUS=False) = 0.01149753705841343
+P(normal Device Alert Level=Present | ENTEROVIRUS=False) = 0.783432574831137
+P(normal Device Alert Level=Not Mentioned | ENTEROVIRUS=True) = 0.06818181818181818
+P(normal Device Alert Level=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(normal Device Alert Level=Present | ENTEROVIRUS=True) = 0.9204545454545454
+P(DeviceAlertLevel - Critical=Not Mentioned | ENTEROVIRUS=False) = 0.9902968101763489
+P(DeviceAlertLevel - Critical=Negated | ENTEROVIRUS=False) = 2.514371921323017E-4
+P(DeviceAlertLevel - Critical=Present | ENTEROVIRUS=False) = 0.009451752631518795
+P(DeviceAlertLevel - Critical=Not Mentioned | ENTEROVIRUS=True) = 0.9261363636363636
+P(DeviceAlertLevel - Critical=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(DeviceAlertLevel - Critical=Present | ENTEROVIRUS=True) = 0.06818181818181818
+P(discharge diagnosis=Not Mentioned | ENTEROVIRUS=False) = 0.9427980387899013
+P(discharge diagnosis=Negated | ENTEROVIRUS=False) = 3.200109718047476E-4
+P(discharge diagnosis=Present | ENTEROVIRUS=False) = 0.056881950238293885
+P(discharge diagnosis=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(discharge diagnosis=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(discharge diagnosis=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | ENTEROVIRUS=False) = 0.8308970593277484
+P(Adverse Event Associated with Constitutional Symptoms=Negated | ENTEROVIRUS=False) = 0.00405728196395305
+P(Adverse Event Associated with Constitutional Symptoms=Present | ENTEROVIRUS=False) = 0.16504565870829857
+P(Adverse Event Associated with Constitutional Symptoms=Not Mentioned | ENTEROVIRUS=True) = 0.4375
+P(Adverse Event Associated with Constitutional Symptoms=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Adverse Event Associated with Constitutional Symptoms=Present | ENTEROVIRUS=True) = 0.5568181818181818
+P(Adverse Event Associated with Pain=Not Mentioned | ENTEROVIRUS=False) = 0.4713075876887208
+P(Adverse Event Associated with Pain=Negated | ENTEROVIRUS=False) = 0.1083351429191858
+P(Adverse Event Associated with Pain=Present | ENTEROVIRUS=False) = 0.42035726939209345
+P(Adverse Event Associated with Pain=Not Mentioned | ENTEROVIRUS=True) = 0.7613636363636364
+P(Adverse Event Associated with Pain=Negated | ENTEROVIRUS=True) = 0.045454545454545456
+P(Adverse Event Associated with Pain=Present | ENTEROVIRUS=True) = 0.19318181818181818
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | ENTEROVIRUS=False) = 0.3074848280512475
+P(Adverse Event Associated with the Gastrointestinal System=Negated | ENTEROVIRUS=False) = 4.2287164131341645E-4
+P(Adverse Event Associated with the Gastrointestinal System=Present | ENTEROVIRUS=False) = 0.6920923003074391
+P(Adverse Event Associated with the Gastrointestinal System=Not Mentioned | ENTEROVIRUS=True) = 0.045454545454545456
+P(Adverse Event Associated with the Gastrointestinal System=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Adverse Event Associated with the Gastrointestinal System=Present | ENTEROVIRUS=True) = 0.9488636363636364
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.984422323051076
+P(Glomerular Filtration Rate, CTCAE=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Glomerular Filtration Rate, CTCAE=Present | ENTEROVIRUS=False) = 0.015566247985645222
+P(Glomerular Filtration Rate, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.8693181818181818
+P(Glomerular Filtration Rate, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Glomerular Filtration Rate, CTCAE=Present | ENTEROVIRUS=True) = 0.125
+P(Pupil equal round and reacting to light=Not Mentioned | ENTEROVIRUS=False) = 0.7936272100757741
+P(Pupil equal round and reacting to light=Negated | ENTEROVIRUS=False) = 5.714481639370493E-4
+P(Pupil equal round and reacting to light=Present | ENTEROVIRUS=False) = 0.20580134176028891
+P(Pupil equal round and reacting to light=Not Mentioned | ENTEROVIRUS=True) = 0.9375
+P(Pupil equal round and reacting to light=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Pupil equal round and reacting to light=Present | ENTEROVIRUS=True) = 0.056818181818181816
+P(Respiratory problem=Not Mentioned | ENTEROVIRUS=False) = 0.9990856829377007
+P(Respiratory problem=Negated | ENTEROVIRUS=False) = 1.0286066950866887E-4
+P(Respiratory problem=Present | ENTEROVIRUS=False) = 8.114563927906099E-4
+P(Respiratory problem=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Respiratory problem=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Respiratory problem=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Disease Response=Not Mentioned | ENTEROVIRUS=False) = 0.8979736448106792
+P(Disease Response=Negated | ENTEROVIRUS=False) = 0.001634341748859961
+P(Disease Response=Present | ENTEROVIRUS=False) = 0.10039201344046081
+P(Disease Response=Not Mentioned | ENTEROVIRUS=True) = 0.6420454545454546
+P(Disease Response=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Disease Response=Present | ENTEROVIRUS=True) = 0.3522727272727273
+P(None Device=Not Mentioned | ENTEROVIRUS=False) = 0.2329565585105775
+P(None Device=Negated | ENTEROVIRUS=False) = 7.77169502954387E-4
+P(None Device=Present | ENTEROVIRUS=False) = 0.7662662719864681
+P(None Device=Not Mentioned | ENTEROVIRUS=True) = 0.03409090909090909
+P(None Device=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(None Device=Present | ENTEROVIRUS=True) = 0.9602272727272727
+P(Negative Surgical Margin=Not Mentioned | ENTEROVIRUS=False) = 0.18164051338903048
+P(Negative Surgical Margin=Negated | ENTEROVIRUS=False) = 0.018583494291232842
+P(Negative Surgical Margin=Present | ENTEROVIRUS=False) = 0.7997759923197367
+P(Negative Surgical Margin=Not Mentioned | ENTEROVIRUS=True) = 0.13068181818181818
+P(Negative Surgical Margin=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Negative Surgical Margin=Present | ENTEROVIRUS=True) = 0.8465909090909091
+P(ACUTE INSULIN RESPONSE=Not Mentioned | ENTEROVIRUS=False) = 0.7398767957758552
+P(ACUTE INSULIN RESPONSE=Negated | ENTEROVIRUS=False) = 0.004285861229527869
+P(ACUTE INSULIN RESPONSE=Present | ENTEROVIRUS=False) = 0.25583734299461697
+P(ACUTE INSULIN RESPONSE=Not Mentioned | ENTEROVIRUS=True) = 0.9204545454545454
+P(ACUTE INSULIN RESPONSE=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(ACUTE INSULIN RESPONSE=Present | ENTEROVIRUS=True) = 0.06818181818181818
+P(Normal assessment finding=Not Mentioned | ENTEROVIRUS=False) = 0.2050698881104495
+P(Normal assessment finding=Negated | ENTEROVIRUS=False) = 0.01149753705841343
+P(Normal assessment finding=Present | ENTEROVIRUS=False) = 0.783432574831137
+P(Normal assessment finding=Not Mentioned | ENTEROVIRUS=True) = 0.06818181818181818
+P(Normal assessment finding=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Normal assessment finding=Present | ENTEROVIRUS=True) = 0.9204545454545454
+P(Fracture of Medical Device Material=Not Mentioned | ENTEROVIRUS=False) = 0.8719613243882648
+P(Fracture of Medical Device Material=Negated | ENTEROVIRUS=False) = 0.03909848337657291
+P(Fracture of Medical Device Material=Present | ENTEROVIRUS=False) = 0.08894019223516235
+P(Fracture of Medical Device Material=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Fracture of Medical Device Material=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Fracture of Medical Device Material=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Medical Device Emits Smoke=Not Mentioned | ENTEROVIRUS=False) = 0.7526429477582088
+P(Medical Device Emits Smoke=Negated | ENTEROVIRUS=False) = 0.027200932603403546
+P(Medical Device Emits Smoke=Present | ENTEROVIRUS=False) = 0.2201561196383876
+P(Medical Device Emits Smoke=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Medical Device Emits Smoke=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Medical Device Emits Smoke=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.4713075876887208
+P(Pain by Anatomic Descriptor, CTCAE=Negated | ENTEROVIRUS=False) = 0.1083351429191858
+P(Pain by Anatomic Descriptor, CTCAE=Present | ENTEROVIRUS=False) = 0.42035726939209345
+P(Pain by Anatomic Descriptor, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.7613636363636364
+P(Pain by Anatomic Descriptor, CTCAE=Negated | ENTEROVIRUS=True) = 0.045454545454545456
+P(Pain by Anatomic Descriptor, CTCAE=Present | ENTEROVIRUS=True) = 0.19318181818181818
+P(Oriented to place=Not Mentioned | ENTEROVIRUS=False) = 0.6992582602832097
+P(Oriented to place=Negated | ENTEROVIRUS=False) = 0.0013943335200064001
+P(Oriented to place=Present | ENTEROVIRUS=False) = 0.2993474061967839
+P(Oriented to place=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Oriented to place=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Oriented to place=Present | ENTEROVIRUS=True) = 0.03409090909090909
+P(Cough, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.7532943986650971
+P(Cough, CTCAE=Negated | ENTEROVIRUS=False) = 0.11128381544510098
+P(Cough, CTCAE=Present | ENTEROVIRUS=False) = 0.13542178588980194
+P(Cough, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.5056818181818182
+P(Cough, CTCAE=Negated | ENTEROVIRUS=True) = 0.1534090909090909
+P(Cough, CTCAE=Present | ENTEROVIRUS=True) = 0.3409090909090909
+P(Apnea, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9853480690766541
+P(Apnea, CTCAE=Negated | ENTEROVIRUS=False) = 0.0017257734550898888
+P(Apnea, CTCAE=Present | ENTEROVIRUS=False) = 0.012926157468256054
+P(Apnea, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Apnea, CTCAE=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Apnea, CTCAE=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Back Pain, CTCAE 3.0=Not Mentioned | ENTEROVIRUS=False) = 0.8430231893664926
+P(Back Pain, CTCAE 3.0=Negated | ENTEROVIRUS=False) = 0.026126610055201893
+P(Back Pain, CTCAE 3.0=Present | ENTEROVIRUS=False) = 0.13085020057830554
+P(Back Pain, CTCAE 3.0=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Back Pain, CTCAE 3.0=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Back Pain, CTCAE 3.0=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Platelets, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.8373658525435158
+P(Platelets, CTCAE=Negated | ENTEROVIRUS=False) = 9.143170622992788E-5
+P(Platelets, CTCAE=Present | ENTEROVIRUS=False) = 0.1625427157502543
+P(Platelets, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.7045454545454546
+P(Platelets, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Platelets, CTCAE=Present | ENTEROVIRUS=True) = 0.2897727272727273
+P(Dehydration, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.957552830382756
+P(Dehydration, CTCAE=Negated | ENTEROVIRUS=False) = 0.0013257597403339542
+P(Dehydration, CTCAE=Present | ENTEROVIRUS=False) = 0.04112140987691006
+P(Dehydration, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.7897727272727273
+P(Dehydration, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Dehydration, CTCAE=Present | ENTEROVIRUS=True) = 0.20454545454545456
+P(Diarrhea, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.7482313679326148
+P(Diarrhea, CTCAE=Negated | ENTEROVIRUS=False) = 0.06628798701669772
+P(Diarrhea, CTCAE=Present | ENTEROVIRUS=False) = 0.18548064505068745
+P(Diarrhea, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.5511363636363636
+P(Diarrhea, CTCAE=Negated | ENTEROVIRUS=True) = 0.1534090909090909
+P(Diarrhea, CTCAE=Present | ENTEROVIRUS=True) = 0.29545454545454547
+P(Dyspnea, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9701932637690435
+P(Dyspnea, CTCAE=Negated | ENTEROVIRUS=False) = 0.0035315496531309644
+P(Dyspnea, CTCAE=Present | ENTEROVIRUS=False) = 0.026275186577825526
+P(Dyspnea, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Dyspnea, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Dyspnea, CTCAE=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Fracture, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.8719613243882648
+P(Fracture, CTCAE=Negated | ENTEROVIRUS=False) = 0.03909848337657291
+P(Fracture, CTCAE=Present | ENTEROVIRUS=False) = 0.08894019223516235
+P(Fracture, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Fracture, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Fracture, CTCAE=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Hypertension, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.7979245002685806
+P(Hypertension, CTCAE=Negated | ENTEROVIRUS=False) = 0.005497331337074414
+P(Hypertension, CTCAE=Present | ENTEROVIRUS=False) = 0.19657816839434494
+P(Hypertension, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.8863636363636364
+P(Hypertension, CTCAE=Negated | ENTEROVIRUS=True) = 0.09659090909090909
+P(Hypertension, CTCAE=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Hypoxia, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9901139467638891
+P(Hypoxia, CTCAE=Negated | ENTEROVIRUS=False) = 0.0026743774072253905
+P(Hypoxia, CTCAE=Present | ENTEROVIRUS=False) = 0.007211675828885562
+P(Hypoxia, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Hypoxia, CTCAE=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Hypoxia, CTCAE=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Muscle Pain, CTCAE 3=Not Mentioned | ENTEROVIRUS=False) = 0.9852909242602603
+P(Muscle Pain, CTCAE 3=Negated | ENTEROVIRUS=False) = 0.006640227664948512
+P(Muscle Pain, CTCAE 3=Present | ENTEROVIRUS=False) = 0.008068848074791135
+P(Muscle Pain, CTCAE 3=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(Muscle Pain, CTCAE 3=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Muscle Pain, CTCAE 3=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Nausea, CTCAE 3.0=Not Mentioned | ENTEROVIRUS=False) = 0.6618055476187755
+P(Nausea, CTCAE 3.0=Negated | ENTEROVIRUS=False) = 0.11439249345691853
+P(Nausea, CTCAE 3.0=Present | ENTEROVIRUS=False) = 0.223801958924306
+P(Nausea, CTCAE 3.0=Not Mentioned | ENTEROVIRUS=True) = 0.8977272727272727
+P(Nausea, CTCAE 3.0=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Nausea, CTCAE 3.0=Present | ENTEROVIRUS=True) = 0.06818181818181818
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | ENTEROVIRUS=False) = 0.9821936752117215
+P(Sinus Tachycardia, CTCAE 3.0=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-4
+P(Sinus Tachycardia, CTCAE 3.0=Present | ENTEROVIRUS=False) = 0.017692035155491045
+P(Sinus Tachycardia, CTCAE 3.0=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Sinus Tachycardia, CTCAE 3.0=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Sinus Tachycardia, CTCAE 3.0=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Vomiting, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.7661291244271232
+P(Vomiting, CTCAE=Negated | ENTEROVIRUS=False) = 0.12108986593826074
+P(Vomiting, CTCAE=Present | ENTEROVIRUS=False) = 0.11278100963461604
+P(Vomiting, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.6477272727272727
+P(Vomiting, CTCAE=Negated | ENTEROVIRUS=True) = 0.20454545454545456
+P(Vomiting, CTCAE=Present | ENTEROVIRUS=True) = 0.14772727272727273
+P(Respiratory Status=Not Mentioned | ENTEROVIRUS=False) = 0.9967198875390013
+P(Respiratory Status=Negated | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Respiratory Status=Present | ENTEROVIRUS=False) = 0.0032458255711624398
+P(Respiratory Status=Not Mentioned | ENTEROVIRUS=True) = 0.9545454545454546
+P(Respiratory Status=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Respiratory Status=Present | ENTEROVIRUS=True) = 0.03977272727272727
+P(Depression, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9179400436586397
+P(Depression, CTCAE=Negated | ENTEROVIRUS=False) = 0.005257323108220854
+P(Depression, CTCAE=Present | ENTEROVIRUS=False) = 0.07680263323313942
+P(Depression, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Depression, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Depression, CTCAE=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(History of previous events=Not Mentioned | ENTEROVIRUS=False) = 0.62127844383236
+P(History of previous events=Negated | ENTEROVIRUS=False) = 0.028092391739145343
+P(History of previous events=Present | ENTEROVIRUS=False) = 0.3506291644284947
+P(History of previous events=Not Mentioned | ENTEROVIRUS=True) = 0.11363636363636363
+P(History of previous events=Negated | ENTEROVIRUS=True) = 0.03977272727272727
+P(History of previous events=Present | ENTEROVIRUS=True) = 0.8465909090909091
+P(jaundice=Not Mentioned | ENTEROVIRUS=False) = 0.9337462998731385
+P(jaundice=Negated | ENTEROVIRUS=False) = 0.05348754814450781
+P(jaundice=Present | ENTEROVIRUS=False) = 0.012766151982353681
+P(jaundice=Not Mentioned | ENTEROVIRUS=True) = 0.8295454545454546
+P(jaundice=Negated | ENTEROVIRUS=True) = 0.1534090909090909
+P(jaundice=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | ENTEROVIRUS=False) = 0.9821936752117215
+P(continuous electrocardiogram sinus tachycardia=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-4
+P(continuous electrocardiogram sinus tachycardia=Present | ENTEROVIRUS=False) = 0.017692035155491045
+P(continuous electrocardiogram sinus tachycardia=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(continuous electrocardiogram sinus tachycardia=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(continuous electrocardiogram sinus tachycardia=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Discomfort=Not Mentioned | ENTEROVIRUS=False) = 0.909105455044173
+P(Discomfort=Negated | ENTEROVIRUS=False) = 0.0044915825685452075
+P(Discomfort=Present | ENTEROVIRUS=False) = 0.08640296238728185
+P(Discomfort=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Discomfort=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Discomfort=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Tissue Congestion=Not Mentioned | ENTEROVIRUS=False) = 0.9622958501434334
+P(Tissue Congestion=Negated | ENTEROVIRUS=False) = 0.002331508508863161
+P(Tissue Congestion=Present | ENTEROVIRUS=False) = 0.03537264134770335
+P(Tissue Congestion=Not Mentioned | ENTEROVIRUS=True) = 0.7840909090909091
+P(Tissue Congestion=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Tissue Congestion=Present | ENTEROVIRUS=True) = 0.19886363636363635
+P(Discharge, body substance=Not Mentioned | ENTEROVIRUS=False) = 0.4436037807010526
+P(Discharge, body substance=Negated | ENTEROVIRUS=False) = 0.1282215390241951
+P(Discharge, body substance=Present | ENTEROVIRUS=False) = 0.42817468027475225
+P(Discharge, body substance=Not Mentioned | ENTEROVIRUS=True) = 0.5454545454545454
+P(Discharge, body substance=Negated | ENTEROVIRUS=True) = 0.2897727272727273
+P(Discharge, body substance=Present | ENTEROVIRUS=True) = 0.16477272727272727
+P(Head bobbing=Not Mentioned | ENTEROVIRUS=False) = 0.9997828496977039
+P(Head bobbing=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(Head bobbing=Present | ENTEROVIRUS=False) = 1.714344491811148E-4
+P(Head bobbing=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Head bobbing=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Head bobbing=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Palpitations, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9056767660605507
+P(Palpitations, CTCAE=Negated | ENTEROVIRUS=False) = 0.0354983599437695
+P(Palpitations, CTCAE=Present | ENTEROVIRUS=False) = 0.05882487399567985
+P(Palpitations, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Palpitations, CTCAE=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Palpitations, CTCAE=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Allergic disposition=Not Mentioned | ENTEROVIRUS=False) = 0.9210258637438998
+P(Allergic disposition=Negated | ENTEROVIRUS=False) = 0.009520326411191242
+P(Allergic disposition=Present | ENTEROVIRUS=False) = 0.06945380984490897
+P(Allergic disposition=Not Mentioned | ENTEROVIRUS=True) = 0.7613636363636364
+P(Allergic disposition=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Allergic disposition=Present | ENTEROVIRUS=True) = 0.23295454545454544
+P(Weakness=Not Mentioned | ENTEROVIRUS=False) = 0.7966101694915254
+P(Weakness=Negated | ENTEROVIRUS=False) = 0.03734985199492554
+P(Weakness=Present | ENTEROVIRUS=False) = 0.16603997851354904
+P(Weakness=Not Mentioned | ENTEROVIRUS=True) = 0.9375
+P(Weakness=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Weakness=Present | ENTEROVIRUS=True) = 0.045454545454545456
+P(Skin Bruise=Not Mentioned | ENTEROVIRUS=False) = 0.953358400859458
+P(Skin Bruise=Negated | ENTEROVIRUS=False) = 0.011863263883333143
+P(Skin Bruise=Present | ENTEROVIRUS=False) = 0.03477833525720882
+P(Skin Bruise=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Skin Bruise=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Skin Bruise=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Full Term Birth=Not Mentioned | ENTEROVIRUS=False) = 0.9820908145422129
+P(Full Term Birth=Negated | ENTEROVIRUS=False) = 4.571585311496394E-5
+P(Full Term Birth=Present | ENTEROVIRUS=False) = 0.01786346960467216
+P(Full Term Birth=Not Mentioned | ENTEROVIRUS=True) = 0.7443181818181818
+P(Full Term Birth=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Full Term Birth=Present | ENTEROVIRUS=True) = 0.25
+P(Tachycardia by ECG Finding=Not Mentioned | ENTEROVIRUS=False) = 0.9552556087637291
+P(Tachycardia by ECG Finding=Negated | ENTEROVIRUS=False) = 0.007440255094460381
+P(Tachycardia by ECG Finding=Present | ENTEROVIRUS=False) = 0.03730413614181058
+P(Tachycardia by ECG Finding=Not Mentioned | ENTEROVIRUS=True) = 0.875
+P(Tachycardia by ECG Finding=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Tachycardia by ECG Finding=Present | ENTEROVIRUS=True) = 0.10795454545454546
+P(Karnofsky Performance Status 100=Not Mentioned | ENTEROVIRUS=False) = 0.7403910991233985
+P(Karnofsky Performance Status 100=Negated | ENTEROVIRUS=False) = 0.0010057487685292067
+P(Karnofsky Performance Status 100=Present | ENTEROVIRUS=False) = 0.2586031521080723
+P(Karnofsky Performance Status 100=Not Mentioned | ENTEROVIRUS=True) = 0.6818181818181818
+P(Karnofsky Performance Status 100=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Karnofsky Performance Status 100=Present | ENTEROVIRUS=True) = 0.30113636363636365
+P(Resident - answer to question=Not Mentioned | ENTEROVIRUS=False) = 0.559322033898305
+P(Resident - answer to question=Negated | ENTEROVIRUS=False) = 0.0029029566728002104
+P(Resident - answer to question=Present | ENTEROVIRUS=False) = 0.4377750094288947
+P(Resident - answer to question=Not Mentioned | ENTEROVIRUS=True) = 0.3977272727272727
+P(Resident - answer to question=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Resident - answer to question=Present | ENTEROVIRUS=True) = 0.5965909090909091
+P(Numbness or tingling=Not Mentioned | ENTEROVIRUS=False) = 0.9610043772929358
+P(Numbness or tingling=Negated | ENTEROVIRUS=False) = 0.017932043384344606
+P(Numbness or tingling=Present | ENTEROVIRUS=False) = 0.021063579322719635
+P(Numbness or tingling=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Numbness or tingling=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Numbness or tingling=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Too early=Not Mentioned | ENTEROVIRUS=False) = 0.9932340537389853
+P(Too early=Negated | ENTEROVIRUS=False) = 2.1715030229607873E-4
+P(Too early=Present | ENTEROVIRUS=False) = 0.006548795958718585
+P(Too early=Not Mentioned | ENTEROVIRUS=True) = 0.9431818181818182
+P(Too early=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Too early=Present | ENTEROVIRUS=True) = 0.05113636363636364
+P(Radiologic Impression=Not Mentioned | ENTEROVIRUS=False) = 0.24701418334342892
+P(Radiologic Impression=Negated | ENTEROVIRUS=False) = 0.0021943609495182694
+P(Radiologic Impression=Present | ENTEROVIRUS=False) = 0.7507914557070529
+P(Radiologic Impression=Not Mentioned | ENTEROVIRUS=True) = 0.05113636363636364
+P(Radiologic Impression=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Radiologic Impression=Present | ENTEROVIRUS=True) = 0.9431818181818182
+P(No Hand Mobility=Not Mentioned | ENTEROVIRUS=False) = 0.2329565585105775
+P(No Hand Mobility=Negated | ENTEROVIRUS=False) = 7.77169502954387E-4
+P(No Hand Mobility=Present | ENTEROVIRUS=False) = 0.7662662719864681
+P(No Hand Mobility=Not Mentioned | ENTEROVIRUS=True) = 0.03409090909090909
+P(No Hand Mobility=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(No Hand Mobility=Present | ENTEROVIRUS=True) = 0.9602272727272727
+P(No Support Needed=Not Mentioned | ENTEROVIRUS=False) = 0.2329565585105775
+P(No Support Needed=Negated | ENTEROVIRUS=False) = 7.77169502954387E-4
+P(No Support Needed=Present | ENTEROVIRUS=False) = 0.7662662719864681
+P(No Support Needed=Not Mentioned | ENTEROVIRUS=True) = 0.03409090909090909
+P(No Support Needed=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(No Support Needed=Present | ENTEROVIRUS=True) = 0.9602272727272727
+P(Organomegaly=Not Mentioned | ENTEROVIRUS=False) = 0.7527800953175537
+P(Organomegaly=Negated | ENTEROVIRUS=False) = 0.2400425157433969
+P(Organomegaly=Present | ENTEROVIRUS=False) = 0.007177388939049339
+P(Organomegaly=Not Mentioned | ENTEROVIRUS=True) = 0.6193181818181818
+P(Organomegaly=Negated | ENTEROVIRUS=True) = 0.375
+P(Organomegaly=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Reactive to light=Not Mentioned | ENTEROVIRUS=False) = 0.7867812610718081
+P(Reactive to light=Negated | ENTEROVIRUS=False) = 2.0572133901733774E-4
+P(Reactive to light=Present | ENTEROVIRUS=False) = 0.21301301758917449
+P(Reactive to light=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Reactive to light=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Reactive to light=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Peribronchial Cuffing=Not Mentioned | ENTEROVIRUS=False) = 0.9994628387258991
+P(Peribronchial Cuffing=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Peribronchial Cuffing=Present | ENTEROVIRUS=False) = 5.257323108220853E-4
+P(Peribronchial Cuffing=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Peribronchial Cuffing=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Peribronchial Cuffing=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Swollen Lymph Node=Not Mentioned | ENTEROVIRUS=False) = 0.6020320696709601
+P(Swollen Lymph Node=Negated | ENTEROVIRUS=False) = 0.3325942603746414
+P(Swollen Lymph Node=Present | ENTEROVIRUS=False) = 0.06537366995439843
+P(Swollen Lymph Node=Not Mentioned | ENTEROVIRUS=True) = 0.4772727272727273
+P(Swollen Lymph Node=Negated | ENTEROVIRUS=True) = 0.4943181818181818
+P(Swollen Lymph Node=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Complete Pharyngeal Contraction=Not Mentioned | ENTEROVIRUS=False) = 0.9510840371669885
+P(Complete Pharyngeal Contraction=Negated | ENTEROVIRUS=False) = 0.002377224361978125
+P(Complete Pharyngeal Contraction=Present | ENTEROVIRUS=False) = 0.04653873847103329
+P(Complete Pharyngeal Contraction=Not Mentioned | ENTEROVIRUS=True) = 0.875
+P(Complete Pharyngeal Contraction=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Complete Pharyngeal Contraction=Present | ENTEROVIRUS=True) = 0.11363636363636363
+P(Laboratory observation=Not Mentioned | ENTEROVIRUS=False) = 0.8669897253620125
+P(Laboratory observation=Negated | ENTEROVIRUS=False) = 0.005108746585597221
+P(Laboratory observation=Present | ENTEROVIRUS=False) = 0.12790152805239036
+P(Laboratory observation=Not Mentioned | ENTEROVIRUS=True) = 0.6988636363636364
+P(Laboratory observation=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Laboratory observation=Present | ENTEROVIRUS=True) = 0.29545454545454547
+P(Crutches Usually Used=Not Mentioned | ENTEROVIRUS=False) = 0.9801021749317119
+P(Crutches Usually Used=Negated | ENTEROVIRUS=False) = 5.257323108220853E-4
+P(Crutches Usually Used=Present | ENTEROVIRUS=False) = 0.01937209275746597
+P(Crutches Usually Used=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Crutches Usually Used=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Crutches Usually Used=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(High Level=Not Mentioned | ENTEROVIRUS=False) = 0.9392322022469342
+P(High Level=Negated | ENTEROVIRUS=False) = 0.0018057761980410758
+P(High Level=Present | ENTEROVIRUS=False) = 0.058962021555024745
+P(High Level=Not Mentioned | ENTEROVIRUS=True) = 0.7556818181818182
+P(High Level=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(High Level=Present | ENTEROVIRUS=True) = 0.23863636363636365
+P(Low Level=Not Mentioned | ENTEROVIRUS=False) = 0.9033338285884087
+P(Low Level=Negated | ENTEROVIRUS=False) = 0.008183137707578546
+P(Low Level=Present | ENTEROVIRUS=False) = 0.08848303370401271
+P(Low Level=Not Mentioned | ENTEROVIRUS=True) = 0.75
+P(Low Level=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Low Level=Present | ENTEROVIRUS=True) = 0.23863636363636365
+P(Nasal (intended site)=Not Mentioned | ENTEROVIRUS=False) = 0.9805250465730254
+P(Nasal (intended site)=Negated | ENTEROVIRUS=False) = 0.002080071316730859
+P(Nasal (intended site)=Present | ENTEROVIRUS=False) = 0.01739488211024378
+P(Nasal (intended site)=Not Mentioned | ENTEROVIRUS=True) = 0.9431818181818182
+P(Nasal (intended site)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Nasal (intended site)=Present | ENTEROVIRUS=True) = 0.05113636363636364
+P(Rectal (intended site)=Not Mentioned | ENTEROVIRUS=False) = 0.9279746734173743
+P(Rectal (intended site)=Negated | ENTEROVIRUS=False) = 0.0013371887036126952
+P(Rectal (intended site)=Present | ENTEROVIRUS=False) = 0.070688137879013
+P(Rectal (intended site)=Not Mentioned | ENTEROVIRUS=True) = 0.5454545454545454
+P(Rectal (intended site)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Rectal (intended site)=Present | ENTEROVIRUS=True) = 0.44886363636363635
+P(Influenza B (result)=Not Mentioned | ENTEROVIRUS=False) = 0.999954284146885
+P(Influenza B (result)=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Influenza B (result)=Present | ENTEROVIRUS=False) = 3.428688983622296E-5
+P(Influenza B (result)=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Influenza B (result)=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Influenza B (result)=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Supplemental oxygen=Not Mentioned | ENTEROVIRUS=False) = 0.9929254717304593
+P(Supplemental oxygen=Negated | ENTEROVIRUS=False) = 0.0014286204098426232
+P(Supplemental oxygen=Present | ENTEROVIRUS=False) = 0.005645907859698047
+P(Supplemental oxygen=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Supplemental oxygen=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Supplemental oxygen=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(At home=Not Mentioned | ENTEROVIRUS=False) = 0.776815205092746
+P(At home=Negated | ENTEROVIRUS=False) = 0.0049258831731373645
+P(At home=Present | ENTEROVIRUS=False) = 0.2182589117341166
+P(At home=Not Mentioned | ENTEROVIRUS=True) = 0.6022727272727273
+P(At home=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(At home=Present | ENTEROVIRUS=True) = 0.39204545454545453
+P(Myalgia, CTCAE 5=Not Mentioned | ENTEROVIRUS=False) = 0.9973713384458895
+P(Myalgia, CTCAE 5=Negated | ENTEROVIRUS=False) = 0.0011086094380378755
+P(Myalgia, CTCAE 5=Present | ENTEROVIRUS=False) = 0.0015200521160725511
+P(Myalgia, CTCAE 5=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Myalgia, CTCAE 5=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Myalgia, CTCAE 5=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Rhinorrhea, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9673131650228007
+P(Rhinorrhea, CTCAE=Negated | ENTEROVIRUS=False) = 0.005497331337074414
+P(Rhinorrhea, CTCAE=Present | ENTEROVIRUS=False) = 0.027189503640124804
+P(Rhinorrhea, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.8181818181818182
+P(Rhinorrhea, CTCAE=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Rhinorrhea, CTCAE=Present | ENTEROVIRUS=True) = 0.1590909090909091
+P(Fever, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.6164439923654526
+P(Fever, CTCAE=Negated | ENTEROVIRUS=False) = 0.23591665999977143
+P(Fever, CTCAE=Present | ENTEROVIRUS=False) = 0.14763934763477604
+P(Fever, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.16477272727272727
+P(Fever, CTCAE=Negated | ENTEROVIRUS=True) = 0.13068181818181818
+P(Fever, CTCAE=Present | ENTEROVIRUS=True) = 0.7045454545454546
+P(Sore Throat, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.8968878932991988
+P(Sore Throat, CTCAE=Negated | ENTEROVIRUS=False) = 0.05061887836154382
+P(Sore Throat, CTCAE=Present | ENTEROVIRUS=False) = 0.05249322833925735
+P(Sore Throat, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.8465909090909091
+P(Sore Throat, CTCAE=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Sore Throat, CTCAE=Present | ENTEROVIRUS=True) = 0.11931818181818182
+P(Sepsis, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9891081979953599
+P(Sepsis, CTCAE=Negated | ENTEROVIRUS=False) = 9.714618786929838E-4
+P(Sepsis, CTCAE=Present | ENTEROVIRUS=False) = 0.009920340125947176
+P(Sepsis, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.8409090909090909
+P(Sepsis, CTCAE=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Sepsis, CTCAE=Present | ENTEROVIRUS=True) = 0.14772727272727273
+P(Meningitis, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9774735133776015
+P(Meningitis, CTCAE=Negated | ENTEROVIRUS=False) = 0.0016114838223024789
+P(Meningitis, CTCAE=Present | ENTEROVIRUS=False) = 0.020915002800096002
+P(Meningitis, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.8863636363636364
+P(Meningitis, CTCAE=Negated | ENTEROVIRUS=True) = 0.017045454545454544
+P(Meningitis, CTCAE=Present | ENTEROVIRUS=True) = 0.09659090909090909
+P(Bronchospasm, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9953712698721099
+P(Bronchospasm, CTCAE=Negated | ENTEROVIRUS=False) = 2.7429511868978367E-4
+P(Bronchospasm, CTCAE=Present | ENTEROVIRUS=False) = 0.004354435009200315
+P(Bronchospasm, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Bronchospasm, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Bronchospasm, CTCAE=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Productive Cough, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9825936889264775
+P(Productive Cough, CTCAE=Negated | ENTEROVIRUS=False) = 0.0018514920511560396
+P(Productive Cough, CTCAE=Present | ENTEROVIRUS=False) = 0.015554819022366481
+P(Productive Cough, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Productive Cough, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Productive Cough, CTCAE=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Malaise, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9893024903710984
+P(Malaise, CTCAE=Negated | ENTEROVIRUS=False) = 0.0020572133901733776
+P(Malaise, CTCAE=Present | ENTEROVIRUS=False) = 0.008640296238728185
+P(Malaise, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Malaise, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Malaise, CTCAE=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Pain, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.4713075876887208
+P(Pain, CTCAE=Negated | ENTEROVIRUS=False) = 0.1083351429191858
+P(Pain, CTCAE=Present | ENTEROVIRUS=False) = 0.42035726939209345
+P(Pain, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.7613636363636364
+P(Pain, CTCAE=Negated | ENTEROVIRUS=True) = 0.045454545454545456
+P(Pain, CTCAE=Present | ENTEROVIRUS=True) = 0.19318181818181818
+P(Chills, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.6506851663485606
+P(Chills, CTCAE=Negated | ENTEROVIRUS=False) = 0.0673165937117844
+P(Chills, CTCAE=Present | ENTEROVIRUS=False) = 0.28199823993965506
+P(Chills, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9090909090909091
+P(Chills, CTCAE=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Chills, CTCAE=Present | ENTEROVIRUS=True) = 0.07954545454545454
+P(Headache, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.756563082162817
+P(Headache, CTCAE=Negated | ENTEROVIRUS=False) = 0.11179811879264431
+P(Headache, CTCAE=Present | ENTEROVIRUS=False) = 0.13163879904453868
+P(Headache, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.8295454545454546
+P(Headache, CTCAE=Negated | ENTEROVIRUS=True) = 0.09659090909090909
+P(Headache, CTCAE=Present | ENTEROVIRUS=True) = 0.07386363636363637
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=False) = 0.9821936752117215
+P(Sinus Tachycardia, CTCAE 5.0=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-4
+P(Sinus Tachycardia, CTCAE 5.0=Present | ENTEROVIRUS=False) = 0.017692035155491045
+P(Sinus Tachycardia, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Sinus Tachycardia, CTCAE 5.0=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Sinus Tachycardia, CTCAE 5.0=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Fall, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9242031155353898
+P(Fall, CTCAE=Negated | ENTEROVIRUS=False) = 0.0061030663908476866
+P(Fall, CTCAE=Present | ENTEROVIRUS=False) = 0.06969381807376253
+P(Fall, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Fall, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Fall, CTCAE=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Nausea, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=False) = 0.6618055476187755
+P(Nausea, CTCAE 5.0=Negated | ENTEROVIRUS=False) = 0.11439249345691853
+P(Nausea, CTCAE 5.0=Present | ENTEROVIRUS=False) = 0.223801958924306
+P(Nausea, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=True) = 0.8977272727272727
+P(Nausea, CTCAE 5.0=Negated | ENTEROVIRUS=True) = 0.03409090909090909
+P(Nausea, CTCAE 5.0=Present | ENTEROVIRUS=True) = 0.06818181818181818
+P(Wheezing, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9271746459878625
+P(Wheezing, CTCAE=Negated | ENTEROVIRUS=False) = 0.04416151410905517
+P(Wheezing, CTCAE=Present | ENTEROVIRUS=False) = 0.02866383990308239
+P(Wheezing, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.875
+P(Wheezing, CTCAE=Negated | ENTEROVIRUS=True) = 0.056818181818181816
+P(Wheezing, CTCAE=Present | ENTEROVIRUS=True) = 0.06818181818181818
+P(Back Pain, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=False) = 0.8430231893664926
+P(Back Pain, CTCAE 5.0=Negated | ENTEROVIRUS=False) = 0.026126610055201893
+P(Back Pain, CTCAE 5.0=Present | ENTEROVIRUS=False) = 0.13085020057830554
+P(Back Pain, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=True) = 0.9602272727272727
+P(Back Pain, CTCAE 5.0=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Back Pain, CTCAE 5.0=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Flu Like Symptoms, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9997942786609827
+P(Flu Like Symptoms, CTCAE=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Flu Like Symptoms, CTCAE=Present | ENTEROVIRUS=False) = 1.9429237573859675E-4
+P(Flu Like Symptoms, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Flu Like Symptoms, CTCAE=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Flu Like Symptoms, CTCAE=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Abdominal Pain, CTCAE 5=Not Mentioned | ENTEROVIRUS=False) = 0.6510737511000377
+P(Abdominal Pain, CTCAE 5=Negated | ENTEROVIRUS=False) = 0.12903299541698574
+P(Abdominal Pain, CTCAE 5=Present | ENTEROVIRUS=False) = 0.21989325348297656
+P(Abdominal Pain, CTCAE 5=Not Mentioned | ENTEROVIRUS=True) = 0.7840909090909091
+P(Abdominal Pain, CTCAE 5=Negated | ENTEROVIRUS=True) = 0.08522727272727272
+P(Abdominal Pain, CTCAE 5=Present | ENTEROVIRUS=True) = 0.13068181818181818
+P(TM genotype=Not Mentioned | ENTEROVIRUS=False) = 0.9911768403488119
+P(TM genotype=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(TM genotype=Present | ENTEROVIRUS=False) = 0.0088117306879093
+P(TM genotype=Not Mentioned | ENTEROVIRUS=True) = 0.9659090909090909
+P(TM genotype=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(TM genotype=Present | ENTEROVIRUS=True) = 0.028409090909090908
+P(Nasal Congestion, CTCAE=Not Mentioned | ENTEROVIRUS=False) = 0.9422037326994068
+P(Nasal Congestion, CTCAE=Negated | ENTEROVIRUS=False) = 0.026480907916842863
+P(Nasal Congestion, CTCAE=Present | ENTEROVIRUS=False) = 0.0313153593837503
+P(Nasal Congestion, CTCAE=Not Mentioned | ENTEROVIRUS=True) = 0.7159090909090909
+P(Nasal Congestion, CTCAE=Negated | ENTEROVIRUS=True) = 0.028409090909090908
+P(Nasal Congestion, CTCAE=Present | ENTEROVIRUS=True) = 0.2556818181818182
+P(Fatigue, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=False) = 0.9587185846371875
+P(Fatigue, CTCAE 5.0=Negated | ENTEROVIRUS=False) = 0.008606009348891962
+P(Fatigue, CTCAE 5.0=Present | ENTEROVIRUS=False) = 0.03267540601392048
+P(Fatigue, CTCAE 5.0=Not Mentioned | ENTEROVIRUS=True) = 0.9715909090909091
+P(Fatigue, CTCAE 5.0=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Fatigue, CTCAE 5.0=Present | ENTEROVIRUS=True) = 0.022727272727272728
+P(Rous Sarcoma Virus Positive=Not Mentioned | ENTEROVIRUS=False) = 0.9999771420734426
+P(Rous Sarcoma Virus Positive=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Rous Sarcoma Virus Positive=Present | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Rous Sarcoma Virus Positive=Not Mentioned | ENTEROVIRUS=True) = 0.9829545454545454
+P(Rous Sarcoma Virus Positive=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Rous Sarcoma Virus Positive=Present | ENTEROVIRUS=True) = 0.011363636363636364
+P(Patient age=Not Mentioned | ENTEROVIRUS=False) = 0.9281118209767192
+P(Patient age=Negated | ENTEROVIRUS=False) = 9.143170622992788E-5
+P(Patient age=Present | ENTEROVIRUS=False) = 0.07179674731705087
+P(Patient age=Not Mentioned | ENTEROVIRUS=True) = 0.5227272727272727
+P(Patient age=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Patient age=Present | ENTEROVIRUS=True) = 0.4715909090909091
+P(Mild Hallucination=Not Mentioned | ENTEROVIRUS=False) = 0.6977382081671372
+P(Mild Hallucination=Negated | ENTEROVIRUS=False) = 0.0018057761980410758
+P(Mild Hallucination=Present | ENTEROVIRUS=False) = 0.30045601563482177
+P(Mild Hallucination=Not Mentioned | ENTEROVIRUS=True) = 0.6363636363636364
+P(Mild Hallucination=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Mild Hallucination=Present | ENTEROVIRUS=True) = 0.35795454545454547
+P(Nasal secretions=Not Mentioned | ENTEROVIRUS=False) = 0.9996114152485228
+P(Nasal secretions=Negated | ENTEROVIRUS=False) = 1.1428963278740985E-5
+P(Nasal secretions=Present | ENTEROVIRUS=False) = 3.771557881984525E-4
+P(Nasal secretions=Not Mentioned | ENTEROVIRUS=True) = 0.9886363636363636
+P(Nasal secretions=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Nasal secretions=Present | ENTEROVIRUS=True) = 0.005681818181818182
+P(Epidermal cGVHD Score 2=Not Mentioned | ENTEROVIRUS=False) = 0.6957838554464725
+P(Epidermal cGVHD Score 2=Negated | ENTEROVIRUS=False) = 0.0018057761980410758
+P(Epidermal cGVHD Score 2=Present | ENTEROVIRUS=False) = 0.30241036835548646
+P(Epidermal cGVHD Score 2=Not Mentioned | ENTEROVIRUS=True) = 0.6363636363636364
+P(Epidermal cGVHD Score 2=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Epidermal cGVHD Score 2=Present | ENTEROVIRUS=True) = 0.35795454545454547
+P(Round Nodule=Not Mentioned | ENTEROVIRUS=False) = 0.786655542475742
+P(Round Nodule=Negated | ENTEROVIRUS=False) = 5.714481639370493E-4
+P(Round Nodule=Present | ENTEROVIRUS=False) = 0.21277300936032092
+P(Round Nodule=Not Mentioned | ENTEROVIRUS=True) = 0.9772727272727273
+P(Round Nodule=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(Round Nodule=Present | ENTEROVIRUS=True) = 0.017045454545454544
+P(Epidermal cGVHD Score 0=Not Mentioned | ENTEROVIRUS=False) = 0.1814462210132919
+P(Epidermal cGVHD Score 0=Negated | ENTEROVIRUS=False) = 0.01856063636467536
+P(Epidermal cGVHD Score 0=Present | ENTEROVIRUS=False) = 0.7999931426220328
+P(Epidermal cGVHD Score 0=Not Mentioned | ENTEROVIRUS=True) = 0.13068181818181818
+P(Epidermal cGVHD Score 0=Negated | ENTEROVIRUS=True) = 0.022727272727272728
+P(Epidermal cGVHD Score 0=Present | ENTEROVIRUS=True) = 0.8465909090909091
+P(Normal Gait=Not Mentioned | ENTEROVIRUS=False) = 0.20308124849994857
+P(Normal Gait=Negated | ENTEROVIRUS=False) = 0.011166097123329943
+P(Normal Gait=Present | ENTEROVIRUS=False) = 0.7857526543767215
+P(Normal Gait=Not Mentioned | ENTEROVIRUS=True) = 0.06818181818181818
+P(Normal Gait=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Normal Gait=Present | ENTEROVIRUS=True) = 0.9204545454545454
+P(High (finding)=Not Mentioned | ENTEROVIRUS=False) = 0.9394379235859516
+P(High (finding)=Negated | ENTEROVIRUS=False) = 0.0017486313816473707
+P(High (finding)=Present | ENTEROVIRUS=False) = 0.05881344503240111
+P(High (finding)=Not Mentioned | ENTEROVIRUS=True) = 0.7556818181818182
+P(High (finding)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(High (finding)=Present | ENTEROVIRUS=True) = 0.23863636363636365
+P(None (no infant feeding)=Not Mentioned | ENTEROVIRUS=False) = 0.2329565585105775
+P(None (no infant feeding)=Negated | ENTEROVIRUS=False) = 7.77169502954387E-4
+P(None (no infant feeding)=Present | ENTEROVIRUS=False) = 0.7662662719864681
+P(None (no infant feeding)=Not Mentioned | ENTEROVIRUS=True) = 0.03409090909090909
+P(None (no infant feeding)=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(None (no infant feeding)=Present | ENTEROVIRUS=True) = 0.9602272727272727
+P(Normal Immune Presence=Not Mentioned | ENTEROVIRUS=False) = 0.2050698881104495
+P(Normal Immune Presence=Negated | ENTEROVIRUS=False) = 0.01149753705841343
+P(Normal Immune Presence=Present | ENTEROVIRUS=False) = 0.783432574831137
+P(Normal Immune Presence=Not Mentioned | ENTEROVIRUS=True) = 0.06818181818181818
+P(Normal Immune Presence=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(Normal Immune Presence=Present | ENTEROVIRUS=True) = 0.9204545454545454
+P(No Effort=Not Mentioned | ENTEROVIRUS=False) = 0.2329565585105775
+P(No Effort=Negated | ENTEROVIRUS=False) = 7.77169502954387E-4
+P(No Effort=Present | ENTEROVIRUS=False) = 0.7662662719864681
+P(No Effort=Not Mentioned | ENTEROVIRUS=True) = 0.03409090909090909
+P(No Effort=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(No Effort=Present | ENTEROVIRUS=True) = 0.9602272727272727
+P(IPSS-R Risk Category High=Not Mentioned | ENTEROVIRUS=False) = 0.9365692538029875
+P(IPSS-R Risk Category High=Negated | ENTEROVIRUS=False) = 0.0021143582065670822
+P(IPSS-R Risk Category High=Present | ENTEROVIRUS=False) = 0.061316387990445385
+P(IPSS-R Risk Category High=Not Mentioned | ENTEROVIRUS=True) = 0.75
+P(IPSS-R Risk Category High=Negated | ENTEROVIRUS=True) = 0.005681818181818182
+P(IPSS-R Risk Category High=Present | ENTEROVIRUS=True) = 0.24431818181818182
+P(IPSS-R Risk Category Low=Not Mentioned | ENTEROVIRUS=False) = 0.8960192920900145
+P(IPSS-R Risk Category Low=Negated | ENTEROVIRUS=False) = 0.008548864532498257
+P(IPSS-R Risk Category Low=Present | ENTEROVIRUS=False) = 0.09543184337748722
+P(IPSS-R Risk Category Low=Not Mentioned | ENTEROVIRUS=True) = 0.7329545454545454
+P(IPSS-R Risk Category Low=Negated | ENTEROVIRUS=True) = 0.011363636363636364
+P(IPSS-R Risk Category Low=Present | ENTEROVIRUS=True) = 0.2556818181818182
+P(Epithelial cells.squamous=High | ENTEROVIRUS=False) = 6.971587922009646E-4
+P(Epithelial cells.squamous=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Epithelial cells.squamous=Not Mentioned | ENTEROVIRUS=False) = 0.9960684815652929
+P(Epithelial cells.squamous=Normal | ENTEROVIRUS=False) = 0.0032229308098470823
+P(Epithelial cells.squamous=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Epithelial cells.squamous=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Epithelial cells.squamous=Not Mentioned | ENTEROVIRUS=True) = 0.9322033898305084
+P(Epithelial cells.squamous=Normal | ENTEROVIRUS=True) = 0.05084745762711865
+P(Bicarbonate=High | ENTEROVIRUS=False) = 0.0013714599190838648
+P(Bicarbonate=Low | ENTEROVIRUS=False) = 0.0012914580904706393
+P(Bicarbonate=Not Mentioned | ENTEROVIRUS=False) = 0.9954398957690461
+P(Bicarbonate=Normal | ENTEROVIRUS=False) = 0.0018971862213993463
+P(Bicarbonate=High | ENTEROVIRUS=True) = 0.02824858757062147
+P(Bicarbonate=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Bicarbonate=Not Mentioned | ENTEROVIRUS=True) = 0.9322033898305084
+P(Bicarbonate=Normal | ENTEROVIRUS=True) = 0.02824858757062147
+P(Alanine aminotransferase=High | ENTEROVIRUS=False) = 0.004525817732976754
+P(Alanine aminotransferase=Low | ENTEROVIRUS=False) = 0.012057418455278978
+P(Alanine aminotransferase=Not Mentioned | ENTEROVIRUS=False) = 0.9467416398089099
+P(Alanine aminotransferase=Normal | ENTEROVIRUS=False) = 0.03667512400283435
+P(Alanine aminotransferase=High | ENTEROVIRUS=True) = 0.022598870056497175
+P(Alanine aminotransferase=Low | ENTEROVIRUS=True) = 0.04519774011299435
+P(Alanine aminotransferase=Not Mentioned | ENTEROVIRUS=True) = 0.8813559322033898
+P(Alanine aminotransferase=Normal | ENTEROVIRUS=True) = 0.05084745762711865
+P(Albumin=High | ENTEROVIRUS=False) = 2.5143431849870856E-4
+P(Albumin=Low | ENTEROVIRUS=False) = 0.013577453198930261
+P(Albumin=Not Mentioned | ENTEROVIRUS=False) = 0.948570253034355
+P(Albumin=Normal | ENTEROVIRUS=False) = 0.03760085944821596
+P(Albumin=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Albumin=Low | ENTEROVIRUS=True) = 0.07344632768361582
+P(Albumin=Not Mentioned | ENTEROVIRUS=True) = 0.8757062146892656
+P(Albumin=Normal | ENTEROVIRUS=True) = 0.04519774011299435
+P(Calcium=High | ENTEROVIRUS=False) = 5.485839676335459E-4
+P(Calcium=Low | ENTEROVIRUS=False) = 0.00963450593156415
+P(Calcium=Not Mentioned | ENTEROVIRUS=False) = 0.9238382591602093
+P(Calcium=Normal | ENTEROVIRUS=False) = 0.06597865094059292
+P(Calcium=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Calcium=Low | ENTEROVIRUS=True) = 0.022598870056497175
+P(Calcium=Not Mentioned | ENTEROVIRUS=True) = 0.807909604519774
+P(Calcium=Normal | ENTEROVIRUS=True) = 0.1638418079096045
+P(Magnesium=High | ENTEROVIRUS=False) = 9.828796086767697E-4
+P(Magnesium=Low | ENTEROVIRUS=False) = 0.0025257720176461176
+P(Magnesium=Not Mentioned | ENTEROVIRUS=False) = 0.9728108071041623
+P(Magnesium=Normal | ENTEROVIRUS=False) = 0.023680541269514733
+P(Magnesium=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Magnesium=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Magnesium=Not Mentioned | ENTEROVIRUS=True) = 0.9378531073446328
+P(Magnesium=Normal | ENTEROVIRUS=True) = 0.05084745762711865
+P(Aspartate aminotransferase=High | ENTEROVIRUS=False) = 0.009188781457861894
+P(Aspartate aminotransferase=Low | ENTEROVIRUS=False) = 0.007417312395711902
+P(Aspartate aminotransferase=Not Mentioned | ENTEROVIRUS=False) = 0.9477016617522687
+P(Aspartate aminotransferase=Normal | ENTEROVIRUS=False) = 0.03569224439415758
+P(Aspartate aminotransferase=High | ENTEROVIRUS=True) = 0.01694915254237288
+P(Aspartate aminotransferase=Low | ENTEROVIRUS=True) = 0.022598870056497175
+P(Aspartate aminotransferase=Not Mentioned | ENTEROVIRUS=True) = 0.8757062146892656
+P(Aspartate aminotransferase=Normal | ENTEROVIRUS=True) = 0.0847457627118644
+P(Oxygen content=High | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Oxygen content=Low | ENTEROVIRUS=False) = 3.88580310407095E-4
+P(Oxygen content=Not Mentioned | ENTEROVIRUS=False) = 0.9993714142037532
+P(Oxygen content=Normal | ENTEROVIRUS=False) = 2.2857665318064412E-4
+P(Oxygen content=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen content=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen content=Not Mentioned | ENTEROVIRUS=True) = 0.9830508474576272
+P(Oxygen content=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen content=High | ENTEROVIRUS=False) = 2.2857665318064413E-5
+P(Oxygen content=Low | ENTEROVIRUS=False) = 4.5715330636128826E-5
+P(Oxygen content=Not Mentioned | ENTEROVIRUS=False) = 0.9999199981713868
+P(Oxygen content=Normal | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Oxygen content=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen content=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen content=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Oxygen content=Normal | ENTEROVIRUS=True) = 0.011299435028248588
+P(Base excess=High | ENTEROVIRUS=False) = 6.743011268829002E-4
+P(Base excess=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Base excess=Not Mentioned | ENTEROVIRUS=False) = 0.9986399689135752
+P(Base excess=Normal | ENTEROVIRUS=False) = 6.743011268829002E-4
+P(Base excess=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Base excess=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Base excess=Not Mentioned | ENTEROVIRUS=True) = 0.9830508474576272
+P(Base excess=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen^^adjusted to patient's actual temperature=High | ENTEROVIRUS=False) = 0.0011771697638803173
+P(Oxygen^^adjusted to patient's actual temperature=Low | ENTEROVIRUS=False) = 9.143066127225765E-5
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | ENTEROVIRUS=False) = 0.9977828064641477
+P(Oxygen^^adjusted to patient's actual temperature=Normal | ENTEROVIRUS=False) = 9.485931106996731E-4
+P(Oxygen^^adjusted to patient's actual temperature=High | ENTEROVIRUS=True) = 0.022598870056497175
+P(Oxygen^^adjusted to patient's actual temperature=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Oxygen^^adjusted to patient's actual temperature=Not Mentioned | ENTEROVIRUS=True) = 0.9322033898305084
+P(Oxygen^^adjusted to patient's actual temperature=Normal | ENTEROVIRUS=True) = 0.03389830508474576
+P(Base excess=High | ENTEROVIRUS=False) = 2.057189878625797E-4
+P(Base excess=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Base excess=Not Mentioned | ENTEROVIRUS=False) = 0.999668563852888
+P(Base excess=Normal | ENTEROVIRUS=False) = 1.1428832659032206E-4
+P(Base excess=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Base excess=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Base excess=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Base excess=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Bicarbonate=High | ENTEROVIRUS=False) = 2.971496491348374E-4
+P(Bicarbonate=Low | ENTEROVIRUS=False) = 5.942992982696748E-4
+P(Bicarbonate=Not Mentioned | ENTEROVIRUS=False) = 0.9986399689135752
+P(Bicarbonate=Normal | ENTEROVIRUS=False) = 4.685821390203205E-4
+P(Bicarbonate=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Bicarbonate=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Bicarbonate=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Bicarbonate=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Bicarbonate=High | ENTEROVIRUS=False) = 0.0016343230702416055
+P(Bicarbonate=Low | ENTEROVIRUS=False) = 0.00486868271274772
+P(Bicarbonate=Not Mentioned | ENTEROVIRUS=False) = 0.9078493222702233
+P(Bicarbonate=Normal | ENTEROVIRUS=False) = 0.08564767194678735
+P(Bicarbonate=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Bicarbonate=Low | ENTEROVIRUS=True) = 0.022598870056497175
+P(Bicarbonate=Not Mentioned | ENTEROVIRUS=True) = 0.8248587570621468
+P(Bicarbonate=Normal | ENTEROVIRUS=True) = 0.14124293785310735
+P(Bilirubin=High | ENTEROVIRUS=False) = 0.0042400969165009485
+P(Bilirubin=Low | ENTEROVIRUS=False) = 0.0013257445884477359
+P(Bilirubin=Not Mentioned | ENTEROVIRUS=False) = 0.9513131728725228
+P(Bilirubin=Normal | ENTEROVIRUS=False) = 0.043120985622528515
+P(Bilirubin=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Bilirubin=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Bilirubin=Not Mentioned | ENTEROVIRUS=True) = 0.8926553672316384
+P(Bilirubin=Normal | ENTEROVIRUS=True) = 0.0903954802259887
+P(C reactive protein=High | ENTEROVIRUS=False) = 0.0012800292578116072
+P(C reactive protein=Low | ENTEROVIRUS=False) = 3.542938124299984E-4
+P(C reactive protein=Not Mentioned | ENTEROVIRUS=False) = 0.99751994331299
+P(C reactive protein=Normal | ENTEROVIRUS=False) = 8.457336167683833E-4
+P(C reactive protein=High | ENTEROVIRUS=True) = 0.04519774011299435
+P(C reactive protein=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(C reactive protein=Not Mentioned | ENTEROVIRUS=True) = 0.9096045197740112
+P(C reactive protein=Normal | ENTEROVIRUS=True) = 0.03389830508474576
+P(Calcium.ionized=High | ENTEROVIRUS=False) = 2.7429198381677297E-4
+P(Calcium.ionized=Low | ENTEROVIRUS=False) = 0.0022400512011703125
+P(Calcium.ionized=Not Mentioned | ENTEROVIRUS=False) = 0.991474090836362
+P(Calcium.ionized=Normal | ENTEROVIRUS=False) = 0.006011565978650941
+P(Calcium.ionized=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Calcium.ionized=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Calcium.ionized=Not Mentioned | ENTEROVIRUS=True) = 0.9322033898305084
+P(Calcium.ionized=Normal | ENTEROVIRUS=True) = 0.05649717514124294
+P(Carbon dioxide=High | ENTEROVIRUS=False) = 5.257263023154815E-4
+P(Carbon dioxide=Low | ENTEROVIRUS=False) = 3.7715147774806284E-4
+P(Carbon dioxide=Not Mentioned | ENTEROVIRUS=False) = 0.9980456696153055
+P(Carbon dioxide=Normal | ENTEROVIRUS=False) = 0.001051452604630963
+P(Carbon dioxide=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Carbon dioxide=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Carbon dioxide=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Carbon dioxide=Normal | ENTEROVIRUS=True) = 0.011299435028248588
+P(Carbon dioxide=High | ENTEROVIRUS=False) = 9.714507760177376E-4
+P(Carbon dioxide=Low | ENTEROVIRUS=False) = 0.0022400512011703125
+P(Carbon dioxide=Not Mentioned | ENTEROVIRUS=False) = 0.9946855928135501
+P(Carbon dioxide=Normal | ENTEROVIRUS=False) = 0.002102905209261926
+P(Carbon dioxide=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Carbon dioxide=Low | ENTEROVIRUS=True) = 0.02824858757062147
+P(Carbon dioxide=Not Mentioned | ENTEROVIRUS=True) = 0.9209039548022598
+P(Carbon dioxide=Normal | ENTEROVIRUS=True) = 0.04519774011299435
+P(Carboxyhemoglobin/Hemoglobin.total=High | ENTEROVIRUS=False) = 0.0016228942375825733
+P(Carboxyhemoglobin/Hemoglobin.total=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | ENTEROVIRUS=False) = 0.9980913849459416
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | ENTEROVIRUS=False) = 2.7429198381677297E-4
+P(Carboxyhemoglobin/Hemoglobin.total=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Carboxyhemoglobin/Hemoglobin.total=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Carboxyhemoglobin/Hemoglobin.total=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Carboxyhemoglobin/Hemoglobin.total=Normal | ENTEROVIRUS=True) = 0.011299435028248588
+P(Hematocrit=High | ENTEROVIRUS=False) = 4.5715330636128826E-5
+P(Hematocrit=Low | ENTEROVIRUS=False) = 0.001382888751742897
+P(Hematocrit=Not Mentioned | ENTEROVIRUS=False) = 0.9967313538595168
+P(Hematocrit=Normal | ENTEROVIRUS=False) = 0.0018400420581041852
+P(Hematocrit=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Hematocrit=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Hematocrit=Not Mentioned | ENTEROVIRUS=True) = 0.9322033898305084
+P(Hematocrit=Normal | ENTEROVIRUS=True) = 0.05084745762711865
+P(Chloride=High | ENTEROVIRUS=False) = 0.011737411140826076
+P(Chloride=Low | ENTEROVIRUS=False) = 0.004182952753205788
+P(Chloride=Not Mentioned | ENTEROVIRUS=False) = 0.9112665432352739
+P(Chloride=Normal | ENTEROVIRUS=False) = 0.0728130928706942
+P(Chloride=High | ENTEROVIRUS=True) = 0.03389830508474576
+P(Chloride=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Chloride=Not Mentioned | ENTEROVIRUS=True) = 0.7909604519774012
+P(Chloride=Normal | ENTEROVIRUS=True) = 0.1638418079096045
+P(Creatine kinase=High | ENTEROVIRUS=False) = 0.0012571715924935428
+P(Creatine kinase=Low | ENTEROVIRUS=False) = 1.828613225445153E-4
+P(Creatine kinase=Not Mentioned | ENTEROVIRUS=False) = 0.9949598847973667
+P(Creatine kinase=Normal | ENTEROVIRUS=False) = 0.003600082287595145
+P(Creatine kinase=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Creatine kinase=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Creatine kinase=Not Mentioned | ENTEROVIRUS=True) = 0.9717514124293786
+P(Creatine kinase=Normal | ENTEROVIRUS=True) = 0.01694915254237288
+P(Creatinine=High | ENTEROVIRUS=False) = 0.008480193833001897
+P(Creatinine=Low | ENTEROVIRUS=False) = 0.0018628997234222497
+P(Creatinine=Not Mentioned | ENTEROVIRUS=False) = 0.9076436032823607
+P(Creatinine=Normal | ENTEROVIRUS=False) = 0.08201330316121512
+P(Creatinine=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Creatinine=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Creatinine=Not Mentioned | ENTEROVIRUS=True) = 0.7966101694915254
+P(Creatinine=Normal | ENTEROVIRUS=True) = 0.1864406779661017
+P(Glucose=High | ENTEROVIRUS=False) = 0.01601179455530412
+P(Glucose=Low | ENTEROVIRUS=False) = 4.5715330636128825E-4
+P(Glucose=Not Mentioned | ENTEROVIRUS=False) = 0.9686507120162746
+P(Glucose=Normal | ENTEROVIRUS=False) = 0.014880340122059932
+P(Glucose=High | ENTEROVIRUS=True) = 0.07909604519774012
+P(Glucose=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Glucose=Not Mentioned | ENTEROVIRUS=True) = 0.847457627118644
+P(Glucose=Normal | ENTEROVIRUS=True) = 0.06779661016949153
+P(Glucose=High | ENTEROVIRUS=False) = 1.1428832659032206E-4
+P(Glucose=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Glucose=Not Mentioned | ENTEROVIRUS=False) = 0.9990742645546183
+P(Glucose=Normal | ENTEROVIRUS=False) = 8.000182861322545E-4
+P(Glucose=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Glucose=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Glucose=Not Mentioned | ENTEROVIRUS=True) = 0.9378531073446328
+P(Glucose=Normal | ENTEROVIRUS=True) = 0.04519774011299435
+P(Glucose=High | ENTEROVIRUS=False) = 0.04004662963724885
+P(Glucose=Low | ENTEROVIRUS=False) = 9.828796086767697E-4
+P(Glucose=Not Mentioned | ENTEROVIRUS=False) = 0.9086379117236966
+P(Glucose=Normal | ENTEROVIRUS=False) = 0.050332579030377834
+P(Glucose=High | ENTEROVIRUS=True) = 0.03954802259887006
+P(Glucose=Low | ENTEROVIRUS=True) = 0.01694915254237288
+P(Glucose=Not Mentioned | ENTEROVIRUS=True) = 0.7909604519774012
+P(Glucose=Normal | ENTEROVIRUS=True) = 0.15254237288135594
+P(Methemoglobin/Hemoglobin.total=High | ENTEROVIRUS=False) = 5.257263023154815E-4
+P(Methemoglobin/Hemoglobin.total=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | ENTEROVIRUS=False) = 0.9992342682118448
+P(Methemoglobin/Hemoglobin.total=Normal | ENTEROVIRUS=False) = 2.2857665318064412E-4
+P(Methemoglobin/Hemoglobin.total=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Methemoglobin/Hemoglobin.total=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Methemoglobin/Hemoglobin.total=Not Mentioned | ENTEROVIRUS=True) = 0.9830508474576272
+P(Methemoglobin/Hemoglobin.total=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Eosinophils/100 leukocytes=High | ENTEROVIRUS=False) = 0.0013600310864248326
+P(Eosinophils/100 leukocytes=Low | ENTEROVIRUS=False) = 0.0023429106951016023
+P(Eosinophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9759423072527372
+P(Eosinophils/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.02035475096573636
+P(Eosinophils/100 leukocytes=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Eosinophils/100 leukocytes=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Eosinophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Eosinophils/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Monocytes/100 leukocytes=High | ENTEROVIRUS=False) = 0.0019200438867174106
+P(Monocytes/100 leukocytes=Low | ENTEROVIRUS=False) = 9.600219433587053E-4
+P(Monocytes/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9738279732108163
+P(Monocytes/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.023291960959107638
+P(Monocytes/100 leukocytes=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Monocytes/100 leukocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Monocytes/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Monocytes/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.011299435028248588
+P(Neutrophils.segmented/100 leukocytes=High | ENTEROVIRUS=False) = 0.004000091430661272
+P(Neutrophils.segmented/100 leukocytes=Low | ENTEROVIRUS=False) = 0.0013257445884477359
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9764794623877118
+P(Neutrophils.segmented/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.018194701593179274
+P(Neutrophils.segmented/100 leukocytes=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Neutrophils.segmented/100 leukocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Neutrophils.segmented/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Neutrophils.segmented/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen=High | ENTEROVIRUS=False) = 7.657317881551579E-4
+P(Oxygen=Low | ENTEROVIRUS=False) = 2.4000548583967633E-4
+P(Oxygen=Not Mentioned | ENTEROVIRUS=False) = 0.9984799652563487
+P(Oxygen=Normal | ENTEROVIRUS=False) = 5.142974696564493E-4
+P(Oxygen=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Oxygen=Normal | ENTEROVIRUS=True) = 0.011299435028248588
+P(Oxygen=High | ENTEROVIRUS=False) = 0.001828613225445153
+P(Oxygen=Low | ENTEROVIRUS=False) = 9.143066127225765E-5
+P(Oxygen=Not Mentioned | ENTEROVIRUS=False) = 0.9972570801618322
+P(Oxygen=Normal | ENTEROVIRUS=False) = 8.228759514503189E-4
+P(Oxygen=High | ENTEROVIRUS=True) = 0.01694915254237288
+P(Oxygen=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen=Not Mentioned | ENTEROVIRUS=True) = 0.9717514124293786
+P(Oxygen=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen saturation=High | ENTEROVIRUS=False) = 1.2571715924935428E-4
+P(Oxygen saturation=Low | ENTEROVIRUS=False) = 2.1714782052161192E-4
+P(Oxygen saturation=Not Mentioned | ENTEROVIRUS=False) = 0.9994285583670484
+P(Oxygen saturation=Normal | ENTEROVIRUS=False) = 2.2857665318064412E-4
+P(Oxygen saturation=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen saturation=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxygen saturation=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Oxygen saturation=Normal | ENTEROVIRUS=True) = 0.011299435028248588
+P(Oxyhemoglobin/Hemoglobin.total=High | ENTEROVIRUS=False) = 2.2857665318064413E-5
+P(Oxyhemoglobin/Hemoglobin.total=Low | ENTEROVIRUS=False) = 1.0285949393128986E-4
+P(Oxyhemoglobin/Hemoglobin.total=Not Mentioned | ENTEROVIRUS=False) = 0.9994514160323664
+P(Oxyhemoglobin/Hemoglobin.total=Normal | ENTEROVIRUS=False) = 4.2286680838419166E-4
+P(Oxyhemoglobin/Hemoglobin.total=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxyhemoglobin/Hemoglobin.total=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Oxyhemoglobin/Hemoglobin.total=Not Mentioned | ENTEROVIRUS=True) = 0.9830508474576272
+P(Oxyhemoglobin/Hemoglobin.total=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(pH=High | ENTEROVIRUS=False) = 3.3143614711193397E-4
+P(pH=Low | ENTEROVIRUS=False) = 6.971587922009646E-4
+P(pH=Not Mentioned | ENTEROVIRUS=False) = 0.9979770966193513
+P(pH=Normal | ENTEROVIRUS=False) = 9.94308441335802E-4
+P(pH=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(pH=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(pH=Not Mentioned | ENTEROVIRUS=True) = 0.9661016949152542
+P(pH=Normal | ENTEROVIRUS=True) = 0.01694915254237288
+P(pH=High | ENTEROVIRUS=False) = 9.600219433587053E-4
+P(pH=Low | ENTEROVIRUS=False) = 9.600219433587053E-4
+P(pH=Not Mentioned | ENTEROVIRUS=False) = 0.9946970216462091
+P(pH=Normal | ENTEROVIRUS=False) = 0.0033829344670735333
+P(pH=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(pH=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(pH=Not Mentioned | ENTEROVIRUS=True) = 0.9322033898305084
+P(pH=Normal | ENTEROVIRUS=True) = 0.05084745762711865
+P(Phosphate=High | ENTEROVIRUS=False) = 0.0011657409312212852
+P(Phosphate=Low | ENTEROVIRUS=False) = 0.002217193535852248
+P(Phosphate=Not Mentioned | ENTEROVIRUS=False) = 0.9806395574755994
+P(Phosphate=Normal | ENTEROVIRUS=False) = 0.015977508057327023
+P(Phosphate=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Phosphate=Low | ENTEROVIRUS=True) = 0.01694915254237288
+P(Phosphate=Not Mentioned | ENTEROVIRUS=True) = 0.943502824858757
+P(Phosphate=Normal | ENTEROVIRUS=True) = 0.03389830508474576
+P(Potassium=High | ENTEROVIRUS=False) = 0.002160049372557087
+P(Potassium=Low | ENTEROVIRUS=False) = 0.008868774143408992
+P(Potassium=Not Mentioned | ENTEROVIRUS=False) = 0.9101008023040527
+P(Potassium=Normal | ENTEROVIRUS=False) = 0.07887037417998126
+P(Potassium=High | ENTEROVIRUS=True) = 0.03389830508474576
+P(Potassium=Low | ENTEROVIRUS=True) = 0.01694915254237288
+P(Potassium=Not Mentioned | ENTEROVIRUS=True) = 0.7966101694915254
+P(Potassium=Normal | ENTEROVIRUS=True) = 0.15254237288135594
+P(Protein=High | ENTEROVIRUS=False) = 0.0058858488194015865
+P(Protein=Low | ENTEROVIRUS=False) = 0.0063315732931038425
+P(Protein=Not Mentioned | ENTEROVIRUS=False) = 0.949953141786098
+P(Protein=Normal | ENTEROVIRUS=False) = 0.0378294361013966
+P(Protein=High | ENTEROVIRUS=True) = 0.01694915254237288
+P(Protein=Low | ENTEROVIRUS=True) = 0.03389830508474576
+P(Protein=Not Mentioned | ENTEROVIRUS=True) = 0.8926553672316384
+P(Protein=Normal | ENTEROVIRUS=True) = 0.05649717514124294
+P(Sodium=High | ENTEROVIRUS=False) = 1.1428832659032206E-4
+P(Sodium=Low | ENTEROVIRUS=False) = 0.0010857391026080597
+P(Sodium=Not Mentioned | ENTEROVIRUS=False) = 0.9941712953438936
+P(Sodium=Normal | ENTEROVIRUS=False) = 0.004628677226908044
+P(Sodium=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Sodium=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Sodium=Not Mentioned | ENTEROVIRUS=True) = 0.9491525423728814
+P(Sodium=Normal | ENTEROVIRUS=True) = 0.03389830508474576
+P(Sodium=High | ENTEROVIRUS=False) = 2.4000548583967633E-4
+P(Sodium=Low | ENTEROVIRUS=False) = 0.019451873185672815
+P(Sodium=Not Mentioned | ENTEROVIRUS=False) = 0.9114494045578184
+P(Sodium=Normal | ENTEROVIRUS=False) = 0.06885871677066904
+P(Sodium=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Sodium=Low | ENTEROVIRUS=True) = 0.03389830508474576
+P(Sodium=Not Mentioned | ENTEROVIRUS=True) = 0.7966101694915254
+P(Sodium=Normal | ENTEROVIRUS=True) = 0.1638418079096045
+P(Specific gravity=High | ENTEROVIRUS=False) = 0.001874328556081282
+P(Specific gravity=Low | ENTEROVIRUS=False) = 0.0021486205398980546
+P(Specific gravity=Not Mentioned | ENTEROVIRUS=False) = 0.9624677135477382
+P(Specific gravity=Normal | ENTEROVIRUS=False) = 0.03350933735628243
+P(Specific gravity=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Specific gravity=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Specific gravity=Not Mentioned | ENTEROVIRUS=True) = 0.7966101694915254
+P(Specific gravity=Normal | ENTEROVIRUS=True) = 0.192090395480226
+P(Basophils/100 leukocytes=High | ENTEROVIRUS=False) = 0.0013028869231296715
+P(Basophils/100 leukocytes=Low | ENTEROVIRUS=False) = 5.942992982696748E-4
+P(Basophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9763766028937805
+P(Basophils/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.021726210884820223
+P(Basophils/100 leukocytes=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Basophils/100 leukocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Basophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Basophils/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.011299435028248588
+P(Hemoglobin=High | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Hemoglobin=Low | ENTEROVIRUS=False) = 9.714507760177376E-4
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=False) = 0.9987313995748475
+P(Hemoglobin=Normal | ENTEROVIRUS=False) = 2.8572081647580515E-4
+P(Hemoglobin=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Hemoglobin=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=True) = 0.9830508474576272
+P(Hemoglobin=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Hemoglobin=High | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Hemoglobin=Low | ENTEROVIRUS=False) = 2.2857665318064413E-5
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=False) = 0.9999199981713868
+P(Hemoglobin=Normal | ENTEROVIRUS=False) = 4.5715330636128826E-5
+P(Hemoglobin=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Hemoglobin=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=True) = 0.9774011299435028
+P(Hemoglobin=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(Urea nitrogen=High | ENTEROVIRUS=False) = 0.007588744885597385
+P(Urea nitrogen=Low | ENTEROVIRUS=False) = 0.006503005782989325
+P(Urea nitrogen=Not Mentioned | ENTEROVIRUS=False) = 0.9092550686872842
+P(Urea nitrogen=Normal | ENTEROVIRUS=False) = 0.07665318064412902
+P(Urea nitrogen=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Urea nitrogen=Low | ENTEROVIRUS=True) = 0.01694915254237288
+P(Urea nitrogen=Not Mentioned | ENTEROVIRUS=True) = 0.8192090395480226
+P(Urea nitrogen=Normal | ENTEROVIRUS=True) = 0.15819209039548024
+P(Platelet mean volume=High | ENTEROVIRUS=False) = 0.0024114836910557958
+P(Platelet mean volume=Low | ENTEROVIRUS=False) = 0.002948638826030309
+P(Platelet mean volume=Not Mentioned | ENTEROVIRUS=False) = 0.9060549955427553
+P(Platelet mean volume=Normal | ENTEROVIRUS=False) = 0.08858488194015864
+P(Platelet mean volume=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Platelet mean volume=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Platelet mean volume=Not Mentioned | ENTEROVIRUS=True) = 0.768361581920904
+P(Platelet mean volume=Normal | ENTEROVIRUS=True) = 0.20903954802259886
+P(Lactate=High | ENTEROVIRUS=False) = 0.0013600310864248326
+P(Lactate=Low | ENTEROVIRUS=False) = 1.2571715924935428E-4
+P(Lactate=Not Mentioned | ENTEROVIRUS=False) = 0.9911197970239319
+P(Lactate=Normal | ENTEROVIRUS=False) = 0.007394454730393837
+P(Lactate=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Lactate=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Lactate=Not Mentioned | ENTEROVIRUS=True) = 0.96045197740113
+P(Lactate=Normal | ENTEROVIRUS=True) = 0.022598870056497175
+P(Anion gap=High | ENTEROVIRUS=False) = 0.006148711970559327
+P(Anion gap=Low | ENTEROVIRUS=False) = 8.800201147454798E-4
+P(Anion gap=Not Mentioned | ENTEROVIRUS=False) = 0.908797915380923
+P(Anion gap=Normal | ENTEROVIRUS=False) = 0.0841733525337722
+P(Anion gap=High | ENTEROVIRUS=True) = 0.06779661016949153
+P(Anion gap=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Anion gap=Not Mentioned | ENTEROVIRUS=True) = 0.8248587570621468
+P(Anion gap=Normal | ENTEROVIRUS=True) = 0.1016949152542373
+P(Vancomycin^trough=High | ENTEROVIRUS=False) = 2.971496491348374E-4
+P(Vancomycin^trough=Low | ENTEROVIRUS=False) = 5.828704656106426E-4
+P(Vancomycin^trough=Not Mentioned | ENTEROVIRUS=False) = 0.9976228028069213
+P(Vancomycin^trough=Normal | ENTEROVIRUS=False) = 0.001497177078333219
+P(Vancomycin^trough=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Vancomycin^trough=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Vancomycin^trough=Not Mentioned | ENTEROVIRUS=True) = 0.9378531073446328
+P(Vancomycin^trough=Normal | ENTEROVIRUS=True) = 0.04519774011299435
+P(Hematocrit=High | ENTEROVIRUS=False) = 0.004434387071704496
+P(Hematocrit=Low | ENTEROVIRUS=False) = 0.025143431849870855
+P(Hematocrit=Not Mentioned | ENTEROVIRUS=False) = 0.9037349425129717
+P(Hematocrit=Normal | ENTEROVIRUS=False) = 0.06668723856545293
+P(Hematocrit=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Hematocrit=Low | ENTEROVIRUS=True) = 0.05649717514124294
+P(Hematocrit=Not Mentioned | ENTEROVIRUS=True) = 0.7570621468926554
+P(Hematocrit=Normal | ENTEROVIRUS=True) = 0.1751412429378531
+P(Hemoglobin=High | ENTEROVIRUS=False) = 6.857299595419324E-5
+P(Hemoglobin=Low | ENTEROVIRUS=False) = 7.543029554961257E-4
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=False) = 0.9981371002765778
+P(Hemoglobin=Normal | ENTEROVIRUS=False) = 0.0010400237719719308
+P(Hemoglobin=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Hemoglobin=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=True) = 0.9830508474576272
+P(Hemoglobin=Normal | ENTEROVIRUS=True) = 0.005649717514124294
+P(pH=High | ENTEROVIRUS=False) = 0.0010743102699490273
+P(pH=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(pH=Not Mentioned | ENTEROVIRUS=False) = 0.9577361768268989
+P(pH=Normal | ENTEROVIRUS=False) = 0.04117808407049304
+P(pH=High | ENTEROVIRUS=True) = 0.01694915254237288
+P(pH=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(pH=Not Mentioned | ENTEROVIRUS=True) = 0.7966101694915254
+P(pH=Normal | ENTEROVIRUS=True) = 0.1807909604519774
+P(Leukocytes=High | ENTEROVIRUS=False) = 0.0069258725913735174
+P(Leukocytes=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9818738714027749
+P(Leukocytes=Normal | ENTEROVIRUS=False) = 0.01118882717319253
+P(Leukocytes=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Leukocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.9152542372881356
+P(Leukocytes=Normal | ENTEROVIRUS=True) = 0.06779661016949153
+P(Monocytes/100 leukocytes=High | ENTEROVIRUS=False) = 0.005017257537315138
+P(Monocytes/100 leukocytes=Low | ENTEROVIRUS=False) = 9.257354453816088E-4
+P(Monocytes/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9477130905849277
+P(Monocytes/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.0463439164323756
+P(Monocytes/100 leukocytes=High | ENTEROVIRUS=True) = 0.062146892655367235
+P(Monocytes/100 leukocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Monocytes/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.7966101694915254
+P(Monocytes/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.13559322033898305
+P(Potassium=High | ENTEROVIRUS=False) = 5.485839676335459E-4
+P(Potassium=Low | ENTEROVIRUS=False) = 0.0010400237719719308
+P(Potassium=Not Mentioned | ENTEROVIRUS=False) = 0.9943655854990971
+P(Potassium=Normal | ENTEROVIRUS=False) = 0.004045806761297401
+P(Potassium=High | ENTEROVIRUS=True) = 0.022598870056497175
+P(Potassium=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Potassium=Not Mentioned | ENTEROVIRUS=True) = 0.9209039548022598
+P(Potassium=Normal | ENTEROVIRUS=True) = 0.04519774011299435
+P(Leukocytes=High | ENTEROVIRUS=False) = 0.0128460079087522
+P(Leukocytes=Low | ENTEROVIRUS=False) = 0.003051498319961599
+P(Leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9041235228233788
+P(Leukocytes=Normal | ENTEROVIRUS=False) = 0.07997897094790737
+P(Leukocytes=High | ENTEROVIRUS=True) = 0.03954802259887006
+P(Leukocytes=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.751412429378531
+P(Leukocytes=Normal | ENTEROVIRUS=True) = 0.1977401129943503
+P(Alkaline phosphatase=High | ENTEROVIRUS=False) = 0.0067658689341470665
+P(Alkaline phosphatase=Low | ENTEROVIRUS=False) = 8.914489474045121E-4
+P(Alkaline phosphatase=Not Mentioned | ENTEROVIRUS=False) = 0.9505817275823447
+P(Alkaline phosphatase=Normal | ENTEROVIRUS=False) = 0.041760954536103685
+P(Alkaline phosphatase=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Alkaline phosphatase=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Alkaline phosphatase=Not Mentioned | ENTEROVIRUS=True) = 0.9548022598870056
+P(Alkaline phosphatase=Normal | ENTEROVIRUS=True) = 0.022598870056497175
+P(Basophils/100 leukocytes=High | ENTEROVIRUS=False) = 0.001108596767926124
+P(Basophils/100 leukocytes=Low | ENTEROVIRUS=False) = 1.1428832659032206E-5
+P(Basophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9708907632174449
+P(Basophils/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.027989211181969873
+P(Basophils/100 leukocytes=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Basophils/100 leukocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Basophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.9209039548022598
+P(Basophils/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.062146892655367235
+P(Eosinophils=High | ENTEROVIRUS=False) = 0.002708633340190633
+P(Eosinophils=Low | ENTEROVIRUS=False) = 9.257354453816088E-4
+P(Eosinophils=Not Mentioned | ENTEROVIRUS=False) = 0.9378728656655009
+P(Eosinophils=Normal | ENTEROVIRUS=False) = 0.05849276554892683
+P(Eosinophils=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Eosinophils=Low | ENTEROVIRUS=True) = 0.05084745762711865
+P(Eosinophils=Not Mentioned | ENTEROVIRUS=True) = 0.8418079096045198
+P(Eosinophils=Normal | ENTEROVIRUS=True) = 0.1016949152542373
+P(Eosinophils/100 leukocytes=High | ENTEROVIRUS=False) = 0.003371505634414501
+P(Eosinophils/100 leukocytes=Low | ENTEROVIRUS=False) = 3.428649797709662E-5
+P(Eosinophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.953507508743057
+P(Eosinophils/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.04308669912455142
+P(Eosinophils/100 leukocytes=High | ENTEROVIRUS=True) = 0.022598870056497175
+P(Eosinophils/100 leukocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Eosinophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.864406779661017
+P(Eosinophils/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.10734463276836158
+P(Hemoglobin=High | ENTEROVIRUS=False) = 0.0025714873482822463
+P(Hemoglobin=Low | ENTEROVIRUS=False) = 0.030183547052504058
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=False) = 0.9046263914603763
+P(Hemoglobin=Normal | ENTEROVIRUS=False) = 0.06261857413883747
+P(Hemoglobin=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Hemoglobin=Low | ENTEROVIRUS=True) = 0.07344632768361582
+P(Hemoglobin=Not Mentioned | ENTEROVIRUS=True) = 0.751412429378531
+P(Hemoglobin=Normal | ENTEROVIRUS=True) = 0.1638418079096045
+P(Lymphocytes=High | ENTEROVIRUS=False) = 0.0019657592173535393
+P(Lymphocytes=Low | ENTEROVIRUS=False) = 0.009771651923472537
+P(Lymphocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9236096825070287
+P(Lymphocytes=Normal | ENTEROVIRUS=False) = 0.0646529063521452
+P(Lymphocytes=High | ENTEROVIRUS=True) = 0.005649717514124294
+P(Lymphocytes=Low | ENTEROVIRUS=True) = 0.11864406779661017
+P(Lymphocytes=Not Mentioned | ENTEROVIRUS=True) = 0.7627118644067796
+P(Lymphocytes=Normal | ENTEROVIRUS=True) = 0.11299435028248588
+P(Lymphocytes/100 leukocytes=High | ENTEROVIRUS=False) = 0.004674392557544173
+P(Lymphocytes/100 leukocytes=Low | ENTEROVIRUS=False) = 0.01729182381311573
+P(Lymphocytes/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9212439141466091
+P(Lymphocytes/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.056789869482731035
+P(Lymphocytes/100 leukocytes=High | ENTEROVIRUS=True) = 0.01694915254237288
+P(Lymphocytes/100 leukocytes=Low | ENTEROVIRUS=True) = 0.13559322033898305
+P(Lymphocytes/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.768361581920904
+P(Lymphocytes/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.07909604519774012
+P(Monocytes=High | ENTEROVIRUS=False) = 0.01025166289515189
+P(Monocytes=Low | ENTEROVIRUS=False) = 0.0019657592173535393
+P(Monocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9270611899700565
+P(Monocytes=Normal | ENTEROVIRUS=False) = 0.06072138791743811
+P(Monocytes=High | ENTEROVIRUS=True) = 0.0847457627118644
+P(Monocytes=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Monocytes=Not Mentioned | ENTEROVIRUS=True) = 0.7570621468926554
+P(Monocytes=Normal | ENTEROVIRUS=True) = 0.15254237288135594
+P(Neutrophils=High | ENTEROVIRUS=False) = 0.011645980479553819
+P(Neutrophils=Low | ENTEROVIRUS=False) = 0.0038286589407757893
+P(Neutrophils=Not Mentioned | ENTEROVIRUS=False) = 0.9223753685798532
+P(Neutrophils=Normal | ENTEROVIRUS=False) = 0.06214999199981714
+P(Neutrophils=High | ENTEROVIRUS=True) = 0.05649717514124294
+P(Neutrophils=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Neutrophils=Not Mentioned | ENTEROVIRUS=True) = 0.751412429378531
+P(Neutrophils=Normal | ENTEROVIRUS=True) = 0.1864406779661017
+P(Neutrophils.band form/100 leukocytes=High | ENTEROVIRUS=False) = 8.800201147454798E-4
+P(Neutrophils.band form/100 leukocytes=Low | ENTEROVIRUS=False) = 9.94308441335802E-4
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9952913209444787
+P(Neutrophils.band form/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.002834350499439987
+P(Neutrophils.band form/100 leukocytes=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Neutrophils.band form/100 leukocytes=Low | ENTEROVIRUS=True) = 0.022598870056497175
+P(Neutrophils.band form/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.943502824858757
+P(Neutrophils.band form/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.022598870056497175
+P(Neutrophils/100 leukocytes=High | ENTEROVIRUS=False) = 0.013977462341996389
+P(Neutrophils/100 leukocytes=Low | ENTEROVIRUS=False) = 0.0033143614711193398
+P(Neutrophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9438272874808568
+P(Neutrophils/100 leukocytes=Normal | ENTEROVIRUS=False) = 0.038880888706027565
+P(Neutrophils/100 leukocytes=High | ENTEROVIRUS=True) = 0.15254237288135594
+P(Neutrophils/100 leukocytes=Low | ENTEROVIRUS=True) = 0.01694915254237288
+P(Neutrophils/100 leukocytes=Not Mentioned | ENTEROVIRUS=True) = 0.7740112994350282
+P(Neutrophils/100 leukocytes=Normal | ENTEROVIRUS=True) = 0.05649717514124294
+P(Platelets=High | ENTEROVIRUS=False) = 0.00533726485176804
+P(Platelets=Low | ENTEROVIRUS=False) = 0.010228805229833824
+P(Platelets=Not Mentioned | ENTEROVIRUS=False) = 0.903849230839562
+P(Platelets=Normal | ENTEROVIRUS=False) = 0.08058469907883609
+P(Platelets=High | ENTEROVIRUS=True) = 0.05649717514124294
+P(Platelets=Low | ENTEROVIRUS=True) = 0.01694915254237288
+P(Platelets=Not Mentioned | ENTEROVIRUS=True) = 0.751412429378531
+P(Platelets=Normal | ENTEROVIRUS=True) = 0.1751412429378531
+P(Erythrocyte mean corpuscular hemoglobin=High | ENTEROVIRUS=False) = 0.006125854305241263
+P(Erythrocyte mean corpuscular hemoglobin=Low | ENTEROVIRUS=False) = 0.016194655877848636
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | ENTEROVIRUS=False) = 0.904534960799104
+P(Erythrocyte mean corpuscular hemoglobin=Normal | ENTEROVIRUS=False) = 0.07314452901780612
+P(Erythrocyte mean corpuscular hemoglobin=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Erythrocyte mean corpuscular hemoglobin=Low | ENTEROVIRUS=True) = 0.062146892655367235
+P(Erythrocyte mean corpuscular hemoglobin=Not Mentioned | ENTEROVIRUS=True) = 0.7627118644067796
+P(Erythrocyte mean corpuscular hemoglobin=Normal | ENTEROVIRUS=True) = 0.1638418079096045
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | ENTEROVIRUS=False) = 7.885894534732222E-4
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | ENTEROVIRUS=False) = 0.026389174609705364
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | ENTEROVIRUS=False) = 0.9055178404077807
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | ENTEROVIRUS=False) = 0.06730439552904066
+P(Erythrocyte mean corpuscular hemoglobin concentration=High | ENTEROVIRUS=True) = 0.011299435028248588
+P(Erythrocyte mean corpuscular hemoglobin concentration=Low | ENTEROVIRUS=True) = 0.011299435028248588
+P(Erythrocyte mean corpuscular hemoglobin concentration=Not Mentioned | ENTEROVIRUS=True) = 0.768361581920904
+P(Erythrocyte mean corpuscular hemoglobin concentration=Normal | ENTEROVIRUS=True) = 0.20903954802259886
+P(Erythrocyte mean corpuscular volume=High | ENTEROVIRUS=False) = 0.007588744885597385
+P(Erythrocyte mean corpuscular volume=Low | ENTEROVIRUS=False) = 0.00885734531074996
+P(Erythrocyte mean corpuscular volume=Not Mentioned | ENTEROVIRUS=False) = 0.903837802006903
+P(Erythrocyte mean corpuscular volume=Normal | ENTEROVIRUS=False) = 0.07971610779674965
+P(Erythrocyte mean corpuscular volume=High | ENTEROVIRUS=True) = 0.02824858757062147
+P(Erythrocyte mean corpuscular volume=Low | ENTEROVIRUS=True) = 0.03389830508474576
+P(Erythrocyte mean corpuscular volume=Not Mentioned | ENTEROVIRUS=True) = 0.751412429378531
+P(Erythrocyte mean corpuscular volume=Normal | ENTEROVIRUS=True) = 0.1864406779661017
+P(Erythrocyte distribution width=High | ENTEROVIRUS=False) = 0.025920592470685046
+P(Erythrocyte distribution width=Low | ENTEROVIRUS=False) = 4.5715330636128826E-5
+P(Erythrocyte distribution width=Not Mentioned | ENTEROVIRUS=False) = 0.9046721067910124
+P(Erythrocyte distribution width=Normal | ENTEROVIRUS=False) = 0.06936158540766646
+P(Erythrocyte distribution width=High | ENTEROVIRUS=True) = 0.05084745762711865
+P(Erythrocyte distribution width=Low | ENTEROVIRUS=True) = 0.005649717514124294
+P(Erythrocyte distribution width=Not Mentioned | ENTEROVIRUS=True) = 0.7627118644067796
+P(Erythrocyte distribution width=Normal | ENTEROVIRUS=True) = 0.1807909604519774
+P(Erythrocytes=High | ENTEROVIRUS=False) = 0.004754394386157398
+P(Erythrocytes=Low | ENTEROVIRUS=False) = 0.023291960959107638
+P(Erythrocytes=Not Mentioned | ENTEROVIRUS=False) = 0.9038606596722211
+P(Erythrocytes=Normal | ENTEROVIRUS=False) = 0.06809298498251388
+P(Erythrocytes=High | ENTEROVIRUS=True) = 0.022598870056497175
+P(Erythrocytes=Low | ENTEROVIRUS=True) = 0.03389830508474576
+P(Erythrocytes=Not Mentioned | ENTEROVIRUS=True) = 0.751412429378531
+P(Erythrocytes=Normal | ENTEROVIRUS=True) = 0.192090395480226
