@@ -195,8 +195,11 @@ class CdsEventHandler(FileSystemEventHandler):
             log_console(f"CDS - .arff file processing completed for {file_path}")
             log_console(f"CDS - Output saved to {cds_output}")
 
-            os.remove(file_path)
-            log_console(f"CDS - Deleted original file: {file_path}")
+            # Move processed file to archive
+            basename = os.path.basename(file_path)
+            archive_path = os.path.join(CDS_ARCHIVE, basename)
+            unsafe_move(file_path, archive_path)
+            log_console(f"CDS - Moved or deleted original file: {file_path}")
 
 
         except subprocess.CalledProcessError as e:
