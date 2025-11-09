@@ -1,17 +1,11 @@
-# PDS Docker
+# Probabilistic Disease Surveillance (PDS)
 
 This repository contains a Dockerfile and related resources for building a Docker image of the Probabilistic Disease
 Surveillance System (PDS).
 
-# Prerequisites
 
-- The PDS Docker source code, which can be cloned from this repository.
-- Docker installed on your system and working knowledge of building and running containers. You can download it
-  from [Docker's official website](https://www.docker.com/get-started).
-- A license to the UMLS so that you can download Metathesaurus files for Metamap Lite.  You can obtain a license by
-visiting: https://uts.nlm.nih.gov/uts/signup-login
 
-# PDS Docker System
+# PDS Docker Container Overview
 
 The container contains a full PDS system, which includes the following components:
 * Metamap Lite: Processes text files to extract medical concepts. 
@@ -22,6 +16,14 @@ The container contains a full PDS system, which includes the following component
 * Models of diseases for the CDS system 
 * ILI Tracker: Analyzes CDS output to detect known and unknown outbreaks. 
 * A web-based user interface to demonstrate the PDS system.
+
+# Prerequisites
+
+- The PDS Docker source code, which can be cloned from this repository.
+- Docker installed on your system and working knowledge of building and running containers. You can download it
+  from [Docker's official website](https://www.docker.com/get-started).
+- A license to the UMLS so that you can download Metathesaurus files for Metamap Lite.  You can obtain a license by
+  visiting: https://uts.nlm.nih.gov/uts/signup-login
 
 # Walkthrough
 
