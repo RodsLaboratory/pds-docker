@@ -41,3 +41,10 @@ To stop the container press Ctrl-C in the terminal where the container is runnin
 ## View the PDS System Demonstration
 Once the container is running visit http://127.0.0.1:5001 in your web browser to view the PDS system demonstration interface.
 
+# Processing your own ED reports
+To process your own ED reports, you will need to mount the mailboxes folders in the container to your system. Use the following command to run the container with mounted volumes:
+```bash
+docker run  --name pds_container -p 127.0.0.1:5001:5001 -v <path_to_your_reports>:/opt/mailboxes pds_image
+```
+Then copy ED report text files into the ```<path_to_your_reports>/metamap_inbox``` folder on your system. The container will process the files and display the results in the web interface.
+
