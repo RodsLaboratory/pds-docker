@@ -1,0 +1,63 @@
+--- Discharge Report #1 ---
+Emergency Department Discharge Summary
+
+Patient Name: Maria L. Ramirez
+MRN: 0192837465
+Date of Birth: 1985-04-17
+Date of Visit: 06/05/2025
+Time of Visit: 12:09 PM
+Date of Discharge: 06/05/2025
+Time of Discharge: 06:03 PM
+
+Chief Complaint:
+Fever, cough, fatigue, and mild shortness of breath.
+
+History of Present Illness:
+Patient presented with fever (max 101.5°F), non-productive cough, fatigue, and mild dyspnea for the past 4 days. No recent travel but reports close contact with a coworker who tested positive for COVID-19. Fully vaccinated and boosted as of Fall 2023.
+
+Vital Signs on Arrival:
+- Temp: 100.9°F
+- BP: 122/78 mmHg
+- HR: 88 bpm
+- RR: 20/min
+- O2 Sat: 96% on room air
+
+Physical Examination:
+- Alert, mild respiratory distress
+- Mild pharyngeal erythema
+- Lungs: Mild scattered rhonchi, no rales
+- Heart: Regular rate and rhythm
+- Abdomen: Soft, non-tender
+
+Diagnostics:
+- COVID-19 PCR: Positive
+- Chest X-ray: No consolidation, clear
+- CBC: Mild lymphopenia
+- CMP: Normal
+
+Diagnosis:
+- COVID-19 (ICD-10: U07.1)
+
+Treatment:
+- Acetaminophen 650 mg PO
+- IV fluids 0.9% NaCl
+- Supportive care
+
+Discharge Medications:
+- Acetaminophen 500 mg PO q6h PRN
+- Instructions on isolation and symptom monitoring
+
+Instructions:
+- Isolate at home for 5 days from symptom onset, wear a mask for 10 days
+- Monitor symptoms and seek care if worsening
+- Rest, hydration, and supportive care
+
+Follow-Up:
+- Telehealth or PCP in 3–5 days or if symptoms worsen
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

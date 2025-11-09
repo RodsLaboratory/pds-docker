@@ -1,0 +1,71 @@
+--- Discharge Report #2 ---
+Emergency Department Discharge Summary
+
+Patient Name: John P. Thompson
+MRN: 9283746510
+Date of Birth: 1990-08-23
+Date of Visit: 06/05/2025
+Time of Visit: 10:14 AM
+Date of Discharge: 06/06/2025
+Time of Discharge: 09:14 AM
+
+Chief Complaint:
+Chest pain radiating to left arm, shortness of breath, and diaphoresis.
+
+History of Present Illness:
+Patient presented to the ED with sudden onset of substernal chest pain lasting over 20 minutes, radiating to the left arm and accompanied by shortness of breath, nausea, and sweating. Denies previous similar episodes. No recent illness or trauma. Risk factors include hypertension and family history of heart disease.
+
+Vital Signs on Arrival:
+- Temp: 98.6°F
+- BP: 146/92 mmHg
+- HR: 104 bpm
+- RR: 22/min
+- O2 Sat: 95% on room air
+
+Physical Examination:
+- General: Anxious, in moderate distress
+- Lungs: Clear
+- Heart: Tachycardic, no murmurs or gallops
+- Abdomen: Soft, non-tender
+- Extremities: No edema
+
+Diagnostics:
+- EKG: ST-elevation in leads II, III, aVF
+- Troponin I: Elevated
+- Chest X-ray: Normal
+- Echocardiogram: Mildly reduced ejection fraction (45%)
+- Cardiac cath: 100% occlusion of RCA, stent placed
+
+Diagnosis:
+- ST-Elevation Myocardial Infarction (STEMI) – Inferior wall (ICD-10: I21.19)
+
+Treatment:
+- Aspirin 325 mg PO
+- Nitroglycerin SL x3 doses
+- Heparin IV drip
+- Emergent cardiac catheterization with stent placement
+- Admission to cardiac step-down unit
+
+Discharge Medications:
+- Aspirin 81 mg PO daily
+- Clopidogrel 75 mg PO daily
+- Atorvastatin 80 mg PO daily
+- Metoprolol succinate 50 mg PO daily
+- Nitroglycerin SL PRN chest pain
+
+Instructions:
+- Take all medications as prescribed
+- Follow a heart-healthy diet and avoid smoking
+- Enroll in cardiac rehabilitation program
+- Seek immediate care for recurrent chest pain, shortness of breath, or dizziness
+
+Follow-Up:
+- Cardiologist within 1 week
+- Primary care provider in 3–5 days
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

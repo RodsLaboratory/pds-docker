@@ -1,0 +1,63 @@
+--- Discharge Report #4 ---
+Emergency Department Discharge Summary
+
+Patient Name: Daniel W. Chen
+MRN: 8273645192
+Date of Birth: 1978-11-06
+Date of Visit: 06/05/2025
+Time of Visit: 12:12 PM
+Date of Discharge: 06/05/2025
+Time of Discharge: 04:30 PM
+
+Chief Complaint:
+Hoarse voice, barking cough, congestion, and low-grade fever.
+
+History of Present Illness:
+Patient presents with a 3-day history of hoarseness, dry cough described as “barking,” nasal congestion, and low-grade fever. Symptoms worse at night. No prior history of croup or chronic respiratory illness. No COVID-19 exposure.
+
+Vital Signs on Arrival:
+- Temp: 100.4°F
+- BP: 118/76 mmHg
+- HR: 90 bpm
+- RR: 20/min
+- O2 Sat: 97% on room air
+
+Physical Examination:
+- General: Mild distress, audible stridor at rest
+- Lungs: Scattered rhonchi, no rales
+- Heart: Regular rate and rhythm
+- Abdomen: Soft, non-tender
+- HEENT: Clear rhinorrhea, erythematous pharynx
+
+Diagnostics:
+- Respiratory panel: Positive for Parainfluenza virus
+- COVID-19 antigen: Negative
+- Chest X-ray: Normal
+- CBC: Normal
+
+Diagnosis:
+- Parainfluenza Virus Infection (ICD-10: J20.5)
+
+Treatment:
+- Racemic epinephrine neb x1
+- Dexamethasone 6 mg PO
+- Acetaminophen 650 mg PO
+
+Discharge Medications:
+- Acetaminophen 500 mg PO q6h PRN
+- Continue supportive care (hydration, rest, cool mist humidifier)
+
+Instructions:
+- Monitor for increased work of breathing or persistent stridor
+- Use a humidifier and stay hydrated
+- Return to the ED if breathing becomes labored, or stridor worsens
+
+Follow-Up:
+- PCP in 2–4 days or sooner if symptoms escalate
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

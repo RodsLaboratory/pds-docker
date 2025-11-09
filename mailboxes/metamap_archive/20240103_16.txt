@@ -1,0 +1,68 @@
+--- Discharge Report #4 ---
+Emergency Department Discharge Summary
+
+Patient Name: Daniel W. Chen
+MRN: 8273645192
+Date of Birth: 1978-11-06
+Date of Visit: 06/05/2025
+Time of Visit: 11:14 AM
+Date of Discharge: 06/07/2025
+Time of Discharge: 11:14 AM
+
+Chief Complaint:
+Sudden onset right-sided weakness and slurred speech.
+
+History of Present Illness:
+Patient experienced abrupt onset of right arm and leg weakness, facial droop, and slurred speech approximately 2 hours prior to ED arrival. No history of trauma or seizure activity. Known history of hypertension and hyperlipidemia. No prior strokes.
+
+Vital Signs on Arrival:
+- Temp: 98.4°F
+- BP: 162/98 mmHg
+- HR: 88 bpm
+- RR: 18/min
+- O2 Sat: 97% on room air
+
+Physical Examination:
+- General: Alert but anxious
+- Neurologic: Right facial droop, 3/5 strength in right upper and lower extremities, expressive aphasia
+- Heart: Regular rhythm, no murmurs
+- Lungs: Clear to auscultation
+- Extremities: No edema
+
+Diagnostics:
+- CT Head (non-contrast): No hemorrhage
+- MRI Brain: Acute infarct in left MCA territory
+- CTA Head/Neck: No large vessel occlusion
+- Labs: CBC, CMP, coagulation profile within normal limits
+
+Diagnosis:
+- Acute Ischemic Stroke – Left MCA Territory (ICD-10: I63.512)
+
+Treatment:
+- Alteplase (tPA) administered within treatment window
+- Admitted to Stroke Unit
+- Initiated on aspirin and atorvastatin
+- Physical, occupational, and speech therapy evaluations completed
+
+Discharge Medications:
+- Aspirin 81 mg PO daily
+- Atorvastatin 40 mg PO daily
+- Lisinopril 10 mg PO daily
+- Amlodipine 5 mg PO daily
+
+Instructions:
+- Take medications as prescribed
+- Attend all rehabilitation therapy sessions
+- Monitor blood pressure daily
+- Call 911 immediately if stroke symptoms recur
+
+Follow-Up:
+- Neurology clinic in 7 days
+- Primary care provider in 3–5 days
+
+Physician: Dr. Lisa Cheng, MD
+Signature: Electronically Signed
+Department: Emergency Medicine
+Hospital: Mercy General Hospital – Emergency Department
+
+

@@ -11,8 +11,8 @@ import numpy as np
 
 
 # Default
-data_directory = './data'
-data_file = 'Sample_Data.csv'
+data_file = './data/Sample_Data.csv'
+output_png_file = './data/ILI_Tracker_Output.png'
 diseases = ['INFLUENZA','RSV','HMPV','PARAINFLUENZA','OTHER']
 
 ll_fields = [disease+'_loglikelihood_T' for disease in diseases]
@@ -24,27 +24,30 @@ equivalent_sample_size, moving_average_window = 10, 7
 # Command Line Arguments
 # ------------------------------------------------------------------------
 parser = argparse.ArgumentParser(description='ILI Tracker')
-parser.add_argument('--data_directory', type=str, default='./data', help='Directory containing the data file')
-parser.add_argument('--data_file', type=str, default='Sample_Data.csv', help='Data file')
+parser.add_argument('--input_file', type=str, default=data_file, help='Input file')
+parser.add_argument('--output_file', type=str, default=output_png_file, help='Output png file')
 parser.add_argument('--diseases', type=str, default='INFLUENZA,RSV,HMPV,PARAINFLUENZA,OTHER', help='List of diseases')
 
 args = parser.parse_args()
 if args.diseases:
     diseases = args.diseases.split(',')
-if args.data_directory:
-    data_directory = args.data_directory
-if args.data_file:
-    data_file = args.data_file
+if args.input_file:
+    data_file = args.input_file
+if args.output_file:
+    output_png_file = args.output_file
 
 # ------------------------------------------------------------------------
 
-data = Data(admission_date_field, delimiter, file_missing_value, data_missing_value, data_directory + os.sep + data_file)
+data = Data(admission_date_field, delimiter, file_missing_value, data_missing_value, data_file)
 ili_tracker_results = ili_tracker(diseases, priors, ll_fields, equivalent_sample_size, base, data)
 daily_log_probability = ili_tracker_results['daily_log_probability']
+window_size, min_window_size = 28, 28
+daily_empirical_p = empirical_p(window_size, min_window_size, daily_log_probability)
 
 print(data)
 print(ili_tracker_results)
 print("Daily Log Probability: ", daily_log_probability)
+print("Daily Empirical P-Value: ", daily_empirical_p)
 
 
 # ----------------------------------------------------------------------
@@ -66,15 +69,14 @@ for i in range(len(diseases)):
     axes[i].set_xticks(xticks)
     axes[i].set_xticklabels(xticklabels)
     axes[i].secondary_xaxis("top")
-axes[len(diseases)].set_title('Daily Log Probability')
-axes[len(diseases)].plot(moving_average(moving_average_window, daily_log_probability), color='red')
-axes[len(diseases)].set_ylabel('Log Probability', color='red')
+axes[len(diseases)].set_title('P-Value of Novel Disease')
+axes[len(diseases)].plot(moving_average(moving_average_window, daily_empirical_p), color='red')
+axes[len(diseases)].set_ylabel('P-Value', color='red')
 axes[len(diseases)].set_xticks(xticks)
 axes[len(diseases)].set_xticklabels(xticklabels)
 axes[len(diseases)].secondary_xaxis("top")
 axes[len(diseases)].set_xlabel('Date')
 
-output_png_file = data_directory + os.sep + data_file + '.png'
 plt.savefig(output_png_file)
 
 print("The Output of ILI Tracker saved to: ", output_png_file)

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PDS Docker Demonstration</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    /* Make logs a textarea sized 80x20 (cols x rows) visually */
+    #logs { font-family: monospace; background:#111; color:#0f0; padding:10px; border:1px solid #333; resize: none; overflow:auto; }
+    .controls { margin: 10px 0; }
+    .gallery { display:flex; flex-wrap:wrap; gap:10px; }
+    .thumb { width:400px; border:1px solid #ccc; padding:4px; }
+  </style>
+</head>
+<body>
+  <h1>Probabilistic Disease Surveillance (PDS) Demonstration</h1>
+
+  <!-- Added: pipeline image shown under the header; hides if missing -->
+  <div style="margin-bottom:12px;">
+    <img id="pipeline-img"
+         src="/static/pipeline.png"
+         alt="Pipeline"
+         style="max-width:100%; height:auto; display:block;"
+         onerror="this.style.display='none'">
+  </div>
+
+  <div class="info">
+    <p>A PDS system comprises tools that preprocess EMR data (e.g., Metamap Lite), detect cases of disease from EMR data such as the case detection system (CDS) and ILI Tracker which performs detection and characterization of outbreaks from the disease case likelihoods.</p>
+    <p>This interface shows live logs and ILI Tracker output images from such a system.  The pipeline is implemented as a series of inbox, outbox and archive folders for each component with a file watcher that runs the components when a file is detected in its inbox.</p>
+    <p>We simulated data in this demonstration by asking ChatGPT to output ED reports for respiratory diseases, heart attack and automobile crashes.  We then selected these reports randomly with replacement to generate 60 days of encounters with a mean of 20 and a std. dev. of 2 on which we overlayed day of week effects and a triangular distribution of COVID-19 patients beginning on day 45, lasting 14 days and peaking with an additional 40 patients.  Note that this demonstration does not include any simulated structured data. </p>
+    <p>Pressing the "Copy ED Reports" button  copies simulated ED reports from the <code>metamap_archive</code> folder to the <code>metamap_inbox</code> folder.
+    <p>After copying the ED reports, the system will process the data (Metamap Lite, Brat2Csv, CDS) and then run ILI Tracker every minute.  You can view the output of ILI Tracker by clicking on the graphs at the bottom of the page.  It will take an hour to run through all of the reports</p>
+    <p>Pressing the Reset button will reset the system, i.e., delete reports from the Metamap Lite inbox and remove working data from the ILI tracker working directory.</p>
+  </div>
+
+<div class="controls">
+  <button id="copy-btn">Copy ED Reports</button>
+  <span id="copy-result"></span>
+  <button id="reset-btn">Reset Demonstration</button>
+  <span id="reset-result"></span>
+  <!-- Added: show current number of files in metamap_inbox -->
+  </br>
+  </br>
+  <span><strong>Metamap inbox file count: </strong><strong id="inbox-count">...</strong></span>
+</div>
+
+  <h2>ILI Tracker Output</h2>
+  <div class="gallery" id="gallery">Loading...</div>
+
+  <h2>Pipeline Log</h2>
+  <textarea id="logs" cols="120" rows="20" readonly>Loading...</textarea>
+
+  <script>
+    async function fetchLogs(){
+      try{
+        const res = await fetch('/logs?n=400');
+        const data = await res.json();
+        const el = document.getElementById('logs');
+        el.value = data.log;
+        // auto-scroll textarea to bottom
+        el.scrollTop = el.scrollHeight;
+      }catch(e){
+        console.error(e);
+      }
+    }
+
+    async function fetchImages(){
+      try{
+        const res = await fetch('/images');
+        const data = await res.json();
+        const g = document.getElementById('gallery');
+        g.innerHTML = '';
+        if(!data.images || data.images.length===0){
+          g.textContent = 'No PNG files found in pds_output/pds_outbox.';
+          return;
+        }
+        data.images.forEach(fn=>{
+          const a = document.createElement('a');
+          a.href = '/image/' + encodeURIComponent(fn);
+          a.target = '_blank';
+          const img = document.createElement('img');
+          img.src = '/image/' + encodeURIComponent(fn);
+          img.className = 'thumb';
+          img.alt = fn;
+          a.appendChild(img);
+          g.appendChild(a);
+        })
+      }catch(e){ console.error(e); }
+    }
+
+    async function fetchInboxCount(){
+      try{
+        const res = await fetch('/metamap_inbox_count');
+        const data = await res.json();
+        const el = document.getElementById('inbox-count');
+        el.textContent = (typeof data.count === 'number') ? data.count : '0';
+      }catch(e){
+        console.error('fetchInboxCount failed', e);
+      }
+    }
+
+    document.getElementById('copy-btn').addEventListener('click', async ()=>{
+      const btn = document.getElementById('copy-btn');
+      btn.disabled = true;
+      document.getElementById('copy-result').textContent = 'Copying...';
+      try{
+        const res = await fetch('/copy_metamap', {method:'POST'});
+        const data = await res.json();
+        if(data.ok){
+          document.getElementById('copy-result').textContent = `Copied ${data.copied} files.`;
+          // refresh the inbox count after copy
+          fetchInboxCount();
+        }else{
+          document.getElementById('copy-result').textContent = `Error: ${data.error || JSON.stringify(data)}`;
+        }
+      }catch(e){
+        document.getElementById('copy-result').textContent = 'Request failed';
+      }finally{ btn.disabled = false; }
+    });
+
+    document.getElementById('reset-btn').addEventListener('click', async ()=>{
+      const btn = document.getElementById('reset-btn');
+      btn.disabled = true;
+      document.getElementById('reset-result').textContent = 'Resetting...';
+      try{
+        const res = await fetch('/reset_ili', {method:'POST'});
+        const data = await res.json();
+        if(data.ok){
+          document.getElementById('reset-result').textContent = `Deleted ${data.deleted} files.`;
+          // refresh images and metamap inbox count after reset
+          fetchImages();
+          fetchInboxCount();
+        }else{
+          document.getElementById('reset-result').textContent = `Error: ${data.error || JSON.stringify(data)}`;
+        }
+      }catch(e){
+        document.getElementById('reset-result').textContent = 'Request failed';
+      }finally{ btn.disabled = false; }
+    });
+
+    // Polling
+    fetchLogs();
+    fetchImages();
+    fetchInboxCount();            // initial load of inbox count
+    setInterval(fetchLogs, 2000);
+    setInterval(fetchImages, 5000);
+    setInterval(fetchInboxCount, 5000); // poll inbox count periodically
+  </script>
+</body>
+</html>
