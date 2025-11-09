@@ -8,19 +8,20 @@ Surveillance System (PDS).
 - The PDS Docker source code, which can be cloned from this repository.
 - Docker installed on your system and working knowledge of building and running containers. You can download it
   from [Docker's official website](https://www.docker.com/get-started).
-- UMLS Metathesaurus files for Metamap Lite (requires UMLS license). You can obtain these files
-  from https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/NLP/MetaMapLite.html.
+- A license to the UMLS so that you can download Metathesaurus files for Metamap Lite.  You can obtain a license by
+visiting: https://uts.nlm.nih.gov/uts/signup-login
 
 # PDS Docker System
 
 The container contains a full PDS system, which includes the following components:
-
-1. Metamap Lite: Processes text files to extract medical concepts.
-2. brat2csv: Converts Metamap Lite output files to arff format.
-3. CDS System: Runs multiple disease models on the extracted medical concepts and classifies each patient for each
-   disease.
-4. ILI Tracker: Analyzes CDS output to detect known and unknown outbreaks.
-5. A web-based user interface to demonstrate the PDS system capabilities.
+* Metamap Lite: Processes text files to extract medical concepts. 
+* ED reports that the system can process 
+* brat2csv: Converts Metamap Lite output files to arff format. 
+* CDS System: Runs multiple disease models on the extracted medical concepts and classifies each patient for each
+   disease. 
+* Models of diseases for the CDS system 
+* ILI Tracker: Analyzes CDS output to detect known and unknown outbreaks. 
+* A web-based user interface to demonstrate the PDS system.
 
 # Walkthrough
 
