@@ -1,7 +1,7 @@
 FROM ubuntu:24.04
 
 # Setup python and java and base system
-ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG=en_US.UTF-8
 
 RUN apt-get update && \
