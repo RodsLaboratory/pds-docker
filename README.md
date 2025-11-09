@@ -37,6 +37,7 @@ git clone https://github.com/RodsLaboratory/pds-docker.git
 ```
 
 ## Set Up UMLS Metathesaurus Files
+- Visit: https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/NLP/MetaMapLite.html
 - Download the following:
   - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_lite_3.6.2rc6_binaryonly.zip
   - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2020aa.zip
