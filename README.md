@@ -16,6 +16,7 @@ The container contains a full PDS system, which includes the following component
 * Models of diseases for the CDS system 
 * ILI Tracker: Analyzes CDS output to detect known and unknown outbreaks. 
 * A web-based user interface to demonstrate the PDS system.
+* A filewatcher that monitors inboxes for new ED reports to process.
 
 # Prerequisites
 
