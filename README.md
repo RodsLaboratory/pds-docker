@@ -9,10 +9,7 @@ Surveillance System (PDS).
 - Docker installed on your system and working knowledge of building and running containers. You can download it
   from [Docker's official website](https://www.docker.com/get-started).
 - UMLS Metathesaurus files for Metamap Lite (requires UMLS license). You can obtain these files
-  from https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/NLP/MetaMapLite.html:
-    - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_lite_3.6.2rc6_binaryonly.zip
-    - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2020aa.zip
-    - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2020ab.zip
+  from https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/NLP/MetaMapLite.html.
 
 # PDS Docker System
 
@@ -29,8 +26,18 @@ The container contains a full PDS system, which includes the following component
 
 This walkthrough will guide you through setting up and running the PDS Docker container.
 
-## Set Up UMLS Metathesaurus Files
+## Clone the repository
+First, clone the PDS Docker repository to your local machine:
 
+```bash
+git clone https://github.com/RodsLaboratory/pds-docker.git
+```
+
+## Set Up UMLS Metathesaurus Files
+- Download the following:
+  - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_lite_3.6.2rc6_binaryonly.zip
+  - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2020aa.zip
+  - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2020ab.zip
 - Move or copy the downloaded UMLS Metathesaurus and Metamap Lite zip files to the directory ```metamap_install_files```
 
 ## Build the Image
@@ -39,7 +46,7 @@ To build the Docker images, open a terminal or command line session, navigate to
 run the docker build command:
 
 ```bash
-cd <path_to_pds_docker_project>
+cd <path_to_PDS_Docker_project>
 docker build -t pds_image .
 ```
 
@@ -64,9 +71,9 @@ To process your own ED reports, you will need to mount the mailboxes folders in 
 following command to run the container with mounted volumes:
 
 ```bash
-docker run  --name pds_container -p 127.0.0.1:5001:5001 -v <path_to_your_reports>:/opt/mailboxes pds_image
+docker run  --name pds_container -p 127.0.0.1:5001:5001 -v <path_to_PDS_Docker_project>:/opt/mailboxes pds_image
 ```
 
-Then copy ED report text files into the ```<path_to_your_reports>/metamap_inbox``` folder on your system. The container
+Then copy ED report text files into the ```<path_to_PDS_Docker_project>/metamap_inbox``` folder on your system. The container
 will process the files and display the results in the web interface.
 
