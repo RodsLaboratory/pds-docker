@@ -26,7 +26,8 @@ The container contains a full PDS system, which includes the following component
 
 # Walkthrough
 
-This walkthrough will guide you through setting up and running the PDS Docker container.
+This walkthrough will guide you through setting up and running the PDS Docker container.  Here is a slide deck of the
+walkthrough: https://docs.google.com/presentation/d/1WLtX5Na-kBBNo9teeU7NunGXjan30eBpihKqZVARZ50/edit?usp=sharing
 
 ## Clone the repository
 First, clone the PDS Docker repository to your local machine.  In a terminal or command line session, run the following command:
