@@ -1,6 +1,6 @@
 # PDS Docker
 
-This repository contains Dockerfiles and related resources for building a Docker image of the Probabilistic Disease
+This repository contains a Dockerfile and related resources for building a Docker image of the Probabilistic Disease
 Surveillance System (PDS).
 
 # Prerequisites
@@ -28,9 +28,10 @@ The container contains a full PDS system, which includes the following component
 This walkthrough will guide you through setting up and running the PDS Docker container.
 
 ## Clone the repository
-First, clone the PDS Docker repository to your local machine:
+First, clone the PDS Docker repository to your local machine.  In a terminal or command line session, run the following command:
 
 ```bash
+cd <directory where you want to clone the repo>
 git clone https://github.com/RodsLaboratory/pds-docker.git
 ```
 
@@ -43,7 +44,7 @@ git clone https://github.com/RodsLaboratory/pds-docker.git
 
 ## Build the Image
 
-To build the Docker images, open a terminal or command line session, navigate to the base directory of the PDS Docker project and
+To build the Docker image, navigate to the base directory of the PDS Docker project and
 run the docker build command:
 
 ```bash
