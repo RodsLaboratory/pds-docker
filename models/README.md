@@ -13,7 +13,7 @@ one can use the Weka desktop software or Weka Java API. The .txt file is for con
 file for use in other inference engines. The conventions we used in the
 abbreviations are the following:
 
-* M - missing or not present
+* M - missing (for the target class, M stands for Missing and means that the ICD code for the disease was not found and the PCR lab result if available was negative)
 * T - true or present
 * P - positive
 * N - negative
