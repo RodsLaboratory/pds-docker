@@ -16,27 +16,10 @@ RUN cd /opt && \
     unzip /opt/metamap_install_files/public_mm_data_lite_usabase_2022ab.zip
 
 
-
-# create mailbox structure
-RUN mkdir /opt/mailboxes/
-RUN mkdir /opt/mailboxes/brat2csv_archive
-RUN mkdir /opt/mailboxes/brat2csv_inbox
-RUN mkdir /opt/mailboxes/cds_archive
-RUN mkdir /opt/mailboxes/cds_inbox
-RUN mkdir /opt/mailboxes/cds_outbox
-RUN mkdir /opt/mailboxes/log
-RUN mkdir /opt/mailboxes/metamap_inbox
-RUN mkdir /opt/mailboxes/pds_archive
-RUN mkdir /opt/mailboxes/pds_inbox
-RUN mkdir /opt/mailboxes/pds_outbox
-RUN mkdir /opt/mailboxes/pds_working
-
 COPY ./brat2csv /opt/brat2csv
 COPY ./cds /opt/cds
 COPY ./com /opt/com
-COPY ./mailboxes/ed_reports /opt/mailboxes/ed_reports
-COPY ./mailboxes/metamap_archive /opt/mailboxes/metamap_archive
-COPY ./mailboxes/pds_working /opt/mailboxes/pds_working
+COPY ./mailboxes /opt/mailboxes
 COPY ./models /opt/models
 COPY ./PDS /opt/PDS
 COPY ./web_ui /opt/web_ui
