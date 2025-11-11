@@ -41,8 +41,9 @@ git clone https://github.com/RodsLaboratory/pds-docker.git
 - Visit: https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/NLP/MetaMapLite.html
 - Download the following:
   - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_lite_3.6.2rc8_binaryonly.zip
-  - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2020aa.zip
-  - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2020ab.zip
+  - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2022ab.zip
+  - https://data.lhncbc.nlm.nih.gov/umls-restricted/ii/tools/MetaMap/download/metamaplite/public_mm_data_lite_usabase_2022aa.zip
+
 - Move or copy the downloaded UMLS Metathesaurus and Metamap Lite zip files to the directory ```<path_to_pds-docker_project>/metamap_install_files```
 
 ## Build the Image
