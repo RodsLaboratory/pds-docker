@@ -80,6 +80,6 @@ following commanda to run the container with mounted volumes:
 docker run  --name pds_container -p 127.0.0.1:5001:5001 -v <path_to_pds-docker_project>/mailboxes:/opt/mailboxes pds_image
 ```
 
-Now you are able to access the mailboxes in the Docker container from the host filesystem.  You can copy ED report text files into the ```<path_to_pds-docker_project>/metamap_inbox``` folder on the host system. The container
+Now you are able to access the mailboxes in the Docker container from the host filesystem.  You can copy ED report text files into the ```<path_to_pds-docker_project>/mailboxes/metamap_inbox``` folder on the host system which will appear if the volume is mounted correctly. The container
 will process the files and display the results in the web interface.
 
