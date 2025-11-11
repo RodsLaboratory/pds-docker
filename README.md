@@ -77,9 +77,9 @@ To process your own ED reports, you will need to mount the mailboxes folders in 
 following commanda to run the container with mounted volumes:
 
 ```bash
-docker run  --name pds_container -p 127.0.0.1:5001:5001 -v <path_to_PDS_Docker_project>:/opt/mailboxes pds_image
+docker run  --name pds_container -p 127.0.0.1:5001:5001 -v <path_to_pds-docker_project>/mailboxes:/opt/mailboxes pds_image
 ```
 
-Then copy ED report text files into the ```<path_to_pds-docker_project>/metamap_inbox``` folder on your system. The container
+Now you are able to access the mailboxes in the Docker container from the host filesystem.  You can copy ED report text files into the ```<path_to_pds-docker_project>/metamap_inbox``` folder on the host system. The container
 will process the files and display the results in the web interface.
 
