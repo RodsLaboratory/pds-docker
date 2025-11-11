@@ -29,7 +29,7 @@
     <p>This interface shows live logs and ILI Tracker output images from such a system.  The pipeline is implemented as a series of inbox, outbox and archive folders for each component with a file watcher that runs the components when a file is detected in its inbox.</p>
     <p>We simulated data in this demonstration by asking ChatGPT to output ED reports for respiratory diseases, heart attack and automobile crashes.  We then selected these reports randomly with replacement to generate 60 days of encounters with a mean of 20 and a std. dev. of 2 on which we overlayed day of week effects and a triangular distribution of COVID-19 patients beginning on day 45, lasting 14 days and peaking with an additional 40 patients.  Note that this demonstration does not include any simulated structured data. </p>
     <p>Pressing the "Copy ED Reports" button  copies simulated ED reports from the <code>metamap_archive</code> folder to the <code>metamap_inbox</code> folder.
-    <p>After copying the ED reports, the system will process the data (Metamap Lite, Brat2Csv, CDS) and then run ILI Tracker every minute.  You can view the output of ILI Tracker by clicking on the graphs at the bottom of the page.  It will take an hour to run through all of the reports</p>
+    <p>After copying the ED reports, the system will process the data (Metamap Lite, Brat2Csv, CDS) and then run ILI Tracker every minute.  You can view the output of ILI Tracker by clicking on the graphs at the bottom of the page. </p>
     <p>Pressing the Reset button will reset the system, i.e., delete reports from the Metamap Lite inbox and remove working data from the ILI tracker working directory.</p>
   </div>
 
@@ -42,6 +42,7 @@
   </br>
   </br>
   <span><strong>Number of ED Reports remaining to be processed: </strong><strong id="inbox-count">...</strong></span>
+  <span id="etc-info" style="margin-left: 20px;"></span>
 </div>
 
   <h2>ILI Tracker Output</h2>
@@ -51,6 +52,10 @@
   <textarea id="logs" cols="120" rows="20" readonly>Loading...</textarea>
 
   <script>
+    let lastInboxCheck = { time: null, count: null };
+    let processingRate = null; // files per second
+    const RATE_SMOOTHING_FACTOR = 0.5; // for exponential moving average
+
     async function fetchLogs(){
       try{
         const res = await fetch('/logs?n=400');
@@ -93,7 +98,39 @@
         const res = await fetch('/metamap_inbox_count');
         const data = await res.json();
         const el = document.getElementById('inbox-count');
-        el.textContent = (typeof data.count === 'number') ? data.count : '0';
+        const currentCount = (typeof data.count === 'number') ? data.count : 0;
+        el.textContent = currentCount;
+
+        const now = Date.now();
+        if (lastInboxCheck.time && lastInboxCheck.count !== null) {
+            const timeDiff = (now - lastInboxCheck.time) / 1000; // seconds
+            const countDiff = lastInboxCheck.count - currentCount;
+
+            if (countDiff > 0 && timeDiff > 0) {
+                const currentRate = countDiff / timeDiff;
+                if (processingRate === null) {
+                    processingRate = currentRate;
+                } else {
+                    // Exponential moving average
+                    processingRate = (RATE_SMOOTHING_FACTOR * currentRate) + ((1 - RATE_SMOOTHING_FACTOR) * processingRate);
+                }
+            }
+        }
+        lastInboxCheck = { time: now, count: currentCount };
+
+        const etcEl = document.getElementById('etc-info');
+        if (processingRate > 0 && currentCount > 0) {
+            const etcSeconds = Math.round(currentCount / processingRate);
+            const minutes = Math.floor(etcSeconds / 60);
+            const seconds = etcSeconds % 60;
+            etcEl.textContent = `(Estimated time to process all reports: ${minutes}m ${seconds}s)`;
+        } else {
+            etcEl.textContent = '';
+            if (currentCount === 0) {
+                processingRate = null; // Reset rate when done
+            }
+        }
+
       }catch(e){
         console.error('fetchInboxCount failed', e);
       }
@@ -108,6 +145,9 @@
         const data = await res.json();
         if(data.ok){
           document.getElementById('copy-result').textContent = `Copied ${data.copied} files.`;
+          // reset rate calculation on new copy
+          processingRate = null;
+          lastInboxCheck = { time: null, count: null };
           // refresh the inbox count after copy
           fetchInboxCount();
         }else{
@@ -127,6 +167,9 @@
         const data = await res.json();
         if(data.ok){
           document.getElementById('reset-result').textContent = `Deleted ${data.deleted} files.`;
+          // reset rate calculation
+          processingRate = null;
+          lastInboxCheck = { time: null, count: null };
           // refresh images and metamap inbox count after reset
           fetchImages();
           fetchInboxCount();
