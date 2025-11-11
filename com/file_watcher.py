@@ -122,7 +122,7 @@ class MetamapEventHandler(FileSystemEventHandler):
             log_console(f"METAMAP - Command '{' '.join(command)}' executed successfully.")
             log_console(f"METAMAP - Input read from '{input_file_path}'.")
             log_console(f"METAMAP - Output written to '{output_file_path}'.")
-            log_console(f"METAMAP - Stderr: {result.stderr}")
+            # log_console(f"METAMAP - Stderr: {result.stderr}")
 
             # delete the original file
             unsafe_move(input_file_path, METAMAP_ARCHIVE + "/" + os.path.basename(input_file_path))
@@ -131,11 +131,13 @@ class MetamapEventHandler(FileSystemEventHandler):
 
 
         except FileNotFoundError:
-            log_console(f"METAMAP - Error: One of the files ('{input_file_path}' or '{output_file_path}') not found.")
+            log_console(f"METAMAP - Warning: One of the files ('{input_file_path}' or '{output_file_path}') not found.")
         except subprocess.CalledProcessError as e:
             log_console(f"METAMAP - Error executing command: {e}")
+            log_console(f"METAMAP - Stderr: {e.stderr}")
         except Exception as e:
             log_console(f"METAMAP - An unexpected error occurred: {e}")
+            log_console(f"METAMAP - Stderr: {str(e)}")
 
 
 
@@ -163,6 +165,11 @@ class Brat2CsvEventHandler(FileSystemEventHandler):
 
         # Execute MetaMap processing
         try:
+            # check for file_path existence
+            if not os.path.exists(file_path):
+                log_console(f"BRAT2CSV - Warning: File not found: {file_path}")
+                return
+
             subprocess.run(["python3", BRAT2CSV_CMD, "-i", file_path, "-o", output_file_path],
                            check=True)
             log_console(f"BRAT2CSV - .ann file processing completed for {file_path}")
@@ -204,6 +211,11 @@ class CdsEventHandler(FileSystemEventHandler):
 
 
         try:
+            # check for file_path existence
+            if not os.path.exists(file_path):
+                log_console(f"CDS - Warning: File not found: {file_path}")
+                return
+
             subprocess.run(["java", "-cp", f"{CDS_JAR}:{WEKA_JAR}", CDS_CMD, MODEL_DIR, MODEL_YEAR, file_path, cds_output],
                            check=True)
             log_console(f"CDS - .arff file processing completed for {file_path}")
@@ -217,7 +229,7 @@ class CdsEventHandler(FileSystemEventHandler):
 
 
         except subprocess.CalledProcessError as e:
-            log_console(f"CDS - Error processing file with MetaMap: {e}")
+            log_console(f"CDS - Error processing file with CDS: {e}")
 
 
 class PdsEventHandler(FileSystemEventHandler):
