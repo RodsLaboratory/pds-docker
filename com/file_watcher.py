@@ -278,6 +278,10 @@ class PdsEventHandler(FileSystemEventHandler):
 
 def run_pds_processing():
     try:
+        if not os.path.exists(PDS_CUMULATIVE_CSV):
+            log_console("PDS - Cumulative file does not exist, skipping PDS run.")
+            return
+
         subprocess.run(["python3", PDS_CMD, "--input_file", PDS_CUMULATIVE_CSV, "--output_file", PDS_OUTBOX + "/pds_results.png"],
                        check=True)
         log_console("PDS - Cumulative .csv file processing completed.")
