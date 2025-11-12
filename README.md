@@ -77,8 +77,8 @@ interface. Follow the instructions on the web page to detect an outbreak.
 
 # Processing your own ED reports
 
-To process your own ED reports, you will need to mount the mailboxes folders in the container. Here is the command to
-remove the existing container and then run the container with the mailboxes mounted:
+To process your own ED reports, you will need to mount the mailboxes directory to the container. Here is the command to
+remove the existing container and then run the container with the mailboxes directory mounted:
 
 ```bash
 docker container rm pds_container
